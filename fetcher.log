@@ -438,3 +438,45 @@
 [2024-05-23 00:21:20] INFO root fetch - processPackages [aind-codeocean-api]: Remove: archive file [/home/abi/fetcher/tmp/aind_codeocean_api-0.4.3.tar.gz]
 [2024-05-23 00:21:20] INFO root fetch - main [MainThread]: End processing [aind-codeocean-api]: success
 [2024-05-23 00:21:20] INFO root fetch - main [MainThread]: Store serial: [23333665]
+[2024-05-23 00:23:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333665]
+[2024-05-23 00:23:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 00:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hgstools
+[2024-05-23 00:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parallax-app
+[2024-05-23 00:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypothesis
+[2024-05-23 00:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-pydantic-form
+[2024-05-23 00:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-snowflake
+[2024-05-23 00:23:28] INFO root fetch - processPackages [dash-pydantic-form]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 00:23:28] INFO root fetch - processPackages [dbt-snowflake]: New version: [1.8.1] Old Version: [1.8.0rc1]
+[2024-05-23 00:23:28] INFO root fetch - processPackages [hypothesis]: New version: [6.99.9] Old Version: [6.99.8]
+[2024-05-23 00:23:28] WARNING root fetch - processPackages [hgstools]: Skipping, unable to determine old version
+[2024-05-23 00:23:28] INFO root fetch - main [MainThread]: End processing [hgstools] error
+[2024-05-23 00:23:28] INFO root fetch - processPackages [parallax-app]: New version: [0.37.7] Old Version: [0.37.6]
+[2024-05-23 00:23:28] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/5d/79/f2446a74a0647d97f1ed631fb51aac1114a2235ba75271a8e7912a8c0ae8/dash_pydantic_form-0.1.8.tar.gz
+[2024-05-23 00:23:29] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/25/f2/5fb7f01e50ef0efd1d2c80f3eaec24566b7100b70ec7363a83cfa9f46575/dbt_snowflake-1.8.0rc1.tar.gz
+[2024-05-23 00:23:29] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/d0/49/c41dfc6bca0eb0af93b2ecef16e99aa41f9a25e4bed45bfc37cb97018f93/hypothesis-6.99.8.tar.gz
+[2024-05-23 00:23:29] INFO root fetch - processPackages [parallax-app]: Downloading https://files.pythonhosted.org/packages/bc/18/36b4b1341ee6a6b1b5d0fdaadcf437cbcc8996fcea67feb6ce6d2384ebde/parallax_app-0.37.6.tar.gz
+[2024-05-23 00:23:29] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/27/6d/ebcc7cd94582252583d5ed56864691c7d23afa009ca5100c21ab9f8bb15d/dash_pydantic_form-0.1.9.tar.gz
+[2024-05-23 00:23:29] INFO root fetch - processPackages [dash-pydantic-form]: executing diffoscope
+[2024-05-23 00:23:29] INFO root fetch - processPackages [dash-pydantic-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pydantic_form-0.1.8.tar.gz tmp/dash_pydantic_form-0.1.9.tar.gz --markdown 20240523/d/dash-pydantic-form/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 00:23:29] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/ac/92/326716e57f625acc4f38608fd73f88985561fd58ee6df19d44230d70bba0/hypothesis-6.99.9.tar.gz
+[2024-05-23 00:23:29] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/0d/8c/931fab79ff88c54b06ba761770524b7948188911bb9ce8bf8468a181f7b5/dbt_snowflake-1.8.1.tar.gz
+[2024-05-23 00:23:29] INFO root fetch - processPackages [parallax-app]: Downloading https://files.pythonhosted.org/packages/57/ed/607ed599fa17fe581aaa2f495bc573243f57ced8e8fe2e649ded090e6499/parallax_app-0.37.7.tar.gz
+[2024-05-23 00:23:29] INFO root fetch - processPackages [dbt-snowflake]: executing diffoscope
+[2024-05-23 00:23:29] INFO root fetch - processPackages [dbt-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snowflake-1.8.0rc1.tar.gz tmp/dbt_snowflake-1.8.1.tar.gz --markdown 20240523/d/dbt-snowflake/1.8.0rc1-1.8.1/README.md --exclude *.pyd
+[2024-05-23 00:23:29] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2024-05-23 00:23:29] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.99.8.tar.gz tmp/hypothesis-6.99.9.tar.gz --markdown 20240523/h/hypothesis/6.99.8-6.99.9/README.md --exclude *.pyd
+[2024-05-23 00:23:29] INFO root fetch - processPackages [parallax-app]: executing diffoscope
+[2024-05-23 00:23:29] INFO root fetch - processPackages [parallax-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallax_app-0.37.6.tar.gz tmp/parallax_app-0.37.7.tar.gz --markdown 20240523/p/parallax-app/0.37.6-0.37.7/README.md --exclude *.pyd
+[2024-05-23 00:23:30] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.8.tar.gz]
+[2024-05-23 00:23:30] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.9.tar.gz]
+[2024-05-23 00:23:30] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
+[2024-05-23 00:23:30] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.0rc1.tar.gz]
+[2024-05-23 00:23:30] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.1.tar.gz]
+[2024-05-23 00:23:30] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
+[2024-05-23 00:23:30] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.8.tar.gz]
+[2024-05-23 00:23:30] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.9.tar.gz]
+[2024-05-23 00:23:30] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2024-05-23 00:23:30] INFO root fetch - processPackages [parallax-app]: Remove: archive file [/home/abi/fetcher/tmp/parallax_app-0.37.6.tar.gz]
+[2024-05-23 00:23:30] INFO root fetch - processPackages [parallax-app]: Remove: archive file [/home/abi/fetcher/tmp/parallax_app-0.37.7.tar.gz]
+[2024-05-23 00:23:30] INFO root fetch - main [MainThread]: End processing [parallax-app]: success
+[2024-05-23 00:23:30] INFO root fetch - main [MainThread]: Store serial: [23333680]
