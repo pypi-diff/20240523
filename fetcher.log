@@ -393,3 +393,48 @@
 [2024-05-23 00:19:10] INFO root fetch - processPackages [bytewax]: Remove: archive file [/home/abi/fetcher/tmp/bytewax-0.9.0.tar.gz]
 [2024-05-23 00:19:10] INFO root fetch - main [MainThread]: End processing [bytewax]: success
 [2024-05-23 00:19:10] INFO root fetch - main [MainThread]: Store serial: [23333630]
+[2024-05-23 00:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333630]
+[2024-05-23 00:21:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 00:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlab.py
+[2024-05-23 00:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-codeocean-api
+[2024-05-23 00:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sovrin-common-dev
+[2024-05-23 00:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-configcat
+[2024-05-23 00:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quarky
+[2024-05-23 00:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metamath-py
+[2024-05-23 00:21:18] WARNING root fetch - processPackages [sovrin-common-dev]: Skipping, unable to determine old version
+[2024-05-23 00:21:18] INFO root fetch - processPackages [metamath-py]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-23 00:21:18] INFO root fetch - main [MainThread]: End processing [sovrin-common-dev] error
+[2024-05-23 00:21:18] INFO root fetch - processPackages [aind-codeocean-api]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-23 00:21:18] WARNING root fetch - processPackages [quarky]: Skipping, unable to determine old version
+[2024-05-23 00:21:18] INFO root fetch - main [MainThread]: End processing [quarky] error
+[2024-05-23 00:21:18] INFO root fetch - processPackages [mlab.py]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-23 00:21:18] INFO root fetch - processPackages [airbyte-source-configcat]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 00:21:19] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/6f/54/f4fe22387d26883544bfbe5ad7d8b535064c9bf06e00eeefce91030aad9d/mlab.py-0.2.1.tar.gz
+[2024-05-23 00:21:19] INFO root fetch - processPackages [metamath-py]: Downloading https://files.pythonhosted.org/packages/6d/41/a536a84d17336dff4ad43149efd0d8c8a2f62e2c16945b19424a2e405ec1/metamath_py-0.0.5.tar.gz
+[2024-05-23 00:21:19] INFO root fetch - processPackages [aind-codeocean-api]: Downloading https://files.pythonhosted.org/packages/f9/6a/1b1d9ff1b78e5f6fa8d3d60b433adf53fcee76ad06bdbd62a6ec1cdfef54/aind_codeocean_api-0.4.2.tar.gz
+[2024-05-23 00:21:19] INFO root fetch - processPackages [airbyte-source-configcat]: Downloading https://files.pythonhosted.org/packages/fa/ab/e2202754377c7740dbd3b762d10ea5b411578cd6681e2b03129fc927289c/airbyte-source-configcat-0.1.0.tar.gz
+[2024-05-23 00:21:19] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/03/2c/7b05edb44b3774c10607c08cab6a9ed89b28b8354020b6694ea8ad402bad/mlab_py-0.2.2.tar.gz
+[2024-05-23 00:21:19] INFO root fetch - processPackages [aind-codeocean-api]: Downloading https://files.pythonhosted.org/packages/4c/d3/1f3d2a09f69dfbe3f4788b7233fcee07f67786b7720ef65465f478019817/aind_codeocean_api-0.4.3.tar.gz
+[2024-05-23 00:21:19] INFO root fetch - processPackages [airbyte-source-configcat]: Downloading https://files.pythonhosted.org/packages/04/a2/0c1cd63d07ef1bab2e1f6f67449c1989f1249d4a92494416d6cb8f6526ad/airbyte_source_configcat-0.1.1.tar.gz
+[2024-05-23 00:21:19] INFO root fetch - processPackages [metamath-py]: Downloading https://files.pythonhosted.org/packages/f5/39/6165825817f00a09ad08d3ce41b70c9660d7808299eb689cbe4819f52e77/metamath_py-0.0.6.tar.gz
+[2024-05-23 00:21:19] INFO root fetch - processPackages [mlab.py]: executing diffoscope
+[2024-05-23 00:21:19] INFO root fetch - processPackages [mlab.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlab.py-0.2.1.tar.gz tmp/mlab_py-0.2.2.tar.gz --markdown 20240523/m/mlab.py/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-23 00:21:19] INFO root fetch - processPackages [aind-codeocean-api]: executing diffoscope
+[2024-05-23 00:21:19] INFO root fetch - processPackages [aind-codeocean-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_codeocean_api-0.4.2.tar.gz tmp/aind_codeocean_api-0.4.3.tar.gz --markdown 20240523/a/aind-codeocean-api/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-23 00:21:19] INFO root fetch - processPackages [airbyte-source-configcat]: executing diffoscope
+[2024-05-23 00:21:19] INFO root fetch - processPackages [airbyte-source-configcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-configcat-0.1.0.tar.gz tmp/airbyte_source_configcat-0.1.1.tar.gz --markdown 20240523/a/airbyte-source-configcat/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 00:21:19] INFO root fetch - processPackages [metamath-py]: executing diffoscope
+[2024-05-23 00:21:19] INFO root fetch - processPackages [metamath-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamath_py-0.0.5.tar.gz tmp/metamath_py-0.0.6.tar.gz --markdown 20240523/m/metamath-py/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-23 00:21:20] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab.py-0.2.1.tar.gz]
+[2024-05-23 00:21:20] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.2.2.tar.gz]
+[2024-05-23 00:21:20] INFO root fetch - main [MainThread]: End processing [mlab.py]: success
+[2024-05-23 00:21:20] INFO root fetch - processPackages [airbyte-source-configcat]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-configcat-0.1.0.tar.gz]
+[2024-05-23 00:21:20] INFO root fetch - processPackages [airbyte-source-configcat]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_configcat-0.1.1.tar.gz]
+[2024-05-23 00:21:20] INFO root fetch - main [MainThread]: End processing [airbyte-source-configcat]: success
+[2024-05-23 00:21:20] INFO root fetch - processPackages [metamath-py]: Remove: archive file [/home/abi/fetcher/tmp/metamath_py-0.0.5.tar.gz]
+[2024-05-23 00:21:20] INFO root fetch - processPackages [metamath-py]: Remove: archive file [/home/abi/fetcher/tmp/metamath_py-0.0.6.tar.gz]
+[2024-05-23 00:21:20] INFO root fetch - main [MainThread]: End processing [metamath-py]: success
+[2024-05-23 00:21:20] INFO root fetch - processPackages [aind-codeocean-api]: Remove: archive file [/home/abi/fetcher/tmp/aind_codeocean_api-0.4.2.tar.gz]
+[2024-05-23 00:21:20] INFO root fetch - processPackages [aind-codeocean-api]: Remove: archive file [/home/abi/fetcher/tmp/aind_codeocean_api-0.4.3.tar.gz]
+[2024-05-23 00:21:20] INFO root fetch - main [MainThread]: End processing [aind-codeocean-api]: success
+[2024-05-23 00:21:20] INFO root fetch - main [MainThread]: Store serial: [23333665]
