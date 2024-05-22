@@ -480,3 +480,42 @@
 [2024-05-23 00:23:30] INFO root fetch - processPackages [parallax-app]: Remove: archive file [/home/abi/fetcher/tmp/parallax_app-0.37.7.tar.gz]
 [2024-05-23 00:23:30] INFO root fetch - main [MainThread]: End processing [parallax-app]: success
 [2024-05-23 00:23:30] INFO root fetch - main [MainThread]: Store serial: [23333680]
+[2024-05-23 00:25:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333680]
+[2024-05-23 00:25:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 00:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foscat
+[2024-05-23 00:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systrack
+[2024-05-23 00:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensesame-plugin-radboudbox
+[2024-05-23 00:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2024-05-23 00:25:40] INFO root fetch - processPackages [foscat]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-23 00:25:40] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-23 00:25:40] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: New version: [4.0.0] Old Version: [3.1.1]
+[2024-05-23 00:25:40] INFO root fetch - processPackages [systrack]: New version: [0.5rc1] Old Version: [0.4rc3]
+[2024-05-23 00:25:40] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/b6/1a/cff11416f3547c8dc9a5231634209d3692fac4d553dab54be2058eae0087/foscat-3.0.8.tar.gz
+[2024-05-23 00:25:40] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-23 00:25:40] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/42/3c/3ec0d9aa38fb2a3152ce79ba0f92a03372e73164626118a07121951ed317/foscat-3.0.9.tar.gz
+[2024-05-23 00:25:40] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Downloading https://files.pythonhosted.org/packages/fe/94/25621821d00b4bd64c11d7f54f248792715d260475a23020a68c574bfdb7/opensesame_plugin_radboudbox-3.1.1.tar.gz
+[2024-05-23 00:25:40] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/ab/cc/26453c993f53a79534703dd66f8b73fe4fbed8569fad62d29f090260a906/systrack-0.4rc3.tar.gz
+[2024-05-23 00:25:40] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-23 00:25:40] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2024-05-23 00:25:40] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-3.0.8.tar.gz tmp/foscat-3.0.9.tar.gz --markdown 20240523/f/foscat/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-23 00:25:40] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-23 00:25:40] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240523/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-23 00:25:41] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/b0/b9/8a0138b40114bf608d77006c936800c8b2dfa6445f5634c86d3e8fbb359d/systrack-0.5rc1.tar.gz
+[2024-05-23 00:25:41] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Downloading https://files.pythonhosted.org/packages/e8/97/a72cd4276820f42b9afaa5dbebeb210afa61c4508844967c2e401036e508/opensesame_plugin_radboudbox-4.0.0.tar.gz
+[2024-05-23 00:25:41] INFO root fetch - processPackages [systrack]: executing diffoscope
+[2024-05-23 00:25:41] INFO root fetch - processPackages [systrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systrack-0.4rc3.tar.gz tmp/systrack-0.5rc1.tar.gz --markdown 20240523/s/systrack/0.4rc3-0.5rc1/README.md --exclude *.pyd
+[2024-05-23 00:25:41] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: executing diffoscope
+[2024-05-23 00:25:41] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_plugin_radboudbox-3.1.1.tar.gz tmp/opensesame_plugin_radboudbox-4.0.0.tar.gz --markdown 20240523/o/opensesame-plugin-radboudbox/3.1.1-4.0.0/README.md --exclude *.pyd
+[2024-05-23 00:25:41] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-23 00:25:41] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-23 00:25:41] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-23 00:25:41] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.8.tar.gz]
+[2024-05-23 00:25:41] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.9.tar.gz]
+[2024-05-23 00:25:41] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2024-05-23 00:25:41] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.4rc3.tar.gz]
+[2024-05-23 00:25:41] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.5rc1.tar.gz]
+[2024-05-23 00:25:41] INFO root fetch - main [MainThread]: End processing [systrack]: success
+[2024-05-23 00:25:41] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_plugin_radboudbox-3.1.1.tar.gz]
+[2024-05-23 00:25:41] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_plugin_radboudbox-4.0.0.tar.gz]
+[2024-05-23 00:25:41] INFO root fetch - main [MainThread]: End processing [opensesame-plugin-radboudbox]: success
+[2024-05-23 00:25:41] INFO root fetch - main [MainThread]: Store serial: [23333693]
