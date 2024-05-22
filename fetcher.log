@@ -1424,3 +1424,58 @@
 [2024-05-23 01:12:53] INFO root fetch - processPackages [sphinx_design]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_design-0.6.0.tar.gz]
 [2024-05-23 01:12:53] INFO root fetch - main [MainThread]: End processing [sphinx_design]: success
 [2024-05-23 01:12:53] INFO root fetch - main [MainThread]: Store serial: [23334110]
+[2024-05-23 01:14:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334110]
+[2024-05-23 01:15:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 01:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI
+[2024-05-23 01:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-core
+[2024-05-23 01:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brainchain
+[2024-05-23 01:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vocabulary-quiz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brainchain
+[2024-05-23 01:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GraphMancer
+[2024-05-23 01:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blaze-double-bot
+[2024-05-23 01:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sandpsue
+[2024-05-23 01:15:02] INFO root fetch - processPackages [vocabulary-quiz]: New version: [0.3] Old Version: [0.2]
+[2024-05-23 01:15:02] INFO root fetch - processPackages [dbt-core]: New version: [1.8.0rc2] Old Version: [1.8.0rc1]
+[2024-05-23 01:15:02] INFO root fetch - processPackages [OZI]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-23 01:15:02] WARNING root fetch - processPackages [GraphMancer]: Skipping, unable to determine old version
+[2024-05-23 01:15:02] WARNING root fetch - processPackages [blaze-double-bot]: Skipping, unable to determine old version
+[2024-05-23 01:15:02] INFO root fetch - main [MainThread]: End processing [GraphMancer] error
+[2024-05-23 01:15:02] INFO root fetch - main [MainThread]: End processing [blaze-double-bot] error
+[2024-05-23 01:15:02] WARNING root fetch - processPackages [sandpsue]: Skipping, unable to determine old version
+[2024-05-23 01:15:02] INFO root fetch - main [MainThread]: End processing [sandpsue] error
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/ee/de/d1ec71c6b215bb80d079ce4969d7fc9d25f9a397f9215f281533e8a07431/brainchain-0.7.3.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [vocabulary-quiz]: Downloading https://files.pythonhosted.org/packages/a5/77/b483ad9204e40d7ee2445376741b93f87418688dd133226403601b866ef7/vocabulary_quiz-0.2.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/25/a5/7e4ecf0d1fc0e7dbecdd2efe0f29db34d2ebd980e0d4ecbbe4510e4f3192/dbt_core-1.8.0rc1.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/78/b4/12fd776edd24dc1ba7132f4060f78e504b04a7f0c5955721e3926705ec72/OZI-1.9.0.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/ee/de/d1ec71c6b215bb80d079ce4969d7fc9d25f9a397f9215f281533e8a07431/brainchain-0.7.3.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/9c/b8/98c001c1b33aa3dd10c2cead945daf4a610ae00b72e6287ac65db771c641/brainchain-0.7.4.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/9c/b8/98c001c1b33aa3dd10c2cead945daf4a610ae00b72e6287ac65db771c641/brainchain-0.7.4.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/09/b8/b0b902e6db2933bca4f763b02452c2eee224675968fcadd65ffbe52a7033/dbt_core-1.8.0rc2.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: executing diffoscope
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainchain-0.7.3.tar.gz tmp/brainchain-0.7.4.tar.gz --markdown 20240523/b/brainchain/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-23 01:15:02] INFO root fetch - processPackages [vocabulary-quiz]: Downloading https://files.pythonhosted.org/packages/29/17/669469a6667d5b60acd9a62a42d6f89c87184e622aab98b3b9094084c013/vocabulary_quiz-0.3.tar.gz
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: executing diffoscope
+[2024-05-23 01:15:02] INFO root fetch - processPackages [brainchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainchain-0.7.3.tar.gz tmp/brainchain-0.7.4.tar.gz --markdown 20240523/b/brainchain/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-23 01:15:02] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/60/e7/78a77aad34d6b727a0e7b4aa903293ac17ee2bb46012add3d0e0d228fda4/OZI-1.9.1.tar.gz
+[2024-05-23 01:15:03] INFO root fetch - processPackages [vocabulary-quiz]: executing diffoscope
+[2024-05-23 01:15:03] INFO root fetch - processPackages [vocabulary-quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocabulary_quiz-0.2.tar.gz tmp/vocabulary_quiz-0.3.tar.gz --markdown 20240523/v/vocabulary-quiz/0.2-0.3/README.md --exclude *.pyd
+[2024-05-23 01:15:03] INFO root fetch - processPackages [dbt-core]: executing diffoscope
+[2024-05-23 01:15:03] INFO root fetch - processPackages [dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_core-1.8.0rc1.tar.gz tmp/dbt_core-1.8.0rc2.tar.gz --markdown 20240523/d/dbt-core/1.8.0rc1-1.8.0rc2/README.md --exclude *.pyd
+[2024-05-23 01:15:03] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-23 01:15:03] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.9.0.tar.gz tmp/OZI-1.9.1.tar.gz --markdown 20240523/O/OZI/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 01:15:03] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.7.3.tar.gz]
+[2024-05-23 01:15:03] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.7.4.tar.gz]
+[2024-05-23 01:15:03] INFO root fetch - main [MainThread]: End processing [brainchain]: success
+[2024-05-23 01:15:03] INFO root fetch - main [MainThread]: End processing [brainchain]: success
+[2024-05-23 01:15:03] INFO root fetch - processPackages [vocabulary-quiz]: Remove: archive file [/home/abi/fetcher/tmp/vocabulary_quiz-0.2.tar.gz]
+[2024-05-23 01:15:03] INFO root fetch - processPackages [vocabulary-quiz]: Remove: archive file [/home/abi/fetcher/tmp/vocabulary_quiz-0.3.tar.gz]
+[2024-05-23 01:15:03] INFO root fetch - main [MainThread]: End processing [vocabulary-quiz]: success
+[2024-05-23 01:15:04] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.0.tar.gz]
+[2024-05-23 01:15:04] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.1.tar.gz]
+[2024-05-23 01:15:04] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-23 01:15:04] INFO root fetch - processPackages [dbt-core]: Remove: archive file [/home/abi/fetcher/tmp/dbt_core-1.8.0rc1.tar.gz]
+[2024-05-23 01:15:04] INFO root fetch - processPackages [dbt-core]: Remove: archive file [/home/abi/fetcher/tmp/dbt_core-1.8.0rc2.tar.gz]
+[2024-05-23 01:15:04] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
+[2024-05-23 01:15:04] INFO root fetch - main [MainThread]: Store serial: [23334139]
