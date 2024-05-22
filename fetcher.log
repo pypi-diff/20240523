@@ -1485,3 +1485,24 @@
 [2024-05-23 01:17:13] WARNING root fetch - processPackages [vital-ai-wordnet]: Skipping, unable to determine old version
 [2024-05-23 01:17:13] INFO root fetch - main [MainThread]: End processing [vital-ai-wordnet] error
 [2024-05-23 01:17:13] INFO root fetch - main [MainThread]: Store serial: [23334139]
+[2024-05-23 01:19:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334139]
+[2024-05-23 01:19:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 01:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vital-ai-wordnet
+[2024-05-23 01:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-randomprime
+[2024-05-23 01:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-apis
+[2024-05-23 01:19:22] INFO root fetch - processPackages [django-apis]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-23 01:19:22] WARNING root fetch - processPackages [vital-ai-wordnet]: Skipping, unable to determine old version
+[2024-05-23 01:19:22] INFO root fetch - main [MainThread]: End processing [vital-ai-wordnet] error
+[2024-05-23 01:19:22] INFO root fetch - processPackages [django-apis]: Downloading https://files.pythonhosted.org/packages/b6/52/ca82c196be1bc3b60b646b7d67623409a34251b58cf43ef91dc9e7b3b1bd/django-apis-0.1.1.tar.gz
+[2024-05-23 01:19:22] INFO root fetch - processPackages [py-randomprime]: New version: [16.3] Old Version: [1.9.6]
+[2024-05-23 01:19:22] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/6a/a6/30f067323fda064fe22f5ce375f9f91e615acab8985915b93ce4839b3fd9/py-randomprime-1.9.6.tar.gz
+[2024-05-23 01:19:22] INFO root fetch - processPackages [django-apis]: Downloading https://files.pythonhosted.org/packages/c5/8b/b4cd35e7ec9ec854772b0a7c3026cc3a2a45ae514e617c9bbb3e8230b855/django-apis-0.1.4.tar.gz
+[2024-05-23 01:19:22] INFO root fetch - processPackages [django-apis]: executing diffoscope
+[2024-05-23 01:19:22] INFO root fetch - processPackages [django-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-apis-0.1.1.tar.gz tmp/django-apis-0.1.4.tar.gz --markdown 20240523/d/django-apis/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-23 01:19:23] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/c5/cb/9cc1448eb361b462e124fc84bb2c65b7f7564775472990df44de475a065c/py-randomprime-16.3.tar.gz
+[2024-05-23 01:19:23] INFO root fetch - processPackages [django-apis]: Remove: archive file [/home/abi/fetcher/tmp/django-apis-0.1.1.tar.gz]
+[2024-05-23 01:19:23] INFO root fetch - processPackages [django-apis]: Remove: archive file [/home/abi/fetcher/tmp/django-apis-0.1.4.tar.gz]
+[2024-05-23 01:19:23] INFO root fetch - main [MainThread]: End processing [django-apis]: success
+[2024-05-23 01:19:24] WARNING root fetch - processPackages [py-randomprime]: Skipping package: exceeds size limit 32716661>=10485760
+[2024-05-23 01:19:24] INFO root fetch - main [MainThread]: End processing [py-randomprime] error
+[2024-05-23 01:19:24] INFO root fetch - main [MainThread]: Store serial: [23334152]
