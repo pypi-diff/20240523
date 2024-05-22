@@ -1089,3 +1089,38 @@
 [2024-05-23 00:52:28] INFO root fetch - processPackages [onnxruntime-genai]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_genai-0.3.0rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-23 00:52:28] INFO root fetch - main [MainThread]: End processing [onnxruntime-genai]: success
 [2024-05-23 00:52:28] INFO root fetch - main [MainThread]: Store serial: [23333916]
+[2024-05-23 00:54:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333916]
+[2024-05-23 00:54:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 00:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ray-cpp
+[2024-05-23 00:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strongdm
+[2024-05-23 00:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datascope-experiments
+[2024-05-23 00:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: story-protocol-python-sdk
+[2024-05-23 00:54:41] INFO root fetch - processPackages [story-protocol-python-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-23 00:54:42] INFO root fetch - processPackages [story-protocol-python-sdk]: Downloading https://files.pythonhosted.org/packages/69/35/6ff654087cd9b4d7c3156495aa6a116750bdb3823e0fa2708e48314b3f58/story_protocol_python_sdk-0.1.6.tar.gz
+[2024-05-23 00:54:42] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.88]
+[2024-05-23 00:54:42] INFO root fetch - processPackages [strongdm]: New version: [9.0.0] Old Version: [8.4.0]
+[2024-05-23 00:54:42] INFO root fetch - processPackages [ray-cpp]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-23 00:54:42] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/4d/0c/932a952455b4f29aa2c79f74166e4e151cf027d3c84881186ea154113934/datascope-experiments-0.0.88.tar.gz
+[2024-05-23 00:54:42] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/8e/7f/e3f09557bcda7ac09f8e5615ca44ac571565b23fb917971352c2db03432c/strongdm-8.4.0.zip
+[2024-05-23 00:54:42] INFO root fetch - processPackages [ray-cpp]: Downloading https://files.pythonhosted.org/packages/6a/2e/c9e89160e721b0ed7a43091e48c090a4fb2c81ec223bea7a5227fd7195bb/ray_cpp-2.9.2-cp39-cp39-win_amd64.whl
+[2024-05-23 00:54:42] INFO root fetch - processPackages [story-protocol-python-sdk]: Downloading https://files.pythonhosted.org/packages/a6/01/2ca827224c24ed3c99fe8733b829d91f2368e4de13dad492ae4d47c1f2ed/story_protocol_python_sdk-0.1.7.tar.gz
+[2024-05-23 00:54:42] WARNING root fetch - processPackages [ray-cpp]: Skipping package: exceeds size limit 22195717>=10485760
+[2024-05-23 00:54:42] INFO root fetch - main [MainThread]: End processing [ray-cpp] error
+[2024-05-23 00:54:42] INFO root fetch - processPackages [story-protocol-python-sdk]: executing diffoscope
+[2024-05-23 00:54:42] INFO root fetch - processPackages [story-protocol-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/story_protocol_python_sdk-0.1.6.tar.gz tmp/story_protocol_python_sdk-0.1.7.tar.gz --markdown 20240523/s/story-protocol-python-sdk/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-23 00:54:42] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/cb/22/4f7399d30bf1690de46b3793e11f3d2d252add405433a43dffc44abdfb76/strongdm-9.0.0.zip
+[2024-05-23 00:54:42] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/b1/bc/05ddc96ba1314c3a59709691d24646790023b2b8b38620c39e9ae4412371/datascope-experiments-0.0.9.tar.gz
+[2024-05-23 00:54:42] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2024-05-23 00:54:42] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.88.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20240523/d/datascope-experiments/0.0.88-0.0.9/README.md --exclude *.pyd
+[2024-05-23 00:54:42] INFO root fetch - processPackages [strongdm]: executing diffoscope
+[2024-05-23 00:54:42] INFO root fetch - processPackages [strongdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongdm-8.4.0.zip tmp/strongdm-9.0.0.zip --markdown 20240523/s/strongdm/8.4.0-9.0.0/README.md --exclude *.pyd
+[2024-05-23 00:54:43] INFO root fetch - processPackages [story-protocol-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/story_protocol_python_sdk-0.1.6.tar.gz]
+[2024-05-23 00:54:43] INFO root fetch - processPackages [story-protocol-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/story_protocol_python_sdk-0.1.7.tar.gz]
+[2024-05-23 00:54:43] INFO root fetch - main [MainThread]: End processing [story-protocol-python-sdk]: success
+[2024-05-23 00:54:43] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.88.tar.gz]
+[2024-05-23 00:54:43] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.9.tar.gz]
+[2024-05-23 00:54:43] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2024-05-23 00:54:44] INFO root fetch - processPackages [strongdm]: Remove: archive file [/home/abi/fetcher/tmp/strongdm-8.4.0.zip]
+[2024-05-23 00:54:44] INFO root fetch - processPackages [strongdm]: Remove: archive file [/home/abi/fetcher/tmp/strongdm-9.0.0.zip]
+[2024-05-23 00:54:44] INFO root fetch - main [MainThread]: End processing [strongdm]: success
+[2024-05-23 00:54:44] INFO root fetch - main [MainThread]: Store serial: [23333938]
