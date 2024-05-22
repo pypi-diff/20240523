@@ -746,3 +746,45 @@
 [2024-05-23 00:38:46] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522213327.tar.gz]
 [2024-05-23 00:38:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-23 00:38:46] INFO root fetch - main [MainThread]: Store serial: [23333769]
+[2024-05-23 00:40:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333769]
+[2024-05-23 00:40:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 00:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dve-lumipy-testing
+[2024-05-23 00:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slurmgen
+[2024-05-23 00:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gifanimus
+[2024-05-23 00:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zep-cloud
+[2024-05-23 00:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packManager
+[2024-05-23 00:40:54] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 00:40:54] WARNING root fetch - processPackages [gifanimus]: Skipping, unable to determine old version
+[2024-05-23 00:40:54] INFO root fetch - main [MainThread]: End processing [gifanimus] error
+[2024-05-23 00:40:54] INFO root fetch - processPackages [packManager]: New version: [1.1.1] Old Version: [0.0.0]
+[2024-05-23 00:40:54] INFO root fetch - processPackages [slurmgen]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-05-23 00:40:54] INFO root fetch - processPackages [zep-cloud]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-23 00:40:54] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-23 00:40:55] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/1d/36/4aed9d6940d682b6a4e75295a18767903d99c13a11dc9aae97b2feb275ce/packmanager-0.0.0.tar.gz
+[2024-05-23 00:40:55] INFO root fetch - processPackages [slurmgen]: Downloading https://files.pythonhosted.org/packages/5c/93/38751f3cdaf475ee265d2851ce0fe02ddc71f94c1c5cbda9e6e4979e3a58/slurmgen-3.4.0.tar.gz
+[2024-05-23 00:40:55] INFO root fetch - processPackages [zep-cloud]: Downloading https://files.pythonhosted.org/packages/55/4c/ce95916a8dc28b227bdddff4d14374f80f46210d7a04c1ad05af910ad817/zep_cloud-1.0.2.tar.gz
+[2024-05-23 00:40:55] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-23 00:40:55] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/1e/bb/836dd41a8589b15c9d2f094cfd8a06999f19fa4a1302809c4d3a8768f3af/packmanager-1.1.1.tar.gz
+[2024-05-23 00:40:55] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-23 00:40:55] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240523/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 00:40:55] INFO root fetch - processPackages [slurmgen]: Downloading https://files.pythonhosted.org/packages/f1/a2/0bfa1024575cbf622c8cc0317e4a56ce15a8bbf3b4a0a7fc632b45e5bb47/slurmgen-3.5.0.tar.gz
+[2024-05-23 00:40:55] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-23 00:40:55] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-0.0.0.tar.gz tmp/packmanager-1.1.1.tar.gz --markdown 20240523/p/packManager/0.0.0-1.1.1/README.md --exclude *.pyd
+[2024-05-23 00:40:55] INFO root fetch - processPackages [slurmgen]: executing diffoscope
+[2024-05-23 00:40:55] INFO root fetch - processPackages [slurmgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmgen-3.4.0.tar.gz tmp/slurmgen-3.5.0.tar.gz --markdown 20240523/s/slurmgen/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-05-23 00:40:55] INFO root fetch - processPackages [zep-cloud]: Downloading https://files.pythonhosted.org/packages/24/1d/0cdde94b559513ebb6a928d8671e9688c34bbff1d6a609c56bd4e010a39f/zep_cloud-1.0.3.tar.gz
+[2024-05-23 00:40:55] INFO root fetch - processPackages [zep-cloud]: executing diffoscope
+[2024-05-23 00:40:55] INFO root fetch - processPackages [zep-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_cloud-1.0.2.tar.gz tmp/zep_cloud-1.0.3.tar.gz --markdown 20240523/z/zep-cloud/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-23 00:40:56] INFO root fetch - processPackages [slurmgen]: Remove: archive file [/home/abi/fetcher/tmp/slurmgen-3.4.0.tar.gz]
+[2024-05-23 00:40:56] INFO root fetch - processPackages [slurmgen]: Remove: archive file [/home/abi/fetcher/tmp/slurmgen-3.5.0.tar.gz]
+[2024-05-23 00:40:56] INFO root fetch - main [MainThread]: End processing [slurmgen]: success
+[2024-05-23 00:40:56] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-0.0.0.tar.gz]
+[2024-05-23 00:40:56] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.1.1.tar.gz]
+[2024-05-23 00:40:56] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-23 00:40:56] INFO root fetch - processPackages [zep-cloud]: Remove: archive file [/home/abi/fetcher/tmp/zep_cloud-1.0.2.tar.gz]
+[2024-05-23 00:40:56] INFO root fetch - processPackages [zep-cloud]: Remove: archive file [/home/abi/fetcher/tmp/zep_cloud-1.0.3.tar.gz]
+[2024-05-23 00:40:56] INFO root fetch - main [MainThread]: End processing [zep-cloud]: success
+[2024-05-23 00:40:56] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-23 00:40:56] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-23 00:40:56] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-23 00:40:56] INFO root fetch - main [MainThread]: Store serial: [23333785]
