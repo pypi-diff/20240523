@@ -627,3 +627,83 @@
 [2024-05-23 00:34:21] INFO root fetch - processPackages [metloom]: Remove: archive file [/home/abi/fetcher/tmp/metloom-0.4.3.tar.gz]
 [2024-05-23 00:34:21] INFO root fetch - main [MainThread]: End processing [metloom]: success
 [2024-05-23 00:34:21] INFO root fetch - main [MainThread]: Store serial: [23333730]
+[2024-05-23 00:36:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333730]
+[2024-05-23 00:36:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indexify-extractor-sdk
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luminesce-sdk-preview
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-group-local
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avar
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-xero
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datamate
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: termpandas
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-api-python-client
+[2024-05-23 00:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agrc-supervisor
+[2024-05-23 00:36:30] INFO root fetch - processPackages [avar]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [google-api-python-client]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [indexify-extractor-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [avar]: Downloading https://files.pythonhosted.org/packages/db/26/a0a5c4cf085ffcc3eec04d78a63c7b424c8325c611d7fb801415bba0fa84/avar-0.0.7.tar.gz
+[2024-05-23 00:36:30] INFO root fetch - processPackages [datamate]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [contact-group-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [termpandas]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [airbyte-source-xero]: New version: [1.0.0] Old Version: [0.2.6]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [agrc-supervisor]: New version: [3.1.0] Old Version: [3.0.3]
+[2024-05-23 00:36:30] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/25/fb/8dcfb1ddf593ada77ca7aebff3d9add072c6922c5b3efddeb31e991f5968/indexify-extractor-sdk-0.0.8.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [google-api-python-client]: Downloading https://files.pythonhosted.org/packages/67/71/292b30cae130a9d187619a5058671833733f9ef835252e67f88dbbcca9bf/google-api-python-client-2.98.0.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [avar]: Downloading https://files.pythonhosted.org/packages/26/db/e4005002d936794e260e09bd058f6ba1dab7bf8bc985074944d02ed8fd1c/avar-0.1.0.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [agrc-supervisor]: Downloading https://files.pythonhosted.org/packages/4a/e4/743555a7cf1ea27b3b710147f9cb48ad585f08d434ce3f6ffcfa9b068561/agrc-supervisor-3.0.3.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/63/e5/ff261731db98a38a39f4657a4cd1e04b2a998f175a7af36c640220ff9b00/contact-group-local-0.0.8.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [termpandas]: Downloading https://files.pythonhosted.org/packages/1e/12/7773277c4b3c50e9733c3e7f2e62f5da6dd9456f3975907e98dca69fbcbd/termpandas-0.1.0.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [airbyte-source-xero]: Downloading https://files.pythonhosted.org/packages/06/b3/1abfce84b2e2600132335d3891a6e4aa8bb3bef2143f53b9318c27e44b0a/airbyte_source_xero-0.2.6.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/6b/69/1a816cb64f283ffbd7a285fc0aacdf84a8f4bc7214eaab78ac42be5e93ba/indexify-extractor-sdk-0.0.9.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [datamate]: Downloading https://files.pythonhosted.org/packages/4d/e6/8dc2ceb190e499ac17bb445531a4cb7a2098b5a38bab2076200c9af571bc/datamate-0.2.1.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [avar]: executing diffoscope
+[2024-05-23 00:36:31] INFO root fetch - processPackages [avar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avar-0.0.7.tar.gz tmp/avar-0.1.0.tar.gz --markdown 20240523/a/avar/0.0.7-0.1.0/README.md --exclude *.pyd
+[2024-05-23 00:36:31] INFO root fetch - processPackages [indexify-extractor-sdk]: executing diffoscope
+[2024-05-23 00:36:31] INFO root fetch - processPackages [indexify-extractor-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-extractor-sdk-0.0.8.tar.gz tmp/indexify-extractor-sdk-0.0.9.tar.gz --markdown 20240523/i/indexify-extractor-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 00:36:31] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-23 00:36:31] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240523/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-23 00:36:31] INFO root fetch - processPackages [agrc-supervisor]: Downloading https://files.pythonhosted.org/packages/63/b4/614b73badbde902db4f73c986de7582e7de711b4e1f377d3a74d0f7c379d/agrc-supervisor-3.1.0.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/84/cc/f78576331b2ff0f497f4640872d65b71ec33ae804f6a44bb2f10f1957687/contact-group-local-0.0.9.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [agrc-supervisor]: executing diffoscope
+[2024-05-23 00:36:31] INFO root fetch - processPackages [agrc-supervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agrc-supervisor-3.0.3.tar.gz tmp/agrc-supervisor-3.1.0.tar.gz --markdown 20240523/a/agrc-supervisor/3.0.3-3.1.0/README.md --exclude *.pyd
+[2024-05-23 00:36:31] INFO root fetch - processPackages [airbyte-source-xero]: Downloading https://files.pythonhosted.org/packages/c8/35/3e42ea99a1febcf6a18729e6574a528ed8318e34bbe8420a2cf333396736/airbyte_source_xero-1.0.0.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [termpandas]: Downloading https://files.pythonhosted.org/packages/83/47/17fd5cc732676d13fb33de0e00ba87efa590f97b1001f9dc756d76a9f041/termpandas-0.2.0.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [datamate]: Downloading https://files.pythonhosted.org/packages/09/dc/243060177e7d6ff4332949af3a28a1528aeb6a763296396e61fd3f20ed32/datamate-0.2.2.tar.gz
+[2024-05-23 00:36:31] INFO root fetch - processPackages [contact-group-local]: executing diffoscope
+[2024-05-23 00:36:31] INFO root fetch - processPackages [contact-group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-group-local-0.0.8.tar.gz tmp/contact-group-local-0.0.9.tar.gz --markdown 20240523/c/contact-group-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 00:36:31] INFO root fetch - processPackages [termpandas]: executing diffoscope
+[2024-05-23 00:36:31] INFO root fetch - processPackages [termpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termpandas-0.1.0.tar.gz tmp/termpandas-0.2.0.tar.gz --markdown 20240523/t/termpandas/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-23 00:36:31] INFO root fetch - processPackages [airbyte-source-xero]: executing diffoscope
+[2024-05-23 00:36:31] INFO root fetch - processPackages [airbyte-source-xero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_xero-0.2.6.tar.gz tmp/airbyte_source_xero-1.0.0.tar.gz --markdown 20240523/a/airbyte-source-xero/0.2.6-1.0.0/README.md --exclude *.pyd
+[2024-05-23 00:36:31] INFO root fetch - processPackages [datamate]: executing diffoscope
+[2024-05-23 00:36:31] INFO root fetch - processPackages [datamate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamate-0.2.1.tar.gz tmp/datamate-0.2.2.tar.gz --markdown 20240523/d/datamate/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-23 00:36:32] INFO root fetch - processPackages [avar]: Remove: archive file [/home/abi/fetcher/tmp/avar-0.0.7.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - processPackages [avar]: Remove: archive file [/home/abi/fetcher/tmp/avar-0.1.0.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [avar]: success
+[2024-05-23 00:36:32] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.8.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.9.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [indexify-extractor-sdk]: success
+[2024-05-23 00:36:32] INFO root fetch - processPackages [agrc-supervisor]: Remove: archive file [/home/abi/fetcher/tmp/agrc-supervisor-3.0.3.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - processPackages [agrc-supervisor]: Remove: archive file [/home/abi/fetcher/tmp/agrc-supervisor-3.1.0.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [agrc-supervisor]: success
+[2024-05-23 00:36:32] WARNING root fetch - processPackages [google-api-python-client]: Skipping package: exceeds size limit 11651975>=10485760
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [google-api-python-client] error
+[2024-05-23 00:36:32] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.8.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.9.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [contact-group-local]: success
+[2024-05-23 00:36:32] INFO root fetch - processPackages [termpandas]: Remove: archive file [/home/abi/fetcher/tmp/termpandas-0.1.0.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - processPackages [termpandas]: Remove: archive file [/home/abi/fetcher/tmp/termpandas-0.2.0.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [termpandas]: success
+[2024-05-23 00:36:32] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-23 00:36:32] INFO root fetch - processPackages [airbyte-source-xero]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_xero-0.2.6.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - processPackages [airbyte-source-xero]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_xero-1.0.0.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [airbyte-source-xero]: success
+[2024-05-23 00:36:32] INFO root fetch - processPackages [datamate]: Remove: archive file [/home/abi/fetcher/tmp/datamate-0.2.1.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - processPackages [datamate]: Remove: archive file [/home/abi/fetcher/tmp/datamate-0.2.2.tar.gz]
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: End processing [datamate]: success
+[2024-05-23 00:36:32] INFO root fetch - main [MainThread]: Store serial: [23333757]
