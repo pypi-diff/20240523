@@ -519,3 +519,42 @@
 [2024-05-23 00:25:41] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_plugin_radboudbox-4.0.0.tar.gz]
 [2024-05-23 00:25:41] INFO root fetch - main [MainThread]: End processing [opensesame-plugin-radboudbox]: success
 [2024-05-23 00:25:41] INFO root fetch - main [MainThread]: Store serial: [23333693]
+[2024-05-23 00:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333693]
+[2024-05-23 00:27:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-infraflow-cdk
+[2024-05-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FinToolsAP
+[2024-05-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mb-pytorch
+[2024-05-23 00:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyerualjetwork
+[2024-05-23 00:27:50] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-23 00:27:50] INFO root fetch - processPackages [FinToolsAP]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-23 00:27:50] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-23 00:27:50] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/f5/df/239d6aadedaf44a161a2f207eb2cbf1041c091fed40f5adfb790eaa80ec8/pyerualjetwork-1.0.3.tar.gz
+[2024-05-23 00:27:50] INFO root fetch - processPackages [py-infraflow-cdk]: New version: [0.1.9.9.1.3] Old Version: [0.1.9.9.1.2]
+[2024-05-23 00:27:50] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/af/b0/91b912b27b5fc62fedbd30a60b3dffa8780b626755cac06d96514ae7cdc8/fintoolsap-1.7.8.tar.gz
+[2024-05-23 00:27:50] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-23 00:27:50] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-23 00:27:50] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/a7/8b/2041ce1b1961c1d309f1e43b59659e71afa923262f18487e540c998b3c1f/py_infraflow_cdk-0.1.9.9.1.2.tar.gz
+[2024-05-23 00:27:50] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/ef/dd/b17f9c30f6470ae4f505f3f3d101d6268653584d4293d5273b3d71aa48b0/fintoolsap-1.7.9.tar.gz
+[2024-05-23 00:27:50] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/55/f6/c00e8b03990427f818cc78276487319bce8863d9e7384df007b25148d8b8/pyerualjetwork-1.0.4.tar.gz
+[2024-05-23 00:27:51] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-23 00:27:51] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240523/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-23 00:27:51] INFO root fetch - processPackages [FinToolsAP]: executing diffoscope
+[2024-05-23 00:27:51] INFO root fetch - processPackages [FinToolsAP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolsap-1.7.8.tar.gz tmp/fintoolsap-1.7.9.tar.gz --markdown 20240523/F/FinToolsAP/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-23 00:27:51] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 00:27:51] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.0.3.tar.gz tmp/pyerualjetwork-1.0.4.tar.gz --markdown 20240523/p/pyerualjetwork/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-23 00:27:51] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/bb/7d/c35deefab7dc05ecbfeee3e349e95a27bb2b5679e145e591fb4629de55dd/py_infraflow_cdk-0.1.9.9.1.3.tar.gz
+[2024-05-23 00:27:51] INFO root fetch - processPackages [py-infraflow-cdk]: executing diffoscope
+[2024-05-23 00:27:51] INFO root fetch - processPackages [py-infraflow-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_infraflow_cdk-0.1.9.9.1.2.tar.gz tmp/py_infraflow_cdk-0.1.9.9.1.3.tar.gz --markdown 20240523/p/py-infraflow-cdk/0.1.9.9.1.2-0.1.9.9.1.3/README.md --exclude *.pyd
+[2024-05-23 00:27:51] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-23 00:27:51] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-23 00:27:51] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-23 00:27:51] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.7.8.tar.gz]
+[2024-05-23 00:27:51] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.7.9.tar.gz]
+[2024-05-23 00:27:51] INFO root fetch - main [MainThread]: End processing [FinToolsAP]: success
+[2024-05-23 00:27:51] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.3.tar.gz]
+[2024-05-23 00:27:51] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.4.tar.gz]
+[2024-05-23 00:27:51] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 00:27:52] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.1.2.tar.gz]
+[2024-05-23 00:27:52] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.1.3.tar.gz]
+[2024-05-23 00:27:52] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
+[2024-05-23 00:27:52] INFO root fetch - main [MainThread]: Store serial: [23333705]
