@@ -46,3 +46,51 @@
 [2024-05-23 00:01:31] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_cdk-1.1.0.tar.gz]
 [2024-05-23 00:01:31] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2024-05-23 00:01:31] INFO root fetch - main [MainThread]: Store serial: [23333473]
+[2024-05-23 00:03:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333473]
+[2024-05-23 00:03:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 00:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ob-metaflow-extensions
+[2024-05-23 00:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superblocks-agent
+[2024-05-23 00:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meerschaum
+[2024-05-23 00:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JBioSeqTools
+[2024-05-23 00:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MRISegmentator
+[2024-05-23 00:03:39] INFO root fetch - processPackages [JBioSeqTools]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-23 00:03:39] INFO root fetch - processPackages [superblocks-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 00:03:39] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/55/7e/f08de83de44ed79c710c9f7805e400c5c2c9c8be39b92ecdce21e7d67fb3/JBioSeqTools-2.0.3.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/84/3b/6802ee2a76e5e0104b60f43df911e4711182d98a5f66a7993730f0d45959/superblocks-agent-0.0.8.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [ob-metaflow-extensions]: New version: [1.1.9rc1] Old Version: [1.1.9rc0]
+[2024-05-23 00:03:40] INFO root fetch - processPackages [MRISegmentator]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-23 00:03:40] INFO root fetch - processPackages [meerschaum]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2024-05-23 00:03:40] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/f6/24/4fdd704647ebdded38ac1efc2b8dba106c9ab672518ddbb9b1dd783862e9/ob-metaflow-extensions-1.1.9rc0.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/c7/b1/71b275379fdc2106748d0c22e5c803b23ddb9e4f4957fdacecf924a05c68/superblocks-agent-0.0.9.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [MRISegmentator]: Downloading https://files.pythonhosted.org/packages/d1/7b/06e2edd36c5d70ce8897dfa4968989dde9f61f92ed2115e0a7476f4c416d/mrisegmentator-0.1.0.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/4d/8b/e96ba238b90f1a95fb18b6d8a3014fb6701fcc932f57f28bc2b38a6a7ba6/JBioSeqTools-2.0.4.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/9b/73/0f78b69f2138cf4874d86eef9d17849144267cc672e5ad443760f43e147f/meerschaum-2.2.0rc1.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [superblocks-agent]: executing diffoscope
+[2024-05-23 00:03:40] INFO root fetch - processPackages [superblocks-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-agent-0.0.8.tar.gz tmp/superblocks-agent-0.0.9.tar.gz --markdown 20240523/s/superblocks-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 00:03:40] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2024-05-23 00:03:40] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-2.0.3.tar.gz tmp/JBioSeqTools-2.0.4.tar.gz --markdown 20240523/J/JBioSeqTools/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-23 00:03:40] INFO root fetch - processPackages [MRISegmentator]: Downloading https://files.pythonhosted.org/packages/fa/ab/5ac751cf0cc8e43576786d99183e9d7f867efd42802830bc1adc4ce9c0c9/mrisegmentator-0.2.0.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/13/fa/f6774ac8df2d55f441049045a0ed08e5ff1eef840d3cc15235e8a9411f42/ob-metaflow-extensions-1.1.9rc1.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [ob-metaflow-extensions]: executing diffoscope
+[2024-05-23 00:03:40] INFO root fetch - processPackages [ob-metaflow-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz --markdown 20240523/o/ob-metaflow-extensions/1.1.9rc0-1.1.9rc1/README.md --exclude *.pyd
+[2024-05-23 00:03:40] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/46/b0/69af9f674a0393a0595f663c6d490a7b3ed0786c09517d6d33cd9027154f/meerschaum-2.2.0rc2.tar.gz
+[2024-05-23 00:03:40] INFO root fetch - processPackages [MRISegmentator]: executing diffoscope
+[2024-05-23 00:03:40] INFO root fetch - processPackages [MRISegmentator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrisegmentator-0.1.0.tar.gz tmp/mrisegmentator-0.2.0.tar.gz --markdown 20240523/M/MRISegmentator/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-23 00:03:40] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2024-05-23 00:03:40] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-2.2.0rc1.tar.gz tmp/meerschaum-2.2.0rc2.tar.gz --markdown 20240523/m/meerschaum/2.2.0rc1-2.2.0rc2/README.md --exclude *.pyd
+[2024-05-23 00:03:41] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.8.tar.gz]
+[2024-05-23 00:03:41] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.9.tar.gz]
+[2024-05-23 00:03:41] INFO root fetch - main [MainThread]: End processing [superblocks-agent]: success
+[2024-05-23 00:03:41] INFO root fetch - processPackages [MRISegmentator]: Remove: archive file [/home/abi/fetcher/tmp/mrisegmentator-0.1.0.tar.gz]
+[2024-05-23 00:03:41] INFO root fetch - processPackages [MRISegmentator]: Remove: archive file [/home/abi/fetcher/tmp/mrisegmentator-0.2.0.tar.gz]
+[2024-05-23 00:03:41] INFO root fetch - main [MainThread]: End processing [MRISegmentator]: success
+[2024-05-23 00:03:41] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.3.tar.gz]
+[2024-05-23 00:03:41] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.4.tar.gz]
+[2024-05-23 00:03:41] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2024-05-23 00:03:41] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz]
+[2024-05-23 00:03:41] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz]
+[2024-05-23 00:03:41] INFO root fetch - main [MainThread]: End processing [ob-metaflow-extensions]: success
+[2024-05-23 00:03:42] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc1.tar.gz]
+[2024-05-23 00:03:42] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc2.tar.gz]
+[2024-05-23 00:03:42] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2024-05-23 00:03:42] INFO root fetch - main [MainThread]: Store serial: [23333487]
