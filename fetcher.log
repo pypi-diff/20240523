@@ -1917,3 +1917,74 @@
 [2024-05-23 01:50:41] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-23 01:50:41] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-23 01:50:41] INFO root fetch - main [MainThread]: Store serial: [23334359]
+[2024-05-23 01:52:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334359]
+[2024-05-23 01:52:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 01:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpimerge
+[2024-05-23 01:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlab.py
+[2024-05-23 01:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skyramp
+[2024-05-23 01:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datascope-experiments
+[2024-05-23 01:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2024-05-23 01:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talking-equipment-sdk
+[2024-05-23 01:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-nodes
+[2024-05-23 01:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: communex
+[2024-05-23 01:52:50] INFO root fetch - processPackages [cpimerge]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-23 01:52:50] INFO root fetch - processPackages [talking-equipment-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 01:52:50] INFO root fetch - processPackages [communex]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 01:52:50] INFO root fetch - processPackages [mlab.py]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-23 01:52:50] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.89]
+[2024-05-23 01:52:50] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-23 01:52:50] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/b9/ec/58da2069159835dd9e2b2acdaa5d3c27cf402b7bc17f81bf6b85fd7d865d/talking_equipment_sdk-0.0.2.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [cpimerge]: Downloading https://files.pythonhosted.org/packages/b5/e2/6a94b347f2cbb8e0c193464d171c62ca23e59401ce27acf57eec882d7f65/cpimerge-0.3.0.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [neon-nodes]: New version: [0.0.2a1] Old Version: [0.0.1a8]
+[2024-05-23 01:52:51] INFO root fetch - processPackages [skyramp]: New version: [0.4.85] Old Version: [0.4.84]
+[2024-05-23 01:52:51] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/77/67/00051570e40b098c12038ef6aed5be120d14bfafef5d08885df5a9714f91/communex-0.1.8.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/03/2c/7b05edb44b3774c10607c08cab6a9ed89b28b8354020b6694ea8ad402bad/mlab_py-0.2.2.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/d8/ed/b18c99906ef601d5dae8aadf4204e1b1b27d155845c876245552e199e473/datascope-experiments-0.0.89.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [neon-nodes]: Downloading https://files.pythonhosted.org/packages/0c/b8/d871673d69783011f04bbdec1b9042dfc98063e9946406b6c33e18e31573/neon-nodes-0.0.1a8.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [skyramp]: Downloading https://files.pythonhosted.org/packages/73/9a/c8a35aab2942cdd06607ef03492b570a39a1c58a1cde4b25108c260afbef/skyramp-0.4.84.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [cpimerge]: Downloading https://files.pythonhosted.org/packages/06/a3/c9a9b3e270dee58680ac4d3609c0507d862d8a0362dca0e90c6644e4aa53/cpimerge-0.4.0.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/51/79/c7d8079cf08c4dcf6ea1f984e64a67fe00acfd76303d2f7f6159f574d5da/communex-0.1.9.tar.gz
+[2024-05-23 01:52:51] WARNING root fetch - processPackages [skyramp]: Skipping package: exceeds size limit 162190342>=10485760
+[2024-05-23 01:52:51] INFO root fetch - main [MainThread]: End processing [skyramp] error
+[2024-05-23 01:52:51] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/7267ffe9d379854cf7eb1407f4e2edb8d9683a40474b840a669d0f24a3ab/talking_equipment_sdk-0.0.3.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [cpimerge]: executing diffoscope
+[2024-05-23 01:52:51] INFO root fetch - processPackages [cpimerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpimerge-0.3.0.tar.gz tmp/cpimerge-0.4.0.tar.gz --markdown 20240523/c/cpimerge/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-23 01:52:51] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/77/1d/a35f70a041d8f2ebaf8d2a14b1b0dcd22300df3b183060313694e1f5865a/mlab_py-0.3.0.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [communex]: executing diffoscope
+[2024-05-23 01:52:51] INFO root fetch - processPackages [communex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communex-0.1.8.tar.gz tmp/communex-0.1.9.tar.gz --markdown 20240523/c/communex/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 01:52:51] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/b1/bc/05ddc96ba1314c3a59709691d24646790023b2b8b38620c39e9ae4412371/datascope-experiments-0.0.9.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [talking-equipment-sdk]: executing diffoscope
+[2024-05-23 01:52:51] INFO root fetch - processPackages [talking-equipment-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talking_equipment_sdk-0.0.2.tar.gz tmp/talking_equipment_sdk-0.0.3.tar.gz --markdown 20240523/t/talking-equipment-sdk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 01:52:51] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-23 01:52:51] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240523/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-23 01:52:51] INFO root fetch - processPackages [mlab.py]: executing diffoscope
+[2024-05-23 01:52:51] INFO root fetch - processPackages [mlab.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlab_py-0.2.2.tar.gz tmp/mlab_py-0.3.0.tar.gz --markdown 20240523/m/mlab.py/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-23 01:52:51] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2024-05-23 01:52:51] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.89.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20240523/d/datascope-experiments/0.0.89-0.0.9/README.md --exclude *.pyd
+[2024-05-23 01:52:51] INFO root fetch - processPackages [neon-nodes]: Downloading https://files.pythonhosted.org/packages/9b/94/b977fdad193ab1d26d2cac29aa0de9f189740e746853d78b67b54cd4a98f/neon-nodes-0.0.2a1.tar.gz
+[2024-05-23 01:52:51] INFO root fetch - processPackages [neon-nodes]: executing diffoscope
+[2024-05-23 01:52:51] INFO root fetch - processPackages [neon-nodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-nodes-0.0.1a8.tar.gz tmp/neon-nodes-0.0.2a1.tar.gz --markdown 20240523/n/neon-nodes/0.0.1a8-0.0.2a1/README.md --exclude *.pyd
+[2024-05-23 01:52:52] INFO root fetch - processPackages [cpimerge]: Remove: archive file [/home/abi/fetcher/tmp/cpimerge-0.3.0.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - processPackages [cpimerge]: Remove: archive file [/home/abi/fetcher/tmp/cpimerge-0.4.0.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - main [MainThread]: End processing [cpimerge]: success
+[2024-05-23 01:52:52] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.2.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.3.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - main [MainThread]: End processing [talking-equipment-sdk]: success
+[2024-05-23 01:52:52] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.8.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.9.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - main [MainThread]: End processing [communex]: success
+[2024-05-23 01:52:52] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-23 01:52:52] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.2.2.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.3.0.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - main [MainThread]: End processing [mlab.py]: success
+[2024-05-23 01:52:52] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.89.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.9.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2024-05-23 01:52:52] INFO root fetch - processPackages [neon-nodes]: Remove: archive file [/home/abi/fetcher/tmp/neon-nodes-0.0.1a8.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - processPackages [neon-nodes]: Remove: archive file [/home/abi/fetcher/tmp/neon-nodes-0.0.2a1.tar.gz]
+[2024-05-23 01:52:52] INFO root fetch - main [MainThread]: End processing [neon-nodes]: success
+[2024-05-23 01:52:52] INFO root fetch - main [MainThread]: Store serial: [23334381]
