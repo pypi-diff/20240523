@@ -1196,3 +1196,51 @@
 [2024-05-23 00:59:07] INFO root fetch - processPackages [GeKiM]: Remove: archive file [/home/abi/fetcher/tmp/gekim-0.2.0.tar.gz]
 [2024-05-23 00:59:07] INFO root fetch - main [MainThread]: End processing [GeKiM]: success
 [2024-05-23 00:59:07] INFO root fetch - main [MainThread]: Store serial: [23333975]
+[2024-05-23 01:01:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333975]
+[2024-05-23 01:01:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 01:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchao-nightly
+[2024-05-23 01:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioli-sdk
+[2024-05-23 01:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: papers-dl
+[2024-05-23 01:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmisp-lib
+[2024-05-23 01:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-infraflow-cdk
+[2024-05-23 01:01:15] INFO root fetch - processPackages [aioli-sdk]: New version: [0.2.4.dev5] Old Version: [0.2.4.dev3]
+[2024-05-23 01:01:15] INFO root fetch - processPackages [py-infraflow-cdk]: New version: [0.1.9.9.1.4] Old Version: [0.1.9.9.1.3]
+[2024-05-23 01:01:15] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/ec/61/f51d1a02605076eb4b3cb25f7b07c220fb19e698c7c890316a12fe7102dd/aioli_sdk-0.2.4.dev3.tar.gz
+[2024-05-23 01:01:15] INFO root fetch - processPackages [mmisp-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 01:01:15] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/bb/7d/c35deefab7dc05ecbfeee3e349e95a27bb2b5679e145e591fb4629de55dd/py_infraflow_cdk-0.1.9.9.1.3.tar.gz
+[2024-05-23 01:01:15] INFO root fetch - processPackages [papers-dl]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-23 01:01:15] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.5.22] Old Version: [2024.5.19]
+[2024-05-23 01:01:15] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/37/dd/d68c1b35760f753c99decb2df90916fdab9d1284b391d5e083b34d8d9692/aioli_sdk-0.2.4.dev5.tar.gz
+[2024-05-23 01:01:16] INFO root fetch - processPackages [papers-dl]: Downloading https://files.pythonhosted.org/packages/79/5d/dc1e8a0b5dec4d98c4da7b13cd8d406ea52f40b6de3eedf5d981637814d1/papers_dl-0.0.5.tar.gz
+[2024-05-23 01:01:16] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/75/de/3698e8e9548f21d9e223fba10baa35de58249c5be2dcf443f1fff3cc52bf/mmisp_lib-0.1.8.tar.gz
+[2024-05-23 01:01:16] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/d3/11/01925d3952fa50cf6b913d921502e5debac92ab7ea137cb702524b300ab3/torchao_nightly-2024.5.19-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 01:01:16] INFO root fetch - processPackages [aioli-sdk]: executing diffoscope
+[2024-05-23 01:01:16] INFO root fetch - processPackages [aioli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioli_sdk-0.2.4.dev3.tar.gz tmp/aioli_sdk-0.2.4.dev5.tar.gz --markdown 20240523/a/aioli-sdk/0.2.4.dev3-0.2.4.dev5/README.md --exclude *.pyd
+[2024-05-23 01:01:16] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/47/09/e107b467949ac2b657a3e6a3a25d9bae68a64626e999f5e78f99a70fdacf/py_infraflow_cdk-0.1.9.9.1.4.tar.gz
+[2024-05-23 01:01:16] INFO root fetch - processPackages [py-infraflow-cdk]: executing diffoscope
+[2024-05-23 01:01:16] INFO root fetch - processPackages [py-infraflow-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_infraflow_cdk-0.1.9.9.1.3.tar.gz tmp/py_infraflow_cdk-0.1.9.9.1.4.tar.gz --markdown 20240523/p/py-infraflow-cdk/0.1.9.9.1.3-0.1.9.9.1.4/README.md --exclude *.pyd
+[2024-05-23 01:01:16] INFO root fetch - processPackages [papers-dl]: Downloading https://files.pythonhosted.org/packages/d3/15/f8f7a3defcf18e4a1835275b2cc567d102554a442d168b2208c432aa8693/papers_dl-0.0.6.tar.gz
+[2024-05-23 01:01:16] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/6b/56/4f20cbefd5a4b0d50f16983355d26c51592c18b57e30c433e24c4017a9a1/mmisp_lib-0.1.9.tar.gz
+[2024-05-23 01:01:16] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/58/1f/b268aec22e49f6d18af85facc3b29bf2b71d985d2d67ad6c6aadb402e1d2/torchao_nightly-2024.5.22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 01:01:16] INFO root fetch - processPackages [papers-dl]: executing diffoscope
+[2024-05-23 01:01:16] INFO root fetch - processPackages [papers-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papers_dl-0.0.5.tar.gz tmp/papers_dl-0.0.6.tar.gz --markdown 20240523/p/papers-dl/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-23 01:01:16] INFO root fetch - processPackages [mmisp-lib]: executing diffoscope
+[2024-05-23 01:01:16] INFO root fetch - processPackages [mmisp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmisp_lib-0.1.8.tar.gz tmp/mmisp_lib-0.1.9.tar.gz --markdown 20240523/m/mmisp-lib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 01:01:16] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-05-23 01:01:16] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao_nightly-2024.5.19-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/torchao_nightly-2024.5.22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240523/t/torchao-nightly/2024.5.19-2024.5.22/README.md --exclude *.pyd
+[2024-05-23 01:01:16] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.1.3.tar.gz]
+[2024-05-23 01:01:16] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.1.4.tar.gz]
+[2024-05-23 01:01:16] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
+[2024-05-23 01:01:17] INFO root fetch - processPackages [papers-dl]: Remove: archive file [/home/abi/fetcher/tmp/papers_dl-0.0.5.tar.gz]
+[2024-05-23 01:01:17] INFO root fetch - processPackages [papers-dl]: Remove: archive file [/home/abi/fetcher/tmp/papers_dl-0.0.6.tar.gz]
+[2024-05-23 01:01:17] INFO root fetch - main [MainThread]: End processing [papers-dl]: success
+[2024-05-23 01:01:17] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev3.tar.gz]
+[2024-05-23 01:01:17] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev5.tar.gz]
+[2024-05-23 01:01:17] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
+[2024-05-23 01:01:17] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.8.tar.gz]
+[2024-05-23 01:01:17] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.9.tar.gz]
+[2024-05-23 01:01:17] INFO root fetch - main [MainThread]: End processing [mmisp-lib]: success
+[2024-05-23 01:01:18] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.19-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 01:01:18] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 01:01:18] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-05-23 01:01:18] INFO root fetch - main [MainThread]: Store serial: [23334003]
