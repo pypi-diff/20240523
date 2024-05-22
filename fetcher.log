@@ -1599,3 +1599,30 @@
 [2024-05-23 01:25:54] INFO root fetch - processPackages [portrait]: Remove: archive file [/home/abi/fetcher/tmp/portrait-0.0.2b0.tar.gz]
 [2024-05-23 01:25:54] INFO root fetch - main [MainThread]: End processing [portrait]: success
 [2024-05-23 01:25:54] INFO root fetch - main [MainThread]: Store serial: [23334192]
+[2024-05-23 01:27:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334192]
+[2024-05-23 01:28:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 01:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CipherGuard
+[2024-05-23 01:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truss
+[2024-05-23 01:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2024-05-23 01:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gritql
+[2024-05-23 01:28:02] INFO root fetch - processPackages [truss]: New version: [0.9.9rc4] Old Version: [0.9.9rc3]
+[2024-05-23 01:28:02] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-23 01:28:02] WARNING root fetch - processPackages [CipherGuard]: Skipping, unable to determine old version
+[2024-05-23 01:28:02] INFO root fetch - main [MainThread]: End processing [CipherGuard] error
+[2024-05-23 01:28:02] WARNING root fetch - processPackages [gritql]: Skipping, unable to determine old version
+[2024-05-23 01:28:02] INFO root fetch - main [MainThread]: End processing [gritql] error
+[2024-05-23 01:28:02] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/b0/fe/165730089543a7078c47d298684f4672008a47e0f974249692ddb97b2ea5/truss-0.9.9rc3.tar.gz
+[2024-05-23 01:28:02] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-23 01:28:03] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/8f/d7/9ca2a06c33ed80c149e8e25246ce0bb8e5a19858328ac2b9feeb6b3b9734/truss-0.9.9rc4.tar.gz
+[2024-05-23 01:28:03] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-23 01:28:03] INFO root fetch - processPackages [truss]: executing diffoscope
+[2024-05-23 01:28:03] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.9.9rc3.tar.gz tmp/truss-0.9.9rc4.tar.gz --markdown 20240523/t/truss/0.9.9rc3-0.9.9rc4/README.md --exclude *.pyd
+[2024-05-23 01:28:03] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-23 01:28:03] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240523/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-23 01:28:04] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc3.tar.gz]
+[2024-05-23 01:28:04] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc4.tar.gz]
+[2024-05-23 01:28:04] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2024-05-23 01:28:04] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-23 01:28:04] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-23 01:28:04] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-23 01:28:04] INFO root fetch - main [MainThread]: Store serial: [23334206]
