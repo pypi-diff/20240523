@@ -1334,3 +1334,42 @@
 [2024-05-23 01:08:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240521.tar.gz]
 [2024-05-23 01:08:31] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-23 01:08:31] INFO root fetch - main [MainThread]: Store serial: [23334030]
+[2024-05-23 01:10:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334030]
+[2024-05-23 01:10:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 01:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tach
+[2024-05-23 01:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: romms-glaficplots
+[2024-05-23 01:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuon
+[2024-05-23 01:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-readers-pebblo
+[2024-05-23 01:10:39] INFO root fetch - processPackages [tach]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-23 01:10:39] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-05-23 01:10:39] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/27/9f/f09b7cf929d4ebcf19ae62e4e4e3715021162ff844648694be1113dfeda3/tach-0.2.0.tar.gz
+[2024-05-23 01:10:39] INFO root fetch - processPackages [llama-index-readers-pebblo]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 01:10:39] INFO root fetch - processPackages [romms-glaficplots]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 01:10:40] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-05-23 01:10:40] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/b0/38/f991b1ddfe6b5b35d4d8aa41f6f1ddcdd86657bec1b36214dddce3aa184d/tach-0.2.1.tar.gz
+[2024-05-23 01:10:40] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/38/4e/571af2e2fd0229bc978af83fd27331e105ea2fc535287b7a23309f68056c/romms_glaficplots-0.0.8.tar.gz
+[2024-05-23 01:10:40] INFO root fetch - processPackages [llama-index-readers-pebblo]: Downloading https://files.pythonhosted.org/packages/d8/b7/0d3607367ba5030d7df337be11eb9ded705fb5821832a05f582a23519d63/llama_index_readers_pebblo-0.1.0.tar.gz
+[2024-05-23 01:10:40] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-05-23 01:10:40] INFO root fetch - processPackages [tach]: executing diffoscope
+[2024-05-23 01:10:40] INFO root fetch - processPackages [tach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tach-0.2.0.tar.gz tmp/tach-0.2.1.tar.gz --markdown 20240523/t/tach/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-23 01:10:40] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-05-23 01:10:40] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240523/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-05-23 01:10:40] INFO root fetch - processPackages [llama-index-readers-pebblo]: Downloading https://files.pythonhosted.org/packages/34/db/4a41ef468a6bd3b4f4a0384d0d66c0a7f6c35bcc2ab420ac4ca9bacf9d72/llama_index_readers_pebblo-0.1.1.tar.gz
+[2024-05-23 01:10:40] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/be/5f/ec560e93e981ecb2c7e391063bbd16c36e6b90b5273f41bbb9d7daf4eee0/romms_glaficplots-0.0.9.tar.gz
+[2024-05-23 01:10:40] INFO root fetch - processPackages [llama-index-readers-pebblo]: executing diffoscope
+[2024-05-23 01:10:40] INFO root fetch - processPackages [llama-index-readers-pebblo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_pebblo-0.1.0.tar.gz tmp/llama_index_readers_pebblo-0.1.1.tar.gz --markdown 20240523/l/llama-index-readers-pebblo/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 01:10:40] INFO root fetch - processPackages [romms-glaficplots]: executing diffoscope
+[2024-05-23 01:10:40] INFO root fetch - processPackages [romms-glaficplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romms_glaficplots-0.0.8.tar.gz tmp/romms_glaficplots-0.0.9.tar.gz --markdown 20240523/r/romms-glaficplots/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 01:10:41] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.2.0.tar.gz]
+[2024-05-23 01:10:41] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.2.1.tar.gz]
+[2024-05-23 01:10:41] INFO root fetch - main [MainThread]: End processing [tach]: success
+[2024-05-23 01:10:41] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.8.tar.gz]
+[2024-05-23 01:10:41] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.9.tar.gz]
+[2024-05-23 01:10:41] INFO root fetch - main [MainThread]: End processing [romms-glaficplots]: success
+[2024-05-23 01:10:41] INFO root fetch - processPackages [llama-index-readers-pebblo]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_pebblo-0.1.0.tar.gz]
+[2024-05-23 01:10:41] INFO root fetch - processPackages [llama-index-readers-pebblo]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_pebblo-0.1.1.tar.gz]
+[2024-05-23 01:10:41] INFO root fetch - main [MainThread]: End processing [llama-index-readers-pebblo]: success
+[2024-05-23 01:10:42] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-05-23 01:10:42] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-05-23 01:10:42] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-05-23 01:10:42] INFO root fetch - main [MainThread]: Store serial: [23334043]
