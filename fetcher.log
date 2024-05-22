@@ -351,3 +351,45 @@
 [2024-05-23 00:16:57] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-23 00:16:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-23 00:16:57] INFO root fetch - main [MainThread]: Store serial: [23333602]
+[2024-05-23 00:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333602]
+[2024-05-23 00:19:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 00:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphaz-next
+[2024-05-23 00:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outerbounds
+[2024-05-23 00:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reinfier
+[2024-05-23 00:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: so-vits-svc-fork
+[2024-05-23 00:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bytewax
+[2024-05-23 00:19:06] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [4.2.7] Old Version: [4.2.6]
+[2024-05-23 00:19:06] INFO root fetch - processPackages [alphaz-next]: New version: [0.7.3.1] Old Version: [0.7.3]
+[2024-05-23 00:19:06] WARNING root fetch - processPackages [reinfier]: Skipping, unable to determine old version
+[2024-05-23 00:19:06] INFO root fetch - main [MainThread]: End processing [reinfier] error
+[2024-05-23 00:19:06] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-23 00:19:06] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/41/b1/ce149234f1447dbfc0bda21df05e8271eaf79ce8cea5f5e58ce39592f777/so_vits_svc_fork-4.2.6.tar.gz
+[2024-05-23 00:19:06] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/ce/5f/cf44b4fad43b380fd8ae79d16f872c6bcdca0156769d32e02b106f8cf0de/alphaz-next-0.7.3.tar.gz
+[2024-05-23 00:19:06] INFO root fetch - processPackages [bytewax]: New version: [0.9.0] Old Version: [0.8.0b2]
+[2024-05-23 00:19:07] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2024-05-23 00:19:07] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/5c/70/0ffbc2020a2f9cc58475710058fc16dac15034a6681834c8b7e5471317e9/so_vits_svc_fork-4.2.7.tar.gz
+[2024-05-23 00:19:07] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/3f/a7/617f5d5da0dd00c69646dc977a74a14fcf71cb7de7db5079b2430e0c1910/alphaz-next-0.7.3.1.tar.gz
+[2024-05-23 00:19:07] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2024-05-23 00:19:07] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-4.2.6.tar.gz tmp/so_vits_svc_fork-4.2.7.tar.gz --markdown 20240523/s/so-vits-svc-fork/4.2.6-4.2.7/README.md --exclude *.pyd
+[2024-05-23 00:19:07] INFO root fetch - processPackages [bytewax]: Downloading https://files.pythonhosted.org/packages/43/26/50eab58b6a1d3f2822dc9f685553ceb4e2398d7d7e3acd75d7349f1d6f43/bytewax-0.8.0_beta.2.tar.gz
+[2024-05-23 00:19:07] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-23 00:19:07] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.7.3.tar.gz tmp/alphaz-next-0.7.3.1.tar.gz --markdown 20240523/a/alphaz-next/0.7.3-0.7.3.1/README.md --exclude *.pyd
+[2024-05-23 00:19:07] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2024-05-23 00:19:07] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2024-05-23 00:19:07] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20240523/o/outerbounds/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-23 00:19:07] INFO root fetch - processPackages [bytewax]: Downloading https://files.pythonhosted.org/packages/d1/dd/3ac31759195724a74f6fbd67bd5b1c9f48852dc64f572ee7be0b719908e9/bytewax-0.9.0.tar.gz
+[2024-05-23 00:19:07] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.6.tar.gz]
+[2024-05-23 00:19:07] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.7.tar.gz]
+[2024-05-23 00:19:07] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2024-05-23 00:19:07] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.tar.gz]
+[2024-05-23 00:19:07] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.1.tar.gz]
+[2024-05-23 00:19:07] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-23 00:19:08] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2024-05-23 00:19:08] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2024-05-23 00:19:08] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2024-05-23 00:19:09] INFO root fetch - processPackages [bytewax]: executing diffoscope
+[2024-05-23 00:19:09] INFO root fetch - processPackages [bytewax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytewax-0.8.0_beta.2.tar.gz tmp/bytewax-0.9.0.tar.gz --markdown 20240523/b/bytewax/0.8.0b2-0.9.0/README.md --exclude *.pyd
+[2024-05-23 00:19:10] INFO root fetch - processPackages [bytewax]: Remove: archive file [/home/abi/fetcher/tmp/bytewax-0.8.0_beta.2.tar.gz]
+[2024-05-23 00:19:10] INFO root fetch - processPackages [bytewax]: Remove: archive file [/home/abi/fetcher/tmp/bytewax-0.9.0.tar.gz]
+[2024-05-23 00:19:10] INFO root fetch - main [MainThread]: End processing [bytewax]: success
+[2024-05-23 00:19:10] INFO root fetch - main [MainThread]: Store serial: [23333630]
