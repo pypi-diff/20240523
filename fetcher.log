@@ -1878,3 +1878,42 @@
 [2024-05-23 01:48:15] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.1.tar.gz]
 [2024-05-23 01:48:15] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-05-23 01:48:15] INFO root fetch - main [MainThread]: Store serial: [23334345]
+[2024-05-23 01:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334345]
+[2024-05-23 01:50:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 01:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brainchain
+[2024-05-23 01:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI
+[2024-05-23 01:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk
+[2024-05-23 01:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk-preview
+[2024-05-23 01:50:26] INFO root fetch - processPackages [brainchain]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-23 01:50:27] INFO root fetch - processPackages [OZI]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-23 01:50:27] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/df/d7/c4c4c9d7222c8cd31e01b18673a2ffe2584b77857f7d2f729eb97f7e6927/brainchain-0.7.5.tar.gz
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-23 01:50:27] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/bc/7a/db952d02b972685815c78bcb22f482b587f8870cd0add1c77b238e19c010/OZI-1.9.2.tar.gz
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-23 01:50:27] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/7a/20/86966416d2a13fc11e2e589aef9f1a9f58d374715f0d0a42944a2e455747/brainchain-0.7.6.tar.gz
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240523/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-23 01:50:27] INFO root fetch - processPackages [brainchain]: executing diffoscope
+[2024-05-23 01:50:27] INFO root fetch - processPackages [brainchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainchain-0.7.5.tar.gz tmp/brainchain-0.7.6.tar.gz --markdown 20240523/b/brainchain/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-23 01:50:27] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/90/b0/fa23686aa6dd7f8157c7f096401eea7df8b40cb4672f5d346c5ee3aa1501/OZI-1.9.3.tar.gz
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-23 01:50:27] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240523/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-23 01:50:27] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-23 01:50:27] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.9.2.tar.gz tmp/OZI-1.9.3.tar.gz --markdown 20240523/O/OZI/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 01:50:28] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.7.5.tar.gz]
+[2024-05-23 01:50:28] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.7.6.tar.gz]
+[2024-05-23 01:50:28] INFO root fetch - main [MainThread]: End processing [brainchain]: success
+[2024-05-23 01:50:28] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.2.tar.gz]
+[2024-05-23 01:50:28] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.3.tar.gz]
+[2024-05-23 01:50:28] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-23 01:50:31] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-23 01:50:31] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-23 01:50:31] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-23 01:50:41] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-23 01:50:41] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-23 01:50:41] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-23 01:50:41] INFO root fetch - main [MainThread]: Store serial: [23334359]
