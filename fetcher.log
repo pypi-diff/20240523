@@ -998,3 +998,42 @@
 [2024-05-23 00:47:32] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240522224419-py3-none-any.whl.zip]
 [2024-05-23 00:47:32] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-05-23 00:47:32] INFO root fetch - main [MainThread]: Store serial: [23333855]
+[2024-05-23 00:49:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333855]
+[2024-05-23 00:49:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyerualjetwork
+[2024-05-23 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: continuous-eval
+[2024-05-23 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-connectwise
+[2024-05-23 00:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidgzip
+[2024-05-23 00:49:40] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.0.5.post0] Old Version: [1.0.4]
+[2024-05-23 00:49:41] INFO root fetch - processPackages [django-connectwise]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-23 00:49:41] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/55/f6/c00e8b03990427f818cc78276487319bce8863d9e7384df007b25148d8b8/pyerualjetwork-1.0.4.tar.gz
+[2024-05-23 00:49:41] INFO root fetch - processPackages [continuous-eval]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-23 00:49:41] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/af/b3/b701b972b257ff6ff049ab5b3e35e06641b1762bd708bbb1e7bbd78c38ea/django-connectwise-1.4.8.tar.gz
+[2024-05-23 00:49:41] INFO root fetch - processPackages [rapidgzip]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-23 00:49:41] INFO root fetch - processPackages [continuous-eval]: Downloading https://files.pythonhosted.org/packages/35/9b/f05a5d379b4369ebc153fb8446937d31671dbd3056a210dd70bdd27b9f15/continuous_eval-0.3.8.tar.gz
+[2024-05-23 00:49:41] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/21/54/d01dfc8fe2a17a7faae665b584cf7ccdd0f14167b3e51bfa695fb7de18b0/django-connectwise-1.4.9.tar.gz
+[2024-05-23 00:49:41] INFO root fetch - processPackages [rapidgzip]: Downloading https://files.pythonhosted.org/packages/b3/44/0cd756c6ab35666b2aba0138317d2b8ccb36f25811195f16b81709d26c6b/rapidgzip-0.8.1.tar.gz
+[2024-05-23 00:49:41] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/b9/fb/16fe8450c24c186fb30676525ae31698a82a51d9ffa17f62c763eab05289/pyerualjetwork-1.0.5.post0.tar.gz
+[2024-05-23 00:49:41] INFO root fetch - processPackages [django-connectwise]: executing diffoscope
+[2024-05-23 00:49:41] INFO root fetch - processPackages [django-connectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-connectwise-1.4.8.tar.gz tmp/django-connectwise-1.4.9.tar.gz --markdown 20240523/d/django-connectwise/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-23 00:49:41] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 00:49:41] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.0.4.tar.gz tmp/pyerualjetwork-1.0.5.post0.tar.gz --markdown 20240523/p/pyerualjetwork/1.0.4-1.0.5.post0/README.md --exclude *.pyd
+[2024-05-23 00:49:41] INFO root fetch - processPackages [continuous-eval]: Downloading https://files.pythonhosted.org/packages/1b/70/ead71b439e046a38ee7b86bae0b56ff3bf1957930a716b578e62d4c1030d/continuous_eval-0.3.9.tar.gz
+[2024-05-23 00:49:41] INFO root fetch - processPackages [continuous-eval]: executing diffoscope
+[2024-05-23 00:49:41] INFO root fetch - processPackages [continuous-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continuous_eval-0.3.8.tar.gz tmp/continuous_eval-0.3.9.tar.gz --markdown 20240523/c/continuous-eval/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-23 00:49:41] INFO root fetch - processPackages [rapidgzip]: Downloading https://files.pythonhosted.org/packages/64/46/755a881732bf45bdce912b6b91090af0f0da1d2ee0b4ec3ccd3ee173112d/rapidgzip-0.9.0.tar.gz
+[2024-05-23 00:49:42] INFO root fetch - processPackages [rapidgzip]: executing diffoscope
+[2024-05-23 00:49:42] INFO root fetch - processPackages [rapidgzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidgzip-0.8.1.tar.gz tmp/rapidgzip-0.9.0.tar.gz --markdown 20240523/r/rapidgzip/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-23 00:49:42] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.4.tar.gz]
+[2024-05-23 00:49:42] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.5.post0.tar.gz]
+[2024-05-23 00:49:42] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 00:49:42] INFO root fetch - processPackages [continuous-eval]: Remove: archive file [/home/abi/fetcher/tmp/continuous_eval-0.3.8.tar.gz]
+[2024-05-23 00:49:42] INFO root fetch - processPackages [continuous-eval]: Remove: archive file [/home/abi/fetcher/tmp/continuous_eval-0.3.9.tar.gz]
+[2024-05-23 00:49:42] INFO root fetch - main [MainThread]: End processing [continuous-eval]: success
+[2024-05-23 00:49:43] INFO root fetch - processPackages [rapidgzip]: Remove: archive file [/home/abi/fetcher/tmp/rapidgzip-0.8.1.tar.gz]
+[2024-05-23 00:49:43] INFO root fetch - processPackages [rapidgzip]: Remove: archive file [/home/abi/fetcher/tmp/rapidgzip-0.9.0.tar.gz]
+[2024-05-23 00:49:43] INFO root fetch - main [MainThread]: End processing [rapidgzip]: success
+[2024-05-23 00:49:44] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.4.8.tar.gz]
+[2024-05-23 00:49:44] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.4.9.tar.gz]
+[2024-05-23 00:49:44] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
+[2024-05-23 00:49:44] INFO root fetch - main [MainThread]: Store serial: [23333877]
