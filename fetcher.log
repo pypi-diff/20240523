@@ -1534,3 +1534,39 @@
 [2024-05-23 01:21:34] INFO root fetch - main [MainThread]: End processing [ttpnav]: success
 [2024-05-23 01:21:34] INFO root fetch - main [MainThread]: End processing [ttpnav]: success
 [2024-05-23 01:21:34] INFO root fetch - main [MainThread]: Store serial: [23334161]
+[2024-05-23 01:23:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334161]
+[2024-05-23 01:23:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 01:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FinToolsAP
+[2024-05-23 01:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: print-nanny-client
+[2024-05-23 01:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cacheline
+[2024-05-23 01:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Bigquery-dependency-email-trigger
+[2024-05-23 01:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpg-workflows
+[2024-05-23 01:23:42] INFO root fetch - processPackages [FinToolsAP]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-23 01:23:42] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 01:23:42] WARNING root fetch - processPackages [print-nanny-client]: Skipping, unable to determine old version
+[2024-05-23 01:23:42] INFO root fetch - main [MainThread]: End processing [print-nanny-client] error
+[2024-05-23 01:23:42] WARNING root fetch - processPackages [Bigquery-dependency-email-trigger]: Skipping, unable to determine old version
+[2024-05-23 01:23:42] INFO root fetch - main [MainThread]: End processing [Bigquery-dependency-email-trigger] error
+[2024-05-23 01:23:42] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/af/b0/91b912b27b5fc62fedbd30a60b3dffa8780b626755cac06d96514ae7cdc8/fintoolsap-1.7.8.tar.gz
+[2024-05-23 01:23:42] INFO root fetch - processPackages [cacheline]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2024-05-23 01:23:42] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-23 01:23:43] INFO root fetch - processPackages [cacheline]: Downloading https://files.pythonhosted.org/packages/83/43/30cb7524884592bea2849d344f4360cf1c1d51ba9adc717a082ba5455cde/cacheline-0.0.2.dev8.tar.gz
+[2024-05-23 01:23:43] INFO root fetch - processPackages [FinToolsAP]: Downloading https://files.pythonhosted.org/packages/ef/dd/b17f9c30f6470ae4f505f3f3d101d6268653584d4293d5273b3d71aa48b0/fintoolsap-1.7.9.tar.gz
+[2024-05-23 01:23:43] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-23 01:23:43] INFO root fetch - processPackages [FinToolsAP]: executing diffoscope
+[2024-05-23 01:23:43] INFO root fetch - processPackages [FinToolsAP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolsap-1.7.8.tar.gz tmp/fintoolsap-1.7.9.tar.gz --markdown 20240523/F/FinToolsAP/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-23 01:23:43] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-23 01:23:43] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240523/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 01:23:43] INFO root fetch - processPackages [cacheline]: Downloading https://files.pythonhosted.org/packages/e5/81/2092b4cd33ee4a3617dbbbe07c7cd17cb0b1af143e9c29b46d43e9fff8d4/cacheline-0.0.2.dev9.tar.gz
+[2024-05-23 01:23:43] INFO root fetch - processPackages [cacheline]: executing diffoscope
+[2024-05-23 01:23:43] INFO root fetch - processPackages [cacheline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacheline-0.0.2.dev8.tar.gz tmp/cacheline-0.0.2.dev9.tar.gz --markdown 20240523/c/cacheline/0.0.2.dev8-0.0.2.dev9/README.md --exclude *.pyd
+[2024-05-23 01:23:44] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.7.8.tar.gz]
+[2024-05-23 01:23:44] INFO root fetch - processPackages [FinToolsAP]: Remove: archive file [/home/abi/fetcher/tmp/fintoolsap-1.7.9.tar.gz]
+[2024-05-23 01:23:44] INFO root fetch - main [MainThread]: End processing [FinToolsAP]: success
+[2024-05-23 01:23:44] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-23 01:23:44] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-23 01:23:44] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-23 01:23:44] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev8.tar.gz]
+[2024-05-23 01:23:44] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev9.tar.gz]
+[2024-05-23 01:23:44] INFO root fetch - main [MainThread]: End processing [cacheline]: success
+[2024-05-23 01:23:44] INFO root fetch - main [MainThread]: Store serial: [23334178]
