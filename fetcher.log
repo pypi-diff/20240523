@@ -1,0 +1,48 @@
+[2024-05-23 00:01:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333456]
+[2024-05-23 00:01:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 00:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2024-05-23 00:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-results
+[2024-05-23 00:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: approx-umap
+[2024-05-23 00:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sapiopylib
+[2024-05-23 00:01:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kappamodules
+[2024-05-23 00:01:28] INFO root fetch - processPackages [approx-umap]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-23 00:01:29] INFO root fetch - processPackages [approx-umap]: Downloading https://files.pythonhosted.org/packages/ba/75/4dbd87499d8bf82cbb6ef7093f49b5567dd625d8738a7a9a380847e2b7c7/approx_umap-0.1.2.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [mojo-results]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-23 00:01:29] INFO root fetch - processPackages [sapiopylib]: New version: [2024.5.7rc197] Old Version: [2024.5.7rc196]
+[2024-05-23 00:01:29] INFO root fetch - processPackages [airbyte-cdk]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-23 00:01:29] INFO root fetch - processPackages [kappamodules]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-23 00:01:29] INFO root fetch - processPackages [approx-umap]: Downloading https://files.pythonhosted.org/packages/b0/10/5f472d7b70bb5c4d6e7da22b375f1ff4408fcb932ca10d29e7c955733d77/approx_umap-0.1.3.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [mojo-results]: Downloading https://files.pythonhosted.org/packages/8e/c3/6e39bafa19ff0477a30ebe3ed9775b10ab5a189ea60414ff60bbe0df470d/mojo_results-1.3.8.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/5a/43/6d1e532efda507b1abfb9877b1ee5f85e4856dd0b56e2b5294553c8a74ea/airbyte_cdk-1.0.1.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/4c/1c/e9dfacf3de6421604293f1430f02b27537d91ae272fd6cb9c434f5c2e890/sapiopylib-2024.5.7rc196.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [kappamodules]: Downloading https://files.pythonhosted.org/packages/3b/e2/1ae9387d8409532bc4bf07acb0b2668b501b1cde2d63e40733fb972b1f4c/kappamodules-0.1.7.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [approx-umap]: executing diffoscope
+[2024-05-23 00:01:29] INFO root fetch - processPackages [approx-umap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approx_umap-0.1.2.tar.gz tmp/approx_umap-0.1.3.tar.gz --markdown 20240523/a/approx-umap/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-23 00:01:29] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/17/7c/2759c6afe39846fe748b960bb5d3c2842aa08d6967f7d0f93d5019c793d5/airbyte_cdk-1.1.0.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [kappamodules]: Downloading https://files.pythonhosted.org/packages/81/fc/bada4aae7de7149188e11f5ee6f6bb78d0725367f860197922b557fbd65b/kappamodules-0.1.8.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [mojo-results]: Downloading https://files.pythonhosted.org/packages/62/0e/adb07ad0d5ef4069cd714f7d94382b07f9bb484ab47b2482fd75ab7a020b/mojo_results-1.3.9.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/92/c8/f09b37dfd891960344707d28a95f88dbcf245edb008e226ee6476ee0a5a5/sapiopylib-2024.5.7rc197.tar.gz
+[2024-05-23 00:01:29] INFO root fetch - processPackages [kappamodules]: executing diffoscope
+[2024-05-23 00:01:29] INFO root fetch - processPackages [kappamodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappamodules-0.1.7.tar.gz tmp/kappamodules-0.1.8.tar.gz --markdown 20240523/k/kappamodules/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-23 00:01:29] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-05-23 00:01:29] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_cdk-1.0.1.tar.gz tmp/airbyte_cdk-1.1.0.tar.gz --markdown 20240523/a/airbyte-cdk/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-23 00:01:29] INFO root fetch - processPackages [mojo-results]: executing diffoscope
+[2024-05-23 00:01:29] INFO root fetch - processPackages [mojo-results]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_results-1.3.8.tar.gz tmp/mojo_results-1.3.9.tar.gz --markdown 20240523/m/mojo-results/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-23 00:01:29] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2024-05-23 00:01:29] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2024.5.7rc196.tar.gz tmp/sapiopylib-2024.5.7rc197.tar.gz --markdown 20240523/s/sapiopylib/2024.5.7rc196-2024.5.7rc197/README.md --exclude *.pyd
+[2024-05-23 00:01:29] INFO root fetch - processPackages [approx-umap]: Remove: archive file [/home/abi/fetcher/tmp/approx_umap-0.1.2.tar.gz]
+[2024-05-23 00:01:29] INFO root fetch - processPackages [approx-umap]: Remove: archive file [/home/abi/fetcher/tmp/approx_umap-0.1.3.tar.gz]
+[2024-05-23 00:01:29] INFO root fetch - main [MainThread]: End processing [approx-umap]: success
+[2024-05-23 00:01:30] INFO root fetch - processPackages [mojo-results]: Remove: archive file [/home/abi/fetcher/tmp/mojo_results-1.3.8.tar.gz]
+[2024-05-23 00:01:30] INFO root fetch - processPackages [mojo-results]: Remove: archive file [/home/abi/fetcher/tmp/mojo_results-1.3.9.tar.gz]
+[2024-05-23 00:01:30] INFO root fetch - main [MainThread]: End processing [mojo-results]: success
+[2024-05-23 00:01:30] INFO root fetch - processPackages [kappamodules]: Remove: archive file [/home/abi/fetcher/tmp/kappamodules-0.1.7.tar.gz]
+[2024-05-23 00:01:30] INFO root fetch - processPackages [kappamodules]: Remove: archive file [/home/abi/fetcher/tmp/kappamodules-0.1.8.tar.gz]
+[2024-05-23 00:01:30] INFO root fetch - main [MainThread]: End processing [kappamodules]: success
+[2024-05-23 00:01:30] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.7rc196.tar.gz]
+[2024-05-23 00:01:30] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.5.7rc197.tar.gz]
+[2024-05-23 00:01:30] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2024-05-23 00:01:31] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_cdk-1.0.1.tar.gz]
+[2024-05-23 00:01:31] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_cdk-1.1.0.tar.gz]
+[2024-05-23 00:01:31] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-05-23 00:01:31] INFO root fetch - main [MainThread]: Store serial: [23333473]
