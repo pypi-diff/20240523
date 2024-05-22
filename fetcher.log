@@ -1857,3 +1857,24 @@
 [2024-05-23 01:44:22] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.2.tar.gz]
 [2024-05-23 01:44:22] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-05-23 01:44:22] INFO root fetch - main [MainThread]: Store serial: [23334339]
+[2024-05-23 01:46:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334339]
+[2024-05-23 01:46:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbgear
+[2024-05-23 01:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marimo
+[2024-05-23 01:46:31] INFO root fetch - processPackages [marimo]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-23 01:46:31] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/6e/59/49c3e9c869c7276bb7b1fe91fd64c20f2aa5f1f6dd6149dc5839dd4bfcca/marimo-0.6.0.tar.gz
+[2024-05-23 01:46:31] INFO root fetch - processPackages [dbgear]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 01:46:31] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/9f/10/570273f9f34a4ec34a2041efebabd687595f5462e3382f83da3d028f89bc/dbgear-0.8.0.tar.gz
+[2024-05-23 01:46:31] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/f3/c3/b2c7afdd3fac8a27cf69118b95c313d5274ee8a8c32a1f9aace0150a546c/marimo-0.6.1.tar.gz
+[2024-05-23 01:46:32] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-05-23 01:46:32] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.6.0.tar.gz tmp/marimo-0.6.1.tar.gz --markdown 20240523/m/marimo/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-23 01:46:32] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/5d/24/4e0120970a3c9e25945265b4b81efe98b9176ff9b6ee67596d8a53c7d4b7/dbgear-0.9.0.tar.gz
+[2024-05-23 01:46:33] INFO root fetch - processPackages [dbgear]: executing diffoscope
+[2024-05-23 01:46:33] INFO root fetch - processPackages [dbgear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgear-0.8.0.tar.gz tmp/dbgear-0.9.0.tar.gz --markdown 20240523/d/dbgear/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-23 01:47:55] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.8.0.tar.gz]
+[2024-05-23 01:47:55] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
+[2024-05-23 01:47:55] INFO root fetch - main [MainThread]: End processing [dbgear]: success
+[2024-05-23 01:48:15] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.0.tar.gz]
+[2024-05-23 01:48:15] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.1.tar.gz]
+[2024-05-23 01:48:15] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-05-23 01:48:15] INFO root fetch - main [MainThread]: Store serial: [23334345]
