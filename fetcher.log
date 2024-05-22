@@ -2045,3 +2045,42 @@
 [2024-05-23 01:55:07] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/PyPartMC-1.3.0-cp39-cp39-win_amd64.whl.zip]
 [2024-05-23 01:55:07] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
 [2024-05-23 01:55:07] INFO root fetch - main [MainThread]: Store serial: [23334414]
+[2024-05-23 01:57:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334414]
+[2024-05-23 01:57:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 01:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: madokami
+[2024-05-23 01:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gritql
+[2024-05-23 01:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlab.py
+[2024-05-23 01:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celestical
+[2024-05-23 01:57:17] INFO root fetch - processPackages [mlab.py]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-23 01:57:17] INFO root fetch - processPackages [celestical]: New version: [0.9.2] Old Version: [0.17.0]
+[2024-05-23 01:57:17] INFO root fetch - processPackages [gritql]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 01:57:17] INFO root fetch - processPackages [madokami]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-23 01:57:17] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/0d/aa/eadc357ea7142d97b53e77299d68646b2c6fafadbf00a043adc9eac8d679/celestical-0.17.0-py3-none-any.whl
+[2024-05-23 01:57:17] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/77/1d/a35f70a041d8f2ebaf8d2a14b1b0dcd22300df3b183060313694e1f5865a/mlab_py-0.3.0.tar.gz
+[2024-05-23 01:57:17] INFO root fetch - processPackages [gritql]: Downloading https://files.pythonhosted.org/packages/26/be/90cdc078c1c98a541cc1aec20c93ac56a44b6c41c2f0fc7a7d7aab8c0482/gritql-0.1.0.tar.gz
+[2024-05-23 01:57:18] INFO root fetch - processPackages [madokami]: Downloading https://files.pythonhosted.org/packages/52/53/826b14713c11d205f296bd91697d6f1175623a3961b0c7a1608eb552f52e/madokami-0.1.4.tar.gz
+[2024-05-23 01:57:18] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/6a/53/1f6d4d225fde6a9acc4875ce60fa934dc2af21d85e3dcbe4d276484785e6/celestical-0.9.2-py3-none-any.whl
+[2024-05-23 01:57:18] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/3e/6f/35c472aa44bbbec6dbdec08592087d397ba9b0423d3a277a5c1750cf9302/mlab_py-0.3.1.tar.gz
+[2024-05-23 01:57:18] INFO root fetch - processPackages [celestical]: executing diffoscope
+[2024-05-23 01:57:18] INFO root fetch - processPackages [celestical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celestical-0.17.0-py3-none-any.whl.zip tmp/celestical-0.9.2-py3-none-any.whl.zip --markdown 20240523/c/celestical/0.17.0-0.9.2/README.md --exclude *.pyd
+[2024-05-23 01:57:18] INFO root fetch - processPackages [gritql]: Downloading https://files.pythonhosted.org/packages/28/fa/8e07259e5b24ac34851f48cfed05df5cf0d5c5b478f00a243ba70ea9581a/gritql-0.1.1.tar.gz
+[2024-05-23 01:57:18] INFO root fetch - processPackages [mlab.py]: executing diffoscope
+[2024-05-23 01:57:18] INFO root fetch - processPackages [mlab.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlab_py-0.3.0.tar.gz tmp/mlab_py-0.3.1.tar.gz --markdown 20240523/m/mlab.py/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-23 01:57:18] INFO root fetch - processPackages [madokami]: Downloading https://files.pythonhosted.org/packages/0d/8f/68a4332ed6716abbc33c58e1c1a1380c70fb63d6514214c68a8078d5adea/madokami-0.1.5.tar.gz
+[2024-05-23 01:57:18] INFO root fetch - processPackages [gritql]: executing diffoscope
+[2024-05-23 01:57:18] INFO root fetch - processPackages [gritql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gritql-0.1.0.tar.gz tmp/gritql-0.1.1.tar.gz --markdown 20240523/g/gritql/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 01:57:18] INFO root fetch - processPackages [madokami]: executing diffoscope
+[2024-05-23 01:57:18] INFO root fetch - processPackages [madokami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madokami-0.1.4.tar.gz tmp/madokami-0.1.5.tar.gz --markdown 20240523/m/madokami/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-23 01:57:18] INFO root fetch - processPackages [gritql]: Remove: archive file [/home/abi/fetcher/tmp/gritql-0.1.0.tar.gz]
+[2024-05-23 01:57:18] INFO root fetch - processPackages [gritql]: Remove: archive file [/home/abi/fetcher/tmp/gritql-0.1.1.tar.gz]
+[2024-05-23 01:57:18] INFO root fetch - main [MainThread]: End processing [gritql]: success
+[2024-05-23 01:57:18] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.3.0.tar.gz]
+[2024-05-23 01:57:18] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.3.1.tar.gz]
+[2024-05-23 01:57:18] INFO root fetch - main [MainThread]: End processing [mlab.py]: success
+[2024-05-23 01:57:19] INFO root fetch - processPackages [madokami]: Remove: archive file [/home/abi/fetcher/tmp/madokami-0.1.4.tar.gz]
+[2024-05-23 01:57:19] INFO root fetch - processPackages [madokami]: Remove: archive file [/home/abi/fetcher/tmp/madokami-0.1.5.tar.gz]
+[2024-05-23 01:57:19] INFO root fetch - main [MainThread]: End processing [madokami]: success
+[2024-05-23 01:57:19] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.17.0-py3-none-any.whl.zip]
+[2024-05-23 01:57:19] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.9.2-py3-none-any.whl.zip]
+[2024-05-23 01:57:19] INFO root fetch - main [MainThread]: End processing [celestical]: success
+[2024-05-23 01:57:19] INFO root fetch - main [MainThread]: Store serial: [23334428]
