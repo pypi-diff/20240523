@@ -1037,3 +1037,55 @@
 [2024-05-23 00:49:44] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.4.9.tar.gz]
 [2024-05-23 00:49:44] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
 [2024-05-23 00:49:44] INFO root fetch - main [MainThread]: Store serial: [23333877]
+[2024-05-23 00:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333877]
+[2024-05-23 00:51:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 00:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cool-urls
+[2024-05-23 00:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GPopt
+[2024-05-23 00:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxruntime-genai
+[2024-05-23 00:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxruntime-genai-directml
+[2024-05-23 00:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: story-protocol-python-sdk
+[2024-05-23 00:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ray
+[2024-05-23 00:51:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sagemaker
+[2024-05-23 00:51:52] INFO root fetch - processPackages [story-protocol-python-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-23 00:51:52] INFO root fetch - processPackages [ray]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-23 00:51:53] INFO root fetch - processPackages [story-protocol-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ae/63c0a4b2e05b4b40585cf1a140258710847087bd496d3d0ce390d57483b8/story_protocol_python_sdk-0.1.5.tar.gz
+[2024-05-23 00:51:53] WARNING root fetch - processPackages [django-cool-urls]: Skipping, unable to determine old version
+[2024-05-23 00:51:53] INFO root fetch - main [MainThread]: End processing [django-cool-urls] error
+[2024-05-23 00:51:53] INFO root fetch - processPackages [GPopt]: New version: [0.6.0] Old Version: [0.4.1]
+[2024-05-23 00:51:53] INFO root fetch - processPackages [onnxruntime-genai]: New version: [0.3.0rc1] Old Version: [0.2.0rc7]
+[2024-05-23 00:51:53] INFO root fetch - processPackages [onnxruntime-genai-directml]: New version: [0.3.0rc1] Old Version: [0.2.0rc7]
+[2024-05-23 00:51:53] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-05-23 00:51:53] INFO root fetch - processPackages [ray]: Downloading https://files.pythonhosted.org/packages/17/e4/1f6d6ef9b325d00e7cb482fb5af501369f3eb5847fed7195a8acd0f94138/ray-2.9.2-cp39-cp39-win_amd64.whl
+[2024-05-23 00:51:53] INFO root fetch - processPackages [GPopt]: Downloading https://files.pythonhosted.org/packages/8a/1a/1b5c02e97bba59a5af0d2616a8a8928cccd9bab026fba4ad992b84674caf/GPopt-0.4.1.tar.gz
+[2024-05-23 00:51:53] INFO root fetch - processPackages [onnxruntime-genai-directml]: Downloading https://files.pythonhosted.org/packages/1f/b3/47dbda7083a7d5e358ba51c3255f07cd31a552c3cd80cebb3426cc76032e/onnxruntime_genai_directml-0.2.0rc7-cp39-cp39-win_amd64.whl
+[2024-05-23 00:51:53] INFO root fetch - processPackages [onnxruntime-genai]: Downloading https://files.pythonhosted.org/packages/b0/9e/975d92ad8dfbf4778f9ba5436e46079d11679ae15d03944b1afd8e2243b9/onnxruntime_genai-0.2.0rc7-cp39-cp39-win_amd64.whl
+[2024-05-23 00:51:53] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2024-05-23 00:51:53] WARNING root fetch - processPackages [onnxruntime-genai-directml]: Skipping package: exceeds size limit 15258912>=10485760
+[2024-05-23 00:51:53] INFO root fetch - main [MainThread]: End processing [onnxruntime-genai-directml] error
+[2024-05-23 00:51:53] WARNING root fetch - processPackages [ray]: Skipping package: exceeds size limit 25179689>=10485760
+[2024-05-23 00:51:53] INFO root fetch - main [MainThread]: End processing [ray] error
+[2024-05-23 00:51:53] INFO root fetch - processPackages [story-protocol-python-sdk]: Downloading https://files.pythonhosted.org/packages/69/35/6ff654087cd9b4d7c3156495aa6a116750bdb3823e0fa2708e48314b3f58/story_protocol_python_sdk-0.1.6.tar.gz
+[2024-05-23 00:51:53] INFO root fetch - processPackages [GPopt]: Downloading https://files.pythonhosted.org/packages/be/dc/5fb7862d3d89ff5292f94edd9b482882462c674e75a1e70f17ec1b450018/gpopt-0.6.0.tar.gz
+[2024-05-23 00:51:53] INFO root fetch - processPackages [story-protocol-python-sdk]: executing diffoscope
+[2024-05-23 00:51:53] INFO root fetch - processPackages [story-protocol-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/story_protocol_python_sdk-0.1.5.tar.gz tmp/story_protocol_python_sdk-0.1.6.tar.gz --markdown 20240523/s/story-protocol-python-sdk/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-23 00:51:53] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2024-05-23 00:51:53] INFO root fetch - processPackages [GPopt]: executing diffoscope
+[2024-05-23 00:51:53] INFO root fetch - processPackages [GPopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPopt-0.4.1.tar.gz tmp/gpopt-0.6.0.tar.gz --markdown 20240523/G/GPopt/0.4.1-0.6.0/README.md --exclude *.pyd
+[2024-05-23 00:51:53] INFO root fetch - processPackages [onnxruntime-genai]: Downloading https://files.pythonhosted.org/packages/16/fa/0ee9d28a5715d134a60887f210881aa56f7d603102c2d73d4f42a61c57df/onnxruntime_genai-0.3.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-23 00:51:53] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2024-05-23 00:51:53] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20240523/s/sagemaker/2.98.0-2.99.0/README.md --exclude *.pyd
+[2024-05-23 00:51:54] INFO root fetch - processPackages [story-protocol-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/story_protocol_python_sdk-0.1.5.tar.gz]
+[2024-05-23 00:51:54] INFO root fetch - processPackages [story-protocol-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/story_protocol_python_sdk-0.1.6.tar.gz]
+[2024-05-23 00:51:54] INFO root fetch - main [MainThread]: End processing [story-protocol-python-sdk]: success
+[2024-05-23 00:51:54] INFO root fetch - processPackages [GPopt]: Remove: archive file [/home/abi/fetcher/tmp/GPopt-0.4.1.tar.gz]
+[2024-05-23 00:51:54] INFO root fetch - processPackages [GPopt]: Remove: archive file [/home/abi/fetcher/tmp/gpopt-0.6.0.tar.gz]
+[2024-05-23 00:51:54] INFO root fetch - main [MainThread]: End processing [GPopt]: success
+[2024-05-23 00:51:54] INFO root fetch - processPackages [onnxruntime-genai]: executing diffoscope
+[2024-05-23 00:51:54] INFO root fetch - processPackages [onnxruntime-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxruntime_genai-0.2.0rc7-cp39-cp39-win_amd64.whl.zip tmp/onnxruntime_genai-0.3.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240523/o/onnxruntime-genai/0.2.0rc7-0.3.0rc1/README.md --exclude *.pyd
+[2024-05-23 00:51:55] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.98.0.tar.gz]
+[2024-05-23 00:51:55] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
+[2024-05-23 00:51:55] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2024-05-23 00:52:28] INFO root fetch - processPackages [onnxruntime-genai]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_genai-0.2.0rc7-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 00:52:28] INFO root fetch - processPackages [onnxruntime-genai]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_genai-0.3.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 00:52:28] INFO root fetch - main [MainThread]: End processing [onnxruntime-genai]: success
+[2024-05-23 00:52:28] INFO root fetch - main [MainThread]: Store serial: [23333916]
