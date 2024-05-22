@@ -1163,3 +1163,36 @@
 [2024-05-23 00:56:57] INFO root fetch - processPackages [clusterfun]: Remove: archive file [/home/abi/fetcher/tmp/clusterfun-0.5.0a7.tar.gz]
 [2024-05-23 00:56:57] INFO root fetch - main [MainThread]: End processing [clusterfun]: success
 [2024-05-23 00:56:57] INFO root fetch - main [MainThread]: Store serial: [23333951]
+[2024-05-23 00:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333951]
+[2024-05-23 00:59:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 00:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remotion-lambda
+[2024-05-23 00:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GeKiM
+[2024-05-23 00:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyerualjetwork
+[2024-05-23 00:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vocabulary-quiz
+[2024-05-23 00:59:06] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.0.6] Old Version: [1.0.5.post0]
+[2024-05-23 00:59:06] WARNING root fetch - processPackages [vocabulary-quiz]: Skipping, unable to determine old version
+[2024-05-23 00:59:06] INFO root fetch - main [MainThread]: End processing [vocabulary-quiz] error
+[2024-05-23 00:59:06] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-05-23 00:59:06] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/b9/fb/16fe8450c24c186fb30676525ae31698a82a51d9ffa17f62c763eab05289/pyerualjetwork-1.0.5.post0.tar.gz
+[2024-05-23 00:59:06] INFO root fetch - processPackages [GeKiM]: New version: [0.2.0] Old Version: [0.1.0a1]
+[2024-05-23 00:59:06] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-05-23 00:59:06] INFO root fetch - processPackages [GeKiM]: Downloading https://files.pythonhosted.org/packages/2e/28/5336eb817482d688e8b79f89133c752dfae2470a45504fbc015ae1035a1e/GeKiM-0.1.0a1.tar.gz
+[2024-05-23 00:59:06] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-05-23 00:59:06] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-05-23 00:59:06] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240523/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-05-23 00:59:06] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/e7/fc/567df6e1e9d4a00c9e2e6c3d3f870c8240b19a1846236e5027a3e18afd09/pyerualjetwork-1.0.6.tar.gz
+[2024-05-23 00:59:06] INFO root fetch - processPackages [GeKiM]: Downloading https://files.pythonhosted.org/packages/21/5e/ddbbe93c7a732a7aa89b1b37c2831d2c97012e761a95dbe3974510c1118c/gekim-0.2.0.tar.gz
+[2024-05-23 00:59:06] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 00:59:06] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.0.5.post0.tar.gz tmp/pyerualjetwork-1.0.6.tar.gz --markdown 20240523/p/pyerualjetwork/1.0.5.post0-1.0.6/README.md --exclude *.pyd
+[2024-05-23 00:59:06] INFO root fetch - processPackages [GeKiM]: executing diffoscope
+[2024-05-23 00:59:06] INFO root fetch - processPackages [GeKiM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeKiM-0.1.0a1.tar.gz tmp/gekim-0.2.0.tar.gz --markdown 20240523/G/GeKiM/0.1.0a1-0.2.0/README.md --exclude *.pyd
+[2024-05-23 00:59:07] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-05-23 00:59:07] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-05-23 00:59:07] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-05-23 00:59:07] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.5.post0.tar.gz]
+[2024-05-23 00:59:07] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.6.tar.gz]
+[2024-05-23 00:59:07] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 00:59:07] INFO root fetch - processPackages [GeKiM]: Remove: archive file [/home/abi/fetcher/tmp/GeKiM-0.1.0a1.tar.gz]
+[2024-05-23 00:59:07] INFO root fetch - processPackages [GeKiM]: Remove: archive file [/home/abi/fetcher/tmp/gekim-0.2.0.tar.gz]
+[2024-05-23 00:59:07] INFO root fetch - main [MainThread]: End processing [GeKiM]: success
+[2024-05-23 00:59:07] INFO root fetch - main [MainThread]: Store serial: [23333975]
