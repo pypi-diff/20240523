@@ -1833,3 +1833,15 @@
 [2024-05-23 01:39:53] INFO root fetch - processPackages [equilipy-hpc]: Remove: archive file [/home/abi/fetcher/tmp/equilipy_hpc-0.1.3-cp39-cp39-win_amd64.whl.zip]
 [2024-05-23 01:39:53] INFO root fetch - main [MainThread]: End processing [equilipy-hpc]: success
 [2024-05-23 01:39:53] INFO root fetch - main [MainThread]: Store serial: [23334333]
+[2024-05-23 01:42:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334333]
+[2024-05-23 01:42:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 01:42:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rf-survey
+[2024-05-23 01:42:06] INFO root fetch - processPackages [rf-survey]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-23 01:42:06] INFO root fetch - processPackages [rf-survey]: Downloading https://files.pythonhosted.org/packages/36/85/fa5115586c891d4976c5bc807fb0f6616d3bbe3ecde2f01eba7b6947a318/rf_survey-0.0.1.tar.gz
+[2024-05-23 01:42:06] INFO root fetch - processPackages [rf-survey]: Downloading https://files.pythonhosted.org/packages/31/92/3938ca919cbff3ccb6d9b8a3c4b002cb961ca75dc965db924249283341bb/rf_survey-0.1.tar.gz
+[2024-05-23 01:42:06] INFO root fetch - processPackages [rf-survey]: executing diffoscope
+[2024-05-23 01:42:06] INFO root fetch - processPackages [rf-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rf_survey-0.0.1.tar.gz tmp/rf_survey-0.1.tar.gz --markdown 20240523/r/rf-survey/0.0.1-0.1/README.md --exclude *.pyd
+[2024-05-23 01:42:07] INFO root fetch - processPackages [rf-survey]: Remove: archive file [/home/abi/fetcher/tmp/rf_survey-0.0.1.tar.gz]
+[2024-05-23 01:42:07] INFO root fetch - processPackages [rf-survey]: Remove: archive file [/home/abi/fetcher/tmp/rf_survey-0.1.tar.gz]
+[2024-05-23 01:42:07] INFO root fetch - main [MainThread]: End processing [rf-survey]: success
+[2024-05-23 01:42:07] INFO root fetch - main [MainThread]: Store serial: [23334336]
