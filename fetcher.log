@@ -1244,3 +1244,24 @@
 [2024-05-23 01:01:18] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-23 01:01:18] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
 [2024-05-23 01:01:18] INFO root fetch - main [MainThread]: Store serial: [23334003]
+[2024-05-23 01:03:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334003]
+[2024-05-23 01:03:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 01:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: burr
+[2024-05-23 01:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyerualjetwork
+[2024-05-23 01:03:27] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-23 01:03:27] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-23 01:03:27] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/e7/fc/567df6e1e9d4a00c9e2e6c3d3f870c8240b19a1846236e5027a3e18afd09/pyerualjetwork-1.0.6.tar.gz
+[2024-05-23 01:03:27] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-05-23 01:03:28] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/1d/79/5b364615069e11437f7337cfd01067e91c2a9cdeea7b485710b0cf96b07a/pyerualjetwork-1.0.7.tar.gz
+[2024-05-23 01:03:28] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 01:03:28] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.0.6.tar.gz tmp/pyerualjetwork-1.0.7.tar.gz --markdown 20240523/p/pyerualjetwork/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-23 01:03:28] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-05-23 01:03:28] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-05-23 01:03:28] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240523/b/burr/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-23 01:03:28] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.6.tar.gz]
+[2024-05-23 01:03:28] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.7.tar.gz]
+[2024-05-23 01:03:28] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 01:04:05] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-05-23 01:04:05] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-05-23 01:04:05] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-05-23 01:04:05] INFO root fetch - main [MainThread]: Store serial: [23334009]
