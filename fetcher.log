@@ -1570,3 +1570,32 @@
 [2024-05-23 01:23:44] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev9.tar.gz]
 [2024-05-23 01:23:44] INFO root fetch - main [MainThread]: End processing [cacheline]: success
 [2024-05-23 01:23:44] INFO root fetch - main [MainThread]: Store serial: [23334178]
+[2024-05-23 01:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334178]
+[2024-05-23 01:25:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 01:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: portrait
+[2024-05-23 01:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: persist_ext
+[2024-05-23 01:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aimon
+[2024-05-23 01:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talking-equipment-sdk
+[2024-05-23 01:25:52] INFO root fetch - processPackages [talking-equipment-sdk]: New version: [0.0.2] Old Version: [0.0.1rc0]
+[2024-05-23 01:25:52] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/8a/23/a34a77520a3a87d72d9fcbb7e823f78fe3ecbc3dd052d116f94528d964bb/talking_equipment_sdk-0.0.1rc0.tar.gz
+[2024-05-23 01:25:52] INFO root fetch - processPackages [portrait]: New version: [0.0.2b0] Old Version: [0.0.1b0]
+[2024-05-23 01:25:52] WARNING root fetch - processPackages [aimon]: Skipping, unable to determine old version
+[2024-05-23 01:25:52] INFO root fetch - main [MainThread]: End processing [aimon] error
+[2024-05-23 01:25:52] INFO root fetch - processPackages [persist_ext]: New version: [2.0.0rc0] Old Version: [1.6.2]
+[2024-05-23 01:25:53] INFO root fetch - processPackages [persist_ext]: Downloading https://files.pythonhosted.org/packages/75/5e/370114525a3912d89119ce1855fa1c4e3db162d5f030cdff2edc84d992d9/persist_ext-1.6.2.tar.gz
+[2024-05-23 01:25:53] INFO root fetch - processPackages [portrait]: Downloading https://files.pythonhosted.org/packages/da/b9/815851bf1300ba5f7df7eec1150c7475cb3cd8e55a2f51df769806f226e5/portrait-0.0.1b0.tar.gz
+[2024-05-23 01:25:53] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/b9/ec/58da2069159835dd9e2b2acdaa5d3c27cf402b7bc17f81bf6b85fd7d865d/talking_equipment_sdk-0.0.2.tar.gz
+[2024-05-23 01:25:53] WARNING root fetch - processPackages [persist_ext]: Skipping package: exceeds size limit 23594873>=10485760
+[2024-05-23 01:25:53] INFO root fetch - main [MainThread]: End processing [persist_ext] error
+[2024-05-23 01:25:53] INFO root fetch - processPackages [talking-equipment-sdk]: executing diffoscope
+[2024-05-23 01:25:53] INFO root fetch - processPackages [talking-equipment-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talking_equipment_sdk-0.0.1rc0.tar.gz tmp/talking_equipment_sdk-0.0.2.tar.gz --markdown 20240523/t/talking-equipment-sdk/0.0.1rc0-0.0.2/README.md --exclude *.pyd
+[2024-05-23 01:25:53] INFO root fetch - processPackages [portrait]: Downloading https://files.pythonhosted.org/packages/27/7d/11cb1d991670cf6366bb3edb1728c3ccf95a34efdc546f9b15241de91c53/portrait-0.0.2b0.tar.gz
+[2024-05-23 01:25:53] INFO root fetch - processPackages [portrait]: executing diffoscope
+[2024-05-23 01:25:53] INFO root fetch - processPackages [portrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portrait-0.0.1b0.tar.gz tmp/portrait-0.0.2b0.tar.gz --markdown 20240523/p/portrait/0.0.1b0-0.0.2b0/README.md --exclude *.pyd
+[2024-05-23 01:25:53] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.1rc0.tar.gz]
+[2024-05-23 01:25:53] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.2.tar.gz]
+[2024-05-23 01:25:53] INFO root fetch - main [MainThread]: End processing [talking-equipment-sdk]: success
+[2024-05-23 01:25:54] INFO root fetch - processPackages [portrait]: Remove: archive file [/home/abi/fetcher/tmp/portrait-0.0.1b0.tar.gz]
+[2024-05-23 01:25:54] INFO root fetch - processPackages [portrait]: Remove: archive file [/home/abi/fetcher/tmp/portrait-0.0.2b0.tar.gz]
+[2024-05-23 01:25:54] INFO root fetch - main [MainThread]: End processing [portrait]: success
+[2024-05-23 01:25:54] INFO root fetch - main [MainThread]: Store serial: [23334192]
