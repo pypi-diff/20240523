@@ -1626,3 +1626,51 @@
 [2024-05-23 01:28:04] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-05-23 01:28:04] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-05-23 01:28:04] INFO root fetch - main [MainThread]: Store serial: [23334206]
+[2024-05-23 01:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334206]
+[2024-05-23 01:30:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 01:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-log-wmse-audio-quality
+[2024-05-23 01:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyerualjetwork
+[2024-05-23 01:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unstructured
+[2024-05-23 01:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qsharp
+[2024-05-23 01:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qsharp-jupyterlab
+[2024-05-23 01:30:13] INFO root fetch - processPackages [torch-log-wmse-audio-quality]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-23 01:30:13] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-23 01:30:13] INFO root fetch - processPackages [qsharp-jupyterlab]: New version: [1.5.2.dev0] Old Version: [1.5.1.dev0]
+[2024-05-23 01:30:13] INFO root fetch - processPackages [qsharp]: New version: [1.5.2.dev0] Old Version: [1.5.1.dev0]
+[2024-05-23 01:30:13] INFO root fetch - processPackages [torch-log-wmse-audio-quality]: Downloading https://files.pythonhosted.org/packages/d6/f5/94e3ec5856af96ba322ebad545e1f9f0fb6e5dd9e61df14b058f2ff3b302/torch_log_wmse_audio_quality-0.1.6.tar.gz
+[2024-05-23 01:30:13] INFO root fetch - processPackages [unstructured]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-23 01:30:13] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/1d/79/5b364615069e11437f7337cfd01067e91c2a9cdeea7b485710b0cf96b07a/pyerualjetwork-1.0.7.tar.gz
+[2024-05-23 01:30:13] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/7f/01/b69b449434dabf78342d4af729d55762f3014f5e6145c000c29c2d3e62e7/qsharp_jupyterlab-1.5.1.dev0-py3-none-any.whl
+[2024-05-23 01:30:13] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/da/4f/c829dd6a83988b2ea1ff0dde31ac812f4ab11cfe522b746f92778cadb0d5/qsharp-1.5.1.dev0-cp37-abi3-win_arm64.whl
+[2024-05-23 01:30:13] INFO root fetch - processPackages [torch-log-wmse-audio-quality]: Downloading https://files.pythonhosted.org/packages/6c/0a/539fc38f52dc42b8f3411bbb6edf7cf153310fe8c2605073b58b735ee10c/torch_log_wmse_audio_quality-0.1.7.tar.gz
+[2024-05-23 01:30:13] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/2b/07/65dbf266473566e0ec468de7b1dde0f34f9ec418de3f2fd0a36ec1c81a29/unstructured-0.9.2.tar.gz
+[2024-05-23 01:30:13] INFO root fetch - processPackages [torch-log-wmse-audio-quality]: executing diffoscope
+[2024-05-23 01:30:13] INFO root fetch - processPackages [torch-log-wmse-audio-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_log_wmse_audio_quality-0.1.6.tar.gz tmp/torch_log_wmse_audio_quality-0.1.7.tar.gz --markdown 20240523/t/torch-log-wmse-audio-quality/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-23 01:30:13] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/35/eb/011c7e5ddc45f2ecd9616eebe3cb3699d2ab5dcb4a5040ffa3cfa38145c8/pyerualjetwork-1.0.8.tar.gz
+[2024-05-23 01:30:13] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/c6/81/6dc83ce012d4e35e2ace6cfb3e62c34454238a9a383df635e8954d707b9f/qsharp_jupyterlab-1.5.2.dev0-py3-none-any.whl
+[2024-05-23 01:30:13] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 01:30:13] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.0.7.tar.gz tmp/pyerualjetwork-1.0.8.tar.gz --markdown 20240523/p/pyerualjetwork/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-23 01:30:13] INFO root fetch - processPackages [qsharp-jupyterlab]: executing diffoscope
+[2024-05-23 01:30:13] INFO root fetch - processPackages [qsharp-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_jupyterlab-1.5.1.dev0-py3-none-any.whl.zip tmp/qsharp_jupyterlab-1.5.2.dev0-py3-none-any.whl.zip --markdown 20240523/q/qsharp-jupyterlab/1.5.1.dev0-1.5.2.dev0/README.md --exclude *.pyd
+[2024-05-23 01:30:13] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/43/db/ac87f59647260b5f311ddefd31a90a32d4dc339964bb4939967e409e551f/qsharp-1.5.2.dev0-cp37-abi3-win_arm64.whl
+[2024-05-23 01:30:14] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/ac/a9/a2a4960862c51f378935fe68784e0e92c49da56872740acd70e6c10853e0/unstructured-0.9.3.tar.gz
+[2024-05-23 01:30:14] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2024-05-23 01:30:14] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.9.2.tar.gz tmp/unstructured-0.9.3.tar.gz --markdown 20240523/u/unstructured/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-23 01:30:14] INFO root fetch - processPackages [torch-log-wmse-audio-quality]: Remove: archive file [/home/abi/fetcher/tmp/torch_log_wmse_audio_quality-0.1.6.tar.gz]
+[2024-05-23 01:30:14] INFO root fetch - processPackages [torch-log-wmse-audio-quality]: Remove: archive file [/home/abi/fetcher/tmp/torch_log_wmse_audio_quality-0.1.7.tar.gz]
+[2024-05-23 01:30:14] INFO root fetch - main [MainThread]: End processing [torch-log-wmse-audio-quality]: success
+[2024-05-23 01:30:14] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.7.tar.gz]
+[2024-05-23 01:30:14] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.0.8.tar.gz]
+[2024-05-23 01:30:14] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 01:30:14] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.5.1.dev0-py3-none-any.whl.zip]
+[2024-05-23 01:30:14] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.5.2.dev0-py3-none-any.whl.zip]
+[2024-05-23 01:30:14] INFO root fetch - main [MainThread]: End processing [qsharp-jupyterlab]: success
+[2024-05-23 01:30:14] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2024-05-23 01:30:14] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-1.5.1.dev0-cp37-abi3-win_arm64.whl.zip tmp/qsharp-1.5.2.dev0-cp37-abi3-win_arm64.whl.zip --markdown 20240523/q/qsharp/1.5.1.dev0-1.5.2.dev0/README.md --exclude *.pyd
+[2024-05-23 01:30:15] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.5.1.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-23 01:30:15] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.5.2.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-23 01:30:15] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2024-05-23 01:30:15] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.2.tar.gz]
+[2024-05-23 01:30:15] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
+[2024-05-23 01:30:15] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2024-05-23 01:30:15] INFO root fetch - main [MainThread]: Store serial: [23334220]
