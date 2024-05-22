@@ -249,3 +249,42 @@
 [2024-05-23 00:10:16] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
 [2024-05-23 00:10:16] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2024-05-23 00:10:16] INFO root fetch - main [MainThread]: Store serial: [23333569]
+[2024-05-23 00:12:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333569]
+[2024-05-23 00:12:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 00:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sel700
+[2024-05-23 00:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-testplus
+[2024-05-23 00:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-stock
+[2024-05-23 00:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2024-05-23 00:12:25] INFO root fetch - processPackages [sel700]: New version: [0.2] Old Version: [0.1]
+[2024-05-23 00:12:25] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-23 00:12:25] INFO root fetch - processPackages [neon-skill-stock]: New version: [1.0.1a5] Old Version: [1.0.1a4]
+[2024-05-23 00:12:25] INFO root fetch - processPackages [mojo-testplus]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-23 00:12:25] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-23 00:12:25] INFO root fetch - processPackages [sel700]: Downloading https://files.pythonhosted.org/packages/3d/3b/4b2c2f88766c386ff2ace0b4f09ee4c7ddd378e17b4a9fe20da5434ac8f5/sel700-0.1.tar.gz
+[2024-05-23 00:12:25] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/69/0a/b97ed2f05ccdb953166f5d115c5fb67f38b1690483691edea11dd4aeed0b/neon-skill-stock-1.0.1a4.tar.gz
+[2024-05-23 00:12:25] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a5/fe/6ef403e4cd8937907cb1b6d2bfaee70af2ccb33355ae49346889ebd9d153/mojo_testplus-1.3.8.tar.gz
+[2024-05-23 00:12:25] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-23 00:12:25] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-23 00:12:25] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240523/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-23 00:12:25] INFO root fetch - processPackages [sel700]: Downloading https://files.pythonhosted.org/packages/67/c5/58ff1b5e2271eaa42782d4fd76040fca5c94973134a335ee5ffd7908d758/sel700-0.2.tar.gz
+[2024-05-23 00:12:25] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/3c/9d/6923744b62a924d5a83a56cee0e256398245c513e44655a2f46f16853ef1/neon-skill-stock-1.0.1a5.tar.gz
+[2024-05-23 00:12:26] INFO root fetch - processPackages [sel700]: executing diffoscope
+[2024-05-23 00:12:26] INFO root fetch - processPackages [sel700]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sel700-0.1.tar.gz tmp/sel700-0.2.tar.gz --markdown 20240523/s/sel700/0.1-0.2/README.md --exclude *.pyd
+[2024-05-23 00:12:26] INFO root fetch - processPackages [neon-skill-stock]: executing diffoscope
+[2024-05-23 00:12:26] INFO root fetch - processPackages [neon-skill-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-stock-1.0.1a4.tar.gz tmp/neon-skill-stock-1.0.1a5.tar.gz --markdown 20240523/n/neon-skill-stock/1.0.1a4-1.0.1a5/README.md --exclude *.pyd
+[2024-05-23 00:12:26] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a4/cd/894241650e47414136a3bf37ddbbef7907d3dc69c678f40c9716e3afbfd2/mojo_testplus-1.3.9.tar.gz
+[2024-05-23 00:12:26] INFO root fetch - processPackages [sel700]: Remove: archive file [/home/abi/fetcher/tmp/sel700-0.1.tar.gz]
+[2024-05-23 00:12:26] INFO root fetch - processPackages [sel700]: Remove: archive file [/home/abi/fetcher/tmp/sel700-0.2.tar.gz]
+[2024-05-23 00:12:26] INFO root fetch - main [MainThread]: End processing [sel700]: success
+[2024-05-23 00:12:26] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2024-05-23 00:12:26] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-1.3.8.tar.gz tmp/mojo_testplus-1.3.9.tar.gz --markdown 20240523/m/mojo-testplus/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-23 00:12:26] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-1.0.1a4.tar.gz]
+[2024-05-23 00:12:26] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-1.0.1a5.tar.gz]
+[2024-05-23 00:12:26] INFO root fetch - main [MainThread]: End processing [neon-skill-stock]: success
+[2024-05-23 00:12:26] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-23 00:12:26] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-23 00:12:26] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-23 00:12:27] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.8.tar.gz]
+[2024-05-23 00:12:27] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.9.tar.gz]
+[2024-05-23 00:12:27] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2024-05-23 00:12:27] INFO root fetch - main [MainThread]: Store serial: [23333581]
