@@ -1313,3 +1313,24 @@
 [2024-05-23 01:06:20] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
 [2024-05-23 01:06:20] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-23 01:06:20] INFO root fetch - main [MainThread]: Store serial: [23334024]
+[2024-05-23 01:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334024]
+[2024-05-23 01:08:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 01:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flwr-nightly
+[2024-05-23 01:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krixik
+[2024-05-23 01:08:29] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240521] Old Version: [1.9.0.dev20240520]
+[2024-05-23 01:08:29] INFO root fetch - processPackages [krixik]: New version: [1.1.17] Old Version: [1.1.16]
+[2024-05-23 01:08:29] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/a3/67/92da40659ca2110db4ffce9ca5d3215e9648e81024c07713317d092f8952/flwr_nightly-1.9.0.dev20240520.tar.gz
+[2024-05-23 01:08:29] INFO root fetch - processPackages [krixik]: Downloading https://files.pythonhosted.org/packages/e0/1a/e5290651e811fb6019f9fc8423b5bdf151fef9c346344cde02cc9a7f1d49/krixik-1.1.16.tar.gz
+[2024-05-23 01:08:29] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/e5/5f/360d8b214a5c31fffe194b52fac42c99754a6d0eb2e739e2559e60befd0a/flwr_nightly-1.9.0.dev20240521.tar.gz
+[2024-05-23 01:08:29] INFO root fetch - processPackages [krixik]: Downloading https://files.pythonhosted.org/packages/55/94/d683a5d57906ac2a333b62e657b4c970600aff585a11359d2cb66757d2ec/krixik-1.1.17.tar.gz
+[2024-05-23 01:08:29] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-23 01:08:29] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240520.tar.gz tmp/flwr_nightly-1.9.0.dev20240521.tar.gz --markdown 20240523/f/flwr-nightly/1.9.0.dev20240520-1.9.0.dev20240521/README.md --exclude *.pyd
+[2024-05-23 01:08:30] INFO root fetch - processPackages [krixik]: executing diffoscope
+[2024-05-23 01:08:30] INFO root fetch - processPackages [krixik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krixik-1.1.16.tar.gz tmp/krixik-1.1.17.tar.gz --markdown 20240523/k/krixik/1.1.16-1.1.17/README.md --exclude *.pyd
+[2024-05-23 01:08:31] INFO root fetch - processPackages [krixik]: Remove: archive file [/home/abi/fetcher/tmp/krixik-1.1.16.tar.gz]
+[2024-05-23 01:08:31] INFO root fetch - processPackages [krixik]: Remove: archive file [/home/abi/fetcher/tmp/krixik-1.1.17.tar.gz]
+[2024-05-23 01:08:31] INFO root fetch - main [MainThread]: End processing [krixik]: success
+[2024-05-23 01:08:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240520.tar.gz]
+[2024-05-23 01:08:31] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240521.tar.gz]
+[2024-05-23 01:08:31] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-23 01:08:31] INFO root fetch - main [MainThread]: Store serial: [23334030]
