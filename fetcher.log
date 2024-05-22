@@ -168,3 +168,84 @@
 [2024-05-23 00:08:03] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.3.0b0.tar.gz]
 [2024-05-23 00:08:03] INFO root fetch - main [MainThread]: End processing [opentrons-shared-data]: success
 [2024-05-23 00:08:03] INFO root fetch - main [MainThread]: Store serial: [23333518]
+[2024-05-23 00:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333518]
+[2024-05-23 00:10:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scale-egp
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foscat
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automethylML
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uv
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asyncflows
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intecomm-edc
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ob-metaflow-stubs
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-access-sdk
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clar-cloc
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alphaz-next
+[2024-05-23 00:10:12] INFO root fetch - processPackages [asyncflows]: New version: [0.1.3] Old Version: [0.0.0]
+[2024-05-23 00:10:12] INFO root fetch - processPackages [alphaz-next]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-23 00:10:12] INFO root fetch - processPackages [uv]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-23 00:10:12] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-23 00:10:12] INFO root fetch - processPackages [scale-egp]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-23 00:10:12] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/fb/9e/59894e48e2faec6df6f6799e7b691b4b0aa8b7ec16eeb7209152649e288a/alphaz-next-0.7.2.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ob-metaflow-stubs]: New version: [3.7] Old Version: [3.6]
+[2024-05-23 00:10:12] WARNING root fetch - processPackages [automethylML]: Skipping, unable to determine old version
+[2024-05-23 00:10:12] INFO root fetch - main [MainThread]: End processing [automethylML] error
+[2024-05-23 00:10:12] INFO root fetch - processPackages [foscat]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-23 00:10:12] WARNING root fetch - processPackages [clar-cloc]: Skipping, unable to determine old version
+[2024-05-23 00:10:12] INFO root fetch - main [MainThread]: End processing [clar-cloc] error
+[2024-05-23 00:10:12] INFO root fetch - processPackages [intecomm-edc]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 00:10:12] INFO root fetch - processPackages [asyncflows]: Downloading https://files.pythonhosted.org/packages/01/a6/d60d174c41d772cfcea9bce43b0ee07a4272ac1b04b8547036c550e54015/asyncflows-0.0.0.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/1e/67/f1be755af9510d405ecb77ff2064f510b5f8b7451f08f6a776c8e221f500/uv-0.2.0.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [scale-egp]: Downloading https://files.pythonhosted.org/packages/e4/b3/691d321c9a6ae5c7b2465a7d96f93861e39ba310a459c4a767b39aa4d0a6/scale_egp-1.1.7.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [ob-metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/da/94/79ba3a71757bc8cf51f7b32bb7c7350ecf49b7c0d962d91e9013c6529bf4/ob-metaflow-stubs-3.6.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/b6/1a/cff11416f3547c8dc9a5231634209d3692fac4d553dab54be2058eae0087/foscat-3.0.8.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/95/7e/91688931664f03b9e0b33b457b317a3c56b1a56f2296576c6566f791acb9/intecomm-edc-0.2.8.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [asyncflows]: Downloading https://files.pythonhosted.org/packages/83/d2/5d1e71b215bf670cfe268690092b94f121e423520b62261ea2d0e52ca92e/asyncflows-0.1.3.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/ce/5f/cf44b4fad43b380fd8ae79d16f872c6bcdca0156769d32e02b106f8cf0de/alphaz-next-0.7.3.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [asyncflows]: executing diffoscope
+[2024-05-23 00:10:12] INFO root fetch - processPackages [asyncflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncflows-0.0.0.tar.gz tmp/asyncflows-0.1.3.tar.gz --markdown 20240523/a/asyncflows/0.0.0-0.1.3/README.md --exclude *.pyd
+[2024-05-23 00:10:12] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-23 00:10:12] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.7.2.tar.gz tmp/alphaz-next-0.7.3.tar.gz --markdown 20240523/a/alphaz-next/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-23 00:10:12] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-23 00:10:12] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240523/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-23 00:10:12] INFO root fetch - processPackages [scale-egp]: Downloading https://files.pythonhosted.org/packages/e9/7b/af6f748be127ccf39d481ccdc1815e2499dfdeae37687647ca3ec72d5097/scale_egp-1.1.8.tar.gz
+[2024-05-23 00:10:12] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/34/9b/213b1c84de17e72f7440156a805691aebeaf9f948fa4aa95f3afcae5ea0b/uv-0.2.1.tar.gz
+[2024-05-23 00:10:13] INFO root fetch - processPackages [ob-metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/91/b6/03ff533fb02c25742164b173a4f2564f96788d975ea91d8168851130d787/ob-metaflow-stubs-3.7.tar.gz
+[2024-05-23 00:10:13] INFO root fetch - processPackages [scale-egp]: executing diffoscope
+[2024-05-23 00:10:13] INFO root fetch - processPackages [scale-egp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_egp-1.1.7.tar.gz tmp/scale_egp-1.1.8.tar.gz --markdown 20240523/s/scale-egp/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-23 00:10:13] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/42/3c/3ec0d9aa38fb2a3152ce79ba0f92a03372e73164626118a07121951ed317/foscat-3.0.9.tar.gz
+[2024-05-23 00:10:13] INFO root fetch - processPackages [uv]: executing diffoscope
+[2024-05-23 00:10:13] INFO root fetch - processPackages [uv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uv-0.2.0.tar.gz tmp/uv-0.2.1.tar.gz --markdown 20240523/u/uv/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-23 00:10:13] INFO root fetch - processPackages [ob-metaflow-stubs]: executing diffoscope
+[2024-05-23 00:10:13] INFO root fetch - processPackages [ob-metaflow-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-stubs-3.6.tar.gz tmp/ob-metaflow-stubs-3.7.tar.gz --markdown 20240523/o/ob-metaflow-stubs/3.6-3.7/README.md --exclude *.pyd
+[2024-05-23 00:10:13] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2024-05-23 00:10:13] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-3.0.8.tar.gz tmp/foscat-3.0.9.tar.gz --markdown 20240523/f/foscat/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-23 00:10:13] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/d8/f7/da7970f16a11303f171ea066f66e06b546fa84ee58cd6cfd9da33905321f/intecomm-edc-0.2.9.tar.gz
+[2024-05-23 00:10:13] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2024-05-23 00:10:13] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.2.8.tar.gz tmp/intecomm-edc-0.2.9.tar.gz --markdown 20240523/i/intecomm-edc/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 00:10:13] INFO root fetch - processPackages [asyncflows]: Remove: archive file [/home/abi/fetcher/tmp/asyncflows-0.0.0.tar.gz]
+[2024-05-23 00:10:13] INFO root fetch - processPackages [asyncflows]: Remove: archive file [/home/abi/fetcher/tmp/asyncflows-0.1.3.tar.gz]
+[2024-05-23 00:10:13] INFO root fetch - main [MainThread]: End processing [asyncflows]: success
+[2024-05-23 00:10:13] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.2.tar.gz]
+[2024-05-23 00:10:13] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.tar.gz]
+[2024-05-23 00:10:13] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-23 00:10:14] INFO root fetch - processPackages [scale-egp]: Remove: archive file [/home/abi/fetcher/tmp/scale_egp-1.1.7.tar.gz]
+[2024-05-23 00:10:14] INFO root fetch - processPackages [scale-egp]: Remove: archive file [/home/abi/fetcher/tmp/scale_egp-1.1.8.tar.gz]
+[2024-05-23 00:10:14] INFO root fetch - main [MainThread]: End processing [scale-egp]: success
+[2024-05-23 00:10:14] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-23 00:10:14] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-23 00:10:14] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-23 00:10:14] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.8.tar.gz]
+[2024-05-23 00:10:14] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.9.tar.gz]
+[2024-05-23 00:10:14] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2024-05-23 00:10:14] INFO root fetch - processPackages [ob-metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-stubs-3.6.tar.gz]
+[2024-05-23 00:10:14] INFO root fetch - processPackages [ob-metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-stubs-3.7.tar.gz]
+[2024-05-23 00:10:14] INFO root fetch - main [MainThread]: End processing [ob-metaflow-stubs]: success
+[2024-05-23 00:10:15] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.2.0.tar.gz]
+[2024-05-23 00:10:15] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.2.1.tar.gz]
+[2024-05-23 00:10:15] INFO root fetch - main [MainThread]: End processing [uv]: success
+[2024-05-23 00:10:16] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.8.tar.gz]
+[2024-05-23 00:10:16] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
+[2024-05-23 00:10:16] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2024-05-23 00:10:16] INFO root fetch - main [MainThread]: Store serial: [23333569]
