@@ -941,3 +941,60 @@
 [2024-05-23 00:45:18] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240522224419-py3-none-any.whl.zip]
 [2024-05-23 00:45:18] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
 [2024-05-23 00:45:18] INFO root fetch - main [MainThread]: Store serial: [23333829]
+[2024-05-23 00:47:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333829]
+[2024-05-23 00:47:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 00:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-ionq
+[2024-05-23 00:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: termpandas
+[2024-05-23 00:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-core
+[2024-05-23 00:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq
+[2024-05-23 00:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-infraflow-cdk
+[2024-05-23 00:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-build-cmake
+[2024-05-23 00:47:27] INFO root fetch - processPackages [py-infraflow-cdk]: New version: [0.1.9.9.1.3] Old Version: [0.1.9.9.1.2]
+[2024-05-23 00:47:27] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/a7/8b/2041ce1b1961c1d309f1e43b59659e71afa923262f18487e540c998b3c1f/py_infraflow_cdk-0.1.9.9.1.2.tar.gz
+[2024-05-23 00:47:27] INFO root fetch - processPackages [termpandas]: New version: [0.2.1] Old Version: [0.1.0]
+[2024-05-23 00:47:27] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240522224419] Old Version: [1.4.0.dev20240521180055]
+[2024-05-23 00:47:27] INFO root fetch - processPackages [py-build-cmake]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2024-05-23 00:47:27] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240522224419] Old Version: [1.4.0.dev20240521180055]
+[2024-05-23 00:47:27] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240522224419] Old Version: [1.4.0.dev20240521180055]
+[2024-05-23 00:47:27] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/af/76/dfcdb5a5fa0da906d60eab4844505a59c757e996be3ae6d9080c61f07dc4/cirq-1.4.0.dev20240521180055-py3-none-any.whl
+[2024-05-23 00:47:28] INFO root fetch - processPackages [termpandas]: Downloading https://files.pythonhosted.org/packages/1e/12/7773277c4b3c50e9733c3e7f2e62f5da6dd9456f3975907e98dca69fbcbd/termpandas-0.1.0.tar.gz
+[2024-05-23 00:47:28] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/bb/7d/c35deefab7dc05ecbfeee3e349e95a27bb2b5679e145e591fb4629de55dd/py_infraflow_cdk-0.1.9.9.1.3.tar.gz
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/80/9f/ed5b9c8609c31d5a2bea1b5c4c048836b3d6261429c32b53c229149bc884/cirq_core-1.4.0.dev20240521180055-py3-none-any.whl
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/9a/ae/84ef885a1d0b67db38128c50cda61f946bddce166c9f1f5ad146273c19e4/cirq_ionq-1.4.0.dev20240521180055-py3-none-any.whl
+[2024-05-23 00:47:28] INFO root fetch - processPackages [py-build-cmake]: Downloading https://files.pythonhosted.org/packages/ec/ff/8232ea8fca6a450503bc983418211114078afe2017b459be2b54f9103f37/py_build_cmake-0.2.0a8.tar.gz
+[2024-05-23 00:47:28] INFO root fetch - processPackages [py-infraflow-cdk]: executing diffoscope
+[2024-05-23 00:47:28] INFO root fetch - processPackages [py-infraflow-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_infraflow_cdk-0.1.9.9.1.2.tar.gz tmp/py_infraflow_cdk-0.1.9.9.1.3.tar.gz --markdown 20240523/p/py-infraflow-cdk/0.1.9.9.1.2-0.1.9.9.1.3/README.md --exclude *.pyd
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/5e/17/0d323c73ced651f4d1f4df36b8c22ad2c1121c044dee232559600a0491a1/cirq-1.4.0.dev20240522224419-py3-none-any.whl
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240521180055-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240522224419-py3-none-any.whl.zip --markdown 20240523/c/cirq/1.4.0.dev20240521180055-1.4.0.dev20240522224419/README.md --exclude *.pyd
+[2024-05-23 00:47:28] INFO root fetch - processPackages [termpandas]: Downloading https://files.pythonhosted.org/packages/b9/4b/dc4d9f9ddfbb976ee066bbf13913e28f2b355d879022d1e9e36234d7b3fc/termpandas-0.2.1.tar.gz
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/16/5d/9fabd954de5b07a65178b58ca8d73b26f62496c2b7d491be845fb0ae95cb/cirq_ionq-1.4.0.dev20240522224419-py3-none-any.whl
+[2024-05-23 00:47:28] INFO root fetch - processPackages [py-build-cmake]: Downloading https://files.pythonhosted.org/packages/44/88/0a825be851610eb89c06bf9234316c26716aafa3e55746cf631aa2d64eae/py_build_cmake-0.2.0a9.tar.gz
+[2024-05-23 00:47:28] INFO root fetch - processPackages [termpandas]: executing diffoscope
+[2024-05-23 00:47:28] INFO root fetch - processPackages [termpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termpandas-0.1.0.tar.gz tmp/termpandas-0.2.1.tar.gz --markdown 20240523/t/termpandas/0.1.0-0.2.1/README.md --exclude *.pyd
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240521180055-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240522224419-py3-none-any.whl.zip --markdown 20240523/c/cirq-ionq/1.4.0.dev20240521180055-1.4.0.dev20240522224419/README.md --exclude *.pyd
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/7f/9a/5aaacac827df0f679cd35b2853ef26ca503e9734be1da8787ad58d5a7b26/cirq_core-1.4.0.dev20240522224419-py3-none-any.whl
+[2024-05-23 00:47:28] INFO root fetch - processPackages [py-build-cmake]: executing diffoscope
+[2024-05-23 00:47:28] INFO root fetch - processPackages [py-build-cmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_build_cmake-0.2.0a8.tar.gz tmp/py_build_cmake-0.2.0a9.tar.gz --markdown 20240523/p/py-build-cmake/0.2.0a8-0.2.0a9/README.md --exclude *.pyd
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-05-23 00:47:28] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240521180055-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240522224419-py3-none-any.whl.zip --markdown 20240523/c/cirq-core/1.4.0.dev20240521180055-1.4.0.dev20240522224419/README.md --exclude *.pyd
+[2024-05-23 00:47:29] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.1.2.tar.gz]
+[2024-05-23 00:47:29] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.1.3.tar.gz]
+[2024-05-23 00:47:29] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
+[2024-05-23 00:47:29] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240521180055-py3-none-any.whl.zip]
+[2024-05-23 00:47:29] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240522224419-py3-none-any.whl.zip]
+[2024-05-23 00:47:29] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-05-23 00:47:29] INFO root fetch - processPackages [termpandas]: Remove: archive file [/home/abi/fetcher/tmp/termpandas-0.1.0.tar.gz]
+[2024-05-23 00:47:29] INFO root fetch - processPackages [termpandas]: Remove: archive file [/home/abi/fetcher/tmp/termpandas-0.2.1.tar.gz]
+[2024-05-23 00:47:29] INFO root fetch - main [MainThread]: End processing [termpandas]: success
+[2024-05-23 00:47:29] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240521180055-py3-none-any.whl.zip]
+[2024-05-23 00:47:29] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240522224419-py3-none-any.whl.zip]
+[2024-05-23 00:47:29] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-05-23 00:47:29] INFO root fetch - processPackages [py-build-cmake]: Remove: archive file [/home/abi/fetcher/tmp/py_build_cmake-0.2.0a8.tar.gz]
+[2024-05-23 00:47:29] INFO root fetch - processPackages [py-build-cmake]: Remove: archive file [/home/abi/fetcher/tmp/py_build_cmake-0.2.0a9.tar.gz]
+[2024-05-23 00:47:29] INFO root fetch - main [MainThread]: End processing [py-build-cmake]: success
+[2024-05-23 00:47:32] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240521180055-py3-none-any.whl.zip]
+[2024-05-23 00:47:32] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240522224419-py3-none-any.whl.zip]
+[2024-05-23 00:47:32] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-05-23 00:47:32] INFO root fetch - main [MainThread]: Store serial: [23333855]
