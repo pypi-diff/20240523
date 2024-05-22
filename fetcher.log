@@ -1373,3 +1373,54 @@
 [2024-05-23 01:10:42] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
 [2024-05-23 01:10:42] INFO root fetch - main [MainThread]: End processing [nuon]: success
 [2024-05-23 01:10:42] INFO root fetch - main [MainThread]: Store serial: [23334043]
+[2024-05-23 01:12:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334043]
+[2024-05-23 01:12:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 01:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vocabulary-quiz
+[2024-05-23 01:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tritondse
+[2024-05-23 01:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MobileInventoryCLI
+[2024-05-23 01:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycnet-audio
+[2024-05-23 01:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinx_design
+[2024-05-23 01:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlab.py
+[2024-05-23 01:12:51] INFO root fetch - processPackages [mlab.py]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-23 01:12:51] INFO root fetch - processPackages [vocabulary-quiz]: New version: [0.2] Old Version: [0.1]
+[2024-05-23 01:12:51] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/6f/54/f4fe22387d26883544bfbe5ad7d8b535064c9bf06e00eeefce91030aad9d/mlab.py-0.2.1.tar.gz
+[2024-05-23 01:12:51] ERROR root fetch - processPackages [pycnet-audio]: Unable to get metadata: No such project 'pycnet-audio'
+[2024-05-23 01:12:51] INFO root fetch - main [MainThread]: End processing [pycnet-audio] error
+[2024-05-23 01:12:51] INFO root fetch - processPackages [tritondse]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 01:12:51] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-23 01:12:51] INFO root fetch - processPackages [sphinx_design]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-23 01:12:51] INFO root fetch - processPackages [vocabulary-quiz]: Downloading https://files.pythonhosted.org/packages/6f/7f/a24aa869c4aae6190362cec485bbbcbf4a370a32c7c0935ce3e4a756d5b1/vocabulary_quiz-0.1.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/03/2c/7b05edb44b3774c10607c08cab6a9ed89b28b8354020b6694ea8ad402bad/mlab_py-0.2.2.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [sphinx_design]: Downloading https://files.pythonhosted.org/packages/fd/d0/62a7cee178d30f7217c4badea17eeca020801c0053773098d9ff65636a60/sphinx_design-0.5.0.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/c0/56/b9f51b6bcced80c995cfc398f39e268ed88a2a829228f5e517839fc038bc/tritondse-0.1.8.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [mlab.py]: executing diffoscope
+[2024-05-23 01:12:51] INFO root fetch - processPackages [mlab.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlab.py-0.2.1.tar.gz tmp/mlab_py-0.2.2.tar.gz --markdown 20240523/m/mlab.py/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-23 01:12:51] INFO root fetch - processPackages [vocabulary-quiz]: Downloading https://files.pythonhosted.org/packages/a5/77/b483ad9204e40d7ee2445376741b93f87418688dd133226403601b866ef7/vocabulary_quiz-0.2.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [vocabulary-quiz]: executing diffoscope
+[2024-05-23 01:12:51] INFO root fetch - processPackages [vocabulary-quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocabulary_quiz-0.1.tar.gz tmp/vocabulary_quiz-0.2.tar.gz --markdown 20240523/v/vocabulary-quiz/0.1-0.2/README.md --exclude *.pyd
+[2024-05-23 01:12:51] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/7a/58/99b32bc1b8fb80bf95c55b32ce184b34c1632eebdcf35b737952153d07d0/tritondse-0.1.9.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [sphinx_design]: Downloading https://files.pythonhosted.org/packages/ec/2b/fdcfecad13079cc5c620b9ed380dc4b29f02cff69a1189057da0909e25ef/sphinx_design-0.6.0.tar.gz
+[2024-05-23 01:12:51] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab.py-0.2.1.tar.gz]
+[2024-05-23 01:12:51] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.2.2.tar.gz]
+[2024-05-23 01:12:51] INFO root fetch - main [MainThread]: End processing [mlab.py]: success
+[2024-05-23 01:12:51] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-23 01:12:51] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240523/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-23 01:12:52] INFO root fetch - processPackages [tritondse]: executing diffoscope
+[2024-05-23 01:12:52] INFO root fetch - processPackages [tritondse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritondse-0.1.8.tar.gz tmp/tritondse-0.1.9.tar.gz --markdown 20240523/t/tritondse/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 01:12:52] INFO root fetch - processPackages [sphinx_design]: executing diffoscope
+[2024-05-23 01:12:52] INFO root fetch - processPackages [sphinx_design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_design-0.5.0.tar.gz tmp/sphinx_design-0.6.0.tar.gz --markdown 20240523/s/sphinx_design/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-23 01:12:52] INFO root fetch - processPackages [vocabulary-quiz]: Remove: archive file [/home/abi/fetcher/tmp/vocabulary_quiz-0.1.tar.gz]
+[2024-05-23 01:12:52] INFO root fetch - processPackages [vocabulary-quiz]: Remove: archive file [/home/abi/fetcher/tmp/vocabulary_quiz-0.2.tar.gz]
+[2024-05-23 01:12:52] INFO root fetch - main [MainThread]: End processing [vocabulary-quiz]: success
+[2024-05-23 01:12:52] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-05-23 01:12:52] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-05-23 01:12:52] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-23 01:12:52] INFO root fetch - processPackages [tritondse]: Remove: archive file [/home/abi/fetcher/tmp/tritondse-0.1.8.tar.gz]
+[2024-05-23 01:12:52] INFO root fetch - processPackages [tritondse]: Remove: archive file [/home/abi/fetcher/tmp/tritondse-0.1.9.tar.gz]
+[2024-05-23 01:12:52] INFO root fetch - main [MainThread]: End processing [tritondse]: success
+[2024-05-23 01:12:53] INFO root fetch - processPackages [sphinx_design]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_design-0.5.0.tar.gz]
+[2024-05-23 01:12:53] INFO root fetch - processPackages [sphinx_design]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_design-0.6.0.tar.gz]
+[2024-05-23 01:12:53] INFO root fetch - main [MainThread]: End processing [sphinx_design]: success
+[2024-05-23 01:12:53] INFO root fetch - main [MainThread]: Store serial: [23334110]
