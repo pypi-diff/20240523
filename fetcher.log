@@ -1710,3 +1710,51 @@
 [2024-05-23 01:32:26] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.9.tar.gz]
 [2024-05-23 01:32:26] INFO root fetch - main [MainThread]: End processing [kaizen-cloudcode]: success
 [2024-05-23 01:32:26] INFO root fetch - main [MainThread]: Store serial: [23334232]
+[2024-05-23 01:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334232]
+[2024-05-23 01:34:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 01:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaizen-cloudcode
+[2024-05-23 01:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatchat
+[2024-05-23 01:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vocabulary-quiz
+[2024-05-23 01:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-sphgeom
+[2024-05-23 01:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yt-dlp
+[2024-05-23 01:34:34] INFO root fetch - processPackages [kaizen-cloudcode]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 01:34:34] INFO root fetch - processPackages [chatchat]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 01:34:34] INFO root fetch - processPackages [vocabulary-quiz]: New version: [0.4] Old Version: [0.3]
+[2024-05-23 01:34:34] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/f1/55/f80272be3e1648104bf08d9742ea6432a688a9e6042c034220d53fe3eebe/kaizen_cloudcode-0.1.8.tar.gz
+[2024-05-23 01:34:34] INFO root fetch - processPackages [vocabulary-quiz]: Downloading https://files.pythonhosted.org/packages/29/17/669469a6667d5b60acd9a62a42d6f89c87184e622aab98b3b9094084c013/vocabulary_quiz-0.3.tar.gz
+[2024-05-23 01:34:34] INFO root fetch - processPackages [chatchat]: Downloading https://files.pythonhosted.org/packages/47/20/57de1221457ee624c0e7268639a25610015fb7d3287eb19f05e029104d0b/chatchat-0.0.8.tar.gz
+[2024-05-23 01:34:35] INFO root fetch - processPackages [lsst-sphgeom]: New version: [27.2024.2001] Old Version: [27.2024.2000]
+[2024-05-23 01:34:35] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/e4/d9/2c4a647ea9b29da3866ad33e2f70daddb22b06068d121a2e48e92d9a5b18/kaizen_cloudcode-0.1.9.tar.gz
+[2024-05-23 01:34:35] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.8.232715.dev0] Old Version: [2024.5.5.232701.dev0]
+[2024-05-23 01:34:35] INFO root fetch - processPackages [kaizen-cloudcode]: executing diffoscope
+[2024-05-23 01:34:35] INFO root fetch - processPackages [kaizen-cloudcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaizen_cloudcode-0.1.8.tar.gz tmp/kaizen_cloudcode-0.1.9.tar.gz --markdown 20240523/k/kaizen-cloudcode/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 01:34:35] INFO root fetch - processPackages [vocabulary-quiz]: Downloading https://files.pythonhosted.org/packages/6f/1d/5dcc7a2976cb43a7704b1caf151e0969001213aac2a9ce89dfd2620d375f/vocabulary_quiz-0.4.tar.gz
+[2024-05-23 01:34:35] INFO root fetch - processPackages [chatchat]: Downloading https://files.pythonhosted.org/packages/cb/2b/ea73555010ee1ccf1782a1ae5c3a010b711d4425ed23242f0f736fb119af/chatchat-0.0.9.tar.gz
+[2024-05-23 01:34:35] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/94/8e/5c4057787bc78d3d2f776301fe1ca922ef2e9e8fbcbb32bcf6b6b02e634a/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-23 01:34:35] INFO root fetch - processPackages [vocabulary-quiz]: executing diffoscope
+[2024-05-23 01:34:35] INFO root fetch - processPackages [vocabulary-quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocabulary_quiz-0.3.tar.gz tmp/vocabulary_quiz-0.4.tar.gz --markdown 20240523/v/vocabulary-quiz/0.3-0.4/README.md --exclude *.pyd
+[2024-05-23 01:34:35] INFO root fetch - processPackages [chatchat]: executing diffoscope
+[2024-05-23 01:34:35] INFO root fetch - processPackages [chatchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatchat-0.0.8.tar.gz tmp/chatchat-0.0.9.tar.gz --markdown 20240523/c/chatchat/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 01:34:35] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/84/b9/776c1dd6af3d11b008b3d15993bd9675fea67e86f7b78a1dac88febb9fcf/yt_dlp-2024.5.5.232701.dev0.tar.gz
+[2024-05-23 01:34:35] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/96/e4/26d58865f7a54c6fa7e3c9f8f5fc34a1a4dfff0438e2e9784cdeee9a0fe4/lsst_sphgeom-27.2024.2001-cp311-cp311-macosx_10_9_x86_64.whl
+[2024-05-23 01:34:35] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.8.tar.gz]
+[2024-05-23 01:34:35] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.9.tar.gz]
+[2024-05-23 01:34:35] INFO root fetch - main [MainThread]: End processing [kaizen-cloudcode]: success
+[2024-05-23 01:34:36] INFO root fetch - processPackages [lsst-sphgeom]: executing diffoscope
+[2024-05-23 01:34:36] INFO root fetch - processPackages [lsst-sphgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl.zip tmp/lsst_sphgeom-27.2024.2001-cp311-cp311-macosx_10_9_x86_64.whl.zip --markdown 20240523/l/lsst-sphgeom/27.2024.2000-27.2024.2001/README.md --exclude *.pyd
+[2024-05-23 01:34:36] INFO root fetch - processPackages [vocabulary-quiz]: Remove: archive file [/home/abi/fetcher/tmp/vocabulary_quiz-0.3.tar.gz]
+[2024-05-23 01:34:36] INFO root fetch - processPackages [vocabulary-quiz]: Remove: archive file [/home/abi/fetcher/tmp/vocabulary_quiz-0.4.tar.gz]
+[2024-05-23 01:34:36] INFO root fetch - main [MainThread]: End processing [vocabulary-quiz]: success
+[2024-05-23 01:34:36] INFO root fetch - processPackages [chatchat]: Remove: archive file [/home/abi/fetcher/tmp/chatchat-0.0.8.tar.gz]
+[2024-05-23 01:34:36] INFO root fetch - processPackages [chatchat]: Remove: archive file [/home/abi/fetcher/tmp/chatchat-0.0.9.tar.gz]
+[2024-05-23 01:34:36] INFO root fetch - main [MainThread]: End processing [chatchat]: success
+[2024-05-23 01:34:36] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/37/4d7e7b1d095d515aef0e3e9af758d0dc33fceebfe46ebce02a1a240d274c/yt_dlp-2024.5.8.232715.dev0.tar.gz
+[2024-05-23 01:34:36] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-23 01:34:36] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz --markdown 20240523/y/yt-dlp/2024.5.5.232701.dev0-2024.5.8.232715.dev0/README.md --exclude *.pyd
+[2024-05-23 01:34:36] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-23 01:34:36] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2001-cp311-cp311-macosx_10_9_x86_64.whl.zip]
+[2024-05-23 01:34:36] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
+[2024-05-23 01:34:41] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz]
+[2024-05-23 01:34:41] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
+[2024-05-23 01:34:41] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-23 01:34:41] INFO root fetch - main [MainThread]: Store serial: [23334251]
