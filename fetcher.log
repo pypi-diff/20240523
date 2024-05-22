@@ -1845,3 +1845,15 @@
 [2024-05-23 01:42:07] INFO root fetch - processPackages [rf-survey]: Remove: archive file [/home/abi/fetcher/tmp/rf_survey-0.1.tar.gz]
 [2024-05-23 01:42:07] INFO root fetch - main [MainThread]: End processing [rf-survey]: success
 [2024-05-23 01:42:07] INFO root fetch - main [MainThread]: Store serial: [23334336]
+[2024-05-23 01:44:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334336]
+[2024-05-23 01:44:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 01:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seeq
+[2024-05-23 01:44:16] INFO root fetch - processPackages [seeq]: New version: [65.0.2] Old Version: [65.0.1]
+[2024-05-23 01:44:16] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/82/67/c8293207bbe83feb36a9cc3e071d26536090b704cbf3b95eba349ef6af2c/seeq-65.0.1.tar.gz
+[2024-05-23 01:44:16] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/3e/dd/5a21a3b1be45b385c9fced19ff236c36c2a4e723e1a7f2a993fe4a9248ac/seeq-65.0.2.tar.gz
+[2024-05-23 01:44:17] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-05-23 01:44:17] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-65.0.1.tar.gz tmp/seeq-65.0.2.tar.gz --markdown 20240523/s/seeq/65.0.1-65.0.2/README.md --exclude *.pyd
+[2024-05-23 01:44:22] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.1.tar.gz]
+[2024-05-23 01:44:22] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.2.tar.gz]
+[2024-05-23 01:44:22] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-05-23 01:44:22] INFO root fetch - main [MainThread]: Store serial: [23334339]
