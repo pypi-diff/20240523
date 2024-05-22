@@ -788,3 +788,45 @@
 [2024-05-23 00:40:56] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-23 00:40:56] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-23 00:40:56] INFO root fetch - main [MainThread]: Store serial: [23333785]
+[2024-05-23 00:43:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333785]
+[2024-05-23 00:43:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databutton
+[2024-05-23 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-testing
+[2024-05-23 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rocm-docs-core
+[2024-05-23 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: force-kwargs
+[2024-05-23 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blar-graph
+[2024-05-23 00:43:05] WARNING root fetch - processPackages [force-kwargs]: Skipping, unable to determine old version
+[2024-05-23 00:43:05] INFO root fetch - main [MainThread]: End processing [force-kwargs] error
+[2024-05-23 00:43:05] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 00:43:05] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-23 00:43:05] INFO root fetch - processPackages [blar-graph]: New version: [0.0.9a0] Old Version: [0.0.8]
+[2024-05-23 00:43:05] INFO root fetch - processPackages [rocm-docs-core]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-23 00:43:05] INFO root fetch - processPackages [databutton]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-23 00:43:05] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/43/c9/222901972a41b1e279d8429d4441be683af4bee8ec7b3181bef2c5079833/blar_graph-0.0.8.tar.gz
+[2024-05-23 00:43:05] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/b4/37/3f0248087f6c8dabe87a13b4b3157c6cd350f598982a76fa6fa32437ece1/rocm_docs_core-1.1.2.tar.gz
+[2024-05-23 00:43:05] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-23 00:43:05] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/97/e4/e81aa45e6614cc27e77afdc05bda0df053f47af67b7f10dd3fa7e90977bf/databutton-0.9.1.tar.gz
+[2024-05-23 00:43:05] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-23 00:43:05] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240523/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 00:43:05] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/1d/ed/d05270d9939f1168d4cd9cef98cf914164b71fdce1d378a959f3f946fa16/blar_graph-0.0.9a0.tar.gz
+[2024-05-23 00:43:05] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/5c/59/3ecc3881c8c0088b35a444d0208f992442d429068966d08be417ede43a72/databutton-0.9.2.tar.gz
+[2024-05-23 00:43:05] INFO root fetch - processPackages [blar-graph]: executing diffoscope
+[2024-05-23 00:43:05] INFO root fetch - processPackages [blar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blar_graph-0.0.8.tar.gz tmp/blar_graph-0.0.9a0.tar.gz --markdown 20240523/b/blar-graph/0.0.8-0.0.9a0/README.md --exclude *.pyd
+[2024-05-23 00:43:06] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/df/cc/749ea04c32a8d73a1bd0d463ea09ec2153257317fc55666fcb7c3368cdac/rocm_docs_core-1.1.3.tar.gz
+[2024-05-23 00:43:06] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2024-05-23 00:43:06] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm_docs_core-1.1.2.tar.gz tmp/rocm_docs_core-1.1.3.tar.gz --markdown 20240523/r/rocm-docs-core/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-23 00:43:06] INFO root fetch - processPackages [databutton]: executing diffoscope
+[2024-05-23 00:43:06] INFO root fetch - processPackages [databutton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databutton-0.9.1.tar.gz tmp/databutton-0.9.2.tar.gz --markdown 20240523/d/databutton/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-23 00:43:06] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.8.tar.gz]
+[2024-05-23 00:43:06] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.9a0.tar.gz]
+[2024-05-23 00:43:06] INFO root fetch - main [MainThread]: End processing [blar-graph]: success
+[2024-05-23 00:43:06] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.1.tar.gz]
+[2024-05-23 00:43:06] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.2.tar.gz]
+[2024-05-23 00:43:06] INFO root fetch - main [MainThread]: End processing [databutton]: success
+[2024-05-23 00:43:06] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-23 00:43:06] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-23 00:43:06] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-23 00:43:07] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm_docs_core-1.1.2.tar.gz]
+[2024-05-23 00:43:07] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm_docs_core-1.1.3.tar.gz]
+[2024-05-23 00:43:07] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2024-05-23 00:43:07] INFO root fetch - main [MainThread]: Store serial: [23333800]
