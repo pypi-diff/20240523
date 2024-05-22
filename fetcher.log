@@ -1265,3 +1265,51 @@
 [2024-05-23 01:04:05] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-05-23 01:04:05] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-05-23 01:04:05] INFO root fetch - main [MainThread]: Store serial: [23334009]
+[2024-05-23 01:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334009]
+[2024-05-23 01:06:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 01:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: virtool-core
+[2024-05-23 01:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2024-05-23 01:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptbench
+[2024-05-23 01:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arize
+[2024-05-23 01:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2024-05-23 01:06:15] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240521] Old Version: [0.7.52b20240520]
+[2024-05-23 01:06:15] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-23 01:06:15] INFO root fetch - processPackages [promptbench]: New version: [0.0.3] Old Version: [0.0.2a0]
+[2024-05-23 01:06:15] INFO root fetch - processPackages [virtool-core]: New version: [9.0.0] Old Version: [8.0.2]
+[2024-05-23 01:06:15] INFO root fetch - processPackages [arize]: New version: [7.9.0] Old Version: [7.8.1]
+[2024-05-23 01:06:15] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/2d/ec/fd2df81c407c0be5efb9748f24edf24be6ad02063f2fced6bb730f7471b9/tmnt-0.7.52b20240520.tar.gz
+[2024-05-23 01:06:15] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-23 01:06:15] INFO root fetch - processPackages [promptbench]: Downloading https://files.pythonhosted.org/packages/42/df/e6f86de2db92f16165dcd0d5cd41652f7119cb95cfc9e89ed1c3e4db28e4/promptbench-0.0.2a0.tar.gz
+[2024-05-23 01:06:15] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/03/97/34e75cb834adecd6742750fa55ed1c68b53add34bac2112f9969a38765d1/arize-7.8.1.tar.gz
+[2024-05-23 01:06:15] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/e7/57/3774ae6f92501b347c6496ad5706815c1e122e72d229938f2513380876ed/tmnt-0.7.52b20240521.tar.gz
+[2024-05-23 01:06:15] INFO root fetch - processPackages [virtool-core]: Downloading https://files.pythonhosted.org/packages/c7/c0/7c2c0149c81c463f1d508e3aef90977c422fe5da9c6ee0a932ca4cd534e9/virtool_core-8.0.2.tar.gz
+[2024-05-23 01:06:16] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-23 01:06:16] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-23 01:06:16] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240520.tar.gz tmp/tmnt-0.7.52b20240521.tar.gz --markdown 20240523/t/tmnt/0.7.52b20240520-0.7.52b20240521/README.md --exclude *.pyd
+[2024-05-23 01:06:16] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-23 01:06:16] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240523/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-23 01:06:16] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/83/9b/35322d4ed4c91eb53c132a9a502c3f84bb80149c9770f18d60e49b8f4e30/arize-7.9.0.tar.gz
+[2024-05-23 01:06:16] INFO root fetch - processPackages [promptbench]: Downloading https://files.pythonhosted.org/packages/04/9f/b8115e9c629d090a8739b9ee9e1adde3a5327f7f7b1f667d0b39e82f3392/promptbench-0.0.3.tar.gz
+[2024-05-23 01:06:16] INFO root fetch - processPackages [virtool-core]: Downloading https://files.pythonhosted.org/packages/fe/37/ea53d83e4b38d8b05206a6814977083f141aa5cfb8688fb4232311f9f599/virtool_core-9.0.0.tar.gz
+[2024-05-23 01:06:16] INFO root fetch - processPackages [arize]: executing diffoscope
+[2024-05-23 01:06:16] INFO root fetch - processPackages [arize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize-7.8.1.tar.gz tmp/arize-7.9.0.tar.gz --markdown 20240523/a/arize/7.8.1-7.9.0/README.md --exclude *.pyd
+[2024-05-23 01:06:16] INFO root fetch - processPackages [promptbench]: executing diffoscope
+[2024-05-23 01:06:16] INFO root fetch - processPackages [promptbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptbench-0.0.2a0.tar.gz tmp/promptbench-0.0.3.tar.gz --markdown 20240523/p/promptbench/0.0.2a0-0.0.3/README.md --exclude *.pyd
+[2024-05-23 01:06:16] INFO root fetch - processPackages [virtool-core]: executing diffoscope
+[2024-05-23 01:06:16] INFO root fetch - processPackages [virtool-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtool_core-8.0.2.tar.gz tmp/virtool_core-9.0.0.tar.gz --markdown 20240523/v/virtool-core/8.0.2-9.0.0/README.md --exclude *.pyd
+[2024-05-23 01:06:16] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240520.tar.gz]
+[2024-05-23 01:06:16] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240521.tar.gz]
+[2024-05-23 01:06:16] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-23 01:06:17] INFO root fetch - processPackages [promptbench]: Remove: archive file [/home/abi/fetcher/tmp/promptbench-0.0.2a0.tar.gz]
+[2024-05-23 01:06:17] INFO root fetch - processPackages [promptbench]: Remove: archive file [/home/abi/fetcher/tmp/promptbench-0.0.3.tar.gz]
+[2024-05-23 01:06:17] INFO root fetch - main [MainThread]: End processing [promptbench]: success
+[2024-05-23 01:06:17] INFO root fetch - processPackages [virtool-core]: Remove: archive file [/home/abi/fetcher/tmp/virtool_core-8.0.2.tar.gz]
+[2024-05-23 01:06:17] INFO root fetch - processPackages [virtool-core]: Remove: archive file [/home/abi/fetcher/tmp/virtool_core-9.0.0.tar.gz]
+[2024-05-23 01:06:17] INFO root fetch - main [MainThread]: End processing [virtool-core]: success
+[2024-05-23 01:06:17] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.8.1.tar.gz]
+[2024-05-23 01:06:17] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.9.0.tar.gz]
+[2024-05-23 01:06:17] INFO root fetch - main [MainThread]: End processing [arize]: success
+[2024-05-23 01:06:20] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-23 01:06:20] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-23 01:06:20] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-23 01:06:20] INFO root fetch - main [MainThread]: Store serial: [23334024]
