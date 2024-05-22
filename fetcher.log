@@ -582,3 +582,15 @@
 [2024-05-23 00:30:02] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
 [2024-05-23 00:30:02] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
 [2024-05-23 00:30:02] INFO root fetch - main [MainThread]: Store serial: [23333714]
+[2024-05-23 00:32:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23333714]
+[2024-05-23 00:32:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 00:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datapad
+[2024-05-23 00:32:10] INFO root fetch - processPackages [datapad]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-23 00:32:10] INFO root fetch - processPackages [datapad]: Downloading https://files.pythonhosted.org/packages/8c/eb/51a12426efcf14de668957860fe57ea252720755e5e6b04c72364a612b11/datapad-0.7.2.tar.gz
+[2024-05-23 00:32:11] INFO root fetch - processPackages [datapad]: Downloading https://files.pythonhosted.org/packages/5a/a3/d0475d8770242ec5edad2188ccd9cc140ce929064683d5987b016d614341/datapad-0.7.3.tar.gz
+[2024-05-23 00:32:11] INFO root fetch - processPackages [datapad]: executing diffoscope
+[2024-05-23 00:32:11] INFO root fetch - processPackages [datapad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapad-0.7.2.tar.gz tmp/datapad-0.7.3.tar.gz --markdown 20240523/d/datapad/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-23 00:32:11] INFO root fetch - processPackages [datapad]: Remove: archive file [/home/abi/fetcher/tmp/datapad-0.7.2.tar.gz]
+[2024-05-23 00:32:11] INFO root fetch - processPackages [datapad]: Remove: archive file [/home/abi/fetcher/tmp/datapad-0.7.3.tar.gz]
+[2024-05-23 00:32:11] INFO root fetch - main [MainThread]: End processing [datapad]: success
+[2024-05-23 00:32:11] INFO root fetch - main [MainThread]: Store serial: [23333716]
