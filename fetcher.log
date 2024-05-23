@@ -17059,3 +17059,93 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:17:27] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
 [2024-05-23 11:17:27] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
 [2024-05-23 11:17:27] INFO root fetch - main [MainThread]: Store serial: [23340737]
+[2024-05-23 11:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340737]
+[2024-05-23 11:19:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-banking-mandate-contact
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-banking-mandate
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rul_datasets
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flarespy
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e2b-code-interpreter
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: attendance-app
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Print-Tricks-And-More-Alpha
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syndat
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sunholo
+[2024-05-23 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-request
+[2024-05-23 11:19:37] INFO root fetch - processPackages [rul_datasets]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.2]
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-05-23 11:19:37] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.93] Old Version: [0.3.86rc0]
+[2024-05-23 11:19:37] INFO root fetch - processPackages [syndat]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-23 11:19:37] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-23 11:19:37] WARNING root fetch - processPackages [attendance-app]: Skipping, unable to determine old version
+[2024-05-23 11:19:37] INFO root fetch - processPackages [attendance-app]: Start processing: apexdevkit
+[2024-05-23 11:19:37] INFO root fetch - main [MainThread]: End processing [attendance-app] error
+[2024-05-23 11:19:37] INFO root fetch - processPackages [e2b-code-interpreter]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: Downloading https://files.pythonhosted.org/packages/59/b4/509fb507cb4b8d47923959457fb928b80064e527df528dde7b1df04324ed/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.7]
+[2024-05-23 11:19:37] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-23 11:19:37] INFO root fetch - processPackages [rul_datasets]: Downloading https://files.pythonhosted.org/packages/7d/8d/52560cb1b6855adf1f2fc79d2ed7923927d1ac2627f8ac40879c536ba18d/rul_datasets-0.9.0.tar.gz
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/cb/c5/cc82bcccde56d44c92e8dca11744e0b975072bfb0301e019fe2050baead6/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-23 11:19:37] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/8f/f9/da11bf3bad3b52c3a366e5fae56ac6dfb588a06b8ef2132c99128ce17ec6/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl
+[2024-05-23 11:19:37] INFO root fetch - processPackages [syndat]: Downloading https://files.pythonhosted.org/packages/99/0e/ff90f042f71668e967b91175e85e24aa7781d2b514b633b6132f1f353795/syndat-0.0.6.tar.gz
+[2024-05-23 11:19:37] WARNING root fetch - processPackages [apexdevkit]: Skipping, unable to determine old version
+[2024-05-23 11:19:37] INFO root fetch - main [MainThread]: End processing [apexdevkit] error
+[2024-05-23 11:19:37] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-23 11:19:37] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/31/73/e936b3eeec0aae74fd434cf9bb8340736212d57f7b5b2cbebc299be66f87/e2b_code_interpreter-0.0.6.tar.gz
+[2024-05-23 11:19:37] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/04/25/388588a964ee3e165799f36a52ac68432b412f43d936c345577d8f7314ff/flarespy-0.9.7.tar.gz
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/11/8c/9fbd4fd236211b09082314d88b2a37814c743959b046ae8c85d5b3ebad82/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/72/1d/3e28ace559574b81ba6056688b9264223da52b5314acee2ed7602d32f47c/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: Downloading https://files.pythonhosted.org/packages/44/87/b1ac24c3b2c7e457716cfad307da021b76e0106964c9b3cd811071ef60d3/odoo_addon_account_banking_mandate_contact-16.0.1.0.2-py3-none-any.whl
+[2024-05-23 11:19:37] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-23 11:19:37] INFO root fetch - processPackages [rul_datasets]: Downloading https://files.pythonhosted.org/packages/4d/95/bd0012072765f23f47bb5c7e357289f663b36cc25df57e74ea78041f846f/rul_datasets-0.9.1.tar.gz
+[2024-05-23 11:19:37] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/77/f7/273d823a68ff6af798ba296987acee8ca3bf9a159bac3abf6675a93da6f7/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl
+[2024-05-23 11:19:37] INFO root fetch - processPackages [syndat]: Downloading https://files.pythonhosted.org/packages/07/5a/a485a356c162fe29d53a66bc4708164bff9572eb5134b999c50157a6c2c1/syndat-0.0.7.tar.gz
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: executing diffoscope
+[2024-05-23 11:19:37] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate_contact-16.0.1.0.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-account-banking-mandate-contact/16.0.1.0.1.2-16.0.1.0.2/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2024-05-23 11:19:38] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-account-banking-mandate/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-23 11:19:38] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240523/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [rul_datasets]: executing diffoscope
+[2024-05-23 11:19:38] INFO root fetch - processPackages [rul_datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rul_datasets-0.9.0.tar.gz tmp/rul_datasets-0.9.1.tar.gz --markdown 20240523/r/rul_datasets/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [syndat]: executing diffoscope
+[2024-05-23 11:19:38] INFO root fetch - processPackages [syndat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syndat-0.0.6.tar.gz tmp/syndat-0.0.7.tar.gz --markdown 20240523/s/syndat/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2024-05-23 11:19:38] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip --markdown 20240523/P/Print-Tricks-And-More-Alpha/0.3.86rc0-0.3.93/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/1b/96/21c6147b9d04062aac1c516bddce6a7e1ea5f3577aa5342d7cfd943be30e/e2b_code_interpreter-0.0.7.tar.gz
+[2024-05-23 11:19:38] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/c8/7e/3f154203fb0f1369802551bb5c886d19787ba3740cac776f1ab46ff30696/flarespy-0.9.8.tar.gz
+[2024-05-23 11:19:38] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/81/22/374ed174abcecff46bf56f927a1e73cbb29399bb6436a66956d405cbd28f/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl
+[2024-05-23 11:19:38] INFO root fetch - processPackages [e2b-code-interpreter]: executing diffoscope
+[2024-05-23 11:19:38] INFO root fetch - processPackages [e2b-code-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b_code_interpreter-0.0.6.tar.gz tmp/e2b_code_interpreter-0.0.7.tar.gz --markdown 20240523/e/e2b-code-interpreter/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2024-05-23 11:19:38] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20240523/f/flarespy/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-23 11:19:38] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-stock-request/17.0.1.0.0.7-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-23 11:19:38] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_contact-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-23 11:19:38] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_contact-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-23 11:19:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate-contact]: success
+[2024-05-23 11:19:38] INFO root fetch - processPackages [syndat]: Remove: archive file [/home/abi/fetcher/tmp/syndat-0.0.6.tar.gz]
+[2024-05-23 11:19:38] INFO root fetch - processPackages [syndat]: Remove: archive file [/home/abi/fetcher/tmp/syndat-0.0.7.tar.gz]
+[2024-05-23 11:19:38] INFO root fetch - main [MainThread]: End processing [syndat]: success
+[2024-05-23 11:19:38] INFO root fetch - processPackages [rul_datasets]: Remove: archive file [/home/abi/fetcher/tmp/rul_datasets-0.9.0.tar.gz]
+[2024-05-23 11:19:38] INFO root fetch - processPackages [rul_datasets]: Remove: archive file [/home/abi/fetcher/tmp/rul_datasets-0.9.1.tar.gz]
+[2024-05-23 11:19:38] INFO root fetch - main [MainThread]: End processing [rul_datasets]: success
+[2024-05-23 11:19:39] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip]
+[2024-05-23 11:19:39] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip]
+[2024-05-23 11:19:39] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2024-05-23 11:19:39] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-23 11:19:39] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-23 11:19:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2024-05-23 11:19:39] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.6.tar.gz]
+[2024-05-23 11:19:39] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.7.tar.gz]
+[2024-05-23 11:19:39] INFO root fetch - main [MainThread]: End processing [e2b-code-interpreter]: success
+[2024-05-23 11:19:39] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-23 11:19:39] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-23 11:19:39] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-23 11:19:39] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.7.tar.gz]
+[2024-05-23 11:19:39] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.8.tar.gz]
+[2024-05-23 11:19:39] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2024-05-23 11:19:39] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-23 11:19:39] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-23 11:19:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-23 11:19:39] INFO root fetch - main [MainThread]: Store serial: [23340768]
