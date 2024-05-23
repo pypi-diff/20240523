@@ -14053,3 +14053,42 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:48:13] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc2.tar.gz]
 [2024-05-23 09:48:13] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
 [2024-05-23 09:48:13] INFO root fetch - main [MainThread]: Store serial: [23339400]
+[2024-05-23 09:50:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339400]
+[2024-05-23 09:50:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlab.py
+[2024-05-23 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mne-rsa
+[2024-05-23 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ANX
+[2024-05-23 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adestis-netbox-plugin-account-management
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mlab.py]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mne-rsa]: New version: [0.91] Old Version: [0.9]
+[2024-05-23 09:50:22] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: New version: [1.8.1] Old Version: [1.7.9]
+[2024-05-23 09:50:22] INFO root fetch - processPackages [ANX]: New version: [0.8.0] Old Version: [0.7.9]
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mne-rsa]: Downloading https://files.pythonhosted.org/packages/51/33/98156497367e5b27393649d81c283fba43d7ebc7e76897ed7c43c75414a5/mne-rsa-0.9.tar.gz
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/16/c6/50fe71a858331c332015a849224498e512b0b275574b497e7aeff3f754f0/mlab.py-0.3.2.tar.gz
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mne-rsa]: Downloading https://files.pythonhosted.org/packages/b4/d7/a579d19ae26f1060982af3a0cfdc568f41bb9244c4ee16080cf6ee57c30b/mne_rsa-0.91.tar.gz
+[2024-05-23 09:50:22] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Downloading https://files.pythonhosted.org/packages/da/82/a45d15e043c38e5a918eeee9e029cee12f9a7531196b2dfde0c546985c38/adestis-netbox-plugin-account-management-1.7.9.tar.gz
+[2024-05-23 09:50:22] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/76/a1/22bc120069b413f8d0294cdffc67c411df4bc009fdb5999de11e066899b7/ANX-0.7.9.tar.gz
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/19/60/2773b9725351e795d8f07a98520f8658419db8f55cc5ce48e603aed9d7f5/mlab.py-0.4.0.tar.gz
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mne-rsa]: executing diffoscope
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mne-rsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mne-rsa-0.9.tar.gz tmp/mne_rsa-0.91.tar.gz --markdown 20240523/m/mne-rsa/0.9-0.91/README.md --exclude *.pyd
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mlab.py]: executing diffoscope
+[2024-05-23 09:50:22] INFO root fetch - processPackages [mlab.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlab.py-0.3.2.tar.gz tmp/mlab.py-0.4.0.tar.gz --markdown 20240523/m/mlab.py/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-23 09:50:22] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Downloading https://files.pythonhosted.org/packages/03/cc/b1688eae004e04bbe3c81437402caabd0366b7d39e0558b5c8d648e65bd3/adestis_netbox_plugin_account_management-1.8.1.tar.gz
+[2024-05-23 09:50:22] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/53/eb/4248ef7c13440df8cfdf47a58609749cff058b52bd9233f76202529d4854/ANX-0.8.0.tar.gz
+[2024-05-23 09:50:23] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: executing diffoscope
+[2024-05-23 09:50:23] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adestis-netbox-plugin-account-management-1.7.9.tar.gz tmp/adestis_netbox_plugin_account_management-1.8.1.tar.gz --markdown 20240523/a/adestis-netbox-plugin-account-management/1.7.9-1.8.1/README.md --exclude *.pyd
+[2024-05-23 09:50:23] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-05-23 09:50:23] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.7.9.tar.gz tmp/ANX-0.8.0.tar.gz --markdown 20240523/A/ANX/0.7.9-0.8.0/README.md --exclude *.pyd
+[2024-05-23 09:50:23] INFO root fetch - processPackages [mne-rsa]: Remove: archive file [/home/abi/fetcher/tmp/mne-rsa-0.9.tar.gz]
+[2024-05-23 09:50:23] INFO root fetch - processPackages [mne-rsa]: Remove: archive file [/home/abi/fetcher/tmp/mne_rsa-0.91.tar.gz]
+[2024-05-23 09:50:23] INFO root fetch - main [MainThread]: End processing [mne-rsa]: success
+[2024-05-23 09:50:23] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab.py-0.3.2.tar.gz]
+[2024-05-23 09:50:23] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab.py-0.4.0.tar.gz]
+[2024-05-23 09:50:23] INFO root fetch - main [MainThread]: End processing [mlab.py]: success
+[2024-05-23 09:50:23] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Remove: archive file [/home/abi/fetcher/tmp/adestis-netbox-plugin-account-management-1.7.9.tar.gz]
+[2024-05-23 09:50:23] INFO root fetch - processPackages [adestis-netbox-plugin-account-management]: Remove: archive file [/home/abi/fetcher/tmp/adestis_netbox_plugin_account_management-1.8.1.tar.gz]
+[2024-05-23 09:50:23] INFO root fetch - main [MainThread]: End processing [adestis-netbox-plugin-account-management]: success
+[2024-05-23 09:50:23] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.9.tar.gz]
+[2024-05-23 09:50:23] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.8.0.tar.gz]
+[2024-05-23 09:50:23] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-05-23 09:50:23] INFO root fetch - main [MainThread]: Store serial: [23339412]
