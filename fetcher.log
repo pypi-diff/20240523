@@ -19962,3 +19962,42 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:14:12] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.8.tar.gz]
 [2024-05-23 12:14:12] INFO root fetch - main [MainThread]: End processing [pyremotechrome]: success
 [2024-05-23 12:14:12] INFO root fetch - main [MainThread]: Store serial: [23341671]
+[2024-05-23 12:16:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341671]
+[2024-05-23 12:16:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 12:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-plugin-prometheus-sd
+[2024-05-23 12:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-odps-winwin
+[2024-05-23 12:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petannotationvisualizer
+[2024-05-23 12:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: location-local
+[2024-05-23 12:16:21] INFO root fetch - processPackages [petannotationvisualizer]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-23 12:16:21] INFO root fetch - processPackages [location-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 12:16:21] INFO root fetch - processPackages [dbt-odps-winwin]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 12:16:21] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-23 12:16:21] INFO root fetch - processPackages [petannotationvisualizer]: Downloading https://files.pythonhosted.org/packages/08/65/4c6ac0ef58effbe9d19161f6d02074aa99d583a9be9b8b5dfd36b0986e69/petannotationvisualizer-1.2.1.tar.gz
+[2024-05-23 12:16:21] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/9c/f2/fcc760989d48c5e33cbe7c435b39b0a9e8eba895ccbf5832a8b83178d5ab/location_local-0.0.98.tar.gz
+[2024-05-23 12:16:21] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/2e/1e/2a1e6264292214bc558e1230d4660d51bbe681d2921a250cb4f94052fc9e/location_local-0.0.99.tar.gz
+[2024-05-23 12:16:21] INFO root fetch - processPackages [dbt-odps-winwin]: Downloading https://files.pythonhosted.org/packages/06/c4/c0b90b0ded7b34b7f06d8c4d442cf502b403a55806473ae1c8be86cfb28a/dbt-odps-winwin-1.0.8.tar.gz
+[2024-05-23 12:16:21] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Downloading https://files.pythonhosted.org/packages/bd/37/3f35bae6089461b0f6ec2d93351daa19051add7459333acb3197a7015850/netbox_plugin_prometheus_sd-1.0.0.tar.gz
+[2024-05-23 12:16:21] INFO root fetch - processPackages [petannotationvisualizer]: Downloading https://files.pythonhosted.org/packages/e0/84/f2d8c075468c1bf4192824de9af608479e80b131b3c5eaa23f0be4cafcdf/petannotationvisualizer-1.2.2.tar.gz
+[2024-05-23 12:16:22] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2024-05-23 12:16:22] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location_local-0.0.98.tar.gz tmp/location_local-0.0.99.tar.gz --markdown 20240523/l/location-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 12:16:22] INFO root fetch - processPackages [petannotationvisualizer]: executing diffoscope
+[2024-05-23 12:16:22] INFO root fetch - processPackages [petannotationvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petannotationvisualizer-1.2.1.tar.gz tmp/petannotationvisualizer-1.2.2.tar.gz --markdown 20240523/p/petannotationvisualizer/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-23 12:16:22] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Downloading https://files.pythonhosted.org/packages/9c/ce/391aedb8e611a072d053a72aa619b2f7ff4ce7403fb6b8fa03487dd09976/netbox_plugin_prometheus_sd-1.1.0.tar.gz
+[2024-05-23 12:16:22] INFO root fetch - processPackages [dbt-odps-winwin]: Downloading https://files.pythonhosted.org/packages/18/1c/07d043f40396cf8c07e6c226665ed55178f5592aaf6c77f682fd134b642b/dbt-odps-winwin-1.0.9.tar.gz
+[2024-05-23 12:16:22] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: executing diffoscope
+[2024-05-23 12:16:22] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_prometheus_sd-1.0.0.tar.gz tmp/netbox_plugin_prometheus_sd-1.1.0.tar.gz --markdown 20240523/n/netbox-plugin-prometheus-sd/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-23 12:16:22] INFO root fetch - processPackages [dbt-odps-winwin]: executing diffoscope
+[2024-05-23 12:16:22] INFO root fetch - processPackages [dbt-odps-winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-odps-winwin-1.0.8.tar.gz tmp/dbt-odps-winwin-1.0.9.tar.gz --markdown 20240523/d/dbt-odps-winwin/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 12:16:22] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.98.tar.gz]
+[2024-05-23 12:16:22] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.99.tar.gz]
+[2024-05-23 12:16:22] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2024-05-23 12:16:22] INFO root fetch - processPackages [petannotationvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/petannotationvisualizer-1.2.1.tar.gz]
+[2024-05-23 12:16:22] INFO root fetch - processPackages [petannotationvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/petannotationvisualizer-1.2.2.tar.gz]
+[2024-05-23 12:16:22] INFO root fetch - main [MainThread]: End processing [petannotationvisualizer]: success
+[2024-05-23 12:16:22] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_prometheus_sd-1.0.0.tar.gz]
+[2024-05-23 12:16:22] INFO root fetch - processPackages [netbox-plugin-prometheus-sd]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_prometheus_sd-1.1.0.tar.gz]
+[2024-05-23 12:16:22] INFO root fetch - main [MainThread]: End processing [netbox-plugin-prometheus-sd]: success
+[2024-05-23 12:16:23] INFO root fetch - processPackages [dbt-odps-winwin]: Remove: archive file [/home/abi/fetcher/tmp/dbt-odps-winwin-1.0.8.tar.gz]
+[2024-05-23 12:16:23] INFO root fetch - processPackages [dbt-odps-winwin]: Remove: archive file [/home/abi/fetcher/tmp/dbt-odps-winwin-1.0.9.tar.gz]
+[2024-05-23 12:16:23] INFO root fetch - main [MainThread]: End processing [dbt-odps-winwin]: success
+[2024-05-23 12:16:23] INFO root fetch - main [MainThread]: Store serial: [23341682]
