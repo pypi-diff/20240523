@@ -10183,3 +10183,24 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:24:38] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
 [2024-05-23 06:24:38] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
 [2024-05-23 06:24:38] INFO root fetch - main [MainThread]: Store serial: [23337646]
+[2024-05-23 06:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337646]
+[2024-05-23 06:26:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 06:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jfExt
+[2024-05-23 06:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dpkits
+[2024-05-23 06:26:47] INFO root fetch - processPackages [dpkits]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-23 06:26:47] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 06:26:47] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/86/a3/1490e605e91259e79c986c8b473f3fbbcacecbe5ef503d1f43bf2a90dc72/dpkits-1.2.4.tar.gz
+[2024-05-23 06:26:47] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 06:26:47] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 06:26:47] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/c5/6c/edbe4e56c31d70adf5f993e61928aed381a67fcd7977d6866480ed598696/dpkits-1.2.5.tar.gz
+[2024-05-23 06:26:47] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 06:26:47] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 06:26:47] INFO root fetch - processPackages [dpkits]: executing diffoscope
+[2024-05-23 06:26:47] INFO root fetch - processPackages [dpkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpkits-1.2.4.tar.gz tmp/dpkits-1.2.5.tar.gz --markdown 20240523/d/dpkits/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-23 06:26:48] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 06:26:48] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 06:26:48] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 06:26:48] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.4.tar.gz]
+[2024-05-23 06:26:48] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.5.tar.gz]
+[2024-05-23 06:26:48] INFO root fetch - main [MainThread]: End processing [dpkits]: success
+[2024-05-23 06:26:48] INFO root fetch - main [MainThread]: Store serial: [23337652]
