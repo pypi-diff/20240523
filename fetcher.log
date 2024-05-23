@@ -18642,3 +18642,130 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:38:22] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405230936.tar.gz]
 [2024-05-23 11:38:22] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-23 11:38:22] INFO root fetch - main [MainThread]: Store serial: [23341153]
+[2024-05-23 11:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341153]
+[2024-05-23 11:40:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: preprocessinglib-tonga-gumustakim
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-filewrap
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paystackease
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cos-python-sdk-v5
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-sdk-remote
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: preprocessinglib-tonga-gumustakim
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlfluff-templater-dbt
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb
+[2024-05-23 11:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlfluff
+[2024-05-23 11:40:32] INFO root fetch - processPackages [python-filewrap]: New version: [0.0.7.2] Old Version: [0.0.7.1]
+[2024-05-23 11:40:32] INFO root fetch - processPackages [paystackease]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-23 11:40:32] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 11:40:33] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post537] Old Version: [4.0.0.post536]
+[2024-05-23 11:40:33] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: New version: [0.3] Old Version: [0.2]
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: New version: [0.3] Old Version: [0.2]
+[2024-05-23 11:40:33] INFO root fetch - processPackages [paystackease]: Downloading https://files.pythonhosted.org/packages/4b/de/fb36422aca76279de113ccf0c10d81b6e26a7cbc3cdf902a7bba491606eb/paystackease-2.1.0.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/e2/52/e2c15c164720840d3cf93c129df485967a8d66af52c24f474a26378a4721/python_filewrap-0.0.7.1.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [cos-python-sdk-v5]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-23 11:40:33] INFO root fetch - processPackages [sqlfluff-templater-dbt]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-05-23 11:40:33] INFO root fetch - processPackages [sqlfluff]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-05-23 11:40:33] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/b2/73/ff727800d332ba3412e3135ded7fed3d1b78930e48ab4f978b5038b41b5f/python_sdk_remote-0.0.98.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/ab/6c/918b84f15a65d93b5a6275105939ee4edb8774902b40eb165a4511af2641/nucliadb-4.0.0.post536-py3-none-any.whl
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Downloading https://files.pythonhosted.org/packages/86/88/f828b80d118d30a17dd154c7b0897bcedb3773817c591c5c8072e50ab624/preprocessinglib_tonga_gumustakim-0.2.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Downloading https://files.pythonhosted.org/packages/86/88/f828b80d118d30a17dd154c7b0897bcedb3773817c591c5c8072e50ab624/preprocessinglib_tonga_gumustakim-0.2.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/eb/5d/de192472304916be3dadb9efaa3ad3a8fe9f112cfc0150b5398d8ef0f97c/sqlfluff-3.0.6.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/f0/ab/9ec80c33e15e04947d026778d92f2b723f8cef13f04617b56eae2da1920c/sqlfluff_templater_dbt-3.0.6.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [cos-python-sdk-v5]: Downloading https://files.pythonhosted.org/packages/56/00/adfd8c15cfcfcbfbe41eef63d59bfc1e0a26a69de452322f18291be4eeff/cos-python-sdk-v5-1.9.8.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/c6/6c/d232e7e91dcb30944e7eee0abdeb4922803eca620e93ce6940350682eaeb/python_sdk_remote-0.0.99.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/3a/c0/7f9370177301bd673973875a66d6eb19a69a4940c19e8dce604895831a2f/python_filewrap-0.0.7.2.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [paystackease]: Downloading https://files.pythonhosted.org/packages/3b/1e/8e8f1e639a5aaf6dba696635b4cf4c68db1ad9f16f6f72529174d37f8957/paystackease-2.1.1.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-05-23 11:40:33] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-23 11:40:33] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.98.tar.gz tmp/python_sdk_remote-0.0.99.tar.gz --markdown 20240523/p/python-sdk-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 11:40:33] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/15/73/52f050c02764662102a320edce6a3bed83498d2bfe10d35b82f97951b631/nucliadb-4.0.0.post537-py3-none-any.whl
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Downloading https://files.pythonhosted.org/packages/a7/cd/5862fae131974c630628b385aa4d50de7c27b9c3b11cdb0e72132949fb5d/preprocessinglib_tonga_gumustakim-0.3.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Downloading https://files.pythonhosted.org/packages/a7/cd/5862fae131974c630628b385aa4d50de7c27b9c3b11cdb0e72132949fb5d/preprocessinglib_tonga_gumustakim-0.3.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [python-filewrap]: executing diffoscope
+[2024-05-23 11:40:33] INFO root fetch - processPackages [python-filewrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_filewrap-0.0.7.1.tar.gz tmp/python_filewrap-0.0.7.2.tar.gz --markdown 20240523/p/python-filewrap/0.0.7.1-0.0.7.2/README.md --exclude *.pyd
+[2024-05-23 11:40:33] INFO root fetch - processPackages [paystackease]: executing diffoscope
+[2024-05-23 11:40:33] INFO root fetch - processPackages [paystackease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paystackease-2.1.0.tar.gz tmp/paystackease-2.1.1.tar.gz --markdown 20240523/p/paystackease/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-23 11:40:33] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/8c/bf/e7dd28e869019fec855bee4335a0821dcf2f0558c0d1e549ca771136fe14/sqlfluff_templater_dbt-3.0.7.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [cos-python-sdk-v5]: Downloading https://files.pythonhosted.org/packages/ba/cf/5aa5f8807b88ddce659de12bcae67c8043b9251ccbdbced11ac4a96c87e3/cos-python-sdk-v5-1.9.9.tar.gz
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: executing diffoscope
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preprocessinglib_tonga_gumustakim-0.2.tar.gz tmp/preprocessinglib_tonga_gumustakim-0.3.tar.gz --markdown 20240523/p/preprocessinglib-tonga-gumustakim/0.2-0.3/README.md --exclude *.pyd
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: executing diffoscope
+[2024-05-23 11:40:33] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preprocessinglib_tonga_gumustakim-0.2.tar.gz tmp/preprocessinglib_tonga_gumustakim-0.3.tar.gz --markdown 20240523/p/preprocessinglib-tonga-gumustakim/0.2-0.3/README.md --exclude *.pyd
+[2024-05-23 11:40:33] INFO root fetch - processPackages [sqlfluff-templater-dbt]: executing diffoscope
+[2024-05-23 11:40:33] INFO root fetch - processPackages [sqlfluff-templater-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff_templater_dbt-3.0.6.tar.gz tmp/sqlfluff_templater_dbt-3.0.7.tar.gz --markdown 20240523/s/sqlfluff-templater-dbt/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-05-23 11:40:33] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-23 11:40:33] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post536-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post537-py3-none-any.whl.zip --markdown 20240523/n/nucliadb/4.0.0.post536-4.0.0.post537/README.md --exclude *.pyd
+[2024-05-23 11:40:33] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/52/53/e100ffc7261b9b84e4986b2f5c1d1c1b17c113eed64b02e70a5005e1f999/sqlfluff-3.0.7.tar.gz
+[2024-05-23 11:40:34] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-05-23 11:40:34] INFO root fetch - processPackages [cos-python-sdk-v5]: executing diffoscope
+[2024-05-23 11:40:34] INFO root fetch - processPackages [cos-python-sdk-v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cos-python-sdk-v5-1.9.8.tar.gz tmp/cos-python-sdk-v5-1.9.9.tar.gz --markdown 20240523/c/cos-python-sdk-v5/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-23 11:40:34] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-05-23 11:40:34] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240523/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-05-23 11:40:34] INFO root fetch - processPackages [sqlfluff]: executing diffoscope
+[2024-05-23 11:40:34] INFO root fetch - processPackages [sqlfluff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-3.0.6.tar.gz tmp/sqlfluff-3.0.7.tar.gz --markdown 20240523/s/sqlfluff/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-05-23 11:40:34] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.98.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.99.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [python-sdk-remote]: Start processing: nucliadb-dataset
+[2024-05-23 11:40:34] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-23 11:40:34] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.7.1.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.7.2.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [python-filewrap]: Start processing: nucliadb-models
+[2024-05-23 11:40:34] INFO root fetch - main [MainThread]: End processing [python-filewrap]: success
+[2024-05-23 11:40:34] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post537] Old Version: [4.0.0.post536]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post537] Old Version: [4.0.0.post536]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Remove: archive file [/home/abi/fetcher/tmp/preprocessinglib_tonga_gumustakim-0.2.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Remove: archive file [/home/abi/fetcher/tmp/preprocessinglib_tonga_gumustakim-0.3.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Start processing: nucliadb-protos
+[2024-05-23 11:40:34] INFO root fetch - main [MainThread]: End processing [preprocessinglib-tonga-gumustakim]: success
+[2024-05-23 11:40:34] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/6e/0c/67774ec1e97ae5bddf011a4d9b766af976535fa7d3e8647e57b65e7f7d62/nucliadb_dataset-4.0.0.post536-py3-none-any.whl
+[2024-05-23 11:40:34] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/c5/7a/c20c91687e7d7ef81cb3b277f49ddb9429bff8b45f0ccb3fd253092b4949/nucliadb_models-4.0.0.post536-py3-none-any.whl
+[2024-05-23 11:40:34] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post537] Old Version: [4.0.0.post536]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [paystackease]: Remove: archive file [/home/abi/fetcher/tmp/paystackease-2.1.0.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [paystackease]: Remove: archive file [/home/abi/fetcher/tmp/paystackease-2.1.1.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [paystackease]: Start processing: nucliadb-sdk
+[2024-05-23 11:40:34] INFO root fetch - main [MainThread]: End processing [paystackease]: success
+[2024-05-23 11:40:34] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_templater_dbt-3.0.6.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_templater_dbt-3.0.7.tar.gz]
+[2024-05-23 11:40:34] INFO root fetch - main [MainThread]: End processing [sqlfluff-templater-dbt]: success
+[2024-05-23 11:40:34] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post537] Old Version: [4.0.0.post536]
+[2024-05-23 11:40:34] INFO root fetch - main [MainThread]: End processing [preprocessinglib-tonga-gumustakim]: success
+[2024-05-23 11:40:34] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/a9/59/9a9c9d78132cd781b710feae2018ada1b342eea825fe6fe3dd3445a99ee7/nucliadb_protos-4.0.0.post536-py3-none-any.whl
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/2c/21/ad8abeb67807fecfdf3dfa19a9636207f2a13221c9d1314eb2f4e480e1a1/nucliadb_sdk-4.0.0.post536-py3-none-any.whl
+[2024-05-23 11:40:35] INFO root fetch - processPackages [cos-python-sdk-v5]: Remove: archive file [/home/abi/fetcher/tmp/cos-python-sdk-v5-1.9.8.tar.gz]
+[2024-05-23 11:40:35] INFO root fetch - processPackages [cos-python-sdk-v5]: Remove: archive file [/home/abi/fetcher/tmp/cos-python-sdk-v5-1.9.9.tar.gz]
+[2024-05-23 11:40:35] INFO root fetch - main [MainThread]: End processing [cos-python-sdk-v5]: success
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/71/b0/867987a36f5321ddb7fa6296feedbeff45a6f26820a425276dc5d5ca27fe/nucliadb_dataset-4.0.0.post537-py3-none-any.whl
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/d9/de/795b3c99068d70975ffc6511e52c509a54e4dd1e1ad669892f4dc0dda51b/nucliadb_models-4.0.0.post537-py3-none-any.whl
+[2024-05-23 11:40:35] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-05-23 11:40:35] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-05-23 11:40:35] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post536-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post537-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-dataset/4.0.0.post536-4.0.0.post537/README.md --exclude *.pyd
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/ed/7c/642dcaf8d22a84c83d8890f4b8596fe889831ad01f493107b70adfdd6e7b/nucliadb_protos-4.0.0.post537-py3-none-any.whl
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post536-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post537-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-models/4.0.0.post536-4.0.0.post537/README.md --exclude *.pyd
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/b7/7f/b63d107412b86239d19a2cec8342afeb0113f811f4cdbca4ff44638a791e/nucliadb_sdk-4.0.0.post537-py3-none-any.whl
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post536-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post537-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-protos/4.0.0.post536-4.0.0.post537/README.md --exclude *.pyd
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-23 11:40:35] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post536-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post537-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-sdk/4.0.0.post536-4.0.0.post537/README.md --exclude *.pyd
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post536-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post537-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post536-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post537-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-23 11:40:36] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-3.0.6.tar.gz]
+[2024-05-23 11:40:36] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-3.0.7.tar.gz]
+[2024-05-23 11:40:36] INFO root fetch - main [MainThread]: End processing [sqlfluff]: success
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post536-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post537-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post536-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post537-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post536-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post537-py3-none-any.whl.zip]
+[2024-05-23 11:40:36] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-23 11:40:36] INFO root fetch - main [MainThread]: Store serial: [23341193]
