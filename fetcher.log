@@ -13671,3 +13671,119 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:34:13] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.6.tar.gz]
 [2024-05-23 09:34:13] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-05-23 09:34:13] INFO root fetch - main [MainThread]: Store serial: [23339238]
+[2024-05-23 09:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339238]
+[2024-05-23 09:36:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kssdtree
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localcosmos-cordova-builder
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragtime
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oligo-designer-toolsuite-ai-filters
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scarletio
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airgradient
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail_translatableforms
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vgis-gis
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easylogger4dev-alpha
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nested-dataclass-serialization
+[2024-05-23 09:36:22] INFO root fetch - processPackages [wagtail_translatableforms]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ragtime]: New version: [0.0.35] Old Version: [0.0.34]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [kssdtree]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [easylogger4dev-alpha]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [vgis-gis]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [oligo-designer-toolsuite-ai-filters]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [airgradient]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [wagtail_translatableforms]: Downloading https://files.pythonhosted.org/packages/41/77/b99d68df62c14d3ecfec64e2227f9898811e6564bf8e5af4970933579dca/wagtail_translatableforms-0.1.2.tar.gz
+[2024-05-23 09:36:22] INFO root fetch - processPackages [localcosmos-cordova-builder]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [nested-dataclass-serialization]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/55/a1/3ec193ea9f8de98e0cd607ee4ba98e4cabcf1bcb4f573d0462d96924165b/ragtime-0.0.34.tar.gz
+[2024-05-23 09:36:22] INFO root fetch - processPackages [scarletio]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 09:36:22] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/94/33/65254f5bbc71375e07d7e2f2a2aa7cf6b39f8c3a1be454d302fd61a3f583/vgis_gis-1.3.2.tar.gz
+[2024-05-23 09:36:22] INFO root fetch - processPackages [easylogger4dev-alpha]: Downloading https://files.pythonhosted.org/packages/ff/5a/65f4ce4705a3663217197e71e02af7b0d7d46d58a09437f1006c1d934e34/easylogger4dev_alpha-0.1.4.tar.gz
+[2024-05-23 09:36:22] INFO root fetch - processPackages [kssdtree]: Downloading https://files.pythonhosted.org/packages/9a/4c/6516f734f5860e4b30f9091aaac5811663bfae72c4de4ae6566c89192767/kssdtree-1.1.2.tar.gz
+[2024-05-23 09:36:22] INFO root fetch - processPackages [nested-dataclass-serialization]: Downloading https://files.pythonhosted.org/packages/92/8c/aa47c32fbc26c84c49d977f7102352cf160ccc5d361faeb86581fc72643e/nested_dataclass_serialization-0.1.4.tar.gz
+[2024-05-23 09:36:22] INFO root fetch - processPackages [oligo-designer-toolsuite-ai-filters]: Downloading https://files.pythonhosted.org/packages/22/e5/8583ae6d64cd66cb3330bcf9b6791bdff5c09c98187aa8a6749b70e3320b/oligo_designer_toolsuite_ai_filters-0.0.2.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [airgradient]: Downloading https://files.pythonhosted.org/packages/d4/28/69d1b2167a48d9c24da2016369bcf67b7a24f83b389e71e7b44ddeb689a5/airgradient-0.4.0.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [localcosmos-cordova-builder]: Downloading https://files.pythonhosted.org/packages/48/79/853440a34a27f6dd021c41bb6cd7bedb14df1405729e55cc87e2c4ae4141/localcosmos_cordova_builder-0.8.3.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [scarletio]: Downloading https://files.pythonhosted.org/packages/68/97/8f91fe231049dfa907108a8ea7f6d68574877fe47cc71b1adfe419304fd4/scarletio-1.0.8.tar.gz
+[2024-05-23 09:36:23] WARNING root fetch - processPackages [oligo-designer-toolsuite-ai-filters]: Skipping package: exceeds size limit 15618217>=10485760
+[2024-05-23 09:36:23] INFO root fetch - processPackages [oligo-designer-toolsuite-ai-filters]: Start processing: ahmedHossam
+[2024-05-23 09:36:23] INFO root fetch - main [MainThread]: End processing [oligo-designer-toolsuite-ai-filters] error
+[2024-05-23 09:36:23] INFO root fetch - processPackages [easylogger4dev-alpha]: Downloading https://files.pythonhosted.org/packages/11/f8/71d9fab4a537b25257c2abb241a739f01de1ceab3dd33162552d8cdfedd2/easylogger4dev_alpha-0.2.0.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/45/11/2c85479d97da51c2468cb2f47daa183940a3289f670b705c4d0ac6fb4ae2/ragtime-0.0.35.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [wagtail_translatableforms]: Downloading https://files.pythonhosted.org/packages/af/85/309e5ff5dd620964ebb492df72062efab54b89414ed606325e96b8580389/wagtail_translatableforms-0.1.3.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [ahmedHossam]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 09:36:23] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/ca/da/b9131ded0a51415d43ab62b3047e37dcb060c9c9802aff9814d958c75fb0/vgis_gis-1.3.3.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [easylogger4dev-alpha]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [easylogger4dev-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylogger4dev_alpha-0.1.4.tar.gz tmp/easylogger4dev_alpha-0.2.0.tar.gz --markdown 20240523/e/easylogger4dev-alpha/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [nested-dataclass-serialization]: Downloading https://files.pythonhosted.org/packages/5d/c5/b429c6c7c71c418af7b3aab4fdb38388a838abad4dfe31c6436b50aa206d/nested_dataclass_serialization-0.1.5.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [kssdtree]: Downloading https://files.pythonhosted.org/packages/a4/cd/f2954686c636e853cc3fda197c459195377b78288874cf7d68218a8bdbf4/kssdtree-1.1.3.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [ahmedHossam]: Downloading https://files.pythonhosted.org/packages/b4/56/a632423ff4db6ffec8ff1ad047c38a045ba418f26d3e8f1c312209a2e6d5/ahmedhossam-0.0.3.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [ragtime]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [ragtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragtime-0.0.34.tar.gz tmp/ragtime-0.0.35.tar.gz --markdown 20240523/r/ragtime/0.0.34-0.0.35/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [airgradient]: Downloading https://files.pythonhosted.org/packages/96/7f/e450b3c295ac63ffc8a2a3ad197afa0dae7462256e1895413bcae2f9aac6/airgradient-0.4.1.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [vgis-gis]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [vgis-gis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_gis-1.3.2.tar.gz tmp/vgis_gis-1.3.3.tar.gz --markdown 20240523/v/vgis-gis/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [localcosmos-cordova-builder]: Downloading https://files.pythonhosted.org/packages/d2/9b/176151c6124a2aa5f9031a358b06a6ca5367d767bcc3992171b755d21674/localcosmos_cordova_builder-0.8.4.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [wagtail_translatableforms]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [wagtail_translatableforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_translatableforms-0.1.2.tar.gz tmp/wagtail_translatableforms-0.1.3.tar.gz --markdown 20240523/w/wagtail_translatableforms/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [scarletio]: Downloading https://files.pythonhosted.org/packages/1a/d7/b3660759d00b247f7c72f44b3ad37cd4adcb266e616fa99958971f7699f9/scarletio-1.0.9.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [nested-dataclass-serialization]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [nested-dataclass-serialization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nested_dataclass_serialization-0.1.4.tar.gz tmp/nested_dataclass_serialization-0.1.5.tar.gz --markdown 20240523/n/nested-dataclass-serialization/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [kssdtree]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [kssdtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kssdtree-1.1.2.tar.gz tmp/kssdtree-1.1.3.tar.gz --markdown 20240523/k/kssdtree/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [airgradient]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [airgradient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airgradient-0.4.0.tar.gz tmp/airgradient-0.4.1.tar.gz --markdown 20240523/a/airgradient/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [localcosmos-cordova-builder]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [localcosmos-cordova-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_cordova_builder-0.8.3.tar.gz tmp/localcosmos_cordova_builder-0.8.4.tar.gz --markdown 20240523/l/localcosmos-cordova-builder/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [scarletio]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [scarletio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarletio-1.0.8.tar.gz tmp/scarletio-1.0.9.tar.gz --markdown 20240523/s/scarletio/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 09:36:23] INFO root fetch - processPackages [ahmedHossam]: Downloading https://files.pythonhosted.org/packages/46/e9/7f2733e873c03cb2c44e45cb87f8f1a2bf169434ae8f5a044cdf9300bf2b/ahmedhossam-0.0.4.tar.gz
+[2024-05-23 09:36:23] INFO root fetch - processPackages [ahmedHossam]: executing diffoscope
+[2024-05-23 09:36:23] INFO root fetch - processPackages [ahmedHossam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahmedhossam-0.0.3.tar.gz tmp/ahmedhossam-0.0.4.tar.gz --markdown 20240523/a/ahmedHossam/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 09:36:24] INFO root fetch - processPackages [easylogger4dev-alpha]: Remove: archive file [/home/abi/fetcher/tmp/easylogger4dev_alpha-0.1.4.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [easylogger4dev-alpha]: Remove: archive file [/home/abi/fetcher/tmp/easylogger4dev_alpha-0.2.0.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [easylogger4dev-alpha]: Start processing: wow-tello
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [easylogger4dev-alpha]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.2.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.3.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [vgis-gis]: Start processing: c2cwsgiutils
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [vgis-gis]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [wow-tello]: New version: [1.3.1] Old Version: [1.0.0]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [nested-dataclass-serialization]: Remove: archive file [/home/abi/fetcher/tmp/nested_dataclass_serialization-0.1.4.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [nested-dataclass-serialization]: Remove: archive file [/home/abi/fetcher/tmp/nested_dataclass_serialization-0.1.5.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [nested-dataclass-serialization]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [wagtail_translatableforms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_translatableforms-0.1.2.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [wagtail_translatableforms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_translatableforms-0.1.3.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [wagtail_translatableforms]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.34.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.35.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [ragtime]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [wow-tello]: Downloading https://files.pythonhosted.org/packages/1d/c6/4c19dd51c85be9937687b1e0342480b06b148c246309a17730d899f97af6/wow_tello-1.0.0.tar.gz
+[2024-05-23 09:36:24] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-05-23 09:36:24] INFO root fetch - processPackages [localcosmos-cordova-builder]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_cordova_builder-0.8.3.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [localcosmos-cordova-builder]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_cordova_builder-0.8.4.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [localcosmos-cordova-builder]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [airgradient]: Remove: archive file [/home/abi/fetcher/tmp/airgradient-0.4.0.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [airgradient]: Remove: archive file [/home/abi/fetcher/tmp/airgradient-0.4.1.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [airgradient]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [kssdtree]: Remove: archive file [/home/abi/fetcher/tmp/kssdtree-1.1.2.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [kssdtree]: Remove: archive file [/home/abi/fetcher/tmp/kssdtree-1.1.3.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [kssdtree]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [ahmedHossam]: Remove: archive file [/home/abi/fetcher/tmp/ahmedhossam-0.0.3.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - processPackages [ahmedHossam]: Remove: archive file [/home/abi/fetcher/tmp/ahmedhossam-0.0.4.tar.gz]
+[2024-05-23 09:36:24] INFO root fetch - main [MainThread]: End processing [ahmedHossam]: success
+[2024-05-23 09:36:24] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-05-23 09:36:24] INFO root fetch - processPackages [wow-tello]: Downloading https://files.pythonhosted.org/packages/a1/7a/666758a4d8874dddc91112e29eb054aef84d84364f5aa1d1b3e40490aa7b/wow_tello-1.3.1-py3-none-any.whl
+[2024-05-23 09:36:24] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-05-23 09:36:24] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240523/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-05-23 09:36:25] INFO root fetch - processPackages [wow-tello]: executing diffoscope
+[2024-05-23 09:36:25] INFO root fetch - processPackages [wow-tello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_tello-1.0.0.tar.gz tmp/wow_tello-1.3.1-py3-none-any.whl.zip --markdown 20240523/w/wow-tello/1.0.0-1.3.1/README.md --exclude *.pyd
+[2024-05-23 09:36:25] INFO root fetch - processPackages [scarletio]: Remove: archive file [/home/abi/fetcher/tmp/scarletio-1.0.8.tar.gz]
+[2024-05-23 09:36:25] INFO root fetch - processPackages [scarletio]: Remove: archive file [/home/abi/fetcher/tmp/scarletio-1.0.9.tar.gz]
+[2024-05-23 09:36:25] INFO root fetch - main [MainThread]: End processing [scarletio]: success
+[2024-05-23 09:36:25] INFO root fetch - processPackages [wow-tello]: Remove: archive file [/home/abi/fetcher/tmp/wow_tello-1.0.0.tar.gz]
+[2024-05-23 09:36:25] INFO root fetch - processPackages [wow-tello]: Remove: archive file [/home/abi/fetcher/tmp/wow_tello-1.3.1-py3-none-any.whl.zip]
+[2024-05-23 09:36:25] INFO root fetch - main [MainThread]: End processing [wow-tello]: success
+[2024-05-23 09:36:25] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-05-23 09:36:25] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-05-23 09:36:25] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-05-23 09:36:25] INFO root fetch - main [MainThread]: Store serial: [23339275]
