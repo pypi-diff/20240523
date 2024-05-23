@@ -15001,3 +15001,116 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:21:25] INFO root fetch - processPackages [tempest]: Remove: archive file [/home/abi/fetcher/tmp/tempest-39.0.0.tar.gz]
 [2024-05-23 10:21:25] INFO root fetch - main [MainThread]: End processing [tempest]: success
 [2024-05-23 10:21:25] INFO root fetch - main [MainThread]: Store serial: [23339840]
+[2024-05-23 10:23:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339840]
+[2024-05-23 10:23:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-embedded
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-embedded-serial
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-embedded-serial-esp
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-embedded-idf
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-embedded-jtag
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fxcmpy
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-embedded-qemu
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-embedded-arduino
+[2024-05-23 10:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-embedded-wokwi
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-wokwi]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 10:23:35] WARNING root fetch - processPackages [fxcmpy]: Skipping, unable to determine old version
+[2024-05-23 10:23:35] INFO root fetch - processPackages [fxcmpy]: Start processing: PynyHTM
+[2024-05-23 10:23:35] INFO root fetch - main [MainThread]: End processing [fxcmpy] error
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-arduino]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-idf]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-jtag]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-qemu]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-serial]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-serial-esp]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [cg]: New version: [60.8.4] Old Version: [60.8.2]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/16/4d/ab1a9c16ba75f082ecd49645f3337f970ec92d4088544b394062dcf30c63/pytest_embedded-1.9.0.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [PynyHTM]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-wokwi]: Downloading https://files.pythonhosted.org/packages/49/85/5e89baa3996abb9168b8a3595d8aa48c7bd330903ef559b59eeddd84c488/pytest_embedded_wokwi-1.9.0.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/6b/d6/8c1e8bf207b459f23d484a32d96d117a949bb92277dc48a35605f463df8b/pytest_embedded_jtag-1.9.0.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/84/73/e7997a7e1bcc1725df739f36c3a1c840d075d231fa704c12bb9e5083d105/pytest_embedded_serial_esp-1.9.0.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/7f/f3/d167f20597328f39a5807c973e82723865dcfd16bd51e54b55b09895d807/pytest_embedded_arduino-1.9.0.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/d7/f5/a42a652bc7dc1bccc0c6074375896f4bfeefe302ffe4b917858d6b3320fe/pytest_embedded_serial-1.9.0.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/4e/58/d58be035e36e812aa2d9cbb32b3cf7be85127cf360072a8a21ccecda3e3a/pytest_embedded_qemu-1.9.0.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9c/29/a7f0cbff24c6ce41ef9b18155546b610c9d2f79a47a5061c4831bfc18146/cg-60.8.2.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [PynyHTM]: Downloading https://files.pythonhosted.org/packages/4b/60/1fb56fe3e3a8d7c4d9ac03da6d338eb404deb69018f2963e3172c8be5709/pynyhtm-0.0.1.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/6d/42/c2f9a9960c3e64eb403b1528d67db3af52ba2940e2564ea0a24099d8d7e4/pytest_embedded_idf-1.9.0.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/00/99/6754d5859c6aebe5ebbf3bb8e38b25869279e2389a31541aaefc46eac14e/pytest_embedded-1.9.1.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/4f/7e/4a8577e7a5e52c80e46caf4e3e41c94c671e3bdd3903f2b1fcf4e1dd9f0f/pytest_embedded_serial_esp-1.9.1.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/42/9e/e71b7f35f7c32b96d8a32f591db553a5cf8ee764f8d57aeefe38040e261d/pytest_embedded_arduino-1.9.1.tar.gz
+[2024-05-23 10:23:35] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/20/01/dc3c9a85a1e06157b25bb4e8b158f0344b125282a737cb71e61f248fea29/pytest_embedded_jtag-1.9.1.tar.gz
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/e9/80/4167a4fc35d6c4afdc65204d801d5cd50f180699127781956187fef61649/pytest_embedded_serial-1.9.1.tar.gz
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-wokwi]: Downloading https://files.pythonhosted.org/packages/12/d7/e27c5d77a6cf75975bd35ac3395186da4358ef573b2f155268131b173941/pytest_embedded_wokwi-1.9.1.tar.gz
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/f0/b1/5bdedfc1c9bc4ae8fb14f926ead70ad699ab27c9976940cf18787d53a56b/pytest_embedded_qemu-1.9.1.tar.gz
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-serial-esp]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-serial-esp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_serial_esp-1.9.0.tar.gz tmp/pytest_embedded_serial_esp-1.9.1.tar.gz --markdown 20240523/p/pytest-embedded-serial-esp/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-arduino]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-arduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_arduino-1.9.0.tar.gz tmp/pytest_embedded_arduino-1.9.1.tar.gz --markdown 20240523/p/pytest-embedded-arduino/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [PynyHTM]: Downloading https://files.pythonhosted.org/packages/ce/80/cc76cd0be620f5db2d5f0dfdf16d9541f302f507b4123481feba8593d979/pynyhtm-0.0.2.tar.gz
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded-1.9.0.tar.gz tmp/pytest_embedded-1.9.1.tar.gz --markdown 20240523/p/pytest-embedded/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/00/5b/6512505027a1ca25c7447971525d762e8fd4d421f63d843bcbde93670184/pytest_embedded_idf-1.9.1.tar.gz
+[2024-05-23 10:23:36] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0f/aa/c41539a9135bf8c414107403f8bda93ad4d55fd960b556717531cf234a11/cg-60.8.4.tar.gz
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-wokwi]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-wokwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_wokwi-1.9.0.tar.gz tmp/pytest_embedded_wokwi-1.9.1.tar.gz --markdown 20240523/p/pytest-embedded-wokwi/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-qemu]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_qemu-1.9.0.tar.gz tmp/pytest_embedded_qemu-1.9.1.tar.gz --markdown 20240523/p/pytest-embedded-qemu/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-jtag]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-jtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_jtag-1.9.0.tar.gz tmp/pytest_embedded_jtag-1.9.1.tar.gz --markdown 20240523/p/pytest-embedded-jtag/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-serial]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_serial-1.9.0.tar.gz tmp/pytest_embedded_serial-1.9.1.tar.gz --markdown 20240523/p/pytest-embedded-serial/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [PynyHTM]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [PynyHTM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynyhtm-0.0.1.tar.gz tmp/pynyhtm-0.0.2.tar.gz --markdown 20240523/P/PynyHTM/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-idf]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-idf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_idf-1.9.0.tar.gz tmp/pytest_embedded_idf-1.9.1.tar.gz --markdown 20240523/p/pytest-embedded-idf/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-23 10:23:36] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.2.tar.gz tmp/cg-60.8.4.tar.gz --markdown 20240523/c/cg/60.8.2-60.8.4/README.md --exclude *.pyd
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.9.0.tar.gz]
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.9.1.tar.gz]
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Start processing: pyDVC
+[2024-05-23 10:23:36] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial-esp]: success
+[2024-05-23 10:23:36] WARNING root fetch - processPackages [pyDVC]: Skipping, unable to determine old version
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pyDVC]: Start processing: jaxsim
+[2024-05-23 10:23:36] INFO root fetch - main [MainThread]: End processing [pyDVC] error
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.9.0.tar.gz]
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.9.1.tar.gz]
+[2024-05-23 10:23:36] INFO root fetch - processPackages [pytest-embedded-arduino]: Start processing: py-chalk-it
+[2024-05-23 10:23:36] INFO root fetch - main [MainThread]: End processing [pytest-embedded-arduino]: success
+[2024-05-23 10:23:37] INFO root fetch - processPackages [py-chalk-it]: New version: [0.5.0] Old Version: [0.4.6]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-wokwi]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_wokwi-1.9.0.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-wokwi]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_wokwi-1.9.1.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - main [MainThread]: End processing [pytest-embedded-wokwi]: success
+[2024-05-23 10:23:37] INFO root fetch - processPackages [py-chalk-it]: Downloading https://files.pythonhosted.org/packages/2f/06/e2646539fb1bc64ac84bd2f41a2520f35b85c6a723d5f7b6eadb059719af/py-chalk-it-0.4.6.tar.gz
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.9.0.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.9.1.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - main [MainThread]: End processing [pytest-embedded]: success
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.9.0.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.9.1.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial]: success
+[2024-05-23 10:23:37] WARNING root fetch - processPackages [py-chalk-it]: Skipping package: exceeds size limit 34002731>=10485760
+[2024-05-23 10:23:37] INFO root fetch - main [MainThread]: End processing [py-chalk-it] error
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.9.0.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.9.1.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - main [MainThread]: End processing [pytest-embedded-jtag]: success
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.9.0.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.9.1.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - main [MainThread]: End processing [pytest-embedded-qemu]: success
+[2024-05-23 10:23:37] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.9.0.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.9.1.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - main [MainThread]: End processing [pytest-embedded-idf]: success
+[2024-05-23 10:23:37] INFO root fetch - processPackages [PynyHTM]: Remove: archive file [/home/abi/fetcher/tmp/pynyhtm-0.0.1.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - processPackages [PynyHTM]: Remove: archive file [/home/abi/fetcher/tmp/pynyhtm-0.0.2.tar.gz]
+[2024-05-23 10:23:37] INFO root fetch - main [MainThread]: End processing [PynyHTM]: success
+[2024-05-23 10:23:37] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-05-23 10:23:37] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-05-23 10:23:37] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240523/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-05-23 10:23:38] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-05-23 10:23:38] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-05-23 10:23:38] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-05-23 10:23:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.2.tar.gz]
+[2024-05-23 10:23:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.4.tar.gz]
+[2024-05-23 10:23:41] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-23 10:23:41] INFO root fetch - main [MainThread]: Store serial: [23339906]
