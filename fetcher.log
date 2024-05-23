@@ -8703,3 +8703,33 @@
 [2024-05-23 04:43:40] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.4.0.tar.gz]
 [2024-05-23 04:43:40] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
 [2024-05-23 04:43:40] INFO root fetch - main [MainThread]: Store serial: [23336818]
+[2024-05-23 04:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336818]
+[2024-05-23 04:45:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 04:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scoutbook_parser
+[2024-05-23 04:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-mysql-local
+[2024-05-23 04:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duwi-smarthome-sdk
+[2024-05-23 04:45:49] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 04:45:49] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.314] Old Version: [0.0.313]
+[2024-05-23 04:45:49] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-05-23 04:45:49] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/51/d5/7bd04691fb6ed729543b9451b049817e0fe442bd64790627ab5033cb6953/database_mysql_local-0.0.313.tar.gz
+[2024-05-23 04:45:49] INFO root fetch - processPackages [duwi-smarthome-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-23 04:45:49] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/27/78/76a9a8fed2ce4d8a0f550d3a80e5eaa08656412a7b7b1b4aa6ab91401faa/duwi_smarthome_sdk-0.1.4.tar.gz
+[2024-05-23 04:45:49] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-05-23 04:45:49] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/e8/b8/f61747ea3d17b644c00b8678dfa6c087a3b916584f0eef8c8a8139506c19/database_mysql_local-0.0.314.tar.gz
+[2024-05-23 04:45:49] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-05-23 04:45:49] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240523/s/scoutbook_parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 04:45:50] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-23 04:45:50] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.313.tar.gz tmp/database_mysql_local-0.0.314.tar.gz --markdown 20240523/d/database-mysql-local/0.0.313-0.0.314/README.md --exclude *.pyd
+[2024-05-23 04:45:50] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/6d/94/5496df247951277110af3da9f2c7ae1a6e5c7f1c5d96983d8509b4932939/duwi_smarthome_sdk-0.1.5.tar.gz
+[2024-05-23 04:45:50] INFO root fetch - processPackages [duwi-smarthome-sdk]: executing diffoscope
+[2024-05-23 04:45:50] INFO root fetch - processPackages [duwi-smarthome-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk-0.1.4.tar.gz tmp/duwi_smarthome_sdk-0.1.5.tar.gz --markdown 20240523/d/duwi-smarthome-sdk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-23 04:45:50] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-05-23 04:45:50] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-05-23 04:45:50] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-05-23 04:45:50] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.313.tar.gz]
+[2024-05-23 04:45:50] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.314.tar.gz]
+[2024-05-23 04:45:50] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-23 04:45:50] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.4.tar.gz]
+[2024-05-23 04:45:50] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.5.tar.gz]
+[2024-05-23 04:45:50] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk]: success
+[2024-05-23 04:45:50] INFO root fetch - main [MainThread]: Store serial: [23336826]
