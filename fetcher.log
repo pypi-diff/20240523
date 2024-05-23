@@ -12168,3 +12168,75 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:36:37] INFO root fetch - processPackages [muFFT]: Remove: archive file [/home/abi/fetcher/tmp/mufft-0.90.0.tar.gz]
 [2024-05-23 08:36:37] INFO root fetch - main [MainThread]: End processing [muFFT]: success
 [2024-05-23 08:36:37] INFO root fetch - main [MainThread]: Store serial: [23338529]
+[2024-05-23 08:38:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338529]
+[2024-05-23 08:38:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypods
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aicamera
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msoffice2pdf
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: importer-local
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rcquant-sdk
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: getopenpay
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: networkx-match-22s
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: networkx-match-algr
+[2024-05-23 08:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dingodb
+[2024-05-23 08:38:46] INFO root fetch - processPackages [pypods]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 08:38:46] INFO root fetch - processPackages [getopenpay]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 08:38:46] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:38:46] WARNING root fetch - processPackages [networkx-match-22s]: Skipping, unable to determine old version
+[2024-05-23 08:38:46] INFO root fetch - main [MainThread]: End processing [networkx-match-22s] error
+[2024-05-23 08:38:46] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:38:46] INFO root fetch - processPackages [getopenpay]: Downloading https://files.pythonhosted.org/packages/04/20/5de74afae8d116b83c12a477cb730db79e700c052ac5307e4765de314877/getopenpay-0.0.2.tar.gz
+[2024-05-23 08:38:46] INFO root fetch - processPackages [aicamera]: New version: [2.0.0] Old Version: [1.3.1]
+[2024-05-23 08:38:46] INFO root fetch - processPackages [msoffice2pdf]: New version: [1.0.0] Old Version: [0.0.8]
+[2024-05-23 08:38:46] WARNING root fetch - processPackages [networkx-match-algr]: Skipping, unable to determine old version
+[2024-05-23 08:38:46] INFO root fetch - main [MainThread]: End processing [networkx-match-algr] error
+[2024-05-23 08:38:46] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:38:46] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-05-23 08:38:46] INFO root fetch - processPackages [pypods]: Downloading https://files.pythonhosted.org/packages/2a/53/5d5c5225f0757cca2b82098124f3ea6be625d30cc828feea8acde2d90bc7/pypods-0.1.1.tar.gz
+[2024-05-23 08:38:46] INFO root fetch - processPackages [aicamera]: Downloading https://files.pythonhosted.org/packages/f4/4c/4c0fe721d8ae51c15ffcf68bed8c48b9cc403059189b91d423d7b2eb0299/aicamera-1.3.1.tar.gz
+[2024-05-23 08:38:46] INFO root fetch - processPackages [msoffice2pdf]: Downloading https://files.pythonhosted.org/packages/c3/e2/a2eb625ab447becf515d0c795889b39547534b82b4b04c97d88c0c4dd433/msoffice2pdf-0.0.8.tar.gz
+[2024-05-23 08:38:46] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-23 08:38:46] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2024-05-23 08:38:46] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-05-23 08:38:46] INFO root fetch - processPackages [getopenpay]: Downloading https://files.pythonhosted.org/packages/15/74/4340416d7d7cb2fc600a5ac65d2b8ae6d8e147ac57cb8649574f2a29cb69/getopenpay-0.0.3.tar.gz
+[2024-05-23 08:38:47] INFO root fetch - processPackages [pypods]: Downloading https://files.pythonhosted.org/packages/cf/f4/9e0db5f6cb2a96a147d4f3245e6bc4ed2cb32bb636d82e5965309c63561e/pypods-0.1.2.tar.gz
+[2024-05-23 08:38:47] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-05-23 08:38:47] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240523/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:38:47] INFO root fetch - processPackages [aicamera]: Downloading https://files.pythonhosted.org/packages/7e/b2/16fa80995b19ef0733756d2963fbf2993ae6aa76bc6ae30190086c59e6ae/aicamera-2.0.0-py3-none-any.whl
+[2024-05-23 08:38:47] INFO root fetch - processPackages [pypods]: executing diffoscope
+[2024-05-23 08:38:47] INFO root fetch - processPackages [pypods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypods-0.1.1.tar.gz tmp/pypods-0.1.2.tar.gz --markdown 20240523/p/pypods/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 08:38:47] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2024-05-23 08:38:47] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-23 08:38:47] INFO root fetch - processPackages [getopenpay]: executing diffoscope
+[2024-05-23 08:38:47] INFO root fetch - processPackages [getopenpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getopenpay-0.0.2.tar.gz tmp/getopenpay-0.0.3.tar.gz --markdown 20240523/g/getopenpay/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 08:38:47] INFO root fetch - processPackages [aicamera]: executing diffoscope
+[2024-05-23 08:38:47] INFO root fetch - processPackages [aicamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicamera-1.3.1.tar.gz tmp/aicamera-2.0.0-py3-none-any.whl.zip --markdown 20240523/a/aicamera/1.3.1-2.0.0/README.md --exclude *.pyd
+[2024-05-23 08:38:47] INFO root fetch - processPackages [msoffice2pdf]: Downloading https://files.pythonhosted.org/packages/c2/41/3214ef12bd4009db82654f5f52b82cde9bb241996415c4acde56319a590f/msoffice2pdf-1.0.0-py3-none-any.whl
+[2024-05-23 08:38:47] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2024-05-23 08:38:47] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20240523/i/importer-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:38:47] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-23 08:38:47] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240523/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:38:47] INFO root fetch - processPackages [msoffice2pdf]: executing diffoscope
+[2024-05-23 08:38:47] INFO root fetch - processPackages [msoffice2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msoffice2pdf-0.0.8.tar.gz tmp/msoffice2pdf-1.0.0-py3-none-any.whl.zip --markdown 20240523/m/msoffice2pdf/0.0.8-1.0.0/README.md --exclude *.pyd
+[2024-05-23 08:38:47] INFO root fetch - processPackages [pypods]: Remove: archive file [/home/abi/fetcher/tmp/pypods-0.1.1.tar.gz]
+[2024-05-23 08:38:47] INFO root fetch - processPackages [pypods]: Remove: archive file [/home/abi/fetcher/tmp/pypods-0.1.2.tar.gz]
+[2024-05-23 08:38:47] INFO root fetch - main [MainThread]: End processing [pypods]: success
+[2024-05-23 08:38:47] INFO root fetch - processPackages [aicamera]: Remove: archive file [/home/abi/fetcher/tmp/aicamera-1.3.1.tar.gz]
+[2024-05-23 08:38:47] INFO root fetch - processPackages [aicamera]: Remove: archive file [/home/abi/fetcher/tmp/aicamera-2.0.0-py3-none-any.whl.zip]
+[2024-05-23 08:38:47] INFO root fetch - main [MainThread]: End processing [aicamera]: success
+[2024-05-23 08:38:48] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-05-23 08:38:48] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2024-05-23 08:38:48] INFO root fetch - processPackages [msoffice2pdf]: Remove: archive file [/home/abi/fetcher/tmp/msoffice2pdf-0.0.8.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - processPackages [msoffice2pdf]: Remove: archive file [/home/abi/fetcher/tmp/msoffice2pdf-1.0.0-py3-none-any.whl.zip]
+[2024-05-23 08:38:48] INFO root fetch - main [MainThread]: End processing [msoffice2pdf]: success
+[2024-05-23 08:38:48] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-23 08:38:48] INFO root fetch - processPackages [getopenpay]: Remove: archive file [/home/abi/fetcher/tmp/getopenpay-0.0.2.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - processPackages [getopenpay]: Remove: archive file [/home/abi/fetcher/tmp/getopenpay-0.0.3.tar.gz]
+[2024-05-23 08:38:48] INFO root fetch - main [MainThread]: End processing [getopenpay]: success
+[2024-05-23 08:38:48] INFO root fetch - main [MainThread]: Store serial: [23338572]
