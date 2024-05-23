@@ -12597,3 +12597,60 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:52:09] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-05-23 08:52:09] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-05-23 08:52:09] INFO root fetch - main [MainThread]: Store serial: [23338750]
+[2024-05-23 08:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338750]
+[2024-05-23 08:54:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 08:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2024-05-23 08:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-checker
+[2024-05-23 08:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solaxcloud
+[2024-05-23 08:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dspawpy
+[2024-05-23 08:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ahmedHossam
+[2024-05-23 08:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speech-dtw
+[2024-05-23 08:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lense
+[2024-05-23 08:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-alicloud
+[2024-05-23 08:54:19] INFO root fetch - processPackages [model-checker]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-23 08:54:19] WARNING root fetch - processPackages [ahmedHossam]: Skipping, unable to determine old version
+[2024-05-23 08:54:19] INFO root fetch - main [MainThread]: End processing [ahmedHossam] error
+[2024-05-23 08:54:19] INFO root fetch - processPackages [yplib]: New version: [5.8.5] Old Version: [5.8.4]
+[2024-05-23 08:54:19] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-23 08:54:19] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/d4/a3/c747a4913078672f34adc4f223b1280d3d3bba45953bb6de5a9efe5ba52e/model_checker-0.3.8.tar.gz
+[2024-05-23 08:54:19] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:54:19] WARNING root fetch - processPackages [solaxcloud]: Skipping, unable to determine old version
+[2024-05-23 08:54:19] INFO root fetch - main [MainThread]: End processing [solaxcloud] error
+[2024-05-23 08:54:19] WARNING root fetch - processPackages [speech-dtw]: Skipping, unable to determine old version
+[2024-05-23 08:54:19] INFO root fetch - main [MainThread]: End processing [speech-dtw] error
+[2024-05-23 08:54:19] INFO root fetch - processPackages [dspawpy]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-23 08:54:19] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8d/31/903a4ac05d171c6f56a6f53dd8e0ef128cb28735743e60eef28472ae35f9/yplib-5.8.4.tar.gz
+[2024-05-23 08:54:19] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-23 08:54:20] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/9f/34/8db406de616a95ce5da5a832c9764ce727860cfc2e73a8df9d985cebebc8/model_checker-0.3.9.tar.gz
+[2024-05-23 08:54:20] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-05-23 08:54:20] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/41/8c/1b3ed234cdfeff001118f5f4a46ff49f6631d12a005ea81a94cd98f0b2d9/dspawpy-1.3.0.tar.gz
+[2024-05-23 08:54:20] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-23 08:54:20] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.3.8.tar.gz tmp/model_checker-0.3.9.tar.gz --markdown 20240523/m/model-checker/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-23 08:54:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/21/76/4ffa70a07f5e43955b0e4fc44790c1610266b46bc5e8a7b33aee7ed8dcb1/yplib-5.8.5.tar.gz
+[2024-05-23 08:54:20] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-23 08:54:20] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-23 08:54:20] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.8.4.tar.gz tmp/yplib-5.8.5.tar.gz --markdown 20240523/y/yplib/5.8.4-5.8.5/README.md --exclude *.pyd
+[2024-05-23 08:54:20] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/65/3e/03ed3e1427c12fb391d7652241ba3611563c09712a342900a90d20c3caff/dspawpy-1.3.1.tar.gz
+[2024-05-23 08:54:20] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-05-23 08:54:20] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-23 08:54:20] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240523/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-23 08:54:20] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-05-23 08:54:20] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240523/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:54:20] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2024-05-23 08:54:20] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-1.3.0.tar.gz tmp/dspawpy-1.3.1.tar.gz --markdown 20240523/d/dspawpy/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-23 08:54:20] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.4.tar.gz]
+[2024-05-23 08:54:20] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.5.tar.gz]
+[2024-05-23 08:54:20] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-23 08:54:20] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.8.tar.gz]
+[2024-05-23 08:54:20] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.9.tar.gz]
+[2024-05-23 08:54:20] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-23 08:54:21] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-05-23 08:54:21] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-05-23 08:54:21] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-05-23 08:54:21] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.3.0.tar.gz]
+[2024-05-23 08:54:21] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.3.1.tar.gz]
+[2024-05-23 08:54:21] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2024-05-23 08:54:28] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-23 08:54:28] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-23 08:54:28] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-23 08:54:28] INFO root fetch - main [MainThread]: Store serial: [23338777]
