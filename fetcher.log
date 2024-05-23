@@ -13787,3 +13787,53 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:36:25] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
 [2024-05-23 09:36:25] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
 [2024-05-23 09:36:25] INFO root fetch - main [MainThread]: Store serial: [23339275]
+[2024-05-23 09:38:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339275]
+[2024-05-23 09:38:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2gui
+[2024-05-23 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-05-23 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiaojing
+[2024-05-23 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cae-cli
+[2024-05-23 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erlab
+[2024-05-23 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: number-of-terms-inside-a-square-root
+[2024-05-23 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lalsuite
+[2024-05-23 09:38:34] WARNING root fetch - processPackages [xiaojing]: Skipping, unable to determine old version
+[2024-05-23 09:38:34] INFO root fetch - main [MainThread]: End processing [xiaojing] error
+[2024-05-23 09:38:34] INFO root fetch - processPackages [erlab]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-05-23 09:38:34] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-23 09:38:34] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-23 09:38:34] WARNING root fetch - processPackages [number-of-terms-inside-a-square-root]: Skipping, unable to determine old version
+[2024-05-23 09:38:34] INFO root fetch - main [MainThread]: End processing [number-of-terms-inside-a-square-root] error
+[2024-05-23 09:38:34] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:38:34] INFO root fetch - processPackages [cae-cli]: New version: [0.2.9.1] Old Version: [0.2.9]
+[2024-05-23 09:38:34] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2024-05-23 09:38:34] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/31/bc/ba66699f2746bcefa03b93d2484dc4daab25b1637204a29e9c69973d5c0d/erlab-2.5.2.tar.gz
+[2024-05-23 09:38:34] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 09:38:34] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-23 09:38:34] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-23 09:38:34] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/0f/18/b9d09bdf36c072a27807626988218938501f9caa230888af02577af1c172/cae_cli-0.2.9.tar.gz
+[2024-05-23 09:38:34] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:38:35] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2024-05-23 09:38:35] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2024-05-23 09:38:35] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20240523/q/q2gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-23 09:38:35] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/6a/aa/a0f12c7a9e3019b7fd2e6231344b1a1e465836d8ecd08b90e8daded64fb0/cae_cli-0.2.9.1.tar.gz
+[2024-05-23 09:38:35] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:38:35] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/66/7b/ca9c4a08a5ef45a6bd8891c78fee417505902312d017e32c36dc9f3cb5ed/erlab-2.5.3.tar.gz
+[2024-05-23 09:38:35] INFO root fetch - processPackages [cae-cli]: executing diffoscope
+[2024-05-23 09:38:35] INFO root fetch - processPackages [cae-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cae_cli-0.2.9.tar.gz tmp/cae_cli-0.2.9.1.tar.gz --markdown 20240523/c/cae-cli/0.2.9-0.2.9.1/README.md --exclude *.pyd
+[2024-05-23 09:38:35] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:38:35] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:38:35] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-05-23 09:38:35] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.5.2.tar.gz tmp/erlab-2.5.3.tar.gz --markdown 20240523/e/erlab/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-05-23 09:38:35] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2024-05-23 09:38:35] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2024-05-23 09:38:35] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2024-05-23 09:38:36] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:38:36] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 09:38:36] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:38:36] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.9.tar.gz]
+[2024-05-23 09:38:36] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.9.1.tar.gz]
+[2024-05-23 09:38:36] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
+[2024-05-23 09:38:37] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.2.tar.gz]
+[2024-05-23 09:38:37] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.3.tar.gz]
+[2024-05-23 09:38:37] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-05-23 09:38:37] INFO root fetch - main [MainThread]: Store serial: [23339300]
