@@ -11548,3 +11548,42 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:05:31] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
 [2024-05-23 08:05:31] INFO root fetch - main [MainThread]: End processing [HawaData]: success
 [2024-05-23 08:05:31] INFO root fetch - main [MainThread]: Store serial: [23338260]
+[2024-05-23 08:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338260]
+[2024-05-23 08:07:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicli
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ahk-server
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapieng
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keyboardsounds
+[2024-05-23 08:07:40] INFO root fetch - processPackages [keyboardsounds]: New version: [5.7.6] Old Version: [5.7.5]
+[2024-05-23 08:07:40] INFO root fetch - processPackages [aicli]: New version: [99.0.202405230602] Old Version: [99.0.202405230600]
+[2024-05-23 08:07:40] INFO root fetch - processPackages [keyboardsounds]: Downloading https://files.pythonhosted.org/packages/66/ee/f11d3d47e292b8e58e87da516a411582756bacfc57b73d54bee912ceef9a/keyboardsounds-5.7.5.tar.gz
+[2024-05-23 08:07:40] INFO root fetch - processPackages [mapieng]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ahk-server]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-23 08:07:40] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/49/8c/04feb2b3185531793a1fccb189e6d0ef8b8d009ed400fb87a76bb72a87db/aicli-99.0.202405230600-py3-none-any.whl
+[2024-05-23 08:07:40] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/81/a5/030a25a5a61e21f031d0a74ccf2226e30a3c77e26e5f14957237e32e09c1/mapieng-0.1.1.tar.gz
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ahk-server]: Downloading https://files.pythonhosted.org/packages/19/02/e57c0e78645f6705e2bd12fce4c0cbfd746f88356ae53c403d8527e7faee/ahk_server-0.0.1.tar.gz
+[2024-05-23 08:07:40] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/ef/6d/2c120a2ff638971b039a13426c5576bc89f8fd81af97b94dcc9c36935803/aicli-99.0.202405230602-py3-none-any.whl
+[2024-05-23 08:07:40] INFO root fetch - processPackages [keyboardsounds]: Downloading https://files.pythonhosted.org/packages/0f/4b/e4d7735bfcf0654d57f7362d782bd5796c46e6f7a5ae8e1298c24d9fba38/keyboardsounds-5.7.6.tar.gz
+[2024-05-23 08:07:40] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/e5/e1/8f32a1277da8c05101093be8954a90ce0099b2de8a73a987fad9d0f33623/mapieng-0.1.2.tar.gz
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ahk-server]: Downloading https://files.pythonhosted.org/packages/a4/fc/cc0e42bf8913610d034527cf13224c16ddbc84677bf7afe73dbbce683226/ahk_server-0.1.0.tar.gz
+[2024-05-23 08:07:40] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2024-05-23 08:07:40] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202405230600-py3-none-any.whl.zip tmp/aicli-99.0.202405230602-py3-none-any.whl.zip --markdown 20240523/a/aicli/99.0.202405230600-99.0.202405230602/README.md --exclude *.pyd
+[2024-05-23 08:07:40] INFO root fetch - processPackages [keyboardsounds]: executing diffoscope
+[2024-05-23 08:07:40] INFO root fetch - processPackages [keyboardsounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyboardsounds-5.7.5.tar.gz tmp/keyboardsounds-5.7.6.tar.gz --markdown 20240523/k/keyboardsounds/5.7.5-5.7.6/README.md --exclude *.pyd
+[2024-05-23 08:07:40] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-23 08:07:40] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.1.tar.gz tmp/mapieng-0.1.2.tar.gz --markdown 20240523/m/mapieng/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ahk-server]: executing diffoscope
+[2024-05-23 08:07:40] INFO root fetch - processPackages [ahk-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk_server-0.0.1.tar.gz tmp/ahk_server-0.1.0.tar.gz --markdown 20240523/a/ahk-server/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-23 08:07:41] INFO root fetch - processPackages [ahk-server]: Remove: archive file [/home/abi/fetcher/tmp/ahk_server-0.0.1.tar.gz]
+[2024-05-23 08:07:41] INFO root fetch - processPackages [ahk-server]: Remove: archive file [/home/abi/fetcher/tmp/ahk_server-0.1.0.tar.gz]
+[2024-05-23 08:07:41] INFO root fetch - main [MainThread]: End processing [ahk-server]: success
+[2024-05-23 08:07:41] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.1.tar.gz]
+[2024-05-23 08:07:41] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.2.tar.gz]
+[2024-05-23 08:07:41] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-23 08:07:41] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405230600-py3-none-any.whl.zip]
+[2024-05-23 08:07:41] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405230602-py3-none-any.whl.zip]
+[2024-05-23 08:07:41] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2024-05-23 08:07:42] INFO root fetch - processPackages [keyboardsounds]: Remove: archive file [/home/abi/fetcher/tmp/keyboardsounds-5.7.5.tar.gz]
+[2024-05-23 08:07:42] INFO root fetch - processPackages [keyboardsounds]: Remove: archive file [/home/abi/fetcher/tmp/keyboardsounds-5.7.6.tar.gz]
+[2024-05-23 08:07:42] INFO root fetch - main [MainThread]: End processing [keyboardsounds]: success
+[2024-05-23 08:07:42] INFO root fetch - main [MainThread]: Store serial: [23338273]
