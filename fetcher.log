@@ -21729,3 +21729,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:17:59] INFO root fetch - processPackages [carbatpy]: Remove: archive file [/home/abi/fetcher/tmp/carbatpy-0.1.5.tar.gz]
 [2024-05-23 13:17:59] INFO root fetch - main [MainThread]: End processing [carbatpy]: success
 [2024-05-23 13:17:59] INFO root fetch - main [MainThread]: Store serial: [23342348]
+[2024-05-23 13:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342348]
+[2024-05-23 13:20:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chemfusekit
+[2024-05-23 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-driverless
+[2024-05-23 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hilda
+[2024-05-23 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: generalindex
+[2024-05-23 13:20:20] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2024-05-23 13:20:20] INFO root fetch - processPackages [generalindex]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-23 13:20:20] INFO root fetch - processPackages [selenium-driverless]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-23 13:20:21] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/bc/1c/d1c41c5f8fa25bd474f379dddd64d4ff282d37c5e6932fda4e3220868c08/chemfusekit-1.1.0b2.tar.gz
+[2024-05-23 13:20:21] INFO root fetch - processPackages [hilda]: New version: [2.0.0] Old Version: [1.4.3]
+[2024-05-23 13:20:21] INFO root fetch - processPackages [generalindex]: Downloading https://files.pythonhosted.org/packages/9a/1f/266da3854322636c8f9a82e98c372c1b778854d7068d81f0a6b2f2f59a39/generalindex-0.2.2.tar.gz
+[2024-05-23 13:20:21] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/6e/14/04dc4579e69280098e6cc509bc15d0522d30938de0495bd21f79cc63158f/selenium_driverless-1.9.1.tar.gz
+[2024-05-23 13:20:21] INFO root fetch - processPackages [hilda]: Downloading https://files.pythonhosted.org/packages/25/cc/03a0e31029475e19960b1ece59b0682a14348c291be0dfe6bc738f1bc1a8/hilda-1.4.3.tar.gz
+[2024-05-23 13:20:21] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/5f/16/537b08afc0ad316941efd041e930c5649e3371fb37d0793cf4d149fe34a6/chemfusekit-1.1.0b3.tar.gz
+[2024-05-23 13:20:21] INFO root fetch - processPackages [generalindex]: Downloading https://files.pythonhosted.org/packages/7e/f9/d1b60ddd62311edc7b3cd962e3167c02c87131ef5a0121d92de836ca73a0/generalindex-0.2.3.tar.gz
+[2024-05-23 13:20:21] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/92/3d/9dee5d63bf2c9f26237c344ce365d0f1ada2bdf25fde272aa9427ff6b973/selenium_driverless-1.9.2.tar.gz
+[2024-05-23 13:20:21] INFO root fetch - processPackages [generalindex]: executing diffoscope
+[2024-05-23 13:20:21] INFO root fetch - processPackages [generalindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generalindex-0.2.2.tar.gz tmp/generalindex-0.2.3.tar.gz --markdown 20240523/g/generalindex/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-23 13:20:21] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-23 13:20:21] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.0b2.tar.gz tmp/chemfusekit-1.1.0b3.tar.gz --markdown 20240523/c/chemfusekit/1.1.0b2-1.1.0b3/README.md --exclude *.pyd
+[2024-05-23 13:20:21] INFO root fetch - processPackages [hilda]: Downloading https://files.pythonhosted.org/packages/f7/90/9f8f870b360b3d98dc629210b049b6e35549454bd57727069d0b62f5ad2c/hilda-2.0.0.tar.gz
+[2024-05-23 13:20:21] INFO root fetch - processPackages [selenium-driverless]: executing diffoscope
+[2024-05-23 13:20:21] INFO root fetch - processPackages [selenium-driverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_driverless-1.9.1.tar.gz tmp/selenium_driverless-1.9.2.tar.gz --markdown 20240523/s/selenium-driverless/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-23 13:20:22] INFO root fetch - processPackages [generalindex]: Remove: archive file [/home/abi/fetcher/tmp/generalindex-0.2.2.tar.gz]
+[2024-05-23 13:20:22] INFO root fetch - processPackages [generalindex]: Remove: archive file [/home/abi/fetcher/tmp/generalindex-0.2.3.tar.gz]
+[2024-05-23 13:20:22] INFO root fetch - main [MainThread]: End processing [generalindex]: success
+[2024-05-23 13:20:22] INFO root fetch - processPackages [hilda]: executing diffoscope
+[2024-05-23 13:20:22] INFO root fetch - processPackages [hilda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hilda-1.4.3.tar.gz tmp/hilda-2.0.0.tar.gz --markdown 20240523/h/hilda/1.4.3-2.0.0/README.md --exclude *.pyd
+[2024-05-23 13:20:22] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.0b2.tar.gz]
+[2024-05-23 13:20:22] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.0b3.tar.gz]
+[2024-05-23 13:20:22] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-23 13:20:23] INFO root fetch - processPackages [hilda]: Remove: archive file [/home/abi/fetcher/tmp/hilda-1.4.3.tar.gz]
+[2024-05-23 13:20:23] INFO root fetch - processPackages [hilda]: Remove: archive file [/home/abi/fetcher/tmp/hilda-2.0.0.tar.gz]
+[2024-05-23 13:20:23] INFO root fetch - main [MainThread]: End processing [hilda]: success
+[2024-05-23 13:20:25] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.9.1.tar.gz]
+[2024-05-23 13:20:25] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.9.2.tar.gz]
+[2024-05-23 13:20:25] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
+[2024-05-23 13:20:25] INFO root fetch - main [MainThread]: Store serial: [23342359]
