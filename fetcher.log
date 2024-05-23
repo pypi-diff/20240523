@@ -2840,3 +2840,51 @@
 [2024-05-23 02:29:15] INFO root fetch - processPackages [oresat-c3]: Remove: archive file [/home/abi/fetcher/tmp/oresat_c3-0.4.0.tar.gz]
 [2024-05-23 02:29:15] INFO root fetch - main [MainThread]: End processing [oresat-c3]: success
 [2024-05-23 02:29:15] INFO root fetch - main [MainThread]: Store serial: [23334722]
+[2024-05-23 02:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334722]
+[2024-05-23 02:31:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyluba
+[2024-05-23 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cygv
+[2024-05-23 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2024-05-23 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-metadata-service
+[2024-05-23 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gmail-filter-manager
+[2024-05-23 02:31:24] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240522] Old Version: [0.1.5.dev20240521]
+[2024-05-23 02:31:24] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 02:31:24] INFO root fetch - processPackages [cygv]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 02:31:24] INFO root fetch - processPackages [aind-metadata-service]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-23 02:31:24] INFO root fetch - processPackages [gmail-filter-manager]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 02:31:24] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/26/06/fc645546a45a37d6e3f61595a10a9a61efe91e77316c3e5c9db19715c616/aeppl_nightly-0.1.5.dev20240521.tar.gz
+[2024-05-23 02:31:24] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-23 02:31:24] INFO root fetch - processPackages [cygv]: Downloading https://files.pythonhosted.org/packages/52/89/1485857e5ff67af512a74da4d47f49a94eb771a5b68837d2444f74b65e9f/cygv-0.0.1.tar.gz
+[2024-05-23 02:31:24] INFO root fetch - processPackages [gmail-filter-manager]: Downloading https://files.pythonhosted.org/packages/40/26/aff8d554774eebc09cc96eb2ef9d1588ffadd7f0e01ec155f398d33fc12b/gmail_filter_manager-0.1.1.tar.gz
+[2024-05-23 02:31:24] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/34/35/c02f8b44914d6a85f1023defeda0fe5ddd5fe80fc706a609e07dfc6a3845/aind_metadata_service-0.9.2.tar.gz
+[2024-05-23 02:31:24] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/71/eb/0f3badeb036939343743105ce81b948f73031fe7d097756f44f4be570606/aeppl_nightly-0.1.5.dev20240522.tar.gz
+[2024-05-23 02:31:24] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-23 02:31:24] INFO root fetch - processPackages [cygv]: Downloading https://files.pythonhosted.org/packages/79/a5/402fe980248fcec8893a509bf7b435a51daca049242b7fa9cf5fed0a6057/cygv-0.0.2.tar.gz
+[2024-05-23 02:31:24] INFO root fetch - processPackages [aind-metadata-service]: Downloading https://files.pythonhosted.org/packages/8d/21/4002c1a012a7d5ba809815a5f290da4eb533b72db75fac51db8980b8a36f/aind_metadata_service-0.9.3.tar.gz
+[2024-05-23 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-23 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240521.tar.gz tmp/aeppl_nightly-0.1.5.dev20240522.tar.gz --markdown 20240523/a/aeppl-nightly/0.1.5.dev20240521-0.1.5.dev20240522/README.md --exclude *.pyd
+[2024-05-23 02:31:25] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-23 02:31:25] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240523/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 02:31:25] INFO root fetch - processPackages [cygv]: executing diffoscope
+[2024-05-23 02:31:25] INFO root fetch - processPackages [cygv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cygv-0.0.1.tar.gz tmp/cygv-0.0.2.tar.gz --markdown 20240523/c/cygv/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 02:31:25] INFO root fetch - processPackages [gmail-filter-manager]: Downloading https://files.pythonhosted.org/packages/6d/55/81197cc48ccb3bcf5878140bc50c333c5ab08a583aba95ca46e43b55c948/gmail_filter_manager-0.1.2.tar.gz
+[2024-05-23 02:31:25] INFO root fetch - processPackages [aind-metadata-service]: executing diffoscope
+[2024-05-23 02:31:25] INFO root fetch - processPackages [aind-metadata-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_service-0.9.2.tar.gz tmp/aind_metadata_service-0.9.3.tar.gz --markdown 20240523/a/aind-metadata-service/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-23 02:31:25] INFO root fetch - processPackages [gmail-filter-manager]: executing diffoscope
+[2024-05-23 02:31:25] INFO root fetch - processPackages [gmail-filter-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_filter_manager-0.1.1.tar.gz tmp/gmail_filter_manager-0.1.2.tar.gz --markdown 20240523/g/gmail-filter-manager/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240521.tar.gz]
+[2024-05-23 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240522.tar.gz]
+[2024-05-23 02:31:25] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-23 02:31:25] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-23 02:31:25] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-23 02:31:25] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-23 02:31:25] INFO root fetch - processPackages [cygv]: Remove: archive file [/home/abi/fetcher/tmp/cygv-0.0.1.tar.gz]
+[2024-05-23 02:31:25] INFO root fetch - processPackages [cygv]: Remove: archive file [/home/abi/fetcher/tmp/cygv-0.0.2.tar.gz]
+[2024-05-23 02:31:25] INFO root fetch - main [MainThread]: End processing [cygv]: success
+[2024-05-23 02:31:26] INFO root fetch - processPackages [aind-metadata-service]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_service-0.9.2.tar.gz]
+[2024-05-23 02:31:26] INFO root fetch - processPackages [aind-metadata-service]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_service-0.9.3.tar.gz]
+[2024-05-23 02:31:26] INFO root fetch - main [MainThread]: End processing [aind-metadata-service]: success
+[2024-05-23 02:31:26] INFO root fetch - processPackages [gmail-filter-manager]: Remove: archive file [/home/abi/fetcher/tmp/gmail_filter_manager-0.1.1.tar.gz]
+[2024-05-23 02:31:26] INFO root fetch - processPackages [gmail-filter-manager]: Remove: archive file [/home/abi/fetcher/tmp/gmail_filter_manager-0.1.2.tar.gz]
+[2024-05-23 02:31:26] INFO root fetch - main [MainThread]: End processing [gmail-filter-manager]: success
+[2024-05-23 02:31:26] INFO root fetch - main [MainThread]: Store serial: [23334750]
