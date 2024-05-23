@@ -20037,3 +20037,60 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:18:41] INFO root fetch - processPackages [Py-Lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
 [2024-05-23 12:18:41] INFO root fetch - main [MainThread]: End processing [Py-Lav]: success
 [2024-05-23 12:18:41] INFO root fetch - main [MainThread]: Store serial: [23341696]
+[2024-05-23 12:20:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341696]
+[2024-05-23 12:20:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: organizations-local
+[2024-05-23 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-report-grouped-by-picking
+[2024-05-23 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiida-workgraph
+[2024-05-23 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typeid
+[2024-05-23 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-lot-sequence
+[2024-05-23 12:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interactions-lavalink
+[2024-05-23 12:20:50] INFO root fetch - processPackages [typeid]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-23 12:20:50] INFO root fetch - processPackages [organizations-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 12:20:50] INFO root fetch - processPackages [aiida-workgraph]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-23 12:20:50] INFO root fetch - processPackages [typeid]: Downloading https://files.pythonhosted.org/packages/ca/1e/d46d82f10f14475e4c1a13d37b9dafe1b586bc98a565d5cd4ac94d4e08f9/typeid-0.2.0.tar.gz
+[2024-05-23 12:20:50] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: New version: [17.0.1.0.2] Old Version: [17.0.1.0.1]
+[2024-05-23 12:20:50] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.2]
+[2024-05-23 12:20:50] INFO root fetch - processPackages [interactions-lavalink]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-23 12:20:50] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/5b/7e/09b4d410b99d4d4b3d10725e50ba481bd8741acca902b216e9368c50f4aa/organizations-local-0.0.8.tar.gz
+[2024-05-23 12:20:50] INFO root fetch - processPackages [typeid]: Downloading https://files.pythonhosted.org/packages/4c/ef/353853b65ca3b7558b04204fffe7d005c5ff077bb1c68bdd591d53d664f2/typeid-0.2.1.tar.gz
+[2024-05-23 12:20:50] INFO root fetch - processPackages [aiida-workgraph]: Downloading https://files.pythonhosted.org/packages/ff/9c/0cdeed513fe2fb2990679c92a0775d475dd990bc2d02de54ffca3b17a145/aiida_workgraph-0.2.5.tar.gz
+[2024-05-23 12:20:50] INFO root fetch - processPackages [interactions-lavalink]: Downloading https://files.pythonhosted.org/packages/03/b0/e7281d716de84e17d3e3e706616947741a81a1fb518b341a259392b6aecb/interactions-lavalink-2.0.0.tar.gz
+[2024-05-23 12:20:50] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/13/22/4640377150727433febb8f9a261b01de12a99bfc5009d63822761d7999a5/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.1-py3-none-any.whl
+[2024-05-23 12:20:50] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Downloading https://files.pythonhosted.org/packages/7a/e9/c2a190c5ea02ca00d7332198b25a534db568b02814377f81d1192d6d68a9/odoo_addon_product_lot_sequence-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-23 12:20:50] INFO root fetch - processPackages [typeid]: executing diffoscope
+[2024-05-23 12:20:50] INFO root fetch - processPackages [typeid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeid-0.2.0.tar.gz tmp/typeid-0.2.1.tar.gz --markdown 20240523/t/typeid/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-23 12:20:51] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/fc/80/42cde22657fe954391a6e80fc840bcfd4599230f000e8eaaa14ac36177a7/organizations-local-0.0.9.tar.gz
+[2024-05-23 12:20:51] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Downloading https://files.pythonhosted.org/packages/28/7a/ed2290135c0a15bc2b8f7a627f16d1340f7dd93addb1978ebf592d9a623f/odoo_addon_product_lot_sequence-16.0.1.0.2-py3-none-any.whl
+[2024-05-23 12:20:51] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/04/75/3d7959e710bb469b382425cb2f9faed43f7c8a5d4efd8e31773599db5117/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.2-py3-none-any.whl
+[2024-05-23 12:20:51] INFO root fetch - processPackages [interactions-lavalink]: Downloading https://files.pythonhosted.org/packages/a8/08/2ae672de8ef1329c02611b8c53c10ad07cecae080f428ffb6b681292b90a/interactions_lavalink-3.0.0.tar.gz
+[2024-05-23 12:20:51] INFO root fetch - processPackages [organizations-local]: executing diffoscope
+[2024-05-23 12:20:51] INFO root fetch - processPackages [organizations-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organizations-local-0.0.8.tar.gz tmp/organizations-local-0.0.9.tar.gz --markdown 20240523/o/organizations-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 12:20:51] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: executing diffoscope
+[2024-05-23 12:20:51] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_lot_sequence-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_product_lot_sequence-16.0.1.0.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-product-lot-sequence/16.0.1.0.1.2-16.0.1.0.2/README.md --exclude *.pyd
+[2024-05-23 12:20:51] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: executing diffoscope
+[2024-05-23 12:20:51] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-account-invoice-report-grouped-by-picking/17.0.1.0.1-17.0.1.0.2/README.md --exclude *.pyd
+[2024-05-23 12:20:51] INFO root fetch - processPackages [typeid]: Remove: archive file [/home/abi/fetcher/tmp/typeid-0.2.0.tar.gz]
+[2024-05-23 12:20:51] INFO root fetch - processPackages [typeid]: Remove: archive file [/home/abi/fetcher/tmp/typeid-0.2.1.tar.gz]
+[2024-05-23 12:20:51] INFO root fetch - main [MainThread]: End processing [typeid]: success
+[2024-05-23 12:20:51] INFO root fetch - processPackages [interactions-lavalink]: executing diffoscope
+[2024-05-23 12:20:51] INFO root fetch - processPackages [interactions-lavalink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interactions-lavalink-2.0.0.tar.gz tmp/interactions_lavalink-3.0.0.tar.gz --markdown 20240523/i/interactions-lavalink/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-23 12:20:51] INFO root fetch - processPackages [aiida-workgraph]: Downloading https://files.pythonhosted.org/packages/84/65/4c3688ad6514aa7938c3e9c565dfebad858e2d9de8a5cc70d87a2147ec15/aiida_workgraph-0.2.6.tar.gz
+[2024-05-23 12:20:51] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.8.tar.gz]
+[2024-05-23 12:20:51] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.9.tar.gz]
+[2024-05-23 12:20:51] INFO root fetch - main [MainThread]: End processing [organizations-local]: success
+[2024-05-23 12:20:52] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-23 12:20:52] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-23 12:20:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-grouped-by-picking]: success
+[2024-05-23 12:20:52] INFO root fetch - processPackages [interactions-lavalink]: Remove: archive file [/home/abi/fetcher/tmp/interactions-lavalink-2.0.0.tar.gz]
+[2024-05-23 12:20:52] INFO root fetch - processPackages [interactions-lavalink]: Remove: archive file [/home/abi/fetcher/tmp/interactions_lavalink-3.0.0.tar.gz]
+[2024-05-23 12:20:52] INFO root fetch - main [MainThread]: End processing [interactions-lavalink]: success
+[2024-05-23 12:20:52] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_lot_sequence-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-23 12:20:52] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_lot_sequence-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-23 12:20:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-lot-sequence]: success
+[2024-05-23 12:20:52] INFO root fetch - processPackages [aiida-workgraph]: executing diffoscope
+[2024-05-23 12:20:52] INFO root fetch - processPackages [aiida-workgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_workgraph-0.2.5.tar.gz tmp/aiida_workgraph-0.2.6.tar.gz --markdown 20240523/a/aiida-workgraph/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-23 12:20:54] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.5.tar.gz]
+[2024-05-23 12:20:54] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.6.tar.gz]
+[2024-05-23 12:20:54] INFO root fetch - main [MainThread]: End processing [aiida-workgraph]: success
+[2024-05-23 12:20:54] INFO root fetch - main [MainThread]: Store serial: [23341717]
