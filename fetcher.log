@@ -9038,3 +9038,33 @@
 [2024-05-23 05:06:13] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz]
 [2024-05-23 05:06:13] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oceanbasepro]: success
 [2024-05-23 05:06:13] INFO root fetch - main [MainThread]: Store serial: [23336977]
+[2024-05-23 05:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336977]
+[2024-05-23 05:08:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 05:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: increff-runner
+[2024-05-23 05:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-local
+[2024-05-23 05:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywebio-battery
+[2024-05-23 05:08:22] INFO root fetch - processPackages [logger-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 05:08:22] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/95/83/cbbeaca04ecc0f2c8811769437b1979bde80cd488f848e324e92d8440499/logger-local-0.0.98.tar.gz
+[2024-05-23 05:08:22] INFO root fetch - processPackages [pywebio-battery]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-23 05:08:22] INFO root fetch - processPackages [increff-runner]: New version: [4.2] Old Version: [4.1]
+[2024-05-23 05:08:22] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/32/72/d6d6521aa3b74d3c30af8cdee32bb3e7a6008c5629d957853e9e7a3c01b4/logger-local-0.0.99.tar.gz
+[2024-05-23 05:08:22] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/29/07/a67de4bc7e27358d0b93187c5ca6c357c200714954140ec0df7f0f2a791a/increff_runner-4.1-py3-none-any.whl
+[2024-05-23 05:08:22] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2024-05-23 05:08:22] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.98.tar.gz tmp/logger-local-0.0.99.tar.gz --markdown 20240523/l/logger-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 05:08:22] INFO root fetch - processPackages [pywebio-battery]: Downloading https://files.pythonhosted.org/packages/60/e5/5f3511a5e772982be92b26677fc362b6f8b00461b45e10d463077fb7fcfa/pywebio_battery-0.6.0.tar.gz
+[2024-05-23 05:08:22] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/6a/7e/4be98a53066debd3b58db5a7269bbdd6d21ff989515e0a092a5c38f1be8d/increff_runner-4.2-py3-none-any.whl
+[2024-05-23 05:08:22] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-23 05:08:22] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-4.1-py3-none-any.whl.zip tmp/increff_runner-4.2-py3-none-any.whl.zip --markdown 20240523/i/increff-runner/4.1-4.2/README.md --exclude *.pyd
+[2024-05-23 05:08:22] INFO root fetch - processPackages [pywebio-battery]: Downloading https://files.pythonhosted.org/packages/5e/51/ede54b1b17d11a5214ac28453ffb4873f74ec9a08f40f220a961db581529/pywebio_battery-0.7.0.tar.gz
+[2024-05-23 05:08:23] INFO root fetch - processPackages [pywebio-battery]: executing diffoscope
+[2024-05-23 05:08:23] INFO root fetch - processPackages [pywebio-battery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywebio_battery-0.6.0.tar.gz tmp/pywebio_battery-0.7.0.tar.gz --markdown 20240523/p/pywebio-battery/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-23 05:08:23] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.98.tar.gz]
+[2024-05-23 05:08:23] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.99.tar.gz]
+[2024-05-23 05:08:23] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2024-05-23 05:08:23] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.1-py3-none-any.whl.zip]
+[2024-05-23 05:08:23] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
+[2024-05-23 05:08:23] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-23 05:08:23] INFO root fetch - processPackages [pywebio-battery]: Remove: archive file [/home/abi/fetcher/tmp/pywebio_battery-0.6.0.tar.gz]
+[2024-05-23 05:08:23] INFO root fetch - processPackages [pywebio-battery]: Remove: archive file [/home/abi/fetcher/tmp/pywebio_battery-0.7.0.tar.gz]
+[2024-05-23 05:08:23] INFO root fetch - main [MainThread]: End processing [pywebio-battery]: success
+[2024-05-23 05:08:23] INFO root fetch - main [MainThread]: Store serial: [23336998]
