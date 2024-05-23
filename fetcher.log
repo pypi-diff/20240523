@@ -23274,3 +23274,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 14:08:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2024-05-23 14:08:10] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2024-05-23 14:08:10] INFO root fetch - main [MainThread]: Store serial: [23343006]
+[2024-05-23 14:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23343006]
+[2024-05-23 14:10:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 14:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profile-zoominfo-graphql-imp-local
+[2024-05-23 14:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-device-support-plugin
+[2024-05-23 14:10:19] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-23 14:10:19] INFO root fetch - processPackages [netbox-device-support-plugin]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-23 14:10:19] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Downloading https://files.pythonhosted.org/packages/48/63/11514872db773dd6bc4b4cbbf82268400f18c93e5ad219d775b1dc6e0281/profile_zoominfo_graphql_imp_local-0.0.12.tar.gz
+[2024-05-23 14:10:19] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/34/97/5b9f15713c36074d053eb8ceb03c5cf95b651b2e7a386a99b60dbf6b87bf/netbox_device_support_plugin-1.0.2.tar.gz
+[2024-05-23 14:10:19] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Downloading https://files.pythonhosted.org/packages/54/19/a9dfde2919aeeafb542a7ba6c4988e08f63e334ff8193ac26039dae7b21b/profile_zoominfo_graphql_imp_local-0.0.13.tar.gz
+[2024-05-23 14:10:19] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: executing diffoscope
+[2024-05-23 14:10:19] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile_zoominfo_graphql_imp_local-0.0.12.tar.gz tmp/profile_zoominfo_graphql_imp_local-0.0.13.tar.gz --markdown 20240523/p/profile-zoominfo-graphql-imp-local/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-23 14:10:19] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/99/1d/fe6c047ecd1deec84112436a7f5b58e7ab769f799f27e47409132b6cf354/netbox_device_support_plugin-1.0.3.tar.gz
+[2024-05-23 14:10:19] INFO root fetch - processPackages [netbox-device-support-plugin]: executing diffoscope
+[2024-05-23 14:10:19] INFO root fetch - processPackages [netbox-device-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_device_support_plugin-1.0.2.tar.gz tmp/netbox_device_support_plugin-1.0.3.tar.gz --markdown 20240523/n/netbox-device-support-plugin/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-23 14:10:19] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/profile_zoominfo_graphql_imp_local-0.0.12.tar.gz]
+[2024-05-23 14:10:19] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/profile_zoominfo_graphql_imp_local-0.0.13.tar.gz]
+[2024-05-23 14:10:19] INFO root fetch - main [MainThread]: End processing [profile-zoominfo-graphql-imp-local]: success
+[2024-05-23 14:10:20] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.2.tar.gz]
+[2024-05-23 14:10:20] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.3.tar.gz]
+[2024-05-23 14:10:20] INFO root fetch - main [MainThread]: End processing [netbox-device-support-plugin]: success
+[2024-05-23 14:10:20] INFO root fetch - main [MainThread]: Store serial: [23343013]
