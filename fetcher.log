@@ -22986,3 +22986,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:57:01] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
 [2024-05-23 13:57:01] INFO root fetch - main [MainThread]: End processing [annet]: success
 [2024-05-23 13:57:01] INFO root fetch - main [MainThread]: Store serial: [23342871]
+[2024-05-23 13:59:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342871]
+[2024-05-23 13:59:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wolfsoftware.prereqs
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-coder
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dol
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naturalexperiments
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-json-schema-editor
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-audio
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vr180-convert
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: afas-connector
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulp-glue-maven
+[2024-05-23 13:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulp-cli-maven
+[2024-05-23 13:59:11] INFO root fetch - processPackages [vr180-convert]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [wolfsoftware.prereqs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [naturalexperiments]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-glue-maven]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-cli-maven]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/20/bc/2422bbe1108016b83ac1bc03bb83d4d69326681dedad7904219801ed8a98/vr180_convert-0.4.1.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/3d/d0/ccfd443e720349d89f5abe633da2364a6074ee4d839cdca91805148a3a96/naturalexperiments-0.0.2.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-cli-maven]: Downloading https://files.pythonhosted.org/packages/17/1e/e5e855145c4af78fc6d0e04bbec880f0d9920b953c2bbdd620c8e1971e99/pulp-cli-maven-0.2.0.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-glue-maven]: Downloading https://files.pythonhosted.org/packages/8d/1d/2d2aeb6f6438ec194487687cfe7b70af07f0d0430840ccb2107ad79d0ac4/pulp-glue-maven-0.2.0.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [afas-connector]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [ovos-audio]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [django-json-schema-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [dol]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-23 13:59:12] INFO root fetch - processPackages [wolfsoftware.prereqs]: Downloading https://files.pythonhosted.org/packages/54/73/7735d8df3789eb875d72de3bf0ddf260a7da6f56fb0be35f06164aad1598/wolfsoftware_prereqs-0.1.0.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [afas-connector]: Downloading https://files.pythonhosted.org/packages/ae/6f/5a738fe3a49d61c1fe4cff8f0c0c531b2a64e940c764655ef99d565306b8/afas_connector-0.1.3.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-cli-maven]: Downloading https://files.pythonhosted.org/packages/cd/85/452563e05180993ed0bc6bfe871dbb2922987ed73e1f7b56435881f366a4/pulp-cli-maven-0.3.0.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-glue-maven]: Downloading https://files.pythonhosted.org/packages/33/49/558766f1325ed8e7c87be47896bd7f0fa6c694ec19198b9de00710bc93d1/pulp-glue-maven-0.3.0.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/f1/7a/644b94f8e30f02521c773ac2294d8d33f4bf5be42ec5bce78f2fea7273e6/django_json_schema_editor-0.0.8.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/6f/c5/f8a89851ec9b6dd7de8b9fa052a348669681083d710557cbc207275200c6/dol-0.2.9.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [ovos-audio]: Downloading https://files.pythonhosted.org/packages/d4/17/2d3fbb5841c27544510814bf6ec9bc14e395b73db018714288dfb969ac7a/ovos_audio-0.0.2a8-py3-none-any.whl
+[2024-05-23 13:59:12] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/7b/e9/5643b817fd7b5d2f101f4cd3931de7b6389a612af37847f13252c016d5c6/vr180_convert-0.5.0.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/fc/9e/f9c4d006c2970f5b958c910085be6e1fe605575c7f77e1e4747ec8743908/naturalexperiments-0.0.3.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-glue-maven]: executing diffoscope
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-glue-maven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-maven-0.2.0.tar.gz tmp/pulp-glue-maven-0.3.0.tar.gz --markdown 20240523/p/pulp-glue-maven/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-cli-maven]: executing diffoscope
+[2024-05-23 13:59:12] INFO root fetch - processPackages [pulp-cli-maven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-maven-0.2.0.tar.gz tmp/pulp-cli-maven-0.3.0.tar.gz --markdown 20240523/p/pulp-cli-maven/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-23 13:59:12] INFO root fetch - processPackages [vr180-convert]: executing diffoscope
+[2024-05-23 13:59:12] INFO root fetch - processPackages [vr180-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vr180_convert-0.4.1.tar.gz tmp/vr180_convert-0.5.0.tar.gz --markdown 20240523/v/vr180-convert/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-23 13:59:12] INFO root fetch - processPackages [naturalexperiments]: executing diffoscope
+[2024-05-23 13:59:12] INFO root fetch - processPackages [naturalexperiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalexperiments-0.0.2.tar.gz tmp/naturalexperiments-0.0.3.tar.gz --markdown 20240523/n/naturalexperiments/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 13:59:12] INFO root fetch - processPackages [wolfsoftware.prereqs]: Downloading https://files.pythonhosted.org/packages/91/07/393dd25f0bbadd9f7a03eadd9c808bcc50fbaf436f8afbf67d60d8ffb249/wolfsoftware_prereqs-0.1.1.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [afas-connector]: Downloading https://files.pythonhosted.org/packages/39/6e/099e8639ca032921524a8f7f79e6664dfd17a561a9f4d3647227010f63f3/afas_connector-0.1.4.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/54/9b/84ff7b37c9e8a531f64432c812ef371ae4074c27398d60140e842e70443f/dol-0.3.0.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-23 13:59:12] INFO root fetch - processPackages [wolfsoftware.prereqs]: executing diffoscope
+[2024-05-23 13:59:12] INFO root fetch - processPackages [wolfsoftware.prereqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolfsoftware_prereqs-0.1.0.tar.gz tmp/wolfsoftware_prereqs-0.1.1.tar.gz --markdown 20240523/w/wolfsoftware.prereqs/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 13:59:12] INFO root fetch - processPackages [ovos-audio]: Downloading https://files.pythonhosted.org/packages/20/6f/67cf3b43303131b43946e6f35ff68018c8c9e3112db8aaf2d6dfc8545a60/ovos_audio-0.0.2a9-py3-none-any.whl
+[2024-05-23 13:59:13] INFO root fetch - processPackages [dol]: executing diffoscope
+[2024-05-23 13:59:13] INFO root fetch - processPackages [dol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol-0.2.9.tar.gz tmp/dol-0.3.0.tar.gz --markdown 20240523/d/dol/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-23 13:59:13] INFO root fetch - processPackages [afas-connector]: executing diffoscope
+[2024-05-23 13:59:13] INFO root fetch - processPackages [afas-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afas_connector-0.1.3.tar.gz tmp/afas_connector-0.1.4.tar.gz --markdown 20240523/a/afas-connector/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-23 13:59:13] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-23 13:59:13] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240523/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 13:59:13] INFO root fetch - processPackages [ovos-audio]: executing diffoscope
+[2024-05-23 13:59:13] INFO root fetch - processPackages [ovos-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_audio-0.0.2a8-py3-none-any.whl.zip tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip --markdown 20240523/o/ovos-audio/0.0.2a8-0.0.2a9/README.md --exclude *.pyd
+[2024-05-23 13:59:13] INFO root fetch - processPackages [pulp-cli-maven]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-maven-0.2.0.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [pulp-cli-maven]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-maven-0.3.0.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [pulp-cli-maven]: Start processing: yeref
+[2024-05-23 13:59:13] INFO root fetch - main [MainThread]: End processing [pulp-cli-maven]: success
+[2024-05-23 13:59:13] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [pulp-glue-maven]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-maven-0.2.0.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [pulp-glue-maven]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-maven-0.3.0.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - main [MainThread]: End processing [pulp-glue-maven]: success
+[2024-05-23 13:59:13] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-23 13:59:13] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.4.1.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.5.0.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - main [MainThread]: End processing [vr180-convert]: success
+[2024-05-23 13:59:13] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.0.2.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.0.3.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - main [MainThread]: End processing [naturalexperiments]: success
+[2024-05-23 13:59:13] INFO root fetch - processPackages [wolfsoftware.prereqs]: Remove: archive file [/home/abi/fetcher/tmp/wolfsoftware_prereqs-0.1.0.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [wolfsoftware.prereqs]: Remove: archive file [/home/abi/fetcher/tmp/wolfsoftware_prereqs-0.1.1.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - main [MainThread]: End processing [wolfsoftware.prereqs]: success
+[2024-05-23 13:59:13] INFO root fetch - processPackages [afas-connector]: Remove: archive file [/home/abi/fetcher/tmp/afas_connector-0.1.3.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [afas-connector]: Remove: archive file [/home/abi/fetcher/tmp/afas_connector-0.1.4.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - main [MainThread]: End processing [afas-connector]: success
+[2024-05-23 13:59:13] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-23 13:59:13] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-23 13:59:13] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240523/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 13:59:13] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-23 13:59:13] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-23 13:59:13] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/fe/33/fbc31371354b97194681d08db6bec40cb469672204617fbf4ef66b3bc6f4/django_json_schema_editor-0.0.9.tar.gz
+[2024-05-23 13:59:14] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a8-py3-none-any.whl.zip]
+[2024-05-23 13:59:14] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip]
+[2024-05-23 13:59:14] INFO root fetch - main [MainThread]: End processing [ovos-audio]: success
+[2024-05-23 13:59:14] INFO root fetch - processPackages [django-json-schema-editor]: executing diffoscope
+[2024-05-23 13:59:14] INFO root fetch - processPackages [django-json-schema-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_json_schema_editor-0.0.8.tar.gz tmp/django_json_schema_editor-0.0.9.tar.gz --markdown 20240523/d/django-json-schema-editor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 13:59:14] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.2.9.tar.gz]
+[2024-05-23 13:59:14] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.3.0.tar.gz]
+[2024-05-23 13:59:14] INFO root fetch - main [MainThread]: End processing [dol]: success
+[2024-05-23 13:59:14] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-23 13:59:14] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-23 13:59:14] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-23 13:59:18] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.8.tar.gz]
+[2024-05-23 13:59:18] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
+[2024-05-23 13:59:18] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
+[2024-05-23 13:59:18] INFO root fetch - main [MainThread]: Store serial: [23342907]
