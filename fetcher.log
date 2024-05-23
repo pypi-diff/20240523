@@ -9068,3 +9068,24 @@
 [2024-05-23 05:08:23] INFO root fetch - processPackages [pywebio-battery]: Remove: archive file [/home/abi/fetcher/tmp/pywebio_battery-0.7.0.tar.gz]
 [2024-05-23 05:08:23] INFO root fetch - main [MainThread]: End processing [pywebio-battery]: success
 [2024-05-23 05:08:23] INFO root fetch - main [MainThread]: Store serial: [23336998]
+[2024-05-23 05:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336998]
+[2024-05-23 05:10:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oresat-dxwifi
+[2024-05-23 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvat_sdk_i_digit
+[2024-05-23 05:10:32] INFO root fetch - processPackages [cvat_sdk_i_digit]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 05:10:32] INFO root fetch - processPackages [cvat_sdk_i_digit]: Downloading https://files.pythonhosted.org/packages/a8/c1/cf6b4ce3881d8c086079df33e9f8f65be8a9934ec72f34c48545f0c443cc/cvat_sdk_i_digit-0.0.2.tar.gz
+[2024-05-23 05:10:32] INFO root fetch - processPackages [oresat-dxwifi]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-23 05:10:32] INFO root fetch - processPackages [oresat-dxwifi]: Downloading https://files.pythonhosted.org/packages/db/ac/1c10bc5eff5d6b7aea755b80c2725509c3ef3f9defa69b3595e68e0e6a61/oresat_dxwifi-0.3.7.tar.gz
+[2024-05-23 05:10:32] INFO root fetch - processPackages [cvat_sdk_i_digit]: Downloading https://files.pythonhosted.org/packages/25/d6/491de5e3c5e838660e1b124cd8b8b8a75d18ff1f822fd5e55cf06eae25d7/cvat_sdk_i_digit-0.0.3.tar.gz
+[2024-05-23 05:10:32] INFO root fetch - processPackages [cvat_sdk_i_digit]: executing diffoscope
+[2024-05-23 05:10:32] INFO root fetch - processPackages [cvat_sdk_i_digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk_i_digit-0.0.2.tar.gz tmp/cvat_sdk_i_digit-0.0.3.tar.gz --markdown 20240523/c/cvat_sdk_i_digit/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 05:10:33] INFO root fetch - processPackages [oresat-dxwifi]: Downloading https://files.pythonhosted.org/packages/65/e7/7eab238cbab61b2ec2cc27e222b0fca92d4af4b9c86b6fce14c1c733f26d/oresat_dxwifi-0.3.8.tar.gz
+[2024-05-23 05:10:33] INFO root fetch - processPackages [cvat_sdk_i_digit]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk_i_digit-0.0.2.tar.gz]
+[2024-05-23 05:10:33] INFO root fetch - processPackages [cvat_sdk_i_digit]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk_i_digit-0.0.3.tar.gz]
+[2024-05-23 05:10:33] INFO root fetch - main [MainThread]: End processing [cvat_sdk_i_digit]: success
+[2024-05-23 05:10:33] INFO root fetch - processPackages [oresat-dxwifi]: executing diffoscope
+[2024-05-23 05:10:33] INFO root fetch - processPackages [oresat-dxwifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat_dxwifi-0.3.7.tar.gz tmp/oresat_dxwifi-0.3.8.tar.gz --markdown 20240523/o/oresat-dxwifi/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-23 05:10:34] INFO root fetch - processPackages [oresat-dxwifi]: Remove: archive file [/home/abi/fetcher/tmp/oresat_dxwifi-0.3.7.tar.gz]
+[2024-05-23 05:10:34] INFO root fetch - processPackages [oresat-dxwifi]: Remove: archive file [/home/abi/fetcher/tmp/oresat_dxwifi-0.3.8.tar.gz]
+[2024-05-23 05:10:34] INFO root fetch - main [MainThread]: End processing [oresat-dxwifi]: success
+[2024-05-23 05:10:34] INFO root fetch - main [MainThread]: Store serial: [23337004]
