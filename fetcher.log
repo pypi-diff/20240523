@@ -12938,3 +12938,57 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:05:28] WARNING root fetch - processPackages [custom-json-diff]: Skipping, unable to determine old version
 [2024-05-23 09:05:28] INFO root fetch - main [MainThread]: End processing [custom-json-diff] error
 [2024-05-23 09:05:28] INFO root fetch - main [MainThread]: Store serial: [23338928]
+[2024-05-23 09:07:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338928]
+[2024-05-23 09:07:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mask-key
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: structables
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ahmedHossam
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynamodb-mate
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xiaojing
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packManager
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-model-manager
+[2024-05-23 09:07:38] INFO root fetch - processPackages [pynamodb-mate]: New version: [5.5.1.1] Old Version: [5.3.4.9]
+[2024-05-23 09:07:38] INFO root fetch - processPackages [mask-key]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ahmedHossam]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 09:07:38] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev8] Old Version: [0.4.0.dev7]
+[2024-05-23 09:07:38] WARNING root fetch - processPackages [structables]: Skipping, unable to determine old version
+[2024-05-23 09:07:38] INFO root fetch - main [MainThread]: End processing [structables] error
+[2024-05-23 09:07:38] INFO root fetch - processPackages [pynamodb-mate]: Downloading https://files.pythonhosted.org/packages/6a/9a/818108585fb7980f6545e1c49af5471013b2635d110a62d0a2e41a9b9b67/pynamodb_mate-5.3.4.9.tar.gz
+[2024-05-23 09:07:38] INFO root fetch - processPackages [mask-key]: Downloading https://files.pythonhosted.org/packages/66/c5/6d2b01ca0e74e211010ae49912a7bedd21760a208b2e3dd8220ea08389f0/mask_key-0.2.6.tar.gz
+[2024-05-23 09:07:38] WARNING root fetch - processPackages [xiaojing]: Skipping, unable to determine old version
+[2024-05-23 09:07:38] INFO root fetch - main [MainThread]: End processing [xiaojing] error
+[2024-05-23 09:07:38] INFO root fetch - processPackages [packManager]: New version: [1.0.4] Old Version: [0.0.0]
+[2024-05-23 09:07:38] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/c0/cc/be4d8143161fa50f30069b9dee9c80753d15a28053c894abbeae504ba52a/torch_model_manager-0.4.0.dev7.tar.gz
+[2024-05-23 09:07:38] INFO root fetch - processPackages [ahmedHossam]: Downloading https://files.pythonhosted.org/packages/84/b2/38c577ea7ec74851f329b635b7f2ae9217dcbbdad27a30a07e4ae49a8622/ahmedhossam-0.0.1.tar.gz
+[2024-05-23 09:07:38] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/1d/36/4aed9d6940d682b6a4e75295a18767903d99c13a11dc9aae97b2feb275ce/packmanager-0.0.0.tar.gz
+[2024-05-23 09:07:38] INFO root fetch - processPackages [pynamodb-mate]: Downloading https://files.pythonhosted.org/packages/a2/37/2c7a7eed4c4dfa51c0dd9d309a05b1490be1411208efaf3ea793204a8d64/pynamodb_mate-5.5.1.1.tar.gz
+[2024-05-23 09:07:38] INFO root fetch - processPackages [mask-key]: Downloading https://files.pythonhosted.org/packages/98/42/08863aab615d1b168d4217854de4707c1e9f30bba64cf8bc3e48af52206b/mask_key-0.2.7.tar.gz
+[2024-05-23 09:07:39] INFO root fetch - processPackages [ahmedHossam]: Downloading https://files.pythonhosted.org/packages/41/9c/9d2bc126d989125583daade771ca3145656e48b882d4e039f56dac03aee2/ahmedhossam-0.0.2.tar.gz
+[2024-05-23 09:07:39] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:07:39] INFO root fetch - processPackages [mask-key]: executing diffoscope
+[2024-05-23 09:07:39] INFO root fetch - processPackages [mask-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mask_key-0.2.6.tar.gz tmp/mask_key-0.2.7.tar.gz --markdown 20240523/m/mask-key/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-23 09:07:39] INFO root fetch - processPackages [pynamodb-mate]: executing diffoscope
+[2024-05-23 09:07:39] INFO root fetch - processPackages [pynamodb-mate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamodb_mate-5.3.4.9.tar.gz tmp/pynamodb_mate-5.5.1.1.tar.gz --markdown 20240523/p/pynamodb-mate/5.3.4.9-5.5.1.1/README.md --exclude *.pyd
+[2024-05-23 09:07:39] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/0a/a3/5fe89b2c000f3610c60e882a2e576db59091db37ff17ad3e18f5fae70381/packmanager-1.0.4.tar.gz
+[2024-05-23 09:07:39] INFO root fetch - processPackages [ahmedHossam]: executing diffoscope
+[2024-05-23 09:07:39] INFO root fetch - processPackages [ahmedHossam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahmedhossam-0.0.1.tar.gz tmp/ahmedhossam-0.0.2.tar.gz --markdown 20240523/a/ahmedHossam/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 09:07:39] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:07:39] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev7.tar.gz tmp/torch_model_manager-0.4.0.dev8.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev7-0.4.0.dev8/README.md --exclude *.pyd
+[2024-05-23 09:07:39] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-23 09:07:39] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-0.0.0.tar.gz tmp/packmanager-1.0.4.tar.gz --markdown 20240523/p/packManager/0.0.0-1.0.4/README.md --exclude *.pyd
+[2024-05-23 09:07:39] INFO root fetch - processPackages [mask-key]: Remove: archive file [/home/abi/fetcher/tmp/mask_key-0.2.6.tar.gz]
+[2024-05-23 09:07:39] INFO root fetch - processPackages [mask-key]: Remove: archive file [/home/abi/fetcher/tmp/mask_key-0.2.7.tar.gz]
+[2024-05-23 09:07:39] INFO root fetch - main [MainThread]: End processing [mask-key]: success
+[2024-05-23 09:07:39] INFO root fetch - processPackages [ahmedHossam]: Remove: archive file [/home/abi/fetcher/tmp/ahmedhossam-0.0.1.tar.gz]
+[2024-05-23 09:07:39] INFO root fetch - processPackages [ahmedHossam]: Remove: archive file [/home/abi/fetcher/tmp/ahmedhossam-0.0.2.tar.gz]
+[2024-05-23 09:07:39] INFO root fetch - main [MainThread]: End processing [ahmedHossam]: success
+[2024-05-23 09:07:39] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev7.tar.gz]
+[2024-05-23 09:07:39] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:07:39] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:07:39] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-0.0.0.tar.gz]
+[2024-05-23 09:07:39] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.4.tar.gz]
+[2024-05-23 09:07:39] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-23 09:07:40] INFO root fetch - processPackages [pynamodb-mate]: Remove: archive file [/home/abi/fetcher/tmp/pynamodb_mate-5.3.4.9.tar.gz]
+[2024-05-23 09:07:40] INFO root fetch - processPackages [pynamodb-mate]: Remove: archive file [/home/abi/fetcher/tmp/pynamodb_mate-5.5.1.1.tar.gz]
+[2024-05-23 09:07:40] INFO root fetch - main [MainThread]: End processing [pynamodb-mate]: success
+[2024-05-23 09:07:40] INFO root fetch - main [MainThread]: Store serial: [23338951]
