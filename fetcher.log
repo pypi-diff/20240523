@@ -20245,3 +20245,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:29:39] INFO root fetch - processPackages [synapse-invite-checker]: Remove: archive file [/home/abi/fetcher/tmp/synapse_invite_checker-0.2.0.tar.gz]
 [2024-05-23 12:29:39] INFO root fetch - main [MainThread]: End processing [synapse-invite-checker]: success
 [2024-05-23 12:29:39] INFO root fetch - main [MainThread]: Store serial: [23341781]
+[2024-05-23 12:31:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341781]
+[2024-05-23 12:31:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HandyLLM
+[2024-05-23 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transstellar
+[2024-05-23 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drevalpy
+[2024-05-23 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-sphgeom
+[2024-05-23 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-aws
+[2024-05-23 12:31:49] INFO root fetch - processPackages [transstellar]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-23 12:31:49] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-23 12:31:49] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/51/99/3d8e845a8dca8cd90dab3fef49bfe1c2f7e84362b8f40f25db0aef9e2c2b/transstellar-2.2.1.tar.gz
+[2024-05-23 12:31:49] INFO root fetch - processPackages [HandyLLM]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-23 12:31:49] WARNING root fetch - processPackages [drevalpy]: Skipping, unable to determine old version
+[2024-05-23 12:31:49] INFO root fetch - main [MainThread]: End processing [drevalpy] error
+[2024-05-23 12:31:49] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-23 12:31:49] INFO root fetch - processPackages [lsst-sphgeom]: New version: [27.2024.2100] Old Version: [27.2024.2001]
+[2024-05-23 12:31:50] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/cc/62/b80acfc6fae4431c16b055e599e27fdf78ba609751cb483096597809d2a2/handyllm-0.7.4.tar.gz
+[2024-05-23 12:31:50] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/89/87/b88cf64546e7bf9d9b2287c753d2bd975f6ad5ee878c6034391e31ff31e3/lsst_sphgeom-27.2024.2001.tar.gz
+[2024-05-23 12:31:50] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/a6/4b/ab17c8cca5ab913445a5c5559caae53a158774d7b1c6efb5e8c491253181/transstellar-2.3.0.tar.gz
+[2024-05-23 12:31:50] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-23 12:31:50] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.2.1.tar.gz tmp/transstellar-2.3.0.tar.gz --markdown 20240523/t/transstellar/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-23 12:31:50] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/aa/50/886822258b86c4131fbca81f069bab70c9e83756631d39577f9a92fd3837/handyllm-0.7.5.tar.gz
+[2024-05-23 12:31:50] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-23 12:31:50] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2024-05-23 12:31:50] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handyllm-0.7.4.tar.gz tmp/handyllm-0.7.5.tar.gz --markdown 20240523/H/HandyLLM/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-23 12:31:50] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/a6/6f/70192d4d5a155f349ed90e9c3a68ab928ad9939fd35d892737cb975c2c86/lsst_sphgeom-27.2024.2100.tar.gz
+[2024-05-23 12:31:50] INFO root fetch - processPackages [lsst-sphgeom]: executing diffoscope
+[2024-05-23 12:31:50] INFO root fetch - processPackages [lsst-sphgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_sphgeom-27.2024.2001.tar.gz tmp/lsst_sphgeom-27.2024.2100.tar.gz --markdown 20240523/l/lsst-sphgeom/27.2024.2001-27.2024.2100/README.md --exclude *.pyd
+[2024-05-23 12:31:50] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.2.1.tar.gz]
+[2024-05-23 12:31:50] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.3.0.tar.gz]
+[2024-05-23 12:31:50] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-23 12:31:50] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-23 12:31:50] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240523/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-23 12:31:51] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.4.tar.gz]
+[2024-05-23 12:31:51] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.5.tar.gz]
+[2024-05-23 12:31:51] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2024-05-23 12:31:51] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2001.tar.gz]
+[2024-05-23 12:31:51] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2100.tar.gz]
+[2024-05-23 12:31:51] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
+[2024-05-23 12:32:07] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-23 12:32:07] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-23 12:32:07] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-23 12:32:07] INFO root fetch - main [MainThread]: Store serial: [23341811]
