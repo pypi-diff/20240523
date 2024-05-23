@@ -22818,3 +22818,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:50:28] INFO root fetch - processPackages [strym]: Remove: archive file [/home/abi/fetcher/tmp/strym-0.4.9-py2.py3-none-any.whl.zip]
 [2024-05-23 13:50:28] INFO root fetch - main [MainThread]: End processing [strym]: success
 [2024-05-23 13:50:28] INFO root fetch - main [MainThread]: Store serial: [23342814]
+[2024-05-23 13:52:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342814]
+[2024-05-23 13:52:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 13:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: romsearch
+[2024-05-23 13:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foscat
+[2024-05-23 13:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-23 13:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: behaverse
+[2024-05-23 13:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naturalexperiments
+[2024-05-23 13:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hcam-devices
+[2024-05-23 13:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-preprocessing-lib-byarat
+[2024-05-23 13:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datacleanerpandas
+[2024-05-23 13:52:37] INFO root fetch - processPackages [behaverse]: New version: [0.0.5.dev2] Old Version: [0.0.5.dev1]
+[2024-05-23 13:52:37] INFO root fetch - processPackages [foscat]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-23 13:52:37] INFO root fetch - processPackages [naturalexperiments]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 13:52:37] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-23 13:52:37] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 13:52:37] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/ab/1c/fc599bb27c53cf54eaaefc7e2dddda710c22d26b0121ff7dd839f83de5e1/naturalexperiments-0.0.1.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [romsearch]: New version: [0.0.6] Old Version: [0.0.5.post2]
+[2024-05-23 13:52:37] INFO root fetch - processPackages [datacleanerpandas]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 13:52:37] INFO root fetch - processPackages [hcam-devices]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-23 13:52:37] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/6e/8f/1d7e989741aeee5e8b5bd310a73c6f99d5eac5bfed2067be7bb1e634c3bd/behaverse-0.0.5.dev1.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/b6/1a/cff11416f3547c8dc9a5231634209d3692fac4d553dab54be2058eae0087/foscat-3.0.8.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Downloading https://files.pythonhosted.org/packages/8b/0b/04923eb0e8b025e93922d45748bbca70a43c552fe94e230bb8b82aeb9660/data_preprocessing_lib_byarat-1.5.0.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [datacleanerpandas]: Downloading https://files.pythonhosted.org/packages/c5/98/ecf6eb36607e5e72be58e70006c5c4326810e3d2180926374c35d2299033/datacleanerpandas-0.1.0.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [hcam-devices]: Downloading https://files.pythonhosted.org/packages/4c/51/cbd607b518071763fd1c78652cd6bd7a86378afb48acb0f35bc01ef19ead/hcam_devices-1.2.1.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [romsearch]: Downloading https://files.pythonhosted.org/packages/d1/93/74df600887f2bbcc308ded3316569d73e5c72dd9427a012954842e9ac043/romsearch-0.0.5.post2.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/42/3c/3ec0d9aa38fb2a3152ce79ba0f92a03372e73164626118a07121951ed317/foscat-3.0.9.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/3d/d0/ccfd443e720349d89f5abe633da2364a6074ee4d839cdca91805148a3a96/naturalexperiments-0.0.2.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-23 13:52:37] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/3d/19/a269f2ddb968438bbdd60a34cbbe37de2a33948a982b2ba5d547a15cb2f5/behaverse-0.0.5.dev2.tar.gz
+[2024-05-23 13:52:38] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Downloading https://files.pythonhosted.org/packages/4b/bd/010ff57044f1380be62082587ed108f8bc8439ddf0ac714a19e292917bbd/data_preprocessing_lib_byarat-1.6.0.tar.gz
+[2024-05-23 13:52:38] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2024-05-23 13:52:38] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-3.0.8.tar.gz tmp/foscat-3.0.9.tar.gz --markdown 20240523/f/foscat/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-23 13:52:38] INFO root fetch - processPackages [naturalexperiments]: executing diffoscope
+[2024-05-23 13:52:38] INFO root fetch - processPackages [naturalexperiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalexperiments-0.0.1.tar.gz tmp/naturalexperiments-0.0.2.tar.gz --markdown 20240523/n/naturalexperiments/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 13:52:38] INFO root fetch - processPackages [behaverse]: executing diffoscope
+[2024-05-23 13:52:38] INFO root fetch - processPackages [behaverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behaverse-0.0.5.dev1.tar.gz tmp/behaverse-0.0.5.dev2.tar.gz --markdown 20240523/b/behaverse/0.0.5.dev1-0.0.5.dev2/README.md --exclude *.pyd
+[2024-05-23 13:52:38] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: executing diffoscope
+[2024-05-23 13:52:38] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_preprocessing_lib_byarat-1.5.0.tar.gz tmp/data_preprocessing_lib_byarat-1.6.0.tar.gz --markdown 20240523/d/data-preprocessing-lib-byarat/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-23 13:52:38] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-23 13:52:38] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240523/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 13:52:38] INFO root fetch - processPackages [datacleanerpandas]: Downloading https://files.pythonhosted.org/packages/71/92/be3cd902c168926fc509b38729c4f3416197b36d06f0fdd7fa632e9c7432/datacleanerpandas-0.1.1.tar.gz
+[2024-05-23 13:52:38] INFO root fetch - processPackages [hcam-devices]: Downloading https://files.pythonhosted.org/packages/da/fd/3f48c607aa5d19325d7dc06f1e0daa025ac11aed8b88590b8e498e28c542/hcam_devices-1.3.0.tar.gz
+[2024-05-23 13:52:38] INFO root fetch - processPackages [romsearch]: Downloading https://files.pythonhosted.org/packages/d3/12/3ae52f0153fa3a7b860688106acbdf924dbcbef5ea83e37fffed111c974e/romsearch-0.0.6.tar.gz
+[2024-05-23 13:52:38] INFO root fetch - processPackages [datacleanerpandas]: executing diffoscope
+[2024-05-23 13:52:38] INFO root fetch - processPackages [datacleanerpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacleanerpandas-0.1.0.tar.gz tmp/datacleanerpandas-0.1.1.tar.gz --markdown 20240523/d/datacleanerpandas/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 13:52:38] INFO root fetch - processPackages [romsearch]: executing diffoscope
+[2024-05-23 13:52:38] INFO root fetch - processPackages [romsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romsearch-0.0.5.post2.tar.gz tmp/romsearch-0.0.6.tar.gz --markdown 20240523/r/romsearch/0.0.5.post2-0.0.6/README.md --exclude *.pyd
+[2024-05-23 13:52:38] INFO root fetch - processPackages [hcam-devices]: executing diffoscope
+[2024-05-23 13:52:38] INFO root fetch - processPackages [hcam-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcam_devices-1.2.1.tar.gz tmp/hcam_devices-1.3.0.tar.gz --markdown 20240523/h/hcam-devices/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-23 13:52:38] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Remove: archive file [/home/abi/fetcher/tmp/data_preprocessing_lib_byarat-1.5.0.tar.gz]
+[2024-05-23 13:52:38] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Remove: archive file [/home/abi/fetcher/tmp/data_preprocessing_lib_byarat-1.6.0.tar.gz]
+[2024-05-23 13:52:38] INFO root fetch - main [MainThread]: End processing [data-preprocessing-lib-byarat]: success
+[2024-05-23 13:52:39] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.0.1.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.0.2.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - main [MainThread]: End processing [naturalexperiments]: success
+[2024-05-23 13:52:39] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.5.dev1.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.5.dev2.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - main [MainThread]: End processing [behaverse]: success
+[2024-05-23 13:52:39] INFO root fetch - processPackages [datacleanerpandas]: Remove: archive file [/home/abi/fetcher/tmp/datacleanerpandas-0.1.0.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - processPackages [datacleanerpandas]: Remove: archive file [/home/abi/fetcher/tmp/datacleanerpandas-0.1.1.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - main [MainThread]: End processing [datacleanerpandas]: success
+[2024-05-23 13:52:39] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.8.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.9.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2024-05-23 13:52:39] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-23 13:52:39] INFO root fetch - processPackages [hcam-devices]: Remove: archive file [/home/abi/fetcher/tmp/hcam_devices-1.2.1.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - processPackages [hcam-devices]: Remove: archive file [/home/abi/fetcher/tmp/hcam_devices-1.3.0.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - main [MainThread]: End processing [hcam-devices]: success
+[2024-05-23 13:52:39] INFO root fetch - processPackages [romsearch]: Remove: archive file [/home/abi/fetcher/tmp/romsearch-0.0.5.post2.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - processPackages [romsearch]: Remove: archive file [/home/abi/fetcher/tmp/romsearch-0.0.6.tar.gz]
+[2024-05-23 13:52:39] INFO root fetch - main [MainThread]: End processing [romsearch]: success
+[2024-05-23 13:52:39] INFO root fetch - main [MainThread]: Store serial: [23342839]
