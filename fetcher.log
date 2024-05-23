@@ -10417,3 +10417,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:48:27] INFO root fetch - processPackages [django-codenerix-geodata]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-geodata-4.0.3.tar.gz]
 [2024-05-23 06:48:27] INFO root fetch - main [MainThread]: End processing [django-codenerix-geodata]: success
 [2024-05-23 06:48:27] INFO root fetch - main [MainThread]: Store serial: [23337730]
+[2024-05-23 06:50:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337730]
+[2024-05-23 06:50:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 06:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afeng-py-tools
+[2024-05-23 06:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: location-local
+[2024-05-23 06:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuroweave
+[2024-05-23 06:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2024-05-23 06:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medium-to-markdown-py
+[2024-05-23 06:50:35] INFO root fetch - processPackages [location-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 06:50:35] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-23 06:50:35] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 06:50:35] INFO root fetch - processPackages [medium-to-markdown-py]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-23 06:50:35] WARNING root fetch - processPackages [neuroweave]: Skipping, unable to determine old version
+[2024-05-23 06:50:35] INFO root fetch - main [MainThread]: End processing [neuroweave] error
+[2024-05-23 06:50:35] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/9c/f2/fcc760989d48c5e33cbe7c435b39b0a9e8eba895ccbf5832a8b83178d5ab/location_local-0.0.98.tar.gz
+[2024-05-23 06:50:35] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-23 06:50:35] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-23 06:50:36] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/2e/1e/2a1e6264292214bc558e1230d4660d51bbe681d2921a250cb4f94052fc9e/location_local-0.0.99.tar.gz
+[2024-05-23 06:50:36] INFO root fetch - processPackages [medium-to-markdown-py]: Downloading https://files.pythonhosted.org/packages/5c/69/6d83c3013dec31670f76620defaabc6feac2c75dc5c707500efddc76f353/medium_to_markdown_py-1.1.4.tar.gz
+[2024-05-23 06:50:36] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-23 06:50:36] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-23 06:50:36] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2024-05-23 06:50:36] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location_local-0.0.98.tar.gz tmp/location_local-0.0.99.tar.gz --markdown 20240523/l/location-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 06:50:36] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-23 06:50:36] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240523/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-23 06:50:36] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-23 06:50:36] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240523/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 06:50:36] INFO root fetch - processPackages [medium-to-markdown-py]: Downloading https://files.pythonhosted.org/packages/95/f3/e682b1eb9a3ca85fa867037d2ae90831948fc6e13819d5c5a4f4661cfa2b/medium_to_markdown_py-1.1.5.tar.gz
+[2024-05-23 06:50:36] INFO root fetch - processPackages [medium-to-markdown-py]: executing diffoscope
+[2024-05-23 06:50:36] INFO root fetch - processPackages [medium-to-markdown-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medium_to_markdown_py-1.1.4.tar.gz tmp/medium_to_markdown_py-1.1.5.tar.gz --markdown 20240523/m/medium-to-markdown-py/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-23 06:50:36] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-23 06:50:36] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-23 06:50:36] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-23 06:50:36] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.98.tar.gz]
+[2024-05-23 06:50:36] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.99.tar.gz]
+[2024-05-23 06:50:36] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2024-05-23 06:50:37] INFO root fetch - processPackages [medium-to-markdown-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_to_markdown_py-1.1.4.tar.gz]
+[2024-05-23 06:50:37] INFO root fetch - processPackages [medium-to-markdown-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_to_markdown_py-1.1.5.tar.gz]
+[2024-05-23 06:50:37] INFO root fetch - main [MainThread]: End processing [medium-to-markdown-py]: success
+[2024-05-23 06:50:37] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-23 06:50:37] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-23 06:50:37] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-23 06:50:37] INFO root fetch - main [MainThread]: Store serial: [23337746]
