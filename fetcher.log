@@ -2930,3 +2930,49 @@
 [2024-05-23 02:33:35] INFO root fetch - processPackages [gmail-filter-manager]: Remove: archive file [/home/abi/fetcher/tmp/gmail_filter_manager-0.1.2.tar.gz]
 [2024-05-23 02:33:35] INFO root fetch - main [MainThread]: End processing [gmail-filter-manager]: success
 [2024-05-23 02:33:35] INFO root fetch - main [MainThread]: Store serial: [23334765]
+[2024-05-23 02:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334765]
+[2024-05-23 02:35:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 02:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-retry
+[2024-05-23 02:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-checker
+[2024-05-23 02:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eth-retry
+[2024-05-23 02:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scoutbook_parser
+[2024-05-23 02:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wah
+[2024-05-23 02:35:44] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 02:35:44] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-23 02:35:44] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 02:35:44] INFO root fetch - processPackages [eth-retry]: New version: [0.1.9.dev1] Old Version: [0.1.9]
+[2024-05-23 02:35:44] INFO root fetch - processPackages [eth-retry]: New version: [0.1.9.dev1] Old Version: [0.1.9]
+[2024-05-23 02:35:44] INFO root fetch - processPackages [model-checker]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-23 02:35:45] INFO root fetch - processPackages [eth-retry]: Downloading https://files.pythonhosted.org/packages/1e/13/ea4f6c2155328ff6dc49b06bf8bc5f294e82f76489c70602691948f89705/eth_retry-0.1.9.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/d4/a3/c747a4913078672f34adc4f223b1280d3d3bba45953bb6de5a9efe5ba52e/model_checker-0.3.8.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [eth-retry]: Downloading https://files.pythonhosted.org/packages/1e/13/ea4f6c2155328ff6dc49b06bf8bc5f294e82f76489c70602691948f89705/eth_retry-0.1.9.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-23 02:35:45] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240523/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 02:35:45] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/9f/34/8db406de616a95ce5da5a832c9764ce727860cfc2e73a8df9d985cebebc8/model_checker-0.3.9.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [eth-retry]: Downloading https://files.pythonhosted.org/packages/88/82/80c753c6e5b0eed46e331fdfad034183f4f992c2b50dc7a6a47683b104df/eth_retry-0.1.9.dev1.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [eth-retry]: Downloading https://files.pythonhosted.org/packages/88/82/80c753c6e5b0eed46e331fdfad034183f4f992c2b50dc7a6a47683b104df/eth_retry-0.1.9.dev1.tar.gz
+[2024-05-23 02:35:45] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-23 02:35:45] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.3.8.tar.gz tmp/model_checker-0.3.9.tar.gz --markdown 20240523/m/model-checker/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-23 02:35:45] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-05-23 02:35:45] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240523/s/scoutbook_parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 02:35:45] INFO root fetch - processPackages [eth-retry]: executing diffoscope
+[2024-05-23 02:35:45] INFO root fetch - processPackages [eth-retry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_retry-0.1.9.tar.gz tmp/eth_retry-0.1.9.dev1.tar.gz --markdown 20240523/e/eth-retry/0.1.9-0.1.9.dev1/README.md --exclude *.pyd
+[2024-05-23 02:35:45] INFO root fetch - processPackages [eth-retry]: executing diffoscope
+[2024-05-23 02:35:45] INFO root fetch - processPackages [eth-retry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_retry-0.1.9.tar.gz tmp/eth_retry-0.1.9.dev1.tar.gz --markdown 20240523/e/eth-retry/0.1.9-0.1.9.dev1/README.md --exclude *.pyd
+[2024-05-23 02:35:46] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-23 02:35:46] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-23 02:35:46] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-23 02:35:46] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-05-23 02:35:46] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-05-23 02:35:46] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-05-23 02:35:46] INFO root fetch - processPackages [eth-retry]: Remove: archive file [/home/abi/fetcher/tmp/eth_retry-0.1.9.tar.gz]
+[2024-05-23 02:35:46] INFO root fetch - processPackages [eth-retry]: Remove: archive file [/home/abi/fetcher/tmp/eth_retry-0.1.9.dev1.tar.gz]
+[2024-05-23 02:35:46] INFO root fetch - main [MainThread]: End processing [eth-retry]: success
+[2024-05-23 02:35:46] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.8.tar.gz]
+[2024-05-23 02:35:46] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.3.9.tar.gz]
+[2024-05-23 02:35:46] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-23 02:35:46] INFO root fetch - main [MainThread]: End processing [eth-retry]: success
+[2024-05-23 02:35:46] INFO root fetch - main [MainThread]: Store serial: [23334779]
