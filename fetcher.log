@@ -13112,3 +13112,60 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:16:28] INFO root fetch - processPackages [astroquery]: Remove: archive file [/home/abi/fetcher/tmp/astroquery-0.4.dev5750.tar.gz]
 [2024-05-23 09:16:28] INFO root fetch - main [MainThread]: End processing [astroquery]: success
 [2024-05-23 09:16:28] INFO root fetch - main [MainThread]: Store serial: [23339010]
+[2024-05-23 09:18:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339010]
+[2024-05-23 09:18:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 09:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poemai-utils
+[2024-05-23 09:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail_translatableforms
+[2024-05-23 09:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lqxnjk
+[2024-05-23 09:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2024-05-23 09:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlrun
+[2024-05-23 09:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zope.interface
+[2024-05-23 09:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xiaojingcc
+[2024-05-23 09:18:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liuxiaojing
+[2024-05-23 09:18:37] INFO root fetch - processPackages [wagtail_translatableforms]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 09:18:37] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-23 09:18:37] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-23 09:18:37] INFO root fetch - processPackages [zope.interface]: New version: [6.4.post0] Old Version: [6.4]
+[2024-05-23 09:18:37] INFO root fetch - processPackages [poemai-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 09:18:37] WARNING root fetch - processPackages [lqxnjk]: Skipping, unable to determine old version
+[2024-05-23 09:18:37] INFO root fetch - main [MainThread]: End processing [lqxnjk] error
+[2024-05-23 09:18:37] WARNING root fetch - processPackages [xiaojingcc]: Skipping, unable to determine old version
+[2024-05-23 09:18:37] INFO root fetch - main [MainThread]: End processing [xiaojingcc] error
+[2024-05-23 09:18:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-23 09:18:37] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-23 09:18:37] WARNING root fetch - processPackages [liuxiaojing]: Skipping, unable to determine old version
+[2024-05-23 09:18:37] INFO root fetch - main [MainThread]: End processing [liuxiaojing] error
+[2024-05-23 09:18:37] INFO root fetch - processPackages [wagtail_translatableforms]: Downloading https://files.pythonhosted.org/packages/e3/fb/092af1470fc179ff89e16b496fbf9b0ca4a170f5267f962b995050ad9818/wagtail_translatableforms-0.1.0.tar.gz
+[2024-05-23 09:18:37] INFO root fetch - processPackages [zope.interface]: Downloading https://files.pythonhosted.org/packages/1f/41/d0bdb50947f77341e979241de26f348e538a5d0f3ddb2482bc3907a3d728/zope_interface-6.4.tar.gz
+[2024-05-23 09:18:37] INFO root fetch - processPackages [poemai-utils]: Downloading https://files.pythonhosted.org/packages/40/7d/bec73ed5647e5dce646f4df9b05a20febf61fa9e9bad73c908212112b83f/poemai-utils-0.0.8.tar.gz
+[2024-05-23 09:18:38] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-23 09:18:38] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-23 09:18:38] INFO root fetch - processPackages [wagtail_translatableforms]: Downloading https://files.pythonhosted.org/packages/2d/80/4de1849a149c7b9ed1fd82a77425c4e8e09423f39e89d1dfa708ee956e5e/wagtail_translatableforms-0.1.1.tar.gz
+[2024-05-23 09:18:38] INFO root fetch - processPackages [poemai-utils]: Downloading https://files.pythonhosted.org/packages/f6/15/bc347c47a908ad17496455eaa95f3ff62e5d8cf8e7281a00685aa1daeef7/poemai-utils-0.0.9.tar.gz
+[2024-05-23 09:18:38] INFO root fetch - processPackages [zope.interface]: Downloading https://files.pythonhosted.org/packages/0d/5a/91fe2710d715a551636800e12b72c338facfa8fe67f81842fdf9d99d546c/zope.interface-6.4.post0.tar.gz
+[2024-05-23 09:18:38] INFO root fetch - processPackages [wagtail_translatableforms]: executing diffoscope
+[2024-05-23 09:18:38] INFO root fetch - processPackages [wagtail_translatableforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_translatableforms-0.1.0.tar.gz tmp/wagtail_translatableforms-0.1.1.tar.gz --markdown 20240523/w/wagtail_translatableforms/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 09:18:38] INFO root fetch - processPackages [poemai-utils]: executing diffoscope
+[2024-05-23 09:18:38] INFO root fetch - processPackages [poemai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poemai-utils-0.0.8.tar.gz tmp/poemai-utils-0.0.9.tar.gz --markdown 20240523/p/poemai-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 09:18:38] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-23 09:18:38] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240523/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-23 09:18:38] INFO root fetch - processPackages [zope.interface]: executing diffoscope
+[2024-05-23 09:18:38] INFO root fetch - processPackages [zope.interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope_interface-6.4.tar.gz tmp/zope.interface-6.4.post0.tar.gz --markdown 20240523/z/zope.interface/6.4-6.4.post0/README.md --exclude *.pyd
+[2024-05-23 09:18:38] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-23 09:18:38] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240523/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-23 09:18:39] INFO root fetch - processPackages [wagtail_translatableforms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_translatableforms-0.1.0.tar.gz]
+[2024-05-23 09:18:39] INFO root fetch - processPackages [wagtail_translatableforms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_translatableforms-0.1.1.tar.gz]
+[2024-05-23 09:18:39] INFO root fetch - main [MainThread]: End processing [wagtail_translatableforms]: success
+[2024-05-23 09:18:39] INFO root fetch - processPackages [poemai-utils]: Remove: archive file [/home/abi/fetcher/tmp/poemai-utils-0.0.8.tar.gz]
+[2024-05-23 09:18:39] INFO root fetch - processPackages [poemai-utils]: Remove: archive file [/home/abi/fetcher/tmp/poemai-utils-0.0.9.tar.gz]
+[2024-05-23 09:18:39] INFO root fetch - main [MainThread]: End processing [poemai-utils]: success
+[2024-05-23 09:18:39] INFO root fetch - processPackages [zope.interface]: Remove: archive file [/home/abi/fetcher/tmp/zope_interface-6.4.tar.gz]
+[2024-05-23 09:18:39] INFO root fetch - processPackages [zope.interface]: Remove: archive file [/home/abi/fetcher/tmp/zope.interface-6.4.post0.tar.gz]
+[2024-05-23 09:18:39] INFO root fetch - main [MainThread]: End processing [zope.interface]: success
+[2024-05-23 09:18:40] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-23 09:18:40] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-23 09:18:40] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-23 09:18:40] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-23 09:18:40] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-23 09:18:40] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-23 09:18:40] INFO root fetch - main [MainThread]: Store serial: [23339032]
