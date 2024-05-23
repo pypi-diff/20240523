@@ -16999,3 +16999,63 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:15:06] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.0.post1342-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-05-23 11:15:06] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-05-23 11:15:06] INFO root fetch - main [MainThread]: Store serial: [23340691]
+[2024-05-23 11:17:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340691]
+[2024-05-23 11:17:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 11:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micro-manager-precice
+[2024-05-23 11:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CtqKit
+[2024-05-23 11:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_forms_plus
+[2024-05-23 11:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrathon-payments
+[2024-05-23 11:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: npeccv6
+[2024-05-23 11:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packaging-demo-himanshu
+[2024-05-23 11:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pocket-coffea
+[2024-05-23 11:17:15] INFO root fetch - processPackages [pocket-coffea]: New version: [1.0rc3] Old Version: [0.9.1]
+[2024-05-23 11:17:15] INFO root fetch - processPackages [scrathon-payments]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 11:17:15] INFO root fetch - processPackages [packaging-demo-himanshu]: New version: [0.0.8] Old Version: [0.0.3]
+[2024-05-23 11:17:15] WARNING root fetch - processPackages [npeccv6]: Skipping, unable to determine old version
+[2024-05-23 11:17:15] INFO root fetch - main [MainThread]: End processing [npeccv6] error
+[2024-05-23 11:17:15] INFO root fetch - processPackages [micro-manager-precice]: New version: [0.4.0] Old Version: [0.3.0rc2]
+[2024-05-23 11:17:15] INFO root fetch - processPackages [CtqKit]: New version: [0.1.2] Old Version: [0.1.1b5]
+[2024-05-23 11:17:15] INFO root fetch - processPackages [django_forms_plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 11:17:15] INFO root fetch - processPackages [pocket-coffea]: Downloading https://files.pythonhosted.org/packages/90/28/882b85e593ab8c216eac798c603d738ba7cd8c01b3e88096860ea95b793d/pocket_coffea-0.9.1.tar.gz
+[2024-05-23 11:17:15] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/fb/02/3ab11a07d473d883ff2cf97cf86c31b332ef0cc4fd3f63ce45b4ee7ae07f/scrathon_payments-0.1.8.tar.gz
+[2024-05-23 11:17:15] INFO root fetch - processPackages [packaging-demo-himanshu]: Downloading https://files.pythonhosted.org/packages/fb/1f/ac4940a03949f1034ec1f659314d6ed69913037125aaa43014b4609e8534/packaging_demo_himanshu-0.0.3.tar.gz
+[2024-05-23 11:17:15] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/62/69/ec449625cb867d87f0cda28dbd3a002e93bcc290437b8970eeb4740e3f17/ctqkit-0.1.1b5.tar.gz
+[2024-05-23 11:17:15] INFO root fetch - processPackages [micro-manager-precice]: Downloading https://files.pythonhosted.org/packages/2b/f0/b6859111bdaceff04297213fb38be2c4c0b12ed278160724f69fe0c10da0/micro-manager-precice-0.3.0rc2.tar.gz
+[2024-05-23 11:17:15] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/17/0e/f79e56cbbdc79f927f3c0a84be419ffe6da4dae45bde17f62e4a9620af0f/django_forms_plus-0.8.0.tar.gz
+[2024-05-23 11:17:16] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/7e/1d/1905fa6a8db67f6ee5a18925967551d3a44ffd38a95e9bb793fd7fdd5310/scrathon_payments-0.1.9.tar.gz
+[2024-05-23 11:17:16] INFO root fetch - processPackages [packaging-demo-himanshu]: Downloading https://files.pythonhosted.org/packages/6b/18/370e818bf9468a04cf6ebcaa02e7d369d6aaf3f42e21c36d55b9869b870d/packaging_demo_himanshu-0.0.8.tar.gz
+[2024-05-23 11:17:16] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/33/93/457a09f0157c46383430e6716e32babf829d136165b86be22158fede86d9/ctqkit-0.1.2.tar.gz
+[2024-05-23 11:17:16] INFO root fetch - processPackages [scrathon-payments]: executing diffoscope
+[2024-05-23 11:17:16] INFO root fetch - processPackages [scrathon-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrathon_payments-0.1.8.tar.gz tmp/scrathon_payments-0.1.9.tar.gz --markdown 20240523/s/scrathon-payments/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 11:17:16] INFO root fetch - processPackages [packaging-demo-himanshu]: executing diffoscope
+[2024-05-23 11:17:16] INFO root fetch - processPackages [packaging-demo-himanshu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaging_demo_himanshu-0.0.3.tar.gz tmp/packaging_demo_himanshu-0.0.8.tar.gz --markdown 20240523/p/packaging-demo-himanshu/0.0.3-0.0.8/README.md --exclude *.pyd
+[2024-05-23 11:17:16] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-05-23 11:17:16] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.1b5.tar.gz tmp/ctqkit-0.1.2.tar.gz --markdown 20240523/C/CtqKit/0.1.1b5-0.1.2/README.md --exclude *.pyd
+[2024-05-23 11:17:16] INFO root fetch - processPackages [micro-manager-precice]: Downloading https://files.pythonhosted.org/packages/59/55/140bf1a6ca774a8f7139b8fabf5aa75b8f66529b772077ae3d6dad95522e/micro-manager-precice-0.4.0.tar.gz
+[2024-05-23 11:17:16] INFO root fetch - processPackages [micro-manager-precice]: executing diffoscope
+[2024-05-23 11:17:16] INFO root fetch - processPackages [micro-manager-precice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micro-manager-precice-0.3.0rc2.tar.gz tmp/micro-manager-precice-0.4.0.tar.gz --markdown 20240523/m/micro-manager-precice/0.3.0rc2-0.4.0/README.md --exclude *.pyd
+[2024-05-23 11:17:16] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/54/f3/c85ac8ce94145bb3872c12320f60f50e48053a66266349c0d4cbf452a9dd/django_forms_plus-0.9.0.tar.gz
+[2024-05-23 11:17:16] INFO root fetch - processPackages [django_forms_plus]: executing diffoscope
+[2024-05-23 11:17:16] INFO root fetch - processPackages [django_forms_plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_forms_plus-0.8.0.tar.gz tmp/django_forms_plus-0.9.0.tar.gz --markdown 20240523/d/django_forms_plus/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-23 11:17:16] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.1b5.tar.gz]
+[2024-05-23 11:17:16] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.2.tar.gz]
+[2024-05-23 11:17:17] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-05-23 11:17:17] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.8.tar.gz]
+[2024-05-23 11:17:17] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.9.tar.gz]
+[2024-05-23 11:17:17] INFO root fetch - main [MainThread]: End processing [scrathon-payments]: success
+[2024-05-23 11:17:17] INFO root fetch - processPackages [pocket-coffea]: Downloading https://files.pythonhosted.org/packages/a2/48/a62910f636992db23752c495f3a4bc107f4d34621de0ea02c4c30ff5daae/pocket_coffea-1.0rc3.tar.gz
+[2024-05-23 11:17:17] INFO root fetch - processPackages [packaging-demo-himanshu]: Remove: archive file [/home/abi/fetcher/tmp/packaging_demo_himanshu-0.0.3.tar.gz]
+[2024-05-23 11:17:17] INFO root fetch - processPackages [packaging-demo-himanshu]: Remove: archive file [/home/abi/fetcher/tmp/packaging_demo_himanshu-0.0.8.tar.gz]
+[2024-05-23 11:17:17] INFO root fetch - main [MainThread]: End processing [packaging-demo-himanshu]: success
+[2024-05-23 11:17:17] INFO root fetch - processPackages [micro-manager-precice]: Remove: archive file [/home/abi/fetcher/tmp/micro-manager-precice-0.3.0rc2.tar.gz]
+[2024-05-23 11:17:17] INFO root fetch - processPackages [micro-manager-precice]: Remove: archive file [/home/abi/fetcher/tmp/micro-manager-precice-0.4.0.tar.gz]
+[2024-05-23 11:17:17] INFO root fetch - main [MainThread]: End processing [micro-manager-precice]: success
+[2024-05-23 11:17:17] INFO root fetch - processPackages [pocket-coffea]: executing diffoscope
+[2024-05-23 11:17:17] INFO root fetch - processPackages [pocket-coffea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocket_coffea-0.9.1.tar.gz tmp/pocket_coffea-1.0rc3.tar.gz --markdown 20240523/p/pocket-coffea/0.9.1-1.0rc3/README.md --exclude *.pyd
+[2024-05-23 11:17:19] INFO root fetch - processPackages [pocket-coffea]: Remove: archive file [/home/abi/fetcher/tmp/pocket_coffea-0.9.1.tar.gz]
+[2024-05-23 11:17:19] INFO root fetch - processPackages [pocket-coffea]: Remove: archive file [/home/abi/fetcher/tmp/pocket_coffea-1.0rc3.tar.gz]
+[2024-05-23 11:17:19] INFO root fetch - main [MainThread]: End processing [pocket-coffea]: success
+[2024-05-23 11:17:27] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.8.0.tar.gz]
+[2024-05-23 11:17:27] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
+[2024-05-23 11:17:27] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
+[2024-05-23 11:17:27] INFO root fetch - main [MainThread]: Store serial: [23340737]
