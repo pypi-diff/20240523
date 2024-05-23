@@ -2189,3 +2189,57 @@
 [2024-05-23 02:04:10] INFO root fetch - processPackages [django_medicio_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_ds-3.0.0.tar.gz]
 [2024-05-23 02:04:10] INFO root fetch - main [MainThread]: End processing [django_medicio_ds]: success
 [2024-05-23 02:04:10] INFO root fetch - main [MainThread]: Store serial: [23334465]
+[2024-05-23 02:06:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334465]
+[2024-05-23 02:06:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smp
+[2024-05-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmdiary
+[2024-05-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2024-05-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ue-uploader
+[2024-05-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FleekAPI
+[2024-05-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2024-05-23 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-kit-fos
+[2024-05-23 02:06:24] WARNING root fetch - processPackages [ue-uploader]: Skipping, unable to determine old version
+[2024-05-23 02:06:24] INFO root fetch - main [MainThread]: End processing [ue-uploader] error
+[2024-05-23 02:06:24] INFO root fetch - processPackages [FleekAPI]: New version: [0.0.131] Old Version: [0.0.13]
+[2024-05-23 02:06:24] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240522.420] Old Version: [2.0.0.20240522.172031]
+[2024-05-23 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-23 02:06:24] WARNING root fetch - processPackages [django-kit-fos]: Skipping, unable to determine old version
+[2024-05-23 02:06:24] INFO root fetch - main [MainThread]: End processing [django-kit-fos] error
+[2024-05-23 02:06:24] INFO root fetch - processPackages [smp]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-23 02:06:24] INFO root fetch - processPackages [mmdiary]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-23 02:06:24] INFO root fetch - processPackages [FleekAPI]: Downloading https://files.pythonhosted.org/packages/c0/bc/da53aed433b029363214fc1f5a3a87a1634c4d17a5fb5e35740429c9574f/fleekapi-0.0.13.tar.gz
+[2024-05-23 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/5c/c7/de4ce2ea0a6e36766f0ad1ebdfc345b8d67c1ff47fad312643a5a47b5825/mct-nightly-2.0.0.20240522.172031.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [smp]: Downloading https://files.pythonhosted.org/packages/03/02/e541adec74864d5a1ce3dfced6fb356d4d7e6626a70d2dcf7aff7654afda/smp-1.0.2.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [FleekAPI]: Downloading https://files.pythonhosted.org/packages/67/ab/d4bbbc624d5dced5f9fbcc565b72001336a9fdde318e4a940ac685979c16/fleekapi-0.0.131.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [mmdiary]: Downloading https://files.pythonhosted.org/packages/a6/03/e72bf6e3ade8896fea2c5998ed970023416664fb4250aaf1883bd9b5aea3/mmdiary-0.2.0.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240523/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-23 02:06:25] INFO root fetch - processPackages [FleekAPI]: executing diffoscope
+[2024-05-23 02:06:25] INFO root fetch - processPackages [FleekAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleekapi-0.0.13.tar.gz tmp/fleekapi-0.0.131.tar.gz --markdown 20240523/F/FleekAPI/0.0.13-0.0.131/README.md --exclude *.pyd
+[2024-05-23 02:06:25] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/89/b4/e57631e4c69d1703f66b25b43f7bdeb3d071fe8ee70cf90bb01caa79922c/mct-nightly-2.0.0.20240522.420.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [smp]: Downloading https://files.pythonhosted.org/packages/b3/82/aecb057884b85962675385d58485dbbd5f8cdb976eef10657dd151c7ec4c/smp-1.0.3.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-23 02:06:25] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240522.172031.tar.gz tmp/mct-nightly-2.0.0.20240522.420.tar.gz --markdown 20240523/m/mct-nightly/2.0.0.20240522.172031-2.0.0.20240522.420/README.md --exclude *.pyd
+[2024-05-23 02:06:25] INFO root fetch - processPackages [mmdiary]: Downloading https://files.pythonhosted.org/packages/86/5a/b3175ffe659ef73d147ef8b936a6ffb1e0001075a1a734f3b2c960158e13/mmdiary-0.3.0.tar.gz
+[2024-05-23 02:06:25] INFO root fetch - processPackages [smp]: executing diffoscope
+[2024-05-23 02:06:25] INFO root fetch - processPackages [smp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smp-1.0.2.tar.gz tmp/smp-1.0.3.tar.gz --markdown 20240523/s/smp/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-23 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-23 02:06:25] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-23 02:06:25] INFO root fetch - processPackages [mmdiary]: executing diffoscope
+[2024-05-23 02:06:25] INFO root fetch - processPackages [mmdiary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmdiary-0.2.0.tar.gz tmp/mmdiary-0.3.0.tar.gz --markdown 20240523/m/mmdiary/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-23 02:06:25] INFO root fetch - processPackages [FleekAPI]: Remove: archive file [/home/abi/fetcher/tmp/fleekapi-0.0.13.tar.gz]
+[2024-05-23 02:06:25] INFO root fetch - processPackages [FleekAPI]: Remove: archive file [/home/abi/fetcher/tmp/fleekapi-0.0.131.tar.gz]
+[2024-05-23 02:06:25] INFO root fetch - main [MainThread]: End processing [FleekAPI]: success
+[2024-05-23 02:06:26] INFO root fetch - processPackages [smp]: Remove: archive file [/home/abi/fetcher/tmp/smp-1.0.2.tar.gz]
+[2024-05-23 02:06:26] INFO root fetch - processPackages [smp]: Remove: archive file [/home/abi/fetcher/tmp/smp-1.0.3.tar.gz]
+[2024-05-23 02:06:26] INFO root fetch - main [MainThread]: End processing [smp]: success
+[2024-05-23 02:06:26] INFO root fetch - processPackages [mmdiary]: Remove: archive file [/home/abi/fetcher/tmp/mmdiary-0.2.0.tar.gz]
+[2024-05-23 02:06:26] INFO root fetch - processPackages [mmdiary]: Remove: archive file [/home/abi/fetcher/tmp/mmdiary-0.3.0.tar.gz]
+[2024-05-23 02:06:26] INFO root fetch - main [MainThread]: End processing [mmdiary]: success
+[2024-05-23 02:06:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240522.172031.tar.gz]
+[2024-05-23 02:06:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240522.420.tar.gz]
+[2024-05-23 02:06:27] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-23 02:06:27] INFO root fetch - main [MainThread]: Store serial: [23334486]
