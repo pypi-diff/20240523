@@ -7536,3 +7536,57 @@
 [2024-05-23 03:40:15] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-23 03:40:15] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-23 03:40:15] INFO root fetch - main [MainThread]: Store serial: [23336340]
+[2024-05-23 03:42:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336340]
+[2024-05-23 03:42:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 03:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipefyUts
+[2024-05-23 03:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Taweret
+[2024-05-23 03:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midas-open-parser
+[2024-05-23 03:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raya
+[2024-05-23 03:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnbf4py
+[2024-05-23 03:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lastipy
+[2024-05-23 03:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptrlib
+[2024-05-23 03:42:23] INFO root fetch - processPackages [midas-open-parser]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-05-23 03:42:23] INFO root fetch - processPackages [raya]: New version: [3.7.9.dev0] Old Version: [3.7.8.dev0]
+[2024-05-23 03:42:23] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/3d/ad/0de7495b4697b41b702ce15275ffe2540ab3cdbe27232c0b9ce47b2a4b9c/midas_open_parser-0.1.11.tar.gz
+[2024-05-23 03:42:23] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/72/70/9b58de57d30fe733e2abe5160f30b3b42ed4fd8dc96844183cdca7409ebf/raya-3.7.8.dev0.tar.gz
+[2024-05-23 03:42:23] INFO root fetch - processPackages [Taweret]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-23 03:42:23] WARNING root fetch - processPackages [pipefyUts]: Skipping, unable to determine old version
+[2024-05-23 03:42:23] INFO root fetch - main [MainThread]: End processing [pipefyUts] error
+[2024-05-23 03:42:23] WARNING root fetch - processPackages [dnbf4py]: Skipping, unable to determine old version
+[2024-05-23 03:42:23] INFO root fetch - main [MainThread]: End processing [dnbf4py] error
+[2024-05-23 03:42:23] INFO root fetch - processPackages [ptrlib]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-23 03:42:23] INFO root fetch - processPackages [lastipy]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-23 03:42:24] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/d6/23/7ac675d5447abe949110b838d9e901a92e7876f5821c57ae1894951233ec/raya-3.7.9.dev0.tar.gz
+[2024-05-23 03:42:24] INFO root fetch - processPackages [Taweret]: Downloading https://files.pythonhosted.org/packages/af/62/34cb275a36cab7d856402b8d3682426a53b20b9fb0fa28d7c3af26c0ee30/Taweret-1.0.1.tar.gz
+[2024-05-23 03:42:24] INFO root fetch - processPackages [ptrlib]: Downloading https://files.pythonhosted.org/packages/a9/83/8226d4a61315377a2370be6384722d1bd8007f6b23c02dd3d77297d1f7d6/ptrlib-2.3.0-py3-none-any.whl
+[2024-05-23 03:42:24] INFO root fetch - processPackages [lastipy]: Downloading https://files.pythonhosted.org/packages/10/6d/eeba182ed49ceca7dac5fc723de7c5ba1bee55b15b91085d76e7a84d157b/lastipy-1.1.8.tar.gz
+[2024-05-23 03:42:24] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/a5/f1/133cb999b43b26190b5f61f37bd68c4823cfcc74e331474504c624be3247/midas_open_parser-0.1.12.tar.gz
+[2024-05-23 03:42:24] INFO root fetch - processPackages [raya]: executing diffoscope
+[2024-05-23 03:42:24] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-3.7.8.dev0.tar.gz tmp/raya-3.7.9.dev0.tar.gz --markdown 20240523/r/raya/3.7.8.dev0-3.7.9.dev0/README.md --exclude *.pyd
+[2024-05-23 03:42:24] INFO root fetch - processPackages [midas-open-parser]: executing diffoscope
+[2024-05-23 03:42:24] INFO root fetch - processPackages [midas-open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas_open_parser-0.1.11.tar.gz tmp/midas_open_parser-0.1.12.tar.gz --markdown 20240523/m/midas-open-parser/0.1.11-0.1.12/README.md --exclude *.pyd
+[2024-05-23 03:42:24] INFO root fetch - processPackages [Taweret]: Downloading https://files.pythonhosted.org/packages/fd/99/dabdc4613b27c3d02d0cee92b17b323ec05cde71030e4edc625d7edffee7/taweret-1.0.2.tar.gz
+[2024-05-23 03:42:24] INFO root fetch - processPackages [ptrlib]: Downloading https://files.pythonhosted.org/packages/c9/ed/93555929914f907d98479a13cd2031478d626bbaf819108d2d8c65c8b6f5/ptrlib-2.3.1-py3-none-any.whl
+[2024-05-23 03:42:24] INFO root fetch - processPackages [lastipy]: Downloading https://files.pythonhosted.org/packages/c6/84/d89fbccbd0db10dc68bce5f8c8fecf1643d3fad305bb88e8539dd72b0e51/lastipy-1.1.9.tar.gz
+[2024-05-23 03:42:24] INFO root fetch - processPackages [Taweret]: executing diffoscope
+[2024-05-23 03:42:24] INFO root fetch - processPackages [Taweret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Taweret-1.0.1.tar.gz tmp/taweret-1.0.2.tar.gz --markdown 20240523/T/Taweret/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-23 03:42:24] INFO root fetch - processPackages [lastipy]: executing diffoscope
+[2024-05-23 03:42:24] INFO root fetch - processPackages [lastipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastipy-1.1.8.tar.gz tmp/lastipy-1.1.9.tar.gz --markdown 20240523/l/lastipy/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-23 03:42:24] INFO root fetch - processPackages [ptrlib]: executing diffoscope
+[2024-05-23 03:42:24] INFO root fetch - processPackages [ptrlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptrlib-2.3.0-py3-none-any.whl.zip tmp/ptrlib-2.3.1-py3-none-any.whl.zip --markdown 20240523/p/ptrlib/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-23 03:42:24] INFO root fetch - processPackages [raya]: Remove: archive file [/home/abi/fetcher/tmp/raya-3.7.8.dev0.tar.gz]
+[2024-05-23 03:42:24] INFO root fetch - processPackages [raya]: Remove: archive file [/home/abi/fetcher/tmp/raya-3.7.9.dev0.tar.gz]
+[2024-05-23 03:42:24] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2024-05-23 03:42:25] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.11.tar.gz]
+[2024-05-23 03:42:25] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.12.tar.gz]
+[2024-05-23 03:42:25] INFO root fetch - main [MainThread]: End processing [midas-open-parser]: success
+[2024-05-23 03:42:25] INFO root fetch - processPackages [lastipy]: Remove: archive file [/home/abi/fetcher/tmp/lastipy-1.1.8.tar.gz]
+[2024-05-23 03:42:25] INFO root fetch - processPackages [lastipy]: Remove: archive file [/home/abi/fetcher/tmp/lastipy-1.1.9.tar.gz]
+[2024-05-23 03:42:25] INFO root fetch - main [MainThread]: End processing [lastipy]: success
+[2024-05-23 03:42:25] INFO root fetch - processPackages [Taweret]: Remove: archive file [/home/abi/fetcher/tmp/Taweret-1.0.1.tar.gz]
+[2024-05-23 03:42:25] INFO root fetch - processPackages [Taweret]: Remove: archive file [/home/abi/fetcher/tmp/taweret-1.0.2.tar.gz]
+[2024-05-23 03:42:25] INFO root fetch - main [MainThread]: End processing [Taweret]: success
+[2024-05-23 03:42:25] INFO root fetch - processPackages [ptrlib]: Remove: archive file [/home/abi/fetcher/tmp/ptrlib-2.3.0-py3-none-any.whl.zip]
+[2024-05-23 03:42:25] INFO root fetch - processPackages [ptrlib]: Remove: archive file [/home/abi/fetcher/tmp/ptrlib-2.3.1-py3-none-any.whl.zip]
+[2024-05-23 03:42:25] INFO root fetch - main [MainThread]: End processing [ptrlib]: success
+[2024-05-23 03:42:25] INFO root fetch - main [MainThread]: Store serial: [23336380]
