@@ -10370,3 +10370,24 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:44:06] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
 [2024-05-23 06:44:06] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
 [2024-05-23 06:44:06] INFO root fetch - main [MainThread]: Store serial: [23337711]
+[2024-05-23 06:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337711]
+[2024-05-23 06:46:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 06:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markdown-text-clean
+[2024-05-23 06:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axion
+[2024-05-23 06:46:15] INFO root fetch - processPackages [markdown-text-clean]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-23 06:46:15] INFO root fetch - processPackages [axion]: New version: [4.2.4] Old Version: [4.2.3]
+[2024-05-23 06:46:15] INFO root fetch - processPackages [markdown-text-clean]: Downloading https://files.pythonhosted.org/packages/bf/7c/30ad56fc66747fb232cddf3b2b4eb8cfe7924e4662974126c7b7554f0f47/markdown_text_clean-1.0.0.tar.gz
+[2024-05-23 06:46:16] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/ad/24/45260e49d7f9b59945d36d6432eff74ee2a4ff66ba9de5c06ac544b88ed0/axion-4.2.3-cp312-none-win_amd64.whl
+[2024-05-23 06:46:16] INFO root fetch - processPackages [markdown-text-clean]: Downloading https://files.pythonhosted.org/packages/36/f8/8d0ff4676da5fbdfcd74d14fc04bd8f65f3fbdf6978f313a5890f1236145/markdown_text_clean-1.0.1.tar.gz
+[2024-05-23 06:46:16] INFO root fetch - processPackages [markdown-text-clean]: executing diffoscope
+[2024-05-23 06:46:16] INFO root fetch - processPackages [markdown-text-clean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_text_clean-1.0.0.tar.gz tmp/markdown_text_clean-1.0.1.tar.gz --markdown 20240523/m/markdown-text-clean/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-23 06:46:16] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/5e/8d/a7a352deba46cfe78cdefd2284379244976e9209b9b53cb4edd4ddc8a819/axion-4.2.4-cp310-none-win_amd64.whl
+[2024-05-23 06:46:16] INFO root fetch - processPackages [markdown-text-clean]: Remove: archive file [/home/abi/fetcher/tmp/markdown_text_clean-1.0.0.tar.gz]
+[2024-05-23 06:46:16] INFO root fetch - processPackages [markdown-text-clean]: Remove: archive file [/home/abi/fetcher/tmp/markdown_text_clean-1.0.1.tar.gz]
+[2024-05-23 06:46:16] INFO root fetch - main [MainThread]: End processing [markdown-text-clean]: success
+[2024-05-23 06:46:16] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-05-23 06:46:16] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.2.3-cp312-none-win_amd64.whl.zip tmp/axion-4.2.4-cp310-none-win_amd64.whl.zip --markdown 20240523/a/axion/4.2.3-4.2.4/README.md --exclude *.pyd
+[2024-05-23 06:46:17] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.3-cp312-none-win_amd64.whl.zip]
+[2024-05-23 06:46:17] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.4-cp310-none-win_amd64.whl.zip]
+[2024-05-23 06:46:17] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-05-23 06:46:17] INFO root fetch - main [MainThread]: Store serial: [23337716]
