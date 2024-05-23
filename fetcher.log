@@ -19408,3 +19408,108 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:55:35] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.166-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-23 11:55:35] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-23 11:55:35] INFO root fetch - main [MainThread]: Store serial: [23341442]
+[2024-05-23 11:57:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341442]
+[2024-05-23 11:57:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NMODL-nightly
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swagger2jsonschema
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipfabric-netbox
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viet-badwords-filter
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ResSimpy
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xtn-tools-pro
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowclient
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lions
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flowkit-jwt-generator
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flowmachine
+[2024-05-23 11:57:49] INFO root fetch - processPackages [lions]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ipfabric-netbox]: New version: [3.0.0b0] Old Version: [3.0.0]
+[2024-05-23 11:57:49] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.166] Old Version: [0.6.162]
+[2024-05-23 11:57:49] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev99] Old Version: [1.25.0.post0.dev93]
+[2024-05-23 11:57:49] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-23 11:57:49] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-23 11:57:49] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.1.8] Old Version: [1.0.0.1.7]
+[2024-05-23 11:57:49] INFO root fetch - processPackages [swagger2jsonschema]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 11:57:49] WARNING root fetch - processPackages [viet-badwords-filter]: Skipping, unable to determine old version
+[2024-05-23 11:57:49] INFO root fetch - processPackages [viet-badwords-filter]: Start processing: flowetl
+[2024-05-23 11:57:49] INFO root fetch - main [MainThread]: End processing [viet-badwords-filter] error
+[2024-05-23 11:57:49] INFO root fetch - processPackages [ResSimpy]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-23 11:57:49] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/c6/54/e34136277fb5dcb96d8746526f5ecd22fc1bd1fc5009c53f214cc28c33c9/lions-1.1.2.tar.gz
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/bc/60/2a459e1a59e993c79a8a871ba4e72737e87c66ba3c2fe2a53431cf205b37/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [ipfabric-netbox]: Downloading https://files.pythonhosted.org/packages/4b/16/2617b503231bdc28eb2d47dbdf930502b91022a760d2e4dfab67010decd8/ipfabric_netbox-3.0.0.tar.gz
+[2024-05-23 11:57:50] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/b4/e4/4892b4f24e4799808759ac4edb0f89155b87c1f1073c35dda886d99c625b/nmodl_nightly-0.6.162-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [swagger2jsonschema]: Downloading https://files.pythonhosted.org/packages/b8/70/5b615feef541e871337dac0a089d91921813b38f0bf72ca8c14245050a69/swagger2jsonschema-0.1.1-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/31/ae/660c8cee39c36c6ae0b5e85f506a7106e8a6837d17ce5e4b9593b89de55d/xtn-tools-pro-1.0.0.1.7.tar.gz
+[2024-05-23 11:57:50] INFO root fetch - processPackages [ResSimpy]: Downloading https://files.pythonhosted.org/packages/ea/a9/59032af53cf43846feeb0a9e5fcc29ea07d23eefe70ea10be6a6a4269690/ressimpy-2.1.1.tar.gz
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/ff/58/e7691247f32599d16e885a2c995f0f3a654ab3d148c0c48a8e6a8d61c207/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/b8/a3/d21ddbb36843a8c2c43697ebeb6eec581920943e4dfdefaf55462d776788/lions-1.2.0.tar.gz
+[2024-05-23 11:57:50] INFO root fetch - processPackages [ipfabric-netbox]: Downloading https://files.pythonhosted.org/packages/5e/b3/cb3b6a9b68510a9c1b1ea51fe17ac5f8a2463b79e1c6aa62896edf02586f/ipfabric_netbox-3.0.0b0.tar.gz
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip --markdown 20240523/f/flowkit-jwt-generator/1.25.0.post0.dev93-1.25.0.post0.dev99/README.md --exclude *.pyd
+[2024-05-23 11:57:50] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.1.2.tar.gz tmp/lions-1.2.0.tar.gz --markdown 20240523/l/lions/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [ipfabric-netbox]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [ipfabric-netbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric_netbox-3.0.0.tar.gz tmp/ipfabric_netbox-3.0.0b0.tar.gz --markdown 20240523/i/ipfabric-netbox/3.0.0-3.0.0b0/README.md --exclude *.pyd
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240523/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-23 11:57:50] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/42/bc/d97c0aee8da103481ca41683a8db859ad9cbd8fb6d9ec54d5a42900139c3/nmodl_nightly-0.6.166-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [swagger2jsonschema]: Downloading https://files.pythonhosted.org/packages/4c/0e/e3010f25b61698932996ce78f25d3f5e1a616879f7c6d8afe18eb03d0ae3/swagger2jsonschema-0.1.2-py3-none-any.whl
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240523/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-23 11:57:50] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/d9/7e/39103e391b0ea6ddf9982a4049fd1714daf5f82c559c434da08dedaad50e/xtn-tools-pro-1.0.0.1.8.tar.gz
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240523/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-23 11:57:50] INFO root fetch - processPackages [ResSimpy]: Downloading https://files.pythonhosted.org/packages/1a/16/31d8cd83b1983d5e30a1590710c372165d704f34014733f8cb4d0c855cdb/ressimpy-2.2.0.tar.gz
+[2024-05-23 11:57:50] INFO root fetch - processPackages [swagger2jsonschema]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [swagger2jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swagger2jsonschema-0.1.1-py3-none-any.whl.zip tmp/swagger2jsonschema-0.1.2-py3-none-any.whl.zip --markdown 20240523/s/swagger2jsonschema/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 11:57:50] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.1.7.tar.gz tmp/xtn-tools-pro-1.0.0.1.8.tar.gz --markdown 20240523/x/xtn-tools-pro/1.0.0.1.7-1.0.0.1.8/README.md --exclude *.pyd
+[2024-05-23 11:57:50] INFO root fetch - processPackages [ResSimpy]: executing diffoscope
+[2024-05-23 11:57:50] INFO root fetch - processPackages [ResSimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ressimpy-2.1.1.tar.gz tmp/ressimpy-2.2.0.tar.gz --markdown 20240523/R/ResSimpy/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-23 11:57:51] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-05-23 11:57:51] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_nightly-0.6.162-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nmodl_nightly-0.6.166-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240523/N/NMODL-nightly/0.6.162-0.6.166/README.md --exclude *.pyd
+[2024-05-23 11:57:51] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [flowkit-jwt-generator]: Start processing: agixtsdk
+[2024-05-23 11:57:51] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-23 11:57:51] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.1.2.tar.gz]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.2.0.tar.gz]
+[2024-05-23 11:57:51] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-23 11:57:51] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [swagger2jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/swagger2jsonschema-0.1.1-py3-none-any.whl.zip]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [swagger2jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/swagger2jsonschema-0.1.2-py3-none-any.whl.zip]
+[2024-05-23 11:57:51] INFO root fetch - main [MainThread]: End processing [swagger2jsonschema]: success
+[2024-05-23 11:57:51] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-23 11:57:51] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-23 11:57:51] INFO root fetch - processPackages [ipfabric-netbox]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_netbox-3.0.0.tar.gz]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [ipfabric-netbox]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_netbox-3.0.0b0.tar.gz]
+[2024-05-23 11:57:51] INFO root fetch - main [MainThread]: End processing [ipfabric-netbox]: success
+[2024-05-23 11:57:51] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2024-05-23 11:57:51] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-23 11:57:51] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-23 11:57:51] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.7.tar.gz]
+[2024-05-23 11:57:51] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.8.tar.gz]
+[2024-05-23 11:57:51] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-23 11:57:52] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2024-05-23 11:57:52] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-23 11:57:52] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-23 11:57:52] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-23 11:57:52] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2024-05-23 11:57:52] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20240523/a/agixtsdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 11:57:52] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.1.1.tar.gz]
+[2024-05-23 11:57:52] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.2.0.tar.gz]
+[2024-05-23 11:57:52] INFO root fetch - main [MainThread]: End processing [ResSimpy]: success
+[2024-05-23 11:57:52] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2024-05-23 11:57:52] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2024-05-23 11:57:52] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2024-05-23 11:58:38] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.162-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 11:58:39] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.166-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 11:58:39] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-05-23 11:58:39] INFO root fetch - main [MainThread]: Store serial: [23341478]
