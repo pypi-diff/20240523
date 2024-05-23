@@ -2549,3 +2549,105 @@
 [2024-05-23 02:18:13] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.57.1.dev20240522.tar.gz]
 [2024-05-23 02:18:13] INFO root fetch - main [MainThread]: End processing [zenml-nightly]: success
 [2024-05-23 02:18:13] INFO root fetch - main [MainThread]: Store serial: [23334595]
+[2024-05-23 02:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334595]
+[2024-05-23 02:20:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.appsync-utils
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-gitlab-runner
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speakeasy-client-sdk-python
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-budibase
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatgpt-prompt-wrapper
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nadl
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AudioAlchemist
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domolibrary
+[2024-05-23 02:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azure-ai-translation-text
+[2024-05-23 02:20:22] INFO root fetch - processPackages [nadl]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-23 02:20:22] INFO root fetch - processPackages [AudioAlchemist]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-23 02:20:22] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 02:20:22] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-23 02:20:23] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 02:20:23] INFO root fetch - processPackages [azure-ai-translation-text]: New version: [1.0.0b1] Old Version: [1.0.0]
+[2024-05-23 02:20:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-05-23 02:20:23] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-23 02:20:23] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/02/56/7ad5e53eb4ff63887a591b6568637ed10b71dbf434f517a04f6238e19cac/nadl-1.4.3.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [AudioAlchemist]: Downloading https://files.pythonhosted.org/packages/89/4f/60c602ad42cd579fc95c4b2544629c60117488296927344dd6853e3a4f1a/audioalchemist-0.3.0.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [azure-ai-translation-text]: Downloading https://files.pythonhosted.org/packages/c8/0f/47f2a570aa58347461000bc12df0de73d13b5c7f18f86be59e7de3fb7331/azure-ai-translation-text-1.0.0.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Downloading https://files.pythonhosted.org/packages/ff/19/65cb585972342e16ce40b5952231a60adf5b8e5600ecfa64eb44e6710408/chatgpt_prompt_wrapper-0.0.8.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/82/0b/fd5477a9620174435fb7a80c3c8200599f6b49f480f1c910f05558252bfd/speakeasy-client-sdk-python-5.9.2.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240523/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-23 02:20:23] INFO root fetch - processPackages [AudioAlchemist]: Downloading https://files.pythonhosted.org/packages/5b/61/4aacd5190aa3e547f2a30a3968ae2292ddbe675f0dfac9f2c3926b579eb1/audioalchemist-0.4.0.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240523/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 02:20:23] INFO root fetch - processPackages [azure-ai-translation-text]: Downloading https://files.pythonhosted.org/packages/3f/6d/8c2c29058b2f987d462cb46e91f3220f96627086afb3864345262e45f3a3/azure-ai-translation-text-1.0.0b1.zip
+[2024-05-23 02:20:23] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/ea/3c/448d2fb17a16918d3524bbb9051d7ee8841b0ac87b3e01fb12443ef281d0/nadl-1.4.4.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/32/2d/08f7567086342975e01461be19d903c41ecab9b6c9f32683ee871995976e/speakeasy-client-sdk-python-5.9.3.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [AudioAlchemist]: executing diffoscope
+[2024-05-23 02:20:23] INFO root fetch - processPackages [AudioAlchemist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioalchemist-0.3.0.tar.gz tmp/audioalchemist-0.4.0.tar.gz --markdown 20240523/A/AudioAlchemist/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-23 02:20:23] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-23 02:20:23] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240523/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 02:20:23] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-23 02:20:23] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.4.3.tar.gz tmp/nadl-1.4.4.tar.gz --markdown 20240523/n/nadl/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-23 02:20:23] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Downloading https://files.pythonhosted.org/packages/ed/bc/7203850ccb3c526f07ae9222e2436edc693b0ca2537f5b943759bb371728/chatgpt_prompt_wrapper-0.0.9.tar.gz
+[2024-05-23 02:20:23] INFO root fetch - processPackages [azure-ai-translation-text]: executing diffoscope
+[2024-05-23 02:20:23] INFO root fetch - processPackages [azure-ai-translation-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-ai-translation-text-1.0.0.tar.gz tmp/azure-ai-translation-text-1.0.0b1.zip --markdown 20240523/a/azure-ai-translation-text/1.0.0-1.0.0b1/README.md --exclude *.pyd
+[2024-05-23 02:20:23] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: executing diffoscope
+[2024-05-23 02:20:23] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_prompt_wrapper-0.0.8.tar.gz tmp/chatgpt_prompt_wrapper-0.0.9.tar.gz --markdown 20240523/c/chatgpt-prompt-wrapper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 02:20:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-05-23 02:20:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.9.2.tar.gz tmp/speakeasy-client-sdk-python-5.9.3.tar.gz --markdown 20240523/s/speakeasy-client-sdk-python/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-05-23 02:20:24] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-05-23 02:20:24] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240523/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-23 02:20:24] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240523/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [AudioAlchemist]: Remove: archive file [/home/abi/fetcher/tmp/audioalchemist-0.3.0.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [AudioAlchemist]: Remove: archive file [/home/abi/fetcher/tmp/audioalchemist-0.4.0.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - main [MainThread]: End processing [AudioAlchemist]: success
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-23 02:20:24] INFO root fetch - processPackages [azure-ai-translation-text]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-translation-text-1.0.0.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [azure-ai-translation-text]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-translation-text-1.0.0b1.zip]
+[2024-05-23 02:20:24] INFO root fetch - main [MainThread]: End processing [azure-ai-translation-text]: success
+[2024-05-23 02:20:24] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.3.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.4.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-23 02:20:24] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_prompt_wrapper-0.0.8.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_prompt_wrapper-0.0.9.tar.gz]
+[2024-05-23 02:20:24] INFO root fetch - main [MainThread]: End processing [chatgpt-prompt-wrapper]: success
+[2024-05-23 02:20:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-23 02:20:25] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-23 02:20:25] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240523/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 02:20:25] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.9.2.tar.gz]
+[2024-05-23 02:20:25] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.9.3.tar.gz]
+[2024-05-23 02:20:25] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-05-23 02:20:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-23 02:20:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-23 02:20:25] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-23 02:20:25] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-05-23 02:20:25] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-05-23 02:20:25] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-05-23 02:20:25] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-23 02:20:25] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-23 02:20:25] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-23 02:20:25] INFO root fetch - main [MainThread]: Store serial: [23334629]
