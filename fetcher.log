@@ -20397,3 +20397,68 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:36:29] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev0.tar.gz]
 [2024-05-23 12:36:29] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-23 12:36:29] INFO root fetch - main [MainThread]: Store serial: [23341862]
+[2024-05-23 12:38:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341862]
+[2024-05-23 12:38:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 12:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scprel
+[2024-05-23 12:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkrhistoryparser
+[2024-05-23 12:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyeodh
+[2024-05-23 12:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lesscode-utils
+[2024-05-23 12:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgis-gis
+[2024-05-23 12:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryptoadvance.specter
+[2024-05-23 12:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dalpha
+[2024-05-23 12:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cryptonets-python-sdk
+[2024-05-23 12:38:40] INFO root fetch - processPackages [dalpha]: New version: [0.5.4rc0] Old Version: [0.5.4]
+[2024-05-23 12:38:40] INFO root fetch - processPackages [vgis-gis]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-23 12:38:40] INFO root fetch - processPackages [scprel]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-23 12:38:40] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.4rc7] Old Version: [2.0.4rc6]
+[2024-05-23 12:38:40] INFO root fetch - processPackages [cryptonets-python-sdk]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-23 12:38:40] WARNING root fetch - processPackages [pyeodh]: Skipping, unable to determine old version
+[2024-05-23 12:38:40] INFO root fetch - main [MainThread]: End processing [pyeodh] error
+[2024-05-23 12:38:40] INFO root fetch - processPackages [pkrhistoryparser]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-23 12:38:40] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 12:38:40] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/0c/32/f37469eb4ab7759f0bba62394906aa7592f3a31c328a7a3b1206bd066fa8/vgis_gis-1.3.4.tar.gz
+[2024-05-23 12:38:40] INFO root fetch - processPackages [scprel]: Downloading https://files.pythonhosted.org/packages/8c/6b/b71eeae54324d93159909c791eb3ec2d2b1fcdb031248deef6caffd29d31/scprel-1.1.8.tar.gz
+[2024-05-23 12:38:40] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/a7/a8/8cdefd0cc75895cec77ac066df0e0a95d7dbf13e693ec6be7472473325e7/dalpha-0.5.4.tar.gz
+[2024-05-23 12:38:40] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/ba/38/1b0defd05952161d3cc51d916ca26977c2f98d4e0db0a1e061d069393990/cryptoadvance.specter-2.0.4rc6.tar.gz
+[2024-05-23 12:38:40] INFO root fetch - processPackages [cryptonets-python-sdk]: Downloading https://files.pythonhosted.org/packages/2d/ce/8735bfdbf8800e620a307fe60096dc0fc01a639dccb21cacae1d28f4622c/cryptonets_python_sdk-1.3.1.tar.gz
+[2024-05-23 12:38:40] INFO root fetch - processPackages [pkrhistoryparser]: Downloading https://files.pythonhosted.org/packages/14/a8/ab0b8264575ac0997dfe4e207b14cf4b921732da49f64c48cf726f749171/pkrhistoryparser-1.0.1.tar.gz
+[2024-05-23 12:38:40] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f6/0c/2674b4b125ed692da753914dfb77b1585abef09ecc652e664392f26b82d6/lesscode_utils-0.0.8.tar.gz
+[2024-05-23 12:38:40] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13678229>=10485760
+[2024-05-23 12:38:40] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2024-05-23 12:38:40] INFO root fetch - processPackages [scprel]: Downloading https://files.pythonhosted.org/packages/44/90/5408cf1b7145acb2567c1e5c56e9b9c5facaa01fd623734081cd8864ba31/scprel-1.1.9.tar.gz
+[2024-05-23 12:38:41] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/03/e6/74488efa86eed324f067f9d54943c18a10a5f3421eeaaf96e7530d01b5c7/dalpha-0.5.4rc0.tar.gz
+[2024-05-23 12:38:41] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/74/75/eca7a2870a6cf71b12352debadcede28efc1b4e9527a98dcc9f568a5f42a/vgis_gis-1.3.5.tar.gz
+[2024-05-23 12:38:41] INFO root fetch - processPackages [scprel]: executing diffoscope
+[2024-05-23 12:38:41] INFO root fetch - processPackages [scprel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scprel-1.1.8.tar.gz tmp/scprel-1.1.9.tar.gz --markdown 20240523/s/scprel/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-23 12:38:41] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-23 12:38:41] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.5.4.tar.gz tmp/dalpha-0.5.4rc0.tar.gz --markdown 20240523/d/dalpha/0.5.4-0.5.4rc0/README.md --exclude *.pyd
+[2024-05-23 12:38:41] INFO root fetch - processPackages [vgis-gis]: executing diffoscope
+[2024-05-23 12:38:41] INFO root fetch - processPackages [vgis-gis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_gis-1.3.4.tar.gz tmp/vgis_gis-1.3.5.tar.gz --markdown 20240523/v/vgis-gis/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-23 12:38:41] INFO root fetch - processPackages [pkrhistoryparser]: Downloading https://files.pythonhosted.org/packages/d7/25/5225806e6b8f790a543b343782c496e63f49f25bc5ab48b2ee628b1e5968/pkrhistoryparser-1.1.0.tar.gz
+[2024-05-23 12:38:41] INFO root fetch - processPackages [cryptonets-python-sdk]: Downloading https://files.pythonhosted.org/packages/29/de/8d2c588039067da5a56de1a5994e3278e194359e3adec6e54b3ba289d2b3/cryptonets_python_sdk-1.3.2.tar.gz
+[2024-05-23 12:38:41] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/bc/9a/1d07f1121fb39c72396bc71511135f407e314dc626a3fb88ff75f1827718/lesscode_utils-0.0.9.tar.gz
+[2024-05-23 12:38:41] INFO root fetch - processPackages [pkrhistoryparser]: executing diffoscope
+[2024-05-23 12:38:41] INFO root fetch - processPackages [pkrhistoryparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkrhistoryparser-1.0.1.tar.gz tmp/pkrhistoryparser-1.1.0.tar.gz --markdown 20240523/p/pkrhistoryparser/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-23 12:38:41] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2024-05-23 12:38:41] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.8.tar.gz tmp/lesscode_utils-0.0.9.tar.gz --markdown 20240523/l/lesscode-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 12:38:41] INFO root fetch - processPackages [cryptonets-python-sdk]: executing diffoscope
+[2024-05-23 12:38:41] INFO root fetch - processPackages [cryptonets-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptonets_python_sdk-1.3.1.tar.gz tmp/cryptonets_python_sdk-1.3.2.tar.gz --markdown 20240523/c/cryptonets-python-sdk/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-23 12:38:41] INFO root fetch - processPackages [scprel]: Remove: archive file [/home/abi/fetcher/tmp/scprel-1.1.8.tar.gz]
+[2024-05-23 12:38:41] INFO root fetch - processPackages [scprel]: Remove: archive file [/home/abi/fetcher/tmp/scprel-1.1.9.tar.gz]
+[2024-05-23 12:38:41] INFO root fetch - main [MainThread]: End processing [scprel]: success
+[2024-05-23 12:38:41] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.4.tar.gz]
+[2024-05-23 12:38:41] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.4rc0.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-23 12:38:42] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.4.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.5.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - main [MainThread]: End processing [vgis-gis]: success
+[2024-05-23 12:38:42] INFO root fetch - processPackages [pkrhistoryparser]: Remove: archive file [/home/abi/fetcher/tmp/pkrhistoryparser-1.0.1.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - processPackages [pkrhistoryparser]: Remove: archive file [/home/abi/fetcher/tmp/pkrhistoryparser-1.1.0.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - main [MainThread]: End processing [pkrhistoryparser]: success
+[2024-05-23 12:38:42] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.8.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.9.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2024-05-23 12:38:42] INFO root fetch - processPackages [cryptonets-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cryptonets_python_sdk-1.3.1.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - processPackages [cryptonets-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cryptonets_python_sdk-1.3.2.tar.gz]
+[2024-05-23 12:38:42] INFO root fetch - main [MainThread]: End processing [cryptonets-python-sdk]: success
+[2024-05-23 12:38:42] INFO root fetch - main [MainThread]: Store serial: [23341889]
