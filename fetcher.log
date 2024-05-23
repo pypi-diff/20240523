@@ -11874,3 +11874,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:23:14] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.14.tar.gz]
 [2024-05-23 08:23:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2024-05-23 08:23:14] INFO root fetch - main [MainThread]: Store serial: [23338402]
+[2024-05-23 08:25:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338402]
+[2024-05-23 08:25:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 08:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Complex-Bidintha
+[2024-05-23 08:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapientml-preprocess
+[2024-05-23 08:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afipcaeqrdecode
+[2024-05-23 08:25:22] INFO root fetch - processPackages [Complex-Bidintha]: New version: [0.5] Old Version: [0.4]
+[2024-05-23 08:25:22] INFO root fetch - processPackages [Complex-Bidintha]: Downloading https://files.pythonhosted.org/packages/50/bc/1fff0879072f7cef77fb360142ceb8402463067ee2dc267ede17bdcd210e/Complex_Bidintha-0.4.tar.gz
+[2024-05-23 08:25:22] INFO root fetch - processPackages [sapientml-preprocess]: New version: [0.3.7] Old Version: [0.3.6.post0]
+[2024-05-23 08:25:22] INFO root fetch - processPackages [afipcaeqrdecode]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:25:22] INFO root fetch - processPackages [sapientml-preprocess]: Downloading https://files.pythonhosted.org/packages/a9/9e/2061d42978e3bfaabc60cb24618be02f856c36b5f31f5ddecc2329edb22b/sapientml_preprocess-0.3.6.post0.tar.gz
+[2024-05-23 08:25:22] INFO root fetch - processPackages [afipcaeqrdecode]: Downloading https://files.pythonhosted.org/packages/fb/1a/927e932653964c2558a22b8918cdde30cdacf852df557e57da0a60721cbe/afipcaeqrdecode-0.0.8.tar.gz
+[2024-05-23 08:25:22] INFO root fetch - processPackages [Complex-Bidintha]: Downloading https://files.pythonhosted.org/packages/c3/4b/95fc5af4e3979ad76ae061088655fb9328496a2a9d15cdf92348e7cb645c/Complex_Bidintha-0.5.tar.gz
+[2024-05-23 08:25:22] INFO root fetch - processPackages [Complex-Bidintha]: executing diffoscope
+[2024-05-23 08:25:22] INFO root fetch - processPackages [Complex-Bidintha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Complex_Bidintha-0.4.tar.gz tmp/Complex_Bidintha-0.5.tar.gz --markdown 20240523/C/Complex-Bidintha/0.4-0.5/README.md --exclude *.pyd
+[2024-05-23 08:25:23] INFO root fetch - processPackages [sapientml-preprocess]: Downloading https://files.pythonhosted.org/packages/7a/25/436044a54deb93d1819b56ff39c9d6d313ba634ca33dacfdcb9d2295d8fe/sapientml_preprocess-0.3.7.tar.gz
+[2024-05-23 08:25:23] INFO root fetch - processPackages [afipcaeqrdecode]: Downloading https://files.pythonhosted.org/packages/35/51/5966c2e18dab1568376737550e193a85c81bc9f9f1de44190cce77f6a110/afipcaeqrdecode-0.0.9.tar.gz
+[2024-05-23 08:25:23] INFO root fetch - processPackages [afipcaeqrdecode]: executing diffoscope
+[2024-05-23 08:25:23] INFO root fetch - processPackages [afipcaeqrdecode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afipcaeqrdecode-0.0.8.tar.gz tmp/afipcaeqrdecode-0.0.9.tar.gz --markdown 20240523/a/afipcaeqrdecode/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:25:23] INFO root fetch - processPackages [sapientml-preprocess]: executing diffoscope
+[2024-05-23 08:25:23] INFO root fetch - processPackages [sapientml-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapientml_preprocess-0.3.6.post0.tar.gz tmp/sapientml_preprocess-0.3.7.tar.gz --markdown 20240523/s/sapientml-preprocess/0.3.6.post0-0.3.7/README.md --exclude *.pyd
+[2024-05-23 08:25:23] INFO root fetch - processPackages [Complex-Bidintha]: Remove: archive file [/home/abi/fetcher/tmp/Complex_Bidintha-0.4.tar.gz]
+[2024-05-23 08:25:23] INFO root fetch - processPackages [Complex-Bidintha]: Remove: archive file [/home/abi/fetcher/tmp/Complex_Bidintha-0.5.tar.gz]
+[2024-05-23 08:25:23] INFO root fetch - main [MainThread]: End processing [Complex-Bidintha]: success
+[2024-05-23 08:25:23] INFO root fetch - processPackages [sapientml-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/sapientml_preprocess-0.3.6.post0.tar.gz]
+[2024-05-23 08:25:23] INFO root fetch - processPackages [sapientml-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/sapientml_preprocess-0.3.7.tar.gz]
+[2024-05-23 08:25:23] INFO root fetch - main [MainThread]: End processing [sapientml-preprocess]: success
+[2024-05-23 08:25:23] INFO root fetch - processPackages [afipcaeqrdecode]: Remove: archive file [/home/abi/fetcher/tmp/afipcaeqrdecode-0.0.8.tar.gz]
+[2024-05-23 08:25:23] INFO root fetch - processPackages [afipcaeqrdecode]: Remove: archive file [/home/abi/fetcher/tmp/afipcaeqrdecode-0.0.9.tar.gz]
+[2024-05-23 08:25:23] INFO root fetch - main [MainThread]: End processing [afipcaeqrdecode]: success
+[2024-05-23 08:25:23] INFO root fetch - main [MainThread]: Store serial: [23338416]
