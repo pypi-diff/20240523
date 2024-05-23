@@ -14948,3 +14948,56 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:19:09] INFO root fetch - processPackages [os-vif]: Remove: archive file [/home/abi/fetcher/tmp/os_vif-3.6.0.tar.gz]
 [2024-05-23 10:19:09] INFO root fetch - main [MainThread]: End processing [os-vif]: success
 [2024-05-23 10:19:09] INFO root fetch - main [MainThread]: Store serial: [23339788]
+[2024-05-23 10:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339788]
+[2024-05-23 10:21:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chellow
+[2024-05-23 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-osubot
+[2024-05-23 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tempest
+[2024-05-23 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: berryworld
+[2024-05-23 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calculator-cli-builtincmds
+[2024-05-23 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arkindex-base-worker
+[2024-05-23 10:21:19] INFO root fetch - processPackages [arkindex-base-worker]: New version: [0.3.7rc9] Old Version: [0.3.7rc8]
+[2024-05-23 10:21:19] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.3.0] Old Version: [6.2.3]
+[2024-05-23 10:21:19] INFO root fetch - processPackages [tempest]: New version: [39.0.0] Old Version: [38.0.0]
+[2024-05-23 10:21:19] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-23 10:21:19] INFO root fetch - processPackages [berryworld]: New version: [1.0.0.99947] Old Version: [1.0.0.98128]
+[2024-05-23 10:21:19] INFO root fetch - processPackages [calculator-cli-builtincmds]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 10:21:19] INFO root fetch - processPackages [tempest]: Downloading https://files.pythonhosted.org/packages/7b/90/2623277f4918583b5e767ab48d6046b5e17203a3d09fbf5031095f07c6f7/tempest-38.0.0.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/6a/1b/cd0e6ca2252d0faa09716deabf2e6f0f5836e96167bf51c25b81cfb866cd/nonebot-plugin-osubot-6.2.3.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/7f/e1/d1cc2d60d6a512046edb70890d3a623e50612c7f347431c085e0d1473f3f/arkindex-base-worker-0.3.7rc8.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/e3/b2/e55890bb3cd86b626b9431be7088976207c2c6ff2156111af7683a4d1d19/berryworld-1.0.0.98128-py3-none-any.whl
+[2024-05-23 10:21:19] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29719494>=10485760
+[2024-05-23 10:21:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-23 10:21:19] INFO root fetch - processPackages [calculator-cli-builtincmds]: Downloading https://files.pythonhosted.org/packages/04/5a/bb3473918b4761be9eaa8db9b4169b7daadf4dc3cce143b8248c6f09d5f7/calculator_cli_builtincmds-0.1.0.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/cd/d5/4d6c3fbfcf25a2bebf65388b7f030f678ecaf06add4427ebe8070c88f2b8/arkindex-base-worker-0.3.7rc9.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [calculator-cli-builtincmds]: Downloading https://files.pythonhosted.org/packages/99/ae/2781b9991c463561efcd986e002d577f7264edd827a8e1f6a71bb846c161/calculator_cli_builtincmds-0.1.1.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/76/7a/85e422f997ed11ae867d7de50d34dc4f96e9070f2fb630606a5c033fb214/berryworld-1.0.0.99947-py3-none-any.whl
+[2024-05-23 10:21:19] INFO root fetch - processPackages [arkindex-base-worker]: executing diffoscope
+[2024-05-23 10:21:19] INFO root fetch - processPackages [arkindex-base-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkindex-base-worker-0.3.7rc8.tar.gz tmp/arkindex-base-worker-0.3.7rc9.tar.gz --markdown 20240523/a/arkindex-base-worker/0.3.7rc8-0.3.7rc9/README.md --exclude *.pyd
+[2024-05-23 10:21:19] INFO root fetch - processPackages [tempest]: Downloading https://files.pythonhosted.org/packages/23/4e/7cc03e5caafd42d1377335eca35e79d5af441c862ecbc689d15ec18c020b/tempest-39.0.0.tar.gz
+[2024-05-23 10:21:19] INFO root fetch - processPackages [calculator-cli-builtincmds]: executing diffoscope
+[2024-05-23 10:21:19] INFO root fetch - processPackages [calculator-cli-builtincmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_cli_builtincmds-0.1.0.tar.gz tmp/calculator_cli_builtincmds-0.1.1.tar.gz --markdown 20240523/c/calculator-cli-builtincmds/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 10:21:19] INFO root fetch - processPackages [berryworld]: executing diffoscope
+[2024-05-23 10:21:19] INFO root fetch - processPackages [berryworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip --markdown 20240523/b/berryworld/1.0.0.98128-1.0.0.99947/README.md --exclude *.pyd
+[2024-05-23 10:21:19] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-23 10:21:19] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240523/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-23 10:21:20] INFO root fetch - processPackages [tempest]: executing diffoscope
+[2024-05-23 10:21:20] INFO root fetch - processPackages [tempest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempest-38.0.0.tar.gz tmp/tempest-39.0.0.tar.gz --markdown 20240523/t/tempest/38.0.0-39.0.0/README.md --exclude *.pyd
+[2024-05-23 10:21:20] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip]
+[2024-05-23 10:21:20] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip]
+[2024-05-23 10:21:20] INFO root fetch - main [MainThread]: End processing [berryworld]: success
+[2024-05-23 10:21:20] INFO root fetch - processPackages [calculator-cli-builtincmds]: Remove: archive file [/home/abi/fetcher/tmp/calculator_cli_builtincmds-0.1.0.tar.gz]
+[2024-05-23 10:21:20] INFO root fetch - processPackages [arkindex-base-worker]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-base-worker-0.3.7rc8.tar.gz]
+[2024-05-23 10:21:20] INFO root fetch - processPackages [calculator-cli-builtincmds]: Remove: archive file [/home/abi/fetcher/tmp/calculator_cli_builtincmds-0.1.1.tar.gz]
+[2024-05-23 10:21:20] INFO root fetch - processPackages [arkindex-base-worker]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-base-worker-0.3.7rc9.tar.gz]
+[2024-05-23 10:21:20] INFO root fetch - main [MainThread]: End processing [calculator-cli-builtincmds]: success
+[2024-05-23 10:21:20] INFO root fetch - main [MainThread]: End processing [arkindex-base-worker]: success
+[2024-05-23 10:21:22] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-23 10:21:22] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-23 10:21:22] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-23 10:21:25] INFO root fetch - processPackages [tempest]: Remove: archive file [/home/abi/fetcher/tmp/tempest-38.0.0.tar.gz]
+[2024-05-23 10:21:25] INFO root fetch - processPackages [tempest]: Remove: archive file [/home/abi/fetcher/tmp/tempest-39.0.0.tar.gz]
+[2024-05-23 10:21:25] INFO root fetch - main [MainThread]: End processing [tempest]: success
+[2024-05-23 10:21:25] INFO root fetch - main [MainThread]: Store serial: [23339840]
