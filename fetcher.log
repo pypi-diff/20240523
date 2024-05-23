@@ -15277,3 +15277,56 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:30:22] INFO root fetch - processPackages [rhkpy]: Remove: archive file [/home/abi/fetcher/tmp/rhkpy-1.3.6.tar.gz]
 [2024-05-23 10:30:22] INFO root fetch - main [MainThread]: End processing [rhkpy]: success
 [2024-05-23 10:30:22] INFO root fetch - main [MainThread]: Store serial: [23339965]
+[2024-05-23 10:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339965]
+[2024-05-23 10:32:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 10:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watch-run
+[2024-05-23 10:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brapi-proxy
+[2024-05-23 10:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genoodw
+[2024-05-23 10:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: classiq
+[2024-05-23 10:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbluemind4
+[2024-05-23 10:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FunVIP
+[2024-05-23 10:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bibla
+[2024-05-23 10:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctube
+[2024-05-23 10:32:31] WARNING root fetch - processPackages [watch-run]: Skipping, unable to determine old version
+[2024-05-23 10:32:31] INFO root fetch - main [MainThread]: End processing [watch-run] error
+[2024-05-23 10:32:31] INFO root fetch - processPackages [FunVIP]: New version: [0.3.22.1] Old Version: [0.3.22]
+[2024-05-23 10:32:31] WARNING root fetch - processPackages [brapi-proxy]: Skipping, unable to determine old version
+[2024-05-23 10:32:31] INFO root fetch - main [MainThread]: End processing [brapi-proxy] error
+[2024-05-23 10:32:31] WARNING root fetch - processPackages [genoodw]: Skipping, unable to determine old version
+[2024-05-23 10:32:31] INFO root fetch - main [MainThread]: End processing [genoodw] error
+[2024-05-23 10:32:31] INFO root fetch - processPackages [netbluemind4]: New version: [4.9.3572] Old Version: [4.9.3550]
+[2024-05-23 10:32:31] INFO root fetch - processPackages [bibla]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-23 10:32:31] INFO root fetch - processPackages [ctube]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 10:32:31] INFO root fetch - processPackages [classiq]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-23 10:32:31] INFO root fetch - processPackages [FunVIP]: Downloading https://files.pythonhosted.org/packages/77/eb/6c02451b239042d60f03c7ed10e91d4c53c4e227d2eb1d49aa8b2246a973/funvip-0.3.22.tar.gz
+[2024-05-23 10:32:31] WARNING root fetch - processPackages [FunVIP]: Skipping package: exceeds size limit 59505007>=10485760
+[2024-05-23 10:32:31] INFO root fetch - main [MainThread]: End processing [FunVIP] error
+[2024-05-23 10:32:31] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/e2/c9/ed8db71eab193dd2d1b1697c906dd5debd233e515a322f577459a519c7b4/netbluemind4-4.9.3550.tar.gz
+[2024-05-23 10:32:31] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/62/bd/a743e4141094b0e9dc17aeac1cedfe15efc910502e7411611d5cdf9d1878/classiq-0.9.1-py3-none-any.whl
+[2024-05-23 10:32:31] INFO root fetch - processPackages [bibla]: Downloading https://files.pythonhosted.org/packages/f4/a2/b0aae8edb1f9e095df39f2f4c6cbd46b005f6ae2359986815fbb799c89fe/bibla-2.0.5.tar.gz
+[2024-05-23 10:32:31] INFO root fetch - processPackages [ctube]: Downloading https://files.pythonhosted.org/packages/ab/26/f554b986805b897160783311ab3c4068022cc05e848bee669f160a4b24ec/ctube-0.0.1.tar.gz
+[2024-05-23 10:32:31] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/e5/eb/9b39365fd2d7c2027f6610a884229059149ab9a3395be331767306762c07/classiq-0.9.3-py3-none-any.whl
+[2024-05-23 10:32:31] INFO root fetch - processPackages [bibla]: Downloading https://files.pythonhosted.org/packages/ba/36/95a29cb5dfe57f47d36a79e5f1131354558367414999bfd529049f5c1b94/bibla-2.0.6.tar.gz
+[2024-05-23 10:32:31] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/9a/7b/df93d47dd5f6138f216404f50db33a9890963b2b81c4cc785819a9d9b6e3/netbluemind4-4.9.3572.tar.gz
+[2024-05-23 10:32:31] INFO root fetch - processPackages [ctube]: Downloading https://files.pythonhosted.org/packages/ee/25/7559d959d87194859ec3f89742f3598c753fd81f24f9af1bb422ea32edfd/ctube-0.0.2.tar.gz
+[2024-05-23 10:32:31] INFO root fetch - processPackages [classiq]: executing diffoscope
+[2024-05-23 10:32:31] INFO root fetch - processPackages [classiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classiq-0.9.1-py3-none-any.whl.zip tmp/classiq-0.9.3-py3-none-any.whl.zip --markdown 20240523/c/classiq/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-23 10:32:31] INFO root fetch - processPackages [bibla]: executing diffoscope
+[2024-05-23 10:32:31] INFO root fetch - processPackages [bibla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibla-2.0.5.tar.gz tmp/bibla-2.0.6.tar.gz --markdown 20240523/b/bibla/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-23 10:32:32] INFO root fetch - processPackages [ctube]: executing diffoscope
+[2024-05-23 10:32:32] INFO root fetch - processPackages [ctube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctube-0.0.1.tar.gz tmp/ctube-0.0.2.tar.gz --markdown 20240523/c/ctube/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 10:32:32] INFO root fetch - processPackages [netbluemind4]: executing diffoscope
+[2024-05-23 10:32:32] INFO root fetch - processPackages [netbluemind4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind4-4.9.3550.tar.gz tmp/netbluemind4-4.9.3572.tar.gz --markdown 20240523/n/netbluemind4/4.9.3550-4.9.3572/README.md --exclude *.pyd
+[2024-05-23 10:32:32] INFO root fetch - processPackages [bibla]: Remove: archive file [/home/abi/fetcher/tmp/bibla-2.0.5.tar.gz]
+[2024-05-23 10:32:32] INFO root fetch - processPackages [bibla]: Remove: archive file [/home/abi/fetcher/tmp/bibla-2.0.6.tar.gz]
+[2024-05-23 10:32:32] INFO root fetch - main [MainThread]: End processing [bibla]: success
+[2024-05-23 10:32:32] INFO root fetch - processPackages [ctube]: Remove: archive file [/home/abi/fetcher/tmp/ctube-0.0.1.tar.gz]
+[2024-05-23 10:32:32] INFO root fetch - processPackages [ctube]: Remove: archive file [/home/abi/fetcher/tmp/ctube-0.0.2.tar.gz]
+[2024-05-23 10:32:32] INFO root fetch - main [MainThread]: End processing [ctube]: success
+[2024-05-23 10:32:32] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.1-py3-none-any.whl.zip]
+[2024-05-23 10:32:32] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
+[2024-05-23 10:32:32] INFO root fetch - main [MainThread]: End processing [classiq]: success
+[2024-05-23 10:32:34] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.3550.tar.gz]
+[2024-05-23 10:32:34] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.3572.tar.gz]
+[2024-05-23 10:32:34] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
+[2024-05-23 10:32:34] INFO root fetch - main [MainThread]: Store serial: [23339990]
