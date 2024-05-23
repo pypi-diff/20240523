@@ -9410,3 +9410,51 @@
 [2024-05-23 05:32:19] INFO root fetch - processPackages [pinpointPy]: Remove: archive file [/home/abi/fetcher/tmp/pinpointPy-1.2.5.tar.gz]
 [2024-05-23 05:32:19] INFO root fetch - main [MainThread]: End processing [pinpointPy]: success
 [2024-05-23 05:32:19] INFO root fetch - main [MainThread]: Store serial: [23337202]
+[2024-05-23 05:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337202]
+[2024-05-23 05:34:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 05:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-sql-parsing
+[2024-05-23 05:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvat_sdk_i_digit
+[2024-05-23 05:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-hcp
+[2024-05-23 05:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itk-meshtopolydata
+[2024-05-23 05:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taskara
+[2024-05-23 05:34:29] INFO root fetch - processPackages [taskara]: New version: [0.1.89] Old Version: [0.1.87]
+[2024-05-23 05:34:29] INFO root fetch - processPackages [cvat_sdk_i_digit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 05:34:29] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.642.24144] Old Version: [9.640.24141]
+[2024-05-23 05:34:29] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-05-23 05:34:29] INFO root fetch - processPackages [cvat_sdk_i_digit]: Downloading https://files.pythonhosted.org/packages/25/d6/491de5e3c5e838660e1b124cd8b8b8a75d18ff1f822fd5e55cf06eae25d7/cvat_sdk_i_digit-0.0.3.tar.gz
+[2024-05-23 05:34:29] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/a1/2c/c8d66551469eaa365010bff49e53c778fe4423f82d73941cec6eafebe2e0/mo_sql_parsing-9.640.24141.tar.gz
+[2024-05-23 05:34:29] INFO root fetch - processPackages [itk-meshtopolydata]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-23 05:34:29] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/cd/e1/cc1d81cab24eb970dfc62a689654d7fce139bd9ed098ef97dbda1bd82625/taskara-0.1.87.tar.gz
+[2024-05-23 05:34:29] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/73/f0/dc3b2096146433db58b81ea406510a87c44d52e7ceefee35f70adfa3980b/cdktf-cdktf-provider-hcp-9.8.0.tar.gz
+[2024-05-23 05:34:29] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/c4/c8/e91b882941e77a4c1c51eb35a44339e46fc87b5e32e907ef901b6f7bc183/mo_sql_parsing-9.642.24144.tar.gz
+[2024-05-23 05:34:29] INFO root fetch - processPackages [itk-meshtopolydata]: Downloading https://files.pythonhosted.org/packages/3b/44/75625203f7df9a2fb55df6c373da1d71a40f13489cc9b55d663d9a0d40fa/itk_meshtopolydata-0.9.1-cp39-cp39-win_amd64.whl
+[2024-05-23 05:34:29] INFO root fetch - processPackages [cvat_sdk_i_digit]: Downloading https://files.pythonhosted.org/packages/9c/94/0387031522d875c54ceabf2094a279906185af3e1e7be94511dcfa943f6d/cvat_sdk_i_digit-0.0.4.tar.gz
+[2024-05-23 05:34:29] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-23 05:34:29] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.640.24141.tar.gz tmp/mo_sql_parsing-9.642.24144.tar.gz --markdown 20240523/m/mo-sql-parsing/9.640.24141-9.642.24144/README.md --exclude *.pyd
+[2024-05-23 05:34:29] INFO root fetch - processPackages [cvat_sdk_i_digit]: executing diffoscope
+[2024-05-23 05:34:29] INFO root fetch - processPackages [cvat_sdk_i_digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk_i_digit-0.0.3.tar.gz tmp/cvat_sdk_i_digit-0.0.4.tar.gz --markdown 20240523/c/cvat_sdk_i_digit/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 05:34:29] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/ab/41/0e91fad2c082023db33913019bdcf9835973b3283c6e18f607b9030dba6d/taskara-0.1.89.tar.gz
+[2024-05-23 05:34:29] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-23 05:34:29] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.87.tar.gz tmp/taskara-0.1.89.tar.gz --markdown 20240523/t/taskara/0.1.87-0.1.89/README.md --exclude *.pyd
+[2024-05-23 05:34:29] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/e2/ba/ea6860ed41ceef01e5e4b8b926f1fbdc0b4a2650741a592b6e2761232e42/cdktf-cdktf-provider-hcp-9.9.0.tar.gz
+[2024-05-23 05:34:30] INFO root fetch - processPackages [itk-meshtopolydata]: Downloading https://files.pythonhosted.org/packages/1f/22/3795e1353a21541709f0fa7667edf619d2377fce365347554a5c2b5191f0/itk_meshtopolydata-0.9.2-cp39-cp39-win_amd64.whl
+[2024-05-23 05:34:30] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: executing diffoscope
+[2024-05-23 05:34:30] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-hcp-9.8.0.tar.gz tmp/cdktf-cdktf-provider-hcp-9.9.0.tar.gz --markdown 20240523/c/cdktf-cdktf-provider-hcp/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-05-23 05:34:30] INFO root fetch - processPackages [itk-meshtopolydata]: executing diffoscope
+[2024-05-23 05:34:30] INFO root fetch - processPackages [itk-meshtopolydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_meshtopolydata-0.9.1-cp39-cp39-win_amd64.whl.zip tmp/itk_meshtopolydata-0.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240523/i/itk-meshtopolydata/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-23 05:34:30] INFO root fetch - processPackages [cvat_sdk_i_digit]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk_i_digit-0.0.3.tar.gz]
+[2024-05-23 05:34:30] INFO root fetch - processPackages [cvat_sdk_i_digit]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk_i_digit-0.0.4.tar.gz]
+[2024-05-23 05:34:30] INFO root fetch - main [MainThread]: End processing [cvat_sdk_i_digit]: success
+[2024-05-23 05:34:30] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.640.24141.tar.gz]
+[2024-05-23 05:34:30] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.642.24144.tar.gz]
+[2024-05-23 05:34:30] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-23 05:34:30] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.87.tar.gz]
+[2024-05-23 05:34:30] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.89.tar.gz]
+[2024-05-23 05:34:30] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-23 05:34:32] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.8.0.tar.gz]
+[2024-05-23 05:34:32] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.9.0.tar.gz]
+[2024-05-23 05:34:32] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
+[2024-05-23 05:34:34] INFO root fetch - processPackages [itk-meshtopolydata]: Remove: archive file [/home/abi/fetcher/tmp/itk_meshtopolydata-0.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 05:34:34] INFO root fetch - processPackages [itk-meshtopolydata]: Remove: archive file [/home/abi/fetcher/tmp/itk_meshtopolydata-0.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 05:34:34] INFO root fetch - main [MainThread]: End processing [itk-meshtopolydata]: success
+[2024-05-23 05:34:34] INFO root fetch - main [MainThread]: Store serial: [23337296]
