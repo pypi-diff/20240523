@@ -13407,3 +13407,96 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:25:23] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0b6-cp311-cp311-win_amd64.whl.zip]
 [2024-05-23 09:25:23] INFO root fetch - main [MainThread]: End processing [usfm-grammar]: success
 [2024-05-23 09:25:23] INFO root fetch - main [MainThread]: Store serial: [23339132]
+[2024-05-23 09:27:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339132]
+[2024-05-23 09:27:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqladaptor
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartpredict
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: message-send-local
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chainlite
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shmessy
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-filewrap
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mercapy
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ca-vntl-helper
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: importer-local
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twogroups-heatmap
+[2024-05-23 09:27:33] INFO root fetch - processPackages [python-filewrap]: New version: [0.0.7.1] Old Version: [0.0.7]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [smartpredict]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [mercapy]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [twogroups-heatmap]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [message-send-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [sqladaptor]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [shmessy]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/3d/c8/b5f5e5d341f6e5cce6084f23c2c590bf2f8f944277a8fe8c4351e442a331/python_filewrap-0.0.7.tar.gz
+[2024-05-23 09:27:33] INFO root fetch - processPackages [ca-vntl-helper]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [chainlite]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-23 09:27:33] INFO root fetch - processPackages [twogroups-heatmap]: Downloading https://files.pythonhosted.org/packages/b0/0b/7add834377a25ef9107c652f2bd205a2b5c653312c5b3f2489482fcfa050/twogroups_heatmap-0.1.tar.gz
+[2024-05-23 09:27:33] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2024-05-23 09:27:33] INFO root fetch - processPackages [mercapy]: Downloading https://files.pythonhosted.org/packages/21/14/84901ac5a8ddb5f18544c36fee9a31236657123adc0009b13a4b6e0c9d28/mercapy-0.3.0.tar.gz
+[2024-05-23 09:27:33] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/d1/50/cd86d982f0b068d26ea3b37008a74aaf61190918f0cc8a78945cc5bec44f/smartpredict-0.6.8.tar.gz
+[2024-05-23 09:27:33] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/5b/54/6b8be4de3d3cd14dece006a2fb22b33b9d330134549ee264392680978adb/shmessy-1.3.3.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/3e/db/20078e6bce901b0dbb9011faa9575f415223a54413a0d1d8a39235f01f78/message-send-local-0.0.8.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/5a/51/f0fe3bc1bdad4358370d678d0db72697be22922aa977a254e2f2657654e5/sqladaptor-0.1.0.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [chainlite]: Downloading https://files.pythonhosted.org/packages/db/91/07802ba3a07eb7dfde790349a6eae4f4ce7e1f14c595df61bef0ebaa1fd7/chainlite-0.1.3.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/09/54/4edb3bc3ac03c64789bb844ad17301ddbd8c43d0e1632b78c1d744f88bf4/ca_vntl_helper-1.1.5.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/e2/52/e2c15c164720840d3cf93c129df485967a8d66af52c24f474a26378a4721/python_filewrap-0.0.7.1.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [twogroups-heatmap]: Downloading https://files.pythonhosted.org/packages/dc/28/204884a3e1536334143e22f478aa3436c77af6f66b4ab414fff13affbea1/twogroups_heatmap-0.1.1.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/22/03/ead990dba4ac20277d0bb0b558813d0f9d8fa86bb63a3efb264d8cb1e739/smartpredict-0.6.9.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [python-filewrap]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [python-filewrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_filewrap-0.0.7.tar.gz tmp/python_filewrap-0.0.7.1.tar.gz --markdown 20240523/p/python-filewrap/0.0.7-0.0.7.1/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/db/66/5da108296f6700eab97b86794abc1bd0796a98314fbe82224556c81fed80/message-send-local-0.0.9.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [mercapy]: Downloading https://files.pythonhosted.org/packages/05/d5/db8eba369bda11e7b521b4c766787ae4e4957e4bd6664bdba25f0f4a5b77/mercapy-1.0.0.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [twogroups-heatmap]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [twogroups-heatmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twogroups_heatmap-0.1.tar.gz tmp/twogroups_heatmap-0.1.1.tar.gz --markdown 20240523/t/twogroups-heatmap/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/88/55/6d463d108dc15790749f48b6a493eedbb7829a8b9df5aa0e171108d921f4/shmessy-1.3.4.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20240523/i/importer-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.8.tar.gz tmp/smartpredict-0.6.9.tar.gz --markdown 20240523/s/smartpredict/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [chainlite]: Downloading https://files.pythonhosted.org/packages/78/1e/4d7a9b6a6631fc937a1f0241804707b1863ea172807601695eb3c74409e7/chainlite-0.1.4.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/3d/39/0e53b6df64f7613ff4ee44a80cd106f645cfb3401c9ecadfa1ec8f590dbc/sqladaptor-0.1.1.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [message-send-local]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [message-send-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-send-local-0.0.8.tar.gz tmp/message-send-local-0.0.9.tar.gz --markdown 20240523/m/message-send-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/91/9d/325960a45f5a54e5c86335a716bd82be8a79fca91a7270809435d6020ed6/ca_vntl_helper-1.1.6.tar.gz
+[2024-05-23 09:27:34] INFO root fetch - processPackages [mercapy]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [mercapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercapy-0.3.0.tar.gz tmp/mercapy-1.0.0.tar.gz --markdown 20240523/m/mercapy/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [shmessy]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [shmessy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shmessy-1.3.3.tar.gz tmp/shmessy-1.3.4.tar.gz --markdown 20240523/s/shmessy/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [chainlite]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [chainlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlite-0.1.3.tar.gz tmp/chainlite-0.1.4.tar.gz --markdown 20240523/c/chainlite/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [sqladaptor]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [sqladaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladaptor-0.1.0.tar.gz tmp/sqladaptor-0.1.1.tar.gz --markdown 20240523/s/sqladaptor/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 09:27:34] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-23 09:27:34] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-1.1.5.tar.gz tmp/ca_vntl_helper-1.1.6.tar.gz --markdown 20240523/c/ca-vntl-helper/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-23 09:27:35] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.7.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.7.1.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [python-filewrap]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.8.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.9.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [twogroups-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/twogroups_heatmap-0.1.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [twogroups-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/twogroups_heatmap-0.1.1.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [twogroups-heatmap]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [mercapy]: Remove: archive file [/home/abi/fetcher/tmp/mercapy-0.3.0.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [mercapy]: Remove: archive file [/home/abi/fetcher/tmp/mercapy-1.0.0.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [mercapy]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.1.0.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.1.1.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [sqladaptor]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.5.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.6.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.3.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.4.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [chainlite]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.8.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.9.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [message-send-local]: success
+[2024-05-23 09:27:35] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.3.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.4.tar.gz]
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: End processing [shmessy]: success
+[2024-05-23 09:27:35] INFO root fetch - main [MainThread]: Store serial: [23339164]
