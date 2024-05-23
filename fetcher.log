@@ -21957,3 +21957,157 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:26:07] INFO root fetch - processPackages [Whombat]: Remove: archive file [/home/abi/fetcher/tmp/whombat-0.5.0.tar.gz]
 [2024-05-23 13:26:07] INFO root fetch - main [MainThread]: End processing [Whombat]: success
 [2024-05-23 13:26:07] INFO root fetch - main [MainThread]: Store serial: [23342422]
+[2024-05-23 13:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342422]
+[2024-05-23 13:28:20] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-21
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-connector
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tap-klaviyo
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aizynthfinder
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assisted-service-client
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyOghma
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: owasp-depscan
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: location-local
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DocumentsReader
+[2024-05-23 13:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: otpme
+[2024-05-23 13:28:20] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 13:28:20] INFO root fetch - processPackages [DocumentsReader]: Start processing: torchrl-nightly
+[2024-05-23 13:28:20] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 13:28:20] INFO root fetch - processPackages [PyOghma]: New version: [0.1] Old Version: [0.0.2]
+[2024-05-23 13:28:20] INFO root fetch - processPackages [location-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 13:28:20] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-23 13:28:20] WARNING root fetch - processPackages [otpme]: Skipping, unable to determine old version
+[2024-05-23 13:28:20] INFO root fetch - processPackages [otpme]: Start processing: dxsp
+[2024-05-23 13:28:20] INFO root fetch - main [MainThread]: End processing [otpme] error
+[2024-05-23 13:28:20] INFO root fetch - processPackages [owasp-depscan]: New version: [5.3.5] Old Version: [5.3.4]
+[2024-05-23 13:28:20] INFO root fetch - processPackages [tap-klaviyo]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-05-23 13:28:20] INFO root fetch - processPackages [aizynthfinder]: New version: [4.3.0] Old Version: [4.0.0]
+[2024-05-23 13:28:20] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-23 13:28:20] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240523] Old Version: [2.5.0b20240522]
+[2024-05-23 13:28:20] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/9c/f2/fcc760989d48c5e33cbe7c435b39b0a9e8eba895ccbf5832a8b83178d5ab/location_local-0.0.98.tar.gz
+[2024-05-23 13:28:20] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-23 13:28:20] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-23 13:28:21] INFO root fetch - processPackages [dxsp]: New version: [9.0.7] Old Version: [9.0.6]
+[2024-05-23 13:28:21] INFO root fetch - processPackages [PyOghma]: Downloading https://files.pythonhosted.org/packages/ff/5a/8a86efc1366aa260ebfaf90eea106ffdd39c93af61f1805f8b55896faf79/pyoghma-0.0.2.tar.gz
+[2024-05-23 13:28:21] WARNING root fetch - processPackages [PyOghma]: Skipping package: exceeds size limit 22271521>=10485760
+[2024-05-23 13:28:21] INFO root fetch - processPackages [PyOghma]: Start processing: laser-mind-client
+[2024-05-23 13:28:21] INFO root fetch - main [MainThread]: End processing [PyOghma] error
+[2024-05-23 13:28:21] INFO root fetch - processPackages [aizynthfinder]: Downloading https://files.pythonhosted.org/packages/2d/70/ceede0c9e0390da3add5d98a37f2264e08e9ddce9773ec19bf8a31e3e0ed/aizynthfinder-4.0.0.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/f2/1f/b5f3157014b2965f31c88681d4c4f0c6400d9fe8040e22550ed2a2e9e1c9/bigdl_core_xe_21-2.5.0b20240522-cp39-cp39-win_amd64.whl
+[2024-05-23 13:28:21] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [tap-klaviyo]: Downloading https://files.pythonhosted.org/packages/96/02/c75b21145ef019138342f6a21c0d0de92e620c357aa6dbb8fa8d77cff52c/tap-klaviyo-0.3.0.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [owasp-depscan]: Downloading https://files.pythonhosted.org/packages/7a/58/a313c561702986a0da991db8d960b3bf591ab8ab9f0341480e12d5d4e7c0/owasp_depscan-5.3.4.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [laser-mind-client]: New version: [0.22.0] Old Version: [0.21.2]
+[2024-05-23 13:28:21] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/2e/1e/2a1e6264292214bc558e1230d4660d51bbe681d2921a250cb4f94052fc9e/location_local-0.0.99.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [laser-mind-client]: Downloading https://files.pythonhosted.org/packages/81/b8/4c026fa89f0b80fde5a421f0f53d1a25339a010c4fcda77e364041bc1f7f/laser_mind_client-0.21.2.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a1/1f/4b20f69e5b75066726b10760e4d553170d395263325ba26fe170c2978d0b/dxsp-9.0.6.tar.gz
+[2024-05-23 13:28:21] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 33864967>=10485760
+[2024-05-23 13:28:21] INFO root fetch - processPackages [bigdl-core-xe-21]: Start processing: torchtnt-nightly
+[2024-05-23 13:28:21] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-23 13:28:21] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-23 13:28:21] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-23 13:28:21] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2024-05-23 13:28:21] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location_local-0.0.98.tar.gz tmp/location_local-0.0.99.tar.gz --markdown 20240523/l/location-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 13:28:21] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2024.5.23] Old Version: [2024.5.22]
+[2024-05-23 13:28:21] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-23 13:28:21] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240523/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-23 13:28:21] INFO root fetch - processPackages [aizynthfinder]: Downloading https://files.pythonhosted.org/packages/26/92/7ab09b47a660ee255a7ebd22e1fae042a558b71a35c7fb39d1edccc5b789/aizynthfinder-4.3.0.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [laser-mind-client]: Downloading https://files.pythonhosted.org/packages/ff/56/18557389028aa573720f1847551f78fbc14550fd93d83bfd194b87345f88/laser_mind_client-0.22.0.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/6f/52/503cf98874e62b8d5fc6aacc079fa526f55a3ef1342d6dcd3ef1a671cbe2/torchtnt_nightly-2024.5.22.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [tap-klaviyo]: Downloading https://files.pythonhosted.org/packages/53/20/68d536312f351a3ec0753c796dfd3b08765b0dbfb990ce6e1e75c80678ae/tap_klaviyo-1.0.0.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [aizynthfinder]: executing diffoscope
+[2024-05-23 13:28:21] INFO root fetch - processPackages [aizynthfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aizynthfinder-4.0.0.tar.gz tmp/aizynthfinder-4.3.0.tar.gz --markdown 20240523/a/aizynthfinder/4.0.0-4.3.0/README.md --exclude *.pyd
+[2024-05-23 13:28:21] INFO root fetch - processPackages [laser-mind-client]: executing diffoscope
+[2024-05-23 13:28:21] INFO root fetch - processPackages [laser-mind-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laser_mind_client-0.21.2.tar.gz tmp/laser_mind_client-0.22.0.tar.gz --markdown 20240523/l/laser-mind-client/0.21.2-0.22.0/README.md --exclude *.pyd
+[2024-05-23 13:28:21] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/c1/02/3119800c1eceb087f71694d8f6d21bce46ec401d2511bf92ed3ee83d9db4/dxsp-9.0.7.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [owasp-depscan]: Downloading https://files.pythonhosted.org/packages/10/b4/eab61230f494f04c9e7382101b246c9f7e726a6795d38fd3d85386240ef7/owasp_depscan-5.3.5.tar.gz
+[2024-05-23 13:28:21] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-23 13:28:21] INFO root fetch - processPackages [tap-klaviyo]: executing diffoscope
+[2024-05-23 13:28:21] INFO root fetch - processPackages [tap-klaviyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-klaviyo-0.3.0.tar.gz tmp/tap_klaviyo-1.0.0.tar.gz --markdown 20240523/t/tap-klaviyo/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-05-23 13:28:21] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2024-05-23 13:28:21] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-9.0.6.tar.gz tmp/dxsp-9.0.7.tar.gz --markdown 20240523/d/dxsp/9.0.6-9.0.7/README.md --exclude *.pyd
+[2024-05-23 13:28:21] INFO root fetch - processPackages [owasp-depscan]: executing diffoscope
+[2024-05-23 13:28:21] INFO root fetch - processPackages [owasp-depscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owasp_depscan-5.3.4.tar.gz tmp/owasp_depscan-5.3.5.tar.gz --markdown 20240523/o/owasp-depscan/5.3.4-5.3.5/README.md --exclude *.pyd
+[2024-05-23 13:28:21] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/67/a9/5fa8f88e6460da2c22d65fb410cc2bb95ce418d4680ed2141a7833dd4b94/torchtnt_nightly-2024.5.23.tar.gz
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240523/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt_nightly-2024.5.22.tar.gz tmp/torchtnt_nightly-2024.5.23.tar.gz --markdown 20240523/t/torchtnt-nightly/2024.5.22-2024.5.23/README.md --exclude *.pyd
+[2024-05-23 13:28:22] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.98.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.99.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [location-local]: Start processing: torchx-nightly
+[2024-05-23 13:28:22] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-23 13:28:22] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2024-05-23 13:28:22] INFO root fetch - processPackages [laser-mind-client]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client-0.21.2.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [laser-mind-client]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client-0.22.0.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [laser-mind-client]: Start processing: foundationallm
+[2024-05-23 13:28:22] INFO root fetch - main [MainThread]: End processing [laser-mind-client]: success
+[2024-05-23 13:28:22] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2024-05-23 13:28:22] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20240523/c/clickzetta-connector/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-23 13:28:22] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.6.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [dxsp]: Start processing: watch-run
+[2024-05-23 13:28:22] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2024-05-23 13:28:22] INFO root fetch - processPackages [tap-klaviyo]: Remove: archive file [/home/abi/fetcher/tmp/tap-klaviyo-0.3.0.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [tap-klaviyo]: Remove: archive file [/home/abi/fetcher/tmp/tap_klaviyo-1.0.0.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [tap-klaviyo]: Start processing: finbourne-access-sdk
+[2024-05-23 13:28:22] INFO root fetch - main [MainThread]: End processing [tap-klaviyo]: success
+[2024-05-23 13:28:22] INFO root fetch - processPackages [foundationallm]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [watch-run]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-23 13:28:22] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240523/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-23 13:28:22] INFO root fetch - processPackages [aizynthfinder]: Remove: archive file [/home/abi/fetcher/tmp/aizynthfinder-4.0.0.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [aizynthfinder]: Remove: archive file [/home/abi/fetcher/tmp/aizynthfinder-4.3.0.tar.gz]
+[2024-05-23 13:28:22] INFO root fetch - processPackages [aizynthfinder]: Start processing: ordotools
+[2024-05-23 13:28:22] INFO root fetch - main [MainThread]: End processing [aizynthfinder]: success
+[2024-05-23 13:28:23] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-23 13:28:23] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/8d/5d/04969c4963577ad06535da4373f54fa4cffa93ff1b570d3cead1988b6284/foundationallm-0.7.1.tar.gz
+[2024-05-23 13:28:23] INFO root fetch - processPackages [ordotools]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-23 13:28:23] INFO root fetch - processPackages [watch-run]: Downloading https://files.pythonhosted.org/packages/c4/f6/67ba0ce9160c4a29edaaef827001a827e8eba5b072c97ede635be0134a5d/watch_run-0.0.3-cp39-cp39-win_amd64.whl
+[2024-05-23 13:28:23] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-23 13:28:23] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.22.tar.gz]
+[2024-05-23 13:28:23] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.23.tar.gz]
+[2024-05-23 13:28:23] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2024-05-23 13:28:23] INFO root fetch - processPackages [owasp-depscan]: Remove: archive file [/home/abi/fetcher/tmp/owasp_depscan-5.3.4.tar.gz]
+[2024-05-23 13:28:23] INFO root fetch - processPackages [owasp-depscan]: Remove: archive file [/home/abi/fetcher/tmp/owasp_depscan-5.3.5.tar.gz]
+[2024-05-23 13:28:23] INFO root fetch - main [MainThread]: End processing [owasp-depscan]: success
+[2024-05-23 13:28:23] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/c1/3b/1c77a37917843f29c2dce0c870193404fbcfc4ccc45f19a7b11a2f3ff732/ordotools-0.0.6.tar.gz
+[2024-05-23 13:28:23] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-23 13:28:23] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240523/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-23 13:28:23] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-23 13:28:23] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-23 13:28:23] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-23 13:28:23] INFO root fetch - processPackages [watch-run]: Downloading https://files.pythonhosted.org/packages/65/bd/fefcba393c3c2a800507642f71a1874221e0beb0010527ff27eabee35fc4/watch_run-0.0.5-cp39-cp39-macosx_10_9_universal2.whl
+[2024-05-23 13:28:23] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/5a/ba/1f8e1dadaef4414cd60786f0bfdb3951a27bbd8cb71233ff10fb71c89eb5/foundationallm-0.7.2.tar.gz
+[2024-05-23 13:28:23] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 13:28:23] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 13:28:23] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-23 13:28:23] INFO root fetch - processPackages [foundationallm]: executing diffoscope
+[2024-05-23 13:28:23] INFO root fetch - processPackages [foundationallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationallm-0.7.1.tar.gz tmp/foundationallm-0.7.2.tar.gz --markdown 20240523/f/foundationallm/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-23 13:28:23] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2024-05-23 13:28:23] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2024-05-23 13:28:23] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2024-05-23 13:28:23] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/01/db/6a489501f8c0e7ade876273a94a639d070a95fe91102e634e254e318bb3e/ordotools-0.0.9.tar.gz
+[2024-05-23 13:28:23] INFO root fetch - processPackages [watch-run]: executing diffoscope
+[2024-05-23 13:28:23] INFO root fetch - processPackages [watch-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch_run-0.0.3-cp39-cp39-win_amd64.whl.zip tmp/watch_run-0.0.5-cp39-cp39-macosx_10_9_universal2.whl.zip --markdown 20240523/w/watch-run/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-23 13:28:23] INFO root fetch - processPackages [ordotools]: executing diffoscope
+[2024-05-23 13:28:23] INFO root fetch - processPackages [ordotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordotools-0.0.6.tar.gz tmp/ordotools-0.0.9.tar.gz --markdown 20240523/o/ordotools/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-23 13:28:24] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-23 13:28:24] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-23 13:28:24] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-23 13:28:24] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.1.tar.gz]
+[2024-05-23 13:28:24] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.2.tar.gz]
+[2024-05-23 13:28:24] INFO root fetch - main [MainThread]: End processing [foundationallm]: success
+[2024-05-23 13:28:24] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.6.tar.gz]
+[2024-05-23 13:28:24] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.9.tar.gz]
+[2024-05-23 13:28:24] INFO root fetch - main [MainThread]: End processing [ordotools]: success
+[2024-05-23 13:28:24] INFO root fetch - processPackages [watch-run]: Remove: archive file [/home/abi/fetcher/tmp/watch_run-0.0.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 13:28:24] INFO root fetch - processPackages [watch-run]: Remove: archive file [/home/abi/fetcher/tmp/watch_run-0.0.5-cp39-cp39-macosx_10_9_universal2.whl.zip]
+[2024-05-23 13:28:24] INFO root fetch - main [MainThread]: End processing [watch-run]: success
+[2024-05-23 13:28:24] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-23 13:28:24] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-23 13:28:24] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-23 13:28:24] INFO root fetch - main [MainThread]: Store serial: [23342480]
