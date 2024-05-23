@@ -22508,3 +22508,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:43:48] INFO root fetch - processPackages [calculator-cli-builtincmds]: Remove: archive file [/home/abi/fetcher/tmp/calculator_cli_builtincmds-0.1.2-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-05-23 13:43:48] INFO root fetch - main [MainThread]: End processing [calculator-cli-builtincmds]: success
 [2024-05-23 13:43:48] INFO root fetch - main [MainThread]: Store serial: [23342687]
+[2024-05-23 13:45:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342687]
+[2024-05-23 13:45:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-location-local
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQtUIkit
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laser-mind-client-meta
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lima-api
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuroweave
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bbrl
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte-source-zendesk-support
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-oidc-backend
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ls-cred-storage
+[2024-05-23 13:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: textual-totp
+[2024-05-23 13:46:00] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-05-23 13:46:00] INFO root fetch - processPackages [neuroweave]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 13:46:00] INFO root fetch - processPackages [fastapi-oidc-backend]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-23 13:46:00] INFO root fetch - processPackages [laser-mind-client-meta]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-23 13:46:00] INFO root fetch - processPackages [contact-location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 13:46:00] INFO root fetch - processPackages [bbrl]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-23 13:46:00] INFO root fetch - processPackages [ls-cred-storage]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-23 13:46:00] WARNING root fetch - processPackages [lima-api]: Skipping, unable to determine old version
+[2024-05-23 13:46:00] INFO root fetch - main [MainThread]: End processing [lima-api] error
+[2024-05-23 13:46:00] INFO root fetch - processPackages [airbyte-source-zendesk-support]: New version: [2.6.5] Old Version: [2.6.4.dev202405171946]
+[2024-05-23 13:46:00] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/40/1a/d636b21100f68befaa91e3dd0d846e5abf0684098e10dbc217b3ffaa8390/PyQtUIkit-2.9.3.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [textual-totp]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 13:46:00] INFO root fetch - processPackages [neuroweave]: Downloading https://files.pythonhosted.org/packages/43/21/56cdd112b6636a0bdf1c59ed3dda3c43e30fb565f27b16fa4998031f73a1/neuroweave-0.0.1-py3-none-any.whl
+[2024-05-23 13:46:00] INFO root fetch - processPackages [bbrl]: Downloading https://files.pythonhosted.org/packages/13/1d/566b68ffd7ced3c43df18776cc35822ec33788431b54361398ca785b5178/bbrl-0.3.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [laser-mind-client-meta]: Downloading https://files.pythonhosted.org/packages/57/3c/f12ff9d6e453f61cfcaf631622cac16675386851140ba5c65aa2d909f57a/laser_mind_client_meta-0.5.0.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [fastapi-oidc-backend]: Downloading https://files.pythonhosted.org/packages/1b/d2/b4cc4785c055d08491b4f9f9b0200d93ad0606d66d964e4ad6b8bc11d346/fastapi_oidc_backend-0.4.0.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/2f/0c/a80370d5a9bb7d4535cdfd68c9e49af2fc39ef7974e7a123bd9fcc9ad854/contact-location-local-0.0.8.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Downloading https://files.pythonhosted.org/packages/fa/22/0592534fb565f8a6d2e4f2dc16acaac1ee8cadebbae43df2e903f2666927/airbyte_source_zendesk_support-2.6.4.dev202405171946.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [ls-cred-storage]: Downloading https://files.pythonhosted.org/packages/3d/66/1cbfc31cfd581ca45958a96be4e48003ad288b57b64cc97b03d9222d9b1d/ls_cred_storage-0.1.3.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [textual-totp]: Downloading https://files.pythonhosted.org/packages/5e/e5/345c4ab36c428b63bf436a810728608a35a9f89c8caf3b33d82d00e35a9e/textual-totp-0.9.0.tar.gz
+[2024-05-23 13:46:00] WARNING root fetch - processPackages [bbrl]: Skipping package: exceeds size limit 95869010>=10485760
+[2024-05-23 13:46:00] INFO root fetch - main [MainThread]: End processing [bbrl] error
+[2024-05-23 13:46:00] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/2e/47/9c7a845880448933cbadbbdb3aaa39eeee86fa65f22173af1bdc3833e09d/PyQtUIkit-2.9.4.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [neuroweave]: Downloading https://files.pythonhosted.org/packages/bc/c2/e2b1acb0d99c8d17e721c3580589cd3471e7c887e8369cf4da044eb4e7e6/neuroweave-0.0.2.tar.gz
+[2024-05-23 13:46:00] ERROR root fetch - processPackages [airbyte-source-zendesk-support]: Unable to fetch info: No such project/version 'airbyte-source-zendesk-support' 2.6.5
+[2024-05-23 13:46:00] INFO root fetch - main [MainThread]: End processing [airbyte-source-zendesk-support] error
+[2024-05-23 13:46:00] INFO root fetch - processPackages [ls-cred-storage]: Downloading https://files.pythonhosted.org/packages/eb/b9/e87a22674bff91fa740146336593f03ed8cbfe64e8c9de5d5b6e4203dc03/ls_cred_storage-0.1.4.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [fastapi-oidc-backend]: Downloading https://files.pythonhosted.org/packages/01/bd/8c4820eeefecd79b4469688d2db34877f42baac01d7cc009769c72ca1083/fastapi_oidc_backend-0.4.1.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [laser-mind-client-meta]: Downloading https://files.pythonhosted.org/packages/a8/ec/54940552b49ee6019b0bfdcbab2cffa4907478524aba9fb841c0b29441e1/laser_mind_client_meta-0.5.1.tar.gz
+[2024-05-23 13:46:00] INFO root fetch - processPackages [neuroweave]: executing diffoscope
+[2024-05-23 13:46:00] INFO root fetch - processPackages [neuroweave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroweave-0.0.1-py3-none-any.whl.zip tmp/neuroweave-0.0.2.tar.gz --markdown 20240523/n/neuroweave/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 13:46:00] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/17/5e/49b98779429d62238b93acafaaf4d268506159b2d1d0246a13b4e42b474d/contact-location-local-0.0.9.tar.gz
+[2024-05-23 13:46:01] INFO root fetch - processPackages [ls-cred-storage]: executing diffoscope
+[2024-05-23 13:46:01] INFO root fetch - processPackages [ls-cred-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_cred_storage-0.1.3.tar.gz tmp/ls_cred_storage-0.1.4.tar.gz --markdown 20240523/l/ls-cred-storage/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-23 13:46:01] INFO root fetch - processPackages [laser-mind-client-meta]: executing diffoscope
+[2024-05-23 13:46:01] INFO root fetch - processPackages [laser-mind-client-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laser_mind_client_meta-0.5.0.tar.gz tmp/laser_mind_client_meta-0.5.1.tar.gz --markdown 20240523/l/laser-mind-client-meta/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-23 13:46:01] INFO root fetch - processPackages [fastapi-oidc-backend]: executing diffoscope
+[2024-05-23 13:46:01] INFO root fetch - processPackages [fastapi-oidc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_oidc_backend-0.4.0.tar.gz tmp/fastapi_oidc_backend-0.4.1.tar.gz --markdown 20240523/f/fastapi-oidc-backend/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-23 13:46:01] INFO root fetch - processPackages [contact-location-local]: executing diffoscope
+[2024-05-23 13:46:01] INFO root fetch - processPackages [contact-location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-location-local-0.0.8.tar.gz tmp/contact-location-local-0.0.9.tar.gz --markdown 20240523/c/contact-location-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 13:46:01] INFO root fetch - processPackages [textual-totp]: Downloading https://files.pythonhosted.org/packages/1f/2f/b17288b5594b7154aab2dd4be6a749fd7425870d5e37f9a6dce000950855/textual_totp-0.9.1.tar.gz
+[2024-05-23 13:46:01] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-05-23 13:46:01] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.9.3.tar.gz tmp/PyQtUIkit-2.9.4.tar.gz --markdown 20240523/P/PyQtUIkit/2.9.3-2.9.4/README.md --exclude *.pyd
+[2024-05-23 13:46:01] INFO root fetch - processPackages [textual-totp]: executing diffoscope
+[2024-05-23 13:46:01] INFO root fetch - processPackages [textual-totp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-totp-0.9.0.tar.gz tmp/textual_totp-0.9.1.tar.gz --markdown 20240523/t/textual-totp/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 13:46:01] INFO root fetch - processPackages [neuroweave]: Remove: archive file [/home/abi/fetcher/tmp/neuroweave-0.0.1-py3-none-any.whl.zip]
+[2024-05-23 13:46:01] INFO root fetch - processPackages [neuroweave]: Remove: archive file [/home/abi/fetcher/tmp/neuroweave-0.0.2.tar.gz]
+[2024-05-23 13:46:01] INFO root fetch - main [MainThread]: End processing [neuroweave]: success
+[2024-05-23 13:46:01] INFO root fetch - processPackages [ls-cred-storage]: Remove: archive file [/home/abi/fetcher/tmp/ls_cred_storage-0.1.3.tar.gz]
+[2024-05-23 13:46:01] INFO root fetch - processPackages [ls-cred-storage]: Remove: archive file [/home/abi/fetcher/tmp/ls_cred_storage-0.1.4.tar.gz]
+[2024-05-23 13:46:01] INFO root fetch - main [MainThread]: End processing [ls-cred-storage]: success
+[2024-05-23 13:46:01] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.8.tar.gz]
+[2024-05-23 13:46:01] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.9.tar.gz]
+[2024-05-23 13:46:01] INFO root fetch - main [MainThread]: End processing [contact-location-local]: success
+[2024-05-23 13:46:01] INFO root fetch - processPackages [laser-mind-client-meta]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client_meta-0.5.0.tar.gz]
+[2024-05-23 13:46:01] INFO root fetch - processPackages [laser-mind-client-meta]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client_meta-0.5.1.tar.gz]
+[2024-05-23 13:46:01] INFO root fetch - main [MainThread]: End processing [laser-mind-client-meta]: success
+[2024-05-23 13:46:02] INFO root fetch - processPackages [fastapi-oidc-backend]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_oidc_backend-0.4.0.tar.gz]
+[2024-05-23 13:46:02] INFO root fetch - processPackages [fastapi-oidc-backend]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_oidc_backend-0.4.1.tar.gz]
+[2024-05-23 13:46:02] INFO root fetch - main [MainThread]: End processing [fastapi-oidc-backend]: success
+[2024-05-23 13:46:02] INFO root fetch - processPackages [textual-totp]: Remove: archive file [/home/abi/fetcher/tmp/textual-totp-0.9.0.tar.gz]
+[2024-05-23 13:46:02] INFO root fetch - processPackages [textual-totp]: Remove: archive file [/home/abi/fetcher/tmp/textual_totp-0.9.1.tar.gz]
+[2024-05-23 13:46:02] INFO root fetch - main [MainThread]: End processing [textual-totp]: success
+[2024-05-23 13:46:02] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.3.tar.gz]
+[2024-05-23 13:46:02] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.4.tar.gz]
+[2024-05-23 13:46:02] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-05-23 13:46:02] INFO root fetch - main [MainThread]: Store serial: [23342739]
