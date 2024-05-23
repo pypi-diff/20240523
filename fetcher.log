@@ -3302,3 +3302,57 @@
 [2024-05-23 02:54:16] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2024-05-23 02:54:16] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2024-05-23 02:54:16] INFO root fetch - main [MainThread]: Store serial: [23334893]
+[2024-05-23 02:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334893]
+[2024-05-23 02:56:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 02:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glue-utils
+[2024-05-23 02:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botwrap
+[2024-05-23 02:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: subfinder-leakix
+[2024-05-23 02:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2024-05-23 02:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AudioAlchemist
+[2024-05-23 02:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mb-pytorch
+[2024-05-23 02:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-kit-fos
+[2024-05-23 02:56:24] INFO root fetch - processPackages [AudioAlchemist]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-23 02:56:24] WARNING root fetch - processPackages [django-kit-fos]: Skipping, unable to determine old version
+[2024-05-23 02:56:24] INFO root fetch - main [MainThread]: End processing [django-kit-fos] error
+[2024-05-23 02:56:24] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-23 02:56:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-23 02:56:24] INFO root fetch - processPackages [AudioAlchemist]: Downloading https://files.pythonhosted.org/packages/5b/61/4aacd5190aa3e547f2a30a3968ae2292ddbe675f0dfac9f2c3926b579eb1/audioalchemist-0.4.0.tar.gz
+[2024-05-23 02:56:24] INFO root fetch - processPackages [botwrap]: New version: [0.1.7] Old Version: [0.1.4]
+[2024-05-23 02:56:24] INFO root fetch - processPackages [glue-utils]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-23 02:56:25] WARNING root fetch - processPackages [subfinder-leakix]: Skipping, unable to determine old version
+[2024-05-23 02:56:25] INFO root fetch - main [MainThread]: End processing [subfinder-leakix] error
+[2024-05-23 02:56:25] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/86/9d/657b847b28a07f8c2a19085e78c13208912b796a62629eb377f8319576e9/glue_utils-0.5.0.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [botwrap]: Downloading https://files.pythonhosted.org/packages/3c/12/bbedf4c8c64acdaf1e0c4d9d90cdf306567bafb721a5912f7893c84ccaed/botwrap-0.1.4.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [AudioAlchemist]: Downloading https://files.pythonhosted.org/packages/d9/20/72a3fb9cf805997b7bb14b3ae3f1356696e17bd8e08c5b62b73e0087b0c9/audioalchemist-0.5.0.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-23 02:56:25] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240523/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-23 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [AudioAlchemist]: executing diffoscope
+[2024-05-23 02:56:25] INFO root fetch - processPackages [AudioAlchemist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioalchemist-0.4.0.tar.gz tmp/audioalchemist-0.5.0.tar.gz --markdown 20240523/A/AudioAlchemist/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-23 02:56:25] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/c2/fb/e11a3794ecd2dbc7e45caaad0399ddca2d0d0a850a8020aaa55f4621a6bc/glue_utils-0.5.1.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [botwrap]: Downloading https://files.pythonhosted.org/packages/ab/6c/f4886d360fd748fc281bed601837c4cf26f02dfd2e814dcfda3e78b1a3fe/botwrap-0.1.7.tar.gz
+[2024-05-23 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-23 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240523/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-23 02:56:25] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-23 02:56:25] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.5.0.tar.gz tmp/glue_utils-0.5.1.tar.gz --markdown 20240523/g/glue-utils/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-23 02:56:25] INFO root fetch - processPackages [botwrap]: executing diffoscope
+[2024-05-23 02:56:25] INFO root fetch - processPackages [botwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botwrap-0.1.4.tar.gz tmp/botwrap-0.1.7.tar.gz --markdown 20240523/b/botwrap/0.1.4-0.1.7/README.md --exclude *.pyd
+[2024-05-23 02:56:26] INFO root fetch - processPackages [AudioAlchemist]: Remove: archive file [/home/abi/fetcher/tmp/audioalchemist-0.4.0.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - processPackages [AudioAlchemist]: Remove: archive file [/home/abi/fetcher/tmp/audioalchemist-0.5.0.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - main [MainThread]: End processing [AudioAlchemist]: success
+[2024-05-23 02:56:26] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-23 02:56:26] INFO root fetch - processPackages [botwrap]: Remove: archive file [/home/abi/fetcher/tmp/botwrap-0.1.4.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - processPackages [botwrap]: Remove: archive file [/home/abi/fetcher/tmp/botwrap-0.1.7.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - main [MainThread]: End processing [botwrap]: success
+[2024-05-23 02:56:26] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.5.0.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.5.1.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-23 02:56:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-23 02:56:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-23 02:56:26] INFO root fetch - main [MainThread]: Store serial: [23334916]
