@@ -7480,3 +7480,20 @@
 [2024-05-23 03:35:52] INFO root fetch - processPackages [Algebra-with-SymPy]: Remove: archive file [/home/abi/fetcher/tmp/algebra_with_sympy-1.0.1rc0.tar.gz]
 [2024-05-23 03:35:52] INFO root fetch - main [MainThread]: End processing [Algebra-with-SymPy]: success
 [2024-05-23 03:35:52] INFO root fetch - main [MainThread]: Store serial: [23336259]
+[2024-05-23 03:37:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336259]
+[2024-05-23 03:38:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mani-skill
+[2024-05-23 03:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: midas-open-parser
+[2024-05-23 03:38:01] INFO root fetch - processPackages [midas-open-parser]: New version: [0.1.11] Old Version: [0.1.0]
+[2024-05-23 03:38:01] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/bc/54/a09abf66cc0fc66feb7011c21036037e89991325a7574b8434b8d1af90a0/midas_open_parser-0.1.0.tar.gz
+[2024-05-23 03:38:01] INFO root fetch - processPackages [mani-skill]: New version: [3.0.0b4] Old Version: [3.0.0b3]
+[2024-05-23 03:38:01] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/3d/ad/0de7495b4697b41b702ce15275ffe2540ab3cdbe27232c0b9ce47b2a4b9c/midas_open_parser-0.1.11.tar.gz
+[2024-05-23 03:38:01] INFO root fetch - processPackages [mani-skill]: Downloading https://files.pythonhosted.org/packages/fc/30/951379e87bd3ca91fcba478dd53977f780afdce8455122628bbb9af7dae3/mani_skill-3.0.0b3.tar.gz
+[2024-05-23 03:38:01] INFO root fetch - processPackages [midas-open-parser]: executing diffoscope
+[2024-05-23 03:38:01] INFO root fetch - processPackages [midas-open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas_open_parser-0.1.0.tar.gz tmp/midas_open_parser-0.1.11.tar.gz --markdown 20240523/m/midas-open-parser/0.1.0-0.1.11/README.md --exclude *.pyd
+[2024-05-23 03:38:01] WARNING root fetch - processPackages [mani-skill]: Skipping package: exceeds size limit 87325227>=10485760
+[2024-05-23 03:38:01] INFO root fetch - main [MainThread]: End processing [mani-skill] error
+[2024-05-23 03:38:02] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.0.tar.gz]
+[2024-05-23 03:38:02] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.11.tar.gz]
+[2024-05-23 03:38:02] INFO root fetch - main [MainThread]: End processing [midas-open-parser]: success
+[2024-05-23 03:38:02] INFO root fetch - main [MainThread]: Store serial: [23336316]
