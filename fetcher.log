@@ -16196,3 +16196,162 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:52:59] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.90.39-py3-none-any.whl.zip]
 [2024-05-23 10:52:59] INFO root fetch - main [MainThread]: End processing [dtlpy]: success
 [2024-05-23 10:52:59] INFO root fetch - main [MainThread]: Store serial: [23340373]
+[2024-05-23 10:55:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340373]
+[2024-05-23 10:55:10] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oguzhan-preprocessing
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atriumsports-sdk
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-testing
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iqrfpy
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RDAnalyzer
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple-build-system
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-dataset
+[2024-05-23 10:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-models
+[2024-05-23 10:55:10] WARNING root fetch - processPackages [RDAnalyzer]: Skipping, unable to determine old version
+[2024-05-23 10:55:10] INFO root fetch - processPackages [RDAnalyzer]: Start processing: nucliadb-protos
+[2024-05-23 10:55:10] INFO root fetch - main [MainThread]: End processing [RDAnalyzer] error
+[2024-05-23 10:55:10] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post535] Old Version: [4.0.0.post534]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [simple-build-system]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post535] Old Version: [4.0.0.post534]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post535] Old Version: [4.0.0.post534]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post535] Old Version: [4.0.0.post534]
+[2024-05-23 10:55:10] WARNING root fetch - processPackages [oguzhan-preprocessing]: Skipping, unable to determine old version
+[2024-05-23 10:55:10] INFO root fetch - processPackages [oguzhan-preprocessing]: Start processing: devopstestor
+[2024-05-23 10:55:10] INFO root fetch - main [MainThread]: End processing [oguzhan-preprocessing] error
+[2024-05-23 10:55:10] INFO root fetch - processPackages [atriumsports-sdk]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [iqrfpy]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-23 10:55:10] INFO root fetch - processPackages [devopstestor]: New version: [2.0.7] Old Version: [2.0.5]
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/0a/c9/6ddc0d97ef1072bd292db4ee5db3e2ecafc94706fc472c04a3ea894fc315/nucliadb-4.0.0.post534-py3-none-any.whl
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/47/6d/0ec338642b7ed9082496769bb570555e64c374142d84a80d81bda1191167/nucliadb_dataset-4.0.0.post534-py3-none-any.whl
+[2024-05-23 10:55:10] INFO root fetch - processPackages [simple-build-system]: Downloading https://files.pythonhosted.org/packages/bb/a0/41a29a5ee0026fe397757233b324cd15c3d72da49d73da5649c368fd8e27/simple_build_system-1.1.2.tar.gz
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/84/55/3e07f60a4bb750b6d7ec0e82aa9bf6df631deec7bd250146e6ea865e122f/nucliadb_protos-4.0.0.post534-py3-none-any.whl
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/a8/e8/bd11a6cddc1aee18139cd8f59ab2c29f5f64f01668f57c07da74859c1951/nucliadb_models-4.0.0.post534-py3-none-any.whl
+[2024-05-23 10:55:10] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-23 10:55:10] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/66/01/0a6616a6e9f83103d56b05c6e7eb4925322435cabf5ad2768a980097cda2/atriumsports_sdk-1.8.0.tar.gz
+[2024-05-23 10:55:10] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/ee/c9/c8509c294338938f92c5eb050790a97aed7f7ea82b8eceb5c94131daa8c3/iqrfpy-0.2.5.tar.gz
+[2024-05-23 10:55:10] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/26/dc/e400c5887f810586cae6538ffd73e80d7bf3502cbc1d548c48fd7be34201/devopstestor-2.0.5.tar.gz
+[2024-05-23 10:55:10] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-23 10:55:10] INFO root fetch - processPackages [simple-build-system]: Downloading https://files.pythonhosted.org/packages/74/09/a7e2a7ea14b2dacb78fb1e958b234946f173dd052e72b31321fd333bfc33/simple_build_system-1.2.0.tar.gz
+[2024-05-23 10:55:10] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/1f/6b/2d72eabb241bc7f7a02fb2458ec23d08623079c646f3256f53540ad218dc/nucliadb_models-4.0.0.post535-py3-none-any.whl
+[2024-05-23 10:55:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/c8/a4/a56c3f80e14c4526e0d1dece4ad290b809f0257ab13cb48549e0bdd4e6a1/nucliadb_dataset-4.0.0.post535-py3-none-any.whl
+[2024-05-23 10:55:10] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-23 10:55:10] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240523/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-23 10:55:10] INFO root fetch - processPackages [simple-build-system]: executing diffoscope
+[2024-05-23 10:55:10] INFO root fetch - processPackages [simple-build-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_build_system-1.1.2.tar.gz tmp/simple_build_system-1.2.0.tar.gz --markdown 20240523/s/simple-build-system/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/98/81/d2e698bd6768f4384692616d1ae442e091b6f4cff58d27a90e767d87c3c0/nucliadb_protos-4.0.0.post535-py3-none-any.whl
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/98/42/ede119a855e8b1fc752742fe9a07200abf6c27f8661bbf96230ed24f36ac/nucliadb-4.0.0.post535-py3-none-any.whl
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post534-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post535-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-dataset/4.0.0.post534-4.0.0.post535/README.md --exclude *.pyd
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post534-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post535-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-models/4.0.0.post534-4.0.0.post535/README.md --exclude *.pyd
+[2024-05-23 10:55:11] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/82/f8/9334ee9c1c12b3d7cc377a4ab8db14b5aa30217a2ad6dee8f38666e00740/iqrfpy-0.2.6.tar.gz
+[2024-05-23 10:55:11] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/70/57/97ade5404d436daecbb2296100bab5bee7d9c09eb4909f37c55b74d17e91/atriumsports_sdk-1.8.1.tar.gz
+[2024-05-23 10:55:11] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/c2/58/a7c0388cc90dc65f131040873a861543f0741f0759522f85c19f990590eb/devopstestor-2.0.7.tar.gz
+[2024-05-23 10:55:11] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-23 10:55:11] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240523/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post534-py3-none-any.whl.zip]
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post535-py3-none-any.whl.zip]
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2024-05-23 10:55:11] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post535] Old Version: [4.0.0.post534]
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post534-py3-none-any.whl.zip]
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post535-py3-none-any.whl.zip]
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-models]: Start processing: wiederverwendbar
+[2024-05-23 10:55:11] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-23 10:55:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/f9/2d/356f7f0e45fc8c9a95df263b256195ba64c471668af205e2f1d715c4af89/nucliadb_sdk-4.0.0.post534-py3-none-any.whl
+[2024-05-23 10:55:11] WARNING root fetch - processPackages [wiederverwendbar]: Skipping, unable to determine old version
+[2024-05-23 10:55:11] INFO root fetch - processPackages [wiederverwendbar]: Start processing: lions
+[2024-05-23 10:55:11] INFO root fetch - main [MainThread]: End processing [wiederverwendbar] error
+[2024-05-23 10:55:11] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-23 10:55:11] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-23 10:55:11] INFO root fetch - processPackages [cloud-governance]: Start processing: nucliadb-telemetry
+[2024-05-23 10:55:11] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post535] Old Version: [4.0.0.post534]
+[2024-05-23 10:55:12] INFO root fetch - processPackages [simple-build-system]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_system-1.1.2.tar.gz]
+[2024-05-23 10:55:12] INFO root fetch - processPackages [simple-build-system]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_system-1.2.0.tar.gz]
+[2024-05-23 10:55:12] INFO root fetch - processPackages [simple-build-system]: Start processing: nucliadb-utils
+[2024-05-23 10:55:12] INFO root fetch - main [MainThread]: End processing [simple-build-system]: success
+[2024-05-23 10:55:12] INFO root fetch - processPackages [lions]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post535] Old Version: [4.0.0.post534]
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/7a/e2/fdee2292825d676422839c5b9bf7c688087e78814ab59ff718689a378470/nucliadb_telemetry-4.0.0.post534-py3-none-any.whl
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/26/14/2b27fc0e881d82c64984c199e0d87cf97ddc3c17ba884530c0ee06fe5fcf/nucliadb_utils-4.0.0.post534-py3-none-any.whl
+[2024-05-23 10:55:12] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/c6/54/e34136277fb5dcb96d8746526f5ecd22fc1bd1fc5009c53f214cc28c33c9/lions-1.1.2.tar.gz
+[2024-05-23 10:55:12] INFO root fetch - processPackages [devopstestor]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [devopstestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstestor-2.0.5.tar.gz tmp/devopstestor-2.0.7.tar.gz --markdown 20240523/d/devopstestor/2.0.5-2.0.7/README.md --exclude *.pyd
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post534-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post535-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-protos/4.0.0.post534-4.0.0.post535/README.md --exclude *.pyd
+[2024-05-23 10:55:12] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.2.5.tar.gz tmp/iqrfpy-0.2.6.tar.gz --markdown 20240523/i/iqrfpy/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-23 10:55:12] INFO root fetch - processPackages [atriumsports-sdk]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [atriumsports-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atriumsports_sdk-1.8.0.tar.gz tmp/atriumsports_sdk-1.8.1.tar.gz --markdown 20240523/a/atriumsports-sdk/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post534-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post535-py3-none-any.whl.zip --markdown 20240523/n/nucliadb/4.0.0.post534-4.0.0.post535/README.md --exclude *.pyd
+[2024-05-23 10:55:12] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-23 10:55:12] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-23 10:55:12] INFO root fetch - processPackages [dve-lumipy-testing]: Start processing: kaliyuga
+[2024-05-23 10:55:12] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/3c/ff/3f088e250968e8809f7ee02f5cfd19d2ce519d9cf50c93876be5a6d95f60/nucliadb_utils-4.0.0.post535-py3-none-any.whl
+[2024-05-23 10:55:12] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/b8/a3/d21ddbb36843a8c2c43697ebeb6eec581920943e4dfdefaf55462d776788/lions-1.2.0.tar.gz
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/81/2e/79350cfc2adc17625957b0465450cb7a01eeb69cbfbbe26a6c7c931c3a5c/nucliadb_sdk-4.0.0.post535-py3-none-any.whl
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/ae/0c/d87bb7e7af07edf28db9350677b3a5ac1e3912b518761142ac3d905cce90/nucliadb_telemetry-4.0.0.post535-py3-none-any.whl
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post534-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post535-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-utils/4.0.0.post534-4.0.0.post535/README.md --exclude *.pyd
+[2024-05-23 10:55:12] WARNING root fetch - processPackages [kaliyuga]: Skipping, unable to determine old version
+[2024-05-23 10:55:12] INFO root fetch - processPackages [kaliyuga]: Start processing: RDAnalyzer
+[2024-05-23 10:55:12] INFO root fetch - main [MainThread]: End processing [kaliyuga] error
+[2024-05-23 10:55:12] INFO root fetch - processPackages [RDAnalyzer]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-23 10:55:12] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.1.2.tar.gz tmp/lions-1.2.0.tar.gz --markdown 20240523/l/lions/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post534-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post535-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-sdk/4.0.0.post534-4.0.0.post535/README.md --exclude *.pyd
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-23 10:55:12] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post534-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post535-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-telemetry/4.0.0.post534-4.0.0.post535/README.md --exclude *.pyd
+[2024-05-23 10:55:13] INFO root fetch - processPackages [RDAnalyzer]: Downloading https://files.pythonhosted.org/packages/44/db/fcd8ef42ed4c96cdd75d58875b9b33419ca7dc18ddb10f678db99cd46769/RDAnalyzer-0.0.7-py3-none-any.whl
+[2024-05-23 10:55:13] INFO root fetch - processPackages [RDAnalyzer]: Downloading https://files.pythonhosted.org/packages/08/1c/9c00f5e088f54495b8fedde640911dc8dcd5d527351db4c7fee6dc8d09a0/rdanalyzer-0.0.8.tar.gz
+[2024-05-23 10:55:13] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post534-py3-none-any.whl.zip]
+[2024-05-23 10:55:13] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post535-py3-none-any.whl.zip]
+[2024-05-23 10:55:13] INFO root fetch - processPackages [nucliadb-protos]: Start processing: JBioSeqTools
+[2024-05-23 10:55:13] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-23 10:55:13] INFO root fetch - processPackages [JBioSeqTools]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-23 10:55:13] INFO root fetch - processPackages [devopstestor]: Remove: archive file [/home/abi/fetcher/tmp/devopstestor-2.0.5.tar.gz]
+[2024-05-23 10:55:13] INFO root fetch - processPackages [devopstestor]: Remove: archive file [/home/abi/fetcher/tmp/devopstestor-2.0.7.tar.gz]
+[2024-05-23 10:55:13] INFO root fetch - main [MainThread]: End processing [devopstestor]: success
+[2024-05-23 10:55:13] INFO root fetch - processPackages [RDAnalyzer]: executing diffoscope
+[2024-05-23 10:55:13] INFO root fetch - processPackages [RDAnalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RDAnalyzer-0.0.7-py3-none-any.whl.zip tmp/rdanalyzer-0.0.8.tar.gz --markdown 20240523/R/RDAnalyzer/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-23 10:55:13] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/15/cb/dbda57622ad8809e52e633cda4e41bd60875d9f31dedd820cc96a79c308f/JBioSeqTools-2.0.5.tar.gz
+[2024-05-23 10:55:13] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post534-py3-none-any.whl.zip]
+[2024-05-23 10:55:13] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post535-py3-none-any.whl.zip]
+[2024-05-23 10:55:13] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-23 10:55:13] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post534-py3-none-any.whl.zip]
+[2024-05-23 10:55:13] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post535-py3-none-any.whl.zip]
+[2024-05-23 10:55:13] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-23 10:55:13] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.1.2.tar.gz]
+[2024-05-23 10:55:13] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.2.0.tar.gz]
+[2024-05-23 10:55:13] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-23 10:55:14] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.2.5.tar.gz]
+[2024-05-23 10:55:14] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.2.6.tar.gz]
+[2024-05-23 10:55:14] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2024-05-23 10:55:14] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post534-py3-none-any.whl.zip]
+[2024-05-23 10:55:14] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post535-py3-none-any.whl.zip]
+[2024-05-23 10:55:14] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-23 10:55:14] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/da/a0/e97aa374af6afb9759a56177ed88c9409e90aaddae61e91a477e4efac7ca/JBioSeqTools-2.0.6.tar.gz
+[2024-05-23 10:55:14] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2024-05-23 10:55:14] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-2.0.5.tar.gz tmp/JBioSeqTools-2.0.6.tar.gz --markdown 20240523/J/JBioSeqTools/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-23 10:55:14] INFO root fetch - processPackages [RDAnalyzer]: Remove: archive file [/home/abi/fetcher/tmp/RDAnalyzer-0.0.7-py3-none-any.whl.zip]
+[2024-05-23 10:55:14] INFO root fetch - processPackages [RDAnalyzer]: Remove: archive file [/home/abi/fetcher/tmp/rdanalyzer-0.0.8.tar.gz]
+[2024-05-23 10:55:14] INFO root fetch - main [MainThread]: End processing [RDAnalyzer]: success
+[2024-05-23 10:55:14] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post534-py3-none-any.whl.zip]
+[2024-05-23 10:55:14] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post535-py3-none-any.whl.zip]
+[2024-05-23 10:55:14] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-23 10:55:14] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.5.tar.gz]
+[2024-05-23 10:55:14] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.6.tar.gz]
+[2024-05-23 10:55:14] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2024-05-23 10:55:15] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.8.0.tar.gz]
+[2024-05-23 10:55:15] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.8.1.tar.gz]
+[2024-05-23 10:55:15] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
+[2024-05-23 10:55:15] INFO root fetch - main [MainThread]: Store serial: [23340430]
