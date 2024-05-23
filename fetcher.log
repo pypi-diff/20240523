@@ -19312,3 +19312,48 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:50:27] INFO root fetch - processPackages [dqpu]: Remove: archive file [/home/abi/fetcher/tmp/dqpu-0.2.2.tar.gz]
 [2024-05-23 11:50:27] INFO root fetch - main [MainThread]: End processing [dqpu]: success
 [2024-05-23 11:50:27] INFO root fetch - main [MainThread]: Store serial: [23341382]
+[2024-05-23 11:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341382]
+[2024-05-23 11:52:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AICelltype
+[2024-05-23 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ph-utils
+[2024-05-23 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitlabform
+[2024-05-23 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mega-qnn-tools
+[2024-05-23 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packaging-demo-himanshu
+[2024-05-23 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: surena
+[2024-05-23 11:52:36] WARNING root fetch - processPackages [mega-qnn-tools]: Skipping, unable to determine old version
+[2024-05-23 11:52:36] INFO root fetch - main [MainThread]: End processing [mega-qnn-tools] error
+[2024-05-23 11:52:36] WARNING root fetch - processPackages [surena]: Skipping, unable to determine old version
+[2024-05-23 11:52:36] INFO root fetch - main [MainThread]: End processing [surena] error
+[2024-05-23 11:52:36] INFO root fetch - processPackages [packaging-demo-himanshu]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 11:52:36] INFO root fetch - processPackages [ph-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 11:52:36] INFO root fetch - processPackages [gitlabform]: New version: [3.9.7] Old Version: [3.9.6]
+[2024-05-23 11:52:36] INFO root fetch - processPackages [packaging-demo-himanshu]: Downloading https://files.pythonhosted.org/packages/6b/18/370e818bf9468a04cf6ebcaa02e7d369d6aaf3f42e21c36d55b9869b870d/packaging_demo_himanshu-0.0.8.tar.gz
+[2024-05-23 11:52:36] INFO root fetch - processPackages [AICelltype]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-23 11:52:36] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/8e/df/fecdfe198343b7c466397d7d836e8ece2914c76b64f2fd2ece7483badef3/gitlabform-3.9.6.tar.gz
+[2024-05-23 11:52:36] INFO root fetch - processPackages [AICelltype]: Downloading https://files.pythonhosted.org/packages/c8/63/7a5650d55a7c2d71907a605a1601c6e1b1d7328958f93fecb37023a2f087/aicelltype-0.0.5.tar.gz
+[2024-05-23 11:52:36] INFO root fetch - processPackages [ph-utils]: Downloading https://files.pythonhosted.org/packages/d8/11/310d6b84acae23261d82a37edb620e4602f491efd7ded83af320b0fc46ba/ph_utils-0.0.8.tar.gz
+[2024-05-23 11:52:37] INFO root fetch - processPackages [packaging-demo-himanshu]: Downloading https://files.pythonhosted.org/packages/1a/07/30d0d533ba34b8729d4d0eed97289676614ec09311c27465a0f072b1eae2/packaging_demo_himanshu-0.0.9.tar.gz
+[2024-05-23 11:52:37] INFO root fetch - processPackages [packaging-demo-himanshu]: executing diffoscope
+[2024-05-23 11:52:37] INFO root fetch - processPackages [packaging-demo-himanshu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaging_demo_himanshu-0.0.8.tar.gz tmp/packaging_demo_himanshu-0.0.9.tar.gz --markdown 20240523/p/packaging-demo-himanshu/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 11:52:37] INFO root fetch - processPackages [AICelltype]: Downloading https://files.pythonhosted.org/packages/cd/90/ddbeb67601de9de7e283ac04fe50cf6a2a688b7fc03363026aad0ea38b88/aicelltype-0.0.6.tar.gz
+[2024-05-23 11:52:37] INFO root fetch - processPackages [ph-utils]: Downloading https://files.pythonhosted.org/packages/9f/ac/1eefc9edce22c6a5cebdf1b29b1610141863d255975c134e0121a2aadeb6/ph_utils-0.0.9.tar.gz
+[2024-05-23 11:52:37] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/00/49/cff53f84ca94edda5f0d60cdc531752bc0aa36fb710fed4c0e8255f96da8/gitlabform-3.9.7.tar.gz
+[2024-05-23 11:52:37] INFO root fetch - processPackages [AICelltype]: executing diffoscope
+[2024-05-23 11:52:37] INFO root fetch - processPackages [AICelltype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicelltype-0.0.5.tar.gz tmp/aicelltype-0.0.6.tar.gz --markdown 20240523/A/AICelltype/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-23 11:52:37] INFO root fetch - processPackages [ph-utils]: executing diffoscope
+[2024-05-23 11:52:37] INFO root fetch - processPackages [ph-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ph_utils-0.0.8.tar.gz tmp/ph_utils-0.0.9.tar.gz --markdown 20240523/p/ph-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 11:52:37] INFO root fetch - processPackages [gitlabform]: executing diffoscope
+[2024-05-23 11:52:37] INFO root fetch - processPackages [gitlabform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabform-3.9.6.tar.gz tmp/gitlabform-3.9.7.tar.gz --markdown 20240523/g/gitlabform/3.9.6-3.9.7/README.md --exclude *.pyd
+[2024-05-23 11:52:37] INFO root fetch - processPackages [packaging-demo-himanshu]: Remove: archive file [/home/abi/fetcher/tmp/packaging_demo_himanshu-0.0.8.tar.gz]
+[2024-05-23 11:52:37] INFO root fetch - processPackages [packaging-demo-himanshu]: Remove: archive file [/home/abi/fetcher/tmp/packaging_demo_himanshu-0.0.9.tar.gz]
+[2024-05-23 11:52:37] INFO root fetch - main [MainThread]: End processing [packaging-demo-himanshu]: success
+[2024-05-23 11:52:37] INFO root fetch - processPackages [ph-utils]: Remove: archive file [/home/abi/fetcher/tmp/ph_utils-0.0.8.tar.gz]
+[2024-05-23 11:52:37] INFO root fetch - processPackages [ph-utils]: Remove: archive file [/home/abi/fetcher/tmp/ph_utils-0.0.9.tar.gz]
+[2024-05-23 11:52:37] INFO root fetch - main [MainThread]: End processing [ph-utils]: success
+[2024-05-23 11:52:38] INFO root fetch - processPackages [AICelltype]: Remove: archive file [/home/abi/fetcher/tmp/aicelltype-0.0.5.tar.gz]
+[2024-05-23 11:52:38] INFO root fetch - processPackages [AICelltype]: Remove: archive file [/home/abi/fetcher/tmp/aicelltype-0.0.6.tar.gz]
+[2024-05-23 11:52:38] INFO root fetch - main [MainThread]: End processing [AICelltype]: success
+[2024-05-23 11:52:38] INFO root fetch - processPackages [gitlabform]: Remove: archive file [/home/abi/fetcher/tmp/gitlabform-3.9.6.tar.gz]
+[2024-05-23 11:52:38] INFO root fetch - processPackages [gitlabform]: Remove: archive file [/home/abi/fetcher/tmp/gitlabform-3.9.7.tar.gz]
+[2024-05-23 11:52:38] INFO root fetch - main [MainThread]: End processing [gitlabform]: success
+[2024-05-23 11:52:38] INFO root fetch - main [MainThread]: Store serial: [23341410]
