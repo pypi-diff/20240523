@@ -14684,3 +14684,39 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:08:05] INFO root fetch - processPackages [osl-dynamics]: Remove: archive file [/home/abi/fetcher/tmp/osl_dynamics-1.3.2.tar.gz]
 [2024-05-23 10:08:05] INFO root fetch - main [MainThread]: End processing [osl-dynamics]: success
 [2024-05-23 10:08:05] INFO root fetch - main [MainThread]: Store serial: [23339632]
+[2024-05-23 10:10:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339632]
+[2024-05-23 10:10:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI
+[2024-05-23 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: share-gpu
+[2024-05-23 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FasterAPI
+[2024-05-23 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecpru-sdk
+[2024-05-23 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django_medicio_dental
+[2024-05-23 10:10:13] INFO root fetch - processPackages [django_medicio_dental]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-05-23 10:10:14] INFO root fetch - processPackages [FasterAPI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 10:10:14] INFO root fetch - processPackages [OZI]: New version: [1.9.7] Old Version: [1.9.6]
+[2024-05-23 10:10:14] WARNING root fetch - processPackages [ecpru-sdk]: Skipping, unable to determine old version
+[2024-05-23 10:10:14] INFO root fetch - main [MainThread]: End processing [ecpru-sdk] error
+[2024-05-23 10:10:14] INFO root fetch - processPackages [django_medicio_dental]: Downloading https://files.pythonhosted.org/packages/32/54/753d887e24ead20d4bc5de07f273eea51384e03d5aea6fd63d47824ac60b/django_medicio_dental-3.1.1.tar.gz
+[2024-05-23 10:10:14] WARNING root fetch - processPackages [share-gpu]: Skipping, unable to determine old version
+[2024-05-23 10:10:14] INFO root fetch - main [MainThread]: End processing [share-gpu] error
+[2024-05-23 10:10:14] INFO root fetch - processPackages [FasterAPI]: Downloading https://files.pythonhosted.org/packages/dc/4f/7387d4a3d73df0697fb82575cf0abf3616188443a1780b1a678316992352/FasterAPI-0.0.8.tar.gz
+[2024-05-23 10:10:14] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/a6/3d/0620ca7315f52ce52466a3394925739ec1cda2f4f53f15d5c00ef3eb8ef1/OZI-1.9.6.tar.gz
+[2024-05-23 10:10:14] INFO root fetch - processPackages [FasterAPI]: Downloading https://files.pythonhosted.org/packages/09/63/f2c95b745b48d5d64a4d53291dd2fd375492d53193a93427dd80cea9a480/FasterAPI-0.0.9.tar.gz
+[2024-05-23 10:10:14] INFO root fetch - processPackages [FasterAPI]: executing diffoscope
+[2024-05-23 10:10:14] INFO root fetch - processPackages [FasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FasterAPI-0.0.8.tar.gz tmp/FasterAPI-0.0.9.tar.gz --markdown 20240523/F/FasterAPI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 10:10:14] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/f9/5e/83872359cf9e12bdd823c54ee8447fc90fb8e6ba80b95d65461f7672f18e/OZI-1.9.7.tar.gz
+[2024-05-23 10:10:14] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-23 10:10:14] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.9.6.tar.gz tmp/OZI-1.9.7.tar.gz --markdown 20240523/O/OZI/1.9.6-1.9.7/README.md --exclude *.pyd
+[2024-05-23 10:10:14] INFO root fetch - processPackages [django_medicio_dental]: Downloading https://files.pythonhosted.org/packages/bf/de/84418fef19e412bfcbedb8b2933b408f396327d3ebeb305cb2695f0fca3c/django_medicio_dental-3.1.2.tar.gz
+[2024-05-23 10:10:14] INFO root fetch - processPackages [FasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/FasterAPI-0.0.8.tar.gz]
+[2024-05-23 10:10:14] INFO root fetch - processPackages [FasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/FasterAPI-0.0.9.tar.gz]
+[2024-05-23 10:10:14] INFO root fetch - main [MainThread]: End processing [FasterAPI]: success
+[2024-05-23 10:10:14] INFO root fetch - processPackages [django_medicio_dental]: executing diffoscope
+[2024-05-23 10:10:14] INFO root fetch - processPackages [django_medicio_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_medicio_dental-3.1.1.tar.gz tmp/django_medicio_dental-3.1.2.tar.gz --markdown 20240523/d/django_medicio_dental/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-05-23 10:10:15] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.6.tar.gz]
+[2024-05-23 10:10:15] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.7.tar.gz]
+[2024-05-23 10:10:15] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-23 10:10:16] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-3.1.1.tar.gz]
+[2024-05-23 10:10:16] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-3.1.2.tar.gz]
+[2024-05-23 10:10:16] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
+[2024-05-23 10:10:16] INFO root fetch - main [MainThread]: Store serial: [23339655]
