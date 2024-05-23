@@ -10716,3 +10716,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:11:53] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.4.16-py39-none-win_amd64.whl.zip]
 [2024-05-23 07:11:53] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker]: success
 [2024-05-23 07:11:53] INFO root fetch - main [MainThread]: Store serial: [23337888]
+[2024-05-23 07:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337888]
+[2024-05-23 07:14:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 07:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixt
+[2024-05-23 07:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-nets-core
+[2024-05-23 07:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiotx
+[2024-05-23 07:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkgtestlib
+[2024-05-23 07:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goodest
+[2024-05-23 07:14:02] INFO root fetch - processPackages [aiotx]: New version: [1.3.0] Old Version: [1.2.5]
+[2024-05-23 07:14:02] INFO root fetch - processPackages [agixt]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-23 07:14:02] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/fa/cd/7d4adf50251ffd7dd9c99f2972d3558bd5bf3e8932dfba1e2a826951e4bc/aiotx-1.2.5.tar.gz
+[2024-05-23 07:14:02] INFO root fetch - processPackages [django-nets-core]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-23 07:14:02] WARNING root fetch - processPackages [pkgtestlib]: Skipping, unable to determine old version
+[2024-05-23 07:14:02] INFO root fetch - main [MainThread]: End processing [pkgtestlib] error
+[2024-05-23 07:14:02] INFO root fetch - processPackages [goodest]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-23 07:14:02] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/06/8b/f4b0981365819afdbeecb1796ebb1d23439132f5063fcb9b4192e4c43a18/agixt-1.5.8-py3-none-any.whl
+[2024-05-23 07:14:02] INFO root fetch - processPackages [django-nets-core]: Downloading https://files.pythonhosted.org/packages/79/c3/cda8f33a48cc3ba33d3b6d9e2fbd7ee2b5c3361c5337b09da3d8a207b017/django_nets_core-0.1.98.tar.gz
+[2024-05-23 07:14:02] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/25/a0/f70bdd10c23b4095f2f5ebd25957e2c061b93a50907a0651a729f4b4656c/agixt-1.5.9-py3-none-any.whl
+[2024-05-23 07:14:02] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/85/03/5adc39629ce341837ff77fa650cb958b05d9fea56b66422710d3401503b1/goodest-1.8.0.tar.gz
+[2024-05-23 07:14:02] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/d3/98/acc56996d41d62e9e0576241b61b51af689f15a7f08ddc5f0dbfde7e5bf1/aiotx-1.3.0.tar.gz
+[2024-05-23 07:14:02] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2024-05-23 07:14:02] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.5.8-py3-none-any.whl.zip tmp/agixt-1.5.9-py3-none-any.whl.zip --markdown 20240523/a/agixt/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-23 07:14:02] INFO root fetch - processPackages [django-nets-core]: Downloading https://files.pythonhosted.org/packages/36/e9/30dde935785c504d8cae7b3855974eccdf725a0992dff1f40f413d916c8b/django_nets_core-0.1.99.tar.gz
+[2024-05-23 07:14:02] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-05-23 07:14:02] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-1.2.5.tar.gz tmp/aiotx-1.3.0.tar.gz --markdown 20240523/a/aiotx/1.2.5-1.3.0/README.md --exclude *.pyd
+[2024-05-23 07:14:02] INFO root fetch - processPackages [django-nets-core]: executing diffoscope
+[2024-05-23 07:14:02] INFO root fetch - processPackages [django-nets-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_nets_core-0.1.98.tar.gz tmp/django_nets_core-0.1.99.tar.gz --markdown 20240523/d/django-nets-core/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-23 07:14:03] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.8-py3-none-any.whl.zip]
+[2024-05-23 07:14:03] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.9-py3-none-any.whl.zip]
+[2024-05-23 07:14:03] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2024-05-23 07:14:03] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/b9/7c/952e374b6e466ac284a538bdf6b1af11fc715fdfb6d7c6fb46092a3cf694/goodest-1.9.0.tar.gz
+[2024-05-23 07:14:03] INFO root fetch - processPackages [django-nets-core]: Remove: archive file [/home/abi/fetcher/tmp/django_nets_core-0.1.98.tar.gz]
+[2024-05-23 07:14:03] INFO root fetch - processPackages [django-nets-core]: Remove: archive file [/home/abi/fetcher/tmp/django_nets_core-0.1.99.tar.gz]
+[2024-05-23 07:14:03] INFO root fetch - main [MainThread]: End processing [django-nets-core]: success
+[2024-05-23 07:14:05] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-23 07:14:05] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.8.0.tar.gz tmp/goodest-1.9.0.tar.gz --markdown 20240523/g/goodest/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-23 07:14:06] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.2.5.tar.gz]
+[2024-05-23 07:14:06] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.3.0.tar.gz]
+[2024-05-23 07:14:06] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-05-23 07:14:25] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.8.0.tar.gz]
+[2024-05-23 07:14:25] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.9.0.tar.gz]
+[2024-05-23 07:14:25] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-23 07:14:25] INFO root fetch - main [MainThread]: Store serial: [23337905]
