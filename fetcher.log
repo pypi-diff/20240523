@@ -23295,3 +23295,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 14:10:20] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.3.tar.gz]
 [2024-05-23 14:10:20] INFO root fetch - main [MainThread]: End processing [netbox-device-support-plugin]: success
 [2024-05-23 14:10:20] INFO root fetch - main [MainThread]: Store serial: [23343013]
+[2024-05-23 14:12:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23343013]
+[2024-05-23 14:12:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blaze-double-bot
+[2024-05-23 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openstef
+[2024-05-23 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openstef
+[2024-05-23 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grayscale-to-rgb
+[2024-05-23 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-energiepartagee
+[2024-05-23 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bolt-ta
+[2024-05-23 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IMDBTraktSyncer
+[2024-05-23 14:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: packManager
+[2024-05-23 14:12:29] INFO root fetch - processPackages [blaze-double-bot]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-23 14:12:29] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-23 14:12:29] INFO root fetch - processPackages [grayscale-to-rgb]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-23 14:12:29] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.9.0] Old Version: [1.8.7]
+[2024-05-23 14:12:29] INFO root fetch - processPackages [bolt-ta]: New version: [0.3.7] Old Version: [0.3.5]
+[2024-05-23 14:12:29] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [openstef]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-23 14:12:29] INFO root fetch - processPackages [openstef]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-23 14:12:29] INFO root fetch - processPackages [packManager]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-23 14:12:29] INFO root fetch - processPackages [blaze-double-bot]: Downloading https://files.pythonhosted.org/packages/75/3b/a538bc10a114fe2675b1eb1de7d3d2217788bd97f533ae440ededc8d8aa3/blaze_double_bot-0.1.2.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [bolt-ta]: Downloading https://files.pythonhosted.org/packages/ac/5e/8c623f6d7ce2740529ddafe69b400c2889f137a9119d6d0a31ceda5efb0e/bolt-ta-0.3.5.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/a9/ca/0ab178d9f50ee4260fdc377d915b49d57bce978b56773f1c26bfbb1f800f/openstef-3.4.8.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/a9/ca/0ab178d9f50ee4260fdc377d915b49d57bce978b56773f1c26bfbb1f800f/openstef-3.4.8.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [grayscale-to-rgb]: Downloading https://files.pythonhosted.org/packages/ae/fa/26a3a1d5fb0218a954ad607d1163b19b436907fe410e381e01b4cce9283c/grayscale_to_rgb-1.0.1-py3-none-any.whl
+[2024-05-23 14:12:29] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/33/a0/c8270d84c261f95aba9d85a0484c00c73a455b156d9ab8fe2c0e48213898/packmanager-1.0.7.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/d4/6d/f8c8b80677f12f84e82338c22df1dab5a8d32be3b6b764b42ded19ae3f6b/IMDBTraktSyncer-1.8.7.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-23 14:12:29] WARNING root fetch - processPackages [openstef]: Skipping package: exceeds size limit 62278984>=10485760
+[2024-05-23 14:12:29] INFO root fetch - main [MainThread]: End processing [openstef] error
+[2024-05-23 14:12:29] WARNING root fetch - processPackages [openstef]: Skipping package: exceeds size limit 62278984>=10485760
+[2024-05-23 14:12:29] INFO root fetch - main [MainThread]: End processing [openstef] error
+[2024-05-23 14:12:29] INFO root fetch - processPackages [blaze-double-bot]: Downloading https://files.pythonhosted.org/packages/5c/54/f56a987df567753e8eda82604e1c2a41d3b8a59f9c930748a9ed1fd5cb25/blaze_double_bot-0.1.3.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-23 14:12:29] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240523/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-23 14:12:29] INFO root fetch - processPackages [bolt-ta]: Downloading https://files.pythonhosted.org/packages/a4/c8/cacdc67d5aecf564e2e1dc6f3a5a5d49c6387fc737c9320f9dba068ef646/bolt-ta-0.3.7.tar.gz
+[2024-05-23 14:12:29] INFO root fetch - processPackages [blaze-double-bot]: executing diffoscope
+[2024-05-23 14:12:29] INFO root fetch - processPackages [blaze-double-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaze_double_bot-0.1.2.tar.gz tmp/blaze_double_bot-0.1.3.tar.gz --markdown 20240523/b/blaze-double-bot/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-23 14:12:29] INFO root fetch - processPackages [grayscale-to-rgb]: Downloading https://files.pythonhosted.org/packages/0c/e4/0a95f1ef052d1ac5e563a1211d09f2c6d8c83f86dc085edcbe655c5dbfd7/grayscale_to_rgb-1.1.0-py3-none-any.whl
+[2024-05-23 14:12:29] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/05/7d/a807c120da7010cd6798c2e94f579da995ab7ee52bf1cd4be1b04e529a0a/imdbtraktsyncer-1.9.0.tar.gz
+[2024-05-23 14:12:30] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/e6/17/a45fd357f11e108bb35cca616068148f150154239c5f89ff8d438a434b8b/packmanager-1.0.8.tar.gz
+[2024-05-23 14:12:30] INFO root fetch - processPackages [grayscale-to-rgb]: executing diffoscope
+[2024-05-23 14:12:30] INFO root fetch - processPackages [grayscale-to-rgb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grayscale_to_rgb-1.0.1-py3-none-any.whl.zip tmp/grayscale_to_rgb-1.1.0-py3-none-any.whl.zip --markdown 20240523/g/grayscale-to-rgb/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-23 14:12:30] INFO root fetch - processPackages [bolt-ta]: executing diffoscope
+[2024-05-23 14:12:30] INFO root fetch - processPackages [bolt-ta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt-ta-0.3.5.tar.gz tmp/bolt-ta-0.3.7.tar.gz --markdown 20240523/b/bolt-ta/0.3.5-0.3.7/README.md --exclude *.pyd
+[2024-05-23 14:12:30] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2024-05-23 14:12:30] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDBTraktSyncer-1.8.7.tar.gz tmp/imdbtraktsyncer-1.9.0.tar.gz --markdown 20240523/I/IMDBTraktSyncer/1.8.7-1.9.0/README.md --exclude *.pyd
+[2024-05-23 14:12:30] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-23 14:12:30] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-1.0.7.tar.gz tmp/packmanager-1.0.8.tar.gz --markdown 20240523/p/packManager/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-23 14:12:30] INFO root fetch - processPackages [blaze-double-bot]: Remove: archive file [/home/abi/fetcher/tmp/blaze_double_bot-0.1.2.tar.gz]
+[2024-05-23 14:12:30] INFO root fetch - processPackages [blaze-double-bot]: Remove: archive file [/home/abi/fetcher/tmp/blaze_double_bot-0.1.3.tar.gz]
+[2024-05-23 14:12:30] INFO root fetch - main [MainThread]: End processing [blaze-double-bot]: success
+[2024-05-23 14:12:30] INFO root fetch - processPackages [grayscale-to-rgb]: Remove: archive file [/home/abi/fetcher/tmp/grayscale_to_rgb-1.0.1-py3-none-any.whl.zip]
+[2024-05-23 14:12:30] INFO root fetch - processPackages [grayscale-to-rgb]: Remove: archive file [/home/abi/fetcher/tmp/grayscale_to_rgb-1.1.0-py3-none-any.whl.zip]
+[2024-05-23 14:12:30] INFO root fetch - main [MainThread]: End processing [grayscale-to-rgb]: success
+[2024-05-23 14:12:30] INFO root fetch - processPackages [bolt-ta]: Remove: archive file [/home/abi/fetcher/tmp/bolt-ta-0.3.5.tar.gz]
+[2024-05-23 14:12:30] INFO root fetch - processPackages [bolt-ta]: Remove: archive file [/home/abi/fetcher/tmp/bolt-ta-0.3.7.tar.gz]
+[2024-05-23 14:12:30] INFO root fetch - main [MainThread]: End processing [bolt-ta]: success
+[2024-05-23 14:12:30] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/IMDBTraktSyncer-1.8.7.tar.gz]
+[2024-05-23 14:12:30] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/imdbtraktsyncer-1.9.0.tar.gz]
+[2024-05-23 14:12:30] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2024-05-23 14:12:31] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.7.tar.gz]
+[2024-05-23 14:12:31] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.8.tar.gz]
+[2024-05-23 14:12:31] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-23 14:12:31] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-23 14:12:31] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-23 14:12:31] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-23 14:12:31] INFO root fetch - main [MainThread]: Store serial: [23343036]
