@@ -12240,3 +12240,57 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:38:48] INFO root fetch - processPackages [getopenpay]: Remove: archive file [/home/abi/fetcher/tmp/getopenpay-0.0.3.tar.gz]
 [2024-05-23 08:38:48] INFO root fetch - main [MainThread]: End processing [getopenpay]: success
 [2024-05-23 08:38:48] INFO root fetch - main [MainThread]: Store serial: [23338572]
+[2024-05-23 08:40:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338572]
+[2024-05-23 08:40:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-05-23 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharklog
+[2024-05-23 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latex-formatter
+[2024-05-23 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: random-joke-generator
+[2024-05-23 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-contract
+[2024-05-23 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spot-nik
+[2024-05-23 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2024-05-23 08:40:57] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240523022530] Old Version: [3.4.1.dev20240522223644]
+[2024-05-23 08:40:57] INFO root fetch - processPackages [sharklog]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 08:40:57] INFO root fetch - processPackages [checkov]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-05-23 08:40:57] INFO root fetch - processPackages [latex-formatter]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-23 08:40:57] WARNING root fetch - processPackages [spot-nik]: Skipping, unable to determine old version
+[2024-05-23 08:40:57] INFO root fetch - main [MainThread]: End processing [spot-nik] error
+[2024-05-23 08:40:57] INFO root fetch - processPackages [odoo-addon-contract]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-05-23 08:40:57] WARNING root fetch - processPackages [random-joke-generator]: Skipping, unable to determine old version
+[2024-05-23 08:40:57] INFO root fetch - main [MainThread]: End processing [random-joke-generator] error
+[2024-05-23 08:40:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/10/82/7da23e1eb70ab3c9a1bfcd25047bfa343c2a73a14a7c6367b70e64ef778f/localstack_core-3.4.1.dev20240522223644.tar.gz
+[2024-05-23 08:40:57] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/a9/34/826b2df19c26007adefb008f273e87b94019bf5e27747efea796070c2da5/checkov-3.2.98.tar.gz
+[2024-05-23 08:40:57] INFO root fetch - processPackages [latex-formatter]: Downloading https://files.pythonhosted.org/packages/ec/19/1ce3d42680fa8b588649fec72280fc06a08b3125fa767b7d255591898b46/latex_formatter-1.2.1.tar.gz
+[2024-05-23 08:40:57] INFO root fetch - processPackages [sharklog]: Downloading https://files.pythonhosted.org/packages/38/ee/ae7e9cfd6a97fca0bac4af29c288258ecced5fe5f16925ff93ac3847bab5/sharklog-0.0.3.tar.gz
+[2024-05-23 08:40:57] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/5e/79/543b0de81844856f553c5dbabb89262a3131bf868a32cc83d51ece924b2b/odoo_addon_contract-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-23 08:40:57] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/ff/ff/5ccc1f214d2e0bf1a97393d8f14eb1cda0f7675d0fedc54a6e5b09841a02/checkov-3.2.99.tar.gz
+[2024-05-23 08:40:57] INFO root fetch - processPackages [latex-formatter]: Downloading https://files.pythonhosted.org/packages/aa/b6/ac01e36937986ae22a76f84934039e6efebfe8482d4ba291fa3b6f85c685/latex_formatter-1.2.2.tar.gz
+[2024-05-23 08:40:57] INFO root fetch - processPackages [sharklog]: Downloading https://files.pythonhosted.org/packages/57/73/e7cd065011a862ce76158cfffcceae7880d8354dcd49b45d5b78d69df8f4/sharklog-0.0.4.tar.gz
+[2024-05-23 08:40:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ce/55/7c6622cc3d951d829a1ef498a8498385525cfc5aba8092542ad44472eada/localstack_core-3.4.1.dev20240523022530.tar.gz
+[2024-05-23 08:40:57] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-23 08:40:57] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.98.tar.gz tmp/checkov-3.2.99.tar.gz --markdown 20240523/c/checkov/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-05-23 08:40:57] INFO root fetch - processPackages [latex-formatter]: executing diffoscope
+[2024-05-23 08:40:57] INFO root fetch - processPackages [latex-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex_formatter-1.2.1.tar.gz tmp/latex_formatter-1.2.2.tar.gz --markdown 20240523/l/latex-formatter/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-23 08:40:57] INFO root fetch - processPackages [sharklog]: executing diffoscope
+[2024-05-23 08:40:57] INFO root fetch - processPackages [sharklog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharklog-0.0.3.tar.gz tmp/sharklog-0.0.4.tar.gz --markdown 20240523/s/sharklog/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 08:40:57] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/43/48/98e39360a5f22bf76ab3e94cb13134d2a74eb256dd94a61864a2e11c471e/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-23 08:40:58] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-23 08:40:58] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240522223644.tar.gz tmp/localstack_core-3.4.1.dev20240523022530.tar.gz --markdown 20240523/l/localstack-core/3.4.1.dev20240522223644-3.4.1.dev20240523022530/README.md --exclude *.pyd
+[2024-05-23 08:40:58] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-05-23 08:40:58] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-contract/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-23 08:40:58] INFO root fetch - processPackages [sharklog]: Remove: archive file [/home/abi/fetcher/tmp/sharklog-0.0.3.tar.gz]
+[2024-05-23 08:40:58] INFO root fetch - processPackages [sharklog]: Remove: archive file [/home/abi/fetcher/tmp/sharklog-0.0.4.tar.gz]
+[2024-05-23 08:40:58] INFO root fetch - main [MainThread]: End processing [sharklog]: success
+[2024-05-23 08:40:58] INFO root fetch - processPackages [latex-formatter]: Remove: archive file [/home/abi/fetcher/tmp/latex_formatter-1.2.1.tar.gz]
+[2024-05-23 08:40:58] INFO root fetch - processPackages [latex-formatter]: Remove: archive file [/home/abi/fetcher/tmp/latex_formatter-1.2.2.tar.gz]
+[2024-05-23 08:40:58] INFO root fetch - main [MainThread]: End processing [latex-formatter]: success
+[2024-05-23 08:40:59] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-23 08:40:59] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-23 08:40:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-05-23 08:41:01] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522223644.tar.gz]
+[2024-05-23 08:41:01] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240523022530.tar.gz]
+[2024-05-23 08:41:01] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-23 08:41:05] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.98.tar.gz]
+[2024-05-23 08:41:05] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
+[2024-05-23 08:41:05] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-23 08:41:05] INFO root fetch - main [MainThread]: Store serial: [23338598]
