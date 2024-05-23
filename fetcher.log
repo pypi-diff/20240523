@@ -20152,3 +20152,27 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:23:04] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.5.0.tar.gz]
 [2024-05-23 12:23:04] INFO root fetch - main [MainThread]: End processing [socket.d]: success
 [2024-05-23 12:23:04] INFO root fetch - main [MainThread]: Store serial: [23341745]
+[2024-05-23 12:25:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341745]
+[2024-05-23 12:25:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 12:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-daf-butler
+[2024-05-23 12:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cogflow
+[2024-05-23 12:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-project-automation
+[2024-05-23 12:25:13] INFO root fetch - processPackages [lsst-daf-butler]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 12:25:13] WARNING root fetch - processPackages [github-project-automation]: Skipping, unable to determine old version
+[2024-05-23 12:25:13] INFO root fetch - main [MainThread]: End processing [github-project-automation] error
+[2024-05-23 12:25:13] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/c9/4b/655472d76729fac017f7d6e1edc8047470c142e5cf3a19f3114a75ddcdb6/lsst_daf_butler-27.2024.1900.tar.gz
+[2024-05-23 12:25:13] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-23 12:25:13] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-23 12:25:14] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/b8/ee/736c1abd3b57bdc68d73b1f28814d1d6d060df551a5ad669be1abc4430c5/lsst_daf_butler-27.2024.2000.tar.gz
+[2024-05-23 12:25:14] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-23 12:25:14] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2024-05-23 12:25:14] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_daf_butler-27.2024.1900.tar.gz tmp/lsst_daf_butler-27.2024.2000.tar.gz --markdown 20240523/l/lsst-daf-butler/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 12:25:14] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-23 12:25:14] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240523/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-23 12:25:14] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-23 12:25:14] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-23 12:25:14] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-23 12:25:16] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.1900.tar.gz]
+[2024-05-23 12:25:16] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.2000.tar.gz]
+[2024-05-23 12:25:16] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2024-05-23 12:25:16] INFO root fetch - main [MainThread]: Store serial: [23341758]
