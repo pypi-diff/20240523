@@ -7590,3 +7590,90 @@
 [2024-05-23 03:42:25] INFO root fetch - processPackages [ptrlib]: Remove: archive file [/home/abi/fetcher/tmp/ptrlib-2.3.1-py3-none-any.whl.zip]
 [2024-05-23 03:42:25] INFO root fetch - main [MainThread]: End processing [ptrlib]: success
 [2024-05-23 03:42:25] INFO root fetch - main [MainThread]: Store serial: [23336380]
+[2024-05-23 03:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336380]
+[2024-05-23 03:44:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerebrium
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rayasdk
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midas-open-parser
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rococoooo
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-sql-parsing
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-rigetti
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-core
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-ionq
+[2024-05-23 03:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-web
+[2024-05-23 03:44:34] INFO root fetch - processPackages [rayasdk]: New version: [3.7.9.dev0] Old Version: [3.7.8.dev0]
+[2024-05-23 03:44:34] WARNING root fetch - processPackages [rococoooo]: Skipping, unable to determine old version
+[2024-05-23 03:44:34] INFO root fetch - main [MainThread]: End processing [rococoooo] error
+[2024-05-23 03:44:34] INFO root fetch - processPackages [midas-open-parser]: New version: [0.1.13] Old Version: [0.1.12]
+[2024-05-23 03:44:34] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.640.24141] Old Version: [9.628.24135]
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.4.0.dev20240523005948] Old Version: [1.4.0.dev20240523003657]
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240523005948] Old Version: [1.4.0.dev20240523003657]
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cerebrium]: New version: [1.20.0] Old Version: [1.19.1]
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240523005948] Old Version: [1.4.0.dev20240523003657]
+[2024-05-23 03:44:34] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/a5/f1/133cb999b43b26190b5f61f37bd68c4823cfcc74e331474504c624be3247/midas_open_parser-0.1.12.tar.gz
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240523005948] Old Version: [1.4.0.dev20240523003657]
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/c7/15/91b85269756b6a53ae6055cab5377ed600531f74deb6db9ba03cd5b6b279/cirq_rigetti-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:44:34] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/85/9f/5ea5e44866c0c797627033698e48b38556b8e5aa5837a516d42f0225d1cb/rayasdk-3.7.8.dev0.tar.gz
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/e2/3d/f7cc686a3d849af58241ceedbe44ba0566ee64ca90919fffaf8b654cb1ab/cirq_ionq-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:44:34] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/c0/a3/5c973dd21458f0b2d810e99dc69af69267f20f012262a8e7b0dada5408b5/mo_sql_parsing-9.628.24135.tar.gz
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/64/ee/56077c5447abb13f0c991b29f37e2056addcc04babd5eed178f570be829a/cirq_core-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/5b/a6/42df3d949066baa058b686616c6e3e021d61b2acfe470841a105a3828ae5/cirq-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:44:34] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/c4/80/1098568b5140ed91abe8b1ccf99ae4ab0f670caeb5b6edec344ff573177a/cerebrium-1.19.1-py3-none-any.whl
+[2024-05-23 03:44:34] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/ac/b1/20d45cf0110ebca897a6b4f4bc6d07809102a77559f1653b8ef6716fbb62/midas_open_parser-0.1.13.tar.gz
+[2024-05-23 03:44:34] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/5c/c6/eb2b7b28225209501b3b5b714695be0773e4d816b487c4d2ca00a7852aab/rayasdk-3.7.9.dev0.tar.gz
+[2024-05-23 03:44:35] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/a1/2c/c8d66551469eaa365010bff49e53c778fe4423f82d73941cec6eafebe2e0/mo_sql_parsing-9.640.24141.tar.gz
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/f3/a0/6128ab0ac2c7adbc48ab55417d5c25c67e248c5d318f91f8c5db35bb031e/cirq_rigetti-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/f5/8e/7d82437f286384f84da389240f60e41857535a22d646787d88f276fcde97/cirq_ionq-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:44:35] INFO root fetch - processPackages [midas-open-parser]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [midas-open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas_open_parser-0.1.12.tar.gz tmp/midas_open_parser-0.1.13.tar.gz --markdown 20240523/m/midas-open-parser/0.1.12-0.1.13/README.md --exclude *.pyd
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/bc/4c/fc681a11d5319899a952eb951329d93b6475c1b3b633b627fc9a38862651/cirq-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:44:35] INFO root fetch - processPackages [rayasdk]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [rayasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayasdk-3.7.8.dev0.tar.gz tmp/rayasdk-3.7.9.dev0.tar.gz --markdown 20240523/r/rayasdk/3.7.8.dev0-3.7.9.dev0/README.md --exclude *.pyd
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240523014335] Old Version: [1.4.0.dev20240523005948]
+[2024-05-23 03:44:35] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.628.24135.tar.gz tmp/mo_sql_parsing-9.640.24141.tar.gz --markdown 20240523/m/mo-sql-parsing/9.628.24135-9.640.24141/README.md --exclude *.pyd
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/a5/19/82a436449ad3f5bbd8f7e44dc7848b3063e278c8ef59eb93219d29c02b31/cirq_web-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.4.0.dev20240523003657-py3-none-any.whl.zip tmp/cirq_rigetti-1.4.0.dev20240523005948-py3-none-any.whl.zip --markdown 20240523/c/cirq-rigetti/1.4.0.dev20240523003657-1.4.0.dev20240523005948/README.md --exclude *.pyd
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/04/50/09059ff440f977cb63aea3d37161009e3b2f981d94cff0e984152d9a7632/cerebrium-1.20.0-py3-none-any.whl
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240523003657-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240523005948-py3-none-any.whl.zip --markdown 20240523/c/cirq-ionq/1.4.0.dev20240523003657-1.4.0.dev20240523005948/README.md --exclude *.pyd
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240523003657-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240523005948-py3-none-any.whl.zip --markdown 20240523/c/cirq/1.4.0.dev20240523003657-1.4.0.dev20240523005948/README.md --exclude *.pyd
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/fb/4d/833336de7ecb64bc7367af6b48bec7ad01149026a6762931677230e4fdff/cirq_core-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-1.19.1-py3-none-any.whl.zip tmp/cerebrium-1.20.0-py3-none-any.whl.zip --markdown 20240523/c/cerebrium/1.19.1-1.20.0/README.md --exclude *.pyd
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240523003657-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240523005948-py3-none-any.whl.zip --markdown 20240523/c/cirq-core/1.4.0.dev20240523003657-1.4.0.dev20240523005948/README.md --exclude *.pyd
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/72/f8/206904ba986879bffaa7da31f2c992d48da98335b68a8ff95b2fdea780ed/cirq_web-1.4.0.dev20240523014335-py3-none-any.whl
+[2024-05-23 03:44:35] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.12.tar.gz]
+[2024-05-23 03:44:35] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.13.tar.gz]
+[2024-05-23 03:44:35] INFO root fetch - main [MainThread]: End processing [midas-open-parser]: success
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-05-23 03:44:35] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240523005948-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240523014335-py3-none-any.whl.zip --markdown 20240523/c/cirq-web/1.4.0.dev20240523005948-1.4.0.dev20240523014335/README.md --exclude *.pyd
+[2024-05-23 03:44:36] INFO root fetch - processPackages [rayasdk]: Remove: archive file [/home/abi/fetcher/tmp/rayasdk-3.7.8.dev0.tar.gz]
+[2024-05-23 03:44:36] INFO root fetch - processPackages [rayasdk]: Remove: archive file [/home/abi/fetcher/tmp/rayasdk-3.7.9.dev0.tar.gz]
+[2024-05-23 03:44:36] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2024-05-23 03:44:36] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.628.24135.tar.gz]
+[2024-05-23 03:44:36] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.640.24141.tar.gz]
+[2024-05-23 03:44:36] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.19.1-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.20.0-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240523014335-py3-none-any.whl.zip]
+[2024-05-23 03:44:36] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-05-23 03:44:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:44:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:44:39] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-05-23 03:44:39] INFO root fetch - main [MainThread]: Store serial: [23336402]
