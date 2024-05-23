@@ -8733,3 +8733,63 @@
 [2024-05-23 04:45:50] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.5.tar.gz]
 [2024-05-23 04:45:50] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk]: success
 [2024-05-23 04:45:50] INFO root fetch - main [MainThread]: Store serial: [23336826]
+[2024-05-23 04:47:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336826]
+[2024-05-23 04:47:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourcery-nightly
+[2024-05-23 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sop-deutils
+[2024-05-23 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-alpaca-api
+[2024-05-23 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sop-deutils
+[2024-05-23 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hdx-python-country
+[2024-05-23 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdepy
+[2024-05-23 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-workflows
+[2024-05-23 04:47:59] INFO root fetch - processPackages [hdx-python-country]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-05-23 04:47:59] INFO root fetch - processPackages [sop-deutils]: New version: [1.0.2.dev0] Old Version: [1.0.2.1.dev0]
+[2024-05-23 04:47:59] INFO root fetch - processPackages [sop-deutils]: New version: [1.0.2.dev0] Old Version: [1.0.2.1.dev0]
+[2024-05-23 04:47:59] INFO root fetch - processPackages [cdepy]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-23 04:47:59] INFO root fetch - processPackages [py-alpaca-api]: New version: [0.5.6] Old Version: [0.5.4]
+[2024-05-23 04:47:59] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-23 04:47:59] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/27/14/c91628a231d9de668d33c958b99e8ab89f24424c79402f76554da40c0343/hdx_python_country-3.7.0.tar.gz
+[2024-05-23 04:47:59] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-23 04:47:59] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/6c/e8/75d5d4d663794de9a1d49f927992769f0580834e7693a07aba3a800c4863/sop_deutils-1.0.2.1.dev0.tar.gz
+[2024-05-23 04:47:59] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/6c/e8/75d5d4d663794de9a1d49f927992769f0580834e7693a07aba3a800c4863/sop_deutils-1.0.2.1.dev0.tar.gz
+[2024-05-23 04:47:59] INFO root fetch - processPackages [cdepy]: Downloading https://files.pythonhosted.org/packages/67/48/7a1b07dcfe45fc2f67d2af818b122aba15624d76bee8c5738a78e70f0f3a/cdepy-0.1.7.tar.gz
+[2024-05-23 04:47:59] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/66/41/fe8f986349e01e1f14b2bf90049363014d88dc17dd83c045c217d970897f/py_alpaca_api-0.5.4.tar.gz
+[2024-05-23 04:48:00] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2024-05-23 04:48:00] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/56/af/9da4f79ca6e32fa17aa1986c8521730c6e0be14e5b9ca6b2a49252e99e02/hdx_python_country-3.7.1.tar.gz
+[2024-05-23 04:48:00] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-23 04:48:00] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-23 04:48:00] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-23 04:48:00] INFO root fetch - processPackages [hdx-python-country]: executing diffoscope
+[2024-05-23 04:48:00] INFO root fetch - processPackages [hdx-python-country]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_country-3.7.0.tar.gz tmp/hdx_python_country-3.7.1.tar.gz --markdown 20240523/h/hdx-python-country/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-05-23 04:48:00] INFO root fetch - processPackages [cdepy]: Downloading https://files.pythonhosted.org/packages/75/be/d3b2b5c7ac70a8f26b02c5581d90226a51b060fa7fd7e7495b1947820a4a/cdepy-0.1.8.tar.gz
+[2024-05-23 04:48:00] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/64/51/16740684028f6d50dbe0f6a7e30fee24260c8a14b702a6167f193b8615dd/py_alpaca_api-0.5.6.tar.gz
+[2024-05-23 04:48:00] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/94/7a/28c55dd9d8f95a123d6e2ce00ffe3ce624e9447075cb1160dd1fc6f21eaf/sop_deutils-1.0.2.dev0.tar.gz
+[2024-05-23 04:48:00] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/94/7a/28c55dd9d8f95a123d6e2ce00ffe3ce624e9447075cb1160dd1fc6f21eaf/sop_deutils-1.0.2.dev0.tar.gz
+[2024-05-23 04:48:00] INFO root fetch - processPackages [cdepy]: executing diffoscope
+[2024-05-23 04:48:00] INFO root fetch - processPackages [cdepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdepy-0.1.7.tar.gz tmp/cdepy-0.1.8.tar.gz --markdown 20240523/c/cdepy/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-23 04:48:00] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2024-05-23 04:48:00] INFO root fetch - processPackages [sop-deutils]: executing diffoscope
+[2024-05-23 04:48:00] INFO root fetch - processPackages [sop-deutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sop_deutils-1.0.2.1.dev0.tar.gz tmp/sop_deutils-1.0.2.dev0.tar.gz --markdown 20240523/s/sop-deutils/1.0.2.1.dev0-1.0.2.dev0/README.md --exclude *.pyd
+[2024-05-23 04:48:00] INFO root fetch - processPackages [sop-deutils]: executing diffoscope
+[2024-05-23 04:48:00] INFO root fetch - processPackages [sop-deutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sop_deutils-1.0.2.1.dev0.tar.gz tmp/sop_deutils-1.0.2.dev0.tar.gz --markdown 20240523/s/sop-deutils/1.0.2.1.dev0-1.0.2.dev0/README.md --exclude *.pyd
+[2024-05-23 04:48:00] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-05-23 04:48:00] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.5.4.tar.gz tmp/py_alpaca_api-0.5.6.tar.gz --markdown 20240523/p/py-alpaca-api/0.5.4-0.5.6/README.md --exclude *.pyd
+[2024-05-23 04:48:00] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2024-05-23 04:48:00] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20240523/n/np-workflows/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-23 04:48:01] INFO root fetch - processPackages [cdepy]: Remove: archive file [/home/abi/fetcher/tmp/cdepy-0.1.7.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - processPackages [cdepy]: Remove: archive file [/home/abi/fetcher/tmp/cdepy-0.1.8.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - main [MainThread]: End processing [cdepy]: success
+[2024-05-23 04:48:01] INFO root fetch - processPackages [sop-deutils]: Remove: archive file [/home/abi/fetcher/tmp/sop_deutils-1.0.2.1.dev0.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - processPackages [sop-deutils]: Remove: archive file [/home/abi/fetcher/tmp/sop_deutils-1.0.2.dev0.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - main [MainThread]: End processing [sop-deutils]: success
+[2024-05-23 04:48:01] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.7.0.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.7.1.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - main [MainThread]: End processing [hdx-python-country]: success
+[2024-05-23 04:48:01] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.5.4.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.5.6.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-05-23 04:48:01] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2024-05-23 04:48:01] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2024-05-23 04:48:01] INFO root fetch - main [MainThread]: End processing [sop-deutils]: success
+[2024-05-23 04:48:01] INFO root fetch - main [MainThread]: Store serial: [23336848]
