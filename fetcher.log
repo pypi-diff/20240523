@@ -11412,3 +11412,54 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:58:51] INFO root fetch - processPackages [hyper-v]: Remove: archive file [/home/abi/fetcher/tmp/hyper_v-2.0.3.tar.gz]
 [2024-05-23 07:58:51] INFO root fetch - main [MainThread]: End processing [hyper-v]: success
 [2024-05-23 07:58:51] INFO root fetch - main [MainThread]: Store serial: [23338203]
+[2024-05-23 08:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338203]
+[2024-05-23 08:00:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2024-05-23 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onepiece-classify
+[2024-05-23 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vision-agent
+[2024-05-23 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicli
+[2024-05-23 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-alicloud
+[2024-05-23 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: click-extra
+[2024-05-23 08:00:59] WARNING root fetch - processPackages [onepiece-classify]: Skipping, unable to determine old version
+[2024-05-23 08:00:59] INFO root fetch - main [MainThread]: End processing [onepiece-classify] error
+[2024-05-23 08:00:59] INFO root fetch - processPackages [aicli]: New version: [99.0.202405221557] Old Version: [99.0.202405221551]
+[2024-05-23 08:00:59] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 08:00:59] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/a1/cc/9e0d54ccbb5bc54946872bc28fcd1f8a20eea8b5edfabc27083584e0c56e/aicli-99.0.202405221551-py3-none-any.whl
+[2024-05-23 08:01:00] INFO root fetch - processPackages [click-extra]: New version: [4.8.0] Old Version: [4.7.5]
+[2024-05-23 08:01:00] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-23 08:01:00] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-23 08:01:00] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/5f/1c/f4994753da10be8f785b093da4bc86942930e86a78d3216aa2cce6371f69/click_extra-4.7.5.tar.gz
+[2024-05-23 08:01:00] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-23 08:01:00] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-23 08:01:00] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-23 08:01:00] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/04/30/f7b0ad557ba1e2ea3bc2562e705a17957cbc320059251b638190616503cf/aicli-99.0.202405221557-py3-none-any.whl
+[2024-05-23 08:01:00] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2024-05-23 08:01:00] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202405221551-py3-none-any.whl.zip tmp/aicli-99.0.202405221557-py3-none-any.whl.zip --markdown 20240523/a/aicli/99.0.202405221551-99.0.202405221557/README.md --exclude *.pyd
+[2024-05-23 08:01:00] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/55/2b/b27fdcaa34cec33c09f1b9fa944cd78d845d75875327b9fb85d8a22ec1af/click_extra-4.8.0.tar.gz
+[2024-05-23 08:01:00] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-23 08:01:00] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-23 08:01:00] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-23 08:01:00] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240523/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-23 08:01:00] INFO root fetch - processPackages [click-extra]: executing diffoscope
+[2024-05-23 08:01:00] INFO root fetch - processPackages [click-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_extra-4.7.5.tar.gz tmp/click_extra-4.8.0.tar.gz --markdown 20240523/c/click-extra/4.7.5-4.8.0/README.md --exclude *.pyd
+[2024-05-23 08:01:00] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-23 08:01:00] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240523/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 08:01:01] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-23 08:01:01] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405221551-py3-none-any.whl.zip]
+[2024-05-23 08:01:01] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405221557-py3-none-any.whl.zip]
+[2024-05-23 08:01:01] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2024-05-23 08:01:01] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-23 08:01:01] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-23 08:01:01] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-23 08:01:01] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.7.5.tar.gz]
+[2024-05-23 08:01:01] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.8.0.tar.gz]
+[2024-05-23 08:01:01] INFO root fetch - main [MainThread]: End processing [click-extra]: success
+[2024-05-23 08:01:01] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-23 08:01:01] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-23 08:01:01] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-23 08:01:02] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-23 08:01:02] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240523/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-23 08:01:10] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-23 08:01:10] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-23 08:01:10] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-23 08:01:10] INFO root fetch - main [MainThread]: Store serial: [23338220]
