@@ -11182,3 +11182,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:43:18] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.4.0.tar.gz]
 [2024-05-23 07:43:18] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
 [2024-05-23 07:43:18] INFO root fetch - main [MainThread]: Store serial: [23338095]
+[2024-05-23 07:45:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338095]
+[2024-05-23 07:45:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 07:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FinMind
+[2024-05-23 07:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2024-05-23 07:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-05-23 07:45:27] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-23 07:45:27] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-23 07:45:27] INFO root fetch - processPackages [FinMind]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-05-23 07:45:27] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-23 07:45:27] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-23 07:45:27] INFO root fetch - processPackages [FinMind]: Downloading https://files.pythonhosted.org/packages/be/ab/2a1245907270475c948d2f71b834bc6b5b107250c589bf73208caab0cdb9/FinMind-1.6.6-py3-none-any.whl
+[2024-05-23 07:45:27] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-23 07:45:27] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-23 07:45:27] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-23 07:45:27] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240523/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-23 07:45:27] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-23 07:45:27] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240523/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-23 07:45:27] INFO root fetch - processPackages [FinMind]: Downloading https://files.pythonhosted.org/packages/95/6a/612c976fa98c87318858c8cdf4a88c531575e0a473eb0026c3492391dfdf/FinMind-1.6.7-py3-none-any.whl
+[2024-05-23 07:45:28] INFO root fetch - processPackages [FinMind]: executing diffoscope
+[2024-05-23 07:45:28] INFO root fetch - processPackages [FinMind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinMind-1.6.6-py3-none-any.whl.zip tmp/FinMind-1.6.7-py3-none-any.whl.zip --markdown 20240523/F/FinMind/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-05-23 07:45:28] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-23 07:45:28] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-23 07:45:28] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-23 07:45:28] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-23 07:45:28] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-23 07:45:28] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-23 07:45:28] INFO root fetch - processPackages [FinMind]: Remove: archive file [/home/abi/fetcher/tmp/FinMind-1.6.6-py3-none-any.whl.zip]
+[2024-05-23 07:45:28] INFO root fetch - processPackages [FinMind]: Remove: archive file [/home/abi/fetcher/tmp/FinMind-1.6.7-py3-none-any.whl.zip]
+[2024-05-23 07:45:28] INFO root fetch - main [MainThread]: End processing [FinMind]: success
+[2024-05-23 07:45:28] INFO root fetch - main [MainThread]: Store serial: [23338104]
