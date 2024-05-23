@@ -9300,3 +9300,52 @@
 [2024-05-23 05:25:47] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.5.tar.gz]
 [2024-05-23 05:25:47] INFO root fetch - main [MainThread]: End processing [dpkits]: success
 [2024-05-23 05:25:47] INFO root fetch - main [MainThread]: Store serial: [23337129]
+[2024-05-23 05:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337129]
+[2024-05-23 05:27:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 05:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eras
+[2024-05-23 05:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiprocessed-socket
+[2024-05-23 05:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etao-ds
+[2024-05-23 05:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: controlnet-aux
+[2024-05-23 05:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multiprocessed-socket
+[2024-05-23 05:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wf-rappi
+[2024-05-23 05:27:55] INFO root fetch - processPackages [multiprocessed-socket]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 05:27:55] INFO root fetch - processPackages [multiprocessed-socket]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 05:27:56] INFO root fetch - processPackages [eras]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-23 05:27:56] WARNING root fetch - processPackages [etao-ds]: Skipping, unable to determine old version
+[2024-05-23 05:27:56] INFO root fetch - main [MainThread]: End processing [etao-ds] error
+[2024-05-23 05:27:56] INFO root fetch - processPackages [multiprocessed-socket]: Downloading https://files.pythonhosted.org/packages/e6/35/547f28646900741d9009f2b00f3e43511040e1ddbd6b9a3afad6b770a41c/multiprocessed-socket-0.1.1.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [multiprocessed-socket]: Downloading https://files.pythonhosted.org/packages/e6/35/547f28646900741d9009f2b00f3e43511040e1ddbd6b9a3afad6b770a41c/multiprocessed-socket-0.1.1.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [controlnet-aux]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 05:27:56] INFO root fetch - processPackages [wf-rappi]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-23 05:27:56] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/7b/06/aab5f47337cede4b17b9afdfb748fa4ba2a25be23698c13da9c2e2e96824/eras-0.3.3.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [controlnet-aux]: Downloading https://files.pythonhosted.org/packages/13/be/7e1eb0ac37b5db0c7c3751ca3cbbc5af58d9bdb89190c48ac81ba7a8cb6c/controlnet_aux-0.0.8.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/e8/83/75ba343448e367d583277b372579e1757cd883144c13e2246f9874e049c2/wf_rappi-0.1.0.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [multiprocessed-socket]: Downloading https://files.pythonhosted.org/packages/b8/13/d0d622332c4f1bcffbc4e457c82c70c2fb6287a57b7d8c1e3e0794df1e4c/multiprocessed-socket-0.1.2.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [multiprocessed-socket]: Downloading https://files.pythonhosted.org/packages/b8/13/d0d622332c4f1bcffbc4e457c82c70c2fb6287a57b7d8c1e3e0794df1e4c/multiprocessed-socket-0.1.2.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [multiprocessed-socket]: executing diffoscope
+[2024-05-23 05:27:56] INFO root fetch - processPackages [multiprocessed-socket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiprocessed-socket-0.1.1.tar.gz tmp/multiprocessed-socket-0.1.2.tar.gz --markdown 20240523/m/multiprocessed-socket/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 05:27:56] INFO root fetch - processPackages [multiprocessed-socket]: executing diffoscope
+[2024-05-23 05:27:56] INFO root fetch - processPackages [multiprocessed-socket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiprocessed-socket-0.1.1.tar.gz tmp/multiprocessed-socket-0.1.2.tar.gz --markdown 20240523/m/multiprocessed-socket/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 05:27:56] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/ad/9a/80077e929282f584b6ddec27ff6971539bfa3d1adc7327dea5e17a13bf17/eras-0.3.4.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [controlnet-aux]: Downloading https://files.pythonhosted.org/packages/20/b6/bc4c5dcab45233e07452c8a9d30cd1d30b7c92b5ea96f7ceca8816cd6078/controlnet_aux-0.0.9.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/c8/a5/e7436e9915618b058f6f16caba38f3e5207d95ca1c177e17891106259073/wf_rappi-0.2.0.tar.gz
+[2024-05-23 05:27:56] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-23 05:27:56] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.3.3.tar.gz tmp/eras-0.3.4.tar.gz --markdown 20240523/e/eras/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-23 05:27:56] INFO root fetch - processPackages [controlnet-aux]: executing diffoscope
+[2024-05-23 05:27:56] INFO root fetch - processPackages [controlnet-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/controlnet_aux-0.0.8.tar.gz tmp/controlnet_aux-0.0.9.tar.gz --markdown 20240523/c/controlnet-aux/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 05:27:56] INFO root fetch - processPackages [wf-rappi]: executing diffoscope
+[2024-05-23 05:27:56] INFO root fetch - processPackages [wf-rappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_rappi-0.1.0.tar.gz tmp/wf_rappi-0.2.0.tar.gz --markdown 20240523/w/wf-rappi/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-23 05:27:57] INFO root fetch - processPackages [multiprocessed-socket]: Remove: archive file [/home/abi/fetcher/tmp/multiprocessed-socket-0.1.1.tar.gz]
+[2024-05-23 05:27:57] INFO root fetch - processPackages [multiprocessed-socket]: Remove: archive file [/home/abi/fetcher/tmp/multiprocessed-socket-0.1.2.tar.gz]
+[2024-05-23 05:27:57] INFO root fetch - main [MainThread]: End processing [multiprocessed-socket]: success
+[2024-05-23 05:27:57] INFO root fetch - main [MainThread]: End processing [multiprocessed-socket]: success
+[2024-05-23 05:27:57] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.1.0.tar.gz]
+[2024-05-23 05:27:57] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.2.0.tar.gz]
+[2024-05-23 05:27:57] INFO root fetch - main [MainThread]: End processing [wf-rappi]: success
+[2024-05-23 05:27:57] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.3.tar.gz]
+[2024-05-23 05:27:57] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.4.tar.gz]
+[2024-05-23 05:27:57] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-23 05:27:57] INFO root fetch - processPackages [controlnet-aux]: Remove: archive file [/home/abi/fetcher/tmp/controlnet_aux-0.0.8.tar.gz]
+[2024-05-23 05:27:57] INFO root fetch - processPackages [controlnet-aux]: Remove: archive file [/home/abi/fetcher/tmp/controlnet_aux-0.0.9.tar.gz]
+[2024-05-23 05:27:57] INFO root fetch - main [MainThread]: End processing [controlnet-aux]: success
+[2024-05-23 05:27:57] INFO root fetch - main [MainThread]: Store serial: [23337149]
