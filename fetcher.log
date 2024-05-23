@@ -19815,3 +19815,72 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:09:48] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.2000.tar.gz]
 [2024-05-23 12:09:48] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
 [2024-05-23 12:09:48] INFO root fetch - main [MainThread]: Store serial: [23341616]
+[2024-05-23 12:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341616]
+[2024-05-23 12:11:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-resources
+[2024-05-23 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-shopify
+[2024-05-23 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isvirtual
+[2024-05-23 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cace
+[2024-05-23 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataprep-lib-bayraker-bar
+[2024-05-23 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: admin-auth0
+[2024-05-23 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: petannotationvisualizer
+[2024-05-23 12:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-ctrl-mpexec
+[2024-05-23 12:11:57] INFO root fetch - processPackages [lsst-resources]: New version: [27.0.0rc2] Old Version: [27.0.0rc1]
+[2024-05-23 12:11:57] INFO root fetch - processPackages [petannotationvisualizer]: New version: [1.2.0] Old Version: [0.0.1a4]
+[2024-05-23 12:11:57] INFO root fetch - processPackages [airbyte-source-shopify]: New version: [2.1.1] Old Version: [2.1.0.dev202405090807]
+[2024-05-23 12:11:57] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [27.2024.2100] Old Version: [27.0.0rc1]
+[2024-05-23 12:11:57] INFO root fetch - processPackages [isvirtual]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-23 12:11:57] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/03/10/0872d10689a243b6e0fd601cd0e80c26d6e758d1697ff7d8af5f89c650ec/lsst_resources-27.0.0rc1.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [cace]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-23 12:11:57] WARNING root fetch - processPackages [dataprep-lib-bayraker-bar]: Skipping, unable to determine old version
+[2024-05-23 12:11:57] INFO root fetch - main [MainThread]: End processing [dataprep-lib-bayraker-bar] error
+[2024-05-23 12:11:57] INFO root fetch - processPackages [admin-auth0]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 12:11:57] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/8a/9f/7d46bf666d365a811ac97eae52ebcee92e7359467868094b56dbb7882e78/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [petannotationvisualizer]: Downloading https://files.pythonhosted.org/packages/3b/93/759ded2a8e71b6acbb9bcc256517a6f88035964204cdffc9f2bc5dcd077a/PETAnnotationVisualizer-0.0.1a4.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/6a/ca/129ed7ca45aaf54c62a5e61c061da971c7adbb7c2d3ea821944de0f8b301/cace-2.2.3.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/96/3d/e040498165cdb822901ffde1a595f932ce4f89c02a75ba693ba4e8e56977/lsst_ctrl_mpexec-27.0.0rc1.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [isvirtual]: Downloading https://files.pythonhosted.org/packages/e2/0d/4fe81aed2ed5bb89ea9f6324e19fc03d1407eb7e7533f1a0f48e8b06d015/isvirtual-1.0.0.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [petannotationvisualizer]: Downloading https://files.pythonhosted.org/packages/0a/6b/4e646bd5d28c6064acfa3de6e7421887fe687902f61044811e5c4a56b6d0/petannotationvisualizer-1.2.0.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [admin-auth0]: Downloading https://files.pythonhosted.org/packages/51/d2/5e368c2cfc34f40171a421f7bb84789717bc92fb0bfabbb350232466e8c6/admin_auth0-0.2.8.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/d2/0a/01b99af2a353883f637b045e56dce39f108de7bdf0738d8a820a22ae042c/airbyte_source_shopify-2.1.1.tar.gz
+[2024-05-23 12:11:57] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/69/a3/4aed195abddff82f365ebec11ef9fcfa0e062eb0d29dabe8c3632c252887/lsst_resources-27.0.0rc2.tar.gz
+[2024-05-23 12:11:58] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2024-05-23 12:11:58] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_resources-27.0.0rc1.tar.gz tmp/lsst_resources-27.0.0rc2.tar.gz --markdown 20240523/l/lsst-resources/27.0.0rc1-27.0.0rc2/README.md --exclude *.pyd
+[2024-05-23 12:11:58] INFO root fetch - processPackages [petannotationvisualizer]: executing diffoscope
+[2024-05-23 12:11:58] INFO root fetch - processPackages [petannotationvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PETAnnotationVisualizer-0.0.1a4.tar.gz tmp/petannotationvisualizer-1.2.0.tar.gz --markdown 20240523/p/petannotationvisualizer/0.0.1a4-1.2.0/README.md --exclude *.pyd
+[2024-05-23 12:11:58] INFO root fetch - processPackages [airbyte-source-shopify]: executing diffoscope
+[2024-05-23 12:11:58] INFO root fetch - processPackages [airbyte-source-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz tmp/airbyte_source_shopify-2.1.1.tar.gz --markdown 20240523/a/airbyte-source-shopify/2.1.0.dev202405090807-2.1.1/README.md --exclude *.pyd
+[2024-05-23 12:11:58] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7c/01/45feafd41713fe40c4491e5e2e4fc4e1a7f744129fb5cd4eb808012b03ec/lsst_ctrl_mpexec-27.2024.2100.tar.gz
+[2024-05-23 12:11:58] INFO root fetch - processPackages [isvirtual]: Downloading https://files.pythonhosted.org/packages/7e/54/919711dadc3a7c6843c60f58dea444bcd2952a57ba8856b9af90324aeb4d/isvirtual-1.1.0.tar.gz
+[2024-05-23 12:11:58] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/93/c5/fb22dea0343819de441f782e2a1a6d066b18976f32e748ce5af0da2b64ee/cace-2.2.4.tar.gz
+[2024-05-23 12:11:58] INFO root fetch - processPackages [admin-auth0]: Downloading https://files.pythonhosted.org/packages/8c/0b/e4e428127070947082db44e244300656bcc14bf5f55e5e3040f90f4ccad2/admin_auth0-0.2.9.tar.gz
+[2024-05-23 12:11:58] INFO root fetch - processPackages [isvirtual]: executing diffoscope
+[2024-05-23 12:11:58] INFO root fetch - processPackages [isvirtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isvirtual-1.0.0.tar.gz tmp/isvirtual-1.1.0.tar.gz --markdown 20240523/i/isvirtual/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-23 12:11:58] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2024-05-23 12:11:58] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_mpexec-27.0.0rc1.tar.gz tmp/lsst_ctrl_mpexec-27.2024.2100.tar.gz --markdown 20240523/l/lsst-ctrl-mpexec/27.0.0rc1-27.2024.2100/README.md --exclude *.pyd
+[2024-05-23 12:11:58] INFO root fetch - processPackages [admin-auth0]: executing diffoscope
+[2024-05-23 12:11:58] INFO root fetch - processPackages [admin-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admin_auth0-0.2.8.tar.gz tmp/admin_auth0-0.2.9.tar.gz --markdown 20240523/a/admin-auth0/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 12:11:58] INFO root fetch - processPackages [cace]: executing diffoscope
+[2024-05-23 12:11:58] INFO root fetch - processPackages [cace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cace-2.2.3.tar.gz tmp/cace-2.2.4.tar.gz --markdown 20240523/c/cace/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-23 12:11:58] INFO root fetch - processPackages [petannotationvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/PETAnnotationVisualizer-0.0.1a4.tar.gz]
+[2024-05-23 12:11:58] INFO root fetch - processPackages [petannotationvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/petannotationvisualizer-1.2.0.tar.gz]
+[2024-05-23 12:11:58] INFO root fetch - main [MainThread]: End processing [petannotationvisualizer]: success
+[2024-05-23 12:11:59] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst_resources-27.0.0rc1.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst_resources-27.0.0rc2.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2024-05-23 12:11:59] INFO root fetch - processPackages [isvirtual]: Remove: archive file [/home/abi/fetcher/tmp/isvirtual-1.0.0.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - processPackages [isvirtual]: Remove: archive file [/home/abi/fetcher/tmp/isvirtual-1.1.0.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - main [MainThread]: End processing [isvirtual]: success
+[2024-05-23 12:11:59] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.1.1.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - main [MainThread]: End processing [airbyte-source-shopify]: success
+[2024-05-23 12:11:59] INFO root fetch - processPackages [admin-auth0]: Remove: archive file [/home/abi/fetcher/tmp/admin_auth0-0.2.8.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - processPackages [admin-auth0]: Remove: archive file [/home/abi/fetcher/tmp/admin_auth0-0.2.9.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - main [MainThread]: End processing [admin-auth0]: success
+[2024-05-23 12:11:59] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_mpexec-27.0.0rc1.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_mpexec-27.2024.2100.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2024-05-23 12:11:59] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.3.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.4.tar.gz]
+[2024-05-23 12:11:59] INFO root fetch - main [MainThread]: End processing [cace]: success
+[2024-05-23 12:11:59] INFO root fetch - main [MainThread]: Store serial: [23341640]
