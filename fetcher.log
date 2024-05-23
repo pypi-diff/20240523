@@ -12069,3 +12069,51 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:31:59] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-05-23 08:31:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
 [2024-05-23 08:31:59] INFO root fetch - main [MainThread]: Store serial: [23338487]
+[2024-05-23 08:34:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338487]
+[2024-05-23 08:34:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muGrid
+[2024-05-23 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-aimiaobi20230801
+[2024-05-23 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twogroups-heatmap
+[2024-05-23 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mask-key
+[2024-05-23 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2024-05-23 08:34:09] INFO root fetch - processPackages [mask-key]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-23 08:34:09] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-23 08:34:09] INFO root fetch - processPackages [twogroups-heatmap]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-23 08:34:09] INFO root fetch - processPackages [yplib]: New version: [5.8.2] Old Version: [5.8.1]
+[2024-05-23 08:34:09] INFO root fetch - processPackages [muGrid]: New version: [0.90.1] Old Version: [0.90.0]
+[2024-05-23 08:34:09] INFO root fetch - processPackages [mask-key]: Downloading https://files.pythonhosted.org/packages/21/ac/5ae635d4cc89eacf1d4391bcfdaa414945c3a7415293d6af49925970c169/mask_key-0.1.0.tar.gz
+[2024-05-23 08:34:09] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: Downloading https://files.pythonhosted.org/packages/f0/6b/441f2ab57888c421ed007320fa8a9f49e51897d489857494d2b10b463dd6/alibabacloud_aimiaobi20230801-1.6.0.tar.gz
+[2024-05-23 08:34:09] INFO root fetch - processPackages [twogroups-heatmap]: Downloading https://files.pythonhosted.org/packages/b0/0b/7add834377a25ef9107c652f2bd205a2b5c653312c5b3f2489482fcfa050/twogroups_heatmap-0.1.tar.gz
+[2024-05-23 08:34:09] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8b/f2/8d741f217748d75f94ff520d0d0d86c8654c1226a4652889b051f958f6b8/yplib-5.8.1.tar.gz
+[2024-05-23 08:34:09] INFO root fetch - processPackages [muGrid]: Downloading https://files.pythonhosted.org/packages/e9/da/bbfb2fd9aa87629400300f26c9b02d5ee34facc9a22122a598947c0c0ae8/mugrid-0.90.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 08:34:09] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: Downloading https://files.pythonhosted.org/packages/69/0c/4e72951980fec9e2077a4256b2ec84c980572d7e64cd166fbe6ba64fa6db/alibabacloud_aimiaobi20230801-1.6.1.tar.gz
+[2024-05-23 08:34:09] INFO root fetch - processPackages [mask-key]: Downloading https://files.pythonhosted.org/packages/63/99/6adc11a0d73599df913c11b8455dfde197b7c473e03e72044f35186df600/mask_key-0.2.0.tar.gz
+[2024-05-23 08:34:09] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e2/c8/117ac8fa0bd849c505cb24d2625c15cdf02413dcf586a54aae48fb791bcc/yplib-5.8.2.tar.gz
+[2024-05-23 08:34:09] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: executing diffoscope
+[2024-05-23 08:34:09] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aimiaobi20230801-1.6.0.tar.gz tmp/alibabacloud_aimiaobi20230801-1.6.1.tar.gz --markdown 20240523/a/alibabacloud-aimiaobi20230801/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-23 08:34:09] INFO root fetch - processPackages [mask-key]: executing diffoscope
+[2024-05-23 08:34:09] INFO root fetch - processPackages [mask-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mask_key-0.1.0.tar.gz tmp/mask_key-0.2.0.tar.gz --markdown 20240523/m/mask-key/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-23 08:34:09] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-23 08:34:09] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.8.1.tar.gz tmp/yplib-5.8.2.tar.gz --markdown 20240523/y/yplib/5.8.1-5.8.2/README.md --exclude *.pyd
+[2024-05-23 08:34:10] INFO root fetch - processPackages [muGrid]: Downloading https://files.pythonhosted.org/packages/cd/40/b5c7110be8706795437ec2c7cfa9a19a34b030b311f6d89a17dc5667bd8e/mugrid-0.90.1.tar.gz
+[2024-05-23 08:34:10] INFO root fetch - processPackages [twogroups-heatmap]: Downloading https://files.pythonhosted.org/packages/dc/28/204884a3e1536334143e22f478aa3436c77af6f66b4ab414fff13affbea1/twogroups_heatmap-0.1.1.tar.gz
+[2024-05-23 08:34:10] INFO root fetch - processPackages [muGrid]: executing diffoscope
+[2024-05-23 08:34:10] INFO root fetch - processPackages [muGrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mugrid-0.90.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mugrid-0.90.1.tar.gz --markdown 20240523/m/muGrid/0.90.0-0.90.1/README.md --exclude *.pyd
+[2024-05-23 08:34:10] INFO root fetch - processPackages [twogroups-heatmap]: executing diffoscope
+[2024-05-23 08:34:10] INFO root fetch - processPackages [twogroups-heatmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twogroups_heatmap-0.1.tar.gz tmp/twogroups_heatmap-0.1.1.tar.gz --markdown 20240523/t/twogroups-heatmap/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-23 08:34:10] INFO root fetch - processPackages [mask-key]: Remove: archive file [/home/abi/fetcher/tmp/mask_key-0.1.0.tar.gz]
+[2024-05-23 08:34:10] INFO root fetch - processPackages [mask-key]: Remove: archive file [/home/abi/fetcher/tmp/mask_key-0.2.0.tar.gz]
+[2024-05-23 08:34:10] INFO root fetch - main [MainThread]: End processing [mask-key]: success
+[2024-05-23 08:34:10] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aimiaobi20230801-1.6.0.tar.gz]
+[2024-05-23 08:34:10] INFO root fetch - processPackages [alibabacloud-aimiaobi20230801]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aimiaobi20230801-1.6.1.tar.gz]
+[2024-05-23 08:34:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-aimiaobi20230801]: success
+[2024-05-23 08:34:10] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.1.tar.gz]
+[2024-05-23 08:34:10] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.2.tar.gz]
+[2024-05-23 08:34:10] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-23 08:34:10] INFO root fetch - processPackages [twogroups-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/twogroups_heatmap-0.1.tar.gz]
+[2024-05-23 08:34:10] INFO root fetch - processPackages [twogroups-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/twogroups_heatmap-0.1.1.tar.gz]
+[2024-05-23 08:34:10] INFO root fetch - main [MainThread]: End processing [twogroups-heatmap]: success
+[2024-05-23 08:34:15] INFO root fetch - processPackages [muGrid]: Remove: archive file [/home/abi/fetcher/tmp/mugrid-0.90.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 08:34:15] INFO root fetch - processPackages [muGrid]: Remove: archive file [/home/abi/fetcher/tmp/mugrid-0.90.1.tar.gz]
+[2024-05-23 08:34:15] INFO root fetch - main [MainThread]: End processing [muGrid]: success
+[2024-05-23 08:34:15] INFO root fetch - main [MainThread]: Store serial: [23338503]
