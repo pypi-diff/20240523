@@ -10459,3 +10459,54 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:50:37] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-23 06:50:37] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-23 06:50:37] INFO root fetch - main [MainThread]: Store serial: [23337746]
+[2024-05-23 06:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337746]
+[2024-05-23 06:52:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commute-agci
+[2024-05-23 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: searchlogit
+[2024-05-23 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logfire-python
+[2024-05-23 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marimo
+[2024-05-23 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mask-key
+[2024-05-23 06:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nxstools
+[2024-05-23 06:52:46] WARNING root fetch - processPackages [mask-key]: Skipping, unable to determine old version
+[2024-05-23 06:52:46] INFO root fetch - main [MainThread]: End processing [mask-key] error
+[2024-05-23 06:52:46] INFO root fetch - processPackages [marimo]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-23 06:52:46] INFO root fetch - processPackages [commute-agci]: New version: [0.5.6] Old Version: [0.1.1]
+[2024-05-23 06:52:46] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-23 06:52:46] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/f3/c3/b2c7afdd3fac8a27cf69118b95c313d5274ee8a8c32a1f9aace0150a546c/marimo-0.6.1.tar.gz
+[2024-05-23 06:52:46] INFO root fetch - processPackages [logfire-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 06:52:46] INFO root fetch - processPackages [nxstools]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-05-23 06:52:46] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2024-05-23 06:52:46] INFO root fetch - processPackages [commute-agci]: Downloading https://files.pythonhosted.org/packages/a7/92/d4afe6e6bad3c2c99b23b50e49e7e1547452332091a47e8f3fcc47cf7a6c/commute_agci-0.1.1.tar.gz
+[2024-05-23 06:52:46] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/06/41/896109405073cbe5766562bd6daa7feed962bb8e17fe62a87050aad394b7/logfire-python-0.0.8.tar.gz
+[2024-05-23 06:52:46] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2024-05-23 06:52:46] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/77/76/d12e5b54f30697ea0b81d0a64b7db76d6d77f5d48aa0080d71319ee10fa4/nxstools-4.0.2.tar.gz
+[2024-05-23 06:52:46] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2024-05-23 06:52:46] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20240523/s/searchlogit/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-23 06:52:46] INFO root fetch - processPackages [commute-agci]: Downloading https://files.pythonhosted.org/packages/96/85/0f653a47adf5ecb04c10d7e7d327182b48cb84cd8cb080656872166bc160/commute_agci-0.5.6.tar.gz
+[2024-05-23 06:52:46] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/94/4e/d6760589cd5542acfd7faa8e4319ed7a0288d7b13ac41f4db54e7f2f0b70/logfire_python-0.0.9.tar.gz
+[2024-05-23 06:52:46] INFO root fetch - processPackages [commute-agci]: executing diffoscope
+[2024-05-23 06:52:46] INFO root fetch - processPackages [commute-agci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commute_agci-0.1.1.tar.gz tmp/commute_agci-0.5.6.tar.gz --markdown 20240523/c/commute-agci/0.1.1-0.5.6/README.md --exclude *.pyd
+[2024-05-23 06:52:47] INFO root fetch - processPackages [logfire-python]: executing diffoscope
+[2024-05-23 06:52:47] INFO root fetch - processPackages [logfire-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-python-0.0.8.tar.gz tmp/logfire_python-0.0.9.tar.gz --markdown 20240523/l/logfire-python/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 06:52:47] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/73/d1/54499c5212ceed000a41263e2b21b42633a521e0d36eb715c1386fa8b434/marimo-0.6.2.tar.gz
+[2024-05-23 06:52:47] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/52/f6/8af73c3fc97c05f5a8adc046eae6614792fcf4d8a7587f8cacca737d1ec1/nxstools-4.1.0.tar.gz
+[2024-05-23 06:52:47] INFO root fetch - processPackages [nxstools]: executing diffoscope
+[2024-05-23 06:52:47] INFO root fetch - processPackages [nxstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxstools-4.0.2.tar.gz tmp/nxstools-4.1.0.tar.gz --markdown 20240523/n/nxstools/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-05-23 06:52:47] INFO root fetch - processPackages [commute-agci]: Remove: archive file [/home/abi/fetcher/tmp/commute_agci-0.1.1.tar.gz]
+[2024-05-23 06:52:47] INFO root fetch - processPackages [commute-agci]: Remove: archive file [/home/abi/fetcher/tmp/commute_agci-0.5.6.tar.gz]
+[2024-05-23 06:52:47] INFO root fetch - main [MainThread]: End processing [commute-agci]: success
+[2024-05-23 06:52:47] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-05-23 06:52:47] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.6.1.tar.gz tmp/marimo-0.6.2.tar.gz --markdown 20240523/m/marimo/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-23 06:52:47] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2024-05-23 06:52:47] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2024-05-23 06:52:47] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2024-05-23 06:52:47] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.8.tar.gz]
+[2024-05-23 06:52:47] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire_python-0.0.9.tar.gz]
+[2024-05-23 06:52:47] INFO root fetch - main [MainThread]: End processing [logfire-python]: success
+[2024-05-23 06:52:49] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-4.0.2.tar.gz]
+[2024-05-23 06:52:49] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-4.1.0.tar.gz]
+[2024-05-23 06:52:49] INFO root fetch - main [MainThread]: End processing [nxstools]: success
+[2024-05-23 06:54:31] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.1.tar.gz]
+[2024-05-23 06:54:31] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.2.tar.gz]
+[2024-05-23 06:54:31] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-05-23 06:54:31] INFO root fetch - main [MainThread]: Store serial: [23337766]
