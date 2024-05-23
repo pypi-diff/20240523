@@ -7809,3 +7809,123 @@
 [2024-05-23 03:51:11] INFO root fetch - processPackages [infrastack-otel]: Remove: archive file [/home/abi/fetcher/tmp/infrastack_otel-0.0.3.tar.gz]
 [2024-05-23 03:51:11] INFO root fetch - main [MainThread]: End processing [infrastack-otel]: success
 [2024-05-23 03:51:11] INFO root fetch - main [MainThread]: Store serial: [23336446]
+[2024-05-23 03:53:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336446]
+[2024-05-23 03:53:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-pex-config
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-felis
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yoto-api
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honcho-ai
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-ctrl-bps-parsl
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-ctrl-bps
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-ctrl-bps-panda
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-daf-relation
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-ctrl-bps-htcondor
+[2024-05-23 03:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-pipe-base
+[2024-05-23 03:53:20] INFO root fetch - processPackages [honcho-ai]: New version: [0.0.9] Old Version: [0.0.8a1]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-daf-relation]: New version: [27.0.0rc2] Old Version: [27.0.0rc1]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [honcho-ai]: Downloading https://files.pythonhosted.org/packages/ce/cd/137b643ecef4edb6b249881a080d7595029921478bcf8d32a0a271c56363/honcho_ai-0.0.8a1.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-felis]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-pex-config]: New version: [27.0.0rc2] Old Version: [27.0.0rc1]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [27.0.0rc2] Old Version: [27.0.0rc1]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [27.0.0rc2] Old Version: [27.0.0rc1]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-pipe-base]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/11/cf/723d20317492f44f320ba963c7d8bd4dc53dcd5810b3c6bb0076497aeb50/lsst_felis-27.2024.1900.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/64/37/a7d01c12b77baf4cbb04d92fda0cc63a3f3456f98215d415b1c1d754d352/lsst_ctrl_bps_panda-27.0.0rc1.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/e3/8f/b803bd521f7c1eddb331977072717474eb2cbef1351b8963fb47c03e0a5c/lsst_daf_relation-27.0.0rc1.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [honcho-ai]: Downloading https://files.pythonhosted.org/packages/76/ff/63aa05985fda32e7d17f25f07692475cf4828529c8cd03ad3b2c85c5525c/honcho_ai-0.0.9.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/ba/61/bd44fa292f4c50f877739bfd7653399cfad2b269f2efae6e331ceea2e4cc/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/52/7a/445bd67bf4f35488ed1cd8edfb4b003b1d4de4af83caf18180e6abb30d09/lsst_pex_config-27.0.0rc1.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/30/58/57d777ddf934993cb407ac7cd6b3eddc00a636e33ad9f452309796fa8ae6/lsst_ctrl_bps-27.2024.1900.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/fb/11/e7caafa25f67c19403047ad05dcae6a2f8199f768f63f2dedee532d7c5e5/lsst_pipe_base-27.2024.1900.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/12/76/f254ebac7732e09a75eb9384fb6a84801aee103c4dcb695e4beb42ff1700/lsst_ctrl_bps_parsl-27.0.0rc1.tar.gz
+[2024-05-23 03:53:20] INFO root fetch - processPackages [honcho-ai]: executing diffoscope
+[2024-05-23 03:53:20] INFO root fetch - processPackages [honcho-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honcho_ai-0.0.8a1.tar.gz tmp/honcho_ai-0.0.9.tar.gz --markdown 20240523/h/honcho-ai/0.0.8a1-0.0.9/README.md --exclude *.pyd
+[2024-05-23 03:53:20] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-23 03:53:20] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240523/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/57/bb/4289aba39d83f7e36ea92b0cf3054093af1391550592cc7af70d3aa6d248/lsst_ctrl_bps_panda-27.0.0rc2.tar.gz
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/06/19/0219de51404d460b42a69dfca190e6fa483f3d5ff3e66720d33a1b337880/lsst_felis-27.2024.2000.tar.gz
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/e4/c6/d2c9313eea9adabd4299da08886e7d5f5b4e647b71b3fc636b06c70c7418/lsst_ctrl_bps_parsl-27.0.0rc2.tar.gz
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/c4/27/0c9bf22297c61357e7fc8a56f92874c986c7ccf62813391efaee9f5724c7/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_felis-27.2024.1900.tar.gz tmp/lsst_felis-27.2024.2000.tar.gz --markdown 20240523/l/lsst-felis/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps_panda-27.0.0rc1.tar.gz tmp/lsst_ctrl_bps_panda-27.0.0rc2.tar.gz --markdown 20240523/l/lsst-ctrl-bps-panda/27.0.0rc1-27.0.0rc2/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/87/bb/2f554431356dcab9d8d02a0cd3c4f2cf91be748c01f0d8bb110bc0ff19b8/lsst_ctrl_bps-27.2024.2000.tar.gz
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/ed/23/c201ce21d1ffd46980cf022e421b9ddf62fc99884ac87eb9a7f73af28b74/lsst_pex_config-27.0.0rc2.tar.gz
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/bb/b1/0f86853eec1f348daa4201343a4deaedf309de3f59e8c9e8bb8d680efc94/lsst_pipe_base-27.2024.2000.tar.gz
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps_parsl-27.0.0rc1.tar.gz tmp/lsst_ctrl_bps_parsl-27.0.0rc2.tar.gz --markdown 20240523/l/lsst-ctrl-bps-parsl/27.0.0rc1-27.0.0rc2/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz tmp/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz --markdown 20240523/l/lsst-ctrl-bps-htcondor/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps-27.2024.1900.tar.gz tmp/lsst_ctrl_bps-27.2024.2000.tar.gz --markdown 20240523/l/lsst-ctrl-bps/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_pex_config-27.0.0rc1.tar.gz tmp/lsst_pex_config-27.0.0rc2.tar.gz --markdown 20240523/l/lsst-pex-config/27.0.0rc1-27.0.0rc2/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_pipe_base-27.2024.1900.tar.gz tmp/lsst_pipe_base-27.2024.2000.tar.gz --markdown 20240523/l/lsst-pipe-base/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/eb/ee/df233fc496026f448d3d9d26b8072ea5398f0a2aaedf517e808f3da4ba57/lsst_daf_relation-27.0.0rc2.tar.gz
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2024-05-23 03:53:21] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_daf_relation-27.0.0rc1.tar.gz tmp/lsst_daf_relation-27.0.0rc2.tar.gz --markdown 20240523/l/lsst-daf-relation/27.0.0rc1-27.0.0rc2/README.md --exclude *.pyd
+[2024-05-23 03:53:21] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-23 03:53:21] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-23 03:53:21] INFO root fetch - processPackages [yoto-api]: Start processing: dalpha
+[2024-05-23 03:53:21] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-23 03:53:21] INFO root fetch - processPackages [dalpha]: New version: [0.5.4rc0] Old Version: [0.5.3rc0]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [honcho-ai]: Remove: archive file [/home/abi/fetcher/tmp/honcho_ai-0.0.8a1.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [honcho-ai]: Remove: archive file [/home/abi/fetcher/tmp/honcho_ai-0.0.9.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [honcho-ai]: Start processing: lsst-resources
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [honcho-ai]: success
+[2024-05-23 03:53:22] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/aa/80/b34e46c1d2990bfd257f305553c576eb100fbafacf8451a929d81a771ced/dalpha-0.5.3rc0.tar.gz
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-resources]: New version: [27.0.0rc2] Old Version: [27.0.0rc1]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_panda-27.0.0rc1.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_panda-27.0.0rc2.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: streamlit-chatbox
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2024-05-23 03:53:22] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/03/e6/74488efa86eed324f067f9d54943c18a10a5f3421eeaaf96e7530d01b5c7/dalpha-0.5.4rc0.tar.gz
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_parsl-27.0.0rc1.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_parsl-27.0.0rc2.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.1900.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.2000.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-05-23 03:53:22] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-23 03:53:22] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.5.3rc0.tar.gz tmp/dalpha-0.5.4rc0.tar.gz --markdown 20240523/d/dalpha/0.5.3rc0-0.5.4rc0/README.md --exclude *.pyd
+[2024-05-23 03:53:22] INFO root fetch - processPackages [streamlit-chatbox]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/03/10/0872d10689a243b6e0fd601cd0e80c26d6e758d1697ff7d8af5f89c650ec/lsst_resources-27.0.0rc1.tar.gz
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pex_config-27.0.0rc1.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pex_config-27.0.0rc2.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_relation-27.0.0rc1.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_relation-27.0.0rc2.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.1900.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.2000.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2024-05-23 03:53:22] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/bf/7d/8bb4ab39d910d3d30964fedee60f8a114fd2e4bc50dc33f975dbac098035/streamlit_chatbox-1.1.8-py3-none-any.whl
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.1900.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.2000.tar.gz]
+[2024-05-23 03:53:22] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2024-05-23 03:53:22] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/69/a3/4aed195abddff82f365ebec11ef9fcfa0e062eb0d29dabe8c3632c252887/lsst_resources-27.0.0rc2.tar.gz
+[2024-05-23 03:53:23] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2024-05-23 03:53:23] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_resources-27.0.0rc1.tar.gz tmp/lsst_resources-27.0.0rc2.tar.gz --markdown 20240523/l/lsst-resources/27.0.0rc1-27.0.0rc2/README.md --exclude *.pyd
+[2024-05-23 03:53:23] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.3rc0.tar.gz]
+[2024-05-23 03:53:23] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.4rc0.tar.gz]
+[2024-05-23 03:53:23] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-23 03:53:23] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/c0/eb/71b18f2c0de71e0b49eadcd496124da378a72b3e9d45c832c656d6ad394c/streamlit_chatbox-1.1.9-py3-none-any.whl
+[2024-05-23 03:53:23] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2024-05-23 03:53:23] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-1.1.8-py3-none-any.whl.zip tmp/streamlit_chatbox-1.1.9-py3-none-any.whl.zip --markdown 20240523/s/streamlit-chatbox/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-23 03:53:23] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst_resources-27.0.0rc1.tar.gz]
+[2024-05-23 03:53:23] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst_resources-27.0.0rc2.tar.gz]
+[2024-05-23 03:53:23] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2024-05-23 03:53:23] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.8-py3-none-any.whl.zip]
+[2024-05-23 03:53:23] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.9-py3-none-any.whl.zip]
+[2024-05-23 03:53:23] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2024-05-23 03:53:23] INFO root fetch - main [MainThread]: Store serial: [23336487]
