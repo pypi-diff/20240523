@@ -2342,3 +2342,72 @@
 [2024-05-23 02:10:50] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-23 02:10:50] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-23 02:10:50] INFO root fetch - main [MainThread]: Store serial: [23334518]
+[2024-05-23 02:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334518]
+[2024-05-23 02:12:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vocabulary-quiz
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stefutils
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-quantizers-nightly
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyerualjetwork
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ding-api-client
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gifanimus
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: captif-slp
+[2024-05-23 02:12:59] INFO root fetch - processPackages [vocabulary-quiz]: New version: [0.5] Old Version: [0.4]
+[2024-05-23 02:12:59] WARNING root fetch - processPackages [gifanimus]: Skipping, unable to determine old version
+[2024-05-23 02:12:59] INFO root fetch - main [MainThread]: End processing [gifanimus] error
+[2024-05-23 02:12:59] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ding-api-client]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-05-23 02:12:59] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240522.post1048] Old Version: [1.5.0.20240521.post1112]
+[2024-05-23 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-23 02:12:59] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-23 02:12:59] INFO root fetch - processPackages [vocabulary-quiz]: Downloading https://files.pythonhosted.org/packages/6f/1d/5dcc7a2976cb43a7704b1caf151e0969001213aac2a9ce89dfd2620d375f/vocabulary_quiz-0.4.tar.gz
+[2024-05-23 02:12:59] INFO root fetch - processPackages [captif-slp]: New version: [0.9] Old Version: [0.8]
+[2024-05-23 02:12:59] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/4c/17/3003dc334a66f3eebd4f2fc5e82be8e641e9ac4e25892c20196add5e5459/pyerualjetwork-1.1.0.tar.gz
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/41/4a/463f73315edeca00b5fc27bf26b97acbd0b7adf66c82b940fdaf079cafad/ding_api_client-3.7.0.tar.gz
+[2024-05-23 02:12:59] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/7e/d5/55678e63769944a2e9914990f66989dd7cf3da7e8fe3a2738432a32ad109/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz
+[2024-05-23 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-23 02:12:59] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-23 02:12:59] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/75/c7/7fb5e638eb2c7b5d22b7e0d723ee989855703084d4e73e59b9177bafba52/captif-slp-0.8.tar.gz
+[2024-05-23 02:12:59] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/67/c2/c2ff82981b36e2a9bf0e7fe4ca55140453662f5173f9ecea36a39d75b27a/ding_api_client-3.7.1.tar.gz
+[2024-05-23 02:13:00] INFO root fetch - processPackages [vocabulary-quiz]: Downloading https://files.pythonhosted.org/packages/64/46/0a35eb00f953b1a8f60c45be6b8600f06341d5d2c934b87f509d5b6a5ad5/vocabulary_quiz-0.5.tar.gz
+[2024-05-23 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-23 02:13:00] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/be/48/91d0494f443be247459e630c328316b613b6b377cb711806b8f82fa02eac/pyerualjetwork-1.1.1.tar.gz
+[2024-05-23 02:13:00] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/93/58/496d0eb6230e5116d895caf159dbd5f541b5a3ef7bbf711ae80475d37d30/mct-quantizers-nightly-1.5.0.20240522.post1048.tar.gz
+[2024-05-23 02:13:00] INFO root fetch - processPackages [ding-api-client]: executing diffoscope
+[2024-05-23 02:13:00] INFO root fetch - processPackages [ding-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ding_api_client-3.7.0.tar.gz tmp/ding_api_client-3.7.1.tar.gz --markdown 20240523/d/ding-api-client/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-05-23 02:13:00] INFO root fetch - processPackages [vocabulary-quiz]: executing diffoscope
+[2024-05-23 02:13:00] INFO root fetch - processPackages [vocabulary-quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocabulary_quiz-0.4.tar.gz tmp/vocabulary_quiz-0.5.tar.gz --markdown 20240523/v/vocabulary-quiz/0.4-0.5/README.md --exclude *.pyd
+[2024-05-23 02:13:00] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 02:13:00] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.1.0.tar.gz tmp/pyerualjetwork-1.1.1.tar.gz --markdown 20240523/p/pyerualjetwork/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-23 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-23 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240523/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-23 02:13:00] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-23 02:13:00] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240522.post1048.tar.gz --markdown 20240523/m/mct-quantizers-nightly/1.5.0.20240521.post1112-1.5.0.20240522.post1048/README.md --exclude *.pyd
+[2024-05-23 02:13:00] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-23 02:13:00] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/08/59/6bc2fe7908f5fe4b6d93eb6f7c0c450a0e43b7ade9ce1906f1d0269f6d1f/captif-slp-0.9.tar.gz
+[2024-05-23 02:13:00] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-23 02:13:00] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240523/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-23 02:13:00] INFO root fetch - processPackages [captif-slp]: executing diffoscope
+[2024-05-23 02:13:00] INFO root fetch - processPackages [captif-slp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif-slp-0.8.tar.gz tmp/captif-slp-0.9.tar.gz --markdown 20240523/c/captif-slp/0.8-0.9/README.md --exclude *.pyd
+[2024-05-23 02:13:00] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.1.0.tar.gz]
+[2024-05-23 02:13:00] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.1.1.tar.gz]
+[2024-05-23 02:13:00] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-23 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-23 02:13:00] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-23 02:13:01] INFO root fetch - processPackages [vocabulary-quiz]: Remove: archive file [/home/abi/fetcher/tmp/vocabulary_quiz-0.4.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - processPackages [vocabulary-quiz]: Remove: archive file [/home/abi/fetcher/tmp/vocabulary_quiz-0.5.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - main [MainThread]: End processing [vocabulary-quiz]: success
+[2024-05-23 02:13:01] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.7.0.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.7.1.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - main [MainThread]: End processing [ding-api-client]: success
+[2024-05-23 02:13:01] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-23 02:13:01] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240522.post1048.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-23 02:13:01] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.8.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.9.tar.gz]
+[2024-05-23 02:13:01] INFO root fetch - main [MainThread]: End processing [captif-slp]: success
+[2024-05-23 02:13:01] INFO root fetch - main [MainThread]: Store serial: [23334541]
