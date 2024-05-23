@@ -21450,3 +21450,184 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 13:12:42] INFO root fetch - processPackages [furtheredge]: Remove: archive file [/home/abi/fetcher/tmp/furtheredge-0.1.2.tar.gz]
 [2024-05-23 13:12:42] INFO root fetch - main [MainThread]: End processing [furtheredge]: success
 [2024-05-23 13:12:42] INFO root fetch - main [MainThread]: Store serial: [23342259]
+[2024-05-23 13:14:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342259]
+[2024-05-23 13:14:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms3
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bibla
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chemfusekit
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiohttp-oauth2-client
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docker
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codex-africanus
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynyhtm
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-smartbase-admin
+[2024-05-23 13:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IvmDriver
+[2024-05-23 13:14:53] INFO root fetch - processPackages [bibla]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [docker]: New version: [7.0.0b3] Old Version: [7.0.0b2]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [IvmDriver]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [ms3]: New version: [2.5.0] Old Version: [2.4.4]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [bibla]: Downloading https://files.pythonhosted.org/packages/ba/36/95a29cb5dfe57f47d36a79e5f1131354558367414999bfd529049f5c1b94/bibla-2.0.6.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [IvmDriver]: Downloading https://files.pythonhosted.org/packages/c1/d2/4f166586b672916388fd2d59e28659adf960575f8903e93745df8efb5914/IvmDriver-0.0.3.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240523] Old Version: [2.5.0b20240522]
+[2024-05-23 13:14:53] WARNING root fetch - processPackages [aiohttp-oauth2-client]: Skipping, unable to determine old version
+[2024-05-23 13:14:53] INFO root fetch - processPackages [aiohttp-oauth2-client]: Start processing: pydae
+[2024-05-23 13:14:53] INFO root fetch - main [MainThread]: End processing [aiohttp-oauth2-client] error
+[2024-05-23 13:14:53] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [codex-africanus]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [pynyhtm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 13:14:53] INFO root fetch - processPackages [docker]: Downloading https://files.pythonhosted.org/packages/01/69/5fa82a4157a8489a02877a87282bacabbd1a50b8ff7051a0a904853d3df0/docker-7.0.0b2.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [pynyhtm]: Downloading https://files.pythonhosted.org/packages/ce/80/cc76cd0be620f5db2d5f0dfdf16d9541f302f507b4123481feba8593d979/pynyhtm-0.0.2.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [ms3]: Downloading https://files.pythonhosted.org/packages/7a/0a/9214387c2f0bea0bb1529876fdc309390d70328bc490b5e8fd4929193e66/ms3-2.4.4.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/0e/f3/c105578f4268de24cbfb5c1791c3a18e8c180945dd505d48feb55035351c/bigdl_core_xe_esimd_21-2.5.0b20240522-cp39-cp39-win_amd64.whl
+[2024-05-23 13:14:53] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/bc/1c/d1c41c5f8fa25bd474f379dddd64d4ff282d37c5e6932fda4e3220868c08/chemfusekit-1.1.0b2.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-23 13:14:53] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2024-05-23 13:14:53] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2024-05-23 13:14:53] INFO root fetch - processPackages [bibla]: Downloading https://files.pythonhosted.org/packages/f0/c9/e05c5838ca273151832411f8fbba22dc5d9052541b9502abbe9f12381e3b/bibla-2.0.7.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [IvmDriver]: Downloading https://files.pythonhosted.org/packages/a7/b2/57860de7e74b42ee3fba85503404fcdd951c8b8449c211548d81e912fc47/IvmDriver-0.0.4.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [codex-africanus]: Downloading https://files.pythonhosted.org/packages/87/41/4c08aff74678566d9ee0cd7d05d51578299c8f1b6693c386097a40133e77/codex_africanus-0.3.6.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [docker]: Downloading https://files.pythonhosted.org/packages/d4/9f/6ddd3ecec4ee676ce2a942aa842581b706354c958d67a8dd246950965ce4/docker-7.0.0b3.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [bibla]: executing diffoscope
+[2024-05-23 13:14:53] INFO root fetch - processPackages [bibla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibla-2.0.6.tar.gz tmp/bibla-2.0.7.tar.gz --markdown 20240523/b/bibla/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-23 13:14:53] INFO root fetch - processPackages [pynyhtm]: Downloading https://files.pythonhosted.org/packages/63/df/290aae665d86b558f8cf3c39c9c13b7a6447917b8be753b3b0f8b0ee595f/pynyhtm-0.0.3.tar.gz
+[2024-05-23 13:14:53] INFO root fetch - processPackages [docker]: executing diffoscope
+[2024-05-23 13:14:53] INFO root fetch - processPackages [docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-7.0.0b2.tar.gz tmp/docker-7.0.0b3.tar.gz --markdown 20240523/d/docker/7.0.0b2-7.0.0b3/README.md --exclude *.pyd
+[2024-05-23 13:14:53] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/2c/2b/fdaea562eace4743964773085ecc418c44cf6ea8a07a4c6121cf3ba41dbb/bigdl_core_xe_esimd_21-2.5.0b20240523-cp311-cp311-win_amd64.whl
+[2024-05-23 13:14:54] INFO root fetch - processPackages [IvmDriver]: executing diffoscope
+[2024-05-23 13:14:54] INFO root fetch - processPackages [IvmDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IvmDriver-0.0.3.tar.gz tmp/IvmDriver-0.0.4.tar.gz --markdown 20240523/I/IvmDriver/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 13:14:54] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/5f/16/537b08afc0ad316941efd041e930c5649e3371fb37d0793cf4d149fe34a6/chemfusekit-1.1.0b3.tar.gz
+[2024-05-23 13:14:54] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-23 13:14:54] INFO root fetch - processPackages [codex-africanus]: Downloading https://files.pythonhosted.org/packages/4e/07/838715490f6136fd5e64c0389e8b9bea3c1c5898a1aca1ecd4d1324940ea/codex_africanus-0.3.7.tar.gz
+[2024-05-23 13:14:54] INFO root fetch - processPackages [pynyhtm]: executing diffoscope
+[2024-05-23 13:14:54] INFO root fetch - processPackages [pynyhtm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynyhtm-0.0.2.tar.gz tmp/pynyhtm-0.0.3.tar.gz --markdown 20240523/p/pynyhtm/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 13:14:54] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-23 13:14:54] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.0b2.tar.gz tmp/chemfusekit-1.1.0b3.tar.gz --markdown 20240523/c/chemfusekit/1.1.0b2-1.1.0b3/README.md --exclude *.pyd
+[2024-05-23 13:14:54] INFO root fetch - processPackages [codex-africanus]: executing diffoscope
+[2024-05-23 13:14:54] INFO root fetch - processPackages [codex-africanus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codex_africanus-0.3.6.tar.gz tmp/codex_africanus-0.3.7.tar.gz --markdown 20240523/c/codex-africanus/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-23 13:14:54] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-23 13:14:54] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240523/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-23 13:14:54] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-23 13:14:54] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240522-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240523-cp311-cp311-win_amd64.whl.zip --markdown 20240523/b/bigdl-core-xe-esimd-21/2.5.0b20240522-2.5.0b20240523/README.md --exclude *.pyd
+[2024-05-23 13:14:54] INFO root fetch - processPackages [bibla]: Remove: archive file [/home/abi/fetcher/tmp/bibla-2.0.6.tar.gz]
+[2024-05-23 13:14:54] INFO root fetch - processPackages [bibla]: Remove: archive file [/home/abi/fetcher/tmp/bibla-2.0.7.tar.gz]
+[2024-05-23 13:14:54] INFO root fetch - main [MainThread]: End processing [bibla]: success
+[2024-05-23 13:14:55] INFO root fetch - processPackages [IvmDriver]: Remove: archive file [/home/abi/fetcher/tmp/IvmDriver-0.0.3.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - processPackages [IvmDriver]: Remove: archive file [/home/abi/fetcher/tmp/IvmDriver-0.0.4.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - main [MainThread]: End processing [IvmDriver]: success
+[2024-05-23 13:14:55] INFO root fetch - processPackages [ms3]: Downloading https://files.pythonhosted.org/packages/8a/88/44bc8a14a995767647a8320cbd3dc214b56bfa6e79d05d1c46f2140883a4/ms3-2.5.0.tar.gz
+[2024-05-23 13:14:55] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-23T13:14:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140319131704832)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140318997486992)
+
+[2024-05-23 13:14:55] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-23 13:14:55] INFO root fetch - processPackages [docker]: Remove: archive file [/home/abi/fetcher/tmp/docker-7.0.0b2.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - processPackages [docker]: Remove: archive file [/home/abi/fetcher/tmp/docker-7.0.0b3.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - main [MainThread]: End processing [docker]: success
+[2024-05-23 13:14:55] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.0b2.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.0b3.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-23 13:14:55] INFO root fetch - processPackages [ms3]: executing diffoscope
+[2024-05-23 13:14:55] INFO root fetch - processPackages [ms3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms3-2.4.4.tar.gz tmp/ms3-2.5.0.tar.gz --markdown 20240523/m/ms3/2.4.4-2.5.0/README.md --exclude *.pyd
+[2024-05-23 13:14:55] INFO root fetch - processPackages [codex-africanus]: Remove: archive file [/home/abi/fetcher/tmp/codex_africanus-0.3.6.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - processPackages [codex-africanus]: Remove: archive file [/home/abi/fetcher/tmp/codex_africanus-0.3.7.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - main [MainThread]: End processing [codex-africanus]: success
+[2024-05-23 13:14:55] INFO root fetch - processPackages [pynyhtm]: Remove: archive file [/home/abi/fetcher/tmp/pynyhtm-0.0.2.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - processPackages [pynyhtm]: Remove: archive file [/home/abi/fetcher/tmp/pynyhtm-0.0.3.tar.gz]
+[2024-05-23 13:14:55] INFO root fetch - main [MainThread]: End processing [pynyhtm]: success
+[2024-05-23 13:14:59] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-23 13:14:59] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-23 13:14:59] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-23 13:15:42] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-2.4.4.tar.gz]
+[2024-05-23 13:15:42] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-2.5.0.tar.gz]
+[2024-05-23 13:15:42] INFO root fetch - main [MainThread]: End processing [ms3]: success
+[2024-05-23 13:15:42] INFO root fetch - main [MainThread]: Store serial: [23342312]
