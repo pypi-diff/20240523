@@ -2114,3 +2114,36 @@
 [2024-05-23 01:59:29] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab.py-0.3.2.tar.gz]
 [2024-05-23 01:59:29] INFO root fetch - main [MainThread]: End processing [mlab.py]: success
 [2024-05-23 01:59:29] INFO root fetch - main [MainThread]: Store serial: [23334436]
+[2024-05-23 02:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334436]
+[2024-05-23 02:01:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 02:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_medicio_dental
+[2024-05-23 02:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpimerge
+[2024-05-23 02:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ue-uploader
+[2024-05-23 02:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-pytorch
+[2024-05-23 02:01:37] INFO root fetch - processPackages [django_medicio_dental]: New version: [3.0.0] Old Version: [2.0.3]
+[2024-05-23 02:01:37] INFO root fetch - processPackages [cpimerge]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-23 02:01:37] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-23 02:01:37] WARNING root fetch - processPackages [ue-uploader]: Skipping, unable to determine old version
+[2024-05-23 02:01:37] INFO root fetch - main [MainThread]: End processing [ue-uploader] error
+[2024-05-23 02:01:37] INFO root fetch - processPackages [django_medicio_dental]: Downloading https://files.pythonhosted.org/packages/a0/bb/883c0eafcad54c19a89d9d63815f9ab94d525a4065304ef41c91704722fe/django_medicio_dental-2.0.3.tar.gz
+[2024-05-23 02:01:37] INFO root fetch - processPackages [cpimerge]: Downloading https://files.pythonhosted.org/packages/9f/70/e58928b15e32adb0c1cb327f56bf16676f4c4512f58d4e06518f92037044/cpimerge-0.4.2-py3-none-any.whl
+[2024-05-23 02:01:37] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-23 02:01:37] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-23 02:01:37] INFO root fetch - processPackages [cpimerge]: Downloading https://files.pythonhosted.org/packages/18/99/7c4373d4f69519d05948505ff2aa2dd84e28fe01099885860f7f19c86088/cpimerge-0.4.3-py3-none-any.whl
+[2024-05-23 02:01:37] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-23 02:01:37] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240523/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-23 02:01:37] INFO root fetch - processPackages [django_medicio_dental]: Downloading https://files.pythonhosted.org/packages/a1/ee/6925dea4fe50e1a8f8a831131b161b698f4f8d4917a1b7446cb3d530d367/django_medicio_dental-3.0.0.tar.gz
+[2024-05-23 02:01:38] INFO root fetch - processPackages [cpimerge]: executing diffoscope
+[2024-05-23 02:01:38] INFO root fetch - processPackages [cpimerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpimerge-0.4.2-py3-none-any.whl.zip tmp/cpimerge-0.4.3-py3-none-any.whl.zip --markdown 20240523/c/cpimerge/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-23 02:01:38] INFO root fetch - processPackages [django_medicio_dental]: executing diffoscope
+[2024-05-23 02:01:38] INFO root fetch - processPackages [django_medicio_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_medicio_dental-2.0.3.tar.gz tmp/django_medicio_dental-3.0.0.tar.gz --markdown 20240523/d/django_medicio_dental/2.0.3-3.0.0/README.md --exclude *.pyd
+[2024-05-23 02:01:38] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-23 02:01:38] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-23 02:01:38] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-23 02:01:38] INFO root fetch - processPackages [cpimerge]: Remove: archive file [/home/abi/fetcher/tmp/cpimerge-0.4.2-py3-none-any.whl.zip]
+[2024-05-23 02:01:38] INFO root fetch - processPackages [cpimerge]: Remove: archive file [/home/abi/fetcher/tmp/cpimerge-0.4.3-py3-none-any.whl.zip]
+[2024-05-23 02:01:38] INFO root fetch - main [MainThread]: End processing [cpimerge]: success
+[2024-05-23 02:01:40] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-2.0.3.tar.gz]
+[2024-05-23 02:01:40] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-3.0.0.tar.gz]
+[2024-05-23 02:01:40] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
+[2024-05-23 02:01:40] INFO root fetch - main [MainThread]: Store serial: [23334448]
