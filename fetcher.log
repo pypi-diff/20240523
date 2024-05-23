@@ -10671,3 +10671,15 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:07:32] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-7.0.0.tar.gz]
 [2024-05-23 07:07:32] INFO root fetch - main [MainThread]: End processing [metamist]: success
 [2024-05-23 07:07:32] INFO root fetch - main [MainThread]: Store serial: [23337865]
+[2024-05-23 07:09:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337865]
+[2024-05-23 07:09:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 07:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaizen-cloudcode
+[2024-05-23 07:09:42] INFO root fetch - processPackages [kaizen-cloudcode]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 07:09:42] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/f1/55/f80272be3e1648104bf08d9742ea6432a688a9e6042c034220d53fe3eebe/kaizen_cloudcode-0.1.8.tar.gz
+[2024-05-23 07:09:43] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/e4/d9/2c4a647ea9b29da3866ad33e2f70daddb22b06068d121a2e48e92d9a5b18/kaizen_cloudcode-0.1.9.tar.gz
+[2024-05-23 07:09:43] INFO root fetch - processPackages [kaizen-cloudcode]: executing diffoscope
+[2024-05-23 07:09:43] INFO root fetch - processPackages [kaizen-cloudcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaizen_cloudcode-0.1.8.tar.gz tmp/kaizen_cloudcode-0.1.9.tar.gz --markdown 20240523/k/kaizen-cloudcode/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 07:09:43] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.8.tar.gz]
+[2024-05-23 07:09:43] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.9.tar.gz]
+[2024-05-23 07:09:43] INFO root fetch - main [MainThread]: End processing [kaizen-cloudcode]: success
+[2024-05-23 07:09:43] INFO root fetch - main [MainThread]: Store serial: [23337868]
