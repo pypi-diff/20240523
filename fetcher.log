@@ -10943,3 +10943,15 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:27:36] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
 [2024-05-23 07:27:36] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
 [2024-05-23 07:27:36] INFO root fetch - main [MainThread]: Store serial: [23337970]
+[2024-05-23 07:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337970]
+[2024-05-23 07:29:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jfExt
+[2024-05-23 07:29:45] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 07:29:45] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 07:29:45] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 07:29:45] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 07:29:45] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 07:29:46] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 07:29:46] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 07:29:46] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 07:29:46] INFO root fetch - main [MainThread]: Store serial: [23337973]
