@@ -3263,3 +3263,42 @@
 [2024-05-23 02:51:57] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.166-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-23 02:51:57] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-23 02:51:57] INFO root fetch - main [MainThread]: Store serial: [23334877]
+[2024-05-23 02:54:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334877]
+[2024-05-23 02:54:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 02:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluetooth-sensor-state-data
+[2024-05-23 02:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2024-05-23 02:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI
+[2024-05-23 02:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pp-weight-estimation
+[2024-05-23 02:54:13] INFO root fetch - processPackages [pp-weight-estimation]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 02:54:13] INFO root fetch - processPackages [OZI]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 02:54:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-23 02:54:13] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/95/1d/90d5d93e286e4ea29a99424a2aa7189168fdc71fe2dd12211b825cc51865/pp_weight_estimation-1.0.8.tar.gz
+[2024-05-23 02:54:13] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/bc/7a/db952d02b972685815c78bcb22f482b587f8870cd0add1c77b238e19c010/OZI-1.9.2.tar.gz
+[2024-05-23 02:54:13] INFO root fetch - processPackages [bluetooth-sensor-state-data]: New version: [1.7.0] Old Version: [1.6.2]
+[2024-05-23 02:54:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2024-05-23 02:54:13] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/7f/65/287547ea7b2bd9d6aa7b3ca8333bb8e28031226762f45eb99f744c5fc685/pp_weight_estimation-1.0.9.tar.gz
+[2024-05-23 02:54:13] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/90/b0/fa23686aa6dd7f8157c7f096401eea7df8b40cb4672f5d346c5ee3aa1501/OZI-1.9.3.tar.gz
+[2024-05-23 02:54:13] INFO root fetch - processPackages [bluetooth-sensor-state-data]: Downloading https://files.pythonhosted.org/packages/73/d1/3865ed0697b1e4b016334cef12ae727bbc454fdf98f34252a25f22590523/bluetooth_sensor_state_data-1.6.2.tar.gz
+[2024-05-23 02:54:13] INFO root fetch - processPackages [pp-weight-estimation]: executing diffoscope
+[2024-05-23 02:54:13] INFO root fetch - processPackages [pp-weight-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_weight_estimation-1.0.8.tar.gz tmp/pp_weight_estimation-1.0.9.tar.gz --markdown 20240523/p/pp-weight-estimation/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 02:54:13] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-23 02:54:13] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.9.2.tar.gz tmp/OZI-1.9.3.tar.gz --markdown 20240523/O/OZI/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 02:54:13] INFO root fetch - processPackages [bluetooth-sensor-state-data]: Downloading https://files.pythonhosted.org/packages/58/72/3fe21e5d56cd340d8ba8f226bf439c9bc5ef0e0ff8305989b7bb52be7626/bluetooth_sensor_state_data-1.7.0.tar.gz
+[2024-05-23 02:54:13] INFO root fetch - processPackages [bluetooth-sensor-state-data]: executing diffoscope
+[2024-05-23 02:54:13] INFO root fetch - processPackages [bluetooth-sensor-state-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_sensor_state_data-1.6.2.tar.gz tmp/bluetooth_sensor_state_data-1.7.0.tar.gz --markdown 20240523/b/bluetooth-sensor-state-data/1.6.2-1.7.0/README.md --exclude *.pyd
+[2024-05-23 02:54:13] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.0.8.tar.gz]
+[2024-05-23 02:54:13] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.0.9.tar.gz]
+[2024-05-23 02:54:13] INFO root fetch - main [MainThread]: End processing [pp-weight-estimation]: success
+[2024-05-23 02:54:14] INFO root fetch - processPackages [bluetooth-sensor-state-data]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_sensor_state_data-1.6.2.tar.gz]
+[2024-05-23 02:54:14] INFO root fetch - processPackages [bluetooth-sensor-state-data]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_sensor_state_data-1.7.0.tar.gz]
+[2024-05-23 02:54:14] INFO root fetch - main [MainThread]: End processing [bluetooth-sensor-state-data]: success
+[2024-05-23 02:54:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.2.tar.gz]
+[2024-05-23 02:54:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.3.tar.gz]
+[2024-05-23 02:54:14] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-23 02:54:15] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2024-05-23 02:54:15] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2024-05-23 02:54:15] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20240523/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-23 02:54:16] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2024-05-23 02:54:16] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2024-05-23 02:54:16] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2024-05-23 02:54:16] INFO root fetch - main [MainThread]: Store serial: [23334893]
