@@ -8274,3 +8274,18 @@
 [2024-05-23 04:17:18] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
 [2024-05-23 04:17:18] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-05-23 04:17:18] INFO root fetch - main [MainThread]: Store serial: [23336621]
+[2024-05-23 04:19:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336621]
+[2024-05-23 04:19:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 04:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinnsjax
+[2024-05-23 04:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-23 04:19:27] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 04:19:27] WARNING root fetch - processPackages [pinnsjax]: Skipping, unable to determine old version
+[2024-05-23 04:19:27] INFO root fetch - main [MainThread]: End processing [pinnsjax] error
+[2024-05-23 04:19:27] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/a8/cd/20285260203174b25c37ecba1add69fc535f380cce915281e7e3df62ac6e/duwi_smarthome_sdk_dev-0.1.0.tar.gz
+[2024-05-23 04:19:28] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/0b/9b/9fa8f8be8a5072c0b68f2a44414eb22089b01fd8d28a265bb750671cad9d/duwi_smarthome_sdk_dev-0.1.1.tar.gz
+[2024-05-23 04:19:28] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-23 04:19:28] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.1.0.tar.gz tmp/duwi_smarthome_sdk_dev-0.1.1.tar.gz --markdown 20240523/d/duwi-smarthome-sdk-dev/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 04:19:28] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.0.tar.gz]
+[2024-05-23 04:19:28] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.1.tar.gz]
+[2024-05-23 04:19:28] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-23 04:19:28] INFO root fetch - main [MainThread]: Store serial: [23336632]
