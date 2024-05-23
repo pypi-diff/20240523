@@ -23132,3 +23132,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 14:01:29] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py_avro_schema-3.7.0.tar.gz]
 [2024-05-23 14:01:29] INFO root fetch - main [MainThread]: End processing [py-avro-schema]: success
 [2024-05-23 14:01:29] INFO root fetch - main [MainThread]: Store serial: [23342938]
+[2024-05-23 14:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342938]
+[2024-05-23 14:03:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-env-robots
+[2024-05-23 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-ledger
+[2024-05-23 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smbmap
+[2024-05-23 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-option-menu-patch
+[2024-05-23 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: database-mysql-local
+[2024-05-23 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wwpdb.utils.dp
+[2024-05-23 14:03:38] INFO root fetch - processPackages [aa-ledger]: New version: [0.4.0] Old Version: [0.3.8a1]
+[2024-05-23 14:03:38] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.320] Old Version: [0.0.319]
+[2024-05-23 14:03:38] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/c0/68/33f8aca635f2769aab9859ba5ddffb5ea67c0562728130d6e29d2681b5da/aa_ledger-0.3.8a1.tar.gz
+[2024-05-23 14:03:38] WARNING root fetch - processPackages [streamlit-option-menu-patch]: Skipping, unable to determine old version
+[2024-05-23 14:03:38] INFO root fetch - main [MainThread]: End processing [streamlit-option-menu-patch] error
+[2024-05-23 14:03:38] INFO root fetch - processPackages [wwpdb.utils.dp]: New version: [0.51.1.dev1] Old Version: [0.51]
+[2024-05-23 14:03:38] WARNING root fetch - processPackages [django-env-robots]: Skipping, unable to determine old version
+[2024-05-23 14:03:38] INFO root fetch - main [MainThread]: End processing [django-env-robots] error
+[2024-05-23 14:03:38] INFO root fetch - processPackages [smbmap]: New version: [1.8.2] Old Version: [1.10.3]
+[2024-05-23 14:03:38] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/cb/7a/7367468374a98237685d45fbe121ac8b05b4866be540d943900e40be12ee/database_mysql_local-0.0.319.tar.gz
+[2024-05-23 14:03:39] INFO root fetch - processPackages [smbmap]: Downloading https://files.pythonhosted.org/packages/19/a3/b5d7882fe427f50be931f2fbaa59472d8bf81ffb4a22a535bbc3180816c6/smbmap-1.10.3.tar.gz
+[2024-05-23 14:03:39] INFO root fetch - processPackages [wwpdb.utils.dp]: Downloading https://files.pythonhosted.org/packages/46/b1/e2a0d41df13d08a4cdcd000bc31dacb3698525f4148a0b991ab0227f2ccc/wwpdb_utils_dp-0.51.tar.gz
+[2024-05-23 14:03:39] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/f8/42/dd93e451ed80dd115042deb148ffb57736d2481f7b79915a679cf9674bfa/database_mysql_local-0.0.320.tar.gz
+[2024-05-23 14:03:39] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/4d/91/2e3181e7a8acc7893185f50d10dbaeb42e38bd3dbf113a66094f03a1a975/aa_ledger-0.4.0.tar.gz
+[2024-05-23 14:03:39] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-23 14:03:39] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.319.tar.gz tmp/database_mysql_local-0.0.320.tar.gz --markdown 20240523/d/database-mysql-local/0.0.319-0.0.320/README.md --exclude *.pyd
+[2024-05-23 14:03:39] INFO root fetch - processPackages [smbmap]: Downloading https://files.pythonhosted.org/packages/b7/8d/7af9153e72fc46352ba9d95752cd78a20cd1ae66a7deca324a9405a8bfd1/smbmap-1.8.2.tar.gz
+[2024-05-23 14:03:39] INFO root fetch - processPackages [aa-ledger]: executing diffoscope
+[2024-05-23 14:03:39] INFO root fetch - processPackages [aa-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_ledger-0.3.8a1.tar.gz tmp/aa_ledger-0.4.0.tar.gz --markdown 20240523/a/aa-ledger/0.3.8a1-0.4.0/README.md --exclude *.pyd
+[2024-05-23 14:03:39] INFO root fetch - processPackages [wwpdb.utils.dp]: Downloading https://files.pythonhosted.org/packages/2e/ec/1f95eb32283dbf1bcf546adcc23a2685d64613ed65e5d82a361a9397e583/wwpdb_utils_dp-0.51.1.dev1.tar.gz
+[2024-05-23 14:03:39] INFO root fetch - processPackages [smbmap]: executing diffoscope
+[2024-05-23 14:03:39] INFO root fetch - processPackages [smbmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smbmap-1.10.3.tar.gz tmp/smbmap-1.8.2.tar.gz --markdown 20240523/s/smbmap/1.10.3-1.8.2/README.md --exclude *.pyd
+[2024-05-23 14:03:39] INFO root fetch - processPackages [wwpdb.utils.dp]: executing diffoscope
+[2024-05-23 14:03:39] INFO root fetch - processPackages [wwpdb.utils.dp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb_utils_dp-0.51.tar.gz tmp/wwpdb_utils_dp-0.51.1.dev1.tar.gz --markdown 20240523/w/wwpdb.utils.dp/0.51-0.51.1.dev1/README.md --exclude *.pyd
+[2024-05-23 14:03:40] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.319.tar.gz]
+[2024-05-23 14:03:40] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.320.tar.gz]
+[2024-05-23 14:03:40] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-23 14:03:40] INFO root fetch - processPackages [smbmap]: Remove: archive file [/home/abi/fetcher/tmp/smbmap-1.10.3.tar.gz]
+[2024-05-23 14:03:40] INFO root fetch - processPackages [smbmap]: Remove: archive file [/home/abi/fetcher/tmp/smbmap-1.8.2.tar.gz]
+[2024-05-23 14:03:40] INFO root fetch - main [MainThread]: End processing [smbmap]: success
+[2024-05-23 14:03:40] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.3.8a1.tar.gz]
+[2024-05-23 14:03:40] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.4.0.tar.gz]
+[2024-05-23 14:03:40] INFO root fetch - main [MainThread]: End processing [aa-ledger]: success
+[2024-05-23 14:03:40] INFO root fetch - processPackages [wwpdb.utils.dp]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_utils_dp-0.51.tar.gz]
+[2024-05-23 14:03:40] INFO root fetch - processPackages [wwpdb.utils.dp]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_utils_dp-0.51.1.dev1.tar.gz]
+[2024-05-23 14:03:40] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.dp]: success
+[2024-05-23 14:03:40] INFO root fetch - main [MainThread]: Store serial: [23342962]
