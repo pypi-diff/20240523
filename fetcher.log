@@ -17149,3 +17149,42 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:19:39] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip]
 [2024-05-23 11:19:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
 [2024-05-23 11:19:39] INFO root fetch - main [MainThread]: Store serial: [23340768]
+[2024-05-23 11:21:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340768]
+[2024-05-23 11:21:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-23 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-05-23 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solar-registry
+[2024-05-23 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: refunc-cli
+[2024-05-23 11:21:48] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 11:21:48] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 11:21:48] INFO root fetch - processPackages [cg]: New version: [60.8.5] Old Version: [60.8.4]
+[2024-05-23 11:21:48] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-23 11:21:48] INFO root fetch - processPackages [refunc-cli]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-23 11:21:48] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 11:21:48] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0f/aa/c41539a9135bf8c414107403f8bda93ad4d55fd960b556717531cf234a11/cg-60.8.4.tar.gz
+[2024-05-23 11:21:48] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-23 11:21:48] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 11:21:49] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-23 11:21:49] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240523/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 11:21:49] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 11:21:49] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 11:21:49] INFO root fetch - processPackages [refunc-cli]: Downloading https://files.pythonhosted.org/packages/9b/07/85c1b8bf4c47f17b5f69f807560c9d786c2b53c4f43d461b852b65b9d961/refunc-cli-1.3.1.tar.gz
+[2024-05-23 11:21:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/49/64/d0d7b97ef62f14f633295b29bc6214fe9a07c59413f8b7b7a2833e914d1c/cg-60.8.5.tar.gz
+[2024-05-23 11:21:49] INFO root fetch - processPackages [refunc-cli]: Downloading https://files.pythonhosted.org/packages/5f/b6/737298a1a9c1077b5d48538c9fc03b39e973b840421382162a6ccd380bc1/refunc-cli-1.3.2.tar.gz
+[2024-05-23 11:21:49] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-23 11:21:49] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.4.tar.gz tmp/cg-60.8.5.tar.gz --markdown 20240523/c/cg/60.8.4-60.8.5/README.md --exclude *.pyd
+[2024-05-23 11:21:49] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 11:21:49] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 11:21:49] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 11:21:49] INFO root fetch - processPackages [refunc-cli]: executing diffoscope
+[2024-05-23 11:21:49] INFO root fetch - processPackages [refunc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refunc-cli-1.3.1.tar.gz tmp/refunc-cli-1.3.2.tar.gz --markdown 20240523/r/refunc-cli/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-23 11:21:49] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-23 11:21:49] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-23 11:21:49] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-23 11:21:50] INFO root fetch - processPackages [refunc-cli]: Remove: archive file [/home/abi/fetcher/tmp/refunc-cli-1.3.1.tar.gz]
+[2024-05-23 11:21:50] INFO root fetch - processPackages [refunc-cli]: Remove: archive file [/home/abi/fetcher/tmp/refunc-cli-1.3.2.tar.gz]
+[2024-05-23 11:21:50] INFO root fetch - main [MainThread]: End processing [refunc-cli]: success
+[2024-05-23 11:21:53] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.4.tar.gz]
+[2024-05-23 11:21:53] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.5.tar.gz]
+[2024-05-23 11:21:53] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-23 11:21:53] INFO root fetch - main [MainThread]: Store serial: [23340779]
