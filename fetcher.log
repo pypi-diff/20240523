@@ -22587,3 +22587,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:46:02] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.4.tar.gz]
 [2024-05-23 13:46:02] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-05-23 13:46:02] INFO root fetch - main [MainThread]: Store serial: [23342739]
+[2024-05-23 13:48:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342739]
+[2024-05-23 13:48:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ls-api-clients
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-api
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wuthery-l10n
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laser-mind-client-meta
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: table2string
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suskabot
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-nvf-builds
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: IvmDriver
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: organizations-local
+[2024-05-23 13:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ls-cred-storage
+[2024-05-23 13:48:12] INFO root fetch - processPackages [IvmDriver]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [laser-mind-client-meta]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [organizations-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [test-nvf-builds]: New version: [0.0.3.8] Old Version: [0.0.3.7]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [ls-api-clients]: New version: [0.14.2] Old Version: [0.14.1]
+[2024-05-23 13:48:12] WARNING root fetch - processPackages [wuthery-l10n]: Skipping, unable to determine old version
+[2024-05-23 13:48:12] INFO root fetch - processPackages [wuthery-l10n]: Start processing: cobald-tardis
+[2024-05-23 13:48:12] INFO root fetch - main [MainThread]: End processing [wuthery-l10n] error
+[2024-05-23 13:48:12] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/7c/fe/dafa80bf7d20a6f1bbe8ab1c9fa4c06f2154ced7ede4c63fff4b26c829d9/test_nvf_builds-0.0.3.7.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [IvmDriver]: Downloading https://files.pythonhosted.org/packages/a7/b2/57860de7e74b42ee3fba85503404fcdd951c8b8449c211548d81e912fc47/IvmDriver-0.0.4.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [ls-cred-storage]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [table2string]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [suskabot]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/5b/7e/09b4d410b99d4d4b3d10725e50ba481bd8741acca902b216e9368c50f4aa/organizations-local-0.0.8.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [laser-mind-client-meta]: Downloading https://files.pythonhosted.org/packages/57/3c/f12ff9d6e453f61cfcaf631622cac16675386851140ba5c65aa2d909f57a/laser_mind_client_meta-0.5.0.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [ls-api-clients]: Downloading https://files.pythonhosted.org/packages/7a/e6/880379aebd0999833000cc1db442d95488702b523aa272fb969ff7d16cae/ls_api_clients-0.14.1.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [cobald-tardis]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-23 13:48:12] INFO root fetch - processPackages [ls-cred-storage]: Downloading https://files.pythonhosted.org/packages/eb/b9/e87a22674bff91fa740146336593f03ed8cbfe64e8c9de5d5b6e4203dc03/ls_cred_storage-0.1.4.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [table2string]: Downloading https://files.pythonhosted.org/packages/ae/55/bb630989bd22bc181b2d9ba5f550956a86396532d68c0d5c58cb4c6f60f7/table2string-1.0.0.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/58/cb/82e4863e9e8bd565ea5cd0b25ec2c324f423b802b12331db0170ed88e839/suskabot-0.2.2.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/fc/80/42cde22657fe954391a6e80fc840bcfd4599230f000e8eaaa14ac36177a7/organizations-local-0.0.9.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [laser-mind-client-meta]: Downloading https://files.pythonhosted.org/packages/a8/ec/54940552b49ee6019b0bfdcbab2cffa4907478524aba9fb841c0b29441e1/laser_mind_client_meta-0.5.1.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [cobald-tardis]: Downloading https://files.pythonhosted.org/packages/ff/39/c76015f2a6f71177ff26efc8d3d11a127c37b092b4c57a73339ccb47b39d/cobald-tardis-0.8.1.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [ls-api-clients]: Downloading https://files.pythonhosted.org/packages/94/bc/3c6aba26b5cf56dba5c0334301cc486c7e4005d181cbacf712f44fc66a88/ls_api_clients-0.14.2.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/48/b3/4fef10aa0409e9d78a40cc3579a333291ee010c16d2b51d7170f1bece8ec/test_nvf_builds-0.0.3.8.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [organizations-local]: executing diffoscope
+[2024-05-23 13:48:12] INFO root fetch - processPackages [organizations-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organizations-local-0.0.8.tar.gz tmp/organizations-local-0.0.9.tar.gz --markdown 20240523/o/organizations-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 13:48:12] INFO root fetch - processPackages [ls-cred-storage]: Downloading https://files.pythonhosted.org/packages/b5/b6/548dec8fad029b1dbfb739d122c23998e650e123f25482b8a27a3748ecbf/ls_cred_storage-0.2.0.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [laser-mind-client-meta]: executing diffoscope
+[2024-05-23 13:48:12] INFO root fetch - processPackages [laser-mind-client-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laser_mind_client_meta-0.5.0.tar.gz tmp/laser_mind_client_meta-0.5.1.tar.gz --markdown 20240523/l/laser-mind-client-meta/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-23 13:48:12] INFO root fetch - processPackages [ls-api-clients]: executing diffoscope
+[2024-05-23 13:48:12] INFO root fetch - processPackages [ls-api-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_api_clients-0.14.1.tar.gz tmp/ls_api_clients-0.14.2.tar.gz --markdown 20240523/l/ls-api-clients/0.14.1-0.14.2/README.md --exclude *.pyd
+[2024-05-23 13:48:12] INFO root fetch - processPackages [test-nvf-builds]: executing diffoscope
+[2024-05-23 13:48:12] INFO root fetch - processPackages [test-nvf-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_nvf_builds-0.0.3.7.tar.gz tmp/test_nvf_builds-0.0.3.8.tar.gz --markdown 20240523/t/test-nvf-builds/0.0.3.7-0.0.3.8/README.md --exclude *.pyd
+[2024-05-23 13:48:12] INFO root fetch - processPackages [IvmDriver]: Downloading https://files.pythonhosted.org/packages/6b/69/2e8cdd8bad138b0bf42e0ccd5509b54b5b1729c0c1d1426b5771739ec0a0/ivmdriver-0.0.5.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [table2string]: Downloading https://files.pythonhosted.org/packages/4a/61/06e461ceee8ed922581a1c4428ba18bf2dd1ad41c14ddf450c7d7296d1f2/table2string-1.1.0.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/9b/cf/7eadf20cf66365f7a0b23cee39c98be772cf56706ac14bc2180e20531922/suskabot-0.2.3.tar.gz
+[2024-05-23 13:48:12] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-05-23 13:48:13] INFO root fetch - processPackages [ls-cred-storage]: executing diffoscope
+[2024-05-23 13:48:13] INFO root fetch - processPackages [ls-cred-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_cred_storage-0.1.4.tar.gz tmp/ls_cred_storage-0.2.0.tar.gz --markdown 20240523/l/ls-cred-storage/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-23 13:48:13] INFO root fetch - processPackages [table2string]: executing diffoscope
+[2024-05-23 13:48:13] INFO root fetch - processPackages [table2string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/table2string-1.0.0.tar.gz tmp/table2string-1.1.0.tar.gz --markdown 20240523/t/table2string/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-23 13:48:13] INFO root fetch - processPackages [suskabot]: executing diffoscope
+[2024-05-23 13:48:13] INFO root fetch - processPackages [suskabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suskabot-0.2.2.tar.gz tmp/suskabot-0.2.3.tar.gz --markdown 20240523/s/suskabot/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-23 13:48:13] INFO root fetch - processPackages [cobald-tardis]: Downloading https://files.pythonhosted.org/packages/f5/70/5c6afbd0bd7c408fcae6b4bc4c4448d86c3ca40fd9209e3ddfcf140b5599/cobald-tardis-0.8.2.tar.gz
+[2024-05-23 13:48:13] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-05-23 13:48:13] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240523/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-05-23 13:48:13] INFO root fetch - processPackages [IvmDriver]: executing diffoscope
+[2024-05-23 13:48:13] INFO root fetch - processPackages [IvmDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IvmDriver-0.0.4.tar.gz tmp/ivmdriver-0.0.5.tar.gz --markdown 20240523/I/IvmDriver/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-23 13:48:13] INFO root fetch - processPackages [cobald-tardis]: executing diffoscope
+[2024-05-23 13:48:13] INFO root fetch - processPackages [cobald-tardis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobald-tardis-0.8.1.tar.gz tmp/cobald-tardis-0.8.2.tar.gz --markdown 20240523/c/cobald-tardis/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-23 13:48:13] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.8.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.9.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [organizations-local]: Start processing: pih-rvw-auto
+[2024-05-23 13:48:13] INFO root fetch - main [MainThread]: End processing [organizations-local]: success
+[2024-05-23 13:48:13] INFO root fetch - processPackages [ls-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/ls_api_clients-0.14.1.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [ls-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/ls_api_clients-0.14.2.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - main [MainThread]: End processing [ls-api-clients]: success
+[2024-05-23 13:48:13] INFO root fetch - processPackages [pih-rvw-auto]: New version: [0.19.2] Old Version: [0.19.1]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [laser-mind-client-meta]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client_meta-0.5.0.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [laser-mind-client-meta]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client_meta-0.5.1.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - main [MainThread]: End processing [laser-mind-client-meta]: success
+[2024-05-23 13:48:13] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.7.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.8.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - main [MainThread]: End processing [test-nvf-builds]: success
+[2024-05-23 13:48:13] INFO root fetch - processPackages [ls-cred-storage]: Remove: archive file [/home/abi/fetcher/tmp/ls_cred_storage-0.1.4.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [ls-cred-storage]: Remove: archive file [/home/abi/fetcher/tmp/ls_cred_storage-0.2.0.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - main [MainThread]: End processing [ls-cred-storage]: success
+[2024-05-23 13:48:13] INFO root fetch - processPackages [table2string]: Remove: archive file [/home/abi/fetcher/tmp/table2string-1.0.0.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [table2string]: Remove: archive file [/home/abi/fetcher/tmp/table2string-1.1.0.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - main [MainThread]: End processing [table2string]: success
+[2024-05-23 13:48:13] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/8b/2f/2a3c416e6e786d21d4cede60140a56e98a6ce135d32b8c66039f82d7b0a3/pih-rvw_auto-0.19.1.tar.gz
+[2024-05-23 13:48:13] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.2.2.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.2.3.tar.gz]
+[2024-05-23 13:48:13] INFO root fetch - main [MainThread]: End processing [suskabot]: success
+[2024-05-23 13:48:14] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/be/65/086869a49bd8ae8e1c15ee3937bb3683f11ae0d5d319d9ce3a463407fb0d/pih-rvw_auto-0.19.2.tar.gz
+[2024-05-23 13:48:14] INFO root fetch - processPackages [pih-rvw-auto]: executing diffoscope
+[2024-05-23 13:48:14] INFO root fetch - processPackages [pih-rvw-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-rvw_auto-0.19.1.tar.gz tmp/pih-rvw_auto-0.19.2.tar.gz --markdown 20240523/p/pih-rvw-auto/0.19.1-0.19.2/README.md --exclude *.pyd
+[2024-05-23 13:48:14] INFO root fetch - processPackages [cobald-tardis]: Remove: archive file [/home/abi/fetcher/tmp/cobald-tardis-0.8.1.tar.gz]
+[2024-05-23 13:48:14] INFO root fetch - processPackages [cobald-tardis]: Remove: archive file [/home/abi/fetcher/tmp/cobald-tardis-0.8.2.tar.gz]
+[2024-05-23 13:48:14] INFO root fetch - main [MainThread]: End processing [cobald-tardis]: success
+[2024-05-23 13:48:14] INFO root fetch - processPackages [IvmDriver]: Remove: archive file [/home/abi/fetcher/tmp/IvmDriver-0.0.4.tar.gz]
+[2024-05-23 13:48:14] INFO root fetch - processPackages [IvmDriver]: Remove: archive file [/home/abi/fetcher/tmp/ivmdriver-0.0.5.tar.gz]
+[2024-05-23 13:48:14] INFO root fetch - main [MainThread]: End processing [IvmDriver]: success
+[2024-05-23 13:48:14] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-05-23 13:48:14] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-05-23 13:48:14] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-05-23 13:48:14] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.19.1.tar.gz]
+[2024-05-23 13:48:14] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.19.2.tar.gz]
+[2024-05-23 13:48:14] INFO root fetch - main [MainThread]: End processing [pih-rvw-auto]: success
+[2024-05-23 13:48:14] INFO root fetch - main [MainThread]: Store serial: [23342773]
