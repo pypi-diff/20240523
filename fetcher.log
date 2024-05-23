@@ -9026,3 +9026,15 @@
 [2024-05-23 05:04:03] INFO root fetch - processPackages [easylogger4dev-alpha]: Remove: archive file [/home/abi/fetcher/tmp/easylogger4dev_alpha-0.2.0.tar.gz]
 [2024-05-23 05:04:03] INFO root fetch - main [MainThread]: End processing [easylogger4dev-alpha]: success
 [2024-05-23 05:04:03] INFO root fetch - main [MainThread]: Store serial: [23336952]
+[2024-05-23 05:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336952]
+[2024-05-23 05:06:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 05:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-oceanbasepro
+[2024-05-23 05:06:12] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 05:06:12] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Downloading https://files.pythonhosted.org/packages/90/5f/1de7337bae3cc1b8f259096a42eec2dca760cbfc604fd20cd82329bab5dd/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz
+[2024-05-23 05:06:12] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Downloading https://files.pythonhosted.org/packages/64/6a/7ecb0f58b900d7523fb978fed0b70a92bb9da24c05de4c5becf0068b5f91/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz
+[2024-05-23 05:06:12] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: executing diffoscope
+[2024-05-23 05:06:12] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz tmp/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz --markdown 20240523/a/aliyun-python-sdk-oceanbasepro/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 05:06:13] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz]
+[2024-05-23 05:06:13] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz]
+[2024-05-23 05:06:13] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oceanbasepro]: success
+[2024-05-23 05:06:13] INFO root fetch - main [MainThread]: Store serial: [23336977]
