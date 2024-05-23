@@ -14849,3 +14849,27 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:14:41] INFO root fetch - processPackages [oslo.messaging]: Remove: archive file [/home/abi/fetcher/tmp/oslo.messaging-9.8.0.tar.gz]
 [2024-05-23 10:14:41] INFO root fetch - main [MainThread]: End processing [oslo.messaging]: success
 [2024-05-23 10:14:41] INFO root fetch - main [MainThread]: Store serial: [23339737]
+[2024-05-23 10:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339737]
+[2024-05-23 10:16:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 10:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: insights-core
+[2024-05-23 10:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oslo.log
+[2024-05-23 10:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-supplierinfo-comment
+[2024-05-23 10:16:51] WARNING root fetch - processPackages [odoo-addon-product-supplierinfo-comment]: Skipping, unable to determine old version
+[2024-05-23 10:16:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-comment] error
+[2024-05-23 10:16:51] INFO root fetch - processPackages [oslo.log]: New version: [6.0.0] Old Version: [5.5.1]
+[2024-05-23 10:16:51] INFO root fetch - processPackages [insights-core]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-23 10:16:51] INFO root fetch - processPackages [oslo.log]: Downloading https://files.pythonhosted.org/packages/83/b8/399ddd945d31ab29346c515c5fc77a0bdb0f292abf1c3068405ef3074862/oslo.log-5.5.1.tar.gz
+[2024-05-23 10:16:51] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/ba/d8/b4d9d13c98972e4370422b1d57a92708ffaadff3c348f7dbda016efd4b6e/insights-core-3.3.8.tar.gz
+[2024-05-23 10:16:51] INFO root fetch - processPackages [oslo.log]: Downloading https://files.pythonhosted.org/packages/67/d1/015096ac228990e0410347cc27ee759d5d27d4074f6041b9d2f1e994ee28/oslo.log-6.0.0.tar.gz
+[2024-05-23 10:16:51] INFO root fetch - processPackages [oslo.log]: executing diffoscope
+[2024-05-23 10:16:51] INFO root fetch - processPackages [oslo.log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.log-5.5.1.tar.gz tmp/oslo.log-6.0.0.tar.gz --markdown 20240523/o/oslo.log/5.5.1-6.0.0/README.md --exclude *.pyd
+[2024-05-23 10:16:52] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/24/e5/442fc4f4958a234b3da006d746cfaa647f4bd2048585f64608614d4ba7da/insights-core-3.3.9.tar.gz
+[2024-05-23 10:16:52] INFO root fetch - processPackages [oslo.log]: Remove: archive file [/home/abi/fetcher/tmp/oslo.log-5.5.1.tar.gz]
+[2024-05-23 10:16:52] INFO root fetch - processPackages [oslo.log]: Remove: archive file [/home/abi/fetcher/tmp/oslo.log-6.0.0.tar.gz]
+[2024-05-23 10:16:52] INFO root fetch - main [MainThread]: End processing [oslo.log]: success
+[2024-05-23 10:16:52] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2024-05-23 10:16:52] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.3.8.tar.gz tmp/insights-core-3.3.9.tar.gz --markdown 20240523/i/insights-core/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-23 10:16:58] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.8.tar.gz]
+[2024-05-23 10:16:58] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
+[2024-05-23 10:16:58] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2024-05-23 10:16:58] INFO root fetch - main [MainThread]: Store serial: [23339748]
