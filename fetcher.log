@@ -11811,3 +11811,42 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:18:44] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240522.tar.gz]
 [2024-05-23 08:18:44] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-05-23 08:18:44] INFO root fetch - main [MainThread]: Store serial: [23338370]
+[2024-05-23 08:20:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338370]
+[2024-05-23 08:20:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 08:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wah
+[2024-05-23 08:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: api-management-local
+[2024-05-23 08:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumibot
+[2024-05-23 08:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tifffile
+[2024-05-23 08:20:58] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 08:20:58] INFO root fetch - processPackages [tifffile]: New version: [2024.5.3] Old Version: [2024.5.10]
+[2024-05-23 08:20:58] INFO root fetch - processPackages [lumibot]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-05-23 08:20:58] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/29/8c/c287ce4e6ff5d92148f4c0ab1bfd25047268bd89fee9fec1c8b5bb812316/tifffile-2024.5.10.tar.gz
+[2024-05-23 08:20:58] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-23 08:20:58] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:20:58] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/03/64/7596fa25805fb0292f85827eb20b2c2f8d0b84efed2b584843581717db3b/lumibot-3.4.0.tar.gz
+[2024-05-23 08:20:58] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-23 08:20:58] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-23 08:20:58] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-23 08:20:58] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240523/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 08:20:58] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/ff/e6/c5d9db56a135a06295f11c24a615d430d37c018fc068f5fa62aa1ad939bc/tifffile-2024.5.3.tar.gz
+[2024-05-23 08:20:58] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-23 08:20:58] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/f6/2d/65a6e257a38b393ae1a63a8728d9d304da5ef5d489687da557b8da909e53/lumibot-3.4.1.tar.gz
+[2024-05-23 08:20:59] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-23 08:20:59] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240523/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:20:59] INFO root fetch - processPackages [tifffile]: executing diffoscope
+[2024-05-23 08:20:59] INFO root fetch - processPackages [tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifffile-2024.5.10.tar.gz tmp/tifffile-2024.5.3.tar.gz --markdown 20240523/t/tifffile/2024.5.10-2024.5.3/README.md --exclude *.pyd
+[2024-05-23 08:20:59] INFO root fetch - processPackages [lumibot]: executing diffoscope
+[2024-05-23 08:20:59] INFO root fetch - processPackages [lumibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumibot-3.4.0.tar.gz tmp/lumibot-3.4.1.tar.gz --markdown 20240523/l/lumibot/3.4.0-3.4.1/README.md --exclude *.pyd
+[2024-05-23 08:20:59] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-23 08:20:59] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-23 08:20:59] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-23 08:20:59] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-23 08:20:59] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-23 08:20:59] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-23 08:21:00] INFO root fetch - processPackages [lumibot]: Remove: archive file [/home/abi/fetcher/tmp/lumibot-3.4.0.tar.gz]
+[2024-05-23 08:21:00] INFO root fetch - processPackages [lumibot]: Remove: archive file [/home/abi/fetcher/tmp/lumibot-3.4.1.tar.gz]
+[2024-05-23 08:21:00] INFO root fetch - main [MainThread]: End processing [lumibot]: success
+[2024-05-23 08:21:00] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.5.10.tar.gz]
+[2024-05-23 08:21:00] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.5.3.tar.gz]
+[2024-05-23 08:21:00] INFO root fetch - main [MainThread]: End processing [tifffile]: success
+[2024-05-23 08:21:00] INFO root fetch - main [MainThread]: Store serial: [23338384]
