@@ -8855,3 +8855,15 @@
 [2024-05-23 04:55:21] INFO root fetch - processPackages [finsy]: Remove: archive file [/home/abi/fetcher/tmp/finsy-0.9.0.tar.gz]
 [2024-05-23 04:55:21] INFO root fetch - main [MainThread]: End processing [finsy]: success
 [2024-05-23 04:55:21] INFO root fetch - main [MainThread]: Store serial: [23336882]
+[2024-05-23 04:57:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336882]
+[2024-05-23 04:57:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 04:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: midas-open-parser
+[2024-05-23 04:57:29] INFO root fetch - processPackages [midas-open-parser]: New version: [0.1.14] Old Version: [0.1.13]
+[2024-05-23 04:57:29] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/ac/b1/20d45cf0110ebca897a6b4f4bc6d07809102a77559f1653b8ef6716fbb62/midas_open_parser-0.1.13.tar.gz
+[2024-05-23 04:57:30] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/f3/02/a6c2443862bae37781927c9b473c2aa6a3dff651cf734b2e736fe6f71208/midas_open_parser-0.1.14.tar.gz
+[2024-05-23 04:57:30] INFO root fetch - processPackages [midas-open-parser]: executing diffoscope
+[2024-05-23 04:57:30] INFO root fetch - processPackages [midas-open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas_open_parser-0.1.13.tar.gz tmp/midas_open_parser-0.1.14.tar.gz --markdown 20240523/m/midas-open-parser/0.1.13-0.1.14/README.md --exclude *.pyd
+[2024-05-23 04:57:30] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.13.tar.gz]
+[2024-05-23 04:57:30] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.14.tar.gz]
+[2024-05-23 04:57:30] INFO root fetch - main [MainThread]: End processing [midas-open-parser]: success
+[2024-05-23 04:57:30] INFO root fetch - main [MainThread]: Store serial: [23336888]
