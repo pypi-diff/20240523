@@ -16574,3 +16574,78 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:01:53] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
 [2024-05-23 11:01:53] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
 [2024-05-23 11:01:53] INFO root fetch - main [MainThread]: Store serial: [23340536]
+[2024-05-23 11:03:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340536]
+[2024-05-23 11:04:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 11:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ndpprep
+[2024-05-23 11:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qibocal
+[2024-05-23 11:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sed-processor
+[2024-05-23 11:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hema
+[2024-05-23 11:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: billzio-api
+[2024-05-23 11:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: message-local
+[2024-05-23 11:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-model-manager
+[2024-05-23 11:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swh.loader.svn
+[2024-05-23 11:04:04] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 11:04:04] INFO root fetch - processPackages [hema]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 11:04:04] INFO root fetch - processPackages [ndpprep]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-05-23 11:04:04] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [billzio-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-23 11:04:04] INFO root fetch - processPackages [qibocal]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 11:04:04] INFO root fetch - processPackages [swh.loader.svn]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-23 11:04:04] INFO root fetch - processPackages [hema]: Downloading https://files.pythonhosted.org/packages/ab/98/0609111caa250e90ff3fcda6756d6958e06376d7bc215bbb10144050dc5b/hema-0.0.2.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [sed-processor]: New version: [0.1.9a7] Old Version: [0.1.9a6]
+[2024-05-23 11:04:04] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 11:04:04] INFO root fetch - processPackages [ndpprep]: Downloading https://files.pythonhosted.org/packages/39/ac/ed1e1636c20e2c7836bc4d4d4701ec16d80004dda70ca970ede6c6ea6863/ndpprep-0.0.5.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/48/ab/390618dd544367ca15f23aa52fc87456b0ca2b90d81b4805252039010b14/sed_processor-0.1.9a6.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [hema]: Downloading https://files.pythonhosted.org/packages/bf/f0/f0dc65d2622e1dbaaa0b6f7fbf82108c36c4b205bced807a28902df6b4aa/hema-0.0.3.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [qibocal]: Downloading https://files.pythonhosted.org/packages/c1/41/76d394a59b3c067f7049ca1570957280161dda3a195547e2898f42704885/qibocal-0.0.8.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [billzio-api]: Downloading https://files.pythonhosted.org/packages/50/4e/a7c76f125e674b53b6a0b4bebfac5b553c035ac5bf0e5cfe76d6cbe79d39/billzio_api-1.0.6.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [swh.loader.svn]: Downloading https://files.pythonhosted.org/packages/51/23/12cd4aec2952fe5f921f480b19124040ec32a608382ddf389dd70234d3f1/swh.loader.svn-2.1.0.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [hema]: executing diffoscope
+[2024-05-23 11:04:04] INFO root fetch - processPackages [hema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hema-0.0.2.tar.gz tmp/hema-0.0.3.tar.gz --markdown 20240523/h/hema/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 11:04:04] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 11:04:04] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 11:04:04] INFO root fetch - processPackages [billzio-api]: Downloading https://files.pythonhosted.org/packages/c3/af/80b311eef1619e3d57bb85478711fc45473a569b115891a17b793fe34d23/billzio_api-1.0.7.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [ndpprep]: Downloading https://files.pythonhosted.org/packages/33/39/40749d0bc62bfaac9ec3d768470b89caa5a6064a9e1b9391e82873bb8ec8/ndpprep-0.0.8.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [qibocal]: Downloading https://files.pythonhosted.org/packages/ed/25/668eb7ab91567ffcede8900a744435cdd3c037711c89774bd62bfbed2b19/qibocal-0.0.9.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [billzio-api]: executing diffoscope
+[2024-05-23 11:04:04] INFO root fetch - processPackages [billzio-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/billzio_api-1.0.6.tar.gz tmp/billzio_api-1.0.7.tar.gz --markdown 20240523/b/billzio-api/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-23 11:04:04] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/87/3d/46f05a827162ec042dcd0c89c2248c3ce48cb5f21a3dfa818abd146f2b85/sed_processor-0.1.9a7.tar.gz
+[2024-05-23 11:04:04] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-23 11:04:04] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240523/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 11:04:04] INFO root fetch - processPackages [ndpprep]: executing diffoscope
+[2024-05-23 11:04:04] INFO root fetch - processPackages [ndpprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndpprep-0.0.5.tar.gz tmp/ndpprep-0.0.8.tar.gz --markdown 20240523/n/ndpprep/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-05-23 11:04:05] INFO root fetch - processPackages [swh.loader.svn]: Downloading https://files.pythonhosted.org/packages/ad/5f/c1dfd747209f45a29544d8f4f6f383e2f38dbb2eeeae46af93192b5f1074/swh_loader_svn-2.2.0.tar.gz
+[2024-05-23 11:04:05] INFO root fetch - processPackages [hema]: Remove: archive file [/home/abi/fetcher/tmp/hema-0.0.2.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - processPackages [hema]: Remove: archive file [/home/abi/fetcher/tmp/hema-0.0.3.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - main [MainThread]: End processing [hema]: success
+[2024-05-23 11:04:05] INFO root fetch - processPackages [sed-processor]: executing diffoscope
+[2024-05-23 11:04:05] INFO root fetch - processPackages [sed-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sed_processor-0.1.9a6.tar.gz tmp/sed_processor-0.1.9a7.tar.gz --markdown 20240523/s/sed-processor/0.1.9a6-0.1.9a7/README.md --exclude *.pyd
+[2024-05-23 11:04:05] INFO root fetch - processPackages [qibocal]: executing diffoscope
+[2024-05-23 11:04:05] INFO root fetch - processPackages [qibocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibocal-0.0.8.tar.gz tmp/qibocal-0.0.9.tar.gz --markdown 20240523/q/qibocal/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 11:04:05] INFO root fetch - processPackages [swh.loader.svn]: executing diffoscope
+[2024-05-23 11:04:05] INFO root fetch - processPackages [swh.loader.svn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.loader.svn-2.1.0.tar.gz tmp/swh_loader_svn-2.2.0.tar.gz --markdown 20240523/s/swh.loader.svn/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-23 11:04:05] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 11:04:05] INFO root fetch - processPackages [ndpprep]: Remove: archive file [/home/abi/fetcher/tmp/ndpprep-0.0.5.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - processPackages [ndpprep]: Remove: archive file [/home/abi/fetcher/tmp/ndpprep-0.0.8.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - main [MainThread]: End processing [ndpprep]: success
+[2024-05-23 11:04:05] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-23 11:04:05] INFO root fetch - processPackages [billzio-api]: Remove: archive file [/home/abi/fetcher/tmp/billzio_api-1.0.6.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - processPackages [billzio-api]: Remove: archive file [/home/abi/fetcher/tmp/billzio_api-1.0.7.tar.gz]
+[2024-05-23 11:04:05] INFO root fetch - main [MainThread]: End processing [billzio-api]: success
+[2024-05-23 11:04:06] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a6.tar.gz]
+[2024-05-23 11:04:06] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a7.tar.gz]
+[2024-05-23 11:04:06] INFO root fetch - main [MainThread]: End processing [sed-processor]: success
+[2024-05-23 11:04:06] INFO root fetch - processPackages [swh.loader.svn]: Remove: archive file [/home/abi/fetcher/tmp/swh.loader.svn-2.1.0.tar.gz]
+[2024-05-23 11:04:06] INFO root fetch - processPackages [swh.loader.svn]: Remove: archive file [/home/abi/fetcher/tmp/swh_loader_svn-2.2.0.tar.gz]
+[2024-05-23 11:04:06] INFO root fetch - main [MainThread]: End processing [swh.loader.svn]: success
+[2024-05-23 11:04:06] INFO root fetch - processPackages [qibocal]: Remove: archive file [/home/abi/fetcher/tmp/qibocal-0.0.8.tar.gz]
+[2024-05-23 11:04:06] INFO root fetch - processPackages [qibocal]: Remove: archive file [/home/abi/fetcher/tmp/qibocal-0.0.9.tar.gz]
+[2024-05-23 11:04:06] INFO root fetch - main [MainThread]: End processing [qibocal]: success
+[2024-05-23 11:04:06] INFO root fetch - main [MainThread]: Store serial: [23340566]
