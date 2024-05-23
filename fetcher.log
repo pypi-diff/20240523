@@ -11087,3 +11087,50 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:38:53] INFO root fetch - processPackages [pyDatabases]: Remove: archive file [/home/abi/fetcher/tmp/pydatabases-0.1.4.tar.gz]
 [2024-05-23 07:38:53] INFO root fetch - main [MainThread]: End processing [pyDatabases]: success
 [2024-05-23 07:38:53] INFO root fetch - main [MainThread]: Store serial: [23338019]
+[2024-05-23 07:40:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338019]
+[2024-05-23 07:41:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 07:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-newrelic
+[2024-05-23 07:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baseball-predictor
+[2024-05-23 07:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adri-storage
+[2024-05-23 07:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-mysql-local
+[2024-05-23 07:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bbg-fetch
+[2024-05-23 07:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckdb
+[2024-05-23 07:41:02] INFO root fetch - processPackages [bbg-fetch]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-23 07:41:02] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.317] Old Version: [0.0.316]
+[2024-05-23 07:41:02] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-23 07:41:02] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-23 07:41:02] WARNING root fetch - processPackages [baseball-predictor]: Skipping, unable to determine old version
+[2024-05-23 07:41:02] INFO root fetch - main [MainThread]: End processing [baseball-predictor] error
+[2024-05-23 07:41:02] INFO root fetch - processPackages [adri-storage]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 07:41:02] INFO root fetch - processPackages [bbg-fetch]: Downloading https://files.pythonhosted.org/packages/4e/f0/72e1a6afdca99e389bc61e0899c7a5c79d3e2a01ba6e0f135d3a74b6864c/bbg_fetch-1.0.6.tar.gz
+[2024-05-23 07:41:02] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/de/a7/761a95f359393536db45c2f6876b665b064bdd864bfec6727ae361600192/database_mysql_local-0.0.316.tar.gz
+[2024-05-23 07:41:02] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-23 07:41:02] INFO root fetch - processPackages [adri-storage]: Downloading https://files.pythonhosted.org/packages/34/bb/78ae8a8a8c1432e55f279ff13be77a9149bf4233b3d2d10da287c209cc8e/adri_storage-0.0.3.tar.gz
+[2024-05-23 07:41:02] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-23 07:41:02] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-23 07:41:02] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-23 07:41:02] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-23 07:41:02] INFO root fetch - processPackages [bbg-fetch]: Downloading https://files.pythonhosted.org/packages/dd/51/19551f2a4d95a38225626c027bef7f044b569fe8f2c3a0badd99807aab63/bbg_fetch-1.0.7.tar.gz
+[2024-05-23 07:41:02] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/6c/30/a5c13d5520d1c5a97e137a1db3af7daaa6437aefe799f013376a9b1244cc/database_mysql_local-0.0.317.tar.gz
+[2024-05-23 07:41:02] INFO root fetch - processPackages [bbg-fetch]: executing diffoscope
+[2024-05-23 07:41:02] INFO root fetch - processPackages [bbg-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbg_fetch-1.0.6.tar.gz tmp/bbg_fetch-1.0.7.tar.gz --markdown 20240523/b/bbg-fetch/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-23 07:41:02] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-23 07:41:02] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240523/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-23 07:41:02] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-23 07:41:02] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.316.tar.gz tmp/database_mysql_local-0.0.317.tar.gz --markdown 20240523/d/database-mysql-local/0.0.316-0.0.317/README.md --exclude *.pyd
+[2024-05-23 07:41:02] INFO root fetch - processPackages [adri-storage]: Downloading https://files.pythonhosted.org/packages/17/1c/6a4c8d229133e2f0318e88eb81babfbd1db830a76a4291c723318236f9d9/adri_storage-0.0.4.tar.gz
+[2024-05-23 07:41:02] INFO root fetch - processPackages [adri-storage]: executing diffoscope
+[2024-05-23 07:41:02] INFO root fetch - processPackages [adri-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adri_storage-0.0.3.tar.gz tmp/adri_storage-0.0.4.tar.gz --markdown 20240523/a/adri-storage/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 07:41:03] INFO root fetch - processPackages [bbg-fetch]: Remove: archive file [/home/abi/fetcher/tmp/bbg_fetch-1.0.6.tar.gz]
+[2024-05-23 07:41:03] INFO root fetch - processPackages [bbg-fetch]: Remove: archive file [/home/abi/fetcher/tmp/bbg_fetch-1.0.7.tar.gz]
+[2024-05-23 07:41:03] INFO root fetch - main [MainThread]: End processing [bbg-fetch]: success
+[2024-05-23 07:41:03] INFO root fetch - processPackages [adri-storage]: Remove: archive file [/home/abi/fetcher/tmp/adri_storage-0.0.3.tar.gz]
+[2024-05-23 07:41:03] INFO root fetch - processPackages [adri-storage]: Remove: archive file [/home/abi/fetcher/tmp/adri_storage-0.0.4.tar.gz]
+[2024-05-23 07:41:03] INFO root fetch - main [MainThread]: End processing [adri-storage]: success
+[2024-05-23 07:41:03] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.316.tar.gz]
+[2024-05-23 07:41:03] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.317.tar.gz]
+[2024-05-23 07:41:03] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-23 07:41:03] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-23 07:41:03] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-23 07:41:03] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-23 07:41:03] INFO root fetch - main [MainThread]: Store serial: [23338037]
