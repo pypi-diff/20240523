@@ -16151,3 +16151,48 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:50:43] INFO root fetch - processPackages [watch-run]: Remove: archive file [/home/abi/fetcher/tmp/watch_run-0.0.2-cp39-cp39-macosx_10_9_universal2.whl.zip]
 [2024-05-23 10:50:43] INFO root fetch - main [MainThread]: End processing [watch-run]: success
 [2024-05-23 10:50:43] INFO root fetch - main [MainThread]: Store serial: [23340354]
+[2024-05-23 10:52:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340354]
+[2024-05-23 10:52:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 10:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-05-23 10:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: internet-domain-local
+[2024-05-23 10:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anything-world
+[2024-05-23 10:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evalRagPk
+[2024-05-23 10:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RDAnalyzer
+[2024-05-23 10:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtlpy
+[2024-05-23 10:52:57] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-23 10:52:57] WARNING root fetch - processPackages [evalRagPk]: Skipping, unable to determine old version
+[2024-05-23 10:52:57] INFO root fetch - main [MainThread]: End processing [evalRagPk] error
+[2024-05-23 10:52:57] INFO root fetch - processPackages [anything-world]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-23 10:52:57] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-23 10:52:57] WARNING root fetch - processPackages [RDAnalyzer]: Skipping, unable to determine old version
+[2024-05-23 10:52:57] INFO root fetch - main [MainThread]: End processing [RDAnalyzer] error
+[2024-05-23 10:52:57] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 10:52:57] INFO root fetch - processPackages [dtlpy]: New version: [1.90.39] Old Version: [1.90.37]
+[2024-05-23 10:52:57] INFO root fetch - processPackages [anything-world]: Downloading https://files.pythonhosted.org/packages/63/33/c96d0464156d3d7f15254ceb073d130a2d215997581aed654f8c3124af6f/anything_world-0.1.6.tar.gz
+[2024-05-23 10:52:57] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-23 10:52:57] INFO root fetch - processPackages [dtlpy]: Downloading https://files.pythonhosted.org/packages/6c/f2/4bfb6bbdf41c636a892988681bcf215923f7198e4e47f59561ad66ba7756/dtlpy-1.90.37-py3-none-any.whl
+[2024-05-23 10:52:57] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/21/08/584c01255d71beb274e14bf23aa4f1cad58ef556a6dc819f0cf869a6d409/internet_domain_local-0.0.8.tar.gz
+[2024-05-23 10:52:57] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-23 10:52:57] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240523/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-23 10:52:57] INFO root fetch - processPackages [anything-world]: Downloading https://files.pythonhosted.org/packages/eb/42/cdca22e9ec9dd5368a18db8abab700de42b17c98fa7dd5a23c9e46efd614/anything_world-0.1.7.tar.gz
+[2024-05-23 10:52:58] INFO root fetch - processPackages [dtlpy]: Downloading https://files.pythonhosted.org/packages/07/9b/6be93e9827e9b63cb7773698610490cf37bd97c1ee2f7cc63a34a0481b7b/dtlpy-1.90.39-py3-none-any.whl
+[2024-05-23 10:52:58] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/a3/b6/e0491177e886f4191633b085ed3e7b2e77c00c277e59b83acedf4a538025/internet_domain_local-0.0.9.tar.gz
+[2024-05-23 10:52:58] INFO root fetch - processPackages [anything-world]: executing diffoscope
+[2024-05-23 10:52:58] INFO root fetch - processPackages [anything-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anything_world-0.1.6.tar.gz tmp/anything_world-0.1.7.tar.gz --markdown 20240523/a/anything-world/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-23 10:52:58] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-05-23 10:52:58] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.8.tar.gz tmp/internet_domain_local-0.0.9.tar.gz --markdown 20240523/i/internet-domain-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 10:52:58] INFO root fetch - processPackages [dtlpy]: executing diffoscope
+[2024-05-23 10:52:58] INFO root fetch - processPackages [dtlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtlpy-1.90.37-py3-none-any.whl.zip tmp/dtlpy-1.90.39-py3-none-any.whl.zip --markdown 20240523/d/dtlpy/1.90.37-1.90.39/README.md --exclude *.pyd
+[2024-05-23 10:52:58] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.8.tar.gz]
+[2024-05-23 10:52:58] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.9.tar.gz]
+[2024-05-23 10:52:58] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-05-23 10:52:58] INFO root fetch - processPackages [anything-world]: Remove: archive file [/home/abi/fetcher/tmp/anything_world-0.1.6.tar.gz]
+[2024-05-23 10:52:58] INFO root fetch - processPackages [anything-world]: Remove: archive file [/home/abi/fetcher/tmp/anything_world-0.1.7.tar.gz]
+[2024-05-23 10:52:58] INFO root fetch - main [MainThread]: End processing [anything-world]: success
+[2024-05-23 10:52:58] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-23 10:52:58] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-23 10:52:58] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-23 10:52:59] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.90.37-py3-none-any.whl.zip]
+[2024-05-23 10:52:59] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.90.39-py3-none-any.whl.zip]
+[2024-05-23 10:52:59] INFO root fetch - main [MainThread]: End processing [dtlpy]: success
+[2024-05-23 10:52:59] INFO root fetch - main [MainThread]: Store serial: [23340373]
