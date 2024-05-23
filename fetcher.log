@@ -10079,3 +10079,63 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:20:17] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev7.tar.gz]
 [2024-05-23 06:20:17] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
 [2024-05-23 06:20:17] INFO root fetch - main [MainThread]: Store serial: [23337610]
+[2024-05-23 06:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337610]
+[2024-05-23 06:22:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 06:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartpredict
+[2024-05-23 06:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: articraft
+[2024-05-23 06:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wf-rappi
+[2024-05-23 06:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-spread-grid
+[2024-05-23 06:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jfExt
+[2024-05-23 06:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: a2y-ats
+[2024-05-23 06:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-s3bucket-ng
+[2024-05-23 06:22:25] INFO root fetch - processPackages [smartpredict]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-23 06:22:25] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 06:22:25] INFO root fetch - processPackages [wf-rappi]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-23 06:22:25] INFO root fetch - processPackages [articraft]: New version: [2.3.1] Old Version: [2.2.1]
+[2024-05-23 06:22:25] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 06:22:26] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/9f/39/3477f65f22676264317bcb1d617b220ddcc8d09f85a7eb7904d8c2676dae/dash_spread_grid-0.0.8.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/d1/50/cd86d982f0b068d26ea3b37008a74aaf61190918f0cc8a78945cc5bec44f/smartpredict-0.6.8.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/70/b2/77fafad400189691ffc8d9c4940892ac9bacadb669467f5c061b971de283/wf_rappi-0.3.2.tar.gz
+[2024-05-23 06:22:26] WARNING root fetch - processPackages [cdk-s3bucket-ng]: Skipping, unable to determine old version
+[2024-05-23 06:22:26] INFO root fetch - main [MainThread]: End processing [cdk-s3bucket-ng] error
+[2024-05-23 06:22:26] INFO root fetch - processPackages [a2y-ats]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-23 06:22:26] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/97/fd/20816ec58d4c73104915021cad96b2ce37bc37f65e944b09b992ce18ecd5/articraft-2.2.1.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [a2y-ats]: Downloading https://files.pythonhosted.org/packages/44/bb/711baee75bcacc6fbe2054e03cd69a67c6efa3dd7032bf6f8d9b5b020e5d/a2y_ats-1.2.2-cp38-cp38-win_amd64.whl
+[2024-05-23 06:22:26] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/22/03/ead990dba4ac20277d0bb0b558813d0f9d8fa86bb63a3efb264d8cb1e739/smartpredict-0.6.9.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/37/f7/3991c1c5cd26d592773df3381df4e17ae14f51d47af4fd52b7419949494b/dash_spread_grid-0.0.9.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/73/f7/569245d87b1c450aa19fd7be51b2985248cdb342eae2f56f983480925bed/wf_rappi-0.3.3.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-23 06:22:26] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.8.tar.gz tmp/smartpredict-0.6.9.tar.gz --markdown 20240523/s/smartpredict/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-23 06:22:26] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 06:22:26] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 06:22:26] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/a2/e3/e365380968babc4899833304884f416db0491c987850c57607b147f8191d/articraft-2.3.1.tar.gz
+[2024-05-23 06:22:26] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-23 06:22:26] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.0.8.tar.gz tmp/dash_spread_grid-0.0.9.tar.gz --markdown 20240523/d/dash-spread-grid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 06:22:26] INFO root fetch - processPackages [wf-rappi]: executing diffoscope
+[2024-05-23 06:22:26] INFO root fetch - processPackages [wf-rappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_rappi-0.3.2.tar.gz tmp/wf_rappi-0.3.3.tar.gz --markdown 20240523/w/wf-rappi/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-23 06:22:26] INFO root fetch - processPackages [articraft]: executing diffoscope
+[2024-05-23 06:22:26] INFO root fetch - processPackages [articraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/articraft-2.2.1.tar.gz tmp/articraft-2.3.1.tar.gz --markdown 20240523/a/articraft/2.2.1-2.3.1/README.md --exclude *.pyd
+[2024-05-23 06:22:26] INFO root fetch - processPackages [a2y-ats]: Downloading https://files.pythonhosted.org/packages/60/19/a9b001575c2e0457db39ee0c829ea524a907a4b02b66131966b159e9a03e/a2y_ats-1.2.3-cp38-cp38-win_amd64.whl
+[2024-05-23 06:22:26] INFO root fetch - processPackages [a2y-ats]: executing diffoscope
+[2024-05-23 06:22:26] INFO root fetch - processPackages [a2y-ats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2y_ats-1.2.2-cp38-cp38-win_amd64.whl.zip tmp/a2y_ats-1.2.3-cp38-cp38-win_amd64.whl.zip --markdown 20240523/a/a2y-ats/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-23 06:22:27] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.8.tar.gz]
+[2024-05-23 06:22:27] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.9.tar.gz]
+[2024-05-23 06:22:27] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-23 06:22:27] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 06:22:27] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 06:22:27] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 06:22:27] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.2.1.tar.gz]
+[2024-05-23 06:22:27] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.3.1.tar.gz]
+[2024-05-23 06:22:27] INFO root fetch - main [MainThread]: End processing [articraft]: success
+[2024-05-23 06:22:27] INFO root fetch - processPackages [a2y-ats]: Remove: archive file [/home/abi/fetcher/tmp/a2y_ats-1.2.2-cp38-cp38-win_amd64.whl.zip]
+[2024-05-23 06:22:27] INFO root fetch - processPackages [a2y-ats]: Remove: archive file [/home/abi/fetcher/tmp/a2y_ats-1.2.3-cp38-cp38-win_amd64.whl.zip]
+[2024-05-23 06:22:27] INFO root fetch - main [MainThread]: End processing [a2y-ats]: success
+[2024-05-23 06:22:27] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.3.2.tar.gz]
+[2024-05-23 06:22:27] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.3.3.tar.gz]
+[2024-05-23 06:22:27] INFO root fetch - main [MainThread]: End processing [wf-rappi]: success
+[2024-05-23 06:22:28] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.8.tar.gz]
+[2024-05-23 06:22:28] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
+[2024-05-23 06:22:28] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-23 06:22:28] INFO root fetch - main [MainThread]: Store serial: [23337631]
