@@ -8978,3 +8978,51 @@
 [2024-05-23 05:01:53] INFO root fetch - processPackages [pygubu-designer]: Remove: archive file [/home/abi/fetcher/tmp/pygubu_designer-0.39.3.tar.gz]
 [2024-05-23 05:01:53] INFO root fetch - main [MainThread]: End processing [pygubu-designer]: success
 [2024-05-23 05:01:53] INFO root fetch - main [MainThread]: Store serial: [23336931]
+[2024-05-23 05:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336931]
+[2024-05-23 05:04:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 05:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AbeewayConfig
+[2024-05-23 05:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: location-local
+[2024-05-23 05:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctuFaultDetector
+[2024-05-23 05:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: direnumerate
+[2024-05-23 05:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easylogger4dev-alpha
+[2024-05-23 05:04:01] INFO root fetch - processPackages [ctuFaultDetector]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-23 05:04:01] INFO root fetch - processPackages [location-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 05:04:01] INFO root fetch - processPackages [direnumerate]: New version: [4.0a2] Old Version: [4.0a1]
+[2024-05-23 05:04:01] INFO root fetch - processPackages [ctuFaultDetector]: Downloading https://files.pythonhosted.org/packages/42/7d/f0793dfc3406e34b7563463091a945fe35bdb188d6393c178019c062282e/ctuFaultDetector-1.0.0.tar.gz
+[2024-05-23 05:04:01] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/9c/f2/fcc760989d48c5e33cbe7c435b39b0a9e8eba895ccbf5832a8b83178d5ab/location_local-0.0.98.tar.gz
+[2024-05-23 05:04:01] INFO root fetch - processPackages [AbeewayConfig]: New version: [0.2.2.8] Old Version: [0.2.2.2]
+[2024-05-23 05:04:01] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/c7/6c/7d51613839eb3c4aba9c8e6b1ce5db7ead406e4191b1cf2c37b3601a5b8c/direnumerate-4.0a1.tar.gz
+[2024-05-23 05:04:01] INFO root fetch - processPackages [easylogger4dev-alpha]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-23 05:04:02] INFO root fetch - processPackages [ctuFaultDetector]: Downloading https://files.pythonhosted.org/packages/c8/46/415f8902c2839ed1d28a4b9823da88c677c59f0d42cba578002454171923/ctuFaultDetector-1.1.0.tar.gz
+[2024-05-23 05:04:02] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/2e/1e/2a1e6264292214bc558e1230d4660d51bbe681d2921a250cb4f94052fc9e/location_local-0.0.99.tar.gz
+[2024-05-23 05:04:02] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/36/48/addefc95ff76548a86dccda3a5563b83091d92ef10224b3772c81dff3b3a/direnumerate-4.0a2.tar.gz
+[2024-05-23 05:04:02] INFO root fetch - processPackages [easylogger4dev-alpha]: Downloading https://files.pythonhosted.org/packages/ff/5a/65f4ce4705a3663217197e71e02af7b0d7d46d58a09437f1006c1d934e34/easylogger4dev_alpha-0.1.4.tar.gz
+[2024-05-23 05:04:02] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/73/d6/538d3ba353693f6817bd7a0b700a307157d045475862025ae99b3a2cc27a/abeewayconfig-0.2.2.2.tar.gz
+[2024-05-23 05:04:02] INFO root fetch - processPackages [ctuFaultDetector]: executing diffoscope
+[2024-05-23 05:04:02] INFO root fetch - processPackages [ctuFaultDetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctuFaultDetector-1.0.0.tar.gz tmp/ctuFaultDetector-1.1.0.tar.gz --markdown 20240523/c/ctuFaultDetector/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-23 05:04:02] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2024-05-23 05:04:02] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location_local-0.0.98.tar.gz tmp/location_local-0.0.99.tar.gz --markdown 20240523/l/location-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 05:04:02] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-05-23 05:04:02] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-4.0a1.tar.gz tmp/direnumerate-4.0a2.tar.gz --markdown 20240523/d/direnumerate/4.0a1-4.0a2/README.md --exclude *.pyd
+[2024-05-23 05:04:02] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/3c/95/98907f8ceb700eb291a236f60a43dd0c94a9e0d5674d74a45c4717011250/abeewayconfig-0.2.2.8.tar.gz
+[2024-05-23 05:04:02] INFO root fetch - processPackages [easylogger4dev-alpha]: Downloading https://files.pythonhosted.org/packages/11/f8/71d9fab4a537b25257c2abb241a739f01de1ceab3dd33162552d8cdfedd2/easylogger4dev_alpha-0.2.0.tar.gz
+[2024-05-23 05:04:02] INFO root fetch - processPackages [AbeewayConfig]: executing diffoscope
+[2024-05-23 05:04:02] INFO root fetch - processPackages [AbeewayConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abeewayconfig-0.2.2.2.tar.gz tmp/abeewayconfig-0.2.2.8.tar.gz --markdown 20240523/A/AbeewayConfig/0.2.2.2-0.2.2.8/README.md --exclude *.pyd
+[2024-05-23 05:04:02] INFO root fetch - processPackages [easylogger4dev-alpha]: executing diffoscope
+[2024-05-23 05:04:02] INFO root fetch - processPackages [easylogger4dev-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylogger4dev_alpha-0.1.4.tar.gz tmp/easylogger4dev_alpha-0.2.0.tar.gz --markdown 20240523/e/easylogger4dev-alpha/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-23 05:04:02] INFO root fetch - processPackages [ctuFaultDetector]: Remove: archive file [/home/abi/fetcher/tmp/ctuFaultDetector-1.0.0.tar.gz]
+[2024-05-23 05:04:02] INFO root fetch - processPackages [ctuFaultDetector]: Remove: archive file [/home/abi/fetcher/tmp/ctuFaultDetector-1.1.0.tar.gz]
+[2024-05-23 05:04:02] INFO root fetch - main [MainThread]: End processing [ctuFaultDetector]: success
+[2024-05-23 05:04:02] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-4.0a1.tar.gz]
+[2024-05-23 05:04:02] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-4.0a2.tar.gz]
+[2024-05-23 05:04:02] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-05-23 05:04:02] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.98.tar.gz]
+[2024-05-23 05:04:02] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.99.tar.gz]
+[2024-05-23 05:04:02] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2024-05-23 05:04:03] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.2.2.tar.gz]
+[2024-05-23 05:04:03] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.2.8.tar.gz]
+[2024-05-23 05:04:03] INFO root fetch - main [MainThread]: End processing [AbeewayConfig]: success
+[2024-05-23 05:04:03] INFO root fetch - processPackages [easylogger4dev-alpha]: Remove: archive file [/home/abi/fetcher/tmp/easylogger4dev_alpha-0.1.4.tar.gz]
+[2024-05-23 05:04:03] INFO root fetch - processPackages [easylogger4dev-alpha]: Remove: archive file [/home/abi/fetcher/tmp/easylogger4dev_alpha-0.2.0.tar.gz]
+[2024-05-23 05:04:03] INFO root fetch - main [MainThread]: End processing [easylogger4dev-alpha]: success
+[2024-05-23 05:04:03] INFO root fetch - main [MainThread]: Store serial: [23336952]
