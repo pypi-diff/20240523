@@ -11587,3 +11587,72 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:07:42] INFO root fetch - processPackages [keyboardsounds]: Remove: archive file [/home/abi/fetcher/tmp/keyboardsounds-5.7.6.tar.gz]
 [2024-05-23 08:07:42] INFO root fetch - main [MainThread]: End processing [keyboardsounds]: success
 [2024-05-23 08:07:42] INFO root fetch - main [MainThread]: Store serial: [23338273]
+[2024-05-23 08:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338273]
+[2024-05-23 08:09:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-codenerix
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt-idax
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvscout
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qsharp
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tconnectsync
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qsharp-jupyterlab
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qsharp-widgets
+[2024-05-23 08:09:50] WARNING root fetch - processPackages [cvscout]: Skipping, unable to determine old version
+[2024-05-23 08:09:50] INFO root fetch - main [MainThread]: End processing [cvscout] error
+[2024-05-23 08:09:50] INFO root fetch - processPackages [qsharp-widgets]: New version: [1.5.3.dev0] Old Version: [1.5.2.dev0]
+[2024-05-23 08:09:50] INFO root fetch - processPackages [django-codenerix]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-23 08:09:50] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240522] Old Version: [2.6.0.dev20240521]
+[2024-05-23 08:09:50] INFO root fetch - processPackages [tconnectsync]: New version: [0.9.7] Old Version: [0.9.5]
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ccxt-idax]: New version: [4.3.24] Old Version: [4.3.23]
+[2024-05-23 08:09:50] INFO root fetch - processPackages [qsharp-jupyterlab]: New version: [1.5.4.dev0] Old Version: [1.5.3.dev0]
+[2024-05-23 08:09:50] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/5a/69/305d336230351921acd30f71cc8a474ff86c9e21ca6306571b0357911a4c/qsharp_widgets-1.5.2.dev0-py2.py3-none-any.whl
+[2024-05-23 08:09:50] INFO root fetch - processPackages [qsharp]: New version: [1.5.4.dev0] Old Version: [1.5.3.dev0]
+[2024-05-23 08:09:50] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/ae/10/6c1b18ca5b901dda322ef6ebd63aa51cd777f12179630cfe66a52dbefd73/django-codenerix-4.0.8.tar.gz
+[2024-05-23 08:09:50] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/80/49/de02bd2d13d1a20cc0ef7197513603f8b9e18c0a30fa7684ba2b37e64f24/pyg_nightly-2.6.0.dev20240521.tar.gz
+[2024-05-23 08:09:50] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/81/1c/e782fb1230c9bdadfaea37dd974aaed9c49305d760c8144d63da1f26f630/qsharp_jupyterlab-1.5.3.dev0-py3-none-any.whl
+[2024-05-23 08:09:50] INFO root fetch - processPackages [tconnectsync]: Downloading https://files.pythonhosted.org/packages/21/69/d6afccd3b415f4a0b24e4854a2c4a5053591a22916929ad1a2595305d52e/tconnectsync-0.9.5.tar.gz
+[2024-05-23 08:09:50] INFO root fetch - processPackages [ccxt-idax]: Downloading https://files.pythonhosted.org/packages/e5/a3/acabe5f0850bcbac2aef356a9f0de4c25b0ea416ee1daa5ceabfbc2107b9/ccxt-idax-4.3.23.tar.gz
+[2024-05-23 08:09:50] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/96/5d/d2e57364e002478c1cbf2e4f7f997759d91054c2004e51a0af3c061725b2/qsharp-1.5.3.dev0-cp37-abi3-win_arm64.whl
+[2024-05-23 08:09:51] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d9/74/73305db17f1b77721616e219c5cf67d44e053c02655cdf4de9407787a1a2/pyg_nightly-2.6.0.dev20240522.tar.gz
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/3b/f6/b1fedcbb7c8bd086117cf34460e21487e7742bd9ac460b518f701f75c434/qsharp_jupyterlab-1.5.4.dev0-py3-none-any.whl
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/be/95/5be55a92778323fc945e76606330d3c721db58aea5fe0c256aa0f639a03c/qsharp_widgets-1.5.3.dev0-py2.py3-none-any.whl
+[2024-05-23 08:09:51] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/fa/74/5c81cb6c9cd40266d8845b61025400c9db3344b5ed8063c6b29f18d4574e/django-codenerix-4.0.9.tar.gz
+[2024-05-23 08:09:51] INFO root fetch - processPackages [tconnectsync]: Downloading https://files.pythonhosted.org/packages/20/0b/993561cb76991033946372279b91ba85971c52b5af2047a427629433d060/tconnectsync-0.9.7.tar.gz
+[2024-05-23 08:09:51] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-23 08:09:51] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240521.tar.gz tmp/pyg_nightly-2.6.0.dev20240522.tar.gz --markdown 20240523/p/pyg-nightly/2.6.0.dev20240521-2.6.0.dev20240522/README.md --exclude *.pyd
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-widgets]: executing diffoscope
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_widgets-1.5.2.dev0-py2.py3-none-any.whl.zip tmp/qsharp_widgets-1.5.3.dev0-py2.py3-none-any.whl.zip --markdown 20240523/q/qsharp-widgets/1.5.2.dev0-1.5.3.dev0/README.md --exclude *.pyd
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-jupyterlab]: executing diffoscope
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_jupyterlab-1.5.3.dev0-py3-none-any.whl.zip tmp/qsharp_jupyterlab-1.5.4.dev0-py3-none-any.whl.zip --markdown 20240523/q/qsharp-jupyterlab/1.5.3.dev0-1.5.4.dev0/README.md --exclude *.pyd
+[2024-05-23 08:09:51] INFO root fetch - processPackages [tconnectsync]: executing diffoscope
+[2024-05-23 08:09:51] INFO root fetch - processPackages [tconnectsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tconnectsync-0.9.5.tar.gz tmp/tconnectsync-0.9.7.tar.gz --markdown 20240523/t/tconnectsync/0.9.5-0.9.7/README.md --exclude *.pyd
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/91/3d/1e509f0c41f82e54844a2786ead095434268cbf0e8e09f04977845e443a5/qsharp-1.5.4.dev0-cp37-abi3-win_arm64.whl
+[2024-05-23 08:09:51] INFO root fetch - processPackages [ccxt-idax]: Downloading https://files.pythonhosted.org/packages/34/bc/380e6cb6bffdf9874df45701576afa272b78adc7adf9ec73c2043f05bfa5/ccxt-idax-4.3.24.tar.gz
+[2024-05-23 08:09:51] INFO root fetch - processPackages [django-codenerix]: executing diffoscope
+[2024-05-23 08:09:51] INFO root fetch - processPackages [django-codenerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-4.0.8.tar.gz tmp/django-codenerix-4.0.9.tar.gz --markdown 20240523/d/django-codenerix/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-23 08:09:51] INFO root fetch - processPackages [ccxt-idax]: executing diffoscope
+[2024-05-23 08:09:51] INFO root fetch - processPackages [ccxt-idax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-idax-4.3.23.tar.gz tmp/ccxt-idax-4.3.24.tar.gz --markdown 20240523/c/ccxt-idax/4.3.23-4.3.24/README.md --exclude *.pyd
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-1.5.3.dev0-cp37-abi3-win_arm64.whl.zip tmp/qsharp-1.5.4.dev0-cp37-abi3-win_arm64.whl.zip --markdown 20240523/q/qsharp/1.5.3.dev0-1.5.4.dev0/README.md --exclude *.pyd
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.5.3.dev0-py3-none-any.whl.zip]
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.5.4.dev0-py3-none-any.whl.zip]
+[2024-05-23 08:09:51] INFO root fetch - main [MainThread]: End processing [qsharp-jupyterlab]: success
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.5.2.dev0-py2.py3-none-any.whl.zip]
+[2024-05-23 08:09:51] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.5.3.dev0-py2.py3-none-any.whl.zip]
+[2024-05-23 08:09:51] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
+[2024-05-23 08:09:52] INFO root fetch - processPackages [tconnectsync]: Remove: archive file [/home/abi/fetcher/tmp/tconnectsync-0.9.5.tar.gz]
+[2024-05-23 08:09:52] INFO root fetch - processPackages [tconnectsync]: Remove: archive file [/home/abi/fetcher/tmp/tconnectsync-0.9.7.tar.gz]
+[2024-05-23 08:09:52] INFO root fetch - main [MainThread]: End processing [tconnectsync]: success
+[2024-05-23 08:09:52] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.5.3.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-23 08:09:52] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.5.4.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-23 08:09:52] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2024-05-23 08:09:53] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240521.tar.gz]
+[2024-05-23 08:09:53] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240522.tar.gz]
+[2024-05-23 08:09:53] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-23 08:09:55] INFO root fetch - processPackages [ccxt-idax]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-4.3.23.tar.gz]
+[2024-05-23 08:09:55] INFO root fetch - processPackages [ccxt-idax]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-4.3.24.tar.gz]
+[2024-05-23 08:09:55] INFO root fetch - main [MainThread]: End processing [ccxt-idax]: success
+[2024-05-23 08:09:56] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.8.tar.gz]
+[2024-05-23 08:09:56] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
+[2024-05-23 08:09:56] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
+[2024-05-23 08:09:56] INFO root fetch - main [MainThread]: Store serial: [23338296]
