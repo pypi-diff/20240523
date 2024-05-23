@@ -11711,3 +11711,55 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:14:18] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.2.0rc0.tar.gz]
 [2024-05-23 08:14:18] INFO root fetch - main [MainThread]: End processing [comai]: success
 [2024-05-23 08:14:18] INFO root fetch - main [MainThread]: Store serial: [23338324]
+[2024-05-23 08:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338324]
+[2024-05-23 08:16:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvscout
+[2024-05-23 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k-image-converter-jp
+[2024-05-23 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SeqBox
+[2024-05-23 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-awscdk-resolver
+[2024-05-23 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jfExt
+[2024-05-23 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: random-quote-cli
+[2024-05-23 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: database-mysql-local
+[2024-05-23 08:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: loe-simp-app-fw
+[2024-05-23 08:16:26] INFO root fetch - processPackages [cvscout]: New version: [0.2] Old Version: [0.1]
+[2024-05-23 08:16:26] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 08:16:26] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.319] Old Version: [0.0.318]
+[2024-05-23 08:16:26] WARNING root fetch - processPackages [random-quote-cli]: Skipping, unable to determine old version
+[2024-05-23 08:16:26] INFO root fetch - main [MainThread]: End processing [random-quote-cli] error
+[2024-05-23 08:16:26] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-23 08:16:26] WARNING root fetch - processPackages [k-image-converter-jp]: Skipping, unable to determine old version
+[2024-05-23 08:16:26] INFO root fetch - main [MainThread]: End processing [k-image-converter-jp] error
+[2024-05-23 08:16:26] WARNING root fetch - processPackages [SeqBox]: Skipping, unable to determine old version
+[2024-05-23 08:16:26] INFO root fetch - main [MainThread]: End processing [SeqBox] error
+[2024-05-23 08:16:26] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 08:16:26] ERROR root fetch - processPackages [cvscout]: Unable to fetch info: No such project/version 'cvscout' 0.1
+[2024-05-23 08:16:26] INFO root fetch - main [MainThread]: End processing [cvscout] error
+[2024-05-23 08:16:26] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 08:16:26] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/37/75/4b48f42423c41eb46cd761024d35261f50b69f78d682c4f7f73b2de4bf12/database_mysql_local-0.0.318.tar.gz
+[2024-05-23 08:16:26] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/07/20/19ec9266389742d2a3c04ab3687b33ce4fbc2bbb57bfcec31da1a9bcbd23/cdk8s-awscdk-resolver-0.0.98.tar.gz
+[2024-05-23 08:16:27] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/38/e8/dcbdc94c6df6d0a4037926ec56143bbf581fc1ceac7de5d02ce6da9b243b/loe_simp_app_fw-1.4.0.tar.gz
+[2024-05-23 08:16:27] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 08:16:27] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/cb/7a/7367468374a98237685d45fbe121ac8b05b4866be540d943900e40be12ee/database_mysql_local-0.0.319.tar.gz
+[2024-05-23 08:16:27] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 08:16:27] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 08:16:27] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-23 08:16:27] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.318.tar.gz tmp/database_mysql_local-0.0.319.tar.gz --markdown 20240523/d/database-mysql-local/0.0.318-0.0.319/README.md --exclude *.pyd
+[2024-05-23 08:16:27] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/e6/64/a87e81e0d3d838f02bd5ff6ddf1bcd16e33e1e2e3875d0189ef019fa239f/loe_simp_app_fw-1.4.1.tar.gz
+[2024-05-23 08:16:27] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/c7/b2/54a44e3f76d560a3b27d6d369382450e19f3b34970ec7c2ee462c06c50c0/cdk8s-awscdk-resolver-0.0.99.tar.gz
+[2024-05-23 08:16:27] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-05-23 08:16:27] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.4.0.tar.gz tmp/loe_simp_app_fw-1.4.1.tar.gz --markdown 20240523/l/loe-simp-app-fw/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-23 08:16:27] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-23 08:16:27] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz --markdown 20240523/c/cdk8s-awscdk-resolver/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 08:16:27] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 08:16:27] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 08:16:27] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 08:16:27] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.318.tar.gz]
+[2024-05-23 08:16:27] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.319.tar.gz]
+[2024-05-23 08:16:27] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-23 08:16:28] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.4.0.tar.gz]
+[2024-05-23 08:16:28] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.4.1.tar.gz]
+[2024-05-23 08:16:28] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-05-23 08:16:28] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz]
+[2024-05-23 08:16:28] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz]
+[2024-05-23 08:16:28] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-23 08:16:28] INFO root fetch - main [MainThread]: Store serial: [23338355]
