@@ -21219,3 +21219,98 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 13:06:05] INFO root fetch - processPackages [fakenos]: Remove: archive file [/home/abi/fetcher/tmp/fakenos-1.0.0.tar.gz]
 [2024-05-23 13:06:05] INFO root fetch - main [MainThread]: End processing [fakenos]: success
 [2024-05-23 13:06:05] INFO root fetch - main [MainThread]: Store serial: [23342173]
+[2024-05-23 13:08:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342173]
+[2024-05-23 13:08:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nexxT
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dooth
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IvmDriver
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: src-omer-emir
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cogflow
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NanoMethCluster
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torcj
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: input4mips-validation
+[2024-05-23 13:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: validio-sdk
+[2024-05-23 13:08:14] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-23 13:08:14] INFO root fetch - processPackages [input4mips-validation]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-23 13:08:14] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-23 13:08:14] INFO root fetch - processPackages [torcj]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-23 13:08:14] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-23 13:08:14] INFO root fetch - processPackages [nexxT]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-23 13:08:14] INFO root fetch - processPackages [torcj]: Downloading https://files.pythonhosted.org/packages/e1/d2/6f9077bed1e457fb7128fa7c4f1af81dc3d6b5f812a708547511ae8e326d/torcj-0.0.4.tar.gz
+[2024-05-23 13:08:14] INFO root fetch - processPackages [validio-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 13:08:14] WARNING root fetch - processPackages [src-omer-emir]: Skipping, unable to determine old version
+[2024-05-23 13:08:14] INFO root fetch - processPackages [src-omer-emir]: Start processing: validio-cli
+[2024-05-23 13:08:14] INFO root fetch - processPackages [IvmDriver]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 13:08:14] INFO root fetch - main [MainThread]: End processing [src-omer-emir] error
+[2024-05-23 13:08:14] INFO root fetch - processPackages [NanoMethCluster]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 13:08:14] INFO root fetch - processPackages [dooth]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-23 13:08:14] INFO root fetch - processPackages [input4mips-validation]: Downloading https://files.pythonhosted.org/packages/5f/7f/1c683101bc33d21726b203435e63a1ec3f57426d9c6a9e2efae3469b6744/input4mips_validation-0.3.1.tar.gz
+[2024-05-23 13:08:14] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-05-23 13:08:14] INFO root fetch - processPackages [validio-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 13:08:14] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-23 13:08:14] INFO root fetch - processPackages [IvmDriver]: Downloading https://files.pythonhosted.org/packages/c1/d2/4f166586b672916388fd2d59e28659adf960575f8903e93745df8efb5914/IvmDriver-0.0.3.tar.gz
+[2024-05-23 13:08:15] INFO root fetch - processPackages [nexxT]: Downloading https://files.pythonhosted.org/packages/ad/77/45cfd54401c43c63e29ca55c390a4a2b652452eb61aa62bb82a03760e333/nexxT-1.1.0.zip
+[2024-05-23 13:08:15] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/94/70/6947c0ccdffe9c8607f04bd8432d095d8f4c19e643b3c5e023db491e3fbd/validio_sdk-0.8.0.tar.gz
+[2024-05-23 13:08:15] INFO root fetch - processPackages [NanoMethCluster]: Downloading https://files.pythonhosted.org/packages/ba/3b/4d876698e12af8886468a44bc2b7863d4fcfda4b06060da7df6f569a42d5/nanomethcluster-0.1.0.tar.gz
+[2024-05-23 13:08:15] INFO root fetch - processPackages [dooth]: Downloading https://files.pythonhosted.org/packages/87/96/68103e7350eca0599594be40532c63204508f3df017fb15adced1cfb8712/dooth-1.1.3-py3-none-any.whl
+[2024-05-23 13:08:15] INFO root fetch - processPackages [input4mips-validation]: Downloading https://files.pythonhosted.org/packages/39/f9/7feecb6dcfefdfa6f6107cc746f364f33ccafe1fd308583ed61850cecc9c/input4mips_validation-0.3.2.tar.gz
+[2024-05-23 13:08:15] INFO root fetch - processPackages [torcj]: Downloading https://files.pythonhosted.org/packages/3a/88/d64b9394f18deb0e4629cf124118acf4a000ca5236959f7950c88defb3c6/torcj-0.0.5.tar.gz
+[2024-05-23 13:08:15] WARNING root fetch - processPackages [NanoMethCluster]: Skipping package: exceeds size limit 46959128>=10485760
+[2024-05-23 13:08:15] INFO root fetch - processPackages [NanoMethCluster]: Start processing: DocumentsReader
+[2024-05-23 13:08:15] INFO root fetch - main [MainThread]: End processing [NanoMethCluster] error
+[2024-05-23 13:08:15] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240523/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-23 13:08:15] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/50/ef/bee0fbe9261ca2e2fd646048a6c24877fb616066e64d61d6f2b42d9e1faf/validio_cli-0.8.0.tar.gz
+[2024-05-23 13:08:15] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 13:08:15] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 13:08:15] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-05-23 13:08:15] INFO root fetch - processPackages [torcj]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [torcj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcj-0.0.4.tar.gz tmp/torcj-0.0.5.tar.gz --markdown 20240523/t/torcj/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-23 13:08:15] INFO root fetch - processPackages [input4mips-validation]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [input4mips-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/input4mips_validation-0.3.1.tar.gz tmp/input4mips_validation-0.3.2.tar.gz --markdown 20240523/i/input4mips-validation/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-23 13:08:15] INFO root fetch - processPackages [dooth]: Downloading https://files.pythonhosted.org/packages/0e/69/a0b3c45fc4832eb361968bff5aad15e52e4fe7cad5d01d02c3ca756913a1/dooth-1.1.4-py3-none-any.whl
+[2024-05-23 13:08:15] INFO root fetch - processPackages [nexxT]: Downloading https://files.pythonhosted.org/packages/52/94/24976b6dfcb9a7e8353fcbc56e0e61fb915dccd1ff371462f700e2bb28d5/nexxT-1.1.1.zip
+[2024-05-23 13:08:15] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240523/o/openai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-23 13:08:15] INFO root fetch - processPackages [IvmDriver]: Downloading https://files.pythonhosted.org/packages/a7/b2/57860de7e74b42ee3fba85503404fcdd951c8b8449c211548d81e912fc47/IvmDriver-0.0.4.tar.gz
+[2024-05-23 13:08:15] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/db/91/e39c8107f98699b979e164ef962827501361573e283df30edc9d182ac594/validio_sdk-0.9.0.tar.gz
+[2024-05-23 13:08:15] INFO root fetch - processPackages [dooth]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [dooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dooth-1.1.3-py3-none-any.whl.zip tmp/dooth-1.1.4-py3-none-any.whl.zip --markdown 20240523/d/dooth/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-23 13:08:15] INFO root fetch - processPackages [nexxT]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [nexxT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexxT-1.1.0.zip tmp/nexxT-1.1.1.zip --markdown 20240523/n/nexxT/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-23 13:08:15] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/fb/8b/71e38f220651f67974b3c38f5b2c6d0c5f513a5631fbc842c063d386dda4/validio_cli-0.9.0.tar.gz
+[2024-05-23 13:08:15] INFO root fetch - processPackages [IvmDriver]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [IvmDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IvmDriver-0.0.3.tar.gz tmp/IvmDriver-0.0.4.tar.gz --markdown 20240523/I/IvmDriver/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 13:08:15] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.8.0.tar.gz tmp/validio_sdk-0.9.0.tar.gz --markdown 20240523/v/validio-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-23 13:08:15] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.4.tar.gz]
+[2024-05-23 13:08:15] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.5.tar.gz]
+[2024-05-23 13:08:15] INFO root fetch - main [MainThread]: End processing [torcj]: success
+[2024-05-23 13:08:15] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2024-05-23 13:08:15] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.8.0.tar.gz tmp/validio_cli-0.9.0.tar.gz --markdown 20240523/v/validio-cli/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-23 13:08:16] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-23 13:08:16] INFO root fetch - processPackages [input4mips-validation]: Remove: archive file [/home/abi/fetcher/tmp/input4mips_validation-0.3.1.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - processPackages [input4mips-validation]: Remove: archive file [/home/abi/fetcher/tmp/input4mips_validation-0.3.2.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - main [MainThread]: End processing [input4mips-validation]: success
+[2024-05-23 13:08:16] INFO root fetch - processPackages [dooth]: Remove: archive file [/home/abi/fetcher/tmp/dooth-1.1.3-py3-none-any.whl.zip]
+[2024-05-23 13:08:16] INFO root fetch - processPackages [dooth]: Remove: archive file [/home/abi/fetcher/tmp/dooth-1.1.4-py3-none-any.whl.zip]
+[2024-05-23 13:08:16] INFO root fetch - main [MainThread]: End processing [dooth]: success
+[2024-05-23 13:08:16] INFO root fetch - processPackages [nexxT]: Remove: archive file [/home/abi/fetcher/tmp/nexxT-1.1.0.zip]
+[2024-05-23 13:08:16] INFO root fetch - processPackages [nexxT]: Remove: archive file [/home/abi/fetcher/tmp/nexxT-1.1.1.zip]
+[2024-05-23 13:08:16] INFO root fetch - main [MainThread]: End processing [nexxT]: success
+[2024-05-23 13:08:16] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.8.0.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.9.0.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2024-05-23 13:08:16] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-05-23 13:08:16] INFO root fetch - processPackages [IvmDriver]: Remove: archive file [/home/abi/fetcher/tmp/IvmDriver-0.0.3.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - processPackages [IvmDriver]: Remove: archive file [/home/abi/fetcher/tmp/IvmDriver-0.0.4.tar.gz]
+[2024-05-23 13:08:16] INFO root fetch - main [MainThread]: End processing [IvmDriver]: success
+[2024-05-23 13:08:17] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.8.0.tar.gz]
+[2024-05-23 13:08:17] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.9.0.tar.gz]
+[2024-05-23 13:08:17] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2024-05-23 13:08:17] INFO root fetch - main [MainThread]: Store serial: [23342211]
