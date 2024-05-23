@@ -7390,3 +7390,15 @@
 [2024-05-23 03:28:51] INFO root fetch - processPackages [jupyter-client]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_client-8.6.1.tar.gz]
 [2024-05-23 03:28:51] INFO root fetch - main [MainThread]: End processing [jupyter-client]: success
 [2024-05-23 03:28:51] INFO root fetch - main [MainThread]: Store serial: [23336048]
+[2024-05-23 03:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336048]
+[2024-05-23 03:31:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 03:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruff
+[2024-05-23 03:31:00] INFO root fetch - processPackages [ruff]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-23 03:31:00] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/e4/1c/5a709706948875d13fc4aa6cfbbaab7549bc06078c0b422749f092792fe3/ruff-0.4.3.tar.gz
+[2024-05-23 03:31:00] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/2f/2f/1e91c17c5223a37992a9302af69056966657d23f945e07039319fe006f82/ruff-0.4.4.tar.gz
+[2024-05-23 03:31:00] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2024-05-23 03:31:00] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.4.3.tar.gz tmp/ruff-0.4.4.tar.gz --markdown 20240523/r/ruff/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-23 03:31:17] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.4.3.tar.gz]
+[2024-05-23 03:31:17] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.4.4.tar.gz]
+[2024-05-23 03:31:17] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2024-05-23 03:31:17] INFO root fetch - main [MainThread]: Store serial: [23336114]
