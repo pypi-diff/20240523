@@ -7333,3 +7333,27 @@
 [2024-05-23 03:24:30] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.11.tar.gz]
 [2024-05-23 03:24:30] INFO root fetch - main [MainThread]: End processing [midas-open-parser]: success
 [2024-05-23 03:24:30] INFO root fetch - main [MainThread]: Store serial: [23335914]
+[2024-05-23 03:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23335914]
+[2024-05-23 03:26:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 03:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-notes-local
+[2024-05-23 03:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subfinder-leakix
+[2024-05-23 03:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easytl
+[2024-05-23 03:26:39] INFO root fetch - processPackages [contact-notes-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 03:26:39] WARNING root fetch - processPackages [subfinder-leakix]: Skipping, unable to determine old version
+[2024-05-23 03:26:39] INFO root fetch - main [MainThread]: End processing [subfinder-leakix] error
+[2024-05-23 03:26:39] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/94/02/401f72b4bc3a22137e39e519a300db91b6d7f6f995ff3fdd5266dd81540c/contact-notes-local-0.0.8.tar.gz
+[2024-05-23 03:26:39] INFO root fetch - processPackages [easytl]: New version: [0.4.0a3] Old Version: [0.4.0a2]
+[2024-05-23 03:26:39] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/7d/da/15635ad28159f22874e3fbe243ec786d3658da7812c3243f5feb8d5f8385/contact-notes-local-0.0.9.tar.gz
+[2024-05-23 03:26:39] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/a8/27/2db6952c500ee421187446ceac61b75a2c09b9e4d36afd3222af10a8b098/easytl-0.4.0a2.tar.gz
+[2024-05-23 03:26:39] INFO root fetch - processPackages [contact-notes-local]: executing diffoscope
+[2024-05-23 03:26:39] INFO root fetch - processPackages [contact-notes-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-notes-local-0.0.8.tar.gz tmp/contact-notes-local-0.0.9.tar.gz --markdown 20240523/c/contact-notes-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 03:26:39] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/b3/52/d7365280f6b2774678d67646712a3c33db31e62a89861c8d8cf9b983a41f/easytl-0.4.0a3.tar.gz
+[2024-05-23 03:26:40] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-05-23 03:26:40] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.4.0a2.tar.gz tmp/easytl-0.4.0a3.tar.gz --markdown 20240523/e/easytl/0.4.0a2-0.4.0a3/README.md --exclude *.pyd
+[2024-05-23 03:26:40] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.8.tar.gz]
+[2024-05-23 03:26:40] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.9.tar.gz]
+[2024-05-23 03:26:40] INFO root fetch - main [MainThread]: End processing [contact-notes-local]: success
+[2024-05-23 03:26:40] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.4.0a2.tar.gz]
+[2024-05-23 03:26:40] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.4.0a3.tar.gz]
+[2024-05-23 03:26:40] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-05-23 03:26:40] INFO root fetch - main [MainThread]: Store serial: [23335979]
