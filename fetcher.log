@@ -13280,3 +13280,69 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:20:53] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.5.tar.gz]
 [2024-05-23 09:20:53] INFO root fetch - main [MainThread]: End processing [packManager]: success
 [2024-05-23 09:20:53] INFO root fetch - main [MainThread]: Store serial: [23339072]
+[2024-05-23 09:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339072]
+[2024-05-23 09:23:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packManager
+[2024-05-23 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sdk-remote
+[2024-05-23 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onepiece-classifier
+[2024-05-23 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tardis-em
+[2024-05-23 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nfinance
+[2024-05-23 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: greatbrowser
+[2024-05-23 09:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voila
+[2024-05-23 09:23:01] INFO root fetch - processPackages [nfinance]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-23 09:23:01] INFO root fetch - processPackages [onepiece-classifier]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 09:23:01] INFO root fetch - processPackages [packManager]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-23 09:23:01] INFO root fetch - processPackages [greatbrowser]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-23 09:23:01] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/15/8d/de4965b6298093d37cf3c49f6a695696ffb6ec9cab51f69f00761973966e/nfinance-0.4.0-py3-none-any.whl
+[2024-05-23 09:23:01] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 09:23:01] INFO root fetch - processPackages [tardis-em]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-23 09:23:01] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/5b/7b/bec7d893157043a84b6eb88c10caec32582ff1a674988d7fe54c574b10d3/packmanager-1.0.5.tar.gz
+[2024-05-23 09:23:01] INFO root fetch - processPackages [voila]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-23 09:23:01] INFO root fetch - processPackages [onepiece-classifier]: Downloading https://files.pythonhosted.org/packages/29/12/8624a884ad5c17dbf8a4363189cb410f2aaafbc879d90996d8c6ceebee8a/onepiece_classifier-0.0.1.tar.gz
+[2024-05-23 09:23:01] INFO root fetch - processPackages [tardis-em]: Downloading https://files.pythonhosted.org/packages/29/57/7887396db9edafc5aed352c2b433641d29f79eaadd5553fc0e1ab61aebcf/tardis_em-0.2.4.tar.gz
+[2024-05-23 09:23:01] INFO root fetch - processPackages [greatbrowser]: Downloading https://files.pythonhosted.org/packages/f4/37/e4757f01cc71d83fbb3672460fbbbd93c0959c53ac382ffd054890233380/greatbrowser-1.0.5.tar.gz
+[2024-05-23 09:23:01] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/b2/73/ff727800d332ba3412e3135ded7fed3d1b78930e48ab4f978b5038b41b5f/python_sdk_remote-0.0.98.tar.gz
+[2024-05-23 09:23:01] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/e7/5d/8281a408b2636ed3b23ce44b6a203441db8e74be7de601b22e069229b713/voila-0.5.6.tar.gz
+[2024-05-23 09:23:01] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/81/d9/ef80a9f436fb11ae1f66a4fb54983700283033d03f1d38f98ee44e180386/nfinance-0.4.1-py3-none-any.whl
+[2024-05-23 09:23:01] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/48/03/e6a3e3f35a39da5aaa8ebd4fa48332a7e9609b18c85da91a404ab365335a/packmanager-1.0.6.tar.gz
+[2024-05-23 09:23:01] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-23 09:23:01] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.0-py3-none-any.whl.zip tmp/nfinance-0.4.1-py3-none-any.whl.zip --markdown 20240523/n/nfinance/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-23 09:23:02] INFO root fetch - processPackages [onepiece-classifier]: Downloading https://files.pythonhosted.org/packages/df/eb/60a49be84d5cdf68d3005cbe997c4949f7a2814a4f22d85f611a5a75a909/onepiece_classifier-0.0.2.tar.gz
+[2024-05-23 09:23:02] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-23 09:23:02] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-1.0.5.tar.gz tmp/packmanager-1.0.6.tar.gz --markdown 20240523/p/packManager/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-23 09:23:02] INFO root fetch - processPackages [onepiece-classifier]: executing diffoscope
+[2024-05-23 09:23:02] INFO root fetch - processPackages [onepiece-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onepiece_classifier-0.0.1.tar.gz tmp/onepiece_classifier-0.0.2.tar.gz --markdown 20240523/o/onepiece-classifier/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 09:23:02] INFO root fetch - processPackages [greatbrowser]: Downloading https://files.pythonhosted.org/packages/66/41/77f88f7c84cbabe4d10d142b8bc5612e3161fdd5513f234e6f54e6be2bb5/greatbrowser-1.0.6.tar.gz
+[2024-05-23 09:23:02] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/c6/6c/d232e7e91dcb30944e7eee0abdeb4922803eca620e93ce6940350682eaeb/python_sdk_remote-0.0.99.tar.gz
+[2024-05-23 09:23:02] INFO root fetch - processPackages [tardis-em]: Downloading https://files.pythonhosted.org/packages/3f/fd/cb55563154d54c3bb64d611404516a24dad4f2925fa7300983b7c34f676a/tardis_em-0.2.5.tar.gz
+[2024-05-23 09:23:02] INFO root fetch - processPackages [greatbrowser]: executing diffoscope
+[2024-05-23 09:23:02] INFO root fetch - processPackages [greatbrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greatbrowser-1.0.5.tar.gz tmp/greatbrowser-1.0.6.tar.gz --markdown 20240523/g/greatbrowser/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-23 09:23:02] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-23 09:23:02] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.98.tar.gz tmp/python_sdk_remote-0.0.99.tar.gz --markdown 20240523/p/python-sdk-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 09:23:02] INFO root fetch - processPackages [tardis-em]: executing diffoscope
+[2024-05-23 09:23:02] INFO root fetch - processPackages [tardis-em]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tardis_em-0.2.4.tar.gz tmp/tardis_em-0.2.5.tar.gz --markdown 20240523/t/tardis-em/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-23 09:23:02] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.0-py3-none-any.whl.zip]
+[2024-05-23 09:23:02] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.1-py3-none-any.whl.zip]
+[2024-05-23 09:23:02] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-23 09:23:02] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.5.tar.gz]
+[2024-05-23 09:23:02] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.6.tar.gz]
+[2024-05-23 09:23:02] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-23 09:23:02] INFO root fetch - processPackages [onepiece-classifier]: Remove: archive file [/home/abi/fetcher/tmp/onepiece_classifier-0.0.1.tar.gz]
+[2024-05-23 09:23:02] INFO root fetch - processPackages [onepiece-classifier]: Remove: archive file [/home/abi/fetcher/tmp/onepiece_classifier-0.0.2.tar.gz]
+[2024-05-23 09:23:02] INFO root fetch - main [MainThread]: End processing [onepiece-classifier]: success
+[2024-05-23 09:23:02] INFO root fetch - processPackages [greatbrowser]: Remove: archive file [/home/abi/fetcher/tmp/greatbrowser-1.0.5.tar.gz]
+[2024-05-23 09:23:02] INFO root fetch - processPackages [greatbrowser]: Remove: archive file [/home/abi/fetcher/tmp/greatbrowser-1.0.6.tar.gz]
+[2024-05-23 09:23:02] INFO root fetch - main [MainThread]: End processing [greatbrowser]: success
+[2024-05-23 09:23:03] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.98.tar.gz]
+[2024-05-23 09:23:03] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.99.tar.gz]
+[2024-05-23 09:23:03] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-23 09:23:03] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/32/07/9fa201d45a92401e62f16fa7342391bef162deac4be31cba3f130ddbae61/voila-0.5.7.tar.gz
+[2024-05-23 09:23:03] INFO root fetch - processPackages [tardis-em]: Remove: archive file [/home/abi/fetcher/tmp/tardis_em-0.2.4.tar.gz]
+[2024-05-23 09:23:03] INFO root fetch - processPackages [tardis-em]: Remove: archive file [/home/abi/fetcher/tmp/tardis_em-0.2.5.tar.gz]
+[2024-05-23 09:23:03] INFO root fetch - main [MainThread]: End processing [tardis-em]: success
+[2024-05-23 09:23:03] INFO root fetch - processPackages [voila]: executing diffoscope
+[2024-05-23 09:23:03] INFO root fetch - processPackages [voila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-0.5.6.tar.gz tmp/voila-0.5.7.tar.gz --markdown 20240523/v/voila/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-23 09:23:06] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.6.tar.gz]
+[2024-05-23 09:23:06] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.7.tar.gz]
+[2024-05-23 09:23:06] INFO root fetch - main [MainThread]: End processing [voila]: success
+[2024-05-23 09:23:06] INFO root fetch - main [MainThread]: Store serial: [23339093]
