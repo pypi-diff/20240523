@@ -12932,3 +12932,9 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:03:19] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-23 09:03:19] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-23 09:03:19] INFO root fetch - main [MainThread]: Store serial: [23338923]
+[2024-05-23 09:05:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338923]
+[2024-05-23 09:05:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 09:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-json-diff
+[2024-05-23 09:05:28] WARNING root fetch - processPackages [custom-json-diff]: Skipping, unable to determine old version
+[2024-05-23 09:05:28] INFO root fetch - main [MainThread]: End processing [custom-json-diff] error
+[2024-05-23 09:05:28] INFO root fetch - main [MainThread]: Store serial: [23338928]
