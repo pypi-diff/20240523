@@ -12117,3 +12117,54 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:34:15] INFO root fetch - processPackages [muGrid]: Remove: archive file [/home/abi/fetcher/tmp/mugrid-0.90.1.tar.gz]
 [2024-05-23 08:34:15] INFO root fetch - main [MainThread]: End processing [muGrid]: success
 [2024-05-23 08:34:15] INFO root fetch - main [MainThread]: Store serial: [23338503]
+[2024-05-23 08:36:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338503]
+[2024-05-23 08:36:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 08:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-searcher
+[2024-05-23 08:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openAIInsight
+[2024-05-23 08:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-reserial
+[2024-05-23 08:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muFFT
+[2024-05-23 08:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packManager
+[2024-05-23 08:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2024-05-23 08:36:35] INFO root fetch - processPackages [yplib]: New version: [5.8.2] Old Version: [5.8.1]
+[2024-05-23 08:36:35] INFO root fetch - processPackages [packManager]: New version: [1.0.3] Old Version: [0.0.0]
+[2024-05-23 08:36:35] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8b/f2/8d741f217748d75f94ff520d0d0d86c8654c1226a4652889b051f958f6b8/yplib-5.8.1.tar.gz
+[2024-05-23 08:36:35] WARNING root fetch - processPackages [audio-searcher]: Skipping, unable to determine old version
+[2024-05-23 08:36:35] INFO root fetch - main [MainThread]: End processing [audio-searcher] error
+[2024-05-23 08:36:35] INFO root fetch - processPackages [muFFT]: New version: [0.90.0] Old Version: [0.9.3]
+[2024-05-23 08:36:35] INFO root fetch - processPackages [pytest-reserial]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-23 08:36:35] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:36:35] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/1d/36/4aed9d6940d682b6a4e75295a18767903d99c13a11dc9aae97b2feb275ce/packmanager-0.0.0.tar.gz
+[2024-05-23 08:36:35] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/ae/06/fa51b5dcb39e8e6a7a8a823499d9504e6c1e9251753ad6524ae82bbb466e/openAIInsight-0.0.8-py3-none-any.whl
+[2024-05-23 08:36:35] INFO root fetch - processPackages [muFFT]: Downloading https://files.pythonhosted.org/packages/9d/f5/69da13ad5b6d059d9dd1d7772e21a17ad547a28f772a240537cdb4249a1b/muFFT-0.9.3.tar.gz
+[2024-05-23 08:36:35] INFO root fetch - processPackages [pytest-reserial]: Downloading https://files.pythonhosted.org/packages/8c/04/c6c9d380db0823ca3db548bee469ee3ff1f737998273039c464955c3b7f3/pytest_reserial-0.3.0.tar.gz
+[2024-05-23 08:36:35] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e2/c8/117ac8fa0bd849c505cb24d2625c15cdf02413dcf586a54aae48fb791bcc/yplib-5.8.2.tar.gz
+[2024-05-23 08:36:35] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-23 08:36:35] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.8.1.tar.gz tmp/yplib-5.8.2.tar.gz --markdown 20240523/y/yplib/5.8.1-5.8.2/README.md --exclude *.pyd
+[2024-05-23 08:36:35] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/34/60/54d5a15537fa5f47aec9a231c293e07ed6d43689274c7a6585ccadf75a38/packmanager-1.0.3.tar.gz
+[2024-05-23 08:36:35] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/1e/33/a70a124292be5c9d2c37167928812a80dc68e36910e94f3ba08cba349c03/openAIInsight-0.0.9-py3-none-any.whl
+[2024-05-23 08:36:35] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-23 08:36:35] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-0.0.0.tar.gz tmp/packmanager-1.0.3.tar.gz --markdown 20240523/p/packManager/0.0.0-1.0.3/README.md --exclude *.pyd
+[2024-05-23 08:36:36] INFO root fetch - processPackages [pytest-reserial]: Downloading https://files.pythonhosted.org/packages/99/3b/dab58dd8af4e54b76e4f31c4fe32f50205ef9f5ae2bed30a509319e7aeb8/pytest_reserial-0.4.0.tar.gz
+[2024-05-23 08:36:36] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2024-05-23 08:36:36] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.8-py3-none-any.whl.zip tmp/openAIInsight-0.0.9-py3-none-any.whl.zip --markdown 20240523/o/openAIInsight/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:36:36] INFO root fetch - processPackages [muFFT]: Downloading https://files.pythonhosted.org/packages/47/49/6b0e7ff756bde2bf8d1cf9c27295a4e2599144aa351612a88549bbf7c381/mufft-0.90.0.tar.gz
+[2024-05-23 08:36:36] INFO root fetch - processPackages [pytest-reserial]: executing diffoscope
+[2024-05-23 08:36:36] INFO root fetch - processPackages [pytest-reserial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_reserial-0.3.0.tar.gz tmp/pytest_reserial-0.4.0.tar.gz --markdown 20240523/p/pytest-reserial/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-23 08:36:36] INFO root fetch - processPackages [muFFT]: executing diffoscope
+[2024-05-23 08:36:36] INFO root fetch - processPackages [muFFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muFFT-0.9.3.tar.gz tmp/mufft-0.90.0.tar.gz --markdown 20240523/m/muFFT/0.9.3-0.90.0/README.md --exclude *.pyd
+[2024-05-23 08:36:36] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.1.tar.gz]
+[2024-05-23 08:36:36] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.2.tar.gz]
+[2024-05-23 08:36:36] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-23 08:36:36] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-0.0.0.tar.gz]
+[2024-05-23 08:36:36] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.3.tar.gz]
+[2024-05-23 08:36:36] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-23 08:36:36] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.8-py3-none-any.whl.zip]
+[2024-05-23 08:36:36] INFO root fetch - processPackages [openAIInsight]: Remove: archive file [/home/abi/fetcher/tmp/openAIInsight-0.0.9-py3-none-any.whl.zip]
+[2024-05-23 08:36:36] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2024-05-23 08:36:36] INFO root fetch - processPackages [pytest-reserial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_reserial-0.3.0.tar.gz]
+[2024-05-23 08:36:36] INFO root fetch - processPackages [pytest-reserial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_reserial-0.4.0.tar.gz]
+[2024-05-23 08:36:36] INFO root fetch - main [MainThread]: End processing [pytest-reserial]: success
+[2024-05-23 08:36:37] INFO root fetch - processPackages [muFFT]: Remove: archive file [/home/abi/fetcher/tmp/muFFT-0.9.3.tar.gz]
+[2024-05-23 08:36:37] INFO root fetch - processPackages [muFFT]: Remove: archive file [/home/abi/fetcher/tmp/mufft-0.90.0.tar.gz]
+[2024-05-23 08:36:37] INFO root fetch - main [MainThread]: End processing [muFFT]: success
+[2024-05-23 08:36:37] INFO root fetch - main [MainThread]: Store serial: [23338529]
