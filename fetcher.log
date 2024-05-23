@@ -14873,3 +14873,78 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:16:58] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
 [2024-05-23 10:16:58] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2024-05-23 10:16:58] INFO root fetch - main [MainThread]: Store serial: [23339748]
+[2024-05-23 10:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339748]
+[2024-05-23 10:19:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDVC
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zeval
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oguzhan-gokcekoca
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: os-vif
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-manager
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oslo.service
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-sdk-remote
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keystone-tempest-plugin
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: brapi-proxy
+[2024-05-23 10:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-problem
+[2024-05-23 10:19:07] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 10:19:07] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-23 10:19:07] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 10:19:07] INFO root fetch - processPackages [zeval]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 10:19:07] INFO root fetch - processPackages [keystone-tempest-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 10:19:07] INFO root fetch - processPackages [os-vif]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-23 10:19:07] WARNING root fetch - processPackages [brapi-proxy]: Skipping, unable to determine old version
+[2024-05-23 10:19:07] INFO root fetch - main [MainThread]: End processing [brapi-proxy] error
+[2024-05-23 10:19:07] WARNING root fetch - processPackages [pyDVC]: Skipping, unable to determine old version
+[2024-05-23 10:19:07] INFO root fetch - main [MainThread]: End processing [pyDVC] error
+[2024-05-23 10:19:07] WARNING root fetch - processPackages [oguzhan-gokcekoca]: Skipping, unable to determine old version
+[2024-05-23 10:19:07] INFO root fetch - main [MainThread]: End processing [oguzhan-gokcekoca] error
+[2024-05-23 10:19:07] INFO root fetch - processPackages [oslo.service]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-05-23 10:19:07] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/9a/46/066946726dee17bd984c54e6cb1b6a607c8858330058f05f55deb1a00091/fastapi_problem-0.7.8.tar.gz
+[2024-05-23 10:19:07] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 10:19:07] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/b2/73/ff727800d332ba3412e3135ded7fed3d1b78930e48ab4f978b5038b41b5f/python_sdk_remote-0.0.98.tar.gz
+[2024-05-23 10:19:07] INFO root fetch - processPackages [zeval]: Downloading https://files.pythonhosted.org/packages/f5/22/f19b055d6d34eb3d035c26e08f01f1fe352b25bfa91edc6fbbfbbe45c46b/zeval-0.1.1.tar.gz
+[2024-05-23 10:19:07] INFO root fetch - processPackages [os-vif]: Downloading https://files.pythonhosted.org/packages/20/c7/32ffee28c99288de928af84f917d8f9825ba982a9ced38026a76388092f3/os_vif-3.5.0.tar.gz
+[2024-05-23 10:19:07] INFO root fetch - processPackages [keystone-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/d9/0f/a4a0d1f4b14ce81372af052b132f776d117974c9b2baee7132f0eb83415f/keystone_tempest_plugin-0.8.0.tar.gz
+[2024-05-23 10:19:07] INFO root fetch - processPackages [oslo.service]: Downloading https://files.pythonhosted.org/packages/28/ba/65659ac3b8aeecbf913ca718aaf160aec2bc6b4e7f6d98bf47a34c5695ab/oslo.service-3.4.0.tar.gz
+[2024-05-23 10:19:07] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/c6/6c/d232e7e91dcb30944e7eee0abdeb4922803eca620e93ce6940350682eaeb/python_sdk_remote-0.0.99.tar.gz
+[2024-05-23 10:19:08] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 10:19:08] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/d4/d0/a7ce60b4bd8f40086672b563c82b36bc980345555634a7ff83ff08ee1ba0/fastapi_problem-0.7.9.tar.gz
+[2024-05-23 10:19:08] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-23 10:19:08] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.98.tar.gz tmp/python_sdk_remote-0.0.99.tar.gz --markdown 20240523/p/python-sdk-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 10:19:08] INFO root fetch - processPackages [zeval]: Downloading https://files.pythonhosted.org/packages/02/cd/4f3c697c721c990b0c6f28086a72e2d310ecd2e6d12299853e4f4c31c35c/zeval-0.1.2.tar.gz
+[2024-05-23 10:19:08] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-23 10:19:08] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.8.tar.gz tmp/fastapi_problem-0.7.9.tar.gz --markdown 20240523/f/fastapi-problem/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-23 10:19:08] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 10:19:08] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 10:19:08] INFO root fetch - processPackages [keystone-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/4b/49/ed43c287efdec34b755769307dac0156727a106180e55e1f8bc4126e0457/keystone_tempest_plugin-0.9.0.tar.gz
+[2024-05-23 10:19:08] INFO root fetch - processPackages [os-vif]: Downloading https://files.pythonhosted.org/packages/df/85/34a2f8585d8c4a1531299f0a22b5f8e117145bb9503ec250559750027e05/os_vif-3.6.0.tar.gz
+[2024-05-23 10:19:08] INFO root fetch - processPackages [oslo.service]: Downloading https://files.pythonhosted.org/packages/00/8f/9db5ad54961b13ecbba6e057d94bcbb56b9139cc1a7adcd1847d826dfdf8/oslo.service-3.5.0.tar.gz
+[2024-05-23 10:19:08] INFO root fetch - processPackages [zeval]: executing diffoscope
+[2024-05-23 10:19:08] INFO root fetch - processPackages [zeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeval-0.1.1.tar.gz tmp/zeval-0.1.2.tar.gz --markdown 20240523/z/zeval/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 10:19:08] INFO root fetch - processPackages [keystone-tempest-plugin]: executing diffoscope
+[2024-05-23 10:19:08] INFO root fetch - processPackages [keystone-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keystone_tempest_plugin-0.8.0.tar.gz tmp/keystone_tempest_plugin-0.9.0.tar.gz --markdown 20240523/k/keystone-tempest-plugin/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-23 10:19:08] INFO root fetch - processPackages [oslo.service]: executing diffoscope
+[2024-05-23 10:19:08] INFO root fetch - processPackages [oslo.service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.service-3.4.0.tar.gz tmp/oslo.service-3.5.0.tar.gz --markdown 20240523/o/oslo.service/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-05-23 10:19:08] INFO root fetch - processPackages [os-vif]: executing diffoscope
+[2024-05-23 10:19:08] INFO root fetch - processPackages [os-vif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os_vif-3.5.0.tar.gz tmp/os_vif-3.6.0.tar.gz --markdown 20240523/o/os-vif/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-23 10:19:08] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.8.tar.gz]
+[2024-05-23 10:19:08] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.9.tar.gz]
+[2024-05-23 10:19:08] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-23 10:19:08] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 10:19:08] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 10:19:08] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 10:19:09] INFO root fetch - processPackages [zeval]: Remove: archive file [/home/abi/fetcher/tmp/zeval-0.1.1.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - processPackages [zeval]: Remove: archive file [/home/abi/fetcher/tmp/zeval-0.1.2.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - main [MainThread]: End processing [zeval]: success
+[2024-05-23 10:19:09] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.98.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.99.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-23 10:19:09] INFO root fetch - processPackages [keystone-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/keystone_tempest_plugin-0.8.0.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - processPackages [keystone-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/keystone_tempest_plugin-0.9.0.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - main [MainThread]: End processing [keystone-tempest-plugin]: success
+[2024-05-23 10:19:09] INFO root fetch - processPackages [oslo.service]: Remove: archive file [/home/abi/fetcher/tmp/oslo.service-3.4.0.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - processPackages [oslo.service]: Remove: archive file [/home/abi/fetcher/tmp/oslo.service-3.5.0.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - main [MainThread]: End processing [oslo.service]: success
+[2024-05-23 10:19:09] INFO root fetch - processPackages [os-vif]: Remove: archive file [/home/abi/fetcher/tmp/os_vif-3.5.0.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - processPackages [os-vif]: Remove: archive file [/home/abi/fetcher/tmp/os_vif-3.6.0.tar.gz]
+[2024-05-23 10:19:09] INFO root fetch - main [MainThread]: End processing [os-vif]: success
+[2024-05-23 10:19:09] INFO root fetch - main [MainThread]: Store serial: [23339788]
