@@ -20990,3 +20990,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:56:27] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.2.0.tar.gz]
 [2024-05-23 12:56:27] INFO root fetch - main [MainThread]: End processing [ResSimpy]: success
 [2024-05-23 12:56:27] INFO root fetch - main [MainThread]: Store serial: [23342074]
+[2024-05-23 12:58:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342074]
+[2024-05-23 12:58:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 12:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-versiointi
+[2024-05-23 12:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyDataBridgeX
+[2024-05-23 12:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timeseriesflattener
+[2024-05-23 12:58:36] INFO root fetch - processPackages [PyDataBridgeX]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 12:58:36] INFO root fetch - processPackages [PyDataBridgeX]: Downloading https://files.pythonhosted.org/packages/7e/a9/50343e181a1dc5233084959f729bb36f97254c777d35aecddaaaf5848c3c/PyDataBridgeX-0.0.1.tar.gz
+[2024-05-23 12:58:36] INFO root fetch - processPackages [git-versiointi]: New version: [1.6rc5] Old Version: [1.6rc4]
+[2024-05-23 12:58:36] INFO root fetch - processPackages [timeseriesflattener]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-05-23 12:58:36] INFO root fetch - processPackages [git-versiointi]: Downloading https://files.pythonhosted.org/packages/8b/d9/97a1585ce60970fa56aefc2ed160c9f16c608a9b1e354817a86707bdc2dc/git-versiointi-1.6rc4.tar.gz
+[2024-05-23 12:58:36] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/9c/b5/a8d71aa1da3a575d22cfb808199438afe08338718ce25ffd0e2b14d84cf0/timeseriesflattener-2.2.5.tar.gz
+[2024-05-23 12:58:36] INFO root fetch - processPackages [PyDataBridgeX]: Downloading https://files.pythonhosted.org/packages/04/bb/f3806877853347141ddc9d75445278ceda8110421af3a21adc5451f7f6d3/PyDataBridgeX-0.0.2.tar.gz
+[2024-05-23 12:58:36] INFO root fetch - processPackages [PyDataBridgeX]: executing diffoscope
+[2024-05-23 12:58:36] INFO root fetch - processPackages [PyDataBridgeX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDataBridgeX-0.0.1.tar.gz tmp/PyDataBridgeX-0.0.2.tar.gz --markdown 20240523/P/PyDataBridgeX/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 12:58:36] INFO root fetch - processPackages [git-versiointi]: Downloading https://files.pythonhosted.org/packages/2a/d9/b642b5c1f839e6245defd698659f244e51a46a7ffbf03e91fb6af377d352/git_versiointi-1.6rc5.tar.gz
+[2024-05-23 12:58:37] INFO root fetch - processPackages [git-versiointi]: executing diffoscope
+[2024-05-23 12:58:37] INFO root fetch - processPackages [git-versiointi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-versiointi-1.6rc4.tar.gz tmp/git_versiointi-1.6rc5.tar.gz --markdown 20240523/g/git-versiointi/1.6rc4-1.6rc5/README.md --exclude *.pyd
+[2024-05-23 12:58:37] INFO root fetch - processPackages [PyDataBridgeX]: Remove: archive file [/home/abi/fetcher/tmp/PyDataBridgeX-0.0.1.tar.gz]
+[2024-05-23 12:58:37] INFO root fetch - processPackages [PyDataBridgeX]: Remove: archive file [/home/abi/fetcher/tmp/PyDataBridgeX-0.0.2.tar.gz]
+[2024-05-23 12:58:37] INFO root fetch - main [MainThread]: End processing [PyDataBridgeX]: success
+[2024-05-23 12:58:37] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/d8/3f/5cb8d1aad7539a529efce1567b5dbc2f8828d729d3400563ab93f8348159/timeseriesflattener-2.2.6.tar.gz
+[2024-05-23 12:58:37] INFO root fetch - processPackages [git-versiointi]: Remove: archive file [/home/abi/fetcher/tmp/git-versiointi-1.6rc4.tar.gz]
+[2024-05-23 12:58:37] INFO root fetch - processPackages [git-versiointi]: Remove: archive file [/home/abi/fetcher/tmp/git_versiointi-1.6rc5.tar.gz]
+[2024-05-23 12:58:37] INFO root fetch - main [MainThread]: End processing [git-versiointi]: success
+[2024-05-23 12:58:38] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2024-05-23 12:58:38] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-2.2.5.tar.gz tmp/timeseriesflattener-2.2.6.tar.gz --markdown 20240523/t/timeseriesflattener/2.2.5-2.2.6/README.md --exclude *.pyd
+[2024-05-23 12:58:40] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.5.tar.gz]
+[2024-05-23 12:58:40] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.6.tar.gz]
+[2024-05-23 12:58:40] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2024-05-23 12:58:40] INFO root fetch - main [MainThread]: Store serial: [23342083]
