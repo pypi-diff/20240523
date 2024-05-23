@@ -11850,3 +11850,27 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:21:00] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.5.3.tar.gz]
 [2024-05-23 08:21:00] INFO root fetch - main [MainThread]: End processing [tifffile]: success
 [2024-05-23 08:21:00] INFO root fetch - main [MainThread]: Store serial: [23338384]
+[2024-05-23 08:23:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338384]
+[2024-05-23 08:23:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 08:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-dingtalk
+[2024-05-23 08:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-http_request
+[2024-05-23 08:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytorch-ignite-nightly
+[2024-05-23 08:23:09] INFO root fetch - processPackages [python-http_request]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 08:23:09] INFO root fetch - processPackages [python-http_request]: Downloading https://files.pythonhosted.org/packages/dc/ff/58de0b5eb805a7d90b0461e8b5299b890a05d9ee00588b84963ca6c78789/python_http_request-0.0.2.tar.gz
+[2024-05-23 08:23:09] WARNING root fetch - processPackages [pytorch-ignite-nightly]: Skipping, unable to determine old version
+[2024-05-23 08:23:09] INFO root fetch - main [MainThread]: End processing [pytorch-ignite-nightly] error
+[2024-05-23 08:23:09] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.1.14] Old Version: [2.1.13]
+[2024-05-23 08:23:10] INFO root fetch - processPackages [python-http_request]: Downloading https://files.pythonhosted.org/packages/e8/78/89a2ce56a0a10f46638dd1d957b1ee340ddd672096319d8a12b807c1b688/python_http_request-0.0.3.tar.gz
+[2024-05-23 08:23:10] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b5/d3/c99c2c77764883129b86fa4e572206d033a2c965d66802324a3966b2f109/alibabacloud_dingtalk-2.1.13.tar.gz
+[2024-05-23 08:23:10] INFO root fetch - processPackages [python-http_request]: executing diffoscope
+[2024-05-23 08:23:10] INFO root fetch - processPackages [python-http_request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_http_request-0.0.2.tar.gz tmp/python_http_request-0.0.3.tar.gz --markdown 20240523/p/python-http_request/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 08:23:10] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/79/94/1512a7c57cfea01cba6ba249d1bf61f9b5f276f532f172ff64e54129f149/alibabacloud_dingtalk-2.1.14.tar.gz
+[2024-05-23 08:23:10] INFO root fetch - processPackages [python-http_request]: Remove: archive file [/home/abi/fetcher/tmp/python_http_request-0.0.2.tar.gz]
+[2024-05-23 08:23:10] INFO root fetch - processPackages [python-http_request]: Remove: archive file [/home/abi/fetcher/tmp/python_http_request-0.0.3.tar.gz]
+[2024-05-23 08:23:10] INFO root fetch - main [MainThread]: End processing [python-http_request]: success
+[2024-05-23 08:23:10] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-05-23 08:23:10] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.1.13.tar.gz tmp/alibabacloud_dingtalk-2.1.14.tar.gz --markdown 20240523/a/alibabacloud-dingtalk/2.1.13-2.1.14/README.md --exclude *.pyd
+[2024-05-23 08:23:14] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.13.tar.gz]
+[2024-05-23 08:23:14] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.14.tar.gz]
+[2024-05-23 08:23:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-05-23 08:23:14] INFO root fetch - main [MainThread]: Store serial: [23338402]
