@@ -20176,3 +20176,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:25:16] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.2000.tar.gz]
 [2024-05-23 12:25:16] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2024-05-23 12:25:16] INFO root fetch - main [MainThread]: Store serial: [23341758]
+[2024-05-23 12:27:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341758]
+[2024-05-23 12:27:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 12:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyslth
+[2024-05-23 12:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dzidb
+[2024-05-23 12:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-zoom-integration
+[2024-05-23 12:27:25] INFO root fetch - processPackages [pyslth]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-23 12:27:25] INFO root fetch - processPackages [dzidb]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-23 12:27:25] INFO root fetch - processPackages [wagtail-zoom-integration]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-23 12:27:25] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/b5/66/4dc4b3fbf5ed5149c97ba8975d4bec61238e468e77f3cae15ae959fcc9df/pyslth-0.4.7.tar.gz
+[2024-05-23 12:27:25] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/b5/ed/26e2d9b301512b5f260dbb1e578028da0c94ec03af0e2d2b7b3f36ef2cb0/dzidb-1.2.6-py3-none-any.whl
+[2024-05-23 12:27:25] INFO root fetch - processPackages [wagtail-zoom-integration]: Downloading https://files.pythonhosted.org/packages/61/20/4910ec2b3eb6c534fb12f42260ba164998e3859941416b7960b4a9cb5003/wagtail_zoom_integration-0.0.6.tar.gz
+[2024-05-23 12:27:25] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/d4/50/5fc95e69413484c42ffa9c6eae2bc6fdc142ea5ee52326a656c4fae6a8d0/dzidb-1.2.7-py3-none-any.whl
+[2024-05-23 12:27:26] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/22/ae/120e019a4922ed4321d10b97e858bcc60e8a2f32ae1f17d553d072837c36/pyslth-0.4.8.tar.gz
+[2024-05-23 12:27:26] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-23 12:27:26] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.2.6-py3-none-any.whl.zip tmp/dzidb-1.2.7-py3-none-any.whl.zip --markdown 20240523/d/dzidb/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-23 12:27:26] INFO root fetch - processPackages [wagtail-zoom-integration]: Downloading https://files.pythonhosted.org/packages/1e/11/a56c1c972035a9ceb4d3be9b6d5546da0144decebfee1e77c2796dfe1232/wagtail_zoom_integration-0.0.7.tar.gz
+[2024-05-23 12:27:26] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-05-23 12:27:26] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.4.7.tar.gz tmp/pyslth-0.4.8.tar.gz --markdown 20240523/p/pyslth/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-23 12:27:26] INFO root fetch - processPackages [wagtail-zoom-integration]: executing diffoscope
+[2024-05-23 12:27:26] INFO root fetch - processPackages [wagtail-zoom-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_zoom_integration-0.0.6.tar.gz tmp/wagtail_zoom_integration-0.0.7.tar.gz --markdown 20240523/w/wagtail-zoom-integration/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-23 12:27:26] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.6-py3-none-any.whl.zip]
+[2024-05-23 12:27:26] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.7-py3-none-any.whl.zip]
+[2024-05-23 12:27:26] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-23 12:27:26] INFO root fetch - processPackages [wagtail-zoom-integration]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_zoom_integration-0.0.6.tar.gz]
+[2024-05-23 12:27:26] INFO root fetch - processPackages [wagtail-zoom-integration]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_zoom_integration-0.0.7.tar.gz]
+[2024-05-23 12:27:27] INFO root fetch - main [MainThread]: End processing [wagtail-zoom-integration]: success
+[2024-05-23 12:27:28] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.7.tar.gz]
+[2024-05-23 12:27:28] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.8.tar.gz]
+[2024-05-23 12:27:28] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-05-23 12:27:28] INFO root fetch - main [MainThread]: Store serial: [23341769]
