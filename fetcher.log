@@ -21020,3 +21020,51 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:58:40] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.6.tar.gz]
 [2024-05-23 12:58:40] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2024-05-23 12:58:40] INFO root fetch - main [MainThread]: Store serial: [23342083]
+[2024-05-23 13:00:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342083]
+[2024-05-23 13:00:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 13:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torcj
+[2024-05-23 13:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyOghma
+[2024-05-23 13:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyOghma
+[2024-05-23 13:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mc-netease-sdk
+[2024-05-23 13:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ryry-cli
+[2024-05-23 13:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-core-package
+[2024-05-23 13:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydae
+[2024-05-23 13:00:50] INFO root fetch - processPackages [ryry-cli]: New version: [1.4] Old Version: [1.3]
+[2024-05-23 13:00:50] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 13:00:50] WARNING root fetch - processPackages [torcj]: Skipping, unable to determine old version
+[2024-05-23 13:00:50] INFO root fetch - main [MainThread]: End processing [torcj] error
+[2024-05-23 13:00:50] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/13/14/2321ae24dff784a130fbffca999ce94372a1e209c325c18224719a96f015/ryry_cli-1.3.tar.gz
+[2024-05-23 13:00:50] INFO root fetch - processPackages [PyOghma]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-23 13:00:50] INFO root fetch - processPackages [PyOghma]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-23 13:00:50] INFO root fetch - processPackages [test-core-package]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-23 13:00:50] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.9.0.44290] Old Version: [2.9.0.44274]
+[2024-05-23 13:00:50] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2024-05-23 13:00:50] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2024-05-23 13:00:50] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2024-05-23 13:00:50] INFO root fetch - processPackages [PyOghma]: Downloading https://files.pythonhosted.org/packages/b6/1d/bc4bff91bb6c44d1a4361c71b2899da85df908f8d0468683763c0571d6fc/pyoghma-0.0.1.tar.gz
+[2024-05-23 13:00:50] INFO root fetch - processPackages [PyOghma]: Downloading https://files.pythonhosted.org/packages/b6/1d/bc4bff91bb6c44d1a4361c71b2899da85df908f8d0468683763c0571d6fc/pyoghma-0.0.1.tar.gz
+[2024-05-23 13:00:50] WARNING root fetch - processPackages [PyOghma]: Skipping package: exceeds size limit 22271359>=10485760
+[2024-05-23 13:00:50] WARNING root fetch - processPackages [PyOghma]: Skipping package: exceeds size limit 22271359>=10485760
+[2024-05-23 13:00:50] INFO root fetch - main [MainThread]: End processing [PyOghma] error
+[2024-05-23 13:00:50] INFO root fetch - main [MainThread]: End processing [PyOghma] error
+[2024-05-23 13:00:50] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/ce/bd/ce66c963701930ef65984ffe07a603cf9a40839ee616187f8a9af3b96d24/mc_netease_sdk-2.9.0.44274-py2-none-any.whl
+[2024-05-23 13:00:50] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/13/b6/0523e9cd674f5f3a528d690a27cc3d0ce97707b8c878181e1ae01e211e23/test_core_package-1.1.1.tar.gz
+[2024-05-23 13:00:50] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/c9/25/ce62152d16ad3bbe185941736497b867124a7c972cb0b4169615010b5c3c/ryry_cli-1.4.tar.gz
+[2024-05-23 13:00:50] INFO root fetch - processPackages [ryry-cli]: executing diffoscope
+[2024-05-23 13:00:50] INFO root fetch - processPackages [ryry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryry_cli-1.3.tar.gz tmp/ryry_cli-1.4.tar.gz --markdown 20240523/r/ryry-cli/1.3-1.4/README.md --exclude *.pyd
+[2024-05-23 13:00:50] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/c6/02/29f153c7b47fbc9236448bd5b66d84ebac3bb7c0ff12bdf77978d42d5812/test_core_package-1.1.2.tar.gz
+[2024-05-23 13:00:50] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/63/0d/f58f720ee05ea75b4a3c959d9fa6e49e17b844e50741adff621cdf8590a5/mc_netease_sdk-2.9.0.44290-py2-none-any.whl
+[2024-05-23 13:00:50] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-23 13:00:50] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-1.1.1.tar.gz tmp/test_core_package-1.1.2.tar.gz --markdown 20240523/t/test-core-package/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-23 13:00:50] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2024-05-23 13:00:50] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip --markdown 20240523/m/mc-netease-sdk/2.9.0.44274-2.9.0.44290/README.md --exclude *.pyd
+[2024-05-23 13:00:51] INFO root fetch - processPackages [ryry-cli]: Remove: archive file [/home/abi/fetcher/tmp/ryry_cli-1.3.tar.gz]
+[2024-05-23 13:00:51] INFO root fetch - processPackages [ryry-cli]: Remove: archive file [/home/abi/fetcher/tmp/ryry_cli-1.4.tar.gz]
+[2024-05-23 13:00:51] INFO root fetch - main [MainThread]: End processing [ryry-cli]: success
+[2024-05-23 13:00:51] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-1.1.1.tar.gz]
+[2024-05-23 13:00:51] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-1.1.2.tar.gz]
+[2024-05-23 13:00:51] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-23 13:00:52] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip]
+[2024-05-23 13:00:52] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip]
+[2024-05-23 13:00:52] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2024-05-23 13:00:52] INFO root fetch - main [MainThread]: Store serial: [23342104]
