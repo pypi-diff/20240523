@@ -13951,3 +13951,105 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:46:01] ERROR root fetch - processPackages [perspective-python]: Timeout during execution of pkgdiff
 [2024-05-23 09:46:01] INFO root fetch - main [MainThread]: End processing [perspective-python] error
 [2024-05-23 09:46:01] INFO root fetch - main [MainThread]: Store serial: [23339347]
+[2024-05-23 09:48:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339347]
+[2024-05-23 09:48:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nr-oaipmh-harvesters
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surface-construct
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phdu
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seal5
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: importer-local
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twogroups-heatmap
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dlt-init-openapi
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lanQ
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-model-manager
+[2024-05-23 09:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wagtail-fedit
+[2024-05-23 09:48:10] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [seal5]: New version: [0.1.1.dev0] Old Version: [0.1.0.dev0]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [twogroups-heatmap]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [dlt-init-openapi]: New version: [0.0.5a2] Old Version: [0.0.5a1]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [phdu]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [lanQ]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [nr-oaipmh-harvesters]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [surface-construct]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.9rc2] Old Version: [1.5.9rc1]
+[2024-05-23 09:48:10] INFO root fetch - processPackages [twogroups-heatmap]: Downloading https://files.pythonhosted.org/packages/dc/28/204884a3e1536334143e22f478aa3436c77af6f66b4ab414fff13affbea1/twogroups_heatmap-0.1.1.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [dlt-init-openapi]: Downloading https://files.pythonhosted.org/packages/d7/1c/f98ca61079a7f3a95779fb9f2d09700b9294e0f59abe33126372c12c031a/dlt_init_openapi-0.0.5a1.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/c5/77/f380babd679b02c99c0ba54f29e82dc4342541f631a2fbf63942e3204e73/phdu-2.4.3.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [seal5]: Downloading https://files.pythonhosted.org/packages/f8/ae/3ae56a5a2ac729d6f3311105d8d7b1cc9ab6e4a339af6eae6103596f0d86/seal5-0.1.0.dev0-py3-none-any.whl
+[2024-05-23 09:48:10] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/44/8e/fc12bcd4d12d39cd924dd3ab95ef4c5cb3d18964df97eb50bfc2a9465280/lanQ-1.4.3.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [nr-oaipmh-harvesters]: Downloading https://files.pythonhosted.org/packages/5f/ff/d48a65c48f95775ff225667f3952e7acfc5cb46a1c81b84c6111cb3b5dc3/nr-oaipmh-harvesters-1.0.8.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [surface-construct]: Downloading https://files.pythonhosted.org/packages/b1/f2/8386230e60a9a6294a26a3e4b7601a31485404fa8a7da5416a38a766a7ae/surface_construct-0.5.8.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/39/88/d665a439f438b8fbf2e0048e96f541a5d64b478e6e1597cac3c4024f11fd/wagtail_fedit-1.5.9rc1.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [dlt-init-openapi]: Downloading https://files.pythonhosted.org/packages/6c/9a/799199d991280c50826a25c4164516e396503bd22d61488e4b2459c33b30/dlt_init_openapi-0.0.5a2.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/f0/07/607a288eefb7b7f360bbf0b7264db102053d47f7afca8fe070dd6aeccaff/phdu-2.4.4.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [twogroups-heatmap]: Downloading https://files.pythonhosted.org/packages/50/7c/c0ccad2b7c2cca03556ec87cf8ea58a171f19bc343e9afa92de6631beaa5/twogroups_heatmap-0.1.2.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [seal5]: Downloading https://files.pythonhosted.org/packages/f6/32/5093f9d9bade6bd23974f28cd4273badc1775232963333387c2ec4f706a9/seal5-0.1.1.dev0.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:48:10] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:48:10] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2024-05-23 09:48:10] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20240523/i/importer-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 09:48:10] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/01/2c/a538e2d11300b1f1214652b4525b311207372f66198db302dc586c05e7b6/lanQ-1.4.4.tar.gz
+[2024-05-23 09:48:10] INFO root fetch - processPackages [dlt-init-openapi]: executing diffoscope
+[2024-05-23 09:48:10] INFO root fetch - processPackages [dlt-init-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt_init_openapi-0.0.5a1.tar.gz tmp/dlt_init_openapi-0.0.5a2.tar.gz --markdown 20240523/d/dlt-init-openapi/0.0.5a1-0.0.5a2/README.md --exclude *.pyd
+[2024-05-23 09:48:10] INFO root fetch - processPackages [twogroups-heatmap]: executing diffoscope
+[2024-05-23 09:48:10] INFO root fetch - processPackages [twogroups-heatmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twogroups_heatmap-0.1.1.tar.gz tmp/twogroups_heatmap-0.1.2.tar.gz --markdown 20240523/t/twogroups-heatmap/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 09:48:10] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-23 09:48:10] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.4.3.tar.gz tmp/phdu-2.4.4.tar.gz --markdown 20240523/p/phdu/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-05-23 09:48:10] INFO root fetch - processPackages [seal5]: executing diffoscope
+[2024-05-23 09:48:10] INFO root fetch - processPackages [seal5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seal5-0.1.0.dev0-py3-none-any.whl.zip tmp/seal5-0.1.1.dev0.tar.gz --markdown 20240523/s/seal5/0.1.0.dev0-0.1.1.dev0/README.md --exclude *.pyd
+[2024-05-23 09:48:11] INFO root fetch - processPackages [lanQ]: executing diffoscope
+[2024-05-23 09:48:11] INFO root fetch - processPackages [lanQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanQ-1.4.3.tar.gz tmp/lanQ-1.4.4.tar.gz --markdown 20240523/l/lanQ/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-23 09:48:11] INFO root fetch - processPackages [nr-oaipmh-harvesters]: Downloading https://files.pythonhosted.org/packages/3c/5e/94e9ea7ba8aa30eebb11ed17f79847200e3892f0e48c732d987f1e8e3a40/nr-oaipmh-harvesters-1.0.9.tar.gz
+[2024-05-23 09:48:11] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/e8/c7/8bef0c1447db79747de0ae021b864073194af89e516d58248672d22f6c9e/wagtail_fedit-1.5.9rc2.tar.gz
+[2024-05-23 09:48:11] INFO root fetch - processPackages [nr-oaipmh-harvesters]: executing diffoscope
+[2024-05-23 09:48:11] INFO root fetch - processPackages [nr-oaipmh-harvesters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nr-oaipmh-harvesters-1.0.8.tar.gz tmp/nr-oaipmh-harvesters-1.0.9.tar.gz --markdown 20240523/n/nr-oaipmh-harvesters/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 09:48:11] INFO root fetch - processPackages [surface-construct]: Downloading https://files.pythonhosted.org/packages/f3/64/c23f3f3c8648228033c0aec190af74c0f7c40837fd76e5aa876b43977e21/surface_construct-0.5.9.tar.gz
+[2024-05-23 09:48:11] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-23 09:48:11] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.9rc1.tar.gz tmp/wagtail_fedit-1.5.9rc2.tar.gz --markdown 20240523/w/wagtail-fedit/1.5.9rc1-1.5.9rc2/README.md --exclude *.pyd
+[2024-05-23 09:48:11] INFO root fetch - processPackages [surface-construct]: executing diffoscope
+[2024-05-23 09:48:11] INFO root fetch - processPackages [surface-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surface_construct-0.5.8.tar.gz tmp/surface_construct-0.5.9.tar.gz --markdown 20240523/s/surface-construct/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-23 09:48:11] INFO root fetch - processPackages [twogroups-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/twogroups_heatmap-0.1.1.tar.gz]
+[2024-05-23 09:48:11] INFO root fetch - processPackages [twogroups-heatmap]: Remove: archive file [/home/abi/fetcher/tmp/twogroups_heatmap-0.1.2.tar.gz]
+[2024-05-23 09:48:11] INFO root fetch - processPackages [twogroups-heatmap]: Start processing: nested-dataclass-serialization
+[2024-05-23 09:48:11] INFO root fetch - main [MainThread]: End processing [twogroups-heatmap]: success
+[2024-05-23 09:48:11] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2024-05-23 09:48:11] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2024-05-23 09:48:11] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2024-05-23 09:48:11] INFO root fetch - processPackages [nested-dataclass-serialization]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-23 09:48:11] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:48:11] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 09:48:11] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:48:11] INFO root fetch - processPackages [nested-dataclass-serialization]: Downloading https://files.pythonhosted.org/packages/92/8c/aa47c32fbc26c84c49d977f7102352cf160ccc5d361faeb86581fc72643e/nested_dataclass_serialization-0.1.4.tar.gz
+[2024-05-23 09:48:12] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.3.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.4.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-23 09:48:12] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.4.3.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.4.4.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - main [MainThread]: End processing [lanQ]: success
+[2024-05-23 09:48:12] INFO root fetch - processPackages [dlt-init-openapi]: Remove: archive file [/home/abi/fetcher/tmp/dlt_init_openapi-0.0.5a1.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - processPackages [dlt-init-openapi]: Remove: archive file [/home/abi/fetcher/tmp/dlt_init_openapi-0.0.5a2.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - main [MainThread]: End processing [dlt-init-openapi]: success
+[2024-05-23 09:48:12] INFO root fetch - processPackages [nr-oaipmh-harvesters]: Remove: archive file [/home/abi/fetcher/tmp/nr-oaipmh-harvesters-1.0.8.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - processPackages [nr-oaipmh-harvesters]: Remove: archive file [/home/abi/fetcher/tmp/nr-oaipmh-harvesters-1.0.9.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - main [MainThread]: End processing [nr-oaipmh-harvesters]: success
+[2024-05-23 09:48:12] INFO root fetch - processPackages [nested-dataclass-serialization]: Downloading https://files.pythonhosted.org/packages/5d/c5/b429c6c7c71c418af7b3aab4fdb38388a838abad4dfe31c6436b50aa206d/nested_dataclass_serialization-0.1.5.tar.gz
+[2024-05-23 09:48:12] INFO root fetch - processPackages [seal5]: Remove: archive file [/home/abi/fetcher/tmp/seal5-0.1.0.dev0-py3-none-any.whl.zip]
+[2024-05-23 09:48:12] INFO root fetch - processPackages [seal5]: Remove: archive file [/home/abi/fetcher/tmp/seal5-0.1.1.dev0.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - main [MainThread]: End processing [seal5]: success
+[2024-05-23 09:48:12] INFO root fetch - processPackages [nested-dataclass-serialization]: executing diffoscope
+[2024-05-23 09:48:12] INFO root fetch - processPackages [nested-dataclass-serialization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nested_dataclass_serialization-0.1.4.tar.gz tmp/nested_dataclass_serialization-0.1.5.tar.gz --markdown 20240523/n/nested-dataclass-serialization/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-23 09:48:12] INFO root fetch - processPackages [surface-construct]: Remove: archive file [/home/abi/fetcher/tmp/surface_construct-0.5.8.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - processPackages [surface-construct]: Remove: archive file [/home/abi/fetcher/tmp/surface_construct-0.5.9.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - main [MainThread]: End processing [surface-construct]: success
+[2024-05-23 09:48:12] INFO root fetch - processPackages [nested-dataclass-serialization]: Remove: archive file [/home/abi/fetcher/tmp/nested_dataclass_serialization-0.1.4.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - processPackages [nested-dataclass-serialization]: Remove: archive file [/home/abi/fetcher/tmp/nested_dataclass_serialization-0.1.5.tar.gz]
+[2024-05-23 09:48:12] INFO root fetch - main [MainThread]: End processing [nested-dataclass-serialization]: success
+[2024-05-23 09:48:13] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc1.tar.gz]
+[2024-05-23 09:48:13] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc2.tar.gz]
+[2024-05-23 09:48:13] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-23 09:48:13] INFO root fetch - main [MainThread]: Store serial: [23339400]
