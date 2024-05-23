@@ -15172,3 +15172,87 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:25:56] INFO root fetch - processPackages [ccxt-idax]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-idax-4.3.24.tar.gz]
 [2024-05-23 10:25:56] INFO root fetch - main [MainThread]: End processing [ccxt-idax]: success
 [2024-05-23 10:25:56] INFO root fetch - main [MainThread]: Store serial: [23339927]
+[2024-05-23 10:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339927]
+[2024-05-23 10:28:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htrfnwe
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oslo.db
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylint-pytest
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mask-key
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dapla-toolbelt-pseudo
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-fedit
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oslo.versionedobjects
+[2024-05-23 10:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-problem
+[2024-05-23 10:28:05] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.9rc2] Old Version: [1.5.9rc1]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [mask-key]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [pylint-pytest]: New version: [2.0.0a0] Old Version: [1.1.8]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [cg]: New version: [60.8.4] Old Version: [60.8.2]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [oslo.versionedobjects]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [oslo.db]: New version: [9.1.0] Old Version: [9.0.0]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [htrfnwe]: New version: [0.7] Old Version: [0.6]
+[2024-05-23 10:28:05] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/9a/46/066946726dee17bd984c54e6cb1b6a607c8858330058f05f55deb1a00091/fastapi_problem-0.7.8.tar.gz
+[2024-05-23 10:28:05] INFO root fetch - processPackages [mask-key]: Downloading https://files.pythonhosted.org/packages/98/42/08863aab615d1b168d4217854de4707c1e9f30bba64cf8bc3e48af52206b/mask_key-0.2.7.tar.gz
+[2024-05-23 10:28:05] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/39/88/d665a439f438b8fbf2e0048e96f541a5d64b478e6e1597cac3c4024f11fd/wagtail_fedit-1.5.9rc1.tar.gz
+[2024-05-23 10:28:05] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/e7/4a/68a7968ecf290d2890f75aa5ae2aa17ddd9b234a6fce387e14cb7e6a934d/dapla_toolbelt_pseudo-2.0.1.tar.gz
+[2024-05-23 10:28:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9c/29/a7f0cbff24c6ce41ef9b18155546b610c9d2f79a47a5061c4831bfc18146/cg-60.8.2.tar.gz
+[2024-05-23 10:28:05] INFO root fetch - processPackages [pylint-pytest]: Downloading https://files.pythonhosted.org/packages/13/b2/5d39125fedd30bfa50f755bdb30f1d5ee2ebde5f54ca7f7bc4cc4e9d51ef/pylint_pytest-1.1.8.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/11/59/1715a098f5098c5d664cb57ab4ea805314596ef0c1e0bfee67d3dc408949/oslo.db-9.0.0.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [oslo.versionedobjects]: Downloading https://files.pythonhosted.org/packages/e9/6a/46928c60b5a2bb65fea877cce5d5994f701bfd3bcd7b5c889e7c07e12364/oslo.versionedobjects-3.3.0.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [htrfnwe]: Downloading https://files.pythonhosted.org/packages/a5/00/f03cc7cf8c30148efd065ee1368cfe6c276bea41ab9a804e01f4c4b8209e/htrfnwe-0.6.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/e8/c7/8bef0c1447db79747de0ae021b864073194af89e516d58248672d22f6c9e/wagtail_fedit-1.5.9rc2.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/d4/d0/a7ce60b4bd8f40086672b563c82b36bc980345555634a7ff83ff08ee1ba0/fastapi_problem-0.7.9.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/f0/90/ec83477f99d203f3570ae852bd57303c1d471d49de86d00f4969e42cea46/dapla_toolbelt_pseudo-2.0.2.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [mask-key]: Downloading https://files.pythonhosted.org/packages/b7/2f/5e12ecf10b88c72de9cf536299110a1349da2d0f0275cb4e621e119ea526/mask_key-0.2.8.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-23 10:28:06] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.8.tar.gz tmp/fastapi_problem-0.7.9.tar.gz --markdown 20240523/f/fastapi-problem/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-23 10:28:06] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-23 10:28:06] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.9rc1.tar.gz tmp/wagtail_fedit-1.5.9rc2.tar.gz --markdown 20240523/w/wagtail-fedit/1.5.9rc1-1.5.9rc2/README.md --exclude *.pyd
+[2024-05-23 10:28:06] INFO root fetch - processPackages [pylint-pytest]: Downloading https://files.pythonhosted.org/packages/9e/d5/f462966dfef323a12ebeabdaac17a7fa9265b11c7e41fcf386acd1da77d8/pylint-pytest-2.0.0a0.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0f/aa/c41539a9135bf8c414107403f8bda93ad4d55fd960b556717531cf234a11/cg-60.8.4.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2024-05-23 10:28:06] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-2.0.1.tar.gz tmp/dapla_toolbelt_pseudo-2.0.2.tar.gz --markdown 20240523/d/dapla-toolbelt-pseudo/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-23 10:28:06] INFO root fetch - processPackages [mask-key]: executing diffoscope
+[2024-05-23 10:28:06] INFO root fetch - processPackages [mask-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mask_key-0.2.7.tar.gz tmp/mask_key-0.2.8.tar.gz --markdown 20240523/m/mask-key/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-23 10:28:06] INFO root fetch - processPackages [oslo.versionedobjects]: Downloading https://files.pythonhosted.org/packages/96/0a/cc71716fe7fae64dbc9cc72812132536d0d46ae5f4d0fcc7c3a28d5b2362/oslo.versionedobjects-3.4.0.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [htrfnwe]: Downloading https://files.pythonhosted.org/packages/2d/28/1c6392455e496cbe1f20db8ade2f746c6130cdbd9f00653a9e5236a57e17/htrfnwe-0.7.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [oslo.versionedobjects]: executing diffoscope
+[2024-05-23 10:28:06] INFO root fetch - processPackages [oslo.versionedobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.versionedobjects-3.3.0.tar.gz tmp/oslo.versionedobjects-3.4.0.tar.gz --markdown 20240523/o/oslo.versionedobjects/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-23 10:28:06] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/4c/8a/43b149809cdc1911c0c032e9c5dbe946c25c5ac5352c0631114758f9718e/oslo.db-9.1.0.tar.gz
+[2024-05-23 10:28:06] INFO root fetch - processPackages [pylint-pytest]: executing diffoscope
+[2024-05-23 10:28:06] INFO root fetch - processPackages [pylint-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_pytest-1.1.8.tar.gz tmp/pylint-pytest-2.0.0a0.tar.gz --markdown 20240523/p/pylint-pytest/1.1.8-2.0.0a0/README.md --exclude *.pyd
+[2024-05-23 10:28:06] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-23 10:28:06] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.2.tar.gz tmp/cg-60.8.4.tar.gz --markdown 20240523/c/cg/60.8.2-60.8.4/README.md --exclude *.pyd
+[2024-05-23 10:28:06] INFO root fetch - processPackages [oslo.db]: executing diffoscope
+[2024-05-23 10:28:06] INFO root fetch - processPackages [oslo.db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.db-9.0.0.tar.gz tmp/oslo.db-9.1.0.tar.gz --markdown 20240523/o/oslo.db/9.0.0-9.1.0/README.md --exclude *.pyd
+[2024-05-23 10:28:07] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.8.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.9.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-23 10:28:07] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-2.0.1.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-2.0.2.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2024-05-23 10:28:07] INFO root fetch - processPackages [htrfnwe]: executing diffoscope
+[2024-05-23 10:28:07] INFO root fetch - processPackages [htrfnwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htrfnwe-0.6.tar.gz tmp/htrfnwe-0.7.tar.gz --markdown 20240523/h/htrfnwe/0.6-0.7/README.md --exclude *.pyd
+[2024-05-23 10:28:07] INFO root fetch - processPackages [mask-key]: Remove: archive file [/home/abi/fetcher/tmp/mask_key-0.2.7.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - processPackages [mask-key]: Remove: archive file [/home/abi/fetcher/tmp/mask_key-0.2.8.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - main [MainThread]: End processing [mask-key]: success
+[2024-05-23 10:28:07] INFO root fetch - processPackages [pylint-pytest]: Remove: archive file [/home/abi/fetcher/tmp/pylint_pytest-1.1.8.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - processPackages [pylint-pytest]: Remove: archive file [/home/abi/fetcher/tmp/pylint-pytest-2.0.0a0.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - main [MainThread]: End processing [pylint-pytest]: success
+[2024-05-23 10:28:07] INFO root fetch - processPackages [oslo.versionedobjects]: Remove: archive file [/home/abi/fetcher/tmp/oslo.versionedobjects-3.3.0.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - processPackages [oslo.versionedobjects]: Remove: archive file [/home/abi/fetcher/tmp/oslo.versionedobjects-3.4.0.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - main [MainThread]: End processing [oslo.versionedobjects]: success
+[2024-05-23 10:28:07] INFO root fetch - processPackages [oslo.db]: Remove: archive file [/home/abi/fetcher/tmp/oslo.db-9.0.0.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - processPackages [oslo.db]: Remove: archive file [/home/abi/fetcher/tmp/oslo.db-9.1.0.tar.gz]
+[2024-05-23 10:28:07] INFO root fetch - main [MainThread]: End processing [oslo.db]: success
+[2024-05-23 10:28:08] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc1.tar.gz]
+[2024-05-23 10:28:08] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc2.tar.gz]
+[2024-05-23 10:28:08] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-23 10:28:08] INFO root fetch - processPackages [htrfnwe]: Remove: archive file [/home/abi/fetcher/tmp/htrfnwe-0.6.tar.gz]
+[2024-05-23 10:28:08] INFO root fetch - processPackages [htrfnwe]: Remove: archive file [/home/abi/fetcher/tmp/htrfnwe-0.7.tar.gz]
+[2024-05-23 10:28:08] INFO root fetch - main [MainThread]: End processing [htrfnwe]: success
+[2024-05-23 10:28:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.2.tar.gz]
+[2024-05-23 10:28:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.4.tar.gz]
+[2024-05-23 10:28:11] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-23 10:28:11] INFO root fetch - main [MainThread]: Store serial: [23339957]
