@@ -16484,3 +16484,93 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:59:40] INFO root fetch - processPackages [odoo-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_resource_booking-16.0.1.2.0-py3-none-any.whl.zip]
 [2024-05-23 10:59:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-resource-booking]: success
 [2024-05-23 10:59:40] INFO root fetch - main [MainThread]: Store serial: [23340503]
+[2024-05-23 11:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340503]
+[2024-05-23 11:01:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumiverse-vercel
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iqrfpy
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fuckBookWalker
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataprep-lib-bayraker-bargan
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piwiPre
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-admin-honeypot-blag
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbx-cloud-utils
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-identity-sdk
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openagents-grpc-proto
+[2024-05-23 11:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xiaoranli
+[2024-05-23 11:01:50] INFO root fetch - processPackages [iqrfpy]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-23 11:01:50] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-23 11:01:50] INFO root fetch - processPackages [pulumiverse-vercel]: New version: [1.9.0] Old Version: [1.3.0]
+[2024-05-23 11:01:50] INFO root fetch - processPackages [fuckBookWalker]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-05-23 11:01:50] WARNING root fetch - processPackages [dataprep-lib-bayraker-bargan]: Skipping, unable to determine old version
+[2024-05-23 11:01:50] INFO root fetch - processPackages [dataprep-lib-bayraker-bargan]: Start processing: nurtelecom-gras-library
+[2024-05-23 11:01:50] INFO root fetch - main [MainThread]: End processing [dataprep-lib-bayraker-bargan] error
+[2024-05-23 11:01:50] WARNING root fetch - processPackages [django-admin-honeypot-blag]: Skipping, unable to determine old version
+[2024-05-23 11:01:50] INFO root fetch - main [MainThread]: End processing [django-admin-honeypot-blag] error
+[2024-05-23 11:01:50] INFO root fetch - processPackages [openagents-grpc-proto]: New version: [0.9] Old Version: [0.8.3]
+[2024-05-23 11:01:50] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.44]
+[2024-05-23 11:01:50] INFO root fetch - processPackages [pbx-cloud-utils]: New version: [1.3.0a0] Old Version: [1.3.0]
+[2024-05-23 11:01:50] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-23 11:01:50] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-23 11:01:50] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/ee/c9/c8509c294338938f92c5eb050790a97aed7f7ea82b8eceb5c94131daa8c3/iqrfpy-0.2.5.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [pulumiverse-vercel]: Downloading https://files.pythonhosted.org/packages/36/1a/ed0f5bd6794e96ff68622bd92f26b2b8ab28757e30fb3fcad0ed1caca8ff/pulumiverse_vercel-1.3.0.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [nurtelecom-gras-library]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-05-23 11:01:51] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/73/c2/8ead0b40de99712b10cd11eb239bef1ff888d76bf51d6b2787a9fd465848/openagents_grpc_proto-0.8.3.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/3b/62/dfad3d25688aa3c3468d2b2ce1bb1dd8f0ea5a728ca701154ce7ad68893a/xiaoranli-0.7.44-py3-none-any.whl
+[2024-05-23 11:01:51] INFO root fetch - processPackages [fuckBookWalker]: Downloading https://files.pythonhosted.org/packages/6b/c8/90f0d40b7fb9b5329bd1d76fcc27d5287b52598e14c702c235ddbd32ecf7/fuckbookwalker-0.1.1.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/b8/cd/e9e5b4331579407c45e638bebc75952ec069a3563e1df3bbb8e22d80057b/pbx_cloud_utils-1.3.0-py3-none-any.whl
+[2024-05-23 11:01:51] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/82/f8/9334ee9c1c12b3d7cc377a4ab8db14b5aa30217a2ad6dee8f38666e00740/iqrfpy-0.2.6.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [nurtelecom-gras-library]: Downloading https://files.pythonhosted.org/packages/27/bc/774d5fe38f84e9ff85aa8773f4574f5d48cfda1a5b81d9bbfe6e41ac7bff/nurtelecom_gras_library-1.3.5.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240523/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-23 11:01:51] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.2.5.tar.gz tmp/iqrfpy-0.2.6.tar.gz --markdown 20240523/i/iqrfpy/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-23 11:01:51] INFO root fetch - processPackages [openagents-grpc-proto]: Downloading https://files.pythonhosted.org/packages/f4/1a/049ba56dd38c706cbcd750dcb4b2fa02a9105cac0b73dc6a382bd3cac7f9/openagents_grpc_proto-0.9.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [pulumiverse-vercel]: Downloading https://files.pythonhosted.org/packages/4e/d7/c1cc6c2a30aa279a3a1a9002a1e33bdf547d8d6163b97fac0bd35bb12032/pulumiverse_vercel-1.9.0.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [fuckBookWalker]: Downloading https://files.pythonhosted.org/packages/5e/20/7fb31bbd3be8fc7efacc44e2237d5c234d394a27da9a57b109c9ee1c3e84/fuckbookwalker-0.1.3.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [openagents-grpc-proto]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [openagents-grpc-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_grpc_proto-0.8.3.tar.gz tmp/openagents_grpc_proto-0.9.tar.gz --markdown 20240523/o/openagents-grpc-proto/0.8.3-0.9/README.md --exclude *.pyd
+[2024-05-23 11:01:51] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/af/62/8d2a0cfe4e6d70d31aa23d91b4ff94150af5335635f537cb57b6607bda8d/pbx_cloud_utils-1.3.0a0-py3-none-any.whl
+[2024-05-23 11:01:51] INFO root fetch - processPackages [pulumiverse-vercel]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [pulumiverse-vercel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_vercel-1.3.0.tar.gz tmp/pulumiverse_vercel-1.9.0.tar.gz --markdown 20240523/p/pulumiverse-vercel/1.3.0-1.9.0/README.md --exclude *.pyd
+[2024-05-23 11:01:51] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-05-23 11:01:51] INFO root fetch - processPackages [fuckBookWalker]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [fuckBookWalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuckbookwalker-0.1.1.tar.gz tmp/fuckbookwalker-0.1.3.tar.gz --markdown 20240523/f/fuckBookWalker/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-05-23 11:01:51] INFO root fetch - processPackages [nurtelecom-gras-library]: Downloading https://files.pythonhosted.org/packages/8e/68/bda15c6147857589d42db9aff8f1bc72dab9fadf889c7abb641d67fdb2eb/nurtelecom_gras_library-1.3.6.tar.gz
+[2024-05-23 11:01:51] INFO root fetch - processPackages [pbx-cloud-utils]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [pbx-cloud-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_cloud_utils-1.3.0-py3-none-any.whl.zip tmp/pbx_cloud_utils-1.3.0a0-py3-none-any.whl.zip --markdown 20240523/p/pbx-cloud-utils/1.3.0-1.3.0a0/README.md --exclude *.pyd
+[2024-05-23 11:01:51] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240523/p/piwiPre/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-23 11:01:51] INFO root fetch - processPackages [nurtelecom-gras-library]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [nurtelecom-gras-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nurtelecom_gras_library-1.3.5.tar.gz tmp/nurtelecom_gras_library-1.3.6.tar.gz --markdown 20240523/n/nurtelecom-gras-library/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-05-23 11:01:51] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-05-23 11:01:51] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.44-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240523/x/xiaoranli/0.7.44-0.7.8/README.md --exclude *.pyd
+[2024-05-23 11:01:52] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-23 11:01:52] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.3.0-py3-none-any.whl.zip]
+[2024-05-23 11:01:52] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.3.0a0-py3-none-any.whl.zip]
+[2024-05-23 11:01:52] INFO root fetch - main [MainThread]: End processing [pbx-cloud-utils]: success
+[2024-05-23 11:01:52] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.8.3.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - processPackages [openagents-grpc-proto]: Remove: archive file [/home/abi/fetcher/tmp/openagents_grpc_proto-0.9.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - main [MainThread]: End processing [openagents-grpc-proto]: success
+[2024-05-23 11:01:52] INFO root fetch - processPackages [pulumiverse-vercel]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_vercel-1.3.0.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - processPackages [pulumiverse-vercel]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_vercel-1.9.0.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - main [MainThread]: End processing [pulumiverse-vercel]: success
+[2024-05-23 11:01:52] INFO root fetch - processPackages [fuckBookWalker]: Remove: archive file [/home/abi/fetcher/tmp/fuckbookwalker-0.1.1.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - processPackages [fuckBookWalker]: Remove: archive file [/home/abi/fetcher/tmp/fuckbookwalker-0.1.3.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - main [MainThread]: End processing [fuckBookWalker]: success
+[2024-05-23 11:01:52] INFO root fetch - processPackages [nurtelecom-gras-library]: Remove: archive file [/home/abi/fetcher/tmp/nurtelecom_gras_library-1.3.5.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - processPackages [nurtelecom-gras-library]: Remove: archive file [/home/abi/fetcher/tmp/nurtelecom_gras_library-1.3.6.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - main [MainThread]: End processing [nurtelecom-gras-library]: success
+[2024-05-23 11:01:52] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-05-23 11:01:52] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.2.5.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.2.6.tar.gz]
+[2024-05-23 11:01:52] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2024-05-23 11:01:53] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.44-py3-none-any.whl.zip]
+[2024-05-23 11:01:53] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
+[2024-05-23 11:01:53] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-05-23 11:01:53] INFO root fetch - main [MainThread]: Store serial: [23340536]
