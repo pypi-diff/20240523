@@ -2651,3 +2651,50 @@
 [2024-05-23 02:20:25] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
 [2024-05-23 02:20:25] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
 [2024-05-23 02:20:25] INFO root fetch - main [MainThread]: Store serial: [23334629]
+[2024-05-23 02:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334629]
+[2024-05-23 02:22:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 02:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-05-23 02:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-cr-constructs
+[2024-05-23 02:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyBWE
+[2024-05-23 02:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: altair-nx
+[2024-05-23 02:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lfc
+[2024-05-23 02:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: air-sdk-python
+[2024-05-23 02:22:34] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.463] Old Version: [2.1.462]
+[2024-05-23 02:22:34] INFO root fetch - processPackages [altair-nx]: New version: [1.1] Old Version: [1.0]
+[2024-05-23 02:22:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-23 02:22:34] INFO root fetch - processPackages [altair-nx]: Downloading https://files.pythonhosted.org/packages/c1/0e/2208d6d85ddff11f33504f7acf1ae4b57270c2bf67b7d7de55c3cfe5295e/altair_nx-1.0.tar.gz
+[2024-05-23 02:22:34] INFO root fetch - processPackages [PyBWE]: New version: [2024.5] Old Version: [2024.3]
+[2024-05-23 02:22:34] WARNING root fetch - processPackages [lfc]: Skipping, unable to determine old version
+[2024-05-23 02:22:34] INFO root fetch - main [MainThread]: End processing [lfc] error
+[2024-05-23 02:22:34] INFO root fetch - processPackages [air-sdk-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 02:22:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-23 02:22:34] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/a9/a4/5c5cd820b90bd1e890e43f7a88d7d90a8b59dbfc66fb335aee5319c556b1/cdk-cr-constructs-2.1.462.tar.gz
+[2024-05-23 02:22:34] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15108998>=10485760
+[2024-05-23 02:22:34] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-23 02:22:34] INFO root fetch - processPackages [PyBWE]: Downloading https://files.pythonhosted.org/packages/83/12/d05d35869b624612edee8c2b207068b0cb444307ee75a1d35989cd4d7b20/PyBWE-2024.3.tar.gz
+[2024-05-23 02:22:34] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-23 02:22:34] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/e6/7e/5025c35c624204d38d96724d6aab30af89667c1276120666cdb5711d6d67/air-sdk-python-0.9.0.tar.gz
+[2024-05-23 02:22:35] INFO root fetch - processPackages [altair-nx]: Downloading https://files.pythonhosted.org/packages/20/84/e41d466124f37adb604d82693a778d9218a2ae3b987dfb71bd3fdd36f932/altair_nx-1.1.tar.gz
+[2024-05-23 02:22:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-23 02:22:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240523/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-23 02:22:35] INFO root fetch - processPackages [PyBWE]: Downloading https://files.pythonhosted.org/packages/39/61/81d3fb5f1e367e8441c06c1a4e3c84489dea2352954b77402d98fc4b09ec/pybwe-2024.5.tar.gz
+[2024-05-23 02:22:35] INFO root fetch - processPackages [altair-nx]: executing diffoscope
+[2024-05-23 02:22:35] INFO root fetch - processPackages [altair-nx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altair_nx-1.0.tar.gz tmp/altair_nx-1.1.tar.gz --markdown 20240523/a/altair-nx/1.0-1.1/README.md --exclude *.pyd
+[2024-05-23 02:22:35] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/c8/bc/3a6f4f24fc59dd5729c85aa82d63b1395ca97704eb7368fe064c5f911f24/air-sdk-python-0.9.1.tar.gz
+[2024-05-23 02:22:35] INFO root fetch - processPackages [PyBWE]: executing diffoscope
+[2024-05-23 02:22:35] INFO root fetch - processPackages [PyBWE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBWE-2024.3.tar.gz tmp/pybwe-2024.5.tar.gz --markdown 20240523/P/PyBWE/2024.3-2024.5/README.md --exclude *.pyd
+[2024-05-23 02:22:35] INFO root fetch - processPackages [air-sdk-python]: executing diffoscope
+[2024-05-23 02:22:35] INFO root fetch - processPackages [air-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air-sdk-python-0.9.0.tar.gz tmp/air-sdk-python-0.9.1.tar.gz --markdown 20240523/a/air-sdk-python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 02:22:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-23 02:22:35] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-23 02:22:35] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-23 02:22:35] INFO root fetch - processPackages [PyBWE]: Remove: archive file [/home/abi/fetcher/tmp/PyBWE-2024.3.tar.gz]
+[2024-05-23 02:22:35] INFO root fetch - processPackages [PyBWE]: Remove: archive file [/home/abi/fetcher/tmp/pybwe-2024.5.tar.gz]
+[2024-05-23 02:22:35] INFO root fetch - main [MainThread]: End processing [PyBWE]: success
+[2024-05-23 02:22:35] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.0.tar.gz]
+[2024-05-23 02:22:35] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.1.tar.gz]
+[2024-05-23 02:22:35] INFO root fetch - main [MainThread]: End processing [air-sdk-python]: success
+[2024-05-23 02:22:36] INFO root fetch - processPackages [altair-nx]: Remove: archive file [/home/abi/fetcher/tmp/altair_nx-1.0.tar.gz]
+[2024-05-23 02:22:36] INFO root fetch - processPackages [altair-nx]: Remove: archive file [/home/abi/fetcher/tmp/altair_nx-1.1.tar.gz]
+[2024-05-23 02:22:36] INFO root fetch - main [MainThread]: End processing [altair-nx]: success
+[2024-05-23 02:22:36] INFO root fetch - main [MainThread]: Store serial: [23334648]
