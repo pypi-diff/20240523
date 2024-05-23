@@ -8561,3 +8561,29 @@
 [2024-05-23 04:32:48] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.9.1.tar.gz]
 [2024-05-23 04:32:48] INFO root fetch - main [MainThread]: End processing [gradientai]: success
 [2024-05-23 04:32:48] INFO root fetch - main [MainThread]: Store serial: [23336742]
+[2024-05-23 04:34:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336742]
+[2024-05-23 04:34:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 04:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmisc
+[2024-05-23 04:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfra-nightly
+[2024-05-23 04:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reportXlsx
+[2024-05-23 04:34:57] INFO root fetch - processPackages [reportXlsx]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-23 04:34:57] INFO root fetch - processPackages [kmisc]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-23 04:34:57] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240520202338] Old Version: [0.6.1.dev20240520071007]
+[2024-05-23 04:34:57] INFO root fetch - processPackages [reportXlsx]: Downloading https://files.pythonhosted.org/packages/68/c4/5c6e12fd1a6c232ccefcc266d02b4bce886dfd9651f65299f5dc87dba40d/reportXlsx-0.3.1.tar.gz
+[2024-05-23 04:34:57] INFO root fetch - processPackages [kmisc]: Downloading https://files.pythonhosted.org/packages/c6/05/03f0c5e0f02d96763e9820c3142b83796fcfd07d500caa565d12708c8a1d/kmisc-2.1.98.tar.gz
+[2024-05-23 04:34:57] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/0a/dc/7709fb5504c00e7f5f12ff5cbb79c89f87c68f9de83a7023350090bc9966/tfra_nightly-0.6.1.dev20240520071007-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 04:34:57] WARNING root fetch - processPackages [reportXlsx]: Skipping package: exceeds size limit 15594137>=10485760
+[2024-05-23 04:34:57] INFO root fetch - main [MainThread]: End processing [reportXlsx] error
+[2024-05-23 04:34:57] INFO root fetch - processPackages [kmisc]: Downloading https://files.pythonhosted.org/packages/5a/0b/bcd559a50df4a22543c5eb44e4fd34bbc0a82ae753b6ce5584a5f77a9eff/kmisc-2.1.99.tar.gz
+[2024-05-23 04:34:57] INFO root fetch - processPackages [kmisc]: executing diffoscope
+[2024-05-23 04:34:57] INFO root fetch - processPackages [kmisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmisc-2.1.98.tar.gz tmp/kmisc-2.1.99.tar.gz --markdown 20240523/k/kmisc/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-23 04:34:58] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/7f/9e/c27f60311afba798daba651c60ec79e836aceef5a3b9fe9fd2281bd8d560/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 04:34:58] INFO root fetch - processPackages [kmisc]: Remove: archive file [/home/abi/fetcher/tmp/kmisc-2.1.98.tar.gz]
+[2024-05-23 04:34:58] INFO root fetch - processPackages [kmisc]: Remove: archive file [/home/abi/fetcher/tmp/kmisc-2.1.99.tar.gz]
+[2024-05-23 04:34:58] INFO root fetch - main [MainThread]: End processing [kmisc]: success
+[2024-05-23 04:34:59] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-05-23 04:34:59] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240520071007-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240523/t/tfra-nightly/0.6.1.dev20240520071007-0.6.1.dev20240520202338/README.md --exclude *.pyd
+[2024-05-23 04:35:00] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240520071007-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 04:35:00] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 04:35:00] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-05-23 04:35:00] INFO root fetch - main [MainThread]: Store serial: [23336758]
