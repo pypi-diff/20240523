@@ -22227,3 +22227,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:34:56] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.8.0.tar.gz]
 [2024-05-23 13:34:56] INFO root fetch - main [MainThread]: End processing [openlit]: success
 [2024-05-23 13:34:56] INFO root fetch - main [MainThread]: Store serial: [23342538]
+[2024-05-23 13:37:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342538]
+[2024-05-23 13:37:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: midas-open-parser
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xpra
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-shopify
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git-versiointi
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-kraken
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchserve-nightly
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cai-causal-graph
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smaht-submitr
+[2024-05-23 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-workflow-archiver-nightly
+[2024-05-23 13:37:05] INFO root fetch - processPackages [midas-open-parser]: New version: [0.1.16] Old Version: [0.1.14]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [music-kraken]: New version: [2.0.0] Old Version: [1.9.0]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [git-versiointi]: New version: [1.6rc5] Old Version: [1.6rc4]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [airbyte-source-shopify]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.2.1b9] Old Version: [0.8.2.1b8]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/f3/02/a6c2443862bae37781927c9b473c2aa6a3dff651cf734b2e736fe6f71208/midas_open_parser-0.1.14.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [xpra]: New version: [6.0.1] Old Version: [6.0]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [cai-causal-graph]: New version: [0.4.9] Old Version: [0.4.8.dev1]
+[2024-05-23 13:37:05] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/94/70/b34d2d34c394fc3e3b347e32bec8900b8b8643db5842d59991c4e84ea528/smaht_submitr-0.8.2.1b8.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [git-versiointi]: Downloading https://files.pythonhosted.org/packages/8b/d9/97a1585ce60970fa56aefc2ed160c9f16c608a9b1e354817a86707bdc2dc/git-versiointi-1.6rc4.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/d2/0a/01b99af2a353883f637b045e56dce39f108de7bdf0738d8a820a22ae042c/airbyte_source_shopify-2.1.1.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-23 13:37:05] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-23 13:37:05] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-23 13:37:05] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-23 13:37:05] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-23 13:37:05] INFO root fetch - processPackages [cai-causal-graph]: Downloading https://files.pythonhosted.org/packages/9d/03/333d16f8cbbd15f633cffb3837628ccdfbb211f9527b53715379829a2417/cai_causal_graph-0.4.8.dev1.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [xpra]: Downloading https://files.pythonhosted.org/packages/52/c4/94ded8bb31a4948f84874f950a00430c5a9c7ff0d5cae2865ed1a5666e1f/xpra-6.0.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/fd/e7/7d03292011a09f999c852759b49bba7636a3ca49bec0efa90c696a70df2f/music_kraken-2.0.0.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [git-versiointi]: Downloading https://files.pythonhosted.org/packages/2a/d9/b642b5c1f839e6245defd698659f244e51a46a7ffbf03e91fb6af377d352/git_versiointi-1.6rc5.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/49/5f/4a0cbcc953b126fd89e8d3c5beafcab7cf195845995d05395f40952ad23c/smaht_submitr-0.8.2.1b9.tar.gz
+[2024-05-23 13:37:05] WARNING root fetch - processPackages [xpra]: Skipping package: exceeds size limit 17809181>=10485760
+[2024-05-23 13:37:05] INFO root fetch - main [MainThread]: End processing [xpra] error
+[2024-05-23 13:37:05] INFO root fetch - processPackages [midas-open-parser]: Downloading https://files.pythonhosted.org/packages/44/6f/aa47022a639373cd2c93d192dac7310e43a5261230136cd35be28b439a9c/midas_open_parser-0.1.16.tar.gz
+[2024-05-23 13:37:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-23 13:37:06] INFO root fetch - processPackages [git-versiointi]: executing diffoscope
+[2024-05-23 13:37:06] INFO root fetch - processPackages [git-versiointi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-versiointi-1.6rc4.tar.gz tmp/git_versiointi-1.6rc5.tar.gz --markdown 20240523/g/git-versiointi/1.6rc4-1.6rc5/README.md --exclude *.pyd
+[2024-05-23 13:37:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-23 13:37:06] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-23 13:37:06] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.9.0.tar.gz tmp/music_kraken-2.0.0.tar.gz --markdown 20240523/m/music-kraken/1.9.0-2.0.0/README.md --exclude *.pyd
+[2024-05-23 13:37:06] INFO root fetch - processPackages [midas-open-parser]: executing diffoscope
+[2024-05-23 13:37:06] INFO root fetch - processPackages [midas-open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas_open_parser-0.1.14.tar.gz tmp/midas_open_parser-0.1.16.tar.gz --markdown 20240523/m/midas-open-parser/0.1.14-0.1.16/README.md --exclude *.pyd
+[2024-05-23 13:37:06] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/d8/e9/c42e5803ca55ebdd8ad3e1be0689cda07fe6dae3a61810e4a8ad3bb7c48e/airbyte_source_shopify-2.1.2.tar.gz
+[2024-05-23 13:37:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-23 13:37:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240523/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-23 13:37:06] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-05-23 13:37:06] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.2.1b8.tar.gz tmp/smaht_submitr-0.8.2.1b9.tar.gz --markdown 20240523/s/smaht-submitr/0.8.2.1b8-0.8.2.1b9/README.md --exclude *.pyd
+[2024-05-23 13:37:06] INFO root fetch - processPackages [cai-causal-graph]: Downloading https://files.pythonhosted.org/packages/27/e7/7f2bb0835c2a54ed787329a663780f92ff003de96e3b47bc7cc564954af9/cai_causal_graph-0.4.9.tar.gz
+[2024-05-23 13:37:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-23 13:37:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240523/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-23 13:37:06] INFO root fetch - processPackages [cai-causal-graph]: executing diffoscope
+[2024-05-23 13:37:06] INFO root fetch - processPackages [cai-causal-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cai_causal_graph-0.4.8.dev1.tar.gz tmp/cai_causal_graph-0.4.9.tar.gz --markdown 20240523/c/cai-causal-graph/0.4.8.dev1-0.4.9/README.md --exclude *.pyd
+[2024-05-23 13:37:06] INFO root fetch - processPackages [airbyte-source-shopify]: executing diffoscope
+[2024-05-23 13:37:06] INFO root fetch - processPackages [airbyte-source-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_shopify-2.1.1.tar.gz tmp/airbyte_source_shopify-2.1.2.tar.gz --markdown 20240523/a/airbyte-source-shopify/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-23 13:37:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-23 13:37:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-23 13:37:06] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-23 13:37:07] INFO root fetch - processPackages [git-versiointi]: Remove: archive file [/home/abi/fetcher/tmp/git-versiointi-1.6rc4.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - processPackages [git-versiointi]: Remove: archive file [/home/abi/fetcher/tmp/git_versiointi-1.6rc5.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - main [MainThread]: End processing [git-versiointi]: success
+[2024-05-23 13:37:07] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.14.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.16.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - main [MainThread]: End processing [midas-open-parser]: success
+[2024-05-23 13:37:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-23 13:37:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-23 13:37:07] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-23 13:37:07] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b8.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b9.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-05-23 13:37:07] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-2.0.0.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-23 13:37:07] INFO root fetch - processPackages [cai-causal-graph]: Remove: archive file [/home/abi/fetcher/tmp/cai_causal_graph-0.4.8.dev1.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - processPackages [cai-causal-graph]: Remove: archive file [/home/abi/fetcher/tmp/cai_causal_graph-0.4.9.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - main [MainThread]: End processing [cai-causal-graph]: success
+[2024-05-23 13:37:07] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.1.1.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.1.2.tar.gz]
+[2024-05-23 13:37:07] INFO root fetch - main [MainThread]: End processing [airbyte-source-shopify]: success
+[2024-05-23 13:37:07] INFO root fetch - main [MainThread]: Store serial: [23342567]
