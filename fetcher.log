@@ -16355,3 +16355,72 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:55:15] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.8.1.tar.gz]
 [2024-05-23 10:55:15] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
 [2024-05-23 10:55:15] INFO root fetch - main [MainThread]: Store serial: [23340430]
+[2024-05-23 10:57:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340430]
+[2024-05-23 10:57:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 10:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JBioSeqTools
+[2024-05-23 10:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-fsx-ontap
+[2024-05-23 10:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fuzzyset2
+[2024-05-23 10:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astronomer-cosmos
+[2024-05-23 10:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-identity-sdk
+[2024-05-23 10:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audiowiz
+[2024-05-23 10:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: XenAPI
+[2024-05-23 10:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WGSE-NG
+[2024-05-23 10:57:25] INFO root fetch - processPackages [XenAPI]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-23 10:57:25] INFO root fetch - processPackages [JBioSeqTools]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-23 10:57:25] INFO root fetch - processPackages [cdk-fsx-ontap]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 10:57:25] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-23 10:57:25] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/da/a0/e97aa374af6afb9759a56177ed88c9409e90aaddae61e91a477e4efac7ca/JBioSeqTools-2.0.6.tar.gz
+[2024-05-23 10:57:25] WARNING root fetch - processPackages [audiowiz]: Skipping, unable to determine old version
+[2024-05-23 10:57:25] INFO root fetch - main [MainThread]: End processing [audiowiz] error
+[2024-05-23 10:57:25] INFO root fetch - processPackages [fuzzyset2]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-23 10:57:25] INFO root fetch - processPackages [astronomer-cosmos]: New version: [1.5.0a1] Old Version: [1.4.1rc1]
+[2024-05-23 10:57:25] INFO root fetch - processPackages [WGSE-NG]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-05-23 10:57:25] INFO root fetch - processPackages [XenAPI]: Downloading https://files.pythonhosted.org/packages/af/8b/5325efbfbccf85d5e747542f525a14f2dabf70d5c20a5fc68513f6ec6258/XenAPI-24.4.0.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [cdk-fsx-ontap]: Downloading https://files.pythonhosted.org/packages/af/ed/b3faeb3906d93e2d713d466b25fd6788917d3d4a4921243b729c815633c7/cdk-fsx-ontap-1.0.8.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/b3/0e/d8e8d48a4a0e8203a988b9212fbbfa90db96064a74cd1a589b3c1983f920/astronomer_cosmos-1.4.1rc1.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [fuzzyset2]: Downloading https://files.pythonhosted.org/packages/59/3f/7266ae730857828394f1c47e98b9315bec4ecabd614a28e8ee60e7d01158/fuzzyset2-0.2.3.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/3f/89/4634313fc70bf7ef0052fffe85999ab1d6691d3fd213d6b737894eb12b36/wgse_ng-1.0.0a8.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/c7/f9/2f69af4c82e9b6ba8e7d70f30b58ba31446804047621dc99825b8b54b57f/JBioSeqTools-2.0.7.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [XenAPI]: Downloading https://files.pythonhosted.org/packages/dd/18/a74b8b3f6428a6d480f81b716b20358452d55ef43dada2bc25e85c4a96b1/XenAPI-24.5.0.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2024-05-23 10:57:25] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-2.0.6.tar.gz tmp/JBioSeqTools-2.0.7.tar.gz --markdown 20240523/J/JBioSeqTools/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-23 10:57:25] INFO root fetch - processPackages [XenAPI]: executing diffoscope
+[2024-05-23 10:57:25] INFO root fetch - processPackages [XenAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XenAPI-24.4.0.tar.gz tmp/XenAPI-24.5.0.tar.gz --markdown 20240523/X/XenAPI/24.4.0-24.5.0/README.md --exclude *.pyd
+[2024-05-23 10:57:25] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/c5/cd/390c648638f9e619b4ff83b45f6ee47e39a07cc6ee923de6567021600f9e/astronomer_cosmos-1.5.0a1.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [fuzzyset2]: Downloading https://files.pythonhosted.org/packages/b4/d2/f2be47222e34b12b1750425cd490c911559b0048cc8915827ecb94c27aad/fuzzyset2-0.2.4.tar.gz
+[2024-05-23 10:57:25] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2024-05-23 10:57:25] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-1.4.1rc1.tar.gz tmp/astronomer_cosmos-1.5.0a1.tar.gz --markdown 20240523/a/astronomer-cosmos/1.4.1rc1-1.5.0a1/README.md --exclude *.pyd
+[2024-05-23 10:57:25] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-23 10:57:25] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240523/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-23 10:57:26] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/15/4d/c9a515b0210f4f91d2909606ff889cc50487c3b067db9e503da7075956bb/wgse_ng-1.0.0a9.tar.gz
+[2024-05-23 10:57:26] INFO root fetch - processPackages [fuzzyset2]: executing diffoscope
+[2024-05-23 10:57:26] INFO root fetch - processPackages [fuzzyset2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzyset2-0.2.3.tar.gz tmp/fuzzyset2-0.2.4.tar.gz --markdown 20240523/f/fuzzyset2/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-23 10:57:26] INFO root fetch - processPackages [cdk-fsx-ontap]: Downloading https://files.pythonhosted.org/packages/b9/3f/853d5434fd1ed7bd13cf5e129c8ca2a613a5c4389b0e3d43aaf2699f9c64/cdk-fsx-ontap-1.0.9.tar.gz
+[2024-05-23 10:57:26] INFO root fetch - processPackages [XenAPI]: Remove: archive file [/home/abi/fetcher/tmp/XenAPI-24.4.0.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - processPackages [XenAPI]: Remove: archive file [/home/abi/fetcher/tmp/XenAPI-24.5.0.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - main [MainThread]: End processing [XenAPI]: success
+[2024-05-23 10:57:26] INFO root fetch - processPackages [WGSE-NG]: executing diffoscope
+[2024-05-23 10:57:26] INFO root fetch - processPackages [WGSE-NG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgse_ng-1.0.0a8.tar.gz tmp/wgse_ng-1.0.0a9.tar.gz --markdown 20240523/W/WGSE-NG/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-05-23 10:57:26] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.6.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.7.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2024-05-23 10:57:26] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.4.1rc1.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.5.0a1.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2024-05-23 10:57:26] INFO root fetch - processPackages [fuzzyset2]: Remove: archive file [/home/abi/fetcher/tmp/fuzzyset2-0.2.3.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - processPackages [fuzzyset2]: Remove: archive file [/home/abi/fetcher/tmp/fuzzyset2-0.2.4.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - main [MainThread]: End processing [fuzzyset2]: success
+[2024-05-23 10:57:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-23 10:57:26] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-23 10:57:27] INFO root fetch - processPackages [cdk-fsx-ontap]: executing diffoscope
+[2024-05-23 10:57:27] INFO root fetch - processPackages [cdk-fsx-ontap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-fsx-ontap-1.0.8.tar.gz tmp/cdk-fsx-ontap-1.0.9.tar.gz --markdown 20240523/c/cdk-fsx-ontap/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 10:57:28] INFO root fetch - processPackages [cdk-fsx-ontap]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fsx-ontap-1.0.8.tar.gz]
+[2024-05-23 10:57:28] INFO root fetch - processPackages [cdk-fsx-ontap]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fsx-ontap-1.0.9.tar.gz]
+[2024-05-23 10:57:28] INFO root fetch - main [MainThread]: End processing [cdk-fsx-ontap]: success
+[2024-05-23 10:57:28] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-1.0.0a8.tar.gz]
+[2024-05-23 10:57:28] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-1.0.0a9.tar.gz]
+[2024-05-23 10:57:28] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
+[2024-05-23 10:57:28] INFO root fetch - main [MainThread]: Store serial: [23340482]
