@@ -8289,3 +8289,54 @@
 [2024-05-23 04:19:28] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.1.tar.gz]
 [2024-05-23 04:19:28] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
 [2024-05-23 04:19:28] INFO root fetch - main [MainThread]: Store serial: [23336632]
+[2024-05-23 04:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336632]
+[2024-05-23 04:21:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etao-langchain-0.1.12.dist-info
+[2024-05-23 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctuFaultDetector
+[2024-05-23 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2024-05-23 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwml
+[2024-05-23 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mosek-license-server
+[2024-05-23 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dea-tools
+[2024-05-23 04:21:37] INFO root fetch - processPackages [gwml]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-23 04:21:37] INFO root fetch - processPackages [dea-tools]: New version: [0.3.3.dev9] Old Version: [0.3.3.dev11]
+[2024-05-23 04:21:37] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-23 04:21:37] INFO root fetch - processPackages [mosek-license-server]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-23 04:21:37] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/ce/af/bc74ad0c85b00054fce5d8da76df4f0ed5a0ee96568c9d098b5eefcb5199/gwml-0.1.3-py3-none-any.whl
+[2024-05-23 04:21:37] INFO root fetch - processPackages [ctuFaultDetector]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-23 04:21:37] WARNING root fetch - processPackages [etao-langchain-0.1.12.dist-info]: Skipping, unable to determine old version
+[2024-05-23 04:21:37] INFO root fetch - main [MainThread]: End processing [etao-langchain-0.1.12.dist-info] error
+[2024-05-23 04:21:37] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-05-23 04:21:37] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/c5/e5/be899f3442be58b1c64bc332313332999ba212085da5314cea7f64f9629f/dea_tools-0.3.3.dev11.tar.gz
+[2024-05-23 04:21:38] INFO root fetch - processPackages [mosek-license-server]: Downloading https://files.pythonhosted.org/packages/2c/bb/4e0ddf1b0124fd5ff2814cff05934d1e25b639c331d8e8f13d1ce9c18478/mosek_license_server-0.9.4.tar.gz
+[2024-05-23 04:21:38] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-05-23 04:21:38] INFO root fetch - processPackages [ctuFaultDetector]: Downloading https://files.pythonhosted.org/packages/42/7d/f0793dfc3406e34b7563463091a945fe35bdb188d6393c178019c062282e/ctuFaultDetector-1.0.0.tar.gz
+[2024-05-23 04:21:38] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/b4/ca/e9e1969d401f0ceca0beedcf27d6d1bff3d617547bbe879e0131f57d97f3/gwml-0.1.4-py3-none-any.whl
+[2024-05-23 04:21:38] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/4f/6d/528157888c99df98422c8ebd17dbde5c5d68ae4f6a6f0bc535c8546bda71/dea_tools-0.3.3.dev9.tar.gz
+[2024-05-23 04:21:38] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-05-23 04:21:38] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240523/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-23 04:21:38] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-23 04:21:38] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.3-py3-none-any.whl.zip tmp/gwml-0.1.4-py3-none-any.whl.zip --markdown 20240523/g/gwml/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-23 04:21:38] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2024-05-23 04:21:38] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea_tools-0.3.3.dev11.tar.gz tmp/dea_tools-0.3.3.dev9.tar.gz --markdown 20240523/d/dea-tools/0.3.3.dev11-0.3.3.dev9/README.md --exclude *.pyd
+[2024-05-23 04:21:38] INFO root fetch - processPackages [mosek-license-server]: Downloading https://files.pythonhosted.org/packages/75/b5/91cada60e36d3b611fafac9bd2bf2d30ddcd8c54344c92c98f0a99be5845/mosek_license_server-0.9.5.tar.gz
+[2024-05-23 04:21:38] INFO root fetch - processPackages [mosek-license-server]: executing diffoscope
+[2024-05-23 04:21:38] INFO root fetch - processPackages [mosek-license-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosek_license_server-0.9.4.tar.gz tmp/mosek_license_server-0.9.5.tar.gz --markdown 20240523/m/mosek-license-server/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-23 04:21:38] INFO root fetch - processPackages [ctuFaultDetector]: Downloading https://files.pythonhosted.org/packages/c8/46/415f8902c2839ed1d28a4b9823da88c677c59f0d42cba578002454171923/ctuFaultDetector-1.1.0.tar.gz
+[2024-05-23 04:21:38] INFO root fetch - processPackages [ctuFaultDetector]: executing diffoscope
+[2024-05-23 04:21:38] INFO root fetch - processPackages [ctuFaultDetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctuFaultDetector-1.0.0.tar.gz tmp/ctuFaultDetector-1.1.0.tar.gz --markdown 20240523/c/ctuFaultDetector/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-23 04:21:39] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea_tools-0.3.3.dev11.tar.gz]
+[2024-05-23 04:21:39] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea_tools-0.3.3.dev9.tar.gz]
+[2024-05-23 04:21:39] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2024-05-23 04:21:39] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.3-py3-none-any.whl.zip]
+[2024-05-23 04:21:39] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.4-py3-none-any.whl.zip]
+[2024-05-23 04:21:39] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-23 04:21:39] INFO root fetch - processPackages [mosek-license-server]: Remove: archive file [/home/abi/fetcher/tmp/mosek_license_server-0.9.4.tar.gz]
+[2024-05-23 04:21:39] INFO root fetch - processPackages [mosek-license-server]: Remove: archive file [/home/abi/fetcher/tmp/mosek_license_server-0.9.5.tar.gz]
+[2024-05-23 04:21:39] INFO root fetch - main [MainThread]: End processing [mosek-license-server]: success
+[2024-05-23 04:21:39] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-05-23 04:21:39] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-05-23 04:21:39] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-05-23 04:21:39] INFO root fetch - processPackages [ctuFaultDetector]: Remove: archive file [/home/abi/fetcher/tmp/ctuFaultDetector-1.0.0.tar.gz]
+[2024-05-23 04:21:39] INFO root fetch - processPackages [ctuFaultDetector]: Remove: archive file [/home/abi/fetcher/tmp/ctuFaultDetector-1.1.0.tar.gz]
+[2024-05-23 04:21:39] INFO root fetch - main [MainThread]: End processing [ctuFaultDetector]: success
+[2024-05-23 04:21:39] INFO root fetch - main [MainThread]: Store serial: [23336651]
