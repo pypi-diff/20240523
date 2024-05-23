@@ -9583,3 +9583,45 @@
 [2024-05-23 05:45:23] INFO root fetch - processPackages [hyperliquid-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyperliquid_python_sdk-0.4.0.tar.gz]
 [2024-05-23 05:45:23] INFO root fetch - main [MainThread]: End processing [hyperliquid-python-sdk]: success
 [2024-05-23 05:45:23] INFO root fetch - main [MainThread]: Store serial: [23337351]
+[2024-05-23 05:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337351]
+[2024-05-23 05:47:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 05:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-05-23 05:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-simple-apikey
+[2024-05-23 05:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taskara
+[2024-05-23 05:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2024-05-23 05:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oresat-star-tracker
+[2024-05-23 05:47:31] WARNING root fetch - processPackages [drf-simple-apikey]: Skipping, unable to determine old version
+[2024-05-23 05:47:31] INFO root fetch - main [MainThread]: End processing [drf-simple-apikey] error
+[2024-05-23 05:47:31] INFO root fetch - processPackages [pyqqq]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 05:47:31] INFO root fetch - processPackages [taskara]: New version: [0.1.90] Old Version: [0.1.89]
+[2024-05-23 05:47:31] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-23 05:47:31] INFO root fetch - processPackages [oresat-star-tracker]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-23 05:47:31] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/96/27/924b59eac85aad2fc913e1a6e57ddfe954ff8d3a73d8370259e26751340c/pyqqq-0.9.8.tar.gz
+[2024-05-23 05:47:31] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/ab/41/0e91fad2c082023db33913019bdcf9835973b3283c6e18f607b9030dba6d/taskara-0.1.89.tar.gz
+[2024-05-23 05:47:31] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-23 05:47:32] INFO root fetch - processPackages [oresat-star-tracker]: Downloading https://files.pythonhosted.org/packages/3a/7d/ea78526f7f969a683478ac034fc7f0385c51ebc5a0a574877672a49b9ad2/oresat_star_tracker-0.2.0.tar.gz
+[2024-05-23 05:47:32] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/55/e3/5119cecbdcf7969a494d1d075a49d3c9451653fd110f7a4d7b25d1fb4c48/pyqqq-0.9.9.tar.gz
+[2024-05-23 05:47:32] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-23 05:47:32] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/89/62/d46724e06c9d85a8bed255e94f77844746608af19908ccbfd8a132f48403/taskara-0.1.90.tar.gz
+[2024-05-23 05:47:32] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-23 05:47:32] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.8.tar.gz tmp/pyqqq-0.9.9.tar.gz --markdown 20240523/p/pyqqq/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 05:47:32] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-23 05:47:32] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240523/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-23 05:47:32] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-23 05:47:32] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.89.tar.gz tmp/taskara-0.1.90.tar.gz --markdown 20240523/t/taskara/0.1.89-0.1.90/README.md --exclude *.pyd
+[2024-05-23 05:47:32] INFO root fetch - processPackages [oresat-star-tracker]: Downloading https://files.pythonhosted.org/packages/f9/84/3295da34c29655f180e37416411b3dfe14f74f5db84810311a67b8351342/oresat_star_tracker-0.2.1.tar.gz
+[2024-05-23 05:47:32] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.8.tar.gz]
+[2024-05-23 05:47:32] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.9.tar.gz]
+[2024-05-23 05:47:32] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-23 05:47:32] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.89.tar.gz]
+[2024-05-23 05:47:32] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.90.tar.gz]
+[2024-05-23 05:47:32] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-23 05:47:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-23 05:47:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-23 05:47:32] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-23 05:47:33] INFO root fetch - processPackages [oresat-star-tracker]: executing diffoscope
+[2024-05-23 05:47:33] INFO root fetch - processPackages [oresat-star-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat_star_tracker-0.2.0.tar.gz tmp/oresat_star_tracker-0.2.1.tar.gz --markdown 20240523/o/oresat-star-tracker/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-23 05:47:33] INFO root fetch - processPackages [oresat-star-tracker]: Remove: archive file [/home/abi/fetcher/tmp/oresat_star_tracker-0.2.0.tar.gz]
+[2024-05-23 05:47:33] INFO root fetch - processPackages [oresat-star-tracker]: Remove: archive file [/home/abi/fetcher/tmp/oresat_star_tracker-0.2.1.tar.gz]
+[2024-05-23 05:47:33] INFO root fetch - main [MainThread]: End processing [oresat-star-tracker]: success
+[2024-05-23 05:47:33] INFO root fetch - main [MainThread]: Store serial: [23337366]
