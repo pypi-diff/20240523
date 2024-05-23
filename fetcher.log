@@ -8113,3 +8113,35 @@
 [2024-05-23 04:06:29] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.2000.tar.gz]
 [2024-05-23 04:06:29] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2024-05-23 04:06:29] INFO root fetch - main [MainThread]: Store serial: [23336553]
+[2024-05-23 04:08:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336553]
+[2024-05-23 04:08:38] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-23 04:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336553]
+[2024-05-23 04:10:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 04:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-embeddings-ipex-llm
+[2024-05-23 04:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emec-api
+[2024-05-23 04:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ffmpeg-media-type
+[2024-05-23 04:10:43] INFO root fetch - processPackages [emec-api]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-23 04:10:43] INFO root fetch - processPackages [emec-api]: Downloading https://files.pythonhosted.org/packages/91/a2/570abf4cd65f5cc4e409434f26ad3ea21f44eea093d62c57b2e56481ed14/emec-api-0.1.6.tar.gz
+[2024-05-23 04:10:43] INFO root fetch - processPackages [llama-index-embeddings-ipex-llm]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 04:10:43] INFO root fetch - processPackages [ffmpeg-media-type]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-23 04:10:43] INFO root fetch - processPackages [emec-api]: Downloading https://files.pythonhosted.org/packages/41/42/a9bc9b7658821afce9e9c4de4ad1f9a754b3a6c3c59c5394b1c728905752/emec_api-0.1.7.tar.gz
+[2024-05-23 04:10:43] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/39/26/66036b4b95804beed8aa09f61fb8132c349b6820a517a40e10cce0914863/ffmpeg_media_type-1.0.3.tar.gz
+[2024-05-23 04:10:43] INFO root fetch - processPackages [llama-index-embeddings-ipex-llm]: Downloading https://files.pythonhosted.org/packages/e3/e5/c9ac7353f4311bad8f960978ff6801a8e059689312c38b89c6909f0e19c5/llama_index_embeddings_ipex_llm-0.1.1.tar.gz
+[2024-05-23 04:10:44] INFO root fetch - processPackages [emec-api]: executing diffoscope
+[2024-05-23 04:10:44] INFO root fetch - processPackages [emec-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emec-api-0.1.6.tar.gz tmp/emec_api-0.1.7.tar.gz --markdown 20240523/e/emec-api/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-23 04:10:44] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/c0/a4/56f44feb17aa9d408bea27cbcf3df24057ea69bd18dfd4adecbf232c6e12/ffmpeg_media_type-1.0.4.tar.gz
+[2024-05-23 04:10:44] INFO root fetch - processPackages [llama-index-embeddings-ipex-llm]: Downloading https://files.pythonhosted.org/packages/3e/b4/0ebcbade376d9b5207820caa6f653388b6af31d67c9e14ae60053406af28/llama_index_embeddings_ipex_llm-0.1.2.tar.gz
+[2024-05-23 04:10:44] INFO root fetch - processPackages [ffmpeg-media-type]: executing diffoscope
+[2024-05-23 04:10:44] INFO root fetch - processPackages [ffmpeg-media-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_media_type-1.0.3.tar.gz tmp/ffmpeg_media_type-1.0.4.tar.gz --markdown 20240523/f/ffmpeg-media-type/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-23 04:10:44] INFO root fetch - processPackages [llama-index-embeddings-ipex-llm]: executing diffoscope
+[2024-05-23 04:10:44] INFO root fetch - processPackages [llama-index-embeddings-ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_embeddings_ipex_llm-0.1.1.tar.gz tmp/llama_index_embeddings_ipex_llm-0.1.2.tar.gz --markdown 20240523/l/llama-index-embeddings-ipex-llm/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 04:10:44] INFO root fetch - processPackages [emec-api]: Remove: archive file [/home/abi/fetcher/tmp/emec-api-0.1.6.tar.gz]
+[2024-05-23 04:10:44] INFO root fetch - processPackages [emec-api]: Remove: archive file [/home/abi/fetcher/tmp/emec_api-0.1.7.tar.gz]
+[2024-05-23 04:10:44] INFO root fetch - main [MainThread]: End processing [emec-api]: success
+[2024-05-23 04:10:44] INFO root fetch - processPackages [llama-index-embeddings-ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_embeddings_ipex_llm-0.1.1.tar.gz]
+[2024-05-23 04:10:44] INFO root fetch - processPackages [llama-index-embeddings-ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_embeddings_ipex_llm-0.1.2.tar.gz]
+[2024-05-23 04:10:44] INFO root fetch - main [MainThread]: End processing [llama-index-embeddings-ipex-llm]: success
+[2024-05-23 04:10:45] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.3.tar.gz]
+[2024-05-23 04:10:45] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.4.tar.gz]
+[2024-05-23 04:10:45] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
+[2024-05-23 04:10:45] INFO root fetch - main [MainThread]: Store serial: [23336563]
