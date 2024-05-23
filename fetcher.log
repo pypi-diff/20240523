@@ -2698,3 +2698,28 @@
 [2024-05-23 02:22:36] INFO root fetch - processPackages [altair-nx]: Remove: archive file [/home/abi/fetcher/tmp/altair_nx-1.1.tar.gz]
 [2024-05-23 02:22:36] INFO root fetch - main [MainThread]: End processing [altair-nx]: success
 [2024-05-23 02:22:36] INFO root fetch - main [MainThread]: Store serial: [23334648]
+[2024-05-23 02:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334648]
+[2024-05-23 02:24:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 02:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seismic-rna
+[2024-05-23 02:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmware
+[2024-05-23 02:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyoxigraph
+[2024-05-23 02:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subfinder-leakix
+[2024-05-23 02:24:45] WARNING root fetch - processPackages [subfinder-leakix]: Skipping, unable to determine old version
+[2024-05-23 02:24:45] INFO root fetch - main [MainThread]: End processing [subfinder-leakix] error
+[2024-05-23 02:24:45] INFO root fetch - processPackages [seismic-rna]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-23 02:24:45] INFO root fetch - processPackages [llmware]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 02:24:45] INFO root fetch - processPackages [pyoxigraph]: New version: [0.4.0a7] Old Version: [0.4.0a6]
+[2024-05-23 02:24:45] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/53/f2/8420279ae686df28989f0588c8721f9d88b14d4957345c82135aa63930bd/seismic_rna-0.9.7.tar.gz
+[2024-05-23 02:24:45] INFO root fetch - processPackages [pyoxigraph]: Downloading https://files.pythonhosted.org/packages/83/10/eaf5f807dd8fe3ac8d1d226332369d4d8ecc173076fe9e1ec2d9e6265290/pyoxigraph-0.4.0a6.tar.gz
+[2024-05-23 02:24:45] INFO root fetch - processPackages [llmware]: Downloading https://files.pythonhosted.org/packages/4d/21/4672a53b26db92deb1117cea11feaaa74f3279ed29198c6a7f77ff2c8ca2/llmware-0.2.8-py3-none-any.whl
+[2024-05-23 02:24:45] WARNING root fetch - processPackages [llmware]: Skipping package: exceeds size limit 39931855>=10485760
+[2024-05-23 02:24:45] INFO root fetch - main [MainThread]: End processing [llmware] error
+[2024-05-23 02:24:45] WARNING root fetch - processPackages [seismic-rna]: Skipping package: exceeds size limit 25833813>=10485760
+[2024-05-23 02:24:45] INFO root fetch - main [MainThread]: End processing [seismic-rna] error
+[2024-05-23 02:24:46] INFO root fetch - processPackages [pyoxigraph]: Downloading https://files.pythonhosted.org/packages/53/6e/fa1a6a411aab13cc398b3876c8c20afa4d83955dc202d3201f4bc867b46d/pyoxigraph-0.4.0a7.tar.gz
+[2024-05-23 02:24:47] INFO root fetch - processPackages [pyoxigraph]: executing diffoscope
+[2024-05-23 02:24:47] INFO root fetch - processPackages [pyoxigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxigraph-0.4.0a6.tar.gz tmp/pyoxigraph-0.4.0a7.tar.gz --markdown 20240523/p/pyoxigraph/0.4.0a6-0.4.0a7/README.md --exclude *.pyd
+[2024-05-23 02:24:54] INFO root fetch - processPackages [pyoxigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyoxigraph-0.4.0a6.tar.gz]
+[2024-05-23 02:24:54] INFO root fetch - processPackages [pyoxigraph]: Remove: archive file [/home/abi/fetcher/tmp/pyoxigraph-0.4.0a7.tar.gz]
+[2024-05-23 02:24:54] INFO root fetch - main [MainThread]: End processing [pyoxigraph]: success
+[2024-05-23 02:24:54] INFO root fetch - main [MainThread]: Store serial: [23334678]
