@@ -11370,3 +11370,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:54:30] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-9.9.0.tar.gz]
 [2024-05-23 07:54:30] INFO root fetch - main [MainThread]: End processing [aplr]: success
 [2024-05-23 07:54:30] INFO root fetch - main [MainThread]: Store serial: [23338174]
+[2024-05-23 07:56:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338174]
+[2024-05-23 07:56:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 07:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh-cli
+[2024-05-23 07:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locust
+[2024-05-23 07:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jfExt
+[2024-05-23 07:56:39] INFO root fetch - processPackages [docmesh-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 07:56:39] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 07:56:39] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/52/01/e0b242a120b46fbd3ea11f242cce6164ceba11c4caaa6c0f51714f6c4a81/docmesh_cli-0.0.8.tar.gz
+[2024-05-23 07:56:39] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 07:56:39] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-23 07:56:39] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 07:56:39] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/f7/0b/cc22d3fdfad0c1ff514222a92edc6326360d3a28521cf5c8b8dab6d879fb/docmesh_cli-0.0.9.tar.gz
+[2024-05-23 07:56:40] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-23 07:56:40] INFO root fetch - processPackages [docmesh-cli]: executing diffoscope
+[2024-05-23 07:56:40] INFO root fetch - processPackages [docmesh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_cli-0.0.8.tar.gz tmp/docmesh_cli-0.0.9.tar.gz --markdown 20240523/d/docmesh-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 07:56:40] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 07:56:40] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 07:56:40] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-23 07:56:40] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.8.tar.gz]
+[2024-05-23 07:56:40] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.9.tar.gz]
+[2024-05-23 07:56:40] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
+[2024-05-23 07:56:40] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-23 07:56:40] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240523/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-23 07:56:40] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 07:56:40] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 07:56:40] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 07:56:42] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-23 07:56:42] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-23 07:56:42] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-23 07:56:42] INFO root fetch - main [MainThread]: Store serial: [23338200]
