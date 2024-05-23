@@ -14556,3 +14556,69 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:03:38] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_configurator-16.0.1.0.5-py3-none-any.whl.zip]
 [2024-05-23 10:03:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-configurator]: success
 [2024-05-23 10:03:38] INFO root fetch - main [MainThread]: Store serial: [23339573]
+[2024-05-23 10:05:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339573]
+[2024-05-23 10:05:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-troveclient
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mistral-lib
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langfun
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ironic-lib
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgis-rs
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evalRag
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dp-launching-app
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdproxy
+[2024-05-23 10:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micronuclAI-labeling
+[2024-05-23 10:05:49] WARNING root fetch - processPackages [cdproxy]: Skipping, unable to determine old version
+[2024-05-23 10:05:49] INFO root fetch - main [MainThread]: End processing [cdproxy] error
+[2024-05-23 10:05:49] WARNING root fetch - processPackages [evalRag]: Skipping, unable to determine old version
+[2024-05-23 10:05:49] INFO root fetch - main [MainThread]: End processing [evalRag] error
+[2024-05-23 10:05:49] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240522] Old Version: [0.0.2.dev20240521]
+[2024-05-23 10:05:49] INFO root fetch - processPackages [python-troveclient]: New version: [8.5.0] Old Version: [8.4.0]
+[2024-05-23 10:05:49] INFO root fetch - processPackages [dp-launching-app]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-23 10:05:49] INFO root fetch - processPackages [mistral-lib]: New version: [3.0.0] Old Version: [2.9.0]
+[2024-05-23 10:05:49] INFO root fetch - processPackages [vgis-rs]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-23 10:05:49] WARNING root fetch - processPackages [micronuclAI-labeling]: Skipping, unable to determine old version
+[2024-05-23 10:05:49] INFO root fetch - main [MainThread]: End processing [micronuclAI-labeling] error
+[2024-05-23 10:05:49] INFO root fetch - processPackages [ironic-lib]: New version: [6.1.0] Old Version: [6.0.0]
+[2024-05-23 10:05:49] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/1d/54/02eaa4985575b75d646dad41bd569f5d6d1fec516a19b28cbd382d013ad2/langfun-0.0.2.dev20240521.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [python-troveclient]: Downloading https://files.pythonhosted.org/packages/f1/33/17668e1f99efce342d910085e75cbc5ec5343d5a462713a2c07e20e915e5/python-troveclient-8.4.0.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/0c/1a/9ced7b8a3b3c651a15fe68411e5e3259b65c461361402a10763478f7c6a2/dp-launching-app-0.0.6.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [mistral-lib]: Downloading https://files.pythonhosted.org/packages/e2/fa/0a72556061c6ae3ec3081987f7b54eef761009baa7697e59da98c560d808/mistral-lib-2.9.0.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [ironic-lib]: Downloading https://files.pythonhosted.org/packages/46/88/df9d19c5c6c5a36fc404fbb6b576519d5d390ce9aa367bce41d3194ec715/ironic-lib-6.0.0.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [vgis-rs]: Downloading https://files.pythonhosted.org/packages/c0/a7/85844d6319b90565e20d01ce3eae87252c4a467023d45b0dd2a63e1d0358/vgis_rs-1.1.2.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/84/b4/49f930fb946d73269056734374b113b16b671b1d0027e24ec01e660784a3/langfun-0.0.2.dev20240522.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [python-troveclient]: Downloading https://files.pythonhosted.org/packages/52/a9/fd520ea49204a64a7497e6711d99d95ed24f3034502fa5bb42c0419a5017/python-troveclient-8.5.0.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [mistral-lib]: Downloading https://files.pythonhosted.org/packages/65/8a/e8cecf7c9a2aad660daddfaebf42e54f3d7b60631ddc5a85092900fb7a12/mistral-lib-3.0.0.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [vgis-rs]: Downloading https://files.pythonhosted.org/packages/27/80/b9ebc8fbd62dc9272f13d2615484d767eb09d9dd741afa6f77561d49983f/vgis_rs-1.1.3.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-23 10:05:49] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240521.tar.gz tmp/langfun-0.0.2.dev20240522.tar.gz --markdown 20240523/l/langfun/0.0.2.dev20240521-0.0.2.dev20240522/README.md --exclude *.pyd
+[2024-05-23 10:05:49] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/5f/df/1bef325a0930ae09490d28d2905d83d9c3712eeff08a4e426ae0719fd1b1/dp-launching-app-0.0.7.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [python-troveclient]: executing diffoscope
+[2024-05-23 10:05:49] INFO root fetch - processPackages [mistral-lib]: executing diffoscope
+[2024-05-23 10:05:49] INFO root fetch - processPackages [python-troveclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-troveclient-8.4.0.tar.gz tmp/python-troveclient-8.5.0.tar.gz --markdown 20240523/p/python-troveclient/8.4.0-8.5.0/README.md --exclude *.pyd
+[2024-05-23 10:05:49] INFO root fetch - processPackages [mistral-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistral-lib-2.9.0.tar.gz tmp/mistral-lib-3.0.0.tar.gz --markdown 20240523/m/mistral-lib/2.9.0-3.0.0/README.md --exclude *.pyd
+[2024-05-23 10:05:49] INFO root fetch - processPackages [vgis-rs]: executing diffoscope
+[2024-05-23 10:05:49] INFO root fetch - processPackages [vgis-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_rs-1.1.2.tar.gz tmp/vgis_rs-1.1.3.tar.gz --markdown 20240523/v/vgis-rs/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-23 10:05:49] INFO root fetch - processPackages [ironic-lib]: Downloading https://files.pythonhosted.org/packages/79/f3/b1aeb4b37078b5514aede3fbdf26a1acb0ff9f88cf795647e11c2961afad/ironic-lib-6.1.0.tar.gz
+[2024-05-23 10:05:49] INFO root fetch - processPackages [dp-launching-app]: executing diffoscope
+[2024-05-23 10:05:49] INFO root fetch - processPackages [dp-launching-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dp-launching-app-0.0.6.tar.gz tmp/dp-launching-app-0.0.7.tar.gz --markdown 20240523/d/dp-launching-app/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-23 10:05:49] INFO root fetch - processPackages [ironic-lib]: executing diffoscope
+[2024-05-23 10:05:49] INFO root fetch - processPackages [ironic-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironic-lib-6.0.0.tar.gz tmp/ironic-lib-6.1.0.tar.gz --markdown 20240523/i/ironic-lib/6.0.0-6.1.0/README.md --exclude *.pyd
+[2024-05-23 10:05:50] INFO root fetch - processPackages [vgis-rs]: Remove: archive file [/home/abi/fetcher/tmp/vgis_rs-1.1.2.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - processPackages [vgis-rs]: Remove: archive file [/home/abi/fetcher/tmp/vgis_rs-1.1.3.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - main [MainThread]: End processing [vgis-rs]: success
+[2024-05-23 10:05:50] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.6.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.7.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - main [MainThread]: End processing [dp-launching-app]: success
+[2024-05-23 10:05:50] INFO root fetch - processPackages [mistral-lib]: Remove: archive file [/home/abi/fetcher/tmp/mistral-lib-2.9.0.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - processPackages [mistral-lib]: Remove: archive file [/home/abi/fetcher/tmp/mistral-lib-3.0.0.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - main [MainThread]: End processing [mistral-lib]: success
+[2024-05-23 10:05:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240521.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240522.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-23 10:05:50] INFO root fetch - processPackages [ironic-lib]: Remove: archive file [/home/abi/fetcher/tmp/ironic-lib-6.0.0.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - processPackages [ironic-lib]: Remove: archive file [/home/abi/fetcher/tmp/ironic-lib-6.1.0.tar.gz]
+[2024-05-23 10:05:50] INFO root fetch - main [MainThread]: End processing [ironic-lib]: success
+[2024-05-23 10:05:51] INFO root fetch - processPackages [python-troveclient]: Remove: archive file [/home/abi/fetcher/tmp/python-troveclient-8.4.0.tar.gz]
+[2024-05-23 10:05:51] INFO root fetch - processPackages [python-troveclient]: Remove: archive file [/home/abi/fetcher/tmp/python-troveclient-8.5.0.tar.gz]
+[2024-05-23 10:05:51] INFO root fetch - main [MainThread]: End processing [python-troveclient]: success
+[2024-05-23 10:05:51] INFO root fetch - main [MainThread]: Store serial: [23339609]
