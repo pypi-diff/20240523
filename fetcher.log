@@ -3356,3 +3356,36 @@
 [2024-05-23 02:56:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-23 02:56:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-23 02:56:26] INFO root fetch - main [MainThread]: Store serial: [23334916]
+[2024-05-23 02:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334916]
+[2024-05-23 02:58:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: immanuel
+[2024-05-23 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchsense
+[2024-05-23 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdeditor-stubs
+[2024-05-23 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kbve
+[2024-05-23 02:58:35] WARNING root fetch - processPackages [mdeditor-stubs]: Skipping, unable to determine old version
+[2024-05-23 02:58:35] INFO root fetch - main [MainThread]: End processing [mdeditor-stubs] error
+[2024-05-23 02:58:35] INFO root fetch - processPackages [torchsense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 02:58:35] INFO root fetch - processPackages [kbve]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 02:58:35] INFO root fetch - processPackages [immanuel]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-23 02:58:35] INFO root fetch - processPackages [kbve]: Downloading https://files.pythonhosted.org/packages/5c/d1/3a0064d65a65da5bf37bdd88302045d47261620acbedb568f5aa9bc2bab7/kbve-1.0.8.tar.gz
+[2024-05-23 02:58:35] INFO root fetch - processPackages [torchsense]: Downloading https://files.pythonhosted.org/packages/97/f6/8a914796831893c6eebeb4f1c094ef19ebcf7a8274b878fc62510de35172/torchsense-0.0.8.tar.gz
+[2024-05-23 02:58:35] INFO root fetch - processPackages [immanuel]: Downloading https://files.pythonhosted.org/packages/6b/6a/6553f8951099120c65d8e09e717052421f576b9871343394a37a9fb08e00/immanuel-1.3.3.tar.gz
+[2024-05-23 02:58:36] INFO root fetch - processPackages [kbve]: Downloading https://files.pythonhosted.org/packages/b3/2c/6bc178c921c5e75a33cbde662fd3b1aa7e3fac698ba0938bfc2d4eb484a9/kbve-1.0.9.tar.gz
+[2024-05-23 02:58:36] INFO root fetch - processPackages [kbve]: executing diffoscope
+[2024-05-23 02:58:36] INFO root fetch - processPackages [kbve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbve-1.0.8.tar.gz tmp/kbve-1.0.9.tar.gz --markdown 20240523/k/kbve/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 02:58:36] INFO root fetch - processPackages [torchsense]: Downloading https://files.pythonhosted.org/packages/1e/07/80041866a0d55010adb0aa1400d443464ac957d6f894483f5f2db9f5f671/torchsense-0.0.9.tar.gz
+[2024-05-23 02:58:36] INFO root fetch - processPackages [torchsense]: executing diffoscope
+[2024-05-23 02:58:36] INFO root fetch - processPackages [torchsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsense-0.0.8.tar.gz tmp/torchsense-0.0.9.tar.gz --markdown 20240523/t/torchsense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 02:58:36] INFO root fetch - processPackages [kbve]: Remove: archive file [/home/abi/fetcher/tmp/kbve-1.0.8.tar.gz]
+[2024-05-23 02:58:36] INFO root fetch - processPackages [kbve]: Remove: archive file [/home/abi/fetcher/tmp/kbve-1.0.9.tar.gz]
+[2024-05-23 02:58:36] INFO root fetch - main [MainThread]: End processing [kbve]: success
+[2024-05-23 02:58:37] INFO root fetch - processPackages [immanuel]: Downloading https://files.pythonhosted.org/packages/dc/c1/9dc895bfa469b2d932d81efaffb3c77638ea49ce0c2333f9af6a72c9b1b3/immanuel-1.4.0.tar.gz
+[2024-05-23 02:58:37] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.8.tar.gz]
+[2024-05-23 02:58:37] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.9.tar.gz]
+[2024-05-23 02:58:37] INFO root fetch - main [MainThread]: End processing [torchsense]: success
+[2024-05-23 02:58:38] INFO root fetch - processPackages [immanuel]: executing diffoscope
+[2024-05-23 02:58:38] INFO root fetch - processPackages [immanuel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immanuel-1.3.3.tar.gz tmp/immanuel-1.4.0.tar.gz --markdown 20240523/i/immanuel/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-05-23 02:58:39] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.3.3.tar.gz]
+[2024-05-23 02:58:39] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.4.0.tar.gz]
+[2024-05-23 02:58:39] INFO root fetch - main [MainThread]: End processing [immanuel]: success
+[2024-05-23 02:58:39] INFO root fetch - main [MainThread]: Store serial: [23334931]
