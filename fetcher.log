@@ -22111,3 +22111,21 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:28:24] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-05-23 13:28:24] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-05-23 13:28:24] INFO root fetch - main [MainThread]: Store serial: [23342480]
+[2024-05-23 13:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342480]
+[2024-05-23 13:30:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 13:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-preprocessing-lib-byarat
+[2024-05-23 13:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-clickabletextbox
+[2024-05-23 13:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grayscale-to-rgb
+[2024-05-23 13:30:34] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: New version: [1.4.0] Old Version: [0.1.0]
+[2024-05-23 13:30:34] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Downloading https://files.pythonhosted.org/packages/da/c3/98003ab56f865a5e1691c2f5211871f399519765e274d0c1ef44302f7a30/data_preprocessing_lib_byarat-0.1.0.tar.gz
+[2024-05-23 13:30:34] WARNING root fetch - processPackages [gradio-clickabletextbox]: Skipping, unable to determine old version
+[2024-05-23 13:30:34] INFO root fetch - main [MainThread]: End processing [gradio-clickabletextbox] error
+[2024-05-23 13:30:34] WARNING root fetch - processPackages [grayscale-to-rgb]: Skipping, unable to determine old version
+[2024-05-23 13:30:34] INFO root fetch - main [MainThread]: End processing [grayscale-to-rgb] error
+[2024-05-23 13:30:34] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Downloading https://files.pythonhosted.org/packages/03/eb/213a12eebba32c386c37da14e60b910e792b927f4e6f186250f587331c02/data_preprocessing_lib_byarat-1.4.0.tar.gz
+[2024-05-23 13:30:34] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: executing diffoscope
+[2024-05-23 13:30:34] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_preprocessing_lib_byarat-0.1.0.tar.gz tmp/data_preprocessing_lib_byarat-1.4.0.tar.gz --markdown 20240523/d/data-preprocessing-lib-byarat/0.1.0-1.4.0/README.md --exclude *.pyd
+[2024-05-23 13:30:34] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Remove: archive file [/home/abi/fetcher/tmp/data_preprocessing_lib_byarat-0.1.0.tar.gz]
+[2024-05-23 13:30:34] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Remove: archive file [/home/abi/fetcher/tmp/data_preprocessing_lib_byarat-1.4.0.tar.gz]
+[2024-05-23 13:30:34] INFO root fetch - main [MainThread]: End processing [data-preprocessing-lib-byarat]: success
+[2024-05-23 13:30:34] INFO root fetch - main [MainThread]: Store serial: [23342494]
