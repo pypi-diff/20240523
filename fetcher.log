@@ -11656,3 +11656,24 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:09:56] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
 [2024-05-23 08:09:56] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
 [2024-05-23 08:09:56] INFO root fetch - main [MainThread]: Store serial: [23338296]
+[2024-05-23 08:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338296]
+[2024-05-23 08:12:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 08:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-ecs
+[2024-05-23 08:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fnschool
+[2024-05-23 08:12:04] INFO root fetch - processPackages [fnschool]: New version: [20240523.80922.838] Old Version: [20240523.80119.832]
+[2024-05-23 08:12:04] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/0a/62/3bdf212aa9b0d90dfc4ce1820430c5da7abb57da384b9a81c60bf30a9166/fnschool-20240523.80119.832.tar.gz
+[2024-05-23 08:12:04] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: New version: [4.9.7] Old Version: [4.9.6]
+[2024-05-23 08:12:04] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Downloading https://files.pythonhosted.org/packages/e2/17/6cda3088a846a89285e32f2eb01b2fb5bf3358f9db780ae6b18d6d5cb564/aliyun-python-sdk-ecs-4.9.6.tar.gz
+[2024-05-23 08:12:05] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/0c/cd/c0645f59197a502501df6c20d865db634219e3d5651acc9d0df7aef320de/fnschool-20240523.80922.838.tar.gz
+[2024-05-23 08:12:05] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-23 08:12:05] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240523.80119.832.tar.gz tmp/fnschool-20240523.80922.838.tar.gz --markdown 20240523/f/fnschool/20240523.80119.832-20240523.80922.838/README.md --exclude *.pyd
+[2024-05-23 08:12:05] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Downloading https://files.pythonhosted.org/packages/3a/9a/0e44e1700677bbfbfc135e3c7ff51f70cb9e70994a7570c6bc873b0eaefb/aliyun-python-sdk-ecs-4.9.7.tar.gz
+[2024-05-23 08:12:05] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: executing diffoscope
+[2024-05-23 08:12:05] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ecs-4.9.6.tar.gz tmp/aliyun-python-sdk-ecs-4.9.7.tar.gz --markdown 20240523/a/aliyun-python-sdk-ecs/4.9.6-4.9.7/README.md --exclude *.pyd
+[2024-05-23 08:12:06] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240523.80119.832.tar.gz]
+[2024-05-23 08:12:06] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240523.80922.838.tar.gz]
+[2024-05-23 08:12:06] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-23 08:12:06] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ecs-4.9.6.tar.gz]
+[2024-05-23 08:12:06] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ecs-4.9.7.tar.gz]
+[2024-05-23 08:12:06] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ecs]: success
+[2024-05-23 08:12:06] INFO root fetch - main [MainThread]: Store serial: [23338306]
