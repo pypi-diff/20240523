@@ -10955,3 +10955,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:29:46] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
 [2024-05-23 07:29:46] INFO root fetch - main [MainThread]: End processing [jfExt]: success
 [2024-05-23 07:29:46] INFO root fetch - main [MainThread]: Store serial: [23337973]
+[2024-05-23 07:31:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337973]
+[2024-05-23 07:31:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 07:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fudstop
+[2024-05-23 07:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Complex-Bidintha
+[2024-05-23 07:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2024-05-23 07:31:54] INFO root fetch - processPackages [Complex-Bidintha]: New version: [0.2] Old Version: [0.1]
+[2024-05-23 07:31:54] INFO root fetch - processPackages [fudstop]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-23 07:31:54] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-23 07:31:54] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/be/28/bad27d06243c476b270bd6c6c75f22be75061e1a1ceebef7f92c38aadc9f/fudstop-2.6.8.tar.gz
+[2024-05-23 07:31:54] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-23 07:31:54] INFO root fetch - processPackages [Complex-Bidintha]: Downloading https://files.pythonhosted.org/packages/23/09/110a0cb8c6af920e7c322a4a80c8c44082a38e13f1489b610d48f9c095b6/Complex_Bidintha-0.1.tar.gz
+[2024-05-23 07:31:55] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-23 07:31:55] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/55/26/b6ec6559734c1c8543169cec69c16a9039cf7bdaa2b30d62a4ef1e091d47/fudstop-2.6.9.tar.gz
+[2024-05-23 07:31:55] INFO root fetch - processPackages [Complex-Bidintha]: Downloading https://files.pythonhosted.org/packages/7c/54/ddd5898f97db328852194507c1aedc6c60ab41cfa60aba27fa73804aaf25/Complex_Bidintha-0.2.tar.gz
+[2024-05-23 07:31:55] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-23 07:31:55] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240523/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-23 07:31:55] INFO root fetch - processPackages [Complex-Bidintha]: executing diffoscope
+[2024-05-23 07:31:55] INFO root fetch - processPackages [Complex-Bidintha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Complex_Bidintha-0.1.tar.gz tmp/Complex_Bidintha-0.2.tar.gz --markdown 20240523/C/Complex-Bidintha/0.1-0.2/README.md --exclude *.pyd
+[2024-05-23 07:31:55] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-23 07:31:55] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.8.tar.gz tmp/fudstop-2.6.9.tar.gz --markdown 20240523/f/fudstop/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-23 07:31:55] INFO root fetch - processPackages [Complex-Bidintha]: Remove: archive file [/home/abi/fetcher/tmp/Complex_Bidintha-0.1.tar.gz]
+[2024-05-23 07:31:55] INFO root fetch - processPackages [Complex-Bidintha]: Remove: archive file [/home/abi/fetcher/tmp/Complex_Bidintha-0.2.tar.gz]
+[2024-05-23 07:31:55] INFO root fetch - main [MainThread]: End processing [Complex-Bidintha]: success
+[2024-05-23 07:31:55] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-23 07:31:55] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-23 07:31:55] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-23 07:31:56] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.8.tar.gz]
+[2024-05-23 07:31:56] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.9.tar.gz]
+[2024-05-23 07:31:56] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-23 07:31:56] INFO root fetch - main [MainThread]: Store serial: [23337982]
