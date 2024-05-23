@@ -7677,3 +7677,75 @@
 [2024-05-23 03:44:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240523005948-py3-none-any.whl.zip]
 [2024-05-23 03:44:39] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-05-23 03:44:39] INFO root fetch - main [MainThread]: Store serial: [23336402]
+[2024-05-23 03:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336402]
+[2024-05-23 03:46:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-web
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-pasqal
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drepr-v2
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-aqt
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-google
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rococooooo
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mo-sql-parsing
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scoutbook_parser
+[2024-05-23 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blaze-double-bot
+[2024-05-23 03:46:48] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 03:46:48] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.640.24141] Old Version: [9.628.24135]
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.4.0.dev20240523005948] Old Version: [1.4.0.dev20240523003657]
+[2024-05-23 03:46:48] WARNING root fetch - processPackages [rococooooo]: Skipping, unable to determine old version
+[2024-05-23 03:46:48] INFO root fetch - main [MainThread]: End processing [rococooooo] error
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240523014335] Old Version: [1.4.0.dev20240523005948]
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-aqt]: New version: [1.4.0.dev20240523005948] Old Version: [1.4.0.dev20240523003657]
+[2024-05-23 03:46:48] WARNING root fetch - processPackages [blaze-double-bot]: Skipping, unable to determine old version
+[2024-05-23 03:46:48] INFO root fetch - main [MainThread]: End processing [blaze-double-bot] error
+[2024-05-23 03:46:48] INFO root fetch - processPackages [drepr-v2]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-23 03:46:48] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-05-23 03:46:48] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/c0/a3/5c973dd21458f0b2d810e99dc69af69267f20f012262a8e7b0dada5408b5/mo_sql_parsing-9.628.24135.tar.gz
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/b4/2a/b3340b5a7dda417c91b0baeb004b49586f2024cbc843dc7e5e2b290f3af5/cirq_pasqal-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/a5/19/82a436449ad3f5bbd8f7e44dc7848b3063e278c8ef59eb93219d29c02b31/cirq_web-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/e8/13/678722027e0f6a8d70acef8cbd1e37c1ff08cea048c4cfda28de8772cce1/cirq_aqt-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-google]: New version: [1.4.0.dev20240523014335] Old Version: [1.4.0.dev20240523005948]
+[2024-05-23 03:46:48] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/b3/9c/35c20bff788cae5aa73c038778ed0ea34fef668eab122c730c96a03de357/drepr_v2-1.3.8.tar.gz
+[2024-05-23 03:46:48] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/a1/2c/c8d66551469eaa365010bff49e53c778fe4423f82d73941cec6eafebe2e0/mo_sql_parsing-9.640.24141.tar.gz
+[2024-05-23 03:46:48] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/ea/c8/909058b6832ee74afd5ba1f5d30395adfc4d482fbfb90ab73eab4355d5bd/cirq_aqt-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/72/f8/206904ba986879bffaa7da31f2c992d48da98335b68a8ff95b2fdea780ed/cirq_web-1.4.0.dev20240523014335-py3-none-any.whl
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/ba/4e/d070a02aa99e43991beb227b15a22361a1ebc0e02f5945d1a921263639d7/cirq_google-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/54/ad/16104b1548ca924d7a4893e96c4703faf53cecc114bd5442e51d83df3de6/cirq_pasqal-1.4.0.dev20240523005948-py3-none-any.whl
+[2024-05-23 03:46:48] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-23 03:46:48] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.628.24135.tar.gz tmp/mo_sql_parsing-9.640.24141.tar.gz --markdown 20240523/m/mo-sql-parsing/9.628.24135-9.640.24141/README.md --exclude *.pyd
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.4.0.dev20240523003657-py3-none-any.whl.zip tmp/cirq_aqt-1.4.0.dev20240523005948-py3-none-any.whl.zip --markdown 20240523/c/cirq-aqt/1.4.0.dev20240523003657-1.4.0.dev20240523005948/README.md --exclude *.pyd
+[2024-05-23 03:46:48] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-05-23 03:46:48] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240523/s/scoutbook_parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240523005948-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240523014335-py3-none-any.whl.zip --markdown 20240523/c/cirq-web/1.4.0.dev20240523005948-1.4.0.dev20240523014335/README.md --exclude *.pyd
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2024-05-23 03:46:48] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.4.0.dev20240523003657-py3-none-any.whl.zip tmp/cirq_pasqal-1.4.0.dev20240523005948-py3-none-any.whl.zip --markdown 20240523/c/cirq-pasqal/1.4.0.dev20240523003657-1.4.0.dev20240523005948/README.md --exclude *.pyd
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/be/25/f9f625cad2e7b69a0e8056f9c45c2374e42653656a35e17b557c3758df54/cirq_google-1.4.0.dev20240523014335-py3-none-any.whl
+[2024-05-23 03:46:49] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/eb/fc/0263e26f60820d2460b901752c6dcea1286591b30c6ca161b308d4ca18b0/drepr_v2-1.3.9.tar.gz
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.4.0.dev20240523005948-py3-none-any.whl.zip tmp/cirq_google-1.4.0.dev20240523014335-py3-none-any.whl.zip --markdown 20240523/c/cirq-google/1.4.0.dev20240523005948-1.4.0.dev20240523014335/README.md --exclude *.pyd
+[2024-05-23 03:46:49] INFO root fetch - processPackages [drepr-v2]: executing diffoscope
+[2024-05-23 03:46:49] INFO root fetch - processPackages [drepr-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drepr_v2-1.3.8.tar.gz tmp/drepr_v2-1.3.9.tar.gz --markdown 20240523/d/drepr-v2/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-23 03:46:49] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-05-23 03:46:49] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-05-23 03:46:49] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240523014335-py3-none-any.whl.zip]
+[2024-05-23 03:46:49] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:46:49] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:46:49] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:46:49] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2024-05-23 03:46:49] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.628.24135.tar.gz]
+[2024-05-23 03:46:49] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.640.24141.tar.gz]
+[2024-05-23 03:46:49] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-23 03:46:50] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.8.tar.gz]
+[2024-05-23 03:46:50] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.9.tar.gz]
+[2024-05-23 03:46:50] INFO root fetch - main [MainThread]: End processing [drepr-v2]: success
+[2024-05-23 03:46:50] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240523005948-py3-none-any.whl.zip]
+[2024-05-23 03:46:50] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240523014335-py3-none-any.whl.zip]
+[2024-05-23 03:46:50] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2024-05-23 03:46:50] INFO root fetch - main [MainThread]: Store serial: [23336427]
