@@ -8007,3 +8007,20 @@
 [2024-05-23 03:57:46] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz]
 [2024-05-23 03:57:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901]: success
 [2024-05-23 03:57:46] INFO root fetch - main [MainThread]: Store serial: [23336509]
+[2024-05-23 03:59:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336509]
+[2024-05-23 03:59:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 03:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySigmaKoki
+[2024-05-23 03:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-cpp
+[2024-05-23 03:59:57] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240522] Old Version: [2.5.0b20240521]
+[2024-05-23 03:59:57] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/ac/46/a4a9273f3f9d0696e1e73fe1a758905e0c8e56e1b5e4dc9000a936cd74b8/bigdl_core_cpp-2.5.0b20240521-py3-none-win_amd64.whl
+[2024-05-23 03:59:57] INFO root fetch - processPackages [PySigmaKoki]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-23 03:59:57] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 33500885>=10485760
+[2024-05-23 03:59:57] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-23 03:59:57] INFO root fetch - processPackages [PySigmaKoki]: Downloading https://files.pythonhosted.org/packages/77/3e/c7218c2ad8c23b77f28873c64253b62bfdbf04c60bbd7269a387577451b0/PySigmaKoki-2.1.2.tar.gz
+[2024-05-23 03:59:57] INFO root fetch - processPackages [PySigmaKoki]: Downloading https://files.pythonhosted.org/packages/68/48/b5d99e7ee0e2291a66e5b4df039f3421e8acdee4bc82f87a245a61231da2/pysigmakoki-2.1.3.tar.gz
+[2024-05-23 03:59:57] INFO root fetch - processPackages [PySigmaKoki]: executing diffoscope
+[2024-05-23 03:59:57] INFO root fetch - processPackages [PySigmaKoki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySigmaKoki-2.1.2.tar.gz tmp/pysigmakoki-2.1.3.tar.gz --markdown 20240523/P/PySigmaKoki/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-23 03:59:58] INFO root fetch - processPackages [PySigmaKoki]: Remove: archive file [/home/abi/fetcher/tmp/PySigmaKoki-2.1.2.tar.gz]
+[2024-05-23 03:59:58] INFO root fetch - processPackages [PySigmaKoki]: Remove: archive file [/home/abi/fetcher/tmp/pysigmakoki-2.1.3.tar.gz]
+[2024-05-23 03:59:58] INFO root fetch - main [MainThread]: End processing [PySigmaKoki]: success
+[2024-05-23 03:59:58] INFO root fetch - main [MainThread]: Store serial: [23336514]
