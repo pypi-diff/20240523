@@ -22417,3 +22417,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:41:35] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.3.0a0.tar.gz]
 [2024-05-23 13:41:35] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
 [2024-05-23 13:41:35] INFO root fetch - main [MainThread]: Store serial: [23342636]
+[2024-05-23 13:43:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342636]
+[2024-05-23 13:43:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ls-packers
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jwodder-ps1
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dstack
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MASSIVEChem
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ls-packers
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: error-manager
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ls-api-clients
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: calculator-cli-builtincmds
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: faim-ipa
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dj-static-revision
+[2024-05-23 13:43:45] INFO root fetch - processPackages [error-manager]: New version: [1.4.3] Old Version: [1.3.5]
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ls-packers]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ls-packers]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-23 13:43:45] INFO root fetch - processPackages [ls-api-clients]: New version: [0.14.2] Old Version: [0.14.1]
+[2024-05-23 13:43:45] INFO root fetch - processPackages [MASSIVEChem]: New version: [4.1] Old Version: [3.9]
+[2024-05-23 13:43:45] INFO root fetch - processPackages [jwodder-ps1]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-23 13:43:45] INFO root fetch - processPackages [faim-ipa]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-23 13:43:45] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2024-05-23 13:43:45] INFO root fetch - processPackages [error-manager]: Downloading https://files.pythonhosted.org/packages/67/f4/a2868fe833e839af9bfdde3ada39301807c551014a71af28c3a3d63a86c8/error_manager-1.3.5.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [dj-static-revision]: New version: [0.7] Old Version: [0.6]
+[2024-05-23 13:43:46] INFO root fetch - processPackages [calculator-cli-builtincmds]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-packers]: Downloading https://files.pythonhosted.org/packages/14/76/560af44b46e67ae1a715f38a1ec87b886c1bd21dd9659ed23947e076b2b9/ls_packers-0.5.3.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-packers]: Downloading https://files.pythonhosted.org/packages/14/76/560af44b46e67ae1a715f38a1ec87b886c1bd21dd9659ed23947e076b2b9/ls_packers-0.5.3.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [jwodder-ps1]: Downloading https://files.pythonhosted.org/packages/d9/8b/def33ce530a4b6e43809fe45e75ba92fafc3b596b8e0260d7ff7f0c80d48/jwodder_ps1-0.7.0.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-api-clients]: Downloading https://files.pythonhosted.org/packages/7a/e6/880379aebd0999833000cc1db442d95488702b523aa272fb969ff7d16cae/ls_api_clients-0.14.1.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/dd/61/55d3ca46c6341edacef73b13cc7529dbc5c9827b609ead8dc39667a40081/massivechem-3.9.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [faim-ipa]: Downloading https://files.pythonhosted.org/packages/5b/9f/11d6149ea80277ecf4462706870680b9846d089282c26c607eb080badf38/faim_ipa-0.3.4.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [dj-static-revision]: Downloading https://files.pythonhosted.org/packages/7f/4b/82ce1d8d59f758278c0e7907a566089e6f8ad53274673dc61bc606e91508/dj_static_revision-0.6.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [calculator-cli-builtincmds]: Downloading https://files.pythonhosted.org/packages/99/ae/2781b9991c463561efcd986e002d577f7264edd827a8e1f6a71bb846c161/calculator_cli_builtincmds-0.1.1.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [error-manager]: Downloading https://files.pythonhosted.org/packages/d6/42/c2ebb4da28f23aaaa5cf8268c69fc3f3725f987eb910a2415987fc258372/error_manager-1.4.3.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-packers]: Downloading https://files.pythonhosted.org/packages/d1/d0/6ced579bdbd515ebbbb2c627105f30822077518719d23be1ce6147d236c2/ls_packers-0.6.0.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-packers]: Downloading https://files.pythonhosted.org/packages/d1/d0/6ced579bdbd515ebbbb2c627105f30822077518719d23be1ce6147d236c2/ls_packers-0.6.0.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [error-manager]: executing diffoscope
+[2024-05-23 13:43:46] INFO root fetch - processPackages [error-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error_manager-1.3.5.tar.gz tmp/error_manager-1.4.3.tar.gz --markdown 20240523/e/error-manager/1.3.5-1.4.3/README.md --exclude *.pyd
+[2024-05-23 13:43:46] INFO root fetch - processPackages [jwodder-ps1]: Downloading https://files.pythonhosted.org/packages/01/cc/fead4e29fbb46c82737f97b64dc8b659f74f22f4b00f6452587857d45fd4/jwodder_ps1-0.7.1.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-api-clients]: Downloading https://files.pythonhosted.org/packages/94/bc/3c6aba26b5cf56dba5c0334301cc486c7e4005d181cbacf712f44fc66a88/ls_api_clients-0.14.2.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [faim-ipa]: Downloading https://files.pythonhosted.org/packages/17/1f/b50f0e434641d33bfaccd134caa00cf31f5a342c7e1cd3d245be55b46f31/faim_ipa-0.3.5.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-packers]: executing diffoscope
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-packers]: executing diffoscope
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-packers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_packers-0.5.3.tar.gz tmp/ls_packers-0.6.0.tar.gz --markdown 20240523/l/ls-packers/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-packers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_packers-0.5.3.tar.gz tmp/ls_packers-0.6.0.tar.gz --markdown 20240523/l/ls-packers/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-23 13:43:46] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/78/ab/e6d0e061c4d96ac855301c5093865565f204a3bac99f19e2f6c6b17d90fe/massivechem-4.1.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [calculator-cli-builtincmds]: Downloading https://files.pythonhosted.org/packages/92/19/95a923d2f09e0ecbc6682a0df3ecb46cfe4eebf4f2865ae31a4352b50fd9/calculator_cli_builtincmds-0.1.2-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-05-23 13:43:46] INFO root fetch - processPackages [jwodder-ps1]: executing diffoscope
+[2024-05-23 13:43:46] INFO root fetch - processPackages [jwodder-ps1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwodder_ps1-0.7.0.tar.gz tmp/jwodder_ps1-0.7.1.tar.gz --markdown 20240523/j/jwodder-ps1/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-23 13:43:46] INFO root fetch - processPackages [dj-static-revision]: Downloading https://files.pythonhosted.org/packages/db/f5/9fd9f7426bf5175d8e056d4cb6bc8a289c9015f23daa00ebaae74172d068/dj_static_revision-0.7.tar.gz
+[2024-05-23 13:43:46] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2024-05-23 13:43:46] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20240523/d/dstack/0.9.post1-0.9rc2/README.md --exclude *.pyd
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-api-clients]: executing diffoscope
+[2024-05-23 13:43:46] INFO root fetch - processPackages [ls-api-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_api_clients-0.14.1.tar.gz tmp/ls_api_clients-0.14.2.tar.gz --markdown 20240523/l/ls-api-clients/0.14.1-0.14.2/README.md --exclude *.pyd
+[2024-05-23 13:43:46] INFO root fetch - processPackages [faim-ipa]: executing diffoscope
+[2024-05-23 13:43:46] INFO root fetch - processPackages [faim-ipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faim_ipa-0.3.4.tar.gz tmp/faim_ipa-0.3.5.tar.gz --markdown 20240523/f/faim-ipa/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-23 13:43:47] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-23 13:43:47] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-3.9.tar.gz tmp/massivechem-4.1.tar.gz --markdown 20240523/M/MASSIVEChem/3.9-4.1/README.md --exclude *.pyd
+[2024-05-23 13:43:47] INFO root fetch - processPackages [dj-static-revision]: executing diffoscope
+[2024-05-23 13:43:47] INFO root fetch - processPackages [dj-static-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_static_revision-0.6.tar.gz tmp/dj_static_revision-0.7.tar.gz --markdown 20240523/d/dj-static-revision/0.6-0.7/README.md --exclude *.pyd
+[2024-05-23 13:43:47] INFO root fetch - processPackages [error-manager]: Remove: archive file [/home/abi/fetcher/tmp/error_manager-1.3.5.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - processPackages [error-manager]: Remove: archive file [/home/abi/fetcher/tmp/error_manager-1.4.3.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - main [MainThread]: End processing [error-manager]: success
+[2024-05-23 13:43:47] INFO root fetch - processPackages [ls-packers]: Remove: archive file [/home/abi/fetcher/tmp/ls_packers-0.5.3.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - processPackages [ls-packers]: Remove: archive file [/home/abi/fetcher/tmp/ls_packers-0.6.0.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - main [MainThread]: End processing [ls-packers]: success
+[2024-05-23 13:43:47] INFO root fetch - processPackages [jwodder-ps1]: Remove: archive file [/home/abi/fetcher/tmp/jwodder_ps1-0.7.0.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - processPackages [jwodder-ps1]: Remove: archive file [/home/abi/fetcher/tmp/jwodder_ps1-0.7.1.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - main [MainThread]: End processing [jwodder-ps1]: success
+[2024-05-23 13:43:47] INFO root fetch - main [MainThread]: End processing [ls-packers]: success
+[2024-05-23 13:43:47] INFO root fetch - processPackages [ls-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/ls_api_clients-0.14.1.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - processPackages [ls-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/ls_api_clients-0.14.2.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - main [MainThread]: End processing [ls-api-clients]: success
+[2024-05-23 13:43:47] INFO root fetch - processPackages [faim-ipa]: Remove: archive file [/home/abi/fetcher/tmp/faim_ipa-0.3.4.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - processPackages [faim-ipa]: Remove: archive file [/home/abi/fetcher/tmp/faim_ipa-0.3.5.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - main [MainThread]: End processing [faim-ipa]: success
+[2024-05-23 13:43:47] INFO root fetch - processPackages [dj-static-revision]: Remove: archive file [/home/abi/fetcher/tmp/dj_static_revision-0.6.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - processPackages [dj-static-revision]: Remove: archive file [/home/abi/fetcher/tmp/dj_static_revision-0.7.tar.gz]
+[2024-05-23 13:43:47] INFO root fetch - main [MainThread]: End processing [dj-static-revision]: success
+[2024-05-23 13:43:48] INFO root fetch - processPackages [calculator-cli-builtincmds]: executing diffoscope
+[2024-05-23 13:43:48] INFO root fetch - processPackages [calculator-cli-builtincmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_cli_builtincmds-0.1.1.tar.gz tmp/calculator_cli_builtincmds-0.1.2-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240523/c/calculator-cli-builtincmds/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 13:43:48] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2024-05-23 13:43:48] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2024-05-23 13:43:48] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2024-05-23 13:43:48] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-3.9.tar.gz]
+[2024-05-23 13:43:48] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-4.1.tar.gz]
+[2024-05-23 13:43:48] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-23 13:43:48] INFO root fetch - processPackages [calculator-cli-builtincmds]: Remove: archive file [/home/abi/fetcher/tmp/calculator_cli_builtincmds-0.1.1.tar.gz]
+[2024-05-23 13:43:48] INFO root fetch - processPackages [calculator-cli-builtincmds]: Remove: archive file [/home/abi/fetcher/tmp/calculator_cli_builtincmds-0.1.2-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-05-23 13:43:48] INFO root fetch - main [MainThread]: End processing [calculator-cli-builtincmds]: success
+[2024-05-23 13:43:48] INFO root fetch - main [MainThread]: Store serial: [23342687]
