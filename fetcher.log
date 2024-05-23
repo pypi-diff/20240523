@@ -9655,3 +9655,27 @@
 [2024-05-23 05:49:45] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-3.0.0.tar.gz]
 [2024-05-23 05:49:45] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
 [2024-05-23 05:49:45] INFO root fetch - main [MainThread]: Store serial: [23337374]
+[2024-05-23 05:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337374]
+[2024-05-23 05:51:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 05:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bolero
+[2024-05-23 05:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projectreadme
+[2024-05-23 05:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projectreadme
+[2024-05-23 05:51:53] INFO root fetch - processPackages [projectreadme]: New version: [0.2] Old Version: [0.1]
+[2024-05-23 05:51:53] INFO root fetch - processPackages [projectreadme]: New version: [0.2] Old Version: [0.1]
+[2024-05-23 05:51:53] INFO root fetch - processPackages [bolero]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 05:51:54] INFO root fetch - processPackages [projectreadme]: Downloading https://files.pythonhosted.org/packages/5b/a8/1eece88aee4e29cf94b6ca6f4488d8c09a3f025e872c4e0c430f293b20b7/projectreadme-0.1.tar.gz
+[2024-05-23 05:51:54] INFO root fetch - processPackages [projectreadme]: Downloading https://files.pythonhosted.org/packages/5b/a8/1eece88aee4e29cf94b6ca6f4488d8c09a3f025e872c4e0c430f293b20b7/projectreadme-0.1.tar.gz
+[2024-05-23 05:51:54] INFO root fetch - processPackages [bolero]: Downloading https://files.pythonhosted.org/packages/0e/54/d977da7062905b9ef12d154a22d7c529f309814631e9af2438766d209519/bolero-0.0.8.tar.gz
+[2024-05-23 05:51:54] INFO root fetch - processPackages [projectreadme]: Downloading https://files.pythonhosted.org/packages/7c/95/3c00e5614f51d7006bc9b293e40a566869456cec1eb1dcbc3d5c701b483e/projectreadme-0.2.tar.gz
+[2024-05-23 05:51:54] INFO root fetch - processPackages [projectreadme]: Downloading https://files.pythonhosted.org/packages/7c/95/3c00e5614f51d7006bc9b293e40a566869456cec1eb1dcbc3d5c701b483e/projectreadme-0.2.tar.gz
+[2024-05-23 05:51:54] INFO root fetch - processPackages [projectreadme]: executing diffoscope
+[2024-05-23 05:51:54] INFO root fetch - processPackages [projectreadme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectreadme-0.1.tar.gz tmp/projectreadme-0.2.tar.gz --markdown 20240523/p/projectreadme/0.1-0.2/README.md --exclude *.pyd
+[2024-05-23 05:51:54] INFO root fetch - processPackages [projectreadme]: executing diffoscope
+[2024-05-23 05:51:54] INFO root fetch - processPackages [projectreadme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectreadme-0.1.tar.gz tmp/projectreadme-0.2.tar.gz --markdown 20240523/p/projectreadme/0.1-0.2/README.md --exclude *.pyd
+[2024-05-23 05:51:55] INFO root fetch - processPackages [projectreadme]: Remove: archive file [/home/abi/fetcher/tmp/projectreadme-0.1.tar.gz]
+[2024-05-23 05:51:55] INFO root fetch - processPackages [projectreadme]: Remove: archive file [/home/abi/fetcher/tmp/projectreadme-0.2.tar.gz]
+[2024-05-23 05:51:55] INFO root fetch - main [MainThread]: End processing [projectreadme]: success
+[2024-05-23 05:51:55] INFO root fetch - main [MainThread]: End processing [projectreadme]: success
+[2024-05-23 05:51:56] WARNING root fetch - processPackages [bolero]: Skipping package: exceeds size limit 13048827>=10485760
+[2024-05-23 05:51:56] INFO root fetch - main [MainThread]: End processing [bolero] error
+[2024-05-23 05:51:56] INFO root fetch - main [MainThread]: Store serial: [23337386]
