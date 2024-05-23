@@ -16873,3 +16873,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:10:42] INFO root fetch - processPackages [py-nbtools]: Remove: archive file [/home/abi/fetcher/tmp/py-nbtools-0.9.9.tar.gz]
 [2024-05-23 11:10:42] INFO root fetch - main [MainThread]: End processing [py-nbtools]: success
 [2024-05-23 11:10:42] INFO root fetch - main [MainThread]: Store serial: [23340647]
+[2024-05-23 11:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340647]
+[2024-05-23 11:12:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 11:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: api-management-local
+[2024-05-23 11:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bibla
+[2024-05-23 11:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brapi-proxy
+[2024-05-23 11:12:51] INFO root fetch - processPackages [brapi-proxy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 11:12:51] INFO root fetch - processPackages [bibla]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-23 11:12:51] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 11:12:51] INFO root fetch - processPackages [bibla]: Downloading https://files.pythonhosted.org/packages/f4/a2/b0aae8edb1f9e095df39f2f4c6cbd46b005f6ae2359986815fbb799c89fe/bibla-2.0.5.tar.gz
+[2024-05-23 11:12:51] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-23 11:12:51] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/30/3b/d18c56e9cf34e84bf84b9e9a987b6544bef6e2a7b1c0cdfd7807e9492fd7/brapi_proxy-0.0.2.tar.gz
+[2024-05-23 11:12:51] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-23 11:12:51] INFO root fetch - processPackages [bibla]: Downloading https://files.pythonhosted.org/packages/ba/36/95a29cb5dfe57f47d36a79e5f1131354558367414999bfd529049f5c1b94/bibla-2.0.6.tar.gz
+[2024-05-23 11:12:51] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-23 11:12:51] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240523/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 11:12:51] INFO root fetch - processPackages [bibla]: executing diffoscope
+[2024-05-23 11:12:51] INFO root fetch - processPackages [bibla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibla-2.0.5.tar.gz tmp/bibla-2.0.6.tar.gz --markdown 20240523/b/bibla/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-23 11:12:51] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/f7/f8/fc6481b67687b3328175fe141bc9a3b156822108027a367b18b8c9b88455/brapi_proxy-0.0.3.tar.gz
+[2024-05-23 11:12:51] INFO root fetch - processPackages [brapi-proxy]: executing diffoscope
+[2024-05-23 11:12:51] INFO root fetch - processPackages [brapi-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brapi_proxy-0.0.2.tar.gz tmp/brapi_proxy-0.0.3.tar.gz --markdown 20240523/b/brapi-proxy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 11:12:52] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-23 11:12:52] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-23 11:12:52] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-23 11:12:52] INFO root fetch - processPackages [bibla]: Remove: archive file [/home/abi/fetcher/tmp/bibla-2.0.5.tar.gz]
+[2024-05-23 11:12:52] INFO root fetch - processPackages [bibla]: Remove: archive file [/home/abi/fetcher/tmp/bibla-2.0.6.tar.gz]
+[2024-05-23 11:12:52] INFO root fetch - main [MainThread]: End processing [bibla]: success
+[2024-05-23 11:12:52] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.2.tar.gz]
+[2024-05-23 11:12:52] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.3.tar.gz]
+[2024-05-23 11:12:52] INFO root fetch - main [MainThread]: End processing [brapi-proxy]: success
+[2024-05-23 11:12:52] INFO root fetch - main [MainThread]: Store serial: [23340657]
