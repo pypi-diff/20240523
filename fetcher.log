@@ -23088,3 +23088,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:59:18] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
 [2024-05-23 13:59:18] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
 [2024-05-23 13:59:18] INFO root fetch - main [MainThread]: Store serial: [23342907]
+[2024-05-23 14:01:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342907]
+[2024-05-23 14:01:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 14:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trickkiste
+[2024-05-23 14:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npeccv6
+[2024-05-23 14:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aigents
+[2024-05-23 14:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.target
+[2024-05-23 14:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fulfill
+[2024-05-23 14:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DocumentsReader
+[2024-05-23 14:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-avro-schema
+[2024-05-23 14:01:27] WARNING root fetch - processPackages [npeccv6]: Skipping, unable to determine old version
+[2024-05-23 14:01:27] INFO root fetch - main [MainThread]: End processing [npeccv6] error
+[2024-05-23 14:01:27] INFO root fetch - processPackages [aigents]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-23 14:01:27] INFO root fetch - processPackages [dissect.target]: New version: [3.9] Old Version: [3.8]
+[2024-05-23 14:01:28] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/c3/15/bbf6615b3a5d920dfc4dc7c9a54840d2730eb7317b2c89fad1d7b1253cf5/aigents-0.8.0.tar.gz
+[2024-05-23 14:01:28] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 14:01:28] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 14:01:28] INFO root fetch - processPackages [trickkiste]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 14:01:28] ERROR root fetch - processPackages [fulfill]: Unable to get metadata: No such project 'fulfill'
+[2024-05-23 14:01:28] INFO root fetch - main [MainThread]: End processing [fulfill] error
+[2024-05-23 14:01:28] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/fd/85/dee67cb24b471b811af4e5b31762f8244b20913dcc98ec76ec5b921e9a68/dissect.target-3.8.tar.gz
+[2024-05-23 14:01:28] INFO root fetch - processPackages [py-avro-schema]: New version: [3.7.0] Old Version: [3.6.0]
+[2024-05-23 14:01:28] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
+[2024-05-23 14:01:28] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2024-05-23 14:01:28] INFO root fetch - processPackages [trickkiste]: Downloading https://files.pythonhosted.org/packages/78/e0/58eb92fd05bdc4a4bd61a05240173799ae511f7dbad7859e00f39d1d507e/trickkiste-0.0.8.tar.gz
+[2024-05-23 14:01:28] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/2f/f4/9786bd8552d8bbf04577420d12625f239dbb907743a29fc2e9885c08954c/aigents-0.8.1.tar.gz
+[2024-05-23 14:01:28] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/cd/a5/fae338ed6982b24832cc08e0ffb1623eab1d0a167029562b543658d7fc5c/py-avro-schema-3.6.0.tar.gz
+[2024-05-23 14:01:28] INFO root fetch - processPackages [aigents]: executing diffoscope
+[2024-05-23 14:01:28] INFO root fetch - processPackages [aigents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigents-0.8.0.tar.gz tmp/aigents-0.8.1.tar.gz --markdown 20240523/a/aigents/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-23 14:01:28] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/43/52/811e5813347e061330a529930fa9c81073787f47a1448312b57c8bc431bb/py_avro_schema-3.7.0.tar.gz
+[2024-05-23 14:01:28] INFO root fetch - processPackages [trickkiste]: Downloading https://files.pythonhosted.org/packages/c9/fe/c51598ca690974fec9d5b33dd72f6a37c647780087293eec5f61c46deefe/trickkiste-0.0.9.tar.gz
+[2024-05-23 14:01:28] INFO root fetch - processPackages [py-avro-schema]: executing diffoscope
+[2024-05-23 14:01:28] INFO root fetch - processPackages [py-avro-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-avro-schema-3.6.0.tar.gz tmp/py_avro_schema-3.7.0.tar.gz --markdown 20240523/p/py-avro-schema/3.6.0-3.7.0/README.md --exclude *.pyd
+[2024-05-23 14:01:28] INFO root fetch - processPackages [trickkiste]: executing diffoscope
+[2024-05-23 14:01:28] INFO root fetch - processPackages [trickkiste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trickkiste-0.0.8.tar.gz tmp/trickkiste-0.0.9.tar.gz --markdown 20240523/t/trickkiste/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 14:01:29] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.8.0.tar.gz]
+[2024-05-23 14:01:29] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.8.1.tar.gz]
+[2024-05-23 14:01:29] INFO root fetch - main [MainThread]: End processing [aigents]: success
+[2024-05-23 14:01:29] INFO root fetch - processPackages [trickkiste]: Remove: archive file [/home/abi/fetcher/tmp/trickkiste-0.0.8.tar.gz]
+[2024-05-23 14:01:29] INFO root fetch - processPackages [trickkiste]: Remove: archive file [/home/abi/fetcher/tmp/trickkiste-0.0.9.tar.gz]
+[2024-05-23 14:01:29] INFO root fetch - main [MainThread]: End processing [trickkiste]: success
+[2024-05-23 14:01:29] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-3.6.0.tar.gz]
+[2024-05-23 14:01:29] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py_avro_schema-3.7.0.tar.gz]
+[2024-05-23 14:01:29] INFO root fetch - main [MainThread]: End processing [py-avro-schema]: success
+[2024-05-23 14:01:29] INFO root fetch - main [MainThread]: Store serial: [23342938]
