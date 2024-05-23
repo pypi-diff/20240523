@@ -8793,3 +8793,23 @@
 [2024-05-23 04:48:01] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
 [2024-05-23 04:48:01] INFO root fetch - main [MainThread]: End processing [sop-deutils]: success
 [2024-05-23 04:48:01] INFO root fetch - main [MainThread]: Store serial: [23336848]
+[2024-05-23 04:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336848]
+[2024-05-23 04:50:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 04:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jyhelper
+[2024-05-23 04:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars-ds
+[2024-05-23 04:50:10] INFO root fetch - processPackages [jyhelper]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-23 04:50:10] INFO root fetch - processPackages [polars-ds]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-23 04:50:10] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/82/8f/f9fc2cf42cc2bae3c9d8f01f73cf5cf391f2d8e88cde668f5ec6ee08a011/jyhelper-1.2.3.tar.gz
+[2024-05-23 04:50:10] INFO root fetch - processPackages [polars-ds]: Downloading https://files.pythonhosted.org/packages/fd/ff/56cb2e78cf32fb6c3f400a62a1814af719db053b098906254b3e486153e3/polars_ds-0.4.4.tar.gz
+[2024-05-23 04:50:10] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/a7/09/f35bb964cadb5bdc5c7cd70696811bc6ad8631f35d726025ecc5915724e2/jyhelper-1.2.4.tar.gz
+[2024-05-23 04:50:10] INFO root fetch - processPackages [jyhelper]: executing diffoscope
+[2024-05-23 04:50:10] INFO root fetch - processPackages [jyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyhelper-1.2.3.tar.gz tmp/jyhelper-1.2.4.tar.gz --markdown 20240523/j/jyhelper/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-23 04:50:11] INFO root fetch - processPackages [polars-ds]: Downloading https://files.pythonhosted.org/packages/50/c2/2652fdec34aa277b06668cb0d76d9e6221caa69df5b0c06d9b28b64aa56e/polars_ds-0.4.5.tar.gz
+[2024-05-23 04:50:11] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.3.tar.gz]
+[2024-05-23 04:50:11] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.4.tar.gz]
+[2024-05-23 04:50:11] INFO root fetch - main [MainThread]: End processing [jyhelper]: success
+[2024-05-23 04:50:11] INFO root fetch - processPackages [polars-ds]: executing diffoscope
+[2024-05-23 04:50:11] INFO root fetch - processPackages [polars-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ds-0.4.4.tar.gz tmp/polars_ds-0.4.5.tar.gz --markdown 20240523/p/polars-ds/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-23 04:53:11] ERROR root fetch - processPackages [polars-ds]: Timeout during execution of pkgdiff
+[2024-05-23 04:53:11] INFO root fetch - main [MainThread]: End processing [polars-ds] error
+[2024-05-23 04:53:11] INFO root fetch - main [MainThread]: Store serial: [23336865]
