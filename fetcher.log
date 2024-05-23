@@ -20094,3 +20094,61 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:20:54] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.6.tar.gz]
 [2024-05-23 12:20:54] INFO root fetch - main [MainThread]: End processing [aiida-workgraph]: success
 [2024-05-23 12:20:54] INFO root fetch - main [MainThread]: Store serial: [23341717]
+[2024-05-23 12:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341717]
+[2024-05-23 12:23:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 12:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sstc-utils
+[2024-05-23 12:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sstc-utils
+[2024-05-23 12:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-click-rst-to-ansi-formatter
+[2024-05-23 12:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socket.d
+[2024-05-23 12:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-gpu-2-0-preview
+[2024-05-23 12:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-linkedmallretrieval20240501
+[2024-05-23 12:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyDataBridgeX
+[2024-05-23 12:23:03] INFO root fetch - processPackages [alibabacloud-linkedmallretrieval20240501]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 12:23:03] INFO root fetch - processPackages [socket.d]: New version: [2.5.0] Old Version: [2.4.18]
+[2024-05-23 12:23:03] WARNING root fetch - processPackages [tf-nightly-gpu-2-0-preview]: Skipping, unable to determine old version
+[2024-05-23 12:23:03] INFO root fetch - main [MainThread]: End processing [tf-nightly-gpu-2-0-preview] error
+[2024-05-23 12:23:03] INFO root fetch - processPackages [PyDataBridgeX]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sphinx-click-rst-to-ansi-formatter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: Downloading https://files.pythonhosted.org/packages/61/65/4a8633fa4c31f6c0974d8ca3555395d7df32e1488e0266379dac579b3aa3/sstc_utils-0.1.0.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: Downloading https://files.pythonhosted.org/packages/61/65/4a8633fa4c31f6c0974d8ca3555395d7df32e1488e0266379dac579b3aa3/sstc_utils-0.1.0.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [alibabacloud-linkedmallretrieval20240501]: Downloading https://files.pythonhosted.org/packages/57/fb/2787c0352488c511cc46d17c86c83d7bd72b72ff767165cabf3872dff40b/alibabacloud_linkedmallretrieval20240501-1.0.0.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/4e/a4/a3ab3bb776e0f6bbb12c7996c261ffe4e6572971c070c56a9979d0543635/socket.d-2.4.18.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sphinx-click-rst-to-ansi-formatter]: Downloading https://files.pythonhosted.org/packages/45/87/f8081e7766aed0fee6bf52804e67fb090e9d84052def5202d07bc9d26382/sphinx_click_rst_to_ansi_formatter-0.1.0.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [PyDataBridgeX]: Downloading https://files.pythonhosted.org/packages/7e/a9/50343e181a1dc5233084959f729bb36f97254c777d35aecddaaaf5848c3c/PyDataBridgeX-0.0.1.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: Downloading https://files.pythonhosted.org/packages/2e/8e/08cec696483bcd46c723eccab8c973ce056e5a5b06cb772a6da0ae675db4/sstc_utils-0.1.1.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: Downloading https://files.pythonhosted.org/packages/2e/8e/08cec696483bcd46c723eccab8c973ce056e5a5b06cb772a6da0ae675db4/sstc_utils-0.1.1.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [alibabacloud-linkedmallretrieval20240501]: Downloading https://files.pythonhosted.org/packages/96/e7/d11c7c9acf100501bbe2f79f167f551f504394e658d33787b673223fe426/alibabacloud_linkedmallretrieval20240501-1.0.1.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/ec/bc/0dc73d8041e5ad459a7f45e2dc6d19d2cc77acad901890f6e0074a28171d/socket.d-2.5.0.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [PyDataBridgeX]: Downloading https://files.pythonhosted.org/packages/04/bb/f3806877853347141ddc9d75445278ceda8110421af3a21adc5451f7f6d3/PyDataBridgeX-0.0.2.tar.gz
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: executing diffoscope
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: executing diffoscope
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sstc_utils-0.1.0.tar.gz tmp/sstc_utils-0.1.1.tar.gz --markdown 20240523/s/sstc-utils/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sstc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sstc_utils-0.1.0.tar.gz tmp/sstc_utils-0.1.1.tar.gz --markdown 20240523/s/sstc-utils/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 12:23:03] INFO root fetch - processPackages [sphinx-click-rst-to-ansi-formatter]: Downloading https://files.pythonhosted.org/packages/0d/99/ad2f0ad2a63029373c4ac6377add4fff9794a030f7a419a3ec6ff55ad91b/sphinx_click_rst_to_ansi_formatter-0.1.1.tar.gz
+[2024-05-23 12:23:04] INFO root fetch - processPackages [alibabacloud-linkedmallretrieval20240501]: executing diffoscope
+[2024-05-23 12:23:04] INFO root fetch - processPackages [alibabacloud-linkedmallretrieval20240501]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkedmallretrieval20240501-1.0.0.tar.gz tmp/alibabacloud_linkedmallretrieval20240501-1.0.1.tar.gz --markdown 20240523/a/alibabacloud-linkedmallretrieval20240501/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-23 12:23:04] INFO root fetch - processPackages [sphinx-click-rst-to-ansi-formatter]: executing diffoscope
+[2024-05-23 12:23:04] INFO root fetch - processPackages [sphinx-click-rst-to-ansi-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_click_rst_to_ansi_formatter-0.1.0.tar.gz tmp/sphinx_click_rst_to_ansi_formatter-0.1.1.tar.gz --markdown 20240523/s/sphinx-click-rst-to-ansi-formatter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 12:23:04] INFO root fetch - processPackages [PyDataBridgeX]: executing diffoscope
+[2024-05-23 12:23:04] INFO root fetch - processPackages [PyDataBridgeX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDataBridgeX-0.0.1.tar.gz tmp/PyDataBridgeX-0.0.2.tar.gz --markdown 20240523/P/PyDataBridgeX/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 12:23:04] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-05-23 12:23:04] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.18.tar.gz tmp/socket.d-2.5.0.tar.gz --markdown 20240523/s/socket.d/2.4.18-2.5.0/README.md --exclude *.pyd
+[2024-05-23 12:23:04] INFO root fetch - processPackages [sstc-utils]: Remove: archive file [/home/abi/fetcher/tmp/sstc_utils-0.1.0.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - processPackages [sstc-utils]: Remove: archive file [/home/abi/fetcher/tmp/sstc_utils-0.1.1.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - main [MainThread]: End processing [sstc-utils]: success
+[2024-05-23 12:23:04] INFO root fetch - main [MainThread]: End processing [sstc-utils]: success
+[2024-05-23 12:23:04] INFO root fetch - processPackages [alibabacloud-linkedmallretrieval20240501]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmallretrieval20240501-1.0.0.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - processPackages [alibabacloud-linkedmallretrieval20240501]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmallretrieval20240501-1.0.1.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkedmallretrieval20240501]: success
+[2024-05-23 12:23:04] INFO root fetch - processPackages [sphinx-click-rst-to-ansi-formatter]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_click_rst_to_ansi_formatter-0.1.0.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - processPackages [sphinx-click-rst-to-ansi-formatter]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_click_rst_to_ansi_formatter-0.1.1.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - main [MainThread]: End processing [sphinx-click-rst-to-ansi-formatter]: success
+[2024-05-23 12:23:04] INFO root fetch - processPackages [PyDataBridgeX]: Remove: archive file [/home/abi/fetcher/tmp/PyDataBridgeX-0.0.1.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - processPackages [PyDataBridgeX]: Remove: archive file [/home/abi/fetcher/tmp/PyDataBridgeX-0.0.2.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - main [MainThread]: End processing [PyDataBridgeX]: success
+[2024-05-23 12:23:04] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.18.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.5.0.tar.gz]
+[2024-05-23 12:23:04] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-05-23 12:23:04] INFO root fetch - main [MainThread]: Store serial: [23341745]
