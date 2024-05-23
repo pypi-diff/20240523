@@ -16765,3 +16765,54 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:06:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-23 11:06:20] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-23 11:06:20] INFO root fetch - main [MainThread]: Store serial: [23340607]
+[2024-05-23 11:08:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340607]
+[2024-05-23 11:08:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phones-local
+[2024-05-23 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paystackease
+[2024-05-23 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartpredict
+[2024-05-23 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlab.py
+[2024-05-23 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-fedit
+[2024-05-23 11:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hema
+[2024-05-23 11:08:30] INFO root fetch - processPackages [phones-local]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-05-23 11:08:30] INFO root fetch - processPackages [paystackease]: New version: [2.1.0] Old Version: [2.0.4]
+[2024-05-23 11:08:30] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.9rc3] Old Version: [1.5.9rc2]
+[2024-05-23 11:08:30] INFO root fetch - processPackages [mlab.py]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-23 11:08:30] INFO root fetch - processPackages [hema]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 11:08:30] WARNING root fetch - processPackages [smartpredict]: Skipping, unable to determine old version
+[2024-05-23 11:08:30] INFO root fetch - main [MainThread]: End processing [smartpredict] error
+[2024-05-23 11:08:30] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/e8/c7/8bef0c1447db79747de0ae021b864073194af89e516d58248672d22f6c9e/wagtail_fedit-1.5.9rc2.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/64/1e/75ef420ca2712f6f890064f319a790adc3dbb9f8c9258df9702023ea2d5a/phones_local-0.0.23.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [paystackease]: Downloading https://files.pythonhosted.org/packages/05/ad/bb6756ef4bc40ffad43774272400bd13466eaa25b03611cb90a8e1800686/paystackease-2.0.4.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/98/16/06ef7d6c5f1930e72cbc52045093445a83b90339f4b25069ffbbdf728039/mlab_py-0.4.1.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [hema]: Downloading https://files.pythonhosted.org/packages/bf/f0/f0dc65d2622e1dbaaa0b6f7fbf82108c36c4b205bced807a28902df6b4aa/hema-0.0.3.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/79/fb/e1d93f11d8f9964c075d76d3e184ce224b11c8c5cc13bd7a76f58c72bbf5/phones_local-0.0.24.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [paystackease]: Downloading https://files.pythonhosted.org/packages/4b/de/fb36422aca76279de113ccf0c10d81b6e26a7cbc3cdf902a7bba491606eb/paystackease-2.1.0.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [phones-local]: executing diffoscope
+[2024-05-23 11:08:30] INFO root fetch - processPackages [phones-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phones_local-0.0.23.tar.gz tmp/phones_local-0.0.24.tar.gz --markdown 20240523/p/phones-local/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-05-23 11:08:30] INFO root fetch - processPackages [paystackease]: executing diffoscope
+[2024-05-23 11:08:30] INFO root fetch - processPackages [paystackease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paystackease-2.0.4.tar.gz tmp/paystackease-2.1.0.tar.gz --markdown 20240523/p/paystackease/2.0.4-2.1.0/README.md --exclude *.pyd
+[2024-05-23 11:08:30] INFO root fetch - processPackages [hema]: Downloading https://files.pythonhosted.org/packages/c4/de/6ac466f40d681af08e2af68a825567d12b90e389e2f0add7707befa7fc00/hema-0.0.4.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/31/33/ee2a610771b3a53cc6fa1062d72c083217c71015b29811424fecd8bde88b/mlab_py-0.4.2.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/1b/6b/c387403f4e6f398f303c7865882c545e6cdf2c869139b09d55e84e4e160c/wagtail_fedit-1.5.9rc3.tar.gz
+[2024-05-23 11:08:30] INFO root fetch - processPackages [hema]: executing diffoscope
+[2024-05-23 11:08:30] INFO root fetch - processPackages [hema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hema-0.0.3.tar.gz tmp/hema-0.0.4.tar.gz --markdown 20240523/h/hema/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 11:08:30] INFO root fetch - processPackages [mlab.py]: executing diffoscope
+[2024-05-23 11:08:30] INFO root fetch - processPackages [mlab.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlab_py-0.4.1.tar.gz tmp/mlab_py-0.4.2.tar.gz --markdown 20240523/m/mlab.py/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-23 11:08:30] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-23 11:08:30] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.9rc2.tar.gz tmp/wagtail_fedit-1.5.9rc3.tar.gz --markdown 20240523/w/wagtail-fedit/1.5.9rc2-1.5.9rc3/README.md --exclude *.pyd
+[2024-05-23 11:08:31] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.23.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.24.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - main [MainThread]: End processing [phones-local]: success
+[2024-05-23 11:08:31] INFO root fetch - processPackages [paystackease]: Remove: archive file [/home/abi/fetcher/tmp/paystackease-2.0.4.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - processPackages [paystackease]: Remove: archive file [/home/abi/fetcher/tmp/paystackease-2.1.0.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - main [MainThread]: End processing [paystackease]: success
+[2024-05-23 11:08:31] INFO root fetch - processPackages [hema]: Remove: archive file [/home/abi/fetcher/tmp/hema-0.0.3.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.4.1.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - processPackages [hema]: Remove: archive file [/home/abi/fetcher/tmp/hema-0.0.4.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.4.2.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - main [MainThread]: End processing [hema]: success
+[2024-05-23 11:08:31] INFO root fetch - main [MainThread]: End processing [mlab.py]: success
+[2024-05-23 11:08:31] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc2.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc3.tar.gz]
+[2024-05-23 11:08:31] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-23 11:08:31] INFO root fetch - main [MainThread]: Store serial: [23340628]
