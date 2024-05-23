@@ -20287,3 +20287,57 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:32:07] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-23 12:32:07] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-23 12:32:07] INFO root fetch - main [MainThread]: Store serial: [23341811]
+[2024-05-23 12:34:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341811]
+[2024-05-23 12:34:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 12:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dongraphio
+[2024-05-23 12:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pluto-client
+[2024-05-23 12:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-es-aeat-sii-invoice-summary
+[2024-05-23 12:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: behaverse
+[2024-05-23 12:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuzzquery
+[2024-05-23 12:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flspp
+[2024-05-23 12:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zhrism
+[2024-05-23 12:34:16] INFO root fetch - processPackages [behaverse]: New version: [0.0.5.dev1] Old Version: [0.0.3.dev6]
+[2024-05-23 12:34:16] INFO root fetch - processPackages [dongraphio]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-23 12:34:16] INFO root fetch - processPackages [fuzzquery]: New version: [24.5.23] Old Version: [24.5.18]
+[2024-05-23 12:34:16] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/18/49/0fe291c8552f24cad90031945173c985b4ecfed63c89593088b06dd7b784/behaverse-0.0.3.dev6.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [flspp]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 12:34:17] WARNING root fetch - processPackages [odoo14-addon-l10n-es-aeat-sii-invoice-summary]: Skipping, unable to determine old version
+[2024-05-23 12:34:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat-sii-invoice-summary] error
+[2024-05-23 12:34:17] INFO root fetch - processPackages [pluto-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 12:34:17] INFO root fetch - processPackages [dongraphio]: Downloading https://files.pythonhosted.org/packages/3c/7f/d2dd41bad698fd60068344a48261b4b890059742b5d0cd84998fa9ca2d30/dongraphio-0.3.5.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [fuzzquery]: Downloading https://files.pythonhosted.org/packages/9c/17/4407d1893213a07bdf94f2ce133696c01ee4ea2615f8046bbc0dbcbe73f6/fuzzquery-24.5.18.tar.gz
+[2024-05-23 12:34:17] WARNING root fetch - processPackages [zhrism]: Skipping, unable to determine old version
+[2024-05-23 12:34:17] INFO root fetch - main [MainThread]: End processing [zhrism] error
+[2024-05-23 12:34:17] INFO root fetch - processPackages [fuzzquery]: Downloading https://files.pythonhosted.org/packages/d3/e5/a1a167aa22aa1de1f1423f620630d167f98da0d66c8ebd05dfb5d1b61490/fuzzquery-24.5.23.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [dongraphio]: Downloading https://files.pythonhosted.org/packages/09/89/fea48bee4ac98b6adff769aefde0300f30cf9ef3a86f1f030ba89adb42d5/dongraphio-0.3.6.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [flspp]: Downloading https://files.pythonhosted.org/packages/4b/e8/d22248fc2494b15c1f4d192cc03851104f9d5c4a61c1d7abf7bce29805f8/flspp-0.1.1.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/9a/b4/fc3db6c9de530a5bd7b27a8409d47f89cce89495dc6684d7439b79411b44/pluto_client-0.0.8.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/6e/8f/1d7e989741aeee5e8b5bd310a73c6f99d5eac5bfed2067be7bb1e634c3bd/behaverse-0.0.5.dev1.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [fuzzquery]: executing diffoscope
+[2024-05-23 12:34:17] INFO root fetch - processPackages [fuzzquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzquery-24.5.18.tar.gz tmp/fuzzquery-24.5.23.tar.gz --markdown 20240523/f/fuzzquery/24.5.18-24.5.23/README.md --exclude *.pyd
+[2024-05-23 12:34:17] INFO root fetch - processPackages [dongraphio]: executing diffoscope
+[2024-05-23 12:34:17] INFO root fetch - processPackages [dongraphio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongraphio-0.3.5.tar.gz tmp/dongraphio-0.3.6.tar.gz --markdown 20240523/d/dongraphio/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-23 12:34:17] INFO root fetch - processPackages [behaverse]: executing diffoscope
+[2024-05-23 12:34:17] INFO root fetch - processPackages [behaverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behaverse-0.0.3.dev6.tar.gz tmp/behaverse-0.0.5.dev1.tar.gz --markdown 20240523/b/behaverse/0.0.3.dev6-0.0.5.dev1/README.md --exclude *.pyd
+[2024-05-23 12:34:17] INFO root fetch - processPackages [flspp]: Downloading https://files.pythonhosted.org/packages/9e/58/32fc91eab83ea44139acd68905fe8645c78e672a549c740b66d9560dac17/flspp-0.1.2.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/56/38/7b25b598a400edb65031f93b6b67d415a4a09d7af536c684551beb2e61f1/pluto_client-0.0.9.tar.gz
+[2024-05-23 12:34:17] INFO root fetch - processPackages [flspp]: executing diffoscope
+[2024-05-23 12:34:17] INFO root fetch - processPackages [flspp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flspp-0.1.1.tar.gz tmp/flspp-0.1.2.tar.gz --markdown 20240523/f/flspp/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 12:34:17] INFO root fetch - processPackages [pluto-client]: executing diffoscope
+[2024-05-23 12:34:17] INFO root fetch - processPackages [pluto-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluto_client-0.0.8.tar.gz tmp/pluto_client-0.0.9.tar.gz --markdown 20240523/p/pluto-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 12:34:18] INFO root fetch - processPackages [fuzzquery]: Remove: archive file [/home/abi/fetcher/tmp/fuzzquery-24.5.18.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - processPackages [fuzzquery]: Remove: archive file [/home/abi/fetcher/tmp/fuzzquery-24.5.23.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - main [MainThread]: End processing [fuzzquery]: success
+[2024-05-23 12:34:18] INFO root fetch - processPackages [dongraphio]: Remove: archive file [/home/abi/fetcher/tmp/dongraphio-0.3.5.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - processPackages [dongraphio]: Remove: archive file [/home/abi/fetcher/tmp/dongraphio-0.3.6.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - main [MainThread]: End processing [dongraphio]: success
+[2024-05-23 12:34:18] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.3.dev6.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.5.dev1.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - main [MainThread]: End processing [behaverse]: success
+[2024-05-23 12:34:18] INFO root fetch - processPackages [flspp]: Remove: archive file [/home/abi/fetcher/tmp/flspp-0.1.1.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - processPackages [flspp]: Remove: archive file [/home/abi/fetcher/tmp/flspp-0.1.2.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - main [MainThread]: End processing [flspp]: success
+[2024-05-23 12:34:18] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.8.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.9.tar.gz]
+[2024-05-23 12:34:18] INFO root fetch - main [MainThread]: End processing [pluto-client]: success
+[2024-05-23 12:34:18] INFO root fetch - main [MainThread]: Store serial: [23341837]
