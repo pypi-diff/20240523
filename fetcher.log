@@ -16424,3 +16424,63 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:57:28] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-1.0.0a9.tar.gz]
 [2024-05-23 10:57:28] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
 [2024-05-23 10:57:28] INFO root fetch - main [MainThread]: Store serial: [23340482]
+[2024-05-23 10:59:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340482]
+[2024-05-23 10:59:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 10:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chain_harvester
+[2024-05-23 10:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setuptools-betterproto
+[2024-05-23 10:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: number-of-terms-inside-a-square-root3
+[2024-05-23 10:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-resource-booking
+[2024-05-23 10:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hema
+[2024-05-23 10:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amarillo-gtfs-exporter
+[2024-05-23 10:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyDVC
+[2024-05-23 10:59:38] WARNING root fetch - processPackages [number-of-terms-inside-a-square-root3]: Skipping, unable to determine old version
+[2024-05-23 10:59:38] INFO root fetch - processPackages [amarillo-gtfs-exporter]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-23 10:59:38] INFO root fetch - main [MainThread]: End processing [number-of-terms-inside-a-square-root3] error
+[2024-05-23 10:59:38] INFO root fetch - processPackages [pyDVC]: New version: [1.0] Old Version: [0.0.4]
+[2024-05-23 10:59:38] INFO root fetch - processPackages [setuptools-betterproto]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-23 10:59:38] INFO root fetch - processPackages [hema]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 10:59:38] INFO root fetch - processPackages [chain_harvester]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-23 10:59:38] INFO root fetch - processPackages [odoo-addon-resource-booking]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1]
+[2024-05-23 10:59:39] INFO root fetch - processPackages [pyDVC]: Downloading https://files.pythonhosted.org/packages/a1/93/7281995c6be8a07ccfdc4dbcafec28a81a5442b4c6b70fa5b4012232c898/pydvc-0.0.4.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [amarillo-gtfs-exporter]: Downloading https://files.pythonhosted.org/packages/96/e3/2f03b0ca867e6c702f0e957161faf0ebcaf9174b2c4c538b781c2c6d8588/amarillo-gtfs-exporter-0.0.1.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [hema]: Downloading https://files.pythonhosted.org/packages/ab/98/0609111caa250e90ff3fcda6756d6958e06376d7bc215bbb10144050dc5b/hema-0.0.2.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [setuptools-betterproto]: Downloading https://files.pythonhosted.org/packages/29/d4/9809d23bd0f067303bedcd2b41d66ccb52cd70fb8127e8c4bf27f46a45a6/setuptools-betterproto-0.1.0.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [odoo-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/9f/05/6c837fc8c610b052c4c5c20f20736ed6f86b0f750866f45dda18ac2724cd/odoo_addon_resource_booking-16.0.1.1.1-py3-none-any.whl
+[2024-05-23 10:59:39] INFO root fetch - processPackages [chain_harvester]: Downloading https://files.pythonhosted.org/packages/16/60/f265332a04ee2777e528be8ce8129f9b0e7ad12af86de1027880291a1c17/chain_harvester-0.8.2.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [amarillo-gtfs-exporter]: Downloading https://files.pythonhosted.org/packages/a1/df/7be0cee9003c7e6851be30ab6dabd5e4ef5b1edbec2d0660fc63cc1a0d83/amarillo_gtfs_exporter-0.0.3.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [pyDVC]: Downloading https://files.pythonhosted.org/packages/c9/3a/0f47af94d5f98ef42c6ec2c040ac27f717b7dc5a2a43f787996295661f6c/pyDVC-1.0.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [hema]: Downloading https://files.pythonhosted.org/packages/bf/f0/f0dc65d2622e1dbaaa0b6f7fbf82108c36c4b205bced807a28902df6b4aa/hema-0.0.3.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [setuptools-betterproto]: Downloading https://files.pythonhosted.org/packages/1d/6d/1b6fbff1acb4e5e1e962e327566e5cde9dd0f13c3af0c307d0914cdd85aa/setuptools-betterproto-0.2.0.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [amarillo-gtfs-exporter]: executing diffoscope
+[2024-05-23 10:59:39] INFO root fetch - processPackages [amarillo-gtfs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amarillo-gtfs-exporter-0.0.1.tar.gz tmp/amarillo_gtfs_exporter-0.0.3.tar.gz --markdown 20240523/a/amarillo-gtfs-exporter/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-23 10:59:39] INFO root fetch - processPackages [odoo-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/e7/de/6ced8aed10742653f8079bffd8e87453b38ad3697f91fbec422eb50c188c/odoo_addon_resource_booking-16.0.1.2.0-py3-none-any.whl
+[2024-05-23 10:59:39] INFO root fetch - processPackages [chain_harvester]: Downloading https://files.pythonhosted.org/packages/83/14/897023e0e39bb7ca75cd127d2dc307fb8364bb3378d2b0ea1ae88279986b/chain_harvester-0.9.0.tar.gz
+[2024-05-23 10:59:39] INFO root fetch - processPackages [pyDVC]: executing diffoscope
+[2024-05-23 10:59:39] INFO root fetch - processPackages [pyDVC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydvc-0.0.4.tar.gz tmp/pyDVC-1.0.tar.gz --markdown 20240523/p/pyDVC/0.0.4-1.0/README.md --exclude *.pyd
+[2024-05-23 10:59:39] INFO root fetch - processPackages [hema]: executing diffoscope
+[2024-05-23 10:59:39] INFO root fetch - processPackages [hema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hema-0.0.2.tar.gz tmp/hema-0.0.3.tar.gz --markdown 20240523/h/hema/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 10:59:39] INFO root fetch - processPackages [chain_harvester]: executing diffoscope
+[2024-05-23 10:59:39] INFO root fetch - processPackages [chain_harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chain_harvester-0.8.2.tar.gz tmp/chain_harvester-0.9.0.tar.gz --markdown 20240523/c/chain_harvester/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-23 10:59:39] INFO root fetch - processPackages [setuptools-betterproto]: executing diffoscope
+[2024-05-23 10:59:39] INFO root fetch - processPackages [setuptools-betterproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-betterproto-0.1.0.tar.gz tmp/setuptools-betterproto-0.2.0.tar.gz --markdown 20240523/s/setuptools-betterproto/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-23 10:59:39] INFO root fetch - processPackages [odoo-addon-resource-booking]: executing diffoscope
+[2024-05-23 10:59:39] INFO root fetch - processPackages [odoo-addon-resource-booking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_resource_booking-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_resource_booking-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-resource-booking/16.0.1.1.1-16.0.1.2.0/README.md --exclude *.pyd
+[2024-05-23 10:59:40] INFO root fetch - processPackages [pyDVC]: Remove: archive file [/home/abi/fetcher/tmp/pydvc-0.0.4.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - processPackages [pyDVC]: Remove: archive file [/home/abi/fetcher/tmp/pyDVC-1.0.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - main [MainThread]: End processing [pyDVC]: success
+[2024-05-23 10:59:40] INFO root fetch - processPackages [hema]: Remove: archive file [/home/abi/fetcher/tmp/hema-0.0.2.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - processPackages [hema]: Remove: archive file [/home/abi/fetcher/tmp/hema-0.0.3.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - main [MainThread]: End processing [hema]: success
+[2024-05-23 10:59:40] INFO root fetch - processPackages [chain_harvester]: Remove: archive file [/home/abi/fetcher/tmp/chain_harvester-0.8.2.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - processPackages [chain_harvester]: Remove: archive file [/home/abi/fetcher/tmp/chain_harvester-0.9.0.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - main [MainThread]: End processing [chain_harvester]: success
+[2024-05-23 10:59:40] INFO root fetch - processPackages [amarillo-gtfs-exporter]: Remove: archive file [/home/abi/fetcher/tmp/amarillo-gtfs-exporter-0.0.1.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - processPackages [amarillo-gtfs-exporter]: Remove: archive file [/home/abi/fetcher/tmp/amarillo_gtfs_exporter-0.0.3.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - main [MainThread]: End processing [amarillo-gtfs-exporter]: success
+[2024-05-23 10:59:40] INFO root fetch - processPackages [setuptools-betterproto]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-betterproto-0.1.0.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - processPackages [setuptools-betterproto]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-betterproto-0.2.0.tar.gz]
+[2024-05-23 10:59:40] INFO root fetch - main [MainThread]: End processing [setuptools-betterproto]: success
+[2024-05-23 10:59:40] INFO root fetch - processPackages [odoo-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_resource_booking-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-23 10:59:40] INFO root fetch - processPackages [odoo-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_resource_booking-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-23 10:59:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-resource-booking]: success
+[2024-05-23 10:59:40] INFO root fetch - main [MainThread]: Store serial: [23340503]
