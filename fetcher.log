@@ -9089,3 +9089,15 @@
 [2024-05-23 05:10:34] INFO root fetch - processPackages [oresat-dxwifi]: Remove: archive file [/home/abi/fetcher/tmp/oresat_dxwifi-0.3.8.tar.gz]
 [2024-05-23 05:10:34] INFO root fetch - main [MainThread]: End processing [oresat-dxwifi]: success
 [2024-05-23 05:10:34] INFO root fetch - main [MainThread]: Store serial: [23337004]
+[2024-05-23 05:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337004]
+[2024-05-23 05:12:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scourge
+[2024-05-23 05:12:42] INFO root fetch - processPackages [scourge]: New version: [0.5] Old Version: [0.4]
+[2024-05-23 05:12:42] INFO root fetch - processPackages [scourge]: Downloading https://files.pythonhosted.org/packages/f0/0e/c1f45d5d079deecc3f11fe53950d591ceed032f2bed582f3f541fab7f6e2/scourge-0.4.tar.gz
+[2024-05-23 05:12:43] INFO root fetch - processPackages [scourge]: Downloading https://files.pythonhosted.org/packages/86/6f/f73908b1344da470fc82b50656da6b61ca367ee68f56d165ee50d227259e/scourge-0.5.tar.gz
+[2024-05-23 05:12:43] INFO root fetch - processPackages [scourge]: executing diffoscope
+[2024-05-23 05:12:43] INFO root fetch - processPackages [scourge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scourge-0.4.tar.gz tmp/scourge-0.5.tar.gz --markdown 20240523/s/scourge/0.4-0.5/README.md --exclude *.pyd
+[2024-05-23 05:12:43] INFO root fetch - processPackages [scourge]: Remove: archive file [/home/abi/fetcher/tmp/scourge-0.4.tar.gz]
+[2024-05-23 05:12:43] INFO root fetch - processPackages [scourge]: Remove: archive file [/home/abi/fetcher/tmp/scourge-0.5.tar.gz]
+[2024-05-23 05:12:43] INFO root fetch - main [MainThread]: End processing [scourge]: success
+[2024-05-23 05:12:43] INFO root fetch - main [MainThread]: Store serial: [23337006]
