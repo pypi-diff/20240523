@@ -12654,3 +12654,95 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:54:28] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-23 08:54:28] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-23 08:54:28] INFO root fetch - main [MainThread]: Store serial: [23338777]
+[2024-05-23 08:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338777]
+[2024-05-23 08:56:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vgis-gis
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-searcher
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-dataset
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: validmind
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-sdk
+[2024-05-23 08:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-telemetry
+[2024-05-23 08:56:36] WARNING root fetch - processPackages [audio-searcher]: Skipping, unable to determine old version
+[2024-05-23 08:56:36] INFO root fetch - processPackages [audio-searcher]: Start processing: nucliadb-utils
+[2024-05-23 08:56:36] INFO root fetch - main [MainThread]: End processing [audio-searcher] error
+[2024-05-23 08:56:36] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post533] Old Version: [4.0.0.post532]
+[2024-05-23 08:56:36] INFO root fetch - processPackages [vgis-gis]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-23 08:56:36] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post533] Old Version: [4.0.0.post532]
+[2024-05-23 08:56:36] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.34.1.dev20240521] Old Version: [1.34.1.dev20240520]
+[2024-05-23 08:56:36] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post533] Old Version: [4.0.0.post532]
+[2024-05-23 08:56:36] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post533] Old Version: [4.0.0.post532]
+[2024-05-23 08:56:36] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post533] Old Version: [4.0.0.post532]
+[2024-05-23 08:56:36] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post533] Old Version: [4.0.0.post532]
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post534] Old Version: [4.0.0.post533]
+[2024-05-23 08:56:37] INFO root fetch - processPackages [validmind]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/01/4e/7218c03a6fbe04422dc9ab5627815e4f59d2e542e7309ffe481901e5bade/nucliadb_dataset-4.0.0.post532-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/0b/0b/ea2be404a1aed2aec11918e55d1e104aa61cdda7685ebbc4b173c55c3b7b/nucliadb_models-4.0.0.post532-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/f9/b5/9fa35481617b658c7ef6cb48b756f09e541fb4a7f9c9511212849c70f2c1/nucliadb_telemetry-4.0.0.post532-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/92/18/3f09ea79c556e7e8f6a5e565eb2c20682a83f1699ad0fa9b9e2bec946b73/nucliadb_protos-4.0.0.post532-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/f4/dd/2278bbc7ffacf2c6f46a28743a35bc90613b3698867edb2ea7f1995da6d4/streamlit_nightly-1.34.1.dev20240520.tar.gz
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/92/d4fbc1fa476793476186f60254bce0a2695d415fd442db57acda3a527e65/nucliadb_sdk-4.0.0.post532-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/b2/27/cda42c2d08e28647463867f76ef16ecf6bb010e410316cdac4eecd6fbd17/vgis_gis-1.3.0.tar.gz
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/79/cf/96b61524efbe2c91d0d0c113485d3ad5c2b7aa238f3469a0d905fd8bf8c3/nucliadb_utils-4.0.0.post532-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/c9/b4/0e36ed157d74b6f7aad8b0266a373b5689fae4b0d80c618aab05e6f08853/nucliadb-4.0.0.post533-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/bd/2a/83d1f213d65a9dbe3324183482437ab07b4f9d2b85015b4da74295780185/validmind-2.2.4.tar.gz
+[2024-05-23 08:56:37] WARNING root fetch - processPackages [validmind]: Skipping package: exceeds size limit 12933126>=10485760
+[2024-05-23 08:56:37] INFO root fetch - main [MainThread]: End processing [validmind] error
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/f4/10/4b50a204d70f5e279c52d0a987ecfb5921b575f188cde717b1bba86e0248/nucliadb_models-4.0.0.post533-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/ac/f3/528bfcd2682b57e1e5af22fc74da376b3c55bdd4451f908184c2165536c7/nucliadb_dataset-4.0.0.post533-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/3e/9c/8e0e9ae1e3a89bfde7121ca7139ede523ee70cdca407bf57f07f95a4d255/nucliadb_protos-4.0.0.post533-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/b7/f0/3453bc32e9e135b7f036a07295b63fcc4f5a78914723475a7cea80e1e221/nucliadb_sdk-4.0.0.post533-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/bd/62/c56821f91b1daa713426559ad6f08b30e3009050c0f47719bd60868f9f6d/nucliadb_telemetry-4.0.0.post533-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/d7/37/018c42a14ef81346fb56bf5c39bc9c39651f527a994fbe7e237330d1d663/vgis_gis-1.3.1.tar.gz
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post532-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post533-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-dataset/4.0.0.post532-4.0.0.post533/README.md --exclude *.pyd
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/e9/63/14bcf1c616cb41b7c8f44ed13fa9c57c40e302acce3dd455c55bd53b7192/nucliadb_utils-4.0.0.post533-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/0a/c9/6ddc0d97ef1072bd292db4ee5db3e2ecafc94706fc472c04a3ea894fc315/nucliadb-4.0.0.post534-py3-none-any.whl
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post532-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post533-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-models/4.0.0.post532-4.0.0.post533/README.md --exclude *.pyd
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post532-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post533-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-sdk/4.0.0.post532-4.0.0.post533/README.md --exclude *.pyd
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post532-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post533-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-protos/4.0.0.post532-4.0.0.post533/README.md --exclude *.pyd
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post532-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post533-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-telemetry/4.0.0.post532-4.0.0.post533/README.md --exclude *.pyd
+[2024-05-23 08:56:37] INFO root fetch - processPackages [vgis-gis]: executing diffoscope
+[2024-05-23 08:56:37] INFO root fetch - processPackages [vgis-gis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_gis-1.3.0.tar.gz tmp/vgis_gis-1.3.1.tar.gz --markdown 20240523/v/vgis-gis/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post532-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post533-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-utils/4.0.0.post532-4.0.0.post533/README.md --exclude *.pyd
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-23 08:56:37] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post533-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post534-py3-none-any.whl.zip --markdown 20240523/n/nucliadb/4.0.0.post533-4.0.0.post534/README.md --exclude *.pyd
+[2024-05-23 08:56:38] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/b0/16/896de01e18c425bf3b3896855b956a0553d32d133bfc5b6fdd60310193ef/streamlit_nightly-1.34.1.dev20240521.tar.gz
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post532-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post533-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-23 08:56:38] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-23 08:56:38] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.34.1.dev20240520.tar.gz tmp/streamlit_nightly-1.34.1.dev20240521.tar.gz --markdown 20240523/s/streamlit-nightly/1.34.1.dev20240520-1.34.1.dev20240521/README.md --exclude *.pyd
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post532-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post533-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post532-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post533-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-23 08:56:38] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.0.tar.gz]
+[2024-05-23 08:56:38] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.1.tar.gz]
+[2024-05-23 08:56:38] INFO root fetch - main [MainThread]: End processing [vgis-gis]: success
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post532-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post533-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post532-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post533-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post532-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post533-py3-none-any.whl.zip]
+[2024-05-23 08:56:38] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-23 08:56:40] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post533-py3-none-any.whl.zip]
+[2024-05-23 08:56:40] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post534-py3-none-any.whl.zip]
+[2024-05-23 08:56:40] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-23 08:56:42] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240520.tar.gz]
+[2024-05-23 08:56:42] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240521.tar.gz]
+[2024-05-23 08:56:42] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-23 08:56:42] INFO root fetch - main [MainThread]: Store serial: [23338810]
