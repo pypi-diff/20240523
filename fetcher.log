@@ -8813,3 +8813,45 @@
 [2024-05-23 04:53:11] ERROR root fetch - processPackages [polars-ds]: Timeout during execution of pkgdiff
 [2024-05-23 04:53:11] INFO root fetch - main [MainThread]: End processing [polars-ds] error
 [2024-05-23 04:53:11] INFO root fetch - main [MainThread]: Store serial: [23336865]
+[2024-05-23 04:55:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336865]
+[2024-05-23 04:55:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 04:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finsy
+[2024-05-23 04:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solar-registry
+[2024-05-23 04:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-join
+[2024-05-23 04:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FinRobot
+[2024-05-23 04:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scoutbook_parser
+[2024-05-23 04:55:19] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 04:55:19] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 04:55:19] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-05-23 04:55:19] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-23 04:55:19] WARNING root fetch - processPackages [discord-join]: Skipping, unable to determine old version
+[2024-05-23 04:55:19] INFO root fetch - main [MainThread]: End processing [discord-join] error
+[2024-05-23 04:55:19] INFO root fetch - processPackages [FinRobot]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 04:55:19] INFO root fetch - processPackages [finsy]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 04:55:19] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-23 04:55:19] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-05-23 04:55:19] INFO root fetch - processPackages [FinRobot]: Downloading https://files.pythonhosted.org/packages/1f/65/e623821c6a6588d1525d2293067100a6ccb6e9d1aabbe5c871234ad9799a/FinRobot-0.1.1.tar.gz
+[2024-05-23 04:55:19] INFO root fetch - processPackages [finsy]: Downloading https://files.pythonhosted.org/packages/00/e6/0838c73be62cae24016990936d4bdaa810da94ff56a6948661c9db2c0492/finsy-0.8.0.tar.gz
+[2024-05-23 04:55:19] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-23 04:55:19] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240523/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 04:55:19] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-05-23 04:55:19] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240523/s/scoutbook_parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 04:55:19] INFO root fetch - processPackages [FinRobot]: Downloading https://files.pythonhosted.org/packages/7a/5b/dfe3daed2ea50dd4f32eabe545fb3f98988846b4f8d54d591d096a08a88e/finrobot-0.1.2.tar.gz
+[2024-05-23 04:55:20] INFO root fetch - processPackages [finsy]: Downloading https://files.pythonhosted.org/packages/15/4b/e454cff3e84238eb0cf0f9a05bb7e5fb8ed845c173710d65557c9f81fe47/finsy-0.9.0.tar.gz
+[2024-05-23 04:55:20] INFO root fetch - processPackages [FinRobot]: executing diffoscope
+[2024-05-23 04:55:20] INFO root fetch - processPackages [FinRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinRobot-0.1.1.tar.gz tmp/finrobot-0.1.2.tar.gz --markdown 20240523/F/FinRobot/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 04:55:20] INFO root fetch - processPackages [finsy]: executing diffoscope
+[2024-05-23 04:55:20] INFO root fetch - processPackages [finsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finsy-0.8.0.tar.gz tmp/finsy-0.9.0.tar.gz --markdown 20240523/f/finsy/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-23 04:55:20] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-23 04:55:20] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-23 04:55:20] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-23 04:55:20] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-05-23 04:55:20] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-05-23 04:55:20] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-05-23 04:55:20] INFO root fetch - processPackages [FinRobot]: Remove: archive file [/home/abi/fetcher/tmp/FinRobot-0.1.1.tar.gz]
+[2024-05-23 04:55:20] INFO root fetch - processPackages [FinRobot]: Remove: archive file [/home/abi/fetcher/tmp/finrobot-0.1.2.tar.gz]
+[2024-05-23 04:55:20] INFO root fetch - main [MainThread]: End processing [FinRobot]: success
+[2024-05-23 04:55:21] INFO root fetch - processPackages [finsy]: Remove: archive file [/home/abi/fetcher/tmp/finsy-0.8.0.tar.gz]
+[2024-05-23 04:55:21] INFO root fetch - processPackages [finsy]: Remove: archive file [/home/abi/fetcher/tmp/finsy-0.9.0.tar.gz]
+[2024-05-23 04:55:21] INFO root fetch - main [MainThread]: End processing [finsy]: success
+[2024-05-23 04:55:21] INFO root fetch - main [MainThread]: Store serial: [23336882]
