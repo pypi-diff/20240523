@@ -11015,3 +11015,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:34:07] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.0.tar.gz]
 [2024-05-23 07:34:07] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-05-23 07:34:07] INFO root fetch - main [MainThread]: Store serial: [23337990]
+[2024-05-23 07:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337990]
+[2024-05-23 07:36:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 07:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2024-05-23 07:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keychain-access
+[2024-05-23 07:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-spread-grid
+[2024-05-23 07:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-test-common
+[2024-05-23 07:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dez
+[2024-05-23 07:36:16] WARNING root fetch - processPackages [keychain-access]: Skipping, unable to determine old version
+[2024-05-23 07:36:16] INFO root fetch - main [MainThread]: End processing [keychain-access] error
+[2024-05-23 07:36:16] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-23 07:36:16] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 07:36:16] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240522] Old Version: [2.17.0.dev20240520]
+[2024-05-23 07:36:16] INFO root fetch - processPackages [dez]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-23 07:36:16] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/07/44/abeda499183d94a9cb8f98ee9c2bed1985fcece6c26cc9afe0fad8e004aa/auto-test-common-2.0.8.tar.gz
+[2024-05-23 07:36:16] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/9f/39/3477f65f22676264317bcb1d617b220ddcc8d09f85a7eb7904d8c2676dae/dash_spread_grid-0.0.8.tar.gz
+[2024-05-23 07:36:16] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/a7/3f/66c8be789d48a7d7f23607da99d33c1b31ce0d268d8b319995a64b78e404/tflite_runtime_nightly-2.17.0.dev20240520-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-23 07:36:16] INFO root fetch - processPackages [dez]: Downloading https://files.pythonhosted.org/packages/1e/81/48d71e93c2525619543513ac060532d30fe665f6a30041b7dd4486dbc43f/dez-0.9.4-py2.7.egg
+[2024-05-23 07:36:16] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/4b/d9/45b8e5de52b2857ca21235c1c40feeefd0eac18ec1e4533427d05525845b/auto-test-common-2.0.9.tar.gz
+[2024-05-23 07:36:16] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/37/f7/3991c1c5cd26d592773df3381df4e17ae14f51d47af4fd52b7419949494b/dash_spread_grid-0.0.9.tar.gz
+[2024-05-23 07:36:16] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-05-23 07:36:16] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.8.tar.gz tmp/auto-test-common-2.0.9.tar.gz --markdown 20240523/a/auto-test-common/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-23 07:36:16] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-23 07:36:16] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.0.8.tar.gz tmp/dash_spread_grid-0.0.9.tar.gz --markdown 20240523/d/dash-spread-grid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 07:36:17] INFO root fetch - processPackages [dez]: Downloading https://files.pythonhosted.org/packages/76/85/f4c826ed86b69c7e8f3ebc368a4d9737f219fbaf86efdb7156c8a99503ce/dez-0.9.5-py2.7.egg
+[2024-05-23 07:36:17] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/43/52/5c8adc0b7cb85236aaff3d1e9d3351970afa0c5b43a8aff98877cdd9f94e/tflite_runtime_nightly-2.17.0.dev20240522-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-23 07:36:17] INFO root fetch - processPackages [dez]: executing diffoscope
+[2024-05-23 07:36:17] INFO root fetch - processPackages [dez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dez-0.9.4-py2.7.egg tmp/dez-0.9.5-py2.7.egg --markdown 20240523/d/dez/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-23 07:36:17] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.8.tar.gz]
+[2024-05-23 07:36:17] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.9.tar.gz]
+[2024-05-23 07:36:17] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-05-23 07:36:17] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-23 07:36:17] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240520-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240522-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240523/t/tflite-runtime-nightly/2.17.0.dev20240520-2.17.0.dev20240522/README.md --exclude *.pyd
+[2024-05-23 07:36:18] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.4-py2.7.egg]
+[2024-05-23 07:36:18] INFO root fetch - processPackages [dez]: Remove: archive file [/home/abi/fetcher/tmp/dez-0.9.5-py2.7.egg]
+[2024-05-23 07:36:18] INFO root fetch - main [MainThread]: End processing [dez]: success
+[2024-05-23 07:36:18] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.8.tar.gz]
+[2024-05-23 07:36:18] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
+[2024-05-23 07:36:18] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-23 07:36:40] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240520-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-23 07:36:40] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240522-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-23 07:36:40] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-23 07:36:40] INFO root fetch - main [MainThread]: Store serial: [23338010]
