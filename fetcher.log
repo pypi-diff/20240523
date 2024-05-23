@@ -7402,3 +7402,60 @@
 [2024-05-23 03:31:17] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.4.4.tar.gz]
 [2024-05-23 03:31:17] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2024-05-23 03:31:17] INFO root fetch - main [MainThread]: Store serial: [23336114]
+[2024-05-23 03:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336114]
+[2024-05-23 03:33:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talking-equipment-sdk
+[2024-05-23 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-openapi3-scalar
+[2024-05-23 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honcho-ai
+[2024-05-23 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tecton
+[2024-05-23 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-near
+[2024-05-23 03:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django_herobiz_dental
+[2024-05-23 03:33:26] INFO root fetch - processPackages [flask-openapi3-scalar]: New version: [1.22.44] Old Version: [1.22.43]
+[2024-05-23 03:33:26] INFO root fetch - processPackages [talking-equipment-sdk]: New version: [0.0.8] Old Version: [0.0.3]
+[2024-05-23 03:33:26] INFO root fetch - processPackages [honcho-ai]: New version: [0.0.9] Old Version: [0.0.8a1]
+[2024-05-23 03:33:26] INFO root fetch - processPackages [tecton]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-23 03:33:26] INFO root fetch - processPackages [django_herobiz_dental]: New version: [3.0.0] Old Version: [2.2.0]
+[2024-05-23 03:33:26] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-23 03:33:26] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/ae/a7/430d670408d38d1a3bbecf0b248f2926a46c519aed486212bd0aedf543d6/flask_openapi3_scalar-1.22.43.tar.gz
+[2024-05-23 03:33:26] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/3f/5c/7267ffe9d379854cf7eb1407f4e2edb8d9683a40474b840a669d0f24a3ab/talking_equipment_sdk-0.0.3.tar.gz
+[2024-05-23 03:33:26] INFO root fetch - processPackages [honcho-ai]: Downloading https://files.pythonhosted.org/packages/ce/cd/137b643ecef4edb6b249881a080d7595029921478bcf8d32a0a271c56363/honcho_ai-0.0.8a1.tar.gz
+[2024-05-23 03:33:26] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/21/98/9ba672621a8b5071c917511dfbcf3f111a52a8121bb30442ad60e8c26cee/tecton-0.9.3.tar.gz
+[2024-05-23 03:33:26] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/dc/92/7fdb2374f76c474665f6ac10d86461df067509b1a0045cd9de22f5fa19b6/django_herobiz_dental-2.2.0.tar.gz
+[2024-05-23 03:33:26] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-05-23 03:33:26] INFO root fetch - processPackages [honcho-ai]: Downloading https://files.pythonhosted.org/packages/76/ff/63aa05985fda32e7d17f25f07692475cf4828529c8cd03ad3b2c85c5525c/honcho_ai-0.0.9.tar.gz
+[2024-05-23 03:33:26] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/10/cd/d768eecbe306be16b875bb48f7f74aa987cb4f95ed0a6d0b008be597eb3c/flask_openapi3_scalar-1.22.44.tar.gz
+[2024-05-23 03:33:26] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/7e/f0/901d2339dc3c570e276b549430ee55608114aba280b5e65cecedd3b7eb4e/talking_equipment_sdk-0.0.8.tar.gz
+[2024-05-23 03:33:27] INFO root fetch - processPackages [honcho-ai]: executing diffoscope
+[2024-05-23 03:33:27] INFO root fetch - processPackages [honcho-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honcho_ai-0.0.8a1.tar.gz tmp/honcho_ai-0.0.9.tar.gz --markdown 20240523/h/honcho-ai/0.0.8a1-0.0.9/README.md --exclude *.pyd
+[2024-05-23 03:33:27] INFO root fetch - processPackages [talking-equipment-sdk]: executing diffoscope
+[2024-05-23 03:33:27] INFO root fetch - processPackages [talking-equipment-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talking_equipment_sdk-0.0.3.tar.gz tmp/talking_equipment_sdk-0.0.8.tar.gz --markdown 20240523/t/talking-equipment-sdk/0.0.3-0.0.8/README.md --exclude *.pyd
+[2024-05-23 03:33:27] INFO root fetch - processPackages [flask-openapi3-scalar]: executing diffoscope
+[2024-05-23 03:33:27] INFO root fetch - processPackages [flask-openapi3-scalar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_scalar-1.22.43.tar.gz tmp/flask_openapi3_scalar-1.22.44.tar.gz --markdown 20240523/f/flask-openapi3-scalar/1.22.43-1.22.44/README.md --exclude *.pyd
+[2024-05-23 03:33:27] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/3a/da/e7a86b6fae10a59dfac0694d921580002e64666934caf462ea0dd903f894/django_herobiz_dental-3.0.0.tar.gz
+[2024-05-23 03:33:27] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.3.tar.gz]
+[2024-05-23 03:33:27] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.8.tar.gz]
+[2024-05-23 03:33:27] INFO root fetch - main [MainThread]: End processing [talking-equipment-sdk]: success
+[2024-05-23 03:33:27] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/0b/20/77c4be99ac7a1238b797b1f94f726c7668c89c9a38d97ecf5964c2bb9952/tecton-0.9.4.tar.gz
+[2024-05-23 03:33:27] INFO root fetch - processPackages [honcho-ai]: Remove: archive file [/home/abi/fetcher/tmp/honcho_ai-0.0.8a1.tar.gz]
+[2024-05-23 03:33:27] INFO root fetch - processPackages [honcho-ai]: Remove: archive file [/home/abi/fetcher/tmp/honcho_ai-0.0.9.tar.gz]
+[2024-05-23 03:33:27] INFO root fetch - main [MainThread]: End processing [honcho-ai]: success
+[2024-05-23 03:33:28] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2024-05-23 03:33:28] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.9.3.tar.gz tmp/tecton-0.9.4.tar.gz --markdown 20240523/t/tecton/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-23 03:33:28] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-23 03:33:28] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-2.2.0.tar.gz tmp/django_herobiz_dental-3.0.0.tar.gz --markdown 20240523/d/django_herobiz_dental/2.2.0-3.0.0/README.md --exclude *.pyd
+[2024-05-23 03:33:28] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-05-23 03:33:29] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-05-23 03:33:29] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240523/p/py-near/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-23 03:33:29] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-05-23 03:33:29] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-05-23 03:33:29] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-05-23 03:33:30] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-2.2.0.tar.gz]
+[2024-05-23 03:33:30] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.0.0.tar.gz]
+[2024-05-23 03:33:30] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-23 03:33:30] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.3.tar.gz]
+[2024-05-23 03:33:30] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.4.tar.gz]
+[2024-05-23 03:33:30] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2024-05-23 03:33:42] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.43.tar.gz]
+[2024-05-23 03:33:42] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.44.tar.gz]
+[2024-05-23 03:33:42] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
+[2024-05-23 03:33:42] INFO root fetch - main [MainThread]: Store serial: [23336191]
