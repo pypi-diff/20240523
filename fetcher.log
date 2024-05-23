@@ -10566,3 +10566,20 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:58:52] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
 [2024-05-23 06:58:52] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
 [2024-05-23 06:58:52] INFO root fetch - main [MainThread]: Store serial: [23337808]
+[2024-05-23 07:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337808]
+[2024-05-23 07:01:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 07:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bolero
+[2024-05-23 07:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profile-zoominfo-graphql-imp-local
+[2024-05-23 07:01:00] INFO root fetch - processPackages [bolero]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 07:01:00] INFO root fetch - processPackages [bolero]: Downloading https://files.pythonhosted.org/packages/0e/54/d977da7062905b9ef12d154a22d7c529f309814631e9af2438766d209519/bolero-0.0.8.tar.gz
+[2024-05-23 07:01:00] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-23 07:01:00] WARNING root fetch - processPackages [bolero]: Skipping package: exceeds size limit 13048827>=10485760
+[2024-05-23 07:01:00] INFO root fetch - main [MainThread]: End processing [bolero] error
+[2024-05-23 07:01:00] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Downloading https://files.pythonhosted.org/packages/48/63/11514872db773dd6bc4b4cbbf82268400f18c93e5ad219d775b1dc6e0281/profile_zoominfo_graphql_imp_local-0.0.12.tar.gz
+[2024-05-23 07:01:01] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Downloading https://files.pythonhosted.org/packages/54/19/a9dfde2919aeeafb542a7ba6c4988e08f63e334ff8193ac26039dae7b21b/profile_zoominfo_graphql_imp_local-0.0.13.tar.gz
+[2024-05-23 07:01:01] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: executing diffoscope
+[2024-05-23 07:01:01] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile_zoominfo_graphql_imp_local-0.0.12.tar.gz tmp/profile_zoominfo_graphql_imp_local-0.0.13.tar.gz --markdown 20240523/p/profile-zoominfo-graphql-imp-local/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-23 07:01:01] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/profile_zoominfo_graphql_imp_local-0.0.12.tar.gz]
+[2024-05-23 07:01:01] INFO root fetch - processPackages [profile-zoominfo-graphql-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/profile_zoominfo_graphql_imp_local-0.0.13.tar.gz]
+[2024-05-23 07:01:01] INFO root fetch - main [MainThread]: End processing [profile-zoominfo-graphql-imp-local]: success
+[2024-05-23 07:01:01] INFO root fetch - main [MainThread]: Store serial: [23337816]
