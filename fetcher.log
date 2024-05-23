@@ -15256,3 +15256,24 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:28:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.4.tar.gz]
 [2024-05-23 10:28:11] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-23 10:28:11] INFO root fetch - main [MainThread]: Store serial: [23339957]
+[2024-05-23 10:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339957]
+[2024-05-23 10:30:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 10:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comotion-sdk
+[2024-05-23 10:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rhkpy
+[2024-05-23 10:30:20] INFO root fetch - processPackages [comotion-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 10:30:20] INFO root fetch - processPackages [rhkpy]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-05-23 10:30:20] INFO root fetch - processPackages [rhkpy]: Downloading https://files.pythonhosted.org/packages/75/46/d85ea0bcf119c2f4ad25b0dbf6470a102fedd327f09b2bcad92c15fd281b/rhkpy-1.3.5.tar.gz
+[2024-05-23 10:30:20] INFO root fetch - processPackages [comotion-sdk]: Downloading https://files.pythonhosted.org/packages/1c/3f/8478a6981eb5950668649d9ff965a392dcc55c80fb93503728f03bc2bdde/comotion-sdk-0.0.8.tar.gz
+[2024-05-23 10:30:21] INFO root fetch - processPackages [comotion-sdk]: Downloading https://files.pythonhosted.org/packages/85/a2/58a225cc74a276d182cd9b45bd798c056ead620c3eb558fbfd363b2210f5/comotion-sdk-0.0.9.tar.gz
+[2024-05-23 10:30:21] INFO root fetch - processPackages [rhkpy]: Downloading https://files.pythonhosted.org/packages/7c/69/65cc234ddaaaeb41403e90556d97b411055752b3aaed52a7e2acf6ca1bec/rhkpy-1.3.6.tar.gz
+[2024-05-23 10:30:21] INFO root fetch - processPackages [rhkpy]: executing diffoscope
+[2024-05-23 10:30:21] INFO root fetch - processPackages [rhkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhkpy-1.3.5.tar.gz tmp/rhkpy-1.3.6.tar.gz --markdown 20240523/r/rhkpy/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-05-23 10:30:21] INFO root fetch - processPackages [comotion-sdk]: executing diffoscope
+[2024-05-23 10:30:21] INFO root fetch - processPackages [comotion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comotion-sdk-0.0.8.tar.gz tmp/comotion-sdk-0.0.9.tar.gz --markdown 20240523/c/comotion-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 10:30:21] INFO root fetch - processPackages [comotion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/comotion-sdk-0.0.8.tar.gz]
+[2024-05-23 10:30:21] INFO root fetch - processPackages [comotion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/comotion-sdk-0.0.9.tar.gz]
+[2024-05-23 10:30:21] INFO root fetch - main [MainThread]: End processing [comotion-sdk]: success
+[2024-05-23 10:30:22] INFO root fetch - processPackages [rhkpy]: Remove: archive file [/home/abi/fetcher/tmp/rhkpy-1.3.5.tar.gz]
+[2024-05-23 10:30:22] INFO root fetch - processPackages [rhkpy]: Remove: archive file [/home/abi/fetcher/tmp/rhkpy-1.3.6.tar.gz]
+[2024-05-23 10:30:22] INFO root fetch - main [MainThread]: End processing [rhkpy]: success
+[2024-05-23 10:30:22] INFO root fetch - main [MainThread]: Store serial: [23339965]
