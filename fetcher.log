@@ -9974,3 +9974,36 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:13:43] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.9.tar.gz]
 [2024-05-23 06:13:43] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
 [2024-05-23 06:13:43] INFO root fetch - main [MainThread]: Store serial: [23337495]
+[2024-05-23 06:15:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337495]
+[2024-05-23 06:15:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 06:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qusim
+[2024-05-23 06:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipython-ngql
+[2024-05-23 06:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-near
+[2024-05-23 06:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-nebulagraph
+[2024-05-23 06:15:51] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 06:15:51] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-23 06:15:51] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.12.3]
+[2024-05-23 06:15:51] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-05-23 06:15:51] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-05-23 06:15:51] WARNING root fetch - processPackages [qusim]: Skipping, unable to determine old version
+[2024-05-23 06:15:51] INFO root fetch - main [MainThread]: End processing [qusim] error
+[2024-05-23 06:15:51] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/98/1c/63a6ac65f4f9702a95061b857fb1f6ee1e77b2151f31e897a5eaad69a6c5/jupyter_nebulagraph-0.12.3.tar.gz
+[2024-05-23 06:15:51] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-05-23 06:15:51] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-05-23 06:15:52] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-05-23 06:15:52] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240523/i/ipython-ngql/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 06:15:52] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-05-23 06:15:52] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240523/p/py-near/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-23 06:15:52] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-05-23 06:15:52] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-05-23 06:15:52] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.12.3.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240523/j/jupyter-nebulagraph/0.12.3-0.9.1/README.md --exclude *.pyd
+[2024-05-23 06:15:52] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-05-23 06:15:52] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-05-23 06:15:52] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-05-23 06:15:52] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-05-23 06:15:52] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-05-23 06:15:52] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-05-23 06:15:52] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.12.3.tar.gz]
+[2024-05-23 06:15:52] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-05-23 06:15:52] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-05-23 06:15:52] INFO root fetch - main [MainThread]: Store serial: [23337509]
