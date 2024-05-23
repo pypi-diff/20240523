@@ -22360,3 +22360,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:39:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.6.tar.gz]
 [2024-05-23 13:39:21] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-23 13:39:21] INFO root fetch - main [MainThread]: Store serial: [23342593]
+[2024-05-23 13:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342593]
+[2024-05-23 13:41:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: generate-core
+[2024-05-23 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brapi-proxy
+[2024-05-23 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Files.com
+[2024-05-23 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SMPCbox
+[2024-05-23 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Peelpreter
+[2024-05-23 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DocumentsReader
+[2024-05-23 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m3u-ipytv
+[2024-05-23 13:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: woningwaardering
+[2024-05-23 13:41:32] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 13:41:32] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 13:41:32] INFO root fetch - processPackages [brapi-proxy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 13:41:32] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.81]
+[2024-05-23 13:41:32] WARNING root fetch - processPackages [Peelpreter]: Skipping, unable to determine old version
+[2024-05-23 13:41:32] INFO root fetch - main [MainThread]: End processing [Peelpreter] error
+[2024-05-23 13:41:32] INFO root fetch - processPackages [generate-core]: New version: [0.5.0b0] Old Version: [0.4.3]
+[2024-05-23 13:41:32] WARNING root fetch - processPackages [SMPCbox]: Skipping, unable to determine old version
+[2024-05-23 13:41:32] INFO root fetch - main [MainThread]: End processing [SMPCbox] error
+[2024-05-23 13:41:32] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/f7/f8/fc6481b67687b3328175fe141bc9a3b156822108027a367b18b8c9b88455/brapi_proxy-0.0.3.tar.gz
+[2024-05-23 13:41:32] INFO root fetch - processPackages [m3u-ipytv]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-23 13:41:32] INFO root fetch - processPackages [woningwaardering]: New version: [0.3.0a0] Old Version: [0.2.16a0]
+[2024-05-23 13:41:32] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/bc/a3/068a466be80de888afc99afe4ab9383ffeebecb324143e13e2ca0f287036/Files.com-1.4.81.tar.gz
+[2024-05-23 13:41:32] INFO root fetch - processPackages [generate-core]: Downloading https://files.pythonhosted.org/packages/ef/dd/55bb8f9cefa77fd54e62bc477a76a9611a75741fa6e75ff3422f1bc44dff/generate_core-0.4.3.tar.gz
+[2024-05-23 13:41:32] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/68/8b/7fd3e29da0401be713876080aea02d77326f718056e5e498829b953c7893/woningwaardering-0.2.16a0.tar.gz
+[2024-05-23 13:41:32] INFO root fetch - processPackages [m3u-ipytv]: Downloading https://files.pythonhosted.org/packages/20/f3/abf8b500e196657be280c971946fd44ecad4f1e6a7aae7f8b7c126c8969d/m3u-ipytv-0.2.7.tar.gz
+[2024-05-23 13:41:32] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-05-23 13:41:32] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/af/88/322081d817dad61f08e96f8762067097750750e0398110816ca45eac7d3b/brapi_proxy-0.0.4.tar.gz
+[2024-05-23 13:41:32] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-05-23 13:41:32] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.81.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240523/F/Files.com/1.4.81-1.4.9/README.md --exclude *.pyd
+[2024-05-23 13:41:32] INFO root fetch - processPackages [brapi-proxy]: executing diffoscope
+[2024-05-23 13:41:32] INFO root fetch - processPackages [brapi-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brapi_proxy-0.0.3.tar.gz tmp/brapi_proxy-0.0.4.tar.gz --markdown 20240523/b/brapi-proxy/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 13:41:32] INFO root fetch - processPackages [generate-core]: Downloading https://files.pythonhosted.org/packages/34/82/f37099c7344ac2fa80f44cc3615aa2bb098238c2a985fd4bdef4ddf9fdbf/generate_core-0.5.0b0.tar.gz
+[2024-05-23 13:41:33] INFO root fetch - processPackages [m3u-ipytv]: Downloading https://files.pythonhosted.org/packages/4e/32/a6b3ae9f5f409ea0760d5754b83e3307ba8297d93c644e4de8d59be52469/m3u-ipytv-0.2.8.tar.gz
+[2024-05-23 13:41:33] INFO root fetch - processPackages [generate-core]: executing diffoscope
+[2024-05-23 13:41:33] INFO root fetch - processPackages [generate-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_core-0.4.3.tar.gz tmp/generate_core-0.5.0b0.tar.gz --markdown 20240523/g/generate-core/0.4.3-0.5.0b0/README.md --exclude *.pyd
+[2024-05-23 13:41:33] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/68/16/065b3c5838d0a95cdd411f59425f1a0881efd7ee9da5cb6924f34dc14810/woningwaardering-0.3.0a0.tar.gz
+[2024-05-23 13:41:33] INFO root fetch - processPackages [m3u-ipytv]: executing diffoscope
+[2024-05-23 13:41:33] INFO root fetch - processPackages [m3u-ipytv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u-ipytv-0.2.7.tar.gz tmp/m3u-ipytv-0.2.8.tar.gz --markdown 20240523/m/m3u-ipytv/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-23 13:41:33] INFO root fetch - processPackages [woningwaardering]: executing diffoscope
+[2024-05-23 13:41:33] INFO root fetch - processPackages [woningwaardering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woningwaardering-0.2.16a0.tar.gz tmp/woningwaardering-0.3.0a0.tar.gz --markdown 20240523/w/woningwaardering/0.2.16a0-0.3.0a0/README.md --exclude *.pyd
+[2024-05-23 13:41:33] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.3.tar.gz]
+[2024-05-23 13:41:33] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.4.tar.gz]
+[2024-05-23 13:41:33] INFO root fetch - main [MainThread]: End processing [brapi-proxy]: success
+[2024-05-23 13:41:33] INFO root fetch - processPackages [m3u-ipytv]: Remove: archive file [/home/abi/fetcher/tmp/m3u-ipytv-0.2.7.tar.gz]
+[2024-05-23 13:41:33] INFO root fetch - processPackages [m3u-ipytv]: Remove: archive file [/home/abi/fetcher/tmp/m3u-ipytv-0.2.8.tar.gz]
+[2024-05-23 13:41:33] INFO root fetch - main [MainThread]: End processing [m3u-ipytv]: success
+[2024-05-23 13:41:33] INFO root fetch - processPackages [generate-core]: Remove: archive file [/home/abi/fetcher/tmp/generate_core-0.4.3.tar.gz]
+[2024-05-23 13:41:33] INFO root fetch - processPackages [generate-core]: Remove: archive file [/home/abi/fetcher/tmp/generate_core-0.5.0b0.tar.gz]
+[2024-05-23 13:41:33] INFO root fetch - main [MainThread]: End processing [generate-core]: success
+[2024-05-23 13:41:34] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.81.tar.gz]
+[2024-05-23 13:41:34] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-05-23 13:41:34] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-05-23 13:41:35] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.2.16a0.tar.gz]
+[2024-05-23 13:41:35] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.3.0a0.tar.gz]
+[2024-05-23 13:41:35] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
+[2024-05-23 13:41:35] INFO root fetch - main [MainThread]: Store serial: [23342636]
