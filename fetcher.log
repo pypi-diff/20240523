@@ -10880,3 +10880,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:23:09] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
 [2024-05-23 07:23:09] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2024-05-23 07:23:09] INFO root fetch - main [MainThread]: Store serial: [23337950]
+[2024-05-23 07:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337950]
+[2024-05-23 07:25:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 07:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbg-fetch
+[2024-05-23 07:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2024-05-23 07:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fudstop
+[2024-05-23 07:25:18] INFO root fetch - processPackages [bbg-fetch]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-23 07:25:18] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-23 07:25:18] INFO root fetch - processPackages [bbg-fetch]: Downloading https://files.pythonhosted.org/packages/f9/74/e357dffe566ca71d3c8fea4ec06dbd60d381b3ba7e08082e411b97d88aa8/bbg_fetch-1.0.5.tar.gz
+[2024-05-23 07:25:18] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-23 07:25:18] INFO root fetch - processPackages [fudstop]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-23 07:25:18] INFO root fetch - processPackages [bbg-fetch]: Downloading https://files.pythonhosted.org/packages/4e/f0/72e1a6afdca99e389bc61e0899c7a5c79d3e2a01ba6e0f135d3a74b6864c/bbg_fetch-1.0.6.tar.gz
+[2024-05-23 07:25:18] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-23 07:25:18] INFO root fetch - processPackages [bbg-fetch]: executing diffoscope
+[2024-05-23 07:25:18] INFO root fetch - processPackages [bbg-fetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbg_fetch-1.0.5.tar.gz tmp/bbg_fetch-1.0.6.tar.gz --markdown 20240523/b/bbg-fetch/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-23 07:25:18] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/be/28/bad27d06243c476b270bd6c6c75f22be75061e1a1ceebef7f92c38aadc9f/fudstop-2.6.8.tar.gz
+[2024-05-23 07:25:18] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-23 07:25:18] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240523/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-23 07:25:18] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/55/26/b6ec6559734c1c8543169cec69c16a9039cf7bdaa2b30d62a4ef1e091d47/fudstop-2.6.9.tar.gz
+[2024-05-23 07:25:19] INFO root fetch - processPackages [bbg-fetch]: Remove: archive file [/home/abi/fetcher/tmp/bbg_fetch-1.0.5.tar.gz]
+[2024-05-23 07:25:19] INFO root fetch - processPackages [bbg-fetch]: Remove: archive file [/home/abi/fetcher/tmp/bbg_fetch-1.0.6.tar.gz]
+[2024-05-23 07:25:19] INFO root fetch - main [MainThread]: End processing [bbg-fetch]: success
+[2024-05-23 07:25:19] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-23 07:25:19] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.8.tar.gz tmp/fudstop-2.6.9.tar.gz --markdown 20240523/f/fudstop/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-23 07:25:19] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-23 07:25:19] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-23 07:25:19] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-23 07:25:20] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.8.tar.gz]
+[2024-05-23 07:25:20] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.9.tar.gz]
+[2024-05-23 07:25:20] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-23 07:25:20] INFO root fetch - main [MainThread]: Store serial: [23337957]
