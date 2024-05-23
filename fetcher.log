@@ -9793,3 +9793,45 @@
 [2024-05-23 06:02:49] WARNING root fetch - processPackages [mountaineer]: Skipping package: exceeds size limit 24556157>=10485760
 [2024-05-23 06:02:49] INFO root fetch - main [MainThread]: End processing [mountaineer] error
 [2024-05-23 06:02:49] INFO root fetch - main [MainThread]: Store serial: [23337428]
+[2024-05-23 06:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337428]
+[2024-05-23 06:04:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 06:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-spotinst
+[2024-05-23 06:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fpb
+[2024-05-23 06:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wf-rappi
+[2024-05-23 06:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: categorical-mix
+[2024-05-23 06:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybomwater
+[2024-05-23 06:04:58] INFO root fetch - processPackages [wf-rappi]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-23 06:04:58] INFO root fetch - processPackages [fpb]: New version: [0.2] Old Version: [0.1]
+[2024-05-23 06:04:58] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-23 06:04:58] WARNING root fetch - processPackages [categorical-mix]: Skipping, unable to determine old version
+[2024-05-23 06:04:58] INFO root fetch - main [MainThread]: End processing [categorical-mix] error
+[2024-05-23 06:04:58] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/76/47/5d674f0a783486425083140835455a2eb3d8c720512ca3e751e29fb1d4e8/wf_rappi-0.3.0.tar.gz
+[2024-05-23 06:04:58] INFO root fetch - processPackages [pybomwater]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 06:04:58] INFO root fetch - processPackages [fpb]: Downloading https://files.pythonhosted.org/packages/3b/27/7ba8012b212e0db5b5096d1191359581bbb445cd09bf46b6fb8415b9e2fd/fpb-0.1.tar.gz
+[2024-05-23 06:04:58] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2024-05-23 06:04:58] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/01/7f/f847a057876c3d94230a1cb05c28bfb826c69b892ecc746d7cb2d7ba997f/wf_rappi-0.3.1.tar.gz
+[2024-05-23 06:04:58] INFO root fetch - processPackages [fpb]: Downloading https://files.pythonhosted.org/packages/54/3b/ef3cd127b1c2361e1fbf9b09a11355429b053c2500e66f6e47cdc15d9509/fpb-0.2.tar.gz
+[2024-05-23 06:04:58] INFO root fetch - processPackages [pybomwater]: Downloading https://files.pythonhosted.org/packages/03/33/8ebc3892138d946dc8b62d987d7d0a6df3a83b716fd8efd1b5c113f5ab1c/pybomwater-0.1.1.tar.gz
+[2024-05-23 06:04:58] INFO root fetch - processPackages [wf-rappi]: executing diffoscope
+[2024-05-23 06:04:58] INFO root fetch - processPackages [wf-rappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_rappi-0.3.0.tar.gz tmp/wf_rappi-0.3.1.tar.gz --markdown 20240523/w/wf-rappi/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-23 06:04:58] INFO root fetch - processPackages [fpb]: executing diffoscope
+[2024-05-23 06:04:58] INFO root fetch - processPackages [fpb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpb-0.1.tar.gz tmp/fpb-0.2.tar.gz --markdown 20240523/f/fpb/0.1-0.2/README.md --exclude *.pyd
+[2024-05-23 06:04:58] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/b8/2c/aa878226c72dad7c19534c6713ae070650c0bb7480c80bb6e755f5ccfb7f/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz
+[2024-05-23 06:04:58] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2024-05-23 06:04:58] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz --markdown 20240523/c/cdktf-cdktf-provider-spotinst/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-23 06:04:59] INFO root fetch - processPackages [fpb]: Remove: archive file [/home/abi/fetcher/tmp/fpb-0.1.tar.gz]
+[2024-05-23 06:04:59] INFO root fetch - processPackages [fpb]: Remove: archive file [/home/abi/fetcher/tmp/fpb-0.2.tar.gz]
+[2024-05-23 06:04:59] INFO root fetch - main [MainThread]: End processing [fpb]: success
+[2024-05-23 06:04:59] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.3.0.tar.gz]
+[2024-05-23 06:04:59] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.3.1.tar.gz]
+[2024-05-23 06:04:59] INFO root fetch - main [MainThread]: End processing [wf-rappi]: success
+[2024-05-23 06:04:59] INFO root fetch - processPackages [pybomwater]: Downloading https://files.pythonhosted.org/packages/da/d3/cf11160f5b1cbcd3af6e6845017a33f927e89af726d39e7ccdb91b1ce23e/pybomwater-0.1.2.tar.gz
+[2024-05-23 06:04:59] INFO root fetch - processPackages [pybomwater]: executing diffoscope
+[2024-05-23 06:04:59] INFO root fetch - processPackages [pybomwater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybomwater-0.1.1.tar.gz tmp/pybomwater-0.1.2.tar.gz --markdown 20240523/p/pybomwater/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 06:05:01] INFO root fetch - processPackages [pybomwater]: Remove: archive file [/home/abi/fetcher/tmp/pybomwater-0.1.1.tar.gz]
+[2024-05-23 06:05:01] INFO root fetch - processPackages [pybomwater]: Remove: archive file [/home/abi/fetcher/tmp/pybomwater-0.1.2.tar.gz]
+[2024-05-23 06:05:01] INFO root fetch - main [MainThread]: End processing [pybomwater]: success
+[2024-05-23 06:05:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2024-05-23 06:05:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
+[2024-05-23 06:05:01] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2024-05-23 06:05:01] INFO root fetch - main [MainThread]: Store serial: [23337453]
