@@ -10910,3 +10910,36 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:25:20] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.9.tar.gz]
 [2024-05-23 07:25:20] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-05-23 07:25:20] INFO root fetch - main [MainThread]: Store serial: [23337957]
+[2024-05-23 07:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337957]
+[2024-05-23 07:27:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 07:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jfExt
+[2024-05-23 07:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fmbench
+[2024-05-23 07:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-codenerix
+[2024-05-23 07:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Complex-Bidintha
+[2024-05-23 07:27:29] WARNING root fetch - processPackages [Complex-Bidintha]: Skipping, unable to determine old version
+[2024-05-23 07:27:29] INFO root fetch - main [MainThread]: End processing [Complex-Bidintha] error
+[2024-05-23 07:27:29] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 07:27:29] INFO root fetch - processPackages [django-codenerix]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-23 07:27:29] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 07:27:29] INFO root fetch - processPackages [fmbench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 07:27:29] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/12/ff/7ccc41c0fab7fb2a7b7db448775887d29837bdaabdb47265fcd435e8eb35/fmbench-1.0.8.tar.gz
+[2024-05-23 07:27:29] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 07:27:29] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/ae/10/6c1b18ca5b901dda322ef6ebd63aa51cd777f12179630cfe66a52dbefd73/django-codenerix-4.0.8.tar.gz
+[2024-05-23 07:27:29] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 07:27:29] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 07:27:30] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/84/ee/d5b3731e328488d9664f215a9cdceeb188cdf6dd2c19b5f99a6a59daa9e4/fmbench-1.0.9.tar.gz
+[2024-05-23 07:27:30] INFO root fetch - processPackages [fmbench]: executing diffoscope
+[2024-05-23 07:27:30] INFO root fetch - processPackages [fmbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmbench-1.0.8.tar.gz tmp/fmbench-1.0.9.tar.gz --markdown 20240523/f/fmbench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 07:27:30] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 07:27:30] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 07:27:30] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 07:27:31] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/fa/74/5c81cb6c9cd40266d8845b61025400c9db3344b5ed8063c6b29f18d4574e/django-codenerix-4.0.9.tar.gz
+[2024-05-23 07:27:31] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.8.tar.gz]
+[2024-05-23 07:27:31] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
+[2024-05-23 07:27:31] INFO root fetch - main [MainThread]: End processing [fmbench]: success
+[2024-05-23 07:27:31] INFO root fetch - processPackages [django-codenerix]: executing diffoscope
+[2024-05-23 07:27:31] INFO root fetch - processPackages [django-codenerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-4.0.8.tar.gz tmp/django-codenerix-4.0.9.tar.gz --markdown 20240523/d/django-codenerix/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-23 07:27:36] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.8.tar.gz]
+[2024-05-23 07:27:36] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
+[2024-05-23 07:27:36] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
+[2024-05-23 07:27:36] INFO root fetch - main [MainThread]: Store serial: [23337970]
