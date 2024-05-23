@@ -9950,3 +9950,27 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:11:33] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.2.4.tar.gz]
 [2024-05-23 06:11:33] INFO root fetch - main [MainThread]: End processing [bk-plugin-framework]: success
 [2024-05-23 06:11:33] INFO root fetch - main [MainThread]: Store serial: [23337485]
+[2024-05-23 06:13:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337485]
+[2024-05-23 06:13:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 06:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: increff-runner
+[2024-05-23 06:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mask-key
+[2024-05-23 06:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adtoolbox
+[2024-05-23 06:13:42] INFO root fetch - processPackages [increff-runner]: New version: [4.2] Old Version: [4.1]
+[2024-05-23 06:13:42] INFO root fetch - processPackages [adtoolbox]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-23 06:13:42] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/29/07/a67de4bc7e27358d0b93187c5ca6c357c200714954140ec0df7f0f2a791a/increff_runner-4.1-py3-none-any.whl
+[2024-05-23 06:13:42] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/6a/c8/3ca715c31c152bc668a87e25407587842606023ce422cc31fb94ee445db5/adtoolbox-0.5.8.tar.gz
+[2024-05-23 06:13:42] WARNING root fetch - processPackages [mask-key]: Skipping, unable to determine old version
+[2024-05-23 06:13:42] INFO root fetch - main [MainThread]: End processing [mask-key] error
+[2024-05-23 06:13:42] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/6a/7e/4be98a53066debd3b58db5a7269bbdd6d21ff989515e0a092a5c38f1be8d/increff_runner-4.2-py3-none-any.whl
+[2024-05-23 06:13:42] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/a7/7b/9e4f8d4f6a4c45a3e9d2e8654cf52c1e0908166f42f12b0115bb9c430b65/adtoolbox-0.5.9.tar.gz
+[2024-05-23 06:13:42] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-23 06:13:42] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-4.1-py3-none-any.whl.zip tmp/increff_runner-4.2-py3-none-any.whl.zip --markdown 20240523/i/increff-runner/4.1-4.2/README.md --exclude *.pyd
+[2024-05-23 06:13:42] INFO root fetch - processPackages [adtoolbox]: executing diffoscope
+[2024-05-23 06:13:42] INFO root fetch - processPackages [adtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adtoolbox-0.5.8.tar.gz tmp/adtoolbox-0.5.9.tar.gz --markdown 20240523/a/adtoolbox/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-23 06:13:43] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.1-py3-none-any.whl.zip]
+[2024-05-23 06:13:43] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
+[2024-05-23 06:13:43] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-23 06:13:43] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.8.tar.gz]
+[2024-05-23 06:13:43] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.9.tar.gz]
+[2024-05-23 06:13:43] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
+[2024-05-23 06:13:43] INFO root fetch - main [MainThread]: Store serial: [23337495]
