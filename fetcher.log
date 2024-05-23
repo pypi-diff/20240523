@@ -13169,3 +13169,114 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:18:40] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
 [2024-05-23 09:18:40] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2024-05-23 09:18:40] INFO root fetch - main [MainThread]: Store serial: [23339032]
+[2024-05-23 09:20:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339032]
+[2024-05-23 09:20:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liuxiaojing
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartpredict
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FSV
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FSV
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FSV
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FSV
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qt-extensions
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vgis-gis
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gazu
+[2024-05-23 09:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyter_server_terminals_proxy
+[2024-05-23 09:20:50] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-23 09:20:50] INFO root fetch - processPackages [smartpredict]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-23 09:20:50] WARNING root fetch - processPackages [liuxiaojing]: Skipping, unable to determine old version
+[2024-05-23 09:20:50] INFO root fetch - processPackages [liuxiaojing]: Start processing: eodc-faas-openeo
+[2024-05-23 09:20:50] INFO root fetch - main [MainThread]: End processing [liuxiaojing] error
+[2024-05-23 09:20:50] INFO root fetch - processPackages [vgis-gis]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-23 09:20:50] INFO root fetch - processPackages [FSV]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 09:20:50] INFO root fetch - processPackages [FSV]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 09:20:50] INFO root fetch - processPackages [FSV]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 09:20:50] INFO root fetch - processPackages [FSV]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 09:20:50] WARNING root fetch - processPackages [qt-extensions]: Skipping, unable to determine old version
+[2024-05-23 09:20:50] INFO root fetch - processPackages [qt-extensions]: Start processing: torch-model-manager
+[2024-05-23 09:20:50] INFO root fetch - main [MainThread]: End processing [qt-extensions] error
+[2024-05-23 09:20:50] INFO root fetch - processPackages [gazu]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 09:20:50] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-23 09:20:50] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: Downloading https://files.pythonhosted.org/packages/18/e4/9e9af712439ca3d2826ce0e97942e7cae28de2d9ced95f8c5a65a07ecd3b/jupyter_server_terminals_proxy-0.1.4.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/d1/50/cd86d982f0b068d26ea3b37008a74aaf61190918f0cc8a78945cc5bec44f/smartpredict-0.6.8.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/b2/27/cda42c2d08e28647463867f76ef16ecf6bb010e410316cdac4eecd6fbd17/vgis_gis-1.3.0.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:20:50] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/ca/be/0cac445d65820cd08e905a2a081f566a22c846175ec54bf2dcb1d760fd54/eodc_faas_openeo-2024.5.8.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [FSV]: Downloading https://files.pythonhosted.org/packages/71/7a/d578a0b8f090e32b0716342d5a5836c38aae25a521a95206c14379c9b43f/FSV-1.0.8-py3-none-any.whl
+[2024-05-23 09:20:50] INFO root fetch - processPackages [FSV]: Downloading https://files.pythonhosted.org/packages/71/7a/d578a0b8f090e32b0716342d5a5836c38aae25a521a95206c14379c9b43f/FSV-1.0.8-py3-none-any.whl
+[2024-05-23 09:20:50] INFO root fetch - processPackages [FSV]: Downloading https://files.pythonhosted.org/packages/71/7a/d578a0b8f090e32b0716342d5a5836c38aae25a521a95206c14379c9b43f/FSV-1.0.8-py3-none-any.whl
+[2024-05-23 09:20:50] INFO root fetch - processPackages [FSV]: Downloading https://files.pythonhosted.org/packages/71/7a/d578a0b8f090e32b0716342d5a5836c38aae25a521a95206c14379c9b43f/FSV-1.0.8-py3-none-any.whl
+[2024-05-23 09:20:50] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [gazu]: Downloading https://files.pythonhosted.org/packages/29/33/8c9b7e610c9e437f6fdf01a3bbece8e17f30f46106ba710f48df55d0bcbb/gazu-0.9.8-py3-none-any.whl
+[2024-05-23 09:20:50] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: Downloading https://files.pythonhosted.org/packages/c6/49/a03b21c02a04d206165afe9eb83ec136a647da2c6422c852629ea7175a45/jupyter_server_terminals_proxy-0.2.0.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/d7/37/018c42a14ef81346fb56bf5c39bc9c39651f527a994fbe7e237330d1d663/vgis_gis-1.3.1.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/22/03/ead990dba4ac20277d0bb0b558813d0f9d8fa86bb63a3efb264d8cb1e739/smartpredict-0.6.9.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/70/a2/67861a0850781907e58d3018eb24cc9a315713ff6b39c0d686305dfc2295/eodc_faas_openeo-2024.5.9.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:20:50] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-23 09:20:50] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.8.tar.gz tmp/smartpredict-0.6.9.tar.gz --markdown 20240523/s/smartpredict/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-23 09:20:50] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: executing diffoscope
+[2024-05-23 09:20:50] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_server_terminals_proxy-0.1.4.tar.gz tmp/jupyter_server_terminals_proxy-0.2.0.tar.gz --markdown 20240523/j/jupyter_server_terminals_proxy/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-23 09:20:50] INFO root fetch - processPackages [vgis-gis]: executing diffoscope
+[2024-05-23 09:20:50] INFO root fetch - processPackages [vgis-gis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_gis-1.3.0.tar.gz tmp/vgis_gis-1.3.1.tar.gz --markdown 20240523/v/vgis-gis/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-23 09:20:50] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-23 09:20:50] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.8.tar.gz tmp/eodc_faas_openeo-2024.5.9.tar.gz --markdown 20240523/e/eodc-faas-openeo/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-23 09:20:50] INFO root fetch - processPackages [gazu]: Downloading https://files.pythonhosted.org/packages/23/76/7d89ec37540376959f78cc24b5b6cfdc121611c0bbb0cc6eeb7a932e9812/gazu-0.9.9-py3-none-any.whl
+[2024-05-23 09:20:51] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:20:51] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: Downloading https://files.pythonhosted.org/packages/a5/9b/eafd9285872c0ae51d3b779d27583346193316cb3f084b3f754296ebb4e7/FSV-1.0.9-py3-none-any.whl
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: Downloading https://files.pythonhosted.org/packages/a5/9b/eafd9285872c0ae51d3b779d27583346193316cb3f084b3f754296ebb4e7/FSV-1.0.9-py3-none-any.whl
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: Downloading https://files.pythonhosted.org/packages/a5/9b/eafd9285872c0ae51d3b779d27583346193316cb3f084b3f754296ebb4e7/FSV-1.0.9-py3-none-any.whl
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: Downloading https://files.pythonhosted.org/packages/a5/9b/eafd9285872c0ae51d3b779d27583346193316cb3f084b3f754296ebb4e7/FSV-1.0.9-py3-none-any.whl
+[2024-05-23 09:20:51] INFO root fetch - processPackages [gazu]: executing diffoscope
+[2024-05-23 09:20:51] INFO root fetch - processPackages [gazu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gazu-0.9.8-py3-none-any.whl.zip tmp/gazu-0.9.9-py3-none-any.whl.zip --markdown 20240523/g/gazu/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: executing diffoscope
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSV-1.0.8-py3-none-any.whl.zip tmp/FSV-1.0.9-py3-none-any.whl.zip --markdown 20240523/F/FSV/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: executing diffoscope
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSV-1.0.8-py3-none-any.whl.zip tmp/FSV-1.0.9-py3-none-any.whl.zip --markdown 20240523/F/FSV/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: executing diffoscope
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSV-1.0.8-py3-none-any.whl.zip tmp/FSV-1.0.9-py3-none-any.whl.zip --markdown 20240523/F/FSV/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: executing diffoscope
+[2024-05-23 09:20:51] INFO root fetch - processPackages [FSV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSV-1.0.8-py3-none-any.whl.zip tmp/FSV-1.0.9-py3-none-any.whl.zip --markdown 20240523/F/FSV/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 09:20:51] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.0.tar.gz]
+[2024-05-23 09:20:51] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.1.tar.gz]
+[2024-05-23 09:20:51] INFO root fetch - processPackages [vgis-gis]: Start processing: wagtail_translatableforms
+[2024-05-23 09:20:51] INFO root fetch - main [MainThread]: End processing [vgis-gis]: success
+[2024-05-23 09:20:51] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.8.tar.gz]
+[2024-05-23 09:20:51] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.9.tar.gz]
+[2024-05-23 09:20:51] INFO root fetch - processPackages [smartpredict]: Start processing: packManager
+[2024-05-23 09:20:51] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-23 09:20:51] INFO root fetch - processPackages [wagtail_translatableforms]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 09:20:51] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.8.tar.gz]
+[2024-05-23 09:20:51] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.9.tar.gz]
+[2024-05-23 09:20:51] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-23 09:20:51] INFO root fetch - processPackages [packManager]: New version: [1.0.5] Old Version: [0.0.0]
+[2024-05-23 09:20:52] INFO root fetch - processPackages [wagtail_translatableforms]: Downloading https://files.pythonhosted.org/packages/2d/80/4de1849a149c7b9ed1fd82a77425c4e8e09423f39e89d1dfa708ee956e5e/wagtail_translatableforms-0.1.1.tar.gz
+[2024-05-23 09:20:52] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_terminals_proxy-0.1.4.tar.gz]
+[2024-05-23 09:20:52] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_terminals_proxy-0.2.0.tar.gz]
+[2024-05-23 09:20:52] INFO root fetch - main [MainThread]: End processing [jupyter_server_terminals_proxy]: success
+[2024-05-23 09:20:52] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/1d/36/4aed9d6940d682b6a4e75295a18767903d99c13a11dc9aae97b2feb275ce/packmanager-0.0.0.tar.gz
+[2024-05-23 09:20:52] INFO root fetch - processPackages [gazu]: Remove: archive file [/home/abi/fetcher/tmp/gazu-0.9.8-py3-none-any.whl.zip]
+[2024-05-23 09:20:52] INFO root fetch - processPackages [gazu]: Remove: archive file [/home/abi/fetcher/tmp/gazu-0.9.9-py3-none-any.whl.zip]
+[2024-05-23 09:20:52] INFO root fetch - main [MainThread]: End processing [gazu]: success
+[2024-05-23 09:20:52] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:20:52] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 09:20:52] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:20:52] INFO root fetch - processPackages [FSV]: Remove: archive file [/home/abi/fetcher/tmp/FSV-1.0.8-py3-none-any.whl.zip]
+[2024-05-23 09:20:52] INFO root fetch - processPackages [FSV]: Remove: archive file [/home/abi/fetcher/tmp/FSV-1.0.9-py3-none-any.whl.zip]
+[2024-05-23 09:20:52] INFO root fetch - main [MainThread]: End processing [FSV]: success
+[2024-05-23 09:20:52] INFO root fetch - processPackages [wagtail_translatableforms]: Downloading https://files.pythonhosted.org/packages/41/77/b99d68df62c14d3ecfec64e2227f9898811e6564bf8e5af4970933579dca/wagtail_translatableforms-0.1.2.tar.gz
+[2024-05-23 09:20:52] INFO root fetch - main [MainThread]: End processing [FSV]: success
+[2024-05-23 09:20:52] INFO root fetch - main [MainThread]: End processing [FSV]: success
+[2024-05-23 09:20:52] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/5b/7b/bec7d893157043a84b6eb88c10caec32582ff1a674988d7fe54c574b10d3/packmanager-1.0.5.tar.gz
+[2024-05-23 09:20:52] INFO root fetch - main [MainThread]: End processing [FSV]: success
+[2024-05-23 09:20:52] INFO root fetch - processPackages [wagtail_translatableforms]: executing diffoscope
+[2024-05-23 09:20:52] INFO root fetch - processPackages [wagtail_translatableforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_translatableforms-0.1.1.tar.gz tmp/wagtail_translatableforms-0.1.2.tar.gz --markdown 20240523/w/wagtail_translatableforms/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 09:20:52] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-23 09:20:52] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-0.0.0.tar.gz tmp/packmanager-1.0.5.tar.gz --markdown 20240523/p/packManager/0.0.0-1.0.5/README.md --exclude *.pyd
+[2024-05-23 09:20:52] INFO root fetch - processPackages [wagtail_translatableforms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_translatableforms-0.1.1.tar.gz]
+[2024-05-23 09:20:52] INFO root fetch - processPackages [wagtail_translatableforms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_translatableforms-0.1.2.tar.gz]
+[2024-05-23 09:20:52] INFO root fetch - main [MainThread]: End processing [wagtail_translatableforms]: success
+[2024-05-23 09:20:53] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-0.0.0.tar.gz]
+[2024-05-23 09:20:53] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.5.tar.gz]
+[2024-05-23 09:20:53] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-23 09:20:53] INFO root fetch - main [MainThread]: Store serial: [23339072]
