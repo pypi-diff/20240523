@@ -7497,3 +7497,42 @@
 [2024-05-23 03:38:02] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.11.tar.gz]
 [2024-05-23 03:38:02] INFO root fetch - main [MainThread]: End processing [midas-open-parser]: success
 [2024-05-23 03:38:02] INFO root fetch - main [MainThread]: Store serial: [23336316]
+[2024-05-23 03:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336316]
+[2024-05-23 03:40:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 03:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-block-local
+[2024-05-23 03:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyAgrum-nightly
+[2024-05-23 03:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydflow
+[2024-05-23 03:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talking-equipment-sdk
+[2024-05-23 03:40:10] INFO root fetch - processPackages [talking-equipment-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 03:40:11] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/7e/f0/901d2339dc3c570e276b549430ee55608114aba280b5e65cecedd3b7eb4e/talking_equipment_sdk-0.0.8.tar.gz
+[2024-05-23 03:40:11] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 03:40:11] INFO root fetch - processPackages [pydflow]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-23 03:40:11] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/26/76/e5ebe2d32fa2e5ddfaf2965fa0ba0902b9d47af9f4832da253e69120138c/talking_equipment_sdk-0.0.9.tar.gz
+[2024-05-23 03:40:11] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-23 03:40:11] INFO root fetch - processPackages [talking-equipment-sdk]: executing diffoscope
+[2024-05-23 03:40:11] INFO root fetch - processPackages [talking-equipment-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talking_equipment_sdk-0.0.8.tar.gz tmp/talking_equipment_sdk-0.0.9.tar.gz --markdown 20240523/t/talking-equipment-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 03:40:11] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/8d/22/584c02b6b9a49c26a40cc22b7f10af25724fe70df5357e5a527c2c36729a/pydflow-1.8.8.tar.gz
+[2024-05-23 03:40:11] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-23 03:40:11] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/b8/ee/62435e12ce818ae5c15b7256f01e225eb1dd5e3d49e3bde8e913944b4caa/pydflow-1.8.9.tar.gz
+[2024-05-23 03:40:11] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-23 03:40:11] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240523/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 03:40:11] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.8.tar.gz]
+[2024-05-23 03:40:11] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.9.tar.gz]
+[2024-05-23 03:40:11] INFO root fetch - main [MainThread]: End processing [talking-equipment-sdk]: success
+[2024-05-23 03:40:11] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2024-05-23 03:40:11] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.8.8.tar.gz tmp/pydflow-1.8.9.tar.gz --markdown 20240523/p/pydflow/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-23 03:40:12] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-23 03:40:12] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-23 03:40:12] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-23 03:40:12] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.8.tar.gz]
+[2024-05-23 03:40:12] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.9.tar.gz]
+[2024-05-23 03:40:12] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2024-05-23 03:40:13] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-23 03:40:13] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-23 03:40:14] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-23 03:40:14] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-23 03:40:14] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240523/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-23 03:40:15] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 03:40:15] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-23 03:40:15] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-23 03:40:15] INFO root fetch - main [MainThread]: Store serial: [23336340]
