@@ -9920,3 +9920,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:09:23] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
 [2024-05-23 06:09:23] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
 [2024-05-23 06:09:23] INFO root fetch - main [MainThread]: Store serial: [23337479]
+[2024-05-23 06:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337479]
+[2024-05-23 06:11:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 06:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wf-rappi
+[2024-05-23 06:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bk-plugin-framework
+[2024-05-23 06:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: increff-runner
+[2024-05-23 06:11:32] INFO root fetch - processPackages [wf-rappi]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-23 06:11:32] INFO root fetch - processPackages [increff-runner]: New version: [4.2] Old Version: [4.1]
+[2024-05-23 06:11:32] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/01/7f/f847a057876c3d94230a1cb05c28bfb826c69b892ecc746d7cb2d7ba997f/wf_rappi-0.3.1.tar.gz
+[2024-05-23 06:11:32] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/29/07/a67de4bc7e27358d0b93187c5ca6c357c200714954140ec0df7f0f2a791a/increff_runner-4.1-py3-none-any.whl
+[2024-05-23 06:11:32] INFO root fetch - processPackages [bk-plugin-framework]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-23 06:11:32] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/97/6c/48f43de7433bd745951d905de7bcab6a2d709f8238465b51e9d81faa5540/bk-plugin-framework-2.2.3.tar.gz
+[2024-05-23 06:11:32] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/70/b2/77fafad400189691ffc8d9c4940892ac9bacadb669467f5c061b971de283/wf_rappi-0.3.2.tar.gz
+[2024-05-23 06:11:32] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/6a/7e/4be98a53066debd3b58db5a7269bbdd6d21ff989515e0a092a5c38f1be8d/increff_runner-4.2-py3-none-any.whl
+[2024-05-23 06:11:32] INFO root fetch - processPackages [wf-rappi]: executing diffoscope
+[2024-05-23 06:11:32] INFO root fetch - processPackages [wf-rappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_rappi-0.3.1.tar.gz tmp/wf_rappi-0.3.2.tar.gz --markdown 20240523/w/wf-rappi/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-23 06:11:32] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-23 06:11:32] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-4.1-py3-none-any.whl.zip tmp/increff_runner-4.2-py3-none-any.whl.zip --markdown 20240523/i/increff-runner/4.1-4.2/README.md --exclude *.pyd
+[2024-05-23 06:11:32] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/3c/87/663bd15e4c55f0b85b8d9a7dc3f275d618cd745048c5184c31831920dd2d/bk-plugin-framework-2.2.4.tar.gz
+[2024-05-23 06:11:32] INFO root fetch - processPackages [bk-plugin-framework]: executing diffoscope
+[2024-05-23 06:11:32] INFO root fetch - processPackages [bk-plugin-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-plugin-framework-2.2.3.tar.gz tmp/bk-plugin-framework-2.2.4.tar.gz --markdown 20240523/b/bk-plugin-framework/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-23 06:11:33] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.3.1.tar.gz]
+[2024-05-23 06:11:33] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.3.2.tar.gz]
+[2024-05-23 06:11:33] INFO root fetch - main [MainThread]: End processing [wf-rappi]: success
+[2024-05-23 06:11:33] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.1-py3-none-any.whl.zip]
+[2024-05-23 06:11:33] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
+[2024-05-23 06:11:33] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-23 06:11:33] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.2.3.tar.gz]
+[2024-05-23 06:11:33] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.2.4.tar.gz]
+[2024-05-23 06:11:33] INFO root fetch - main [MainThread]: End processing [bk-plugin-framework]: success
+[2024-05-23 06:11:33] INFO root fetch - main [MainThread]: Store serial: [23337485]
