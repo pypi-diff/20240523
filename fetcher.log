@@ -12015,3 +12015,30 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:27:35] INFO root fetch - processPackages [minipassword]: Remove: archive file [/home/abi/fetcher/tmp/minipassword-1.0.2.tar.gz]
 [2024-05-23 08:27:35] INFO root fetch - main [MainThread]: End processing [minipassword]: success
 [2024-05-23 08:27:35] INFO root fetch - main [MainThread]: Store serial: [23338459]
+[2024-05-23 08:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338459]
+[2024-05-23 08:29:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-23 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypods
+[2024-05-23 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acchi-muite-hoi
+[2024-05-23 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pozalabs-compose
+[2024-05-23 08:29:45] WARNING root fetch - processPackages [pypods]: Skipping, unable to determine old version
+[2024-05-23 08:29:45] INFO root fetch - main [MainThread]: End processing [pypods] error
+[2024-05-23 08:29:45] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-23 08:29:45] WARNING root fetch - processPackages [acchi-muite-hoi]: Skipping, unable to determine old version
+[2024-05-23 08:29:45] INFO root fetch - main [MainThread]: End processing [acchi-muite-hoi] error
+[2024-05-23 08:29:45] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 08:29:45] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-23 08:29:45] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2024-05-23 08:29:45] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-23 08:29:46] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-23 08:29:46] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240523/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-23 08:29:46] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2024-05-23 08:29:46] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2024-05-23 08:29:46] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20240523/p/pozalabs-compose/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 08:29:47] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2024-05-23 08:29:47] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2024-05-23 08:29:47] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2024-05-23 08:29:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-23 08:29:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-23 08:29:47] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-23 08:29:47] INFO root fetch - main [MainThread]: Store serial: [23338473]
