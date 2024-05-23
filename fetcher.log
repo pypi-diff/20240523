@@ -10240,3 +10240,29 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:31:09] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.8.3344rc0.tar.gz]
 [2024-05-23 06:31:09] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2024-05-23 06:31:09] INFO root fetch - main [MainThread]: Store serial: [23337666]
+[2024-05-23 06:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337666]
+[2024-05-23 06:33:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 06:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botasaurus-api
+[2024-05-23 06:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2024-05-23 06:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlframe
+[2024-05-23 06:33:18] INFO root fetch - processPackages [sqlframe]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-23 06:33:18] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.40]
+[2024-05-23 06:33:18] INFO root fetch - processPackages [botasaurus-api]: New version: [4.0.4] Old Version: [4.0.2]
+[2024-05-23 06:33:18] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/96/a6/6536233b628c9d774a38d71f2e4a091f1cb40700e32cc2e08fd3e0e92798/mb_pytorch-1.0.40.tar.gz
+[2024-05-23 06:33:18] INFO root fetch - processPackages [sqlframe]: Downloading https://files.pythonhosted.org/packages/c1/a7/447f79be878ba66d1551d4bdb95311213c975f65d6642bebb976461e63ad/sqlframe-1.1.0.tar.gz
+[2024-05-23 06:33:18] INFO root fetch - processPackages [botasaurus-api]: Downloading https://files.pythonhosted.org/packages/83/03/ab9981b9c1a59f43802541f114acbb1bb6359f20b70c582179c3ba0cdd9b/botasaurus_api-4.0.2.tar.gz
+[2024-05-23 06:33:18] WARNING root fetch - processPackages [sqlframe]: Skipping package: exceeds size limit 17078754>=10485760
+[2024-05-23 06:33:18] INFO root fetch - main [MainThread]: End processing [sqlframe] error
+[2024-05-23 06:33:18] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-23 06:33:18] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-23 06:33:18] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.40.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240523/m/mb-pytorch/1.0.40-1.0.5/README.md --exclude *.pyd
+[2024-05-23 06:33:18] INFO root fetch - processPackages [botasaurus-api]: Downloading https://files.pythonhosted.org/packages/4d/f8/22f4f9b608a9b80ee8fdecb10b382c46924b552f8e6adab99ae980d40a5b/botasaurus_api-4.0.4.tar.gz
+[2024-05-23 06:33:18] INFO root fetch - processPackages [botasaurus-api]: executing diffoscope
+[2024-05-23 06:33:18] INFO root fetch - processPackages [botasaurus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_api-4.0.2.tar.gz tmp/botasaurus_api-4.0.4.tar.gz --markdown 20240523/b/botasaurus-api/4.0.2-4.0.4/README.md --exclude *.pyd
+[2024-05-23 06:33:19] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.40.tar.gz]
+[2024-05-23 06:33:19] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-23 06:33:19] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-23 06:33:19] INFO root fetch - processPackages [botasaurus-api]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_api-4.0.2.tar.gz]
+[2024-05-23 06:33:19] INFO root fetch - processPackages [botasaurus-api]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_api-4.0.4.tar.gz]
+[2024-05-23 06:33:19] INFO root fetch - main [MainThread]: End processing [botasaurus-api]: success
+[2024-05-23 06:33:19] INFO root fetch - main [MainThread]: Store serial: [23337675]
