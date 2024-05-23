@@ -23231,3 +23231,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 14:05:51] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-05-23 14:05:51] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-05-23 14:05:51] INFO root fetch - main [MainThread]: Store serial: [23342985]
+[2024-05-23 14:07:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342985]
+[2024-05-23 14:08:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-energiepartagee
+[2024-05-23 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DocumentsReader
+[2024-05-23 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naturalexperiments
+[2024-05-23 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangoldp-energiepartagee
+[2024-05-23 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faucetpay
+[2024-05-23 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-France
+[2024-05-23 14:08:00] INFO root fetch - processPackages [naturalexperiments]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 14:08:00] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 14:08:00] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 14:08:00] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2024-05-23 14:08:00] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/fc/9e/f9c4d006c2970f5b958c910085be6e1fe605575c7f77e1e4747ec8743908/naturalexperiments-0.0.3.tar.gz
+[2024-05-23 14:08:00] WARNING root fetch - processPackages [faucetpay]: Skipping, unable to determine old version
+[2024-05-23 14:08:00] INFO root fetch - main [MainThread]: End processing [faucetpay] error
+[2024-05-23 14:08:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-23 14:08:00] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2024-05-23 14:08:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-23 14:08:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-23 14:08:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-23 14:08:00] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/0b/3a/e126d458e7efa6c5c08ed50f4d4fb79b1f5de78f34c99dd4cefe9bef32ab/naturalexperiments-0.0.4.tar.gz
+[2024-05-23 14:08:01] INFO root fetch - processPackages [naturalexperiments]: executing diffoscope
+[2024-05-23 14:08:01] INFO root fetch - processPackages [naturalexperiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalexperiments-0.0.3.tar.gz tmp/naturalexperiments-0.0.4.tar.gz --markdown 20240523/n/naturalexperiments/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 14:08:01] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2024-05-23 14:08:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-23 14:08:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-23 14:08:01] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2024-05-23 14:08:01] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20240523/O/OpenFisca-France/99.0.0-99.0.1/README.md --exclude *.pyd
+[2024-05-23 14:08:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-23 14:08:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240523/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-23 14:08:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-23 14:08:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240523/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-23 14:08:01] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.0.3.tar.gz]
+[2024-05-23 14:08:01] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.0.4.tar.gz]
+[2024-05-23 14:08:01] INFO root fetch - main [MainThread]: End processing [naturalexperiments]: success
+[2024-05-23 14:08:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-23 14:08:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-23 14:08:02] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-23 14:08:02] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-23 14:08:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2024-05-23 14:08:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2024-05-23 14:08:10] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2024-05-23 14:08:10] INFO root fetch - main [MainThread]: Store serial: [23343006]
