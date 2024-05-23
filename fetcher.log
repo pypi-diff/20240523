@@ -9835,3 +9835,76 @@
 [2024-05-23 06:05:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
 [2024-05-23 06:05:01] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2024-05-23 06:05:01] INFO root fetch - main [MainThread]: Store serial: [23337453]
+[2024-05-23 06:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337453]
+[2024-05-23 06:07:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 06:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2024-05-23 06:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-binary
+[2024-05-23 06:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commute-agci
+[2024-05-23 06:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fpb
+[2024-05-23 06:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surfkit
+[2024-05-23 06:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prompt-learner
+[2024-05-23 06:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geomockimages
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-23 06:07:11] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-23 06:07:11] INFO root fetch - processPackages [fpb]: New version: [0.3] Old Version: [0.2]
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-23 06:07:11] INFO root fetch - processPackages [prompt-learner]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-23 06:07:11] INFO root fetch - processPackages [fpb]: Downloading https://files.pythonhosted.org/packages/54/3b/ef3cd127b1c2361e1fbf9b09a11355429b053c2500e66f6e47cdc15d9509/fpb-0.2.tar.gz
+[2024-05-23 06:07:11] WARNING root fetch - processPackages [geomockimages]: Skipping, unable to determine old version
+[2024-05-23 06:07:11] INFO root fetch - main [MainThread]: End processing [geomockimages] error
+[2024-05-23 06:07:11] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-23 06:07:11] WARNING root fetch - processPackages [commute-agci]: Skipping, unable to determine old version
+[2024-05-23 06:07:11] INFO root fetch - main [MainThread]: End processing [commute-agci] error
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-23 06:07:11] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-23 06:07:11] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/5c/75/485c746200fdaa88eb71b2d5ce0bb67ebf641376c6354114cc29ea2be10a/prompt_learner-0.2.5.tar.gz
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-23 06:07:11] INFO root fetch - processPackages [fpb]: Downloading https://files.pythonhosted.org/packages/b0/d8/4f64befff8d8bc9c131d4df5ff61f43a3598d769bfee62968f76863623e5/fpb-0.3.tar.gz
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240523/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-23 06:07:11] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-23 06:07:11] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240523/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-23 06:07:11] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240523/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-23 06:07:11] INFO root fetch - processPackages [fpb]: executing diffoscope
+[2024-05-23 06:07:11] INFO root fetch - processPackages [fpb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpb-0.2.tar.gz tmp/fpb-0.3.tar.gz --markdown 20240523/f/fpb/0.2-0.3/README.md --exclude *.pyd
+[2024-05-23 06:07:12] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/1e/e0/ebd66e136513a15f520fc5ca0a7f8903d636913f234f2ffea6efd6dbdd6e/prompt_learner-0.2.6.tar.gz
+[2024-05-23 06:07:12] INFO root fetch - processPackages [prompt-learner]: executing diffoscope
+[2024-05-23 06:07:12] INFO root fetch - processPackages [prompt-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_learner-0.2.5.tar.gz tmp/prompt_learner-0.2.6.tar.gz --markdown 20240523/p/prompt-learner/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-23 06:07:12] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-23 06:07:12] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-23 06:07:12] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-23 06:07:12] INFO root fetch - processPackages [fpb]: Remove: archive file [/home/abi/fetcher/tmp/fpb-0.2.tar.gz]
+[2024-05-23 06:07:12] INFO root fetch - processPackages [fpb]: Remove: archive file [/home/abi/fetcher/tmp/fpb-0.3.tar.gz]
+[2024-05-23 06:07:12] INFO root fetch - main [MainThread]: End processing [fpb]: success
+[2024-05-23 06:07:12] ERROR root fetch - processPackages [chromedriver-binary]: Diffoscope failed: time="2024-05-23T06:07:11+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
+
+[2024-05-23 06:07:12] INFO root fetch - main [MainThread]: End processing [chromedriver-binary] error
+[2024-05-23 06:07:12] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-23 06:07:12] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-23 06:07:12] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-23 06:07:12] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.5.tar.gz]
+[2024-05-23 06:07:12] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.6.tar.gz]
+[2024-05-23 06:07:12] INFO root fetch - main [MainThread]: End processing [prompt-learner]: success
+[2024-05-23 06:07:12] INFO root fetch - main [MainThread]: Store serial: [23337476]
