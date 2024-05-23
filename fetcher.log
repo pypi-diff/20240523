@@ -9730,3 +9730,15 @@
 [2024-05-23 05:56:18] INFO root fetch - processPackages [bk-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-runtime-2.0.7.tar.gz]
 [2024-05-23 05:56:18] INFO root fetch - main [MainThread]: End processing [bk-plugin-runtime]: success
 [2024-05-23 05:56:18] INFO root fetch - main [MainThread]: Store serial: [23337401]
+[2024-05-23 05:58:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337401]
+[2024-05-23 05:58:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wf-rappi
+[2024-05-23 05:58:27] INFO root fetch - processPackages [wf-rappi]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-23 05:58:27] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/76/47/5d674f0a783486425083140835455a2eb3d8c720512ca3e751e29fb1d4e8/wf_rappi-0.3.0.tar.gz
+[2024-05-23 05:58:27] INFO root fetch - processPackages [wf-rappi]: Downloading https://files.pythonhosted.org/packages/01/7f/f847a057876c3d94230a1cb05c28bfb826c69b892ecc746d7cb2d7ba997f/wf_rappi-0.3.1.tar.gz
+[2024-05-23 05:58:27] INFO root fetch - processPackages [wf-rappi]: executing diffoscope
+[2024-05-23 05:58:27] INFO root fetch - processPackages [wf-rappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf_rappi-0.3.0.tar.gz tmp/wf_rappi-0.3.1.tar.gz --markdown 20240523/w/wf-rappi/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-23 05:58:28] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.3.0.tar.gz]
+[2024-05-23 05:58:28] INFO root fetch - processPackages [wf-rappi]: Remove: archive file [/home/abi/fetcher/tmp/wf_rappi-0.3.1.tar.gz]
+[2024-05-23 05:58:28] INFO root fetch - main [MainThread]: End processing [wf-rappi]: success
+[2024-05-23 05:58:28] INFO root fetch - main [MainThread]: Store serial: [23337406]
