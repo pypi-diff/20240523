@@ -10847,3 +10847,36 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:20:58] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.7a2.tar.gz]
 [2024-05-23 07:20:58] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
 [2024-05-23 07:20:58] INFO root fetch - main [MainThread]: Store serial: [23337938]
+[2024-05-23 07:23:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337938]
+[2024-05-23 07:23:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afeng-py-tools
+[2024-05-23 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-newrelic
+[2024-05-23 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: darwin-shared
+[2024-05-23 07:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spit
+[2024-05-23 07:23:07] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 07:23:07] INFO root fetch - processPackages [spit]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-23 07:23:07] WARNING root fetch - processPackages [darwin-shared]: Skipping, unable to determine old version
+[2024-05-23 07:23:07] INFO root fetch - main [MainThread]: End processing [darwin-shared] error
+[2024-05-23 07:23:07] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-23 07:23:07] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-23 07:23:07] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/45/cc/e8b8bbc49215ae45141193c1cf03efd82e56da2b72238e4b481eb8762ae4/spit-0.2.3.tar.gz
+[2024-05-23 07:23:07] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-23 07:23:07] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-23 07:23:07] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-23 07:23:07] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240523/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 07:23:08] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/a1/d8/92e3823a4c5d65367d27a7a77b50f4ccb3257aed83e2fa8617791e39d4e9/spit-0.2.4.tar.gz
+[2024-05-23 07:23:08] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-23 07:23:08] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-05-23 07:23:08] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.2.3.tar.gz tmp/spit-0.2.4.tar.gz --markdown 20240523/s/spit/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-23 07:23:08] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-23 07:23:08] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240523/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-23 07:23:08] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.2.3.tar.gz]
+[2024-05-23 07:23:08] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.2.4.tar.gz]
+[2024-05-23 07:23:08] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-05-23 07:23:09] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-23 07:23:09] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-23 07:23:09] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-23 07:23:09] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-23 07:23:09] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-23 07:23:09] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-23 07:23:09] INFO root fetch - main [MainThread]: Store serial: [23337950]
