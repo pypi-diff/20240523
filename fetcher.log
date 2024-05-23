@@ -20608,3 +20608,42 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:45:19] INFO root fetch - processPackages [django-flow-forge]: Remove: archive file [/home/abi/fetcher/tmp/django_flow_forge-0.3.8.tar.gz]
 [2024-05-23 12:45:19] INFO root fetch - main [MainThread]: End processing [django-flow-forge]: success
 [2024-05-23 12:45:19] INFO root fetch - main [MainThread]: Store serial: [23341945]
+[2024-05-23 12:47:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341945]
+[2024-05-23 12:47:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 12:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fakenos
+[2024-05-23 12:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utbot-executor
+[2024-05-23 12:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mask-key
+[2024-05-23 12:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-snippets
+[2024-05-23 12:47:29] INFO root fetch - processPackages [mask-key]: New version: [0.3.1] Old Version: [0.2.8]
+[2024-05-23 12:47:29] INFO root fetch - processPackages [mask-key]: Downloading https://files.pythonhosted.org/packages/b7/2f/5e12ecf10b88c72de9cf536299110a1349da2d0f0275cb4e621e119ea526/mask_key-0.2.8.tar.gz
+[2024-05-23 12:47:29] INFO root fetch - processPackages [fakenos]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-05-23 12:47:29] INFO root fetch - processPackages [torch-snippets]: New version: [0.532] Old Version: [0.531]
+[2024-05-23 12:47:29] INFO root fetch - processPackages [utbot-executor]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-23 12:47:29] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/85/d4/ab6d2f95a286976f7309eae2dbbc761ba4e75956393cd0665f64045b3b73/utbot_executor-1.9.8.tar.gz
+[2024-05-23 12:47:29] INFO root fetch - processPackages [fakenos]: Downloading https://files.pythonhosted.org/packages/fb/b5/25bae7b4e00cfa86cc447384230dd76f3b44442b4da65e44e8bec419efb3/fakenos-0.2.1.tar.gz
+[2024-05-23 12:47:29] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/d8/db/f41e313a82cf04e5e9f4551a15bb27469e6b1bc5290570a7a1a9f5b5be75/torch_snippets-0.531.tar.gz
+[2024-05-23 12:47:29] INFO root fetch - processPackages [mask-key]: Downloading https://files.pythonhosted.org/packages/da/08/740acd0f5c682de5266b3ef67aa50c388c0110f79d07b81676f16221eb40/mask_key-0.3.1.tar.gz
+[2024-05-23 12:47:29] INFO root fetch - processPackages [mask-key]: executing diffoscope
+[2024-05-23 12:47:29] INFO root fetch - processPackages [mask-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mask_key-0.2.8.tar.gz tmp/mask_key-0.3.1.tar.gz --markdown 20240523/m/mask-key/0.2.8-0.3.1/README.md --exclude *.pyd
+[2024-05-23 12:47:29] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/06/40/5d86d910400b23307e02cc9f33e7ca20599f33ee7eb023d433d47853eb78/torch_snippets-0.532.tar.gz
+[2024-05-23 12:47:30] INFO root fetch - processPackages [fakenos]: Downloading https://files.pythonhosted.org/packages/51/43/ad4095ad840b166e5bf302a52981aa58731906e964e0c9e1998bb24a4aed/fakenos-1.0.0.tar.gz
+[2024-05-23 12:47:30] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/32/89/1f6362c88c700f02e8264cc0613692ed30b2d85e07e48cefb30abe3427b3/utbot_executor-1.9.9.tar.gz
+[2024-05-23 12:47:30] INFO root fetch - processPackages [torch-snippets]: executing diffoscope
+[2024-05-23 12:47:30] INFO root fetch - processPackages [torch-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_snippets-0.531.tar.gz tmp/torch_snippets-0.532.tar.gz --markdown 20240523/t/torch-snippets/0.531-0.532/README.md --exclude *.pyd
+[2024-05-23 12:47:30] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2024-05-23 12:47:30] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.9.8.tar.gz tmp/utbot_executor-1.9.9.tar.gz --markdown 20240523/u/utbot-executor/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-23 12:47:30] INFO root fetch - processPackages [fakenos]: executing diffoscope
+[2024-05-23 12:47:30] INFO root fetch - processPackages [fakenos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakenos-0.2.1.tar.gz tmp/fakenos-1.0.0.tar.gz --markdown 20240523/f/fakenos/0.2.1-1.0.0/README.md --exclude *.pyd
+[2024-05-23 12:47:30] INFO root fetch - processPackages [mask-key]: Remove: archive file [/home/abi/fetcher/tmp/mask_key-0.2.8.tar.gz]
+[2024-05-23 12:47:30] INFO root fetch - processPackages [mask-key]: Remove: archive file [/home/abi/fetcher/tmp/mask_key-0.3.1.tar.gz]
+[2024-05-23 12:47:30] INFO root fetch - main [MainThread]: End processing [mask-key]: success
+[2024-05-23 12:47:30] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.531.tar.gz]
+[2024-05-23 12:47:30] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.532.tar.gz]
+[2024-05-23 12:47:30] INFO root fetch - main [MainThread]: End processing [torch-snippets]: success
+[2024-05-23 12:47:30] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.9.8.tar.gz]
+[2024-05-23 12:47:30] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.9.9.tar.gz]
+[2024-05-23 12:47:30] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2024-05-23 12:47:31] INFO root fetch - processPackages [fakenos]: Remove: archive file [/home/abi/fetcher/tmp/fakenos-0.2.1.tar.gz]
+[2024-05-23 12:47:31] INFO root fetch - processPackages [fakenos]: Remove: archive file [/home/abi/fetcher/tmp/fakenos-1.0.0.tar.gz]
+[2024-05-23 12:47:31] INFO root fetch - main [MainThread]: End processing [fakenos]: success
+[2024-05-23 12:47:31] INFO root fetch - main [MainThread]: Store serial: [23341957]
