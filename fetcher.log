@@ -9366,3 +9366,47 @@
 [2024-05-23 05:30:08] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz]
 [2024-05-23 05:30:08] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
 [2024-05-23 05:30:08] INFO root fetch - main [MainThread]: Store serial: [23337156]
+[2024-05-23 05:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337156]
+[2024-05-23 05:32:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 05:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neurocaps
+[2024-05-23 05:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flashkit
+[2024-05-23 05:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinpointPy
+[2024-05-23 05:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nlp-nightly
+[2024-05-23 05:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PipeGraphPy
+[2024-05-23 05:32:17] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-23 05:32:17] INFO root fetch - processPackages [PipeGraphPy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 05:32:17] INFO root fetch - processPackages [flashkit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-23 05:32:17] INFO root fetch - processPackages [neurocaps]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 05:32:17] INFO root fetch - processPackages [PipeGraphPy]: Downloading https://files.pythonhosted.org/packages/ac/37/96d2d6b3c91b0597b28d9a3c23d4fca2cfefec589be454e341aa065f7be2/pipegraphpy-1.0.8.tar.gz
+[2024-05-23 05:32:17] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-23 05:32:17] WARNING root fetch - processPackages [PipeGraphPy]: Skipping package: exceeds size limit 14474483>=10485760
+[2024-05-23 05:32:17] INFO root fetch - main [MainThread]: End processing [PipeGraphPy] error
+[2024-05-23 05:32:17] INFO root fetch - processPackages [pinpointPy]: New version: [1.2.5] Old Version: [1.2.1]
+[2024-05-23 05:32:17] INFO root fetch - processPackages [flashkit]: Downloading https://files.pythonhosted.org/packages/47/80/cc58db1268e352b9985879fe5fa12fcb08b8b4f120e01edd79c4f5bd4aca/flashkit-1.0.1.tar.gz
+[2024-05-23 05:32:17] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/e3/67/44f0f6e02690ad2f3641ee4d70a70aecb3128dda0d1d416533938a63600f/neurocaps-0.9.0.tar.gz
+[2024-05-23 05:32:17] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-23 05:32:17] INFO root fetch - processPackages [pinpointPy]: Downloading https://files.pythonhosted.org/packages/8a/26/ff42323fced74539e174eb275844ba524d4feb343a8c92fcb82a07fabfbf/pinpointPy-1.2.1-cp36-cp36m-macosx_10_9_x86_64.whl
+[2024-05-23 05:32:17] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-23 05:32:17] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240523/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-23 05:32:17] INFO root fetch - processPackages [flashkit]: Downloading https://files.pythonhosted.org/packages/47/96/89949c87c1b9945f5f205778661b43ddee64781e28422a58bba7a6128105/flashkit-1.0.2.tar.gz
+[2024-05-23 05:32:17] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/c7/62/3455dd475a217d624a7511582995df770a85840f8cc5970686c0539e00af/neurocaps-0.9.1.tar.gz
+[2024-05-23 05:32:18] INFO root fetch - processPackages [flashkit]: executing diffoscope
+[2024-05-23 05:32:18] INFO root fetch - processPackages [flashkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashkit-1.0.1.tar.gz tmp/flashkit-1.0.2.tar.gz --markdown 20240523/f/flashkit/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-23 05:32:18] INFO root fetch - processPackages [neurocaps]: executing diffoscope
+[2024-05-23 05:32:18] INFO root fetch - processPackages [neurocaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurocaps-0.9.0.tar.gz tmp/neurocaps-0.9.1.tar.gz --markdown 20240523/n/neurocaps/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 05:32:18] INFO root fetch - processPackages [flashkit]: Remove: archive file [/home/abi/fetcher/tmp/flashkit-1.0.1.tar.gz]
+[2024-05-23 05:32:18] INFO root fetch - processPackages [flashkit]: Remove: archive file [/home/abi/fetcher/tmp/flashkit-1.0.2.tar.gz]
+[2024-05-23 05:32:18] INFO root fetch - main [MainThread]: End processing [flashkit]: success
+[2024-05-23 05:32:18] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.0.tar.gz]
+[2024-05-23 05:32:18] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.1.tar.gz]
+[2024-05-23 05:32:18] INFO root fetch - main [MainThread]: End processing [neurocaps]: success
+[2024-05-23 05:32:18] INFO root fetch - processPackages [pinpointPy]: Downloading https://files.pythonhosted.org/packages/0e/3e/a4ccd6613e4c6860677b826391161336baf79b515a993e5a754c1e0a4f92/pinpointPy-1.2.5.tar.gz
+[2024-05-23 05:32:19] INFO root fetch - processPackages [pinpointPy]: executing diffoscope
+[2024-05-23 05:32:19] INFO root fetch - processPackages [pinpointPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinpointPy-1.2.1-cp36-cp36m-macosx_10_9_x86_64.whl.zip tmp/pinpointPy-1.2.5.tar.gz --markdown 20240523/p/pinpointPy/1.2.1-1.2.5/README.md --exclude *.pyd
+[2024-05-23 05:32:19] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-23 05:32:19] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-23 05:32:19] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-23 05:32:19] INFO root fetch - processPackages [pinpointPy]: Remove: archive file [/home/abi/fetcher/tmp/pinpointPy-1.2.1-cp36-cp36m-macosx_10_9_x86_64.whl.zip]
+[2024-05-23 05:32:19] INFO root fetch - processPackages [pinpointPy]: Remove: archive file [/home/abi/fetcher/tmp/pinpointPy-1.2.5.tar.gz]
+[2024-05-23 05:32:19] INFO root fetch - main [MainThread]: End processing [pinpointPy]: success
+[2024-05-23 05:32:19] INFO root fetch - main [MainThread]: Store serial: [23337202]
