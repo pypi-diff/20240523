@@ -10595,3 +10595,28 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:03:11] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
 [2024-05-23 07:03:11] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
 [2024-05-23 07:03:11] INFO root fetch - main [MainThread]: Store serial: [23337826]
+[2024-05-23 07:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337826]
+[2024-05-23 07:05:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commute-agci
+[2024-05-23 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapientml-core
+[2024-05-23 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anyon
+[2024-05-23 07:05:19] INFO root fetch - processPackages [commute-agci]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-23 07:05:20] INFO root fetch - processPackages [sapientml-core]: New version: [0.5.5] Old Version: [0.5.4.post3]
+[2024-05-23 07:05:20] INFO root fetch - processPackages [anyon]: New version: [4.2.5] Old Version: [4.2.4]
+[2024-05-23 07:05:20] ERROR root fetch - processPackages [commute-agci]: Unable to fetch info: No such project/version 'commute-agci' 0.5.5
+[2024-05-23 07:05:20] INFO root fetch - main [MainThread]: End processing [commute-agci] error
+[2024-05-23 07:05:20] INFO root fetch - processPackages [sapientml-core]: Downloading https://files.pythonhosted.org/packages/91/bc/6eb4ef50ede3987afd8d0daaf7afa61003f8b2f7acc96b75d2413827a2ab/sapientml_core-0.5.4.post3.tar.gz
+[2024-05-23 07:05:20] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/b4/43/e59a48f7e572ff3a7e157ed705a80aaca62f0a03853a562d2629ba391d9f/anyon-4.2.4-cp312-none-win_amd64.whl
+[2024-05-23 07:05:20] INFO root fetch - processPackages [sapientml-core]: Downloading https://files.pythonhosted.org/packages/45/b4/905e6daa3f3a8840917e9cbe0e2c22c05b125d068f13e2d12289af3f35a3/sapientml_core-0.5.5.tar.gz
+[2024-05-23 07:05:20] INFO root fetch - processPackages [sapientml-core]: executing diffoscope
+[2024-05-23 07:05:20] INFO root fetch - processPackages [sapientml-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapientml_core-0.5.4.post3.tar.gz tmp/sapientml_core-0.5.5.tar.gz --markdown 20240523/s/sapientml-core/0.5.4.post3-0.5.5/README.md --exclude *.pyd
+[2024-05-23 07:05:20] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/94/15/ba99cf3706f1f3ac84798c4957f4310826321754bae6c0651159639abed8/anyon-4.2.5-cp312-none-win_amd64.whl
+[2024-05-23 07:05:21] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2024-05-23 07:05:21] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-4.2.4-cp312-none-win_amd64.whl.zip tmp/anyon-4.2.5-cp312-none-win_amd64.whl.zip --markdown 20240523/a/anyon/4.2.4-4.2.5/README.md --exclude *.pyd
+[2024-05-23 07:05:21] INFO root fetch - processPackages [sapientml-core]: Remove: archive file [/home/abi/fetcher/tmp/sapientml_core-0.5.4.post3.tar.gz]
+[2024-05-23 07:05:21] INFO root fetch - processPackages [sapientml-core]: Remove: archive file [/home/abi/fetcher/tmp/sapientml_core-0.5.5.tar.gz]
+[2024-05-23 07:05:21] INFO root fetch - main [MainThread]: End processing [sapientml-core]: success
+[2024-05-23 07:05:21] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.2.4-cp312-none-win_amd64.whl.zip]
+[2024-05-23 07:05:21] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.2.5-cp312-none-win_amd64.whl.zip]
+[2024-05-23 07:05:21] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2024-05-23 07:05:21] INFO root fetch - main [MainThread]: Store serial: [23337843]
