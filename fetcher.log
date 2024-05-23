@@ -19665,3 +19665,36 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:03:07] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.9.0.tar.gz]
 [2024-05-23 12:03:07] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
 [2024-05-23 12:03:07] INFO root fetch - main [MainThread]: Store serial: [23341549]
+[2024-05-23 12:05:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341549]
+[2024-05-23 12:05:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 12:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: detectron211
+[2024-05-23 12:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-keras-nightly
+[2024-05-23 12:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cryoemservices
+[2024-05-23 12:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: depsland
+[2024-05-23 12:05:16] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024052209] Old Version: [2.17.0.dev2024052109]
+[2024-05-23 12:05:16] INFO root fetch - processPackages [cryoemservices]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-23 12:05:16] ERROR root fetch - processPackages [detectron211]: Unable to get metadata: No such project 'detectron211'
+[2024-05-23 12:05:16] INFO root fetch - processPackages [depsland]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-23 12:05:16] INFO root fetch - main [MainThread]: End processing [detectron211] error
+[2024-05-23 12:05:16] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/56/eb/a46107ae4c81f8f3f0ff7587748314c3920ce0e73c8a051fba35ef4fd67b/tf_keras_nightly-2.17.0.dev2024052109.tar.gz
+[2024-05-23 12:05:16] INFO root fetch - processPackages [cryoemservices]: Downloading https://files.pythonhosted.org/packages/53/22/7a4925bfad9cc1b93cb46d03ea4d87c247032ced1e31e71e95d8d2d480a2/cryoemservices-0.2.2.tar.gz
+[2024-05-23 12:05:16] INFO root fetch - processPackages [depsland]: Downloading https://files.pythonhosted.org/packages/21/a3/54651e2a1c77a155b9e0d51161694b7fe7f87e0776aff063341589767081/depsland-0.6.1-py3-none-any.whl
+[2024-05-23 12:05:17] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/09/10/b6d09ed0c8509994565e08ab20226d7170bd356b1399c39519a93deab838/tf_keras_nightly-2.17.0.dev2024052209.tar.gz
+[2024-05-23 12:05:17] INFO root fetch - processPackages [cryoemservices]: Downloading https://files.pythonhosted.org/packages/46/ef/b44d81672beaa09ab7b31477f3d18282b07cd30f311e0050867dedbb782d/cryoemservices-0.2.4.tar.gz
+[2024-05-23 12:05:17] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-23 12:05:17] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024052109.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024052209.tar.gz --markdown 20240523/t/tf-keras-nightly/2.17.0.dev2024052109-2.17.0.dev2024052209/README.md --exclude *.pyd
+[2024-05-23 12:05:17] INFO root fetch - processPackages [cryoemservices]: executing diffoscope
+[2024-05-23 12:05:17] INFO root fetch - processPackages [cryoemservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryoemservices-0.2.2.tar.gz tmp/cryoemservices-0.2.4.tar.gz --markdown 20240523/c/cryoemservices/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-23 12:05:17] INFO root fetch - processPackages [depsland]: Downloading https://files.pythonhosted.org/packages/1e/a9/33c4f8c086e7a56e3ae7640060c7916cb0b7750117b56fb68cdd899614ae/depsland-0.7.0-py3-none-any.whl
+[2024-05-23 12:05:18] INFO root fetch - processPackages [cryoemservices]: Remove: archive file [/home/abi/fetcher/tmp/cryoemservices-0.2.2.tar.gz]
+[2024-05-23 12:05:18] INFO root fetch - processPackages [cryoemservices]: Remove: archive file [/home/abi/fetcher/tmp/cryoemservices-0.2.4.tar.gz]
+[2024-05-23 12:05:18] INFO root fetch - main [MainThread]: End processing [cryoemservices]: success
+[2024-05-23 12:05:18] INFO root fetch - processPackages [depsland]: executing diffoscope
+[2024-05-23 12:05:18] INFO root fetch - processPackages [depsland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depsland-0.6.1-py3-none-any.whl.zip tmp/depsland-0.7.0-py3-none-any.whl.zip --markdown 20240523/d/depsland/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-23 12:05:19] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052109.tar.gz]
+[2024-05-23 12:05:19] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052209.tar.gz]
+[2024-05-23 12:05:19] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-23 12:05:21] INFO root fetch - processPackages [depsland]: Remove: archive file [/home/abi/fetcher/tmp/depsland-0.6.1-py3-none-any.whl.zip]
+[2024-05-23 12:05:21] INFO root fetch - processPackages [depsland]: Remove: archive file [/home/abi/fetcher/tmp/depsland-0.7.0-py3-none-any.whl.zip]
+[2024-05-23 12:05:21] INFO root fetch - main [MainThread]: End processing [depsland]: success
+[2024-05-23 12:05:21] INFO root fetch - main [MainThread]: Store serial: [23341578]
