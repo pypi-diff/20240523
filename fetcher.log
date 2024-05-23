@@ -9267,3 +9267,36 @@
 [2024-05-23 05:23:38] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.315.tar.gz]
 [2024-05-23 05:23:38] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
 [2024-05-23 05:23:38] INFO root fetch - main [MainThread]: Store serial: [23337116]
+[2024-05-23 05:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337116]
+[2024-05-23 05:25:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 05:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-simple-apikey
+[2024-05-23 05:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiprocessed-socket
+[2024-05-23 05:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hubblescope
+[2024-05-23 05:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dpkits
+[2024-05-23 05:25:46] INFO root fetch - processPackages [hubblescope]: New version: [4.2.1] Old Version: [4.1.1]
+[2024-05-23 05:25:46] INFO root fetch - processPackages [multiprocessed-socket]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 05:25:46] WARNING root fetch - processPackages [drf-simple-apikey]: Skipping, unable to determine old version
+[2024-05-23 05:25:46] INFO root fetch - main [MainThread]: End processing [drf-simple-apikey] error
+[2024-05-23 05:25:46] INFO root fetch - processPackages [hubblescope]: Downloading https://files.pythonhosted.org/packages/05/dc/3729cac8857a45786bce626797acb5b387f348c361b225e80644c000607f/hubblescope-4.1.1.tar.gz
+[2024-05-23 05:25:46] INFO root fetch - processPackages [dpkits]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-23 05:25:46] INFO root fetch - processPackages [multiprocessed-socket]: Downloading https://files.pythonhosted.org/packages/cb/a4/34dc826150c9b6f3d5032f66efe92769f46601e07dc9277963a4f47fae7c/multiprocessed-socket-0.1.0.tar.gz
+[2024-05-23 05:25:46] INFO root fetch - processPackages [hubblescope]: Downloading https://files.pythonhosted.org/packages/b1/1e/8207a53318b492cb092f1c6e9b3484a493d7d424ab711fa81dd5d5f27ba4/hubblescope-4.2.1.tar.gz
+[2024-05-23 05:25:46] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/86/a3/1490e605e91259e79c986c8b473f3fbbcacecbe5ef503d1f43bf2a90dc72/dpkits-1.2.4.tar.gz
+[2024-05-23 05:25:46] INFO root fetch - processPackages [hubblescope]: executing diffoscope
+[2024-05-23 05:25:46] INFO root fetch - processPackages [hubblescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubblescope-4.1.1.tar.gz tmp/hubblescope-4.2.1.tar.gz --markdown 20240523/h/hubblescope/4.1.1-4.2.1/README.md --exclude *.pyd
+[2024-05-23 05:25:46] INFO root fetch - processPackages [multiprocessed-socket]: Downloading https://files.pythonhosted.org/packages/e6/35/547f28646900741d9009f2b00f3e43511040e1ddbd6b9a3afad6b770a41c/multiprocessed-socket-0.1.1.tar.gz
+[2024-05-23 05:25:46] INFO root fetch - processPackages [multiprocessed-socket]: executing diffoscope
+[2024-05-23 05:25:46] INFO root fetch - processPackages [multiprocessed-socket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiprocessed-socket-0.1.0.tar.gz tmp/multiprocessed-socket-0.1.1.tar.gz --markdown 20240523/m/multiprocessed-socket/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 05:25:46] INFO root fetch - processPackages [dpkits]: Downloading https://files.pythonhosted.org/packages/c5/6c/edbe4e56c31d70adf5f993e61928aed381a67fcd7977d6866480ed598696/dpkits-1.2.5.tar.gz
+[2024-05-23 05:25:46] INFO root fetch - processPackages [dpkits]: executing diffoscope
+[2024-05-23 05:25:46] INFO root fetch - processPackages [dpkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpkits-1.2.4.tar.gz tmp/dpkits-1.2.5.tar.gz --markdown 20240523/d/dpkits/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-23 05:25:47] INFO root fetch - processPackages [hubblescope]: Remove: archive file [/home/abi/fetcher/tmp/hubblescope-4.1.1.tar.gz]
+[2024-05-23 05:25:47] INFO root fetch - processPackages [hubblescope]: Remove: archive file [/home/abi/fetcher/tmp/hubblescope-4.2.1.tar.gz]
+[2024-05-23 05:25:47] INFO root fetch - main [MainThread]: End processing [hubblescope]: success
+[2024-05-23 05:25:47] INFO root fetch - processPackages [multiprocessed-socket]: Remove: archive file [/home/abi/fetcher/tmp/multiprocessed-socket-0.1.0.tar.gz]
+[2024-05-23 05:25:47] INFO root fetch - processPackages [multiprocessed-socket]: Remove: archive file [/home/abi/fetcher/tmp/multiprocessed-socket-0.1.1.tar.gz]
+[2024-05-23 05:25:47] INFO root fetch - main [MainThread]: End processing [multiprocessed-socket]: success
+[2024-05-23 05:25:47] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.4.tar.gz]
+[2024-05-23 05:25:47] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.5.tar.gz]
+[2024-05-23 05:25:47] INFO root fetch - main [MainThread]: End processing [dpkits]: success
+[2024-05-23 05:25:47] INFO root fetch - main [MainThread]: Store serial: [23337129]
