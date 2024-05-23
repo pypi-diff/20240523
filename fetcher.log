@@ -9757,3 +9757,39 @@
 [2024-05-23 06:00:38] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
 [2024-05-23 06:00:38] INFO root fetch - main [MainThread]: End processing [jfExt]: success
 [2024-05-23 06:00:38] INFO root fetch - main [MainThread]: Store serial: [23337413]
+[2024-05-23 06:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337413]
+[2024-05-23 06:02:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 06:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lk-logger
+[2024-05-23 06:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sql-to-code-local
+[2024-05-23 06:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mountaineer
+[2024-05-23 06:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaiclient
+[2024-05-23 06:02:47] INFO root fetch - processPackages [sql-to-code-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 06:02:47] INFO root fetch - processPackages [sql-to-code-local]: Downloading https://files.pythonhosted.org/packages/10/1a/7032487bb4ae5642a8c9175548d8982ab6e44e7829413e193234a912ee24/sql-to-code-local-0.0.8.tar.gz
+[2024-05-23 06:02:47] INFO root fetch - processPackages [zaiclient]: New version: [4.3.1] Old Version: [4.3.0]
+[2024-05-23 06:02:47] INFO root fetch - processPackages [lk-logger]: New version: [5.7.4] Old Version: [5.7.3]
+[2024-05-23 06:02:47] INFO root fetch - processPackages [mountaineer]: New version: [0.5.0.dev7] Old Version: [0.5.0.dev6]
+[2024-05-23 06:02:47] INFO root fetch - processPackages [sql-to-code-local]: Downloading https://files.pythonhosted.org/packages/bc/85/c3745fc0a2d264323e7ea9f218f0b73d0af156600fe39637aab2c3d33f62/sql-to-code-local-0.0.9.tar.gz
+[2024-05-23 06:02:47] INFO root fetch - processPackages [zaiclient]: Downloading https://files.pythonhosted.org/packages/ff/d5/a6e336832593f426347c89df08dc86bdb233e6a80a12ee2181dee7cb5ad8/zaiclient-4.3.0-py3-none-any.whl
+[2024-05-23 06:02:47] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/f9/c4/3d542affc6dea70656aa94bed0e208270df2be9beeb16fe330d91060acfe/lk_logger-5.7.3-py3-none-any.whl
+[2024-05-23 06:02:47] INFO root fetch - processPackages [sql-to-code-local]: executing diffoscope
+[2024-05-23 06:02:47] INFO root fetch - processPackages [sql-to-code-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql-to-code-local-0.0.8.tar.gz tmp/sql-to-code-local-0.0.9.tar.gz --markdown 20240523/s/sql-to-code-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 06:02:47] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/bf/05/36a107bd1024dd7d170b7f37ca4340cc6863225e3a2cbb1274859465a51c/mountaineer-0.5.0.dev6.tar.gz
+[2024-05-23 06:02:47] INFO root fetch - processPackages [zaiclient]: Downloading https://files.pythonhosted.org/packages/97/f6/cdd51ef735356696db2b8cbf82ece3507c56d3371a02dd807c0457daa91b/zaiclient-4.3.1-py3-none-any.whl
+[2024-05-23 06:02:48] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/0a/56/27789e6fee2f265b8bfe4fc322e44eadf4b23033bcea037626dc5b918250/lk_logger-5.7.4-py3-none-any.whl
+[2024-05-23 06:02:48] INFO root fetch - processPackages [zaiclient]: executing diffoscope
+[2024-05-23 06:02:48] INFO root fetch - processPackages [zaiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaiclient-4.3.0-py3-none-any.whl.zip tmp/zaiclient-4.3.1-py3-none-any.whl.zip --markdown 20240523/z/zaiclient/4.3.0-4.3.1/README.md --exclude *.pyd
+[2024-05-23 06:02:48] INFO root fetch - processPackages [lk-logger]: executing diffoscope
+[2024-05-23 06:02:48] INFO root fetch - processPackages [lk-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_logger-5.7.3-py3-none-any.whl.zip tmp/lk_logger-5.7.4-py3-none-any.whl.zip --markdown 20240523/l/lk-logger/5.7.3-5.7.4/README.md --exclude *.pyd
+[2024-05-23 06:02:48] INFO root fetch - processPackages [sql-to-code-local]: Remove: archive file [/home/abi/fetcher/tmp/sql-to-code-local-0.0.8.tar.gz]
+[2024-05-23 06:02:48] INFO root fetch - processPackages [sql-to-code-local]: Remove: archive file [/home/abi/fetcher/tmp/sql-to-code-local-0.0.9.tar.gz]
+[2024-05-23 06:02:48] INFO root fetch - main [MainThread]: End processing [sql-to-code-local]: success
+[2024-05-23 06:02:48] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.7.3-py3-none-any.whl.zip]
+[2024-05-23 06:02:48] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.7.4-py3-none-any.whl.zip]
+[2024-05-23 06:02:48] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
+[2024-05-23 06:02:48] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/d1/6d/e04d83dfcf6377dc0675f098f9f139c069b6dcc0c26c6a7ce8f396556962/mountaineer-0.5.0.dev7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 06:02:48] INFO root fetch - processPackages [zaiclient]: Remove: archive file [/home/abi/fetcher/tmp/zaiclient-4.3.0-py3-none-any.whl.zip]
+[2024-05-23 06:02:48] INFO root fetch - processPackages [zaiclient]: Remove: archive file [/home/abi/fetcher/tmp/zaiclient-4.3.1-py3-none-any.whl.zip]
+[2024-05-23 06:02:48] INFO root fetch - main [MainThread]: End processing [zaiclient]: success
+[2024-05-23 06:02:49] WARNING root fetch - processPackages [mountaineer]: Skipping package: exceeds size limit 24556157>=10485760
+[2024-05-23 06:02:49] INFO root fetch - main [MainThread]: End processing [mountaineer] error
+[2024-05-23 06:02:49] INFO root fetch - main [MainThread]: Store serial: [23337428]
