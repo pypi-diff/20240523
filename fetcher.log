@@ -10758,3 +10758,47 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:14:25] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.9.0.tar.gz]
 [2024-05-23 07:14:25] INFO root fetch - main [MainThread]: End processing [goodest]: success
 [2024-05-23 07:14:25] INFO root fetch - main [MainThread]: Store serial: [23337905]
+[2024-05-23 07:16:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337905]
+[2024-05-23 07:16:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 07:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-tomoslice
+[2024-05-23 07:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qibo
+[2024-05-23 07:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fennel-ai
+[2024-05-23 07:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: profile-facebook-selenium-scraper-imp-local
+[2024-05-23 07:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jfExt
+[2024-05-23 07:16:36] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-23 07:16:36] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 07:16:36] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: Downloading https://files.pythonhosted.org/packages/a5/c0/cdaf9faf679f04c5b3659c97ade1e9fb7a2c5ae6b91d8f2d4655159f2599/profile_facebook_selenium_scraper_imp_local-0.0.4.tar.gz
+[2024-05-23 07:16:36] INFO root fetch - processPackages [napari-tomoslice]: New version: [0.1.1] Old Version: [0.0.7]
+[2024-05-23 07:16:36] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-23 07:16:36] INFO root fetch - processPackages [qibo]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-23 07:16:36] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 07:16:36] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/29/8b/fce834f275deedf78c2cd53bd82aed7b1f61ed5492478e501e72d8f8b4b3/fennel_ai-1.3.8.tar.gz
+[2024-05-23 07:16:36] INFO root fetch - processPackages [napari-tomoslice]: Downloading https://files.pythonhosted.org/packages/08/0b/053ec105523b84934dcab757a7bf134f78c971b34c14a98c367b6dc01631/napari-tomoslice-0.0.7.tar.gz
+[2024-05-23 07:16:36] INFO root fetch - processPackages [qibo]: Downloading https://files.pythonhosted.org/packages/19/6e/2c9c558f3691a8bb202ce6220044123506867275c8d412518d9094814c33/qibo-0.2.7.tar.gz
+[2024-05-23 07:16:36] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 07:16:36] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40207351>=10485760
+[2024-05-23 07:16:36] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-23 07:16:36] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: Downloading https://files.pythonhosted.org/packages/12/34/8dddf9d6234104d6099eed9f9c264e104b1d34c27c788c5d6ebc1c826477/profile_facebook_selenium_scraper_imp_local-0.0.5.tar.gz
+[2024-05-23 07:16:37] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 07:16:37] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 07:16:37] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: executing diffoscope
+[2024-05-23 07:16:37] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile_facebook_selenium_scraper_imp_local-0.0.4.tar.gz tmp/profile_facebook_selenium_scraper_imp_local-0.0.5.tar.gz --markdown 20240523/p/profile-facebook-selenium-scraper-imp-local/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-23 07:16:37] INFO root fetch - processPackages [napari-tomoslice]: Downloading https://files.pythonhosted.org/packages/8f/e2/7e36df2715c020e05d982d2f55f40c36876a49b41d0460d020a0b17e647e/napari_tomoslice-0.1.1.tar.gz
+[2024-05-23 07:16:37] INFO root fetch - processPackages [qibo]: Downloading https://files.pythonhosted.org/packages/04/88/82e33081983228f2020f0cd28679a6c3185550e37a844766666d13236439/qibo-0.2.8.tar.gz
+[2024-05-23 07:16:37] INFO root fetch - processPackages [qibo]: executing diffoscope
+[2024-05-23 07:16:37] INFO root fetch - processPackages [qibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibo-0.2.7.tar.gz tmp/qibo-0.2.8.tar.gz --markdown 20240523/q/qibo/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-23 07:16:37] INFO root fetch - processPackages [napari-tomoslice]: executing diffoscope
+[2024-05-23 07:16:37] INFO root fetch - processPackages [napari-tomoslice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-tomoslice-0.0.7.tar.gz tmp/napari_tomoslice-0.1.1.tar.gz --markdown 20240523/n/napari-tomoslice/0.0.7-0.1.1/README.md --exclude *.pyd
+[2024-05-23 07:16:37] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 07:16:37] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 07:16:37] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 07:16:37] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/profile_facebook_selenium_scraper_imp_local-0.0.4.tar.gz]
+[2024-05-23 07:16:37] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/profile_facebook_selenium_scraper_imp_local-0.0.5.tar.gz]
+[2024-05-23 07:16:37] INFO root fetch - main [MainThread]: End processing [profile-facebook-selenium-scraper-imp-local]: success
+[2024-05-23 07:16:38] INFO root fetch - processPackages [napari-tomoslice]: Remove: archive file [/home/abi/fetcher/tmp/napari-tomoslice-0.0.7.tar.gz]
+[2024-05-23 07:16:38] INFO root fetch - processPackages [napari-tomoslice]: Remove: archive file [/home/abi/fetcher/tmp/napari_tomoslice-0.1.1.tar.gz]
+[2024-05-23 07:16:38] INFO root fetch - main [MainThread]: End processing [napari-tomoslice]: success
+[2024-05-23 07:16:38] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.2.7.tar.gz]
+[2024-05-23 07:16:38] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.2.8.tar.gz]
+[2024-05-23 07:16:38] INFO root fetch - main [MainThread]: End processing [qibo]: success
+[2024-05-23 07:16:38] INFO root fetch - main [MainThread]: Store serial: [23337920]
