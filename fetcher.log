@@ -10139,3 +10139,47 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:22:28] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
 [2024-05-23 06:22:28] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
 [2024-05-23 06:22:28] INFO root fetch - main [MainThread]: Store serial: [23337631]
+[2024-05-23 06:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337631]
+[2024-05-23 06:24:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 06:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-spread-grid
+[2024-05-23 06:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reportXlsx
+[2024-05-23 06:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adtoolbox
+[2024-05-23 06:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbt-simple
+[2024-05-23 06:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roofAI
+[2024-05-23 06:24:36] INFO root fetch - processPackages [adtoolbox]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-23 06:24:36] INFO root fetch - processPackages [reportXlsx]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-23 06:24:36] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 06:24:36] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/6a/c8/3ca715c31c152bc668a87e25407587842606023ce422cc31fb94ee445db5/adtoolbox-0.5.8.tar.gz
+[2024-05-23 06:24:36] INFO root fetch - processPackages [reportXlsx]: Downloading https://files.pythonhosted.org/packages/68/c4/5c6e12fd1a6c232ccefcc266d02b4bce886dfd9651f65299f5dc87dba40d/reportXlsx-0.3.1.tar.gz
+[2024-05-23 06:24:36] INFO root fetch - processPackages [pbt-simple]: New version: [1.7.5] Old Version: [1.7.4]
+[2024-05-23 06:24:36] INFO root fetch - processPackages [roofAI]: New version: [4.22.1] Old Version: [4.21.1]
+[2024-05-23 06:24:36] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/9f/39/3477f65f22676264317bcb1d617b220ddcc8d09f85a7eb7904d8c2676dae/dash_spread_grid-0.0.8.tar.gz
+[2024-05-23 06:24:36] WARNING root fetch - processPackages [reportXlsx]: Skipping package: exceeds size limit 15594137>=10485760
+[2024-05-23 06:24:36] INFO root fetch - main [MainThread]: End processing [reportXlsx] error
+[2024-05-23 06:24:37] INFO root fetch - processPackages [pbt-simple]: Downloading https://files.pythonhosted.org/packages/40/d5/328c9dbfdecf9e961be78eea259d44227fb25d7d24ed20d1144d2851d585/pbt_simple-1.7.4.tar.gz
+[2024-05-23 06:24:37] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/b1/59/51192254b6e1454846cbb040844e8bca5f8380f88a5b38c82d7b7b366c4f/roofAI-4.21.1.tar.gz
+[2024-05-23 06:24:37] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/a7/7b/9e4f8d4f6a4c45a3e9d2e8654cf52c1e0908166f42f12b0115bb9c430b65/adtoolbox-0.5.9.tar.gz
+[2024-05-23 06:24:37] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/37/f7/3991c1c5cd26d592773df3381df4e17ae14f51d47af4fd52b7419949494b/dash_spread_grid-0.0.9.tar.gz
+[2024-05-23 06:24:37] INFO root fetch - processPackages [adtoolbox]: executing diffoscope
+[2024-05-23 06:24:37] INFO root fetch - processPackages [adtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adtoolbox-0.5.8.tar.gz tmp/adtoolbox-0.5.9.tar.gz --markdown 20240523/a/adtoolbox/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-23 06:24:37] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-23 06:24:37] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.0.8.tar.gz tmp/dash_spread_grid-0.0.9.tar.gz --markdown 20240523/d/dash-spread-grid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 06:24:37] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/72/b0/021ea52b1fa3aee8576fca9bf55c7f85dc4533a1aec703c68ffa40a9c8e6/roofai-4.22.1.tar.gz
+[2024-05-23 06:24:37] INFO root fetch - processPackages [pbt-simple]: Downloading https://files.pythonhosted.org/packages/2e/c2/c19148ca2151899052ff9cd5a94a5eabbafa50b8fd26afd6ea99eacc3eae/pbt_simple-1.7.5.tar.gz
+[2024-05-23 06:24:37] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-05-23 06:24:37] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofAI-4.21.1.tar.gz tmp/roofai-4.22.1.tar.gz --markdown 20240523/r/roofAI/4.21.1-4.22.1/README.md --exclude *.pyd
+[2024-05-23 06:24:37] INFO root fetch - processPackages [pbt-simple]: executing diffoscope
+[2024-05-23 06:24:37] INFO root fetch - processPackages [pbt-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbt_simple-1.7.4.tar.gz tmp/pbt_simple-1.7.5.tar.gz --markdown 20240523/p/pbt-simple/1.7.4-1.7.5/README.md --exclude *.pyd
+[2024-05-23 06:24:37] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.8.tar.gz]
+[2024-05-23 06:24:37] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.9.tar.gz]
+[2024-05-23 06:24:37] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
+[2024-05-23 06:24:38] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofAI-4.21.1.tar.gz]
+[2024-05-23 06:24:38] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.22.1.tar.gz]
+[2024-05-23 06:24:38] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-05-23 06:24:38] INFO root fetch - processPackages [pbt-simple]: Remove: archive file [/home/abi/fetcher/tmp/pbt_simple-1.7.4.tar.gz]
+[2024-05-23 06:24:38] INFO root fetch - processPackages [pbt-simple]: Remove: archive file [/home/abi/fetcher/tmp/pbt_simple-1.7.5.tar.gz]
+[2024-05-23 06:24:38] INFO root fetch - main [MainThread]: End processing [pbt-simple]: success
+[2024-05-23 06:24:38] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.8.tar.gz]
+[2024-05-23 06:24:38] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
+[2024-05-23 06:24:38] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-23 06:24:38] INFO root fetch - main [MainThread]: Store serial: [23337646]
