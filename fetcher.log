@@ -22893,3 +22893,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:52:39] INFO root fetch - processPackages [romsearch]: Remove: archive file [/home/abi/fetcher/tmp/romsearch-0.0.6.tar.gz]
 [2024-05-23 13:52:39] INFO root fetch - main [MainThread]: End processing [romsearch]: success
 [2024-05-23 13:52:39] INFO root fetch - main [MainThread]: Store serial: [23342839]
+[2024-05-23 13:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342839]
+[2024-05-23 13:54:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 13:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faucetpay
+[2024-05-23 13:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: booktest
+[2024-05-23 13:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agenta
+[2024-05-23 13:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-openai
+[2024-05-23 13:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imsciences
+[2024-05-23 13:54:48] WARNING root fetch - processPackages [faucetpay]: Skipping, unable to determine old version
+[2024-05-23 13:54:48] INFO root fetch - main [MainThread]: End processing [faucetpay] error
+[2024-05-23 13:54:48] INFO root fetch - processPackages [booktest]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-23 13:54:48] INFO root fetch - processPackages [pulumi-openai]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-23 13:54:48] INFO root fetch - processPackages [imsciences]: New version: [0.5.8.4] Old Version: [0.5.8.3]
+[2024-05-23 13:54:48] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-23 13:54:49] INFO root fetch - processPackages [booktest]: Downloading https://files.pythonhosted.org/packages/95/21/43e7639c258b9b198722ad6e91b1a332a48b938dfab0810ab6d1d8d71547/booktest-0.3.7.tar.gz
+[2024-05-23 13:54:49] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/e4/ce/c34fba55080e4362d1517b9b9150772e499efc2f65788d05c32af8fb6fb9/imsciences-0.5.8.3.tar.gz
+[2024-05-23 13:54:49] INFO root fetch - processPackages [pulumi-openai]: Downloading https://files.pythonhosted.org/packages/12/a3/d62096d7d5402b19fae2abf0fb3867c50567c33672cc41b43c0c048871ec/pulumi_openai-0.0.3.tar.gz
+[2024-05-23 13:54:49] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-23 13:54:49] INFO root fetch - processPackages [pulumi-openai]: Downloading https://files.pythonhosted.org/packages/66/58/95a7f6037668496977aa8b4cb24dbadba6429ca07df7aa4a96e17f983073/pulumi_openai-0.0.5.tar.gz
+[2024-05-23 13:54:49] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/24/88/d3bcbf56b58dc9dfc289c658ee96123053be472676f1f6f646b6c428f45b/imsciences-0.5.8.4.tar.gz
+[2024-05-23 13:54:49] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-23 13:54:49] INFO root fetch - processPackages [booktest]: Downloading https://files.pythonhosted.org/packages/93/c7/91e0ef317cf0a48df8669619ee6f557d57a311d7e80732010b94ca8b6b41/booktest-0.3.8.tar.gz
+[2024-05-23 13:54:49] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-23 13:54:49] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240523/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-23 13:54:49] INFO root fetch - processPackages [pulumi-openai]: executing diffoscope
+[2024-05-23 13:54:49] INFO root fetch - processPackages [pulumi-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openai-0.0.3.tar.gz tmp/pulumi_openai-0.0.5.tar.gz --markdown 20240523/p/pulumi-openai/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-23 13:54:49] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-23 13:54:49] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.8.3.tar.gz tmp/imsciences-0.5.8.4.tar.gz --markdown 20240523/i/imsciences/0.5.8.3-0.5.8.4/README.md --exclude *.pyd
+[2024-05-23 13:54:49] INFO root fetch - processPackages [booktest]: executing diffoscope
+[2024-05-23 13:54:49] INFO root fetch - processPackages [booktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/booktest-0.3.7.tar.gz tmp/booktest-0.3.8.tar.gz --markdown 20240523/b/booktest/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-23 13:54:50] INFO root fetch - processPackages [booktest]: Remove: archive file [/home/abi/fetcher/tmp/booktest-0.3.7.tar.gz]
+[2024-05-23 13:54:50] INFO root fetch - processPackages [booktest]: Remove: archive file [/home/abi/fetcher/tmp/booktest-0.3.8.tar.gz]
+[2024-05-23 13:54:50] INFO root fetch - main [MainThread]: End processing [booktest]: success
+[2024-05-23 13:54:50] INFO root fetch - processPackages [pulumi-openai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openai-0.0.3.tar.gz]
+[2024-05-23 13:54:50] INFO root fetch - processPackages [pulumi-openai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openai-0.0.5.tar.gz]
+[2024-05-23 13:54:50] INFO root fetch - main [MainThread]: End processing [pulumi-openai]: success
+[2024-05-23 13:54:50] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.3.tar.gz]
+[2024-05-23 13:54:50] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.4.tar.gz]
+[2024-05-23 13:54:50] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-23 13:54:50] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-23 13:54:50] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-23 13:54:50] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-23 13:54:50] INFO root fetch - main [MainThread]: Store serial: [23342852]
