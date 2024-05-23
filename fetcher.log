@@ -9218,3 +9218,52 @@
 [2024-05-23 05:21:27] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
 [2024-05-23 05:21:27] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
 [2024-05-23 05:21:27] INFO root fetch - main [MainThread]: Store serial: [23337091]
+[2024-05-23 05:23:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337091]
+[2024-05-23 05:23:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 05:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hubblescope
+[2024-05-23 05:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-common
+[2024-05-23 05:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-xiao
+[2024-05-23 05:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hubblescope
+[2024-05-23 05:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: database-mysql-local
+[2024-05-23 05:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duwi-smarthome-sdk
+[2024-05-23 05:23:36] INFO root fetch - processPackages [duwi-smarthome-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-23 05:23:36] INFO root fetch - processPackages [langchain-xiao]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-23 05:23:36] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.315] Old Version: [0.0.314]
+[2024-05-23 05:23:36] WARNING root fetch - processPackages [leadguru-common]: Skipping, unable to determine old version
+[2024-05-23 05:23:36] INFO root fetch - main [MainThread]: End processing [leadguru-common] error
+[2024-05-23 05:23:36] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/6d/94/5496df247951277110af3da9f2c7ae1a6e5c7f1c5d96983d8509b4932939/duwi_smarthome_sdk-0.1.5.tar.gz
+[2024-05-23 05:23:36] INFO root fetch - processPackages [langchain-xiao]: Downloading https://files.pythonhosted.org/packages/51/1b/70198c52683cfc8449627f2b886678996a21a2de4422548a6624ca997098/langchain_xiao-0.0.5.tar.gz
+[2024-05-23 05:23:36] INFO root fetch - processPackages [hubblescope]: New version: [4.2.1] Old Version: [4.1.1]
+[2024-05-23 05:23:36] INFO root fetch - processPackages [hubblescope]: New version: [4.2.1] Old Version: [4.1.1]
+[2024-05-23 05:23:36] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/e8/b8/f61747ea3d17b644c00b8678dfa6c087a3b916584f0eef8c8a8139506c19/database_mysql_local-0.0.314.tar.gz
+[2024-05-23 05:23:36] INFO root fetch - processPackages [hubblescope]: Downloading https://files.pythonhosted.org/packages/05/dc/3729cac8857a45786bce626797acb5b387f348c361b225e80644c000607f/hubblescope-4.1.1.tar.gz
+[2024-05-23 05:23:36] INFO root fetch - processPackages [hubblescope]: Downloading https://files.pythonhosted.org/packages/05/dc/3729cac8857a45786bce626797acb5b387f348c361b225e80644c000607f/hubblescope-4.1.1.tar.gz
+[2024-05-23 05:23:37] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/34/a6/05b7db8ed67fad3128f6f7cab437530f4d9a881528e6a69c1d59e25ba326/duwi_smarthome_sdk-0.1.6.tar.gz
+[2024-05-23 05:23:37] INFO root fetch - processPackages [langchain-xiao]: Downloading https://files.pythonhosted.org/packages/c9/31/afaba8f6aa0205965707e577033cc87177d42d7a1056b44dc9d1f0c7df70/langchain_xiao-0.0.6.tar.gz
+[2024-05-23 05:23:37] INFO root fetch - processPackages [duwi-smarthome-sdk]: executing diffoscope
+[2024-05-23 05:23:37] INFO root fetch - processPackages [langchain-xiao]: executing diffoscope
+[2024-05-23 05:23:37] INFO root fetch - processPackages [langchain-xiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_xiao-0.0.5.tar.gz tmp/langchain_xiao-0.0.6.tar.gz --markdown 20240523/l/langchain-xiao/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-23 05:23:37] INFO root fetch - processPackages [duwi-smarthome-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk-0.1.5.tar.gz tmp/duwi_smarthome_sdk-0.1.6.tar.gz --markdown 20240523/d/duwi-smarthome-sdk/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-23 05:23:37] INFO root fetch - processPackages [hubblescope]: Downloading https://files.pythonhosted.org/packages/b1/1e/8207a53318b492cb092f1c6e9b3484a493d7d424ab711fa81dd5d5f27ba4/hubblescope-4.2.1.tar.gz
+[2024-05-23 05:23:37] INFO root fetch - processPackages [hubblescope]: Downloading https://files.pythonhosted.org/packages/b1/1e/8207a53318b492cb092f1c6e9b3484a493d7d424ab711fa81dd5d5f27ba4/hubblescope-4.2.1.tar.gz
+[2024-05-23 05:23:37] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/d1/bc/369ce843f7932f7fb5c6e91350c6648b515cb7675a131a40d0a5519ca1c3/database_mysql_local-0.0.315.tar.gz
+[2024-05-23 05:23:37] INFO root fetch - processPackages [hubblescope]: executing diffoscope
+[2024-05-23 05:23:37] INFO root fetch - processPackages [hubblescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubblescope-4.1.1.tar.gz tmp/hubblescope-4.2.1.tar.gz --markdown 20240523/h/hubblescope/4.1.1-4.2.1/README.md --exclude *.pyd
+[2024-05-23 05:23:37] INFO root fetch - processPackages [hubblescope]: executing diffoscope
+[2024-05-23 05:23:37] INFO root fetch - processPackages [hubblescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubblescope-4.1.1.tar.gz tmp/hubblescope-4.2.1.tar.gz --markdown 20240523/h/hubblescope/4.1.1-4.2.1/README.md --exclude *.pyd
+[2024-05-23 05:23:37] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-23 05:23:37] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.314.tar.gz tmp/database_mysql_local-0.0.315.tar.gz --markdown 20240523/d/database-mysql-local/0.0.314-0.0.315/README.md --exclude *.pyd
+[2024-05-23 05:23:37] INFO root fetch - processPackages [hubblescope]: Remove: archive file [/home/abi/fetcher/tmp/hubblescope-4.1.1.tar.gz]
+[2024-05-23 05:23:37] INFO root fetch - processPackages [hubblescope]: Remove: archive file [/home/abi/fetcher/tmp/hubblescope-4.2.1.tar.gz]
+[2024-05-23 05:23:37] INFO root fetch - main [MainThread]: End processing [hubblescope]: success
+[2024-05-23 05:23:37] INFO root fetch - processPackages [langchain-xiao]: Remove: archive file [/home/abi/fetcher/tmp/langchain_xiao-0.0.5.tar.gz]
+[2024-05-23 05:23:37] INFO root fetch - processPackages [langchain-xiao]: Remove: archive file [/home/abi/fetcher/tmp/langchain_xiao-0.0.6.tar.gz]
+[2024-05-23 05:23:37] INFO root fetch - main [MainThread]: End processing [langchain-xiao]: success
+[2024-05-23 05:23:37] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.5.tar.gz]
+[2024-05-23 05:23:37] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.6.tar.gz]
+[2024-05-23 05:23:38] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk]: success
+[2024-05-23 05:23:38] INFO root fetch - main [MainThread]: End processing [hubblescope]: success
+[2024-05-23 05:23:38] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.314.tar.gz]
+[2024-05-23 05:23:38] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.315.tar.gz]
+[2024-05-23 05:23:38] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-23 05:23:38] INFO root fetch - main [MainThread]: Store serial: [23337116]
