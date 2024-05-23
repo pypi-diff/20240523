@@ -7797,3 +7797,15 @@
 [2024-05-23 03:49:01] INFO root fetch - processPackages [pylwr]: Remove: archive file [/home/abi/fetcher/tmp/pylwr-1.0.14.tar.gz]
 [2024-05-23 03:49:01] INFO root fetch - main [MainThread]: End processing [pylwr]: success
 [2024-05-23 03:49:01] INFO root fetch - main [MainThread]: Store serial: [23336443]
+[2024-05-23 03:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336443]
+[2024-05-23 03:51:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 03:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrastack-otel
+[2024-05-23 03:51:09] INFO root fetch - processPackages [infrastack-otel]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 03:51:10] INFO root fetch - processPackages [infrastack-otel]: Downloading https://files.pythonhosted.org/packages/f6/82/c56c20db0f414eaebdb2130673137e39e7dd2c615189d71d458d5a8a22ab/infrastack_otel-0.0.2.tar.gz
+[2024-05-23 03:51:10] INFO root fetch - processPackages [infrastack-otel]: Downloading https://files.pythonhosted.org/packages/1c/ce/d51102a3f9579d6bd92fe9cd24a4b6a42c4cccfc2fc867254b759815b31e/infrastack_otel-0.0.3.tar.gz
+[2024-05-23 03:51:10] INFO root fetch - processPackages [infrastack-otel]: executing diffoscope
+[2024-05-23 03:51:10] INFO root fetch - processPackages [infrastack-otel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrastack_otel-0.0.2.tar.gz tmp/infrastack_otel-0.0.3.tar.gz --markdown 20240523/i/infrastack-otel/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 03:51:11] INFO root fetch - processPackages [infrastack-otel]: Remove: archive file [/home/abi/fetcher/tmp/infrastack_otel-0.0.2.tar.gz]
+[2024-05-23 03:51:11] INFO root fetch - processPackages [infrastack-otel]: Remove: archive file [/home/abi/fetcher/tmp/infrastack_otel-0.0.3.tar.gz]
+[2024-05-23 03:51:11] INFO root fetch - main [MainThread]: End processing [infrastack-otel]: success
+[2024-05-23 03:51:11] INFO root fetch - main [MainThread]: Store serial: [23336446]
