@@ -7929,3 +7929,42 @@
 [2024-05-23 03:53:23] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.9-py3-none-any.whl.zip]
 [2024-05-23 03:53:23] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
 [2024-05-23 03:53:23] INFO root fetch - main [MainThread]: Store serial: [23336487]
+[2024-05-23 03:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336487]
+[2024-05-23 03:55:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 03:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerebrium
+[2024-05-23 03:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazy-schema
+[2024-05-23 03:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsst-utils
+[2024-05-23 03:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JustDeepIt
+[2024-05-23 03:55:32] INFO root fetch - processPackages [cerebrium]: New version: [1.20.0] Old Version: [1.19.1]
+[2024-05-23 03:55:32] INFO root fetch - processPackages [JustDeepIt]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-23 03:55:32] INFO root fetch - processPackages [lazy-schema]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-05-23 03:55:32] INFO root fetch - processPackages [lsst-utils]: New version: [27.0.0rc2] Old Version: [27.0.0rc1]
+[2024-05-23 03:55:32] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/c4/80/1098568b5140ed91abe8b1ccf99ae4ab0f670caeb5b6edec344ff573177a/cerebrium-1.19.1-py3-none-any.whl
+[2024-05-23 03:55:32] INFO root fetch - processPackages [JustDeepIt]: Downloading https://files.pythonhosted.org/packages/f8/0e/bd02ed92d234333518b820c47115c43ef25bd7503d51123374ec68a85ce7/JustDeepIt-0.2.2.tar.gz
+[2024-05-23 03:55:32] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/52/c8/acd9929f13f1857363ff6f5a62ca46363d7299c1ba0078cab37dcc7238a2/lazy_schema-0.2.6.tar.gz
+[2024-05-23 03:55:32] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/41/fe/94ae751e98c6dea7eee6b66bd50f92988891b29ec33f3e30ec5e8d1a2346/lsst_utils-27.0.0rc1.tar.gz
+[2024-05-23 03:55:33] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/04/50/09059ff440f977cb63aea3d37161009e3b2f981d94cff0e984152d9a7632/cerebrium-1.20.0-py3-none-any.whl
+[2024-05-23 03:55:33] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2024-05-23 03:55:33] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-1.19.1-py3-none-any.whl.zip tmp/cerebrium-1.20.0-py3-none-any.whl.zip --markdown 20240523/c/cerebrium/1.19.1-1.20.0/README.md --exclude *.pyd
+[2024-05-23 03:55:33] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/16/db/1ba8d39cc15ba3dd08837e0080efe72738d1b5c1a83506b5e5e1fa3df3f4/lazy_schema-0.3.0.tar.gz
+[2024-05-23 03:55:33] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/14/3d/890493132b5811b4665956720c2c7eb9b5c0252eabd35a2da8f68d8c60ed/lsst_utils-27.0.0rc2.tar.gz
+[2024-05-23 03:55:33] INFO root fetch - processPackages [JustDeepIt]: Downloading https://files.pythonhosted.org/packages/16/11/21a53cf685f9dc123ea0b3a57fb60f77e870114482f37c8758d1a5e283df/JustDeepIt-0.2.3.tar.gz
+[2024-05-23 03:55:33] INFO root fetch - processPackages [lazy-schema]: executing diffoscope
+[2024-05-23 03:55:33] INFO root fetch - processPackages [lazy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_schema-0.2.6.tar.gz tmp/lazy_schema-0.3.0.tar.gz --markdown 20240523/l/lazy-schema/0.2.6-0.3.0/README.md --exclude *.pyd
+[2024-05-23 03:55:33] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2024-05-23 03:55:33] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_utils-27.0.0rc1.tar.gz tmp/lsst_utils-27.0.0rc2.tar.gz --markdown 20240523/l/lsst-utils/27.0.0rc1-27.0.0rc2/README.md --exclude *.pyd
+[2024-05-23 03:55:33] INFO root fetch - processPackages [JustDeepIt]: executing diffoscope
+[2024-05-23 03:55:33] INFO root fetch - processPackages [JustDeepIt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustDeepIt-0.2.2.tar.gz tmp/JustDeepIt-0.2.3.tar.gz --markdown 20240523/J/JustDeepIt/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-23 03:55:33] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.6.tar.gz]
+[2024-05-23 03:55:33] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.3.0.tar.gz]
+[2024-05-23 03:55:33] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
+[2024-05-23 03:55:33] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.19.1-py3-none-any.whl.zip]
+[2024-05-23 03:55:33] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.20.0-py3-none-any.whl.zip]
+[2024-05-23 03:55:33] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2024-05-23 03:55:34] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst_utils-27.0.0rc1.tar.gz]
+[2024-05-23 03:55:34] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst_utils-27.0.0rc2.tar.gz]
+[2024-05-23 03:55:34] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2024-05-23 03:55:34] INFO root fetch - processPackages [JustDeepIt]: Remove: archive file [/home/abi/fetcher/tmp/JustDeepIt-0.2.2.tar.gz]
+[2024-05-23 03:55:34] INFO root fetch - processPackages [JustDeepIt]: Remove: archive file [/home/abi/fetcher/tmp/JustDeepIt-0.2.3.tar.gz]
+[2024-05-23 03:55:34] INFO root fetch - main [MainThread]: End processing [JustDeepIt]: success
+[2024-05-23 03:55:34] INFO root fetch - main [MainThread]: Store serial: [23336497]
