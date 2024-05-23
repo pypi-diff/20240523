@@ -14720,3 +14720,66 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:10:16] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-3.1.2.tar.gz]
 [2024-05-23 10:10:16] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
 [2024-05-23 10:10:16] INFO root fetch - main [MainThread]: Store serial: [23339655]
+[2024-05-23 10:12:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339655]
+[2024-05-23 10:12:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misc-python-utils
+[2024-05-23 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tui-dsg
+[2024-05-23 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbinsta
+[2024-05-23 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pineappl
+[2024-05-23 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clonellm
+[2024-05-23 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zermelo-api-vogk
+[2024-05-23 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datamarket
+[2024-05-23 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdproxy
+[2024-05-23 10:12:26] INFO root fetch - processPackages [cdproxy]: New version: [1.0] Old Version: [0.1.0]
+[2024-05-23 10:12:26] INFO root fetch - processPackages [zermelo-api-vogk]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-23 10:12:26] INFO root fetch - processPackages [misc-python-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 10:12:26] INFO root fetch - processPackages [tui-dsg]: New version: [202405230754] Old Version: [202405201611]
+[2024-05-23 10:12:26] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/9d/71/d5cbf2509f896a45d05cd7b2c72ee0cd4cdb2ef4d64d6de0099d42549672/zermelo_api_vogk-1.0.5.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [datamarket]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-23 10:12:26] WARNING root fetch - processPackages [vbinsta]: Skipping, unable to determine old version
+[2024-05-23 10:12:26] INFO root fetch - main [MainThread]: End processing [vbinsta] error
+[2024-05-23 10:12:26] WARNING root fetch - processPackages [clonellm]: Skipping, unable to determine old version
+[2024-05-23 10:12:26] INFO root fetch - main [MainThread]: End processing [clonellm] error
+[2024-05-23 10:12:26] INFO root fetch - processPackages [pineappl]: New version: [0.7.4rc1] Old Version: [0.7.4]
+[2024-05-23 10:12:26] INFO root fetch - processPackages [cdproxy]: Downloading https://files.pythonhosted.org/packages/50/ae/0251229bc3e8bd4f3d6a726a693a269c3170bd7b2902db0cf0ecb9a7f0fd/cdproxy-0.1.0.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/4b/bd/ea88605154e7091f2a3191908b2ffddeda0817e17ffc29758cfc7731ceaf/misc_python_utils-0.1.8.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/82/5e/82e24d53035484ba570b769e0c2aa1c910ff5e3c4c31f7a74c7aabedc92a/tui_dsg-202405201611.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/ce/ea/a4fbc93ef1bfa26be26a91524eb373c9e6c5451a74213d73c642fff65f5a/datamarket-0.5.8.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [pineappl]: Downloading https://files.pythonhosted.org/packages/5c/9f/25c5c24110aac319798353daf92d2572e731ef89d528c245ced94584ac1f/pineappl-0.7.4-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 10:12:26] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/31/b8/8021225be7aa077a8bc22d0b1e9a086207bdfcc94a427d94e09a002a5ffb/zermelo_api_vogk-1.0.6.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [zermelo-api-vogk]: executing diffoscope
+[2024-05-23 10:12:26] INFO root fetch - processPackages [zermelo-api-vogk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_api_vogk-1.0.5.tar.gz tmp/zermelo_api_vogk-1.0.6.tar.gz --markdown 20240523/z/zermelo-api-vogk/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-23 10:12:26] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/57/f1/4625809fcb39f4081b4224a6763539efee7a380db502a5dede93b1c12c2e/misc_python_utils-0.1.9.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [cdproxy]: Downloading https://files.pythonhosted.org/packages/a7/87/3f72a83a7ca8d3001c1e953f0266c60801483460962511872b25e7312452/cdproxy-1.0.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/6e/31/b9adf70688494171d30241934b0df5628abbb4e5a99d0e12716ec4f8dec2/tui_dsg-202405230754.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/16/8e/507a86263e1f893be2b058029d3591f30f2b280b549f398c3137a18b5af2/datamarket-0.5.9.tar.gz
+[2024-05-23 10:12:26] INFO root fetch - processPackages [cdproxy]: executing diffoscope
+[2024-05-23 10:12:26] INFO root fetch - processPackages [cdproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdproxy-0.1.0.tar.gz tmp/cdproxy-1.0.tar.gz --markdown 20240523/c/cdproxy/0.1.0-1.0/README.md --exclude *.pyd
+[2024-05-23 10:12:26] INFO root fetch - processPackages [misc-python-utils]: executing diffoscope
+[2024-05-23 10:12:26] INFO root fetch - processPackages [misc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_python_utils-0.1.8.tar.gz tmp/misc_python_utils-0.1.9.tar.gz --markdown 20240523/m/misc-python-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 10:12:26] INFO root fetch - processPackages [tui-dsg]: executing diffoscope
+[2024-05-23 10:12:26] INFO root fetch - processPackages [tui-dsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsg-202405201611.tar.gz tmp/tui_dsg-202405230754.tar.gz --markdown 20240523/t/tui-dsg/202405201611-202405230754/README.md --exclude *.pyd
+[2024-05-23 10:12:27] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2024-05-23 10:12:27] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.5.8.tar.gz tmp/datamarket-0.5.9.tar.gz --markdown 20240523/d/datamarket/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-23 10:12:27] INFO root fetch - processPackages [pineappl]: Downloading https://files.pythonhosted.org/packages/72/90/242cb9991ec159df953efe1e6a362f1582f85b6d361b324b01f69dc5819e/pineappl-0.7.4rc1.tar.gz
+[2024-05-23 10:12:27] INFO root fetch - processPackages [pineappl]: executing diffoscope
+[2024-05-23 10:12:27] INFO root fetch - processPackages [pineappl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineappl-0.7.4-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pineappl-0.7.4rc1.tar.gz --markdown 20240523/p/pineappl/0.7.4-0.7.4rc1/README.md --exclude *.pyd
+[2024-05-23 10:12:27] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.5.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.6.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - main [MainThread]: End processing [zermelo-api-vogk]: success
+[2024-05-23 10:12:27] INFO root fetch - processPackages [cdproxy]: Remove: archive file [/home/abi/fetcher/tmp/cdproxy-0.1.0.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - processPackages [cdproxy]: Remove: archive file [/home/abi/fetcher/tmp/cdproxy-1.0.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - main [MainThread]: End processing [cdproxy]: success
+[2024-05-23 10:12:27] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.8.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.9.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - main [MainThread]: End processing [misc-python-utils]: success
+[2024-05-23 10:12:27] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.5.8.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.5.9.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2024-05-23 10:12:27] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202405201611.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202405230754.tar.gz]
+[2024-05-23 10:12:27] INFO root fetch - main [MainThread]: End processing [tui-dsg]: success
+[2024-05-23 10:12:28] INFO root fetch - processPackages [pineappl]: Remove: archive file [/home/abi/fetcher/tmp/pineappl-0.7.4-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 10:12:28] INFO root fetch - processPackages [pineappl]: Remove: archive file [/home/abi/fetcher/tmp/pineappl-0.7.4rc1.tar.gz]
+[2024-05-23 10:12:28] INFO root fetch - main [MainThread]: End processing [pineappl]: success
+[2024-05-23 10:12:28] INFO root fetch - main [MainThread]: Store serial: [23339709]
