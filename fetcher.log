@@ -15375,3 +15375,78 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:34:44] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
 [2024-05-23 10:34:44] INFO root fetch - main [MainThread]: End processing [eirStru]: success
 [2024-05-23 10:34:44] INFO root fetch - main [MainThread]: Store serial: [23340008]
+[2024-05-23 10:36:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340008]
+[2024-05-23 10:36:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 10:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlite-javascript-kernel
+[2024-05-23 10:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbrl-gymnasium
+[2024-05-23 10:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyerualjetwork
+[2024-05-23 10:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dzidb
+[2024-05-23 10:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: latex-formatter
+[2024-05-23 10:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trio-binance
+[2024-05-23 10:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alphaz-next
+[2024-05-23 10:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sentry-sdk
+[2024-05-23 10:36:54] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-23 10:36:54] INFO root fetch - processPackages [latex-formatter]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-23 10:36:54] INFO root fetch - processPackages [alphaz-next]: New version: [0.7.3.2] Old Version: [0.7.3.1]
+[2024-05-23 10:36:54] INFO root fetch - processPackages [sentry-sdk]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-23 10:36:54] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-23 10:36:54] INFO root fetch - processPackages [dzidb]: New version: [1.2.4] Old Version: [1.1]
+[2024-05-23 10:36:54] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: New version: [0.4.0a0] Old Version: [0.3.0a1]
+[2024-05-23 10:36:54] INFO root fetch - processPackages [trio-binance]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-23 10:36:54] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/ef/b8/cb6634e224328789b8d1b23d2d3320b058497a1a6ef1e796e5d86311c022/pyerualjetwork-1.1.7.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [latex-formatter]: Downloading https://files.pythonhosted.org/packages/26/4c/ee3c00d7cf00b786707b9b90d462ab2c080645a403b04dca6c99eac7cdd6/latex_formatter-1.2.3.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/3f/a7/617f5d5da0dd00c69646dc977a74a14fcf71cb7de7db5079b2430e0c1910/alphaz-next-0.7.3.1.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/ff/7d/cfffa7793447536f5b16c1673f3f266bdac086353a2b7f530e4ced072c4a/bbrl_gymnasium-0.3.4.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/f9/38/bae56a390e73d158198fd0836c4b36b60afa78e161f05c007272d9b1b034/sentry_sdk-2.2.0.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: Downloading https://files.pythonhosted.org/packages/1f/72/cfc09b8c2b12332fe126a0b1a25f7fedb0dfb203343d4bf6a71fd0f9694f/jupyterlite_javascript_kernel-0.3.0a1.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/c1/ac/11d1960d0d77087e5f69cfc863aca73086a3c2355114f2f766752b4bb1cf/trio_binance-0.4.1.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [latex-formatter]: Downloading https://files.pythonhosted.org/packages/d3/5c/c64b77240eff26595abfdb9a3461ea0572e400169d0083be61a5819634d4/latex_formatter-1.2.4.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/24/d9/9a061e0a5c908b320351d67425e485d55ef4bfde7d0bd27237032a242592/pyerualjetwork-1.1.8.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/3a/3c/524e5c3ef47662e9f983e382a67fa744d6d118beb2366b97adb93cc5ae35/alphaz-next-0.7.3.2.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/49/ec/47b10a8a18884b2838e55b58d4e3f3f6e106c74fcc979732c22eefe42f2f/sentry_sdk-2.2.1.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/8c/2e/0a882a70cdf461a0f68a311f5e31b5f87a7b2957df93fd8cb7541cffab9f/bbrl_gymnasium-0.3.5.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [latex-formatter]: executing diffoscope
+[2024-05-23 10:36:54] INFO root fetch - processPackages [latex-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex_formatter-1.2.3.tar.gz tmp/latex_formatter-1.2.4.tar.gz --markdown 20240523/l/latex-formatter/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-23 10:36:54] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: Downloading https://files.pythonhosted.org/packages/33/93/50245e01f415fe67cd1c21bbbc2fa76755cd819b31d8bfc708be6987e792/jupyterlite_javascript_kernel-0.4.0a0.tar.gz
+[2024-05-23 10:36:54] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 10:36:54] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.1.7.tar.gz tmp/pyerualjetwork-1.1.8.tar.gz --markdown 20240523/p/pyerualjetwork/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-23 10:36:54] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/3c/b6/98d89be1ecb23de42532ae75dc2037249e4fe749c312fd8c198dd6d83137/dzidb-1.2.4-py3-none-any.whl
+[2024-05-23 10:36:54] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/b5/ef/0dcbcce6a9dd2fa93b988c4c3b958da9dd6464a326345d175458ea43c53a/trio_binance-0.4.2.tar.gz
+[2024-05-23 10:36:55] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-23 10:36:55] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.7.3.1.tar.gz tmp/alphaz-next-0.7.3.2.tar.gz --markdown 20240523/a/alphaz-next/0.7.3.1-0.7.3.2/README.md --exclude *.pyd
+[2024-05-23 10:36:55] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2024-05-23 10:36:55] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.3.4.tar.gz tmp/bbrl_gymnasium-0.3.5.tar.gz --markdown 20240523/b/bbrl-gymnasium/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-23 10:36:55] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-23 10:36:55] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.1.tar.gz tmp/dzidb-1.2.4-py3-none-any.whl.zip --markdown 20240523/d/dzidb/1.1-1.2.4/README.md --exclude *.pyd
+[2024-05-23 10:36:55] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2024-05-23 10:36:55] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_sdk-2.2.0.tar.gz tmp/sentry_sdk-2.2.1.tar.gz --markdown 20240523/s/sentry-sdk/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-23 10:36:55] INFO root fetch - processPackages [trio-binance]: executing diffoscope
+[2024-05-23 10:36:55] INFO root fetch - processPackages [trio-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_binance-0.4.1.tar.gz tmp/trio_binance-0.4.2.tar.gz --markdown 20240523/t/trio-binance/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-23 10:36:55] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: executing diffoscope
+[2024-05-23 10:36:55] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite_javascript_kernel-0.3.0a1.tar.gz tmp/jupyterlite_javascript_kernel-0.4.0a0.tar.gz --markdown 20240523/j/jupyterlite-javascript-kernel/0.3.0a1-0.4.0a0/README.md --exclude *.pyd
+[2024-05-23 10:36:55] INFO root fetch - processPackages [latex-formatter]: Remove: archive file [/home/abi/fetcher/tmp/latex_formatter-1.2.3.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - processPackages [latex-formatter]: Remove: archive file [/home/abi/fetcher/tmp/latex_formatter-1.2.4.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - main [MainThread]: End processing [latex-formatter]: success
+[2024-05-23 10:36:55] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.1.7.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.1.8.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 10:36:55] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.4-py3-none-any.whl.zip]
+[2024-05-23 10:36:55] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-23 10:36:55] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.3.4.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.3.5.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2024-05-23 10:36:55] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.4.1.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.4.2.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - main [MainThread]: End processing [trio-binance]: success
+[2024-05-23 10:36:55] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.1.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.2.tar.gz]
+[2024-05-23 10:36:55] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-23 10:36:56] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry_sdk-2.2.0.tar.gz]
+[2024-05-23 10:36:56] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry_sdk-2.2.1.tar.gz]
+[2024-05-23 10:36:56] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2024-05-23 10:36:56] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_javascript_kernel-0.3.0a1.tar.gz]
+[2024-05-23 10:36:56] INFO root fetch - processPackages [jupyterlite-javascript-kernel]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_javascript_kernel-0.4.0a0.tar.gz]
+[2024-05-23 10:36:56] INFO root fetch - main [MainThread]: End processing [jupyterlite-javascript-kernel]: success
+[2024-05-23 10:36:56] INFO root fetch - main [MainThread]: Store serial: [23340033]
