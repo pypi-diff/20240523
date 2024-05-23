@@ -17188,3 +17188,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:21:53] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.5.tar.gz]
 [2024-05-23 11:21:53] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-23 11:21:53] INFO root fetch - main [MainThread]: Store serial: [23340779]
+[2024-05-23 11:23:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340779]
+[2024-05-23 11:24:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internet-domain-local
+[2024-05-23 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrathon-payments
+[2024-05-23 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CtqKit
+[2024-05-23 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proof-of-train
+[2024-05-23 11:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shipper-shippy
+[2024-05-23 11:24:03] INFO root fetch - processPackages [CtqKit]: New version: [0.1.2] Old Version: [0.1.1b5]
+[2024-05-23 11:24:03] INFO root fetch - processPackages [scrathon-payments]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 11:24:03] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 11:24:03] WARNING root fetch - processPackages [proof-of-train]: Skipping, unable to determine old version
+[2024-05-23 11:24:03] INFO root fetch - main [MainThread]: End processing [proof-of-train] error
+[2024-05-23 11:24:03] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/62/69/ec449625cb867d87f0cda28dbd3a002e93bcc290437b8970eeb4740e3f17/ctqkit-0.1.1b5.tar.gz
+[2024-05-23 11:24:03] INFO root fetch - processPackages [shipper-shippy]: New version: [2.37.7] Old Version: [2.37.6]
+[2024-05-23 11:24:03] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/fb/02/3ab11a07d473d883ff2cf97cf86c31b332ef0cc4fd3f63ce45b4ee7ae07f/scrathon_payments-0.1.8.tar.gz
+[2024-05-23 11:24:03] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/21/08/584c01255d71beb274e14bf23aa4f1cad58ef556a6dc819f0cf869a6d409/internet_domain_local-0.0.8.tar.gz
+[2024-05-23 11:24:03] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/9b/a5/4e275bf24dab49eccfbad3d3de9e7d8d29db32806c54ed216fb093fa5132/shipper_shippy-2.37.6.tar.gz
+[2024-05-23 11:24:03] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/33/93/457a09f0157c46383430e6716e32babf829d136165b86be22158fede86d9/ctqkit-0.1.2.tar.gz
+[2024-05-23 11:24:03] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/7e/1d/1905fa6a8db67f6ee5a18925967551d3a44ffd38a95e9bb793fd7fdd5310/scrathon_payments-0.1.9.tar.gz
+[2024-05-23 11:24:03] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/a3/b6/e0491177e886f4191633b085ed3e7b2e77c00c277e59b83acedf4a538025/internet_domain_local-0.0.9.tar.gz
+[2024-05-23 11:24:03] INFO root fetch - processPackages [scrathon-payments]: executing diffoscope
+[2024-05-23 11:24:03] INFO root fetch - processPackages [scrathon-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrathon_payments-0.1.8.tar.gz tmp/scrathon_payments-0.1.9.tar.gz --markdown 20240523/s/scrathon-payments/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 11:24:03] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-05-23 11:24:03] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.1b5.tar.gz tmp/ctqkit-0.1.2.tar.gz --markdown 20240523/C/CtqKit/0.1.1b5-0.1.2/README.md --exclude *.pyd
+[2024-05-23 11:24:03] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-05-23 11:24:03] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.8.tar.gz tmp/internet_domain_local-0.0.9.tar.gz --markdown 20240523/i/internet-domain-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 11:24:04] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/cb/a6/61e80dfd11215ce1ac80f4fe092734961dbddb57ff28ffe026eb7025e228/shipper_shippy-2.37.7.tar.gz
+[2024-05-23 11:24:04] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2024-05-23 11:24:04] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper_shippy-2.37.6.tar.gz tmp/shipper_shippy-2.37.7.tar.gz --markdown 20240523/s/shipper-shippy/2.37.6-2.37.7/README.md --exclude *.pyd
+[2024-05-23 11:24:04] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.1b5.tar.gz]
+[2024-05-23 11:24:04] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.2.tar.gz]
+[2024-05-23 11:24:04] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-05-23 11:24:04] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.8.tar.gz]
+[2024-05-23 11:24:04] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.9.tar.gz]
+[2024-05-23 11:24:04] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-05-23 11:24:04] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.8.tar.gz]
+[2024-05-23 11:24:04] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.9.tar.gz]
+[2024-05-23 11:24:04] INFO root fetch - main [MainThread]: End processing [scrathon-payments]: success
+[2024-05-23 11:24:05] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.6.tar.gz]
+[2024-05-23 11:24:05] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.7.tar.gz]
+[2024-05-23 11:24:05] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2024-05-23 11:24:05] INFO root fetch - main [MainThread]: Store serial: [23340796]
