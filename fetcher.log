@@ -21631,3 +21631,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:15:42] INFO root fetch - processPackages [ms3]: Remove: archive file [/home/abi/fetcher/tmp/ms3-2.5.0.tar.gz]
 [2024-05-23 13:15:42] INFO root fetch - main [MainThread]: End processing [ms3]: success
 [2024-05-23 13:15:42] INFO root fetch - main [MainThread]: Store serial: [23342312]
+[2024-05-23 13:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342312]
+[2024-05-23 13:17:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ryry-cli
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carbatpy
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyOghma
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guarddog
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: junifer
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vastdb
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnikeeper-client
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specfile
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torcj
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cogflow
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ryry-cli]: New version: [1.7] Old Version: [1.6]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [torcj]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [PyOghma]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [junifer]: New version: [0.0.5.dev98] Old Version: [0.0.5.dev93]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [carbatpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [omnikeeper-client]: New version: [6.0.2] Old Version: [6.0.1]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [vastdb]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [specfile]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [guarddog]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-23 13:17:53] INFO root fetch - processPackages [torcj]: Downloading https://files.pythonhosted.org/packages/3a/88/d64b9394f18deb0e4629cf124118acf4a000ca5236959f7950c88defb3c6/torcj-0.0.5.tar.gz
+[2024-05-23 13:17:53] INFO root fetch - processPackages [PyOghma]: Downloading https://files.pythonhosted.org/packages/b6/1d/bc4bff91bb6c44d1a4361c71b2899da85df908f8d0468683763c0571d6fc/pyoghma-0.0.1.tar.gz
+[2024-05-23 13:17:53] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-23 13:17:53] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/ac/b0/e2e65ba8216e4d7225b19fbacfcc78b8dcd940e7fd4fa93f371dfabcf86d/junifer-0.0.5.dev93.tar.gz
+[2024-05-23 13:17:53] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/86/38/780ff45f379cad7f0228de487545711f9bb1c626fac6b79478e5c2600aae/ryry_cli-1.6.tar.gz
+[2024-05-23 13:17:53] WARNING root fetch - processPackages [PyOghma]: Skipping package: exceeds size limit 22271359>=10485760
+[2024-05-23 13:17:53] INFO root fetch - processPackages [PyOghma]: Start processing: databricks-sdk
+[2024-05-23 13:17:53] INFO root fetch - main [MainThread]: End processing [PyOghma] error
+[2024-05-23 13:17:54] INFO root fetch - processPackages [carbatpy]: Downloading https://files.pythonhosted.org/packages/24/17/19fc185dd55788942d95c441374668e30cb5163d7458614f09897f3f3038/carbatpy-0.1.4-py2.py3-none-any.whl
+[2024-05-23 13:17:54] INFO root fetch - processPackages [omnikeeper-client]: Downloading https://files.pythonhosted.org/packages/6d/9b/ca668ffe6373415809da395a517972a0ff69a5d6a52e4a3d2866f1574d76/omnikeeper_client-6.0.1-py3-none-any.whl
+[2024-05-23 13:17:54] INFO root fetch - processPackages [vastdb]: Downloading https://files.pythonhosted.org/packages/d2/9e/277568baaca58511f5b6fb92e548729523710a443ed725e7b473cd13ed55/vastdb-0.1.5.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [databricks-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 13:17:54] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/34/62/20eddcbef126e85431dc3242ff709176eaaa67d3d3a70ff2f8afeafe4479/specfile-0.9.0.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/cd/0d/28da35913cab532a1bd21e9f90514e203a3e72bc10ae7ed002ec9999383e/guarddog-1.7.0.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [torcj]: Downloading https://files.pythonhosted.org/packages/83/8b/6707988b54d82812b77cafd9d00ddc75ad15e16e76473ade5dd7c71ae22c/torcj-0.0.6.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/a8/70/0d37484eb8942b49e6dc4587a8444c0f35d8c2acb1c10c6737eeff082b6e/ryry_cli-1.7.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/3c/7b/df7c97747246261c5e18eeeccd3fccd465ae8b159a2a5c45cecc6dc36bce/databricks-sdk-0.8.0.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/7c/c8/efec76e061b145219f8d35f1eab1604135e4b284d36171eb4e530ab7541c/junifer-0.0.5.dev98.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [carbatpy]: Downloading https://files.pythonhosted.org/packages/18/0c/c7c9aca8058dbcc13d0e3630bde3ec4b935a24a81aa1fcf7b2a79e5915b3/carbatpy-0.1.5.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [torcj]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [torcj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcj-0.0.5.tar.gz tmp/torcj-0.0.6.tar.gz --markdown 20240523/t/torcj/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-23 13:17:54] INFO root fetch - processPackages [omnikeeper-client]: Downloading https://files.pythonhosted.org/packages/2c/50/dab197fa7cd462ced1423463684e3361cf875db56c87ca9ef69a4fae0ab6/omnikeeper_client-6.0.2-py3-none-any.whl
+[2024-05-23 13:17:54] INFO root fetch - processPackages [ryry-cli]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [ryry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryry_cli-1.6.tar.gz tmp/ryry_cli-1.7.tar.gz --markdown 20240523/r/ryry-cli/1.6-1.7/README.md --exclude *.pyd
+[2024-05-23 13:17:54] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240523/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-23 13:17:54] INFO root fetch - processPackages [vastdb]: Downloading https://files.pythonhosted.org/packages/ef/7c/d2b5719e0700061229e8ef74152af691f0f3b0f9896f4040bf5cb738c1ad/vastdb-0.1.6.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/98/58/5da46f58f41bce3602175cc9a4b5e90820385801d225c063e6e9ba50bc97/specfile-0.9.1.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [omnikeeper-client]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [omnikeeper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnikeeper_client-6.0.1-py3-none-any.whl.zip tmp/omnikeeper_client-6.0.2-py3-none-any.whl.zip --markdown 20240523/o/omnikeeper-client/6.0.1-6.0.2/README.md --exclude *.pyd
+[2024-05-23 13:17:54] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.5.dev93.tar.gz tmp/junifer-0.0.5.dev98.tar.gz --markdown 20240523/j/junifer/0.0.5.dev93-0.0.5.dev98/README.md --exclude *.pyd
+[2024-05-23 13:17:54] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/57/f0/5c2134642163e268cbe0b31b273256a629609b002757c7a27ac3531f5819/guarddog-1.8.0.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [vastdb]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [vastdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vastdb-0.1.5.tar.gz tmp/vastdb-0.1.6.tar.gz --markdown 20240523/v/vastdb/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-23 13:17:54] INFO root fetch - processPackages [specfile]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [specfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specfile-0.9.0.tar.gz tmp/specfile-0.9.1.tar.gz --markdown 20240523/s/specfile/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 13:17:54] INFO root fetch - processPackages [guarddog]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [guarddog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guarddog-1.7.0.tar.gz tmp/guarddog-1.8.0.tar.gz --markdown 20240523/g/guarddog/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-23 13:17:54] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/5d/c3/807c4d744e129b1d1fa80a6966260ad471dcabc9a0bfcd53641ed512836a/databricks-sdk-0.9.0.tar.gz
+[2024-05-23 13:17:54] INFO root fetch - processPackages [carbatpy]: executing diffoscope
+[2024-05-23 13:17:54] INFO root fetch - processPackages [carbatpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbatpy-0.1.4-py2.py3-none-any.whl.zip tmp/carbatpy-0.1.5.tar.gz --markdown 20240523/c/carbatpy/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-23 13:17:55] INFO root fetch - processPackages [databricks-sdk]: executing diffoscope
+[2024-05-23 13:17:55] INFO root fetch - processPackages [databricks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-sdk-0.8.0.tar.gz tmp/databricks-sdk-0.9.0.tar.gz --markdown 20240523/d/databricks-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-23 13:17:55] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.5.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.6.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - main [MainThread]: End processing [torcj]: success
+[2024-05-23 13:17:55] INFO root fetch - processPackages [ryry-cli]: Remove: archive file [/home/abi/fetcher/tmp/ryry_cli-1.6.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - processPackages [ryry-cli]: Remove: archive file [/home/abi/fetcher/tmp/ryry_cli-1.7.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - main [MainThread]: End processing [ryry-cli]: success
+[2024-05-23 13:17:55] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-23 13:17:55] INFO root fetch - processPackages [omnikeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/omnikeeper_client-6.0.1-py3-none-any.whl.zip]
+[2024-05-23 13:17:55] INFO root fetch - processPackages [omnikeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/omnikeeper_client-6.0.2-py3-none-any.whl.zip]
+[2024-05-23 13:17:55] INFO root fetch - main [MainThread]: End processing [omnikeeper-client]: success
+[2024-05-23 13:17:55] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.7.0.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.8.0.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - main [MainThread]: End processing [guarddog]: success
+[2024-05-23 13:17:55] INFO root fetch - processPackages [specfile]: Remove: archive file [/home/abi/fetcher/tmp/specfile-0.9.0.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - processPackages [specfile]: Remove: archive file [/home/abi/fetcher/tmp/specfile-0.9.1.tar.gz]
+[2024-05-23 13:17:55] INFO root fetch - main [MainThread]: End processing [specfile]: success
+[2024-05-23 13:17:56] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.1.5.tar.gz]
+[2024-05-23 13:17:56] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.1.6.tar.gz]
+[2024-05-23 13:17:56] INFO root fetch - main [MainThread]: End processing [vastdb]: success
+[2024-05-23 13:17:56] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev93.tar.gz]
+[2024-05-23 13:17:56] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev98.tar.gz]
+[2024-05-23 13:17:56] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-05-23 13:17:57] INFO root fetch - processPackages [databricks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/databricks-sdk-0.8.0.tar.gz]
+[2024-05-23 13:17:57] INFO root fetch - processPackages [databricks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/databricks-sdk-0.9.0.tar.gz]
+[2024-05-23 13:17:57] INFO root fetch - main [MainThread]: End processing [databricks-sdk]: success
+[2024-05-23 13:17:59] INFO root fetch - processPackages [carbatpy]: Remove: archive file [/home/abi/fetcher/tmp/carbatpy-0.1.4-py2.py3-none-any.whl.zip]
+[2024-05-23 13:17:59] INFO root fetch - processPackages [carbatpy]: Remove: archive file [/home/abi/fetcher/tmp/carbatpy-0.1.5.tar.gz]
+[2024-05-23 13:17:59] INFO root fetch - main [MainThread]: End processing [carbatpy]: success
+[2024-05-23 13:17:59] INFO root fetch - main [MainThread]: Store serial: [23342348]
