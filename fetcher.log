@@ -19593,3 +19593,75 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:00:55] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-23 12:00:55] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-23 12:00:55] INFO root fetch - main [MainThread]: Store serial: [23341507]
+[2024-05-23 12:03:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341507]
+[2024-05-23 12:03:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IvmDriver
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-unfold
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agixtsdk
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: browser-hz
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pozalabs-compose
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: topologicpy
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viet-badwords-filter
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bosing
+[2024-05-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hagworm
+[2024-05-23 12:03:05] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-23 12:03:05] WARNING root fetch - processPackages [IvmDriver]: Skipping, unable to determine old version
+[2024-05-23 12:03:05] INFO root fetch - main [MainThread]: End processing [IvmDriver] error
+[2024-05-23 12:03:05] WARNING root fetch - processPackages [viet-badwords-filter]: Skipping, unable to determine old version
+[2024-05-23 12:03:05] INFO root fetch - main [MainThread]: End processing [viet-badwords-filter] error
+[2024-05-23 12:03:05] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 12:03:05] INFO root fetch - processPackages [topologicpy]: New version: [6.0.0] Old Version: [0.7.0]
+[2024-05-23 12:03:05] INFO root fetch - processPackages [browser-hz]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-05-23 12:03:05] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [django-unfold]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-23 12:03:05] INFO root fetch - processPackages [hagworm]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-23 12:03:05] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/67/bf/6d0aa8bce08022520ab6dd295df05b901eff3e2057a90df4ed57984c0a2d/topologicpy-0.7.0-py3-none-any.whl
+[2024-05-23 12:03:05] INFO root fetch - processPackages [bosing]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-23 12:03:05] INFO root fetch - processPackages [browser-hz]: Downloading https://files.pythonhosted.org/packages/0b/65/b08912775522abee090bb86c57ff1f5d41b334d78bd2e60466505fe9b96c/browser_hz-4.0.1.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/61/80/2c35d6702f5e60071c38b480305123625928d28659b62a0a1156af55a522/django_unfold-0.8.0.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e0/1c/5dac91f7c38d49ccecfdc58d536db8299a6047d9ff58930a0d6013757ea4/hagworm-5.9.8.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/65/d7/de982dd19dedb2387a9d3c48ff9384633b27b874064c9d3614a3c6dc530b/topologicpy-6.0.0-py3-none-any.whl
+[2024-05-23 12:03:05] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/27/2b/4c5301c0fb57cf4fea7e39f9a9f5b27ced00fd837da0ab7df809cd5f87e8/bosing-2.0.4.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2024-05-23 12:03:05] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20240523/p/pozalabs-compose/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-23 12:03:05] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2024-05-23 12:03:05] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20240523/a/agixtsdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 12:03:05] INFO root fetch - processPackages [topologicpy]: executing diffoscope
+[2024-05-23 12:03:05] INFO root fetch - processPackages [topologicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topologicpy-0.7.0-py3-none-any.whl.zip tmp/topologicpy-6.0.0-py3-none-any.whl.zip --markdown 20240523/t/topologicpy/0.7.0-6.0.0/README.md --exclude *.pyd
+[2024-05-23 12:03:05] INFO root fetch - processPackages [browser-hz]: Downloading https://files.pythonhosted.org/packages/aa/b0/e1f8a7dfd23f0004a259401c6bdce17ec2f785526b38380ffd41bf2e6373/browser_hz-4.1.0.tar.gz
+[2024-05-23 12:03:05] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/63/12/24fd289ad7c8a03fd005b2e5d6dea8e078b894c7a057c9da590e6e6598ee/bosing-2.0.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-23 12:03:06] INFO root fetch - processPackages [browser-hz]: executing diffoscope
+[2024-05-23 12:03:06] INFO root fetch - processPackages [browser-hz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browser_hz-4.0.1.tar.gz tmp/browser_hz-4.1.0.tar.gz --markdown 20240523/b/browser-hz/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-05-23 12:03:06] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/2f/0d/16fd32d0754a2e5208aede68d6b772bc36ed5dcefe41035760e37a84fbbc/hagworm-5.9.9.tar.gz
+[2024-05-23 12:03:06] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/f2/29/90d5f5dd638e2e9b76365e6de014c0de45323bad92c9fe3e333b616c03fb/django_unfold-0.9.0.tar.gz
+[2024-05-23 12:03:06] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2024-05-23 12:03:06] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.9.8.tar.gz tmp/hagworm-5.9.9.tar.gz --markdown 20240523/h/hagworm/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-23 12:03:06] INFO root fetch - processPackages [django-unfold]: executing diffoscope
+[2024-05-23 12:03:06] INFO root fetch - processPackages [django-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_unfold-0.8.0.tar.gz tmp/django_unfold-0.9.0.tar.gz --markdown 20240523/d/django-unfold/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-23 12:03:06] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2024-05-23 12:03:06] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2024-05-23 12:03:06] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2024-05-23 12:03:06] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-05-23 12:03:06] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.4.tar.gz tmp/bosing-2.0.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240523/b/bosing/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-23 12:03:06] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2024-05-23 12:03:06] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2024-05-23 12:03:06] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2024-05-23 12:03:06] INFO root fetch - processPackages [browser-hz]: Remove: archive file [/home/abi/fetcher/tmp/browser_hz-4.0.1.tar.gz]
+[2024-05-23 12:03:06] INFO root fetch - processPackages [browser-hz]: Remove: archive file [/home/abi/fetcher/tmp/browser_hz-4.1.0.tar.gz]
+[2024-05-23 12:03:06] INFO root fetch - main [MainThread]: End processing [browser-hz]: success
+[2024-05-23 12:03:07] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.8.tar.gz]
+[2024-05-23 12:03:07] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
+[2024-05-23 12:03:07] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2024-05-23 12:03:07] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.4.tar.gz]
+[2024-05-23 12:03:07] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-23 12:03:07] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-05-23 12:03:07] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-0.7.0-py3-none-any.whl.zip]
+[2024-05-23 12:03:07] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-6.0.0-py3-none-any.whl.zip]
+[2024-05-23 12:03:07] INFO root fetch - main [MainThread]: End processing [topologicpy]: success
+[2024-05-23 12:03:07] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.8.0.tar.gz]
+[2024-05-23 12:03:07] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.9.0.tar.gz]
+[2024-05-23 12:03:07] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
+[2024-05-23 12:03:07] INFO root fetch - main [MainThread]: Store serial: [23341549]
