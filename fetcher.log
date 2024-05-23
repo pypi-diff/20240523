@@ -19057,3 +19057,102 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:43:38] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.166-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-23 11:43:38] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-23 11:43:38] INFO root fetch - main [MainThread]: Store serial: [23341287]
+[2024-05-23 11:45:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341287]
+[2024-05-23 11:45:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: giza-sdk
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepfusion
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flickr-photos-api
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petannotationvisualizer
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zrb
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lukasdata
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JBioSeqTools
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotsos
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lxdbapi
+[2024-05-23 11:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: useful-coderunner
+[2024-05-23 11:45:53] INFO root fetch - processPackages [deepfusion]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 11:45:53] WARNING root fetch - processPackages [giza-sdk]: Skipping, unable to determine old version
+[2024-05-23 11:45:53] INFO root fetch - processPackages [giza-sdk]: Start processing: mireq-django-ajax-utils
+[2024-05-23 11:45:53] INFO root fetch - main [MainThread]: End processing [giza-sdk] error
+[2024-05-23 11:45:53] INFO root fetch - processPackages [JBioSeqTools]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-23 11:45:53] INFO root fetch - processPackages [hotsos]: New version: [1.18.post6] Old Version: [1.18.post5]
+[2024-05-23 11:45:53] INFO root fetch - processPackages [deepfusion]: Downloading https://files.pythonhosted.org/packages/db/f3/1793294462758090da45e0b80b536e50ec15dace0273d69d07e9ab69ee98/deepfusion-0.0.1-py3-none-any.whl
+[2024-05-23 11:45:53] INFO root fetch - processPackages [zrb]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-23 11:45:53] WARNING root fetch - processPackages [useful-coderunner]: Skipping, unable to determine old version
+[2024-05-23 11:45:53] INFO root fetch - processPackages [useful-coderunner]: Start processing: markdownfeedgenerator
+[2024-05-23 11:45:53] INFO root fetch - processPackages [flickr-photos-api]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-23 11:45:53] INFO root fetch - processPackages [petannotationvisualizer]: New version: [1.2.0] Old Version: [0.0.1a4]
+[2024-05-23 11:45:53] INFO root fetch - main [MainThread]: End processing [useful-coderunner] error
+[2024-05-23 11:45:53] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/da/a0/e97aa374af6afb9759a56177ed88c9409e90aaddae61e91a477e4efac7ca/JBioSeqTools-2.0.6.tar.gz
+[2024-05-23 11:45:53] INFO root fetch - processPackages [lukasdata]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-23 11:45:53] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/6a/d7/18de0b5d00ab9efaad99c55264a736b4e501ccae7f13706c9c2c3ff4f9f1/hotsos-1.18.post5.tar.gz
+[2024-05-23 11:45:53] INFO root fetch - processPackages [lxdbapi]: New version: [2.3.202405230004] Old Version: [2.3.202405171725]
+[2024-05-23 11:45:54] INFO root fetch - processPackages [mireq-django-ajax-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 11:45:54] INFO root fetch - processPackages [markdownfeedgenerator]: New version: [2.5.3] Old Version: [2.5.1]
+[2024-05-23 11:45:54] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/70/d7/c96e853425bcbf1249172387a2e8f326313e3b4db9c1e919e50bedf9894b/markdownfeedgenerator-2.5.1-py3-none-any.whl
+[2024-05-23 11:45:54] INFO root fetch - processPackages [lukasdata]: Downloading https://files.pythonhosted.org/packages/4c/34/9f313272a79a5557a0106f467c3fe0a1afc9e90e99200a32eb884ef0c757/lukasdata-1.3.6.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/32/39/a7e9fbbb7d0cb16c4ef2cdecfa0052b5b5059c4b0f8cd6cc390052054a0b/zrb-0.9.2.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [petannotationvisualizer]: Downloading https://files.pythonhosted.org/packages/3b/93/759ded2a8e71b6acbb9bcc256517a6f88035964204cdffc9f2bc5dcd077a/PETAnnotationVisualizer-0.0.1a4.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [mireq-django-ajax-utils]: Downloading https://files.pythonhosted.org/packages/1d/7f/a38ed3c9b9c672cd17ddfaee2e01965d499bcf27b3f0dbead81f9345b414/mireq_django_ajax_utils-0.0.3.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [lxdbapi]: Downloading https://files.pythonhosted.org/packages/24/89/d9f8691501ea04d222a641c746a1bb2d69851d2b666b467c85dab0c9b813/lxdbapi-2.3.202405171725.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [deepfusion]: Downloading https://files.pythonhosted.org/packages/22/40/53bc69b5b2fd259eb27a3f597bc9aff4512dba544b44ce4f475e046644aa/deepfusion-0.0.2-py3-none-any.whl
+[2024-05-23 11:45:54] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/a7/5c/2d78b762c95a7a30b98dcd54be1793da7d8401bb94643afe6d75bafc8556/flickr_photos_api-2.3.1.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/c7/f9/2f69af4c82e9b6ba8e7d70f30b58ba31446804047621dc99825b8b54b57f/JBioSeqTools-2.0.7.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/64/d2/bb9b518ccfa8f247dbd93087573793007545ff20bd75d6f93c952d7123f0/hotsos-1.18.post6.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [deepfusion]: executing diffoscope
+[2024-05-23 11:45:54] INFO root fetch - processPackages [deepfusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfusion-0.0.1-py3-none-any.whl.zip tmp/deepfusion-0.0.2-py3-none-any.whl.zip --markdown 20240523/d/deepfusion/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 11:45:54] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/19/80/6c2cf643048faf189f72ebeed83c610bc756bf72ebf6c641408250e1888a/markdownfeedgenerator-2.5.3-py3-none-any.whl
+[2024-05-23 11:45:54] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2024-05-23 11:45:54] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-2.0.6.tar.gz tmp/JBioSeqTools-2.0.7.tar.gz --markdown 20240523/J/JBioSeqTools/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-23 11:45:54] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-23 11:45:54] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.18.post5.tar.gz tmp/hotsos-1.18.post6.tar.gz --markdown 20240523/h/hotsos/1.18.post5-1.18.post6/README.md --exclude *.pyd
+[2024-05-23 11:45:54] INFO root fetch - processPackages [lukasdata]: Downloading https://files.pythonhosted.org/packages/79/ba/6855db395ac5579db10b75f06277f4ff4edf45df3659db26dc4afbed442c/lukasdata-1.3.7.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [markdownfeedgenerator]: executing diffoscope
+[2024-05-23 11:45:54] INFO root fetch - processPackages [markdownfeedgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownfeedgenerator-2.5.1-py3-none-any.whl.zip tmp/markdownfeedgenerator-2.5.3-py3-none-any.whl.zip --markdown 20240523/m/markdownfeedgenerator/2.5.1-2.5.3/README.md --exclude *.pyd
+[2024-05-23 11:45:54] INFO root fetch - processPackages [petannotationvisualizer]: Downloading https://files.pythonhosted.org/packages/0a/6b/4e646bd5d28c6064acfa3de6e7421887fe687902f61044811e5c4a56b6d0/petannotationvisualizer-1.2.0.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/48/53/b13f3be1c5d66e6f7a3ab3e9bffd38a67728d6bacdc5cdf448cef487f79c/flickr_photos_api-2.3.2.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [lxdbapi]: Downloading https://files.pythonhosted.org/packages/49/18/e56c57b285373fc3d53f5ac1c464450e8c489936ca79c3d905c2202ebb3d/lxdbapi-2.3.202405230004.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [mireq-django-ajax-utils]: Downloading https://files.pythonhosted.org/packages/a3/60/663fb81bc55a946a762d451caa65d39561bc0bb8c0c762ce437f7614c81f/mireq_django_ajax_utils-0.0.4.tar.gz
+[2024-05-23 11:45:54] INFO root fetch - processPackages [lukasdata]: executing diffoscope
+[2024-05-23 11:45:54] INFO root fetch - processPackages [lukasdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lukasdata-1.3.6.tar.gz tmp/lukasdata-1.3.7.tar.gz --markdown 20240523/l/lukasdata/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-23 11:45:54] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-05-23 11:45:54] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr_photos_api-2.3.1.tar.gz tmp/flickr_photos_api-2.3.2.tar.gz --markdown 20240523/f/flickr-photos-api/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-05-23 11:45:54] INFO root fetch - processPackages [petannotationvisualizer]: executing diffoscope
+[2024-05-23 11:45:54] INFO root fetch - processPackages [petannotationvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PETAnnotationVisualizer-0.0.1a4.tar.gz tmp/petannotationvisualizer-1.2.0.tar.gz --markdown 20240523/p/petannotationvisualizer/0.0.1a4-1.2.0/README.md --exclude *.pyd
+[2024-05-23 11:45:55] INFO root fetch - processPackages [lxdbapi]: executing diffoscope
+[2024-05-23 11:45:55] INFO root fetch - processPackages [lxdbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxdbapi-2.3.202405171725.tar.gz tmp/lxdbapi-2.3.202405230004.tar.gz --markdown 20240523/l/lxdbapi/2.3.202405171725-2.3.202405230004/README.md --exclude *.pyd
+[2024-05-23 11:45:55] INFO root fetch - processPackages [mireq-django-ajax-utils]: executing diffoscope
+[2024-05-23 11:45:55] INFO root fetch - processPackages [mireq-django-ajax-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mireq_django_ajax_utils-0.0.3.tar.gz tmp/mireq_django_ajax_utils-0.0.4.tar.gz --markdown 20240523/m/mireq-django-ajax-utils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 11:45:55] INFO root fetch - processPackages [deepfusion]: Remove: archive file [/home/abi/fetcher/tmp/deepfusion-0.0.1-py3-none-any.whl.zip]
+[2024-05-23 11:45:55] INFO root fetch - processPackages [deepfusion]: Remove: archive file [/home/abi/fetcher/tmp/deepfusion-0.0.2-py3-none-any.whl.zip]
+[2024-05-23 11:45:55] INFO root fetch - main [MainThread]: End processing [deepfusion]: success
+[2024-05-23 11:45:55] INFO root fetch - processPackages [lukasdata]: Remove: archive file [/home/abi/fetcher/tmp/lukasdata-1.3.6.tar.gz]
+[2024-05-23 11:45:55] INFO root fetch - processPackages [lukasdata]: Remove: archive file [/home/abi/fetcher/tmp/lukasdata-1.3.7.tar.gz]
+[2024-05-23 11:45:55] INFO root fetch - main [MainThread]: End processing [lukasdata]: success
+[2024-05-23 11:45:55] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.5.1-py3-none-any.whl.zip]
+[2024-05-23 11:45:55] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.5.3-py3-none-any.whl.zip]
+[2024-05-23 11:45:55] INFO root fetch - main [MainThread]: End processing [markdownfeedgenerator]: success
+[2024-05-23 11:45:55] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.6.tar.gz]
+[2024-05-23 11:45:55] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.7.tar.gz]
+[2024-05-23 11:45:55] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2024-05-23 11:45:55] INFO root fetch - processPackages [petannotationvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/PETAnnotationVisualizer-0.0.1a4.tar.gz]
+[2024-05-23 11:45:55] INFO root fetch - processPackages [petannotationvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/petannotationvisualizer-1.2.0.tar.gz]
+[2024-05-23 11:45:55] INFO root fetch - main [MainThread]: End processing [petannotationvisualizer]: success
+[2024-05-23 11:45:55] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr_photos_api-2.3.1.tar.gz]
+[2024-05-23 11:45:55] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr_photos_api-2.3.2.tar.gz]
+[2024-05-23 11:45:55] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-05-23 11:45:56] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/f6/b9/43574b23dd1c57d67788b82511937efe23fc957250685ba62b6025db3166/zrb-0.9.3.tar.gz
+[2024-05-23 11:45:56] INFO root fetch - processPackages [mireq-django-ajax-utils]: Remove: archive file [/home/abi/fetcher/tmp/mireq_django_ajax_utils-0.0.3.tar.gz]
+[2024-05-23 11:45:56] INFO root fetch - processPackages [mireq-django-ajax-utils]: Remove: archive file [/home/abi/fetcher/tmp/mireq_django_ajax_utils-0.0.4.tar.gz]
+[2024-05-23 11:45:56] INFO root fetch - main [MainThread]: End processing [mireq-django-ajax-utils]: success
+[2024-05-23 11:45:56] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post5.tar.gz]
+[2024-05-23 11:45:56] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post6.tar.gz]
+[2024-05-23 11:45:56] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-23 11:45:56] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202405171725.tar.gz]
+[2024-05-23 11:45:56] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202405230004.tar.gz]
+[2024-05-23 11:45:56] INFO root fetch - main [MainThread]: End processing [lxdbapi]: success
+[2024-05-23 11:45:56] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2024-05-23 11:45:56] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.9.2.tar.gz tmp/zrb-0.9.3.tar.gz --markdown 20240523/z/zrb/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-23 11:46:01] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.2.tar.gz]
+[2024-05-23 11:46:01] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
+[2024-05-23 11:46:01] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2024-05-23 11:46:01] INFO root fetch - main [MainThread]: Store serial: [23341324]
