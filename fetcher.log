@@ -8638,3 +8638,56 @@
 [2024-05-23 04:39:20] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
 [2024-05-23 04:39:20] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
 [2024-05-23 04:39:20] INFO root fetch - main [MainThread]: Store serial: [23336787]
+[2024-05-23 04:41:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336787]
+[2024-05-23 04:41:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 04:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arkDLtools
+[2024-05-23 04:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyerualjetwork
+[2024-05-23 04:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ApiLogicServer
+[2024-05-23 04:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ApiLogicServer
+[2024-05-23 04:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gemmapy
+[2024-05-23 04:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: halina-mypackage
+[2024-05-23 04:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: halina-mypackage
+[2024-05-23 04:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: markdown-text-clean
+[2024-05-23 04:41:29] WARNING root fetch - processPackages [arkDLtools]: Skipping, unable to determine old version
+[2024-05-23 04:41:29] INFO root fetch - main [MainThread]: End processing [arkDLtools] error
+[2024-05-23 04:41:29] WARNING root fetch - processPackages [markdown-text-clean]: Skipping, unable to determine old version
+[2024-05-23 04:41:29] INFO root fetch - main [MainThread]: End processing [markdown-text-clean] error
+[2024-05-23 04:41:29] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 04:41:29] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/62/89/98b19cc5f91f4d77c8d43ad0afdeab730e7b774adf8aa0b9c6719958a48d/pyerualjetwork-1.1.5.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [gemmapy]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-23 04:41:29] INFO root fetch - processPackages [ApiLogicServer]: New version: [9.6.0] Old Version: [9.5.8]
+[2024-05-23 04:41:29] INFO root fetch - processPackages [ApiLogicServer]: New version: [9.6.0] Old Version: [9.5.8]
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: Downloading https://files.pythonhosted.org/packages/69/d2/d90dbd88f8e565cffd2be0e51900aab056216dd7359281067361cfdced4e/halina_mypackage-0.0.1.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: Downloading https://files.pythonhosted.org/packages/69/d2/d90dbd88f8e565cffd2be0e51900aab056216dd7359281067361cfdced4e/halina_mypackage-0.0.1.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [gemmapy]: Downloading https://files.pythonhosted.org/packages/dc/45/8afc86e02fc7821051d029754e1ec747a522b8a6c7ae793a57a3e8e56423/gemmapy-1.0.2.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/30/ab/b352cb7220c50fdd164e96db4f5755c4edf3b910a15853f19eb32d998666/ApiLogicServer-9.5.8.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/30/ab/b352cb7220c50fdd164e96db4f5755c4edf3b910a15853f19eb32d998666/ApiLogicServer-9.5.8.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/6f/e2/2fbd0f87cea2e62e4a1361fde1be043ff9bdd05508df4981b91dcee7664e/pyerualjetwork-1.1.6.tar.gz
+[2024-05-23 04:41:29] WARNING root fetch - processPackages [ApiLogicServer]: Skipping package: exceeds size limit 10730132>=10485760
+[2024-05-23 04:41:29] WARNING root fetch - processPackages [ApiLogicServer]: Skipping package: exceeds size limit 10730132>=10485760
+[2024-05-23 04:41:29] INFO root fetch - main [MainThread]: End processing [ApiLogicServer] error
+[2024-05-23 04:41:29] INFO root fetch - main [MainThread]: End processing [ApiLogicServer] error
+[2024-05-23 04:41:29] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 04:41:29] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.1.5.tar.gz tmp/pyerualjetwork-1.1.6.tar.gz --markdown 20240523/p/pyerualjetwork/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: Downloading https://files.pythonhosted.org/packages/4d/03/44df1b5981d4e7ace14bbeb1ea5730ba85f70d4a1ccdc5e525de71009c5e/halina_mypackage-0.0.2.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: Downloading https://files.pythonhosted.org/packages/4d/03/44df1b5981d4e7ace14bbeb1ea5730ba85f70d4a1ccdc5e525de71009c5e/halina_mypackage-0.0.2.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [gemmapy]: Downloading https://files.pythonhosted.org/packages/06/30/c6e859a75cc7db9753ebc194aa5e23ed0f79a19536516389a37463b4ba80/gemmapy-1.0.3.tar.gz
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: executing diffoscope
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halina_mypackage-0.0.1.tar.gz tmp/halina_mypackage-0.0.2.tar.gz --markdown 20240523/h/halina-mypackage/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: executing diffoscope
+[2024-05-23 04:41:29] INFO root fetch - processPackages [halina-mypackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halina_mypackage-0.0.1.tar.gz tmp/halina_mypackage-0.0.2.tar.gz --markdown 20240523/h/halina-mypackage/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 04:41:29] INFO root fetch - processPackages [gemmapy]: executing diffoscope
+[2024-05-23 04:41:29] INFO root fetch - processPackages [gemmapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemmapy-1.0.2.tar.gz tmp/gemmapy-1.0.3.tar.gz --markdown 20240523/g/gemmapy/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-23 04:41:30] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.1.5.tar.gz]
+[2024-05-23 04:41:30] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.1.6.tar.gz]
+[2024-05-23 04:41:30] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 04:41:30] INFO root fetch - processPackages [halina-mypackage]: Remove: archive file [/home/abi/fetcher/tmp/halina_mypackage-0.0.1.tar.gz]
+[2024-05-23 04:41:30] INFO root fetch - processPackages [halina-mypackage]: Remove: archive file [/home/abi/fetcher/tmp/halina_mypackage-0.0.2.tar.gz]
+[2024-05-23 04:41:30] INFO root fetch - main [MainThread]: End processing [halina-mypackage]: success
+[2024-05-23 04:41:30] INFO root fetch - main [MainThread]: End processing [halina-mypackage]: success
+[2024-05-23 04:41:30] INFO root fetch - processPackages [gemmapy]: Remove: archive file [/home/abi/fetcher/tmp/gemmapy-1.0.2.tar.gz]
+[2024-05-23 04:41:30] INFO root fetch - processPackages [gemmapy]: Remove: archive file [/home/abi/fetcher/tmp/gemmapy-1.0.3.tar.gz]
+[2024-05-23 04:41:30] INFO root fetch - main [MainThread]: End processing [gemmapy]: success
+[2024-05-23 04:41:30] INFO root fetch - main [MainThread]: Store serial: [23336815]
