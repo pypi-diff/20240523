@@ -20647,3 +20647,194 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:47:31] INFO root fetch - processPackages [fakenos]: Remove: archive file [/home/abi/fetcher/tmp/fakenos-1.0.0.tar.gz]
 [2024-05-23 12:47:31] INFO root fetch - main [MainThread]: End processing [fakenos]: success
 [2024-05-23 12:47:31] INFO root fetch - main [MainThread]: Store serial: [23341957]
+[2024-05-23 12:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341957]
+[2024-05-23 12:49:41] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frequenz-microgrid-betterproto
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laser-mind-client
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testwizard.core
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testwizard.test
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testwizard.commands-core
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testwizard.commands-audio
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testwizard.commands-mobile
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testwizard.commands-powerswitch
+[2024-05-23 12:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testwizard.commands-remotecontrol
+[2024-05-23 12:49:41] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: New version: [0.17.0.1] Old Version: [0.17.0]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [laser-mind-client]: New version: [0.21.2] Old Version: [0.21.0]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240523.6.48.729334] Old Version: [20240522.5.3.310311]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.test]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.commands-remotecontrol]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.core]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.commands-mobile]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.commands-core]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.commands-powerswitch]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [laser-mind-client]: Downloading https://files.pythonhosted.org/packages/74/ea/e06f7de7e282754998a9bcedd6f5060e7c00b2f87300cd63622c21fda70a/laser_mind_client-0.21.0.tar.gz
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.commands-audio]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:41] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Downloading https://files.pythonhosted.org/packages/b7/1b/0cff116614050a748e65b666bd1b1003d545797e47a10c0ed0df14d1eb47/frequenz-microgrid-betterproto-0.17.0.tar.gz
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.commands-mobile]: Downloading https://files.pythonhosted.org/packages/0f/9b/cc98d518633fbed3077f5dc3280f094c2efacd12b5a7ff9e960e5438a41e/testwizard.commands-mobile-3.8.1b4749.tar.gz
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.core]: Downloading https://files.pythonhosted.org/packages/1e/bf/b1c4c81cffa4b4af37844833c4f3809fffdbf9ea7d020be23d97ce0fcf10/testwizard.core-3.8.1b4749.tar.gz
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.commands-remotecontrol]: Downloading https://files.pythonhosted.org/packages/13/9d/71b3262d9677f52f17c9c919b69a5460c058762aeb116719813c59826b38/testwizard.commands-remotecontrol-3.8.1b4749.tar.gz
+[2024-05-23 12:49:41] INFO root fetch - processPackages [testwizard.commands-core]: Downloading https://files.pythonhosted.org/packages/d8/71/aaa7617e892e5dcc1c9df916624255fcc3c13a5338bf44cb21aa0b06a38a/testwizard.commands-core-3.8.1b4749.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.test]: Downloading https://files.pythonhosted.org/packages/7c/91/f6e184994e7fa9615aa5f3d338942b105412ae4bf805b8f73c72fd3be455/testwizard.test-3.8.1b4749.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/6c/8e/db179a36895617145dbb1d7845af4a8f2c8aae1a983501747b08d43f5121/certora-cli-alpha-master-20240522.5.3.310311.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-audio]: Downloading https://files.pythonhosted.org/packages/21/2c/ce3b4d935382a5efce16b605c6696d4525e0607d40e6b43df68c7bc678c9/testwizard.commands-audio-3.8.1b4749.tar.gz
+[2024-05-23 12:49:42] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14609078>=10485760
+[2024-05-23 12:49:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: testwizard.commands-video
+[2024-05-23 12:49:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-powerswitch]: Downloading https://files.pythonhosted.org/packages/7b/98/451821b1ac63a1efaa29bbb75ea81193c5d013af72e9761b364bfce417f6/testwizard.commands-powerswitch-3.8.1b4749.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-video]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:42] INFO root fetch - processPackages [laser-mind-client]: Downloading https://files.pythonhosted.org/packages/81/b8/4c026fa89f0b80fde5a421f0f53d1a25339a010c4fcda77e364041bc1f7f/laser_mind_client-0.21.2.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-mobile]: Downloading https://files.pythonhosted.org/packages/5b/ed/f768242f61d986473b1aa1d39a36f092c9a358b1b2a95c68cfff0d8f2458/testwizard.commands-mobile-3.8.1b4810.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.core]: Downloading https://files.pythonhosted.org/packages/f4/48/257241199d5fae65c8590781ec8b535c859f38e9a17d16b8c0add57ba729/testwizard.core-3.8.1b4810.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-video]: Downloading https://files.pythonhosted.org/packages/6e/cd/793308aca4fd50123558f6d510736062bda890f82bc85e822fedf923d7be/testwizard.commands-video-3.8.1b4749.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-core]: Downloading https://files.pythonhosted.org/packages/c4/90/3564a40f6b535f0fc32921673bddd6f9c0b46b8e71ce6b543a531c6f3c23/testwizard.commands-core-3.8.1b4810.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.test]: Downloading https://files.pythonhosted.org/packages/44/a5/3d86339ec0f9e78c370e38f62cb3d04ddaa1f64d7a8a51db0f49a12331ea/testwizard.test-3.8.1b4810.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-remotecontrol]: Downloading https://files.pythonhosted.org/packages/dc/06/1e09259036177aba1351f5e2b6cd73718bbb96c5e929861c7454190109fc/testwizard.commands-remotecontrol-3.8.1b4810.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Downloading https://files.pythonhosted.org/packages/95/6a/0b968a7d3c79b503f5dbe4b4a8a09e2d0ad7917d322014422590833bdc45/frequenz-microgrid-betterproto-0.17.0.1.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-audio]: Downloading https://files.pythonhosted.org/packages/a2/2d/5652d9602975a1a1ba279c859a5a06c3287d032bc13c1e4ac69dd1a57fa0/testwizard.commands-audio-3.8.1b4810.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-mobile]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-mobile-3.8.1b4749.tar.gz tmp/testwizard.commands-mobile-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-mobile/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [laser-mind-client]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [laser-mind-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laser_mind_client-0.21.0.tar.gz tmp/laser_mind_client-0.21.2.tar.gz --markdown 20240523/l/laser-mind-client/0.21.0-0.21.2/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.core]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.core-3.8.1b4749.tar.gz tmp/testwizard.core-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.core/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-powerswitch]: Downloading https://files.pythonhosted.org/packages/b0/50/939b1eb996c4e270b99983d28c12369bb5d6a1189b5cb99ad82975b7a840/testwizard.commands-powerswitch-3.8.1b4810.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.test]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.test-3.8.1b4749.tar.gz tmp/testwizard.test-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.test/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-core]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-core-3.8.1b4749.tar.gz tmp/testwizard.commands-core-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-core/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-remotecontrol]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-remotecontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-remotecontrol-3.8.1b4749.tar.gz tmp/testwizard.commands-remotecontrol-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-remotecontrol/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-audio]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-audio-3.8.1b4749.tar.gz tmp/testwizard.commands-audio-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-audio/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-microgrid-betterproto-0.17.0.tar.gz tmp/frequenz-microgrid-betterproto-0.17.0.1.tar.gz --markdown 20240523/f/frequenz-microgrid-betterproto/0.17.0-0.17.0.1/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-video]: Downloading https://files.pythonhosted.org/packages/43/10/dbfe6e47d69cb5b77a372bd675a5700c4217f5fe2053835285d981efd5e7/testwizard.commands-video-3.8.1b4810.tar.gz
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-powerswitch]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-powerswitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-powerswitch-3.8.1b4749.tar.gz tmp/testwizard.commands-powerswitch-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-powerswitch/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-video]: executing diffoscope
+[2024-05-23 12:49:42] INFO root fetch - processPackages [testwizard.commands-video]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-video-3.8.1b4749.tar.gz tmp/testwizard.commands-video-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-video/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.core]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.core-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.core]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.core-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.core]: Start processing: testwizard.commands-web
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [testwizard.core]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-web]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.test]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.test-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.test]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.test-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.test]: Start processing: testwizard.commands-camera
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [testwizard.test]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [laser-mind-client]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client-0.21.0.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [laser-mind-client]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client-0.21.2.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [laser-mind-client]: Start processing: testwizard.commands-services
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [laser-mind-client]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-mobile]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-mobile-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-mobile]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-mobile-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-mobile]: Start processing: testwizard.testobjects-core
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [testwizard.commands-mobile]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-web]: Downloading https://files.pythonhosted.org/packages/7d/71/281a37e89da40e9c20a626a8a76eb88e922632e29e6d87483220f35483b3/testwizard.commands-web-3.8.1b4749.tar.gz
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-camera]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.testobjects-core]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-audio]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-audio-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-audio]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-audio-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-audio]: Start processing: testwizard.android-set-top-box
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [testwizard.commands-audio]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-services]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-remotecontrol]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-remotecontrol-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-remotecontrol]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-remotecontrol-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-remotecontrol]: Start processing: testwizard.mobile
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [testwizard.commands-remotecontrol]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-powerswitch]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-powerswitch-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-powerswitch]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-powerswitch-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-powerswitch]: Start processing: testwizard.set-top-box
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [testwizard.commands-powerswitch]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-core]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-core-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-core]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-core-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-core]: Start processing: testwizard.web
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [testwizard.commands-core]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-video]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-video-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-services]: Downloading https://files.pythonhosted.org/packages/76/9a/72e6eecb8ea8867882abb586438708f9eb52bd74829049b270dc507e9782/testwizard.commands-services-3.8.1b4749.tar.gz
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-video]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-video-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-video]: Start processing: testwizard.smart-tv
+[2024-05-23 12:49:43] INFO root fetch - main [MainThread]: End processing [testwizard.commands-video]: success
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.commands-camera]: Downloading https://files.pythonhosted.org/packages/f6/b8/32c29b5f8e4d95846293e0a1b46ebe0e5452063ad0bc21b4f246817d39e2/testwizard.commands-camera-3.8.1b4749.tar.gz
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.mobile]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.android-set-top-box]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.testobjects-core]: Downloading https://files.pythonhosted.org/packages/16/26/db3f4bf3666d90f9fed7dd14c070bdbc7d4892a72510ac485cc842a9da70/testwizard.testobjects-core-3.8.1b4749.tar.gz
+[2024-05-23 12:49:43] INFO root fetch - processPackages [testwizard.set-top-box]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.web]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.smart-tv]: New version: [3.8.1b4810] Old Version: [3.8.1b4749]
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-web]: Downloading https://files.pythonhosted.org/packages/0a/38/31e707d12774916484b2fc3d754a0ee34d72ddaff1d39879cfdf91f93c67/testwizard.commands-web-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-microgrid-betterproto-0.17.0.tar.gz]
+[2024-05-23 12:49:44] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-microgrid-betterproto-0.17.0.1.tar.gz]
+[2024-05-23 12:49:44] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Start processing: torcj
+[2024-05-23 12:49:44] INFO root fetch - main [MainThread]: End processing [frequenz-microgrid-betterproto]: success
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.mobile]: Downloading https://files.pythonhosted.org/packages/a1/60/4e31ffca6a0b4899d552ffcb071fa7681875b3f5b60fd9ca1067e1a4cafa/testwizard.mobile-3.8.1b4749.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.android-set-top-box]: Downloading https://files.pythonhosted.org/packages/a5/a0/fa6590718a27aad4bd7905be11e7777ccdc3a6dfa4f886e7f6f69c312070/testwizard.android-set-top-box-3.8.1b4749.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.set-top-box]: Downloading https://files.pythonhosted.org/packages/0a/95/b366bcf6926a3190c306bc753cbf049dbed9a25927a866fdecf83f571218/testwizard.set-top-box-3.8.1b4749.tar.gz
+[2024-05-23 12:49:44] WARNING root fetch - processPackages [torcj]: Skipping, unable to determine old version
+[2024-05-23 12:49:44] INFO root fetch - processPackages [torcj]: Start processing: programmingForData
+[2024-05-23 12:49:44] INFO root fetch - main [MainThread]: End processing [torcj] error
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.smart-tv]: Downloading https://files.pythonhosted.org/packages/4c/f6/7d7500ae9cbee1e3bcecedc5740306432e996734ab1716624e9bb4f22f96/testwizard.smart-tv-3.8.1b4749.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-web]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-web-3.8.1b4749.tar.gz tmp/testwizard.commands-web-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-web/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.web]: Downloading https://files.pythonhosted.org/packages/91/1c/d929e2d6946d804c11a079904ba8ca5980b1b08757908c16411832a45109/testwizard.web-3.8.1b4749.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-services]: Downloading https://files.pythonhosted.org/packages/43/9e/f65b9af0c7422dbb085ed09bd6bc5702958025aa0d10ada0bed5c3322241/testwizard.commands-services-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-camera]: Downloading https://files.pythonhosted.org/packages/ed/d1/3d3d434e13a11c125a6f811178cd267d45a5e0a07a53ff53c47df5c97625/testwizard.commands-camera-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [programmingForData]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.testobjects-core]: Downloading https://files.pythonhosted.org/packages/41/74/e24e96a07f293ce9a9a5cfdeeb97a3b81df203239ba26e39eff0c151271d/testwizard.testobjects-core-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.set-top-box]: Downloading https://files.pythonhosted.org/packages/9c/73/b35aad32d696075a3a298942ed17a067af091c7a09f415a855316559309c/testwizard.set-top-box-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-services]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-services-3.8.1b4749.tar.gz tmp/testwizard.commands-services-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-services/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.mobile]: Downloading https://files.pythonhosted.org/packages/99/44/a6c6573a499a9da46a444c152f11aa42face644833712e889f1a422cb23f/testwizard.mobile-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-camera]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.commands-camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.commands-camera-3.8.1b4749.tar.gz tmp/testwizard.commands-camera-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.commands-camera/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.smart-tv]: Downloading https://files.pythonhosted.org/packages/55/57/e2337023b357581a45d8e584f903f91b93ada7cbd0791faca080868c930b/testwizard.smart-tv-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.testobjects-core]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.testobjects-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.testobjects-core-3.8.1b4749.tar.gz tmp/testwizard.testobjects-core-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.testobjects-core/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.android-set-top-box]: Downloading https://files.pythonhosted.org/packages/28/fe/50ee3eb487e277198421b7de05971bf082ddc064775914b12aef6f40e47b/testwizard.android-set-top-box-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.web]: Downloading https://files.pythonhosted.org/packages/41/b4/1168981c163648eff1ff2c6e1331d8d6953a5de0cd1217d644c4a4f3f3c8/testwizard.web-3.8.1b4810.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.set-top-box]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.set-top-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.set-top-box-3.8.1b4749.tar.gz tmp/testwizard.set-top-box-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.set-top-box/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [programmingForData]: Downloading https://files.pythonhosted.org/packages/42/2c/8859a2f8e8f4ccc9aa7bc95abe3c2b7fa69cb6df3c8ec85b5e7503f93ac6/programmingForData-0.1.0.tar.gz
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.mobile]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.mobile-3.8.1b4749.tar.gz tmp/testwizard.mobile-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.mobile/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.smart-tv]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.smart-tv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.smart-tv-3.8.1b4749.tar.gz tmp/testwizard.smart-tv-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.smart-tv/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.android-set-top-box]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.android-set-top-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.android-set-top-box-3.8.1b4749.tar.gz tmp/testwizard.android-set-top-box-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.android-set-top-box/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.web]: executing diffoscope
+[2024-05-23 12:49:44] INFO root fetch - processPackages [testwizard.web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testwizard.web-3.8.1b4749.tar.gz tmp/testwizard.web-3.8.1b4810.tar.gz --markdown 20240523/t/testwizard.web/3.8.1b4749-3.8.1b4810/README.md --exclude *.pyd
+[2024-05-23 12:49:44] INFO root fetch - processPackages [programmingForData]: Downloading https://files.pythonhosted.org/packages/fd/52/d32ccd3a5e605010227b7f27f0181dabe2c90e3d990bcfb78519e70fc772/programmingForData-0.2.0.tar.gz
+[2024-05-23 12:49:45] INFO root fetch - processPackages [programmingForData]: executing diffoscope
+[2024-05-23 12:49:45] INFO root fetch - processPackages [programmingForData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/programmingForData-0.1.0.tar.gz tmp/programmingForData-0.2.0.tar.gz --markdown 20240523/p/programmingForData/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.commands-web]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-web-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.commands-web]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-web-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.commands-web]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.set-top-box]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.set-top-box-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.set-top-box]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.set-top-box-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.set-top-box]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.testobjects-core]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.testobjects-core-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.testobjects-core]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.testobjects-core-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.testobjects-core]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.mobile]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.mobile-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.mobile]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.mobile-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.mobile]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.commands-camera]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-camera-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.commands-camera]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-camera-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.commands-camera]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.web]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.web-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.web]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.web-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.web]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.commands-services]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-services-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.commands-services]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.commands-services-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.commands-services]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.smart-tv]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.smart-tv-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.smart-tv]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.smart-tv-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.smart-tv]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.android-set-top-box]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.android-set-top-box-3.8.1b4749.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [testwizard.android-set-top-box]: Remove: archive file [/home/abi/fetcher/tmp/testwizard.android-set-top-box-3.8.1b4810.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [testwizard.android-set-top-box]: success
+[2024-05-23 12:49:45] INFO root fetch - processPackages [programmingForData]: Remove: archive file [/home/abi/fetcher/tmp/programmingForData-0.1.0.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - processPackages [programmingForData]: Remove: archive file [/home/abi/fetcher/tmp/programmingForData-0.2.0.tar.gz]
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: End processing [programmingForData]: success
+[2024-05-23 12:49:45] INFO root fetch - main [MainThread]: Store serial: [23342025]
