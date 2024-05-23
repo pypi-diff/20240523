@@ -22312,3 +22312,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:37:07] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.1.2.tar.gz]
 [2024-05-23 13:37:07] INFO root fetch - main [MainThread]: End processing [airbyte-source-shopify]: success
 [2024-05-23 13:37:07] INFO root fetch - main [MainThread]: Store serial: [23342567]
+[2024-05-23 13:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342567]
+[2024-05-23 13:39:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 13:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-23 13:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-kraken
+[2024-05-23 13:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bowtie-json-schema
+[2024-05-23 13:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyOghma
+[2024-05-23 13:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-option-menu-patched
+[2024-05-23 13:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DocumentsReader
+[2024-05-23 13:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cohere
+[2024-05-23 13:39:16] WARNING root fetch - processPackages [PyOghma]: Skipping, unable to determine old version
+[2024-05-23 13:39:16] INFO root fetch - main [MainThread]: End processing [PyOghma] error
+[2024-05-23 13:39:16] INFO root fetch - processPackages [music-kraken]: New version: [2.0.1.dev3] Old Version: [2.0.0]
+[2024-05-23 13:39:16] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 13:39:16] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 13:39:16] INFO root fetch - processPackages [cohere]: New version: [5.5.1] Old Version: [5.5.0]
+[2024-05-23 13:39:16] INFO root fetch - processPackages [cg]: New version: [60.8.6] Old Version: [60.8.5]
+[2024-05-23 13:39:16] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/fd/e7/7d03292011a09f999c852759b49bba7636a3ca49bec0efa90c696a70df2f/music_kraken-2.0.0.tar.gz
+[2024-05-23 13:39:16] WARNING root fetch - processPackages [streamlit-option-menu-patched]: Skipping, unable to determine old version
+[2024-05-23 13:39:16] INFO root fetch - main [MainThread]: End processing [streamlit-option-menu-patched] error
+[2024-05-23 13:39:16] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2024.5.9] Old Version: [2024.5.7]
+[2024-05-23 13:39:16] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/b4/de/580a72719b86b105d4d522d08242bd4f01c6c34d6190b45c03b2167897e3/cohere-5.5.0.tar.gz
+[2024-05-23 13:39:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/49/64/d0d7b97ef62f14f633295b29bc6214fe9a07c59413f8b7b7a2833e914d1c/cg-60.8.5.tar.gz
+[2024-05-23 13:39:17] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/10/ee/df9d65bd68e541f6c1ea77fbe2dad97f580403a916b0c67c7b7de8a20c4b/music_kraken-2.0.1.dev3.tar.gz
+[2024-05-23 13:39:17] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/58/ba/f44a7fc6211fb929c6a40fad8291d1ff6db5187c14a86964e20180fb2063/bowtie_json_schema-2024.5.7.tar.gz
+[2024-05-23 13:39:17] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/09/b9/cea9fb6b47a2bd1a8724cdf3c15339d987f367530e9aa6dece4ff95b1c1f/cohere-5.5.1.tar.gz
+[2024-05-23 13:39:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/db/fa/b3e4a0a020b042a31f0c4eeda218c4a549f9705152cb9736d1c559406d81/cg-60.8.6.tar.gz
+[2024-05-23 13:39:17] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-23 13:39:17] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-2.0.0.tar.gz tmp/music_kraken-2.0.1.dev3.tar.gz --markdown 20240523/m/music-kraken/2.0.0-2.0.1.dev3/README.md --exclude *.pyd
+[2024-05-23 13:39:17] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2024-05-23 13:39:17] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-5.5.0.tar.gz tmp/cohere-5.5.1.tar.gz --markdown 20240523/c/cohere/5.5.0-5.5.1/README.md --exclude *.pyd
+[2024-05-23 13:39:17] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/19/be/db415e0b8e6d9540002be64795c98eafec0ae54d673702b93bbcccff35b8/bowtie_json_schema-2024.5.9.tar.gz
+[2024-05-23 13:39:17] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-23 13:39:17] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.5.tar.gz tmp/cg-60.8.6.tar.gz --markdown 20240523/c/cg/60.8.5-60.8.6/README.md --exclude *.pyd
+[2024-05-23 13:39:17] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2024-05-23 13:39:17] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2024.5.7.tar.gz tmp/bowtie_json_schema-2024.5.9.tar.gz --markdown 20240523/b/bowtie-json-schema/2024.5.7-2024.5.9/README.md --exclude *.pyd
+[2024-05-23 13:39:18] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-2.0.0.tar.gz]
+[2024-05-23 13:39:18] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-2.0.1.dev3.tar.gz]
+[2024-05-23 13:39:18] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-23 13:39:18] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.5.0.tar.gz]
+[2024-05-23 13:39:18] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.5.1.tar.gz]
+[2024-05-23 13:39:18] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2024-05-23 13:39:18] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.7.tar.gz]
+[2024-05-23 13:39:18] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.9.tar.gz]
+[2024-05-23 13:39:18] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2024-05-23 13:39:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.5.tar.gz]
+[2024-05-23 13:39:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.6.tar.gz]
+[2024-05-23 13:39:21] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-23 13:39:21] INFO root fetch - main [MainThread]: Store serial: [23342593]
