@@ -7357,3 +7357,36 @@
 [2024-05-23 03:26:40] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.4.0a3.tar.gz]
 [2024-05-23 03:26:40] INFO root fetch - main [MainThread]: End processing [easytl]: success
 [2024-05-23 03:26:40] INFO root fetch - main [MainThread]: Store serial: [23335979]
+[2024-05-23 03:28:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23335979]
+[2024-05-23 03:28:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 03:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rococoooo
+[2024-05-23 03:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-client
+[2024-05-23 03:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediff
+[2024-05-23 03:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediffx
+[2024-05-23 03:28:49] INFO root fetch - processPackages [jupyter-client]: New version: [8.6.1] Old Version: [8.6.0]
+[2024-05-23 03:28:49] INFO root fetch - processPackages [onediffx]: New version: [1.1.0.dev202405220128] Old Version: [1.1.0.dev202405210127]
+[2024-05-23 03:28:49] INFO root fetch - processPackages [onediff]: New version: [1.1.0.dev202405220128] Old Version: [1.1.0.dev202405210127]
+[2024-05-23 03:28:49] WARNING root fetch - processPackages [rococoooo]: Skipping, unable to determine old version
+[2024-05-23 03:28:49] INFO root fetch - main [MainThread]: End processing [rococoooo] error
+[2024-05-23 03:28:49] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/75/d4/b142c21868a9eb0c210a02327fbc95966073685bd8a24b1e0ea49ab98fc5/onediffx-1.1.0.dev202405210127.tar.gz
+[2024-05-23 03:28:49] INFO root fetch - processPackages [jupyter-client]: Downloading https://files.pythonhosted.org/packages/71/04/4418fca04fd65a26771113a0a46220a1a54a6d6bcc6fae4ad6b69eb27dd5/jupyter_client-8.6.0.tar.gz
+[2024-05-23 03:28:49] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/bd/a8/8dcde456ac47708b01d37261485842ae0bb2c9560cff28df9d5c87a03a4e/onediff-1.1.0.dev202405210127.tar.gz
+[2024-05-23 03:28:49] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ec/e3/e832fe2126f349509813a3742a38ddfa01e934a99b8a0397a09613f6063b/onediff-1.1.0.dev202405220128.tar.gz
+[2024-05-23 03:28:49] INFO root fetch - processPackages [jupyter-client]: Downloading https://files.pythonhosted.org/packages/cd/5a/f4583ba60733b5a1cb1379acdf7c710fb1fb4d9df936a740f8cadf25d853/jupyter_client-8.6.1.tar.gz
+[2024-05-23 03:28:49] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-23 03:28:49] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.1.0.dev202405210127.tar.gz tmp/onediff-1.1.0.dev202405220128.tar.gz --markdown 20240523/o/onediff/1.1.0.dev202405210127-1.1.0.dev202405220128/README.md --exclude *.pyd
+[2024-05-23 03:28:49] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/aa/bd/d984c7e5ebc597fe34a33195dbfa6519b30d88627de46cd0578804dd67ca/onediffx-1.1.0.dev202405220128.tar.gz
+[2024-05-23 03:28:50] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-23 03:28:50] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.1.0.dev202405210127.tar.gz tmp/onediffx-1.1.0.dev202405220128.tar.gz --markdown 20240523/o/onediffx/1.1.0.dev202405210127-1.1.0.dev202405220128/README.md --exclude *.pyd
+[2024-05-23 03:28:50] INFO root fetch - processPackages [jupyter-client]: executing diffoscope
+[2024-05-23 03:28:50] INFO root fetch - processPackages [jupyter-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_client-8.6.0.tar.gz tmp/jupyter_client-8.6.1.tar.gz --markdown 20240523/j/jupyter-client/8.6.0-8.6.1/README.md --exclude *.pyd
+[2024-05-23 03:28:50] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405210127.tar.gz]
+[2024-05-23 03:28:50] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405220128.tar.gz]
+[2024-05-23 03:28:50] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-23 03:28:50] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405210127.tar.gz]
+[2024-05-23 03:28:50] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405220128.tar.gz]
+[2024-05-23 03:28:50] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-23 03:28:51] INFO root fetch - processPackages [jupyter-client]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_client-8.6.0.tar.gz]
+[2024-05-23 03:28:51] INFO root fetch - processPackages [jupyter-client]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_client-8.6.1.tar.gz]
+[2024-05-23 03:28:51] INFO root fetch - main [MainThread]: End processing [jupyter-client]: success
+[2024-05-23 03:28:51] INFO root fetch - main [MainThread]: Store serial: [23336048]
