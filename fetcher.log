@@ -12294,3 +12294,63 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:41:05] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
 [2024-05-23 08:41:05] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-23 08:41:05] INFO root fetch - main [MainThread]: Store serial: [23338598]
+[2024-05-23 08:43:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338598]
+[2024-05-23 08:43:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 08:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: number2text
+[2024-05-23 08:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: util_td
+[2024-05-23 08:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thema
+[2024-05-23 08:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaku
+[2024-05-23 08:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sign-oca
+[2024-05-23 08:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superagent-py
+[2024-05-23 08:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dash-spread-grid
+[2024-05-23 08:43:15] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-23 08:43:15] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.2.0.3] Old Version: [16.0.2.0.2]
+[2024-05-23 08:43:15] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:43:15] WARNING root fetch - processPackages [number2text]: Skipping, unable to determine old version
+[2024-05-23 08:43:15] INFO root fetch - main [MainThread]: End processing [number2text] error
+[2024-05-23 08:43:15] INFO root fetch - processPackages [util_td]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:43:15] INFO root fetch - processPackages [thema]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-23 08:43:15] INFO root fetch - processPackages [superagent-py]: New version: [0.2.40] Old Version: [0.2.33]
+[2024-05-23 08:43:15] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/0b/51/77147ad9aabf5fdfddae2704678338fbcaf60a6b00ef1cdda7bb2712f697/odoo_addon_sign_oca-16.0.2.0.2-py3-none-any.whl
+[2024-05-23 08:43:15] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-23 08:43:15] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/9f/39/3477f65f22676264317bcb1d617b220ddcc8d09f85a7eb7904d8c2676dae/dash_spread_grid-0.0.8.tar.gz
+[2024-05-23 08:43:15] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/cf/8c/7e65bc9585bb223d1a500cd94394502b6ed5a74829579e3fb7a69ede2c53/util_td-0.0.8.tar.gz
+[2024-05-23 08:43:15] INFO root fetch - processPackages [thema]: Downloading https://files.pythonhosted.org/packages/4f/5f/77e7d95070c107888c02dbda9f65db0f2a4bf5168abe52f464236d835458/thema-0.1.0.tar.gz
+[2024-05-23 08:43:15] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/61/8d/eff2fd85283a6a015be99089926d626c6411fbd2a385266769a35a71db14/superagent_py-0.2.33.tar.gz
+[2024-05-23 08:43:15] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/37/f7/3991c1c5cd26d592773df3381df4e17ae14f51d47af4fd52b7419949494b/dash_spread_grid-0.0.9.tar.gz
+[2024-05-23 08:43:15] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-23 08:43:15] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-23 08:43:15] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.0.8.tar.gz tmp/dash_spread_grid-0.0.9.tar.gz --markdown 20240523/d/dash-spread-grid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:43:15] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/1c/47/1e59b33592ae8b7ae44ee5a6c683a164a3631efca06359b21abfcb75b638/odoo_addon_sign_oca-16.0.2.0.3-py3-none-any.whl
+[2024-05-23 08:43:15] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-23 08:43:15] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240523/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:43:15] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-05-23 08:43:15] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.2.0.2-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.2.0.3-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-sign-oca/16.0.2.0.2-16.0.2.0.3/README.md --exclude *.pyd
+[2024-05-23 08:43:15] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/54/23/b3e1064335d006df77dd6584db9d57a1f595831385c92fa5d88415b0df83/superagent_py-0.2.40.tar.gz
+[2024-05-23 08:43:15] INFO root fetch - processPackages [thema]: Downloading https://files.pythonhosted.org/packages/b4/dd/47e32ad2ac390d1abc63727f426bbb749737a2e9550230f62ec27b881cf6/thema-0.1.1.tar.gz
+[2024-05-23 08:43:16] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2024-05-23 08:43:16] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.2.33.tar.gz tmp/superagent_py-0.2.40.tar.gz --markdown 20240523/s/superagent-py/0.2.33-0.2.40/README.md --exclude *.pyd
+[2024-05-23 08:43:16] INFO root fetch - processPackages [thema]: executing diffoscope
+[2024-05-23 08:43:16] INFO root fetch - processPackages [thema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thema-0.1.0.tar.gz tmp/thema-0.1.1.tar.gz --markdown 20240523/t/thema/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-23 08:43:16] INFO root fetch - processPackages [util_td]: Downloading https://files.pythonhosted.org/packages/52/9e/39ef74a46474a3613b9e9419253c0350568899819985a492b5f7b8e68889/util_td-0.0.9.tar.gz
+[2024-05-23 08:43:16] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-23 08:43:16] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-23 08:43:16] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-23 08:43:16] INFO root fetch - processPackages [util_td]: executing diffoscope
+[2024-05-23 08:43:16] INFO root fetch - processPackages [util_td]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/util_td-0.0.8.tar.gz tmp/util_td-0.0.9.tar.gz --markdown 20240523/u/util_td/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:43:16] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.2-py3-none-any.whl.zip]
+[2024-05-23 08:43:16] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.3-py3-none-any.whl.zip]
+[2024-05-23 08:43:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-05-23 08:43:16] INFO root fetch - processPackages [thema]: Remove: archive file [/home/abi/fetcher/tmp/thema-0.1.0.tar.gz]
+[2024-05-23 08:43:16] INFO root fetch - processPackages [thema]: Remove: archive file [/home/abi/fetcher/tmp/thema-0.1.1.tar.gz]
+[2024-05-23 08:43:16] INFO root fetch - main [MainThread]: End processing [thema]: success
+[2024-05-23 08:43:17] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.8.tar.gz]
+[2024-05-23 08:43:17] INFO root fetch - processPackages [util_td]: Remove: archive file [/home/abi/fetcher/tmp/util_td-0.0.9.tar.gz]
+[2024-05-23 08:43:17] INFO root fetch - main [MainThread]: End processing [util_td]: success
+[2024-05-23 08:43:17] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.2.33.tar.gz]
+[2024-05-23 08:43:17] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.2.40.tar.gz]
+[2024-05-23 08:43:17] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2024-05-23 08:43:17] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.8.tar.gz]
+[2024-05-23 08:43:17] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
+[2024-05-23 08:43:17] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-23 08:43:17] INFO root fetch - main [MainThread]: Store serial: [23338626]
