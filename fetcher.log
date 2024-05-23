@@ -2147,3 +2147,45 @@
 [2024-05-23 02:01:40] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-3.0.0.tar.gz]
 [2024-05-23 02:01:40] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
 [2024-05-23 02:01:40] INFO root fetch - main [MainThread]: Store serial: [23334448]
+[2024-05-23 02:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334448]
+[2024-05-23 02:03:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seeq
+[2024-05-23 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_medicio_ds
+[2024-05-23 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Leonardo-Ai-SDK
+[2024-05-23 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxscript
+[2024-05-23 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AgainsTurbcnModel
+[2024-05-23 02:03:49] INFO root fetch - processPackages [django_medicio_ds]: New version: [3.0.0] Old Version: [1.2.1]
+[2024-05-23 02:03:49] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240522] Old Version: [0.1.0.dev20240521]
+[2024-05-23 02:03:49] INFO root fetch - processPackages [seeq]: New version: [65.0.2] Old Version: [65.0.1]
+[2024-05-23 02:03:49] INFO root fetch - processPackages [django_medicio_ds]: Downloading https://files.pythonhosted.org/packages/81/15/e5ca6efc8814b448a39fb0ab0bd2331bb1f26112445818a0ebcee129a0b9/django-medicio_ds-1.2.1.tar.gz
+[2024-05-23 02:03:49] WARNING root fetch - processPackages [AgainsTurbcnModel]: Skipping, unable to determine old version
+[2024-05-23 02:03:49] INFO root fetch - main [MainThread]: End processing [AgainsTurbcnModel] error
+[2024-05-23 02:03:49] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.4.3] Old Version: [5.4.2]
+[2024-05-23 02:03:49] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/82/67/c8293207bbe83feb36a9cc3e071d26536090b704cbf3b95eba349ef6af2c/seeq-65.0.1.tar.gz
+[2024-05-23 02:03:49] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/80/2f/8d679721a18a6411439e14db81a142e1594b933bf3048ff4aae5f302e446/onnxscript-0.1.0.dev20240521.tar.gz
+[2024-05-23 02:03:49] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/2e/b0/b6e0be2fa669cc0d398fe4391456018bb1d4c809c0d6b244fa8bbc7ae498/Leonardo-Ai-SDK-5.4.2.tar.gz
+[2024-05-23 02:03:49] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/3e/dd/5a21a3b1be45b385c9fced19ff236c36c2a4e723e1a7f2a993fe4a9248ac/seeq-65.0.2.tar.gz
+[2024-05-23 02:03:49] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/b2/ad/a6719e1b9dd43d37b130b1027d1c390b2889622419ef1ed693d38e4afbe7/onnxscript-0.1.0.dev20240522.tar.gz
+[2024-05-23 02:03:49] INFO root fetch - processPackages [django_medicio_ds]: Downloading https://files.pythonhosted.org/packages/b9/67/5b8367ad439fcd189b23816ac8fe057665d998a01c838cbdabdbf5e9f085/django_medicio_ds-3.0.0.tar.gz
+[2024-05-23 02:03:49] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-05-23 02:03:49] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-65.0.1.tar.gz tmp/seeq-65.0.2.tar.gz --markdown 20240523/s/seeq/65.0.1-65.0.2/README.md --exclude *.pyd
+[2024-05-23 02:03:49] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-23 02:03:49] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240521.tar.gz tmp/onnxscript-0.1.0.dev20240522.tar.gz --markdown 20240523/o/onnxscript/0.1.0.dev20240521-0.1.0.dev20240522/README.md --exclude *.pyd
+[2024-05-23 02:03:49] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/0c/87/88ce5fc83b5c4c6b006f7345c26e3153a6566448505bcf6f3ab79956a242/Leonardo-Ai-SDK-5.4.3.tar.gz
+[2024-05-23 02:03:49] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-05-23 02:03:49] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.4.2.tar.gz tmp/Leonardo-Ai-SDK-5.4.3.tar.gz --markdown 20240523/L/Leonardo-Ai-SDK/5.4.2-5.4.3/README.md --exclude *.pyd
+[2024-05-23 02:03:49] INFO root fetch - processPackages [django_medicio_ds]: executing diffoscope
+[2024-05-23 02:03:49] INFO root fetch - processPackages [django_medicio_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-medicio_ds-1.2.1.tar.gz tmp/django_medicio_ds-3.0.0.tar.gz --markdown 20240523/d/django_medicio_ds/1.2.1-3.0.0/README.md --exclude *.pyd
+[2024-05-23 02:03:50] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.2.tar.gz]
+[2024-05-23 02:03:50] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.3.tar.gz]
+[2024-05-23 02:03:50] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-05-23 02:03:50] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240521.tar.gz]
+[2024-05-23 02:03:50] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240522.tar.gz]
+[2024-05-23 02:03:50] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-23 02:03:55] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.1.tar.gz]
+[2024-05-23 02:03:55] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.2.tar.gz]
+[2024-05-23 02:03:55] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-05-23 02:04:10] INFO root fetch - processPackages [django_medicio_ds]: Remove: archive file [/home/abi/fetcher/tmp/django-medicio_ds-1.2.1.tar.gz]
+[2024-05-23 02:04:10] INFO root fetch - processPackages [django_medicio_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_ds-3.0.0.tar.gz]
+[2024-05-23 02:04:10] INFO root fetch - main [MainThread]: End processing [django_medicio_ds]: success
+[2024-05-23 02:04:10] INFO root fetch - main [MainThread]: Store serial: [23334465]
