@@ -17230,3 +17230,63 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:24:05] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.7.tar.gz]
 [2024-05-23 11:24:05] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
 [2024-05-23 11:24:05] INFO root fetch - main [MainThread]: Store serial: [23340796]
+[2024-05-23 11:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340796]
+[2024-05-23 11:26:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-05-23 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: empire-platform-api-public-client
+[2024-05-23 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socket-request
+[2024-05-23 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-plus-one
+[2024-05-23 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soil-sdk
+[2024-05-23 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyE2
+[2024-05-23 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: equivalent_llm
+[2024-05-23 11:26:15] INFO root fetch - processPackages [soil-sdk]: New version: [0.6.9] Old Version: [0.6.8.dev2]
+[2024-05-23 11:26:15] INFO root fetch - processPackages [PyE2]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-23 11:26:15] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-23 11:26:15] WARNING root fetch - processPackages [nonebot-plugin-plus-one]: Skipping, unable to determine old version
+[2024-05-23 11:26:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-plus-one] error
+[2024-05-23 11:26:15] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2024-05-23 11:26:15] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/68f336f248034f5496c0f6133882d758ff76d98fbc108383165e5c203e35/soil-sdk-0.6.8.dev2.tar.gz
+[2024-05-23 11:26:15] INFO root fetch - processPackages [equivalent_llm]: New version: [0.3.2] Old Version: [0.3.0]
+[2024-05-23 11:26:15] INFO root fetch - processPackages [empire-platform-api-public-client]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-23 11:26:15] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/14/59/8e5cb9734fc36efa42737fdac02177571c1e0fee52864b592b0fb93ad8e2/pye2-0.8.3.tar.gz
+[2024-05-23 11:26:15] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-23 11:26:15] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/f4/f4/338618772ac46dfcbca1955e5f13d1c6e1d4d3cba8c23aa32318c7095c8f/socket_request-1.1.7-py3-none-any.whl
+[2024-05-23 11:26:15] INFO root fetch - processPackages [equivalent_llm]: Downloading https://files.pythonhosted.org/packages/b9/8e/4edb12ca74e4801c120678bdb909c1d9a73ef509fcb2e7b6e3bf86fabe2b/equivalent_llm-0.3.0.tar.gz
+[2024-05-23 11:26:15] INFO root fetch - processPackages [empire-platform-api-public-client]: Downloading https://files.pythonhosted.org/packages/74/27/0cf679718f34e8f48870326b812a7799f7a32944dc06768ca7b2628b468b/empire-platform-api-public-client-3.0.8.tar.gz
+[2024-05-23 11:26:15] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/95/a4/5d6fcf9c297529ccac89f00ed380d87a066c0f04eab9df8f4237645e0542/soil-sdk-0.6.9.tar.gz
+[2024-05-23 11:26:15] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-23 11:26:15] INFO root fetch - processPackages [soil-sdk]: executing diffoscope
+[2024-05-23 11:26:15] INFO root fetch - processPackages [soil-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-sdk-0.6.8.dev2.tar.gz tmp/soil-sdk-0.6.9.tar.gz --markdown 20240523/s/soil-sdk/0.6.8.dev2-0.6.9/README.md --exclude *.pyd
+[2024-05-23 11:26:16] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-23 11:26:16] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240523/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-23 11:26:16] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/1c/08/af8725dc5ebc079454a1ac0209f73f338baa6008dab9ff41c3b15f0867d6/pye2-0.8.4.tar.gz
+[2024-05-23 11:26:16] INFO root fetch - processPackages [equivalent_llm]: Downloading https://files.pythonhosted.org/packages/0b/ac/9802ef3b83d9dd94c608c92b2c6b3c05186fe9faa971fd49f25ee458c4c0/equivalent_llm-0.3.2.tar.gz
+[2024-05-23 11:26:16] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-23 11:26:16] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.8.3.tar.gz tmp/pye2-0.8.4.tar.gz --markdown 20240523/P/PyE2/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-23 11:26:16] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/cd/e0/990864e0d546c17ee823f5e5cd230665faad39efc3ba65e139c89af01de8/socket_request-1.1.9-py3-none-any.whl
+[2024-05-23 11:26:16] INFO root fetch - processPackages [empire-platform-api-public-client]: Downloading https://files.pythonhosted.org/packages/13/d0/756d2bd4f73410daa93213e4e45a2591730059b7b44be5ae1b48be2a014e/empire-platform-api-public-client-3.0.9.tar.gz
+[2024-05-23 11:26:16] INFO root fetch - processPackages [equivalent_llm]: executing diffoscope
+[2024-05-23 11:26:16] INFO root fetch - processPackages [equivalent_llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equivalent_llm-0.3.0.tar.gz tmp/equivalent_llm-0.3.2.tar.gz --markdown 20240523/e/equivalent_llm/0.3.0-0.3.2/README.md --exclude *.pyd
+[2024-05-23 11:26:16] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2024-05-23 11:26:16] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20240523/s/socket-request/1.1.7-1.1.9/README.md --exclude *.pyd
+[2024-05-23 11:26:16] INFO root fetch - processPackages [empire-platform-api-public-client]: executing diffoscope
+[2024-05-23 11:26:16] INFO root fetch - processPackages [empire-platform-api-public-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empire-platform-api-public-client-3.0.8.tar.gz tmp/empire-platform-api-public-client-3.0.9.tar.gz --markdown 20240523/e/empire-platform-api-public-client/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-23 11:26:16] INFO root fetch - processPackages [equivalent_llm]: Remove: archive file [/home/abi/fetcher/tmp/equivalent_llm-0.3.0.tar.gz]
+[2024-05-23 11:26:16] INFO root fetch - processPackages [equivalent_llm]: Remove: archive file [/home/abi/fetcher/tmp/equivalent_llm-0.3.2.tar.gz]
+[2024-05-23 11:26:16] INFO root fetch - main [MainThread]: End processing [equivalent_llm]: success
+[2024-05-23 11:26:17] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-23 11:26:17] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-23 11:26:17] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-23 11:26:17] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.3.tar.gz]
+[2024-05-23 11:26:17] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.4.tar.gz]
+[2024-05-23 11:26:17] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-23 11:26:17] INFO root fetch - processPackages [socket-request]: Remove: archive file [/home/abi/fetcher/tmp/socket_request-1.1.7-py3-none-any.whl.zip]
+[2024-05-23 11:26:17] INFO root fetch - processPackages [socket-request]: Remove: archive file [/home/abi/fetcher/tmp/socket_request-1.1.9-py3-none-any.whl.zip]
+[2024-05-23 11:26:17] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2024-05-23 11:26:17] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.8.dev2.tar.gz]
+[2024-05-23 11:26:17] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.9.tar.gz]
+[2024-05-23 11:26:17] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
+[2024-05-23 11:26:22] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-3.0.8.tar.gz]
+[2024-05-23 11:26:22] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-3.0.9.tar.gz]
+[2024-05-23 11:26:22] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
+[2024-05-23 11:26:22] INFO root fetch - main [MainThread]: Store serial: [23340820]
