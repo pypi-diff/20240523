@@ -13867,3 +13867,87 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:40:48] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
 [2024-05-23 09:40:48] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2024-05-23 09:40:48] INFO root fetch - main [MainThread]: Store serial: [23339319]
+[2024-05-23 09:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339319]
+[2024-05-23 09:42:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: covjsonkit
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragtime
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-manager
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dzidb
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arch-flow
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cae-cli
+[2024-05-23 09:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perspective-python
+[2024-05-23 09:42:58] INFO root fetch - processPackages [ragtime]: New version: [0.0.36] Old Version: [0.0.35]
+[2024-05-23 09:42:58] INFO root fetch - processPackages [cae-cli]: New version: [0.2.9.1] Old Version: [0.2.9]
+[2024-05-23 09:42:58] INFO root fetch - processPackages [arch-flow]: New version: [0.1.8] Old Version: [0.1.7.4]
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:42:58] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-05-23 09:42:58] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-23 09:42:58] WARNING root fetch - processPackages [covjsonkit]: Skipping, unable to determine old version
+[2024-05-23 09:42:58] INFO root fetch - main [MainThread]: End processing [covjsonkit] error
+[2024-05-23 09:42:58] INFO root fetch - processPackages [dzidb]: New version: [1.1] Old Version: [1.0.8]
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/4f/ee/f5d2a230368c785433072bff69b21a65883681100582bc3fcf6881943d2f/arch_flow-0.1.7.4.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/0f/18/b9d09bdf36c072a27807626988218938501f9caa230888af02577af1c172/cae_cli-0.2.9.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [perspective-python]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-05-23 09:42:58] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/45/11/2c85479d97da51c2468cb2f47daa183940a3289f670b705c4d0ac6fb4ae2/ragtime-0.0.35.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-05-23 09:42:58] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/72/bb/a08dd5b03f4b8aa27664a27111b99d794a04b6ea05812a34c7a800bb10a3/dzidb-1.0.8.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/ef/6d/3c39cca6d6aae46f707af12acdf0de5db6bf2a81adf2813ecdf6be4efa0d/perspective-python-2.8.1.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/6a/aa/a0f12c7a9e3019b7fd2e6231344b1a1e465836d8ecd08b90e8daded64fb0/cae_cli-0.2.9.1.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/24/54/fb843526e3418f622be296305913a59ea0bab0185e7885c2a0f286671849/arch_flow-0.1.8.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-05-23 09:42:58] INFO root fetch - processPackages [cae-cli]: executing diffoscope
+[2024-05-23 09:42:58] INFO root fetch - processPackages [cae-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cae_cli-0.2.9.tar.gz tmp/cae_cli-0.2.9.1.tar.gz --markdown 20240523/c/cae-cli/0.2.9-0.2.9.1/README.md --exclude *.pyd
+[2024-05-23 09:42:58] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-05-23 09:42:58] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.1.7.4.tar.gz tmp/arch_flow-0.1.8.tar.gz --markdown 20240523/a/arch-flow/0.1.7.4-0.1.8/README.md --exclude *.pyd
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:42:58] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:42:58] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/bf/ae/3ec72eefc9ad9052505b0c09e173181c912c71a8cb3215601a3f32903f9e/ragtime-0.0.36.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/ab/7b/1eb783cec2be6c8f5f50400132b6afae58c752421a84c34ef92cb658707b/dzidb-1.1.tar.gz
+[2024-05-23 09:42:58] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-05-23 09:42:58] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240523/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-05-23 09:42:58] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-23 09:42:58] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240523/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-23 09:42:58] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-23 09:42:58] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.0.8.tar.gz tmp/dzidb-1.1.tar.gz --markdown 20240523/d/dzidb/1.0.8-1.1/README.md --exclude *.pyd
+[2024-05-23 09:42:58] INFO root fetch - processPackages [ragtime]: executing diffoscope
+[2024-05-23 09:42:58] INFO root fetch - processPackages [ragtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragtime-0.0.35.tar.gz tmp/ragtime-0.0.36.tar.gz --markdown 20240523/r/ragtime/0.0.35-0.0.36/README.md --exclude *.pyd
+[2024-05-23 09:42:59] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.9.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.9.1.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
+[2024-05-23 09:42:59] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.4.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.8.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-05-23 09:42:59] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:42:59] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:42:59] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.0.8.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.1.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-23 09:42:59] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-05-23 09:42:59] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-05-23 09:42:59] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-05-23 09:42:59] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.35.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.36.tar.gz]
+[2024-05-23 09:42:59] INFO root fetch - main [MainThread]: End processing [ragtime]: success
+[2024-05-23 09:43:00] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/2e/4a/960bac1d3efa34165fe7fa9e5fadcec0b6909de998437970baddf1e1e575/perspective-python-2.9.0.tar.gz
+[2024-05-23 09:43:01] INFO root fetch - processPackages [perspective-python]: executing diffoscope
+[2024-05-23 09:43:01] INFO root fetch - processPackages [perspective-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perspective-python-2.8.1.tar.gz tmp/perspective-python-2.9.0.tar.gz --markdown 20240523/p/perspective-python/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-05-23 09:43:01] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-23 09:43:01] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-23 09:43:01] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-23 09:46:01] ERROR root fetch - processPackages [perspective-python]: Timeout during execution of pkgdiff
+[2024-05-23 09:46:01] INFO root fetch - main [MainThread]: End processing [perspective-python] error
+[2024-05-23 09:46:01] INFO root fetch - main [MainThread]: Store serial: [23339347]
