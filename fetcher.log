@@ -8867,3 +8867,54 @@
 [2024-05-23 04:57:30] INFO root fetch - processPackages [midas-open-parser]: Remove: archive file [/home/abi/fetcher/tmp/midas_open_parser-0.1.14.tar.gz]
 [2024-05-23 04:57:30] INFO root fetch - main [MainThread]: End processing [midas-open-parser]: success
 [2024-05-23 04:57:30] INFO root fetch - main [MainThread]: Store serial: [23336888]
+[2024-05-23 04:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336888]
+[2024-05-23 04:59:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygubu
+[2024-05-23 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vtjson
+[2024-05-23 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duwi-smarthome-sdk
+[2024-05-23 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-exaspim-pipeline-utils
+[2024-05-23 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ab-test-advanced-toolkit
+[2024-05-23 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ramancloud
+[2024-05-23 04:59:39] INFO root fetch - processPackages [duwi-smarthome-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-23 04:59:39] INFO root fetch - processPackages [pygubu]: New version: [0.9.8.6] Old Version: [0.9.8.5]
+[2024-05-23 04:59:39] INFO root fetch - processPackages [vtjson]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-23 04:59:39] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/27/78/76a9a8fed2ce4d8a0f550d3a80e5eaa08656412a7b7b1b4aa6ab91401faa/duwi_smarthome_sdk-0.1.4.tar.gz
+[2024-05-23 04:59:39] INFO root fetch - processPackages [ab-test-advanced-toolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 04:59:39] WARNING root fetch - processPackages [ramancloud]: Skipping, unable to determine old version
+[2024-05-23 04:59:39] INFO root fetch - main [MainThread]: End processing [ramancloud] error
+[2024-05-23 04:59:39] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-23 04:59:39] INFO root fetch - processPackages [pygubu]: Downloading https://files.pythonhosted.org/packages/06/4a/cbee79c44123c3c64727d971e6a59bdce059ef46c98df805a45eeb0f4563/pygubu-0.9.8.5.tar.gz
+[2024-05-23 04:59:39] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/6d/94/5496df247951277110af3da9f2c7ae1a6e5c7f1c5d96983d8509b4932939/duwi_smarthome_sdk-0.1.5.tar.gz
+[2024-05-23 04:59:39] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/9b/60/4a30e88759b52ede7d0b938fcd79de164b6d748fe779c416bf95be608169/vtjson-1.7.8.tar.gz
+[2024-05-23 04:59:39] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Downloading https://files.pythonhosted.org/packages/d8/42/ab004b4ccd6255554b61e818ddbed6d3124273a7fb9d64d2805cb852d1bf/ab_test_advanced_toolkit-0.0.8.tar.gz
+[2024-05-23 04:59:39] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/10/2c/5b3774411a0f43ab224714982aa97b16dab938d7cf6f3cfbed99ab83212f/aind_exaspim_pipeline_utils-0.8.3.tar.gz
+[2024-05-23 04:59:39] INFO root fetch - processPackages [duwi-smarthome-sdk]: executing diffoscope
+[2024-05-23 04:59:39] INFO root fetch - processPackages [duwi-smarthome-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk-0.1.4.tar.gz tmp/duwi_smarthome_sdk-0.1.5.tar.gz --markdown 20240523/d/duwi-smarthome-sdk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-23 04:59:40] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Downloading https://files.pythonhosted.org/packages/83/21/c8975e01e119d8bd94b24149ac6babca6fd2e5707a3bf6814a00df981294/ab_test_advanced_toolkit-0.0.9.tar.gz
+[2024-05-23 04:59:40] INFO root fetch - processPackages [pygubu]: Downloading https://files.pythonhosted.org/packages/42/b6/19b3771db930bf94f704ed79a0510adc9c1d734f494699369d953612e863/pygubu-0.9.8.6.tar.gz
+[2024-05-23 04:59:40] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/1b/5e/4bd1e216c0e8cc86257eddce4bd959d9e8c73e3b371d1673bc2fc2b3230b/aind_exaspim_pipeline_utils-0.9.0.tar.gz
+[2024-05-23 04:59:40] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/81/e1/7917ef410e096f641d61d4bcb213900a5ffd830d91f97cce90dbe46ea257/vtjson-1.7.9.tar.gz
+[2024-05-23 04:59:40] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: executing diffoscope
+[2024-05-23 04:59:40] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz tmp/aind_exaspim_pipeline_utils-0.9.0.tar.gz --markdown 20240523/a/aind-exaspim-pipeline-utils/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-23 04:59:40] INFO root fetch - processPackages [ab-test-advanced-toolkit]: executing diffoscope
+[2024-05-23 04:59:40] INFO root fetch - processPackages [ab-test-advanced-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab_test_advanced_toolkit-0.0.8.tar.gz tmp/ab_test_advanced_toolkit-0.0.9.tar.gz --markdown 20240523/a/ab-test-advanced-toolkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 04:59:40] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-05-23 04:59:40] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.7.8.tar.gz tmp/vtjson-1.7.9.tar.gz --markdown 20240523/v/vtjson/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-23 04:59:40] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.4.tar.gz]
+[2024-05-23 04:59:40] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.5.tar.gz]
+[2024-05-23 04:59:40] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk]: success
+[2024-05-23 04:59:40] INFO root fetch - processPackages [pygubu]: executing diffoscope
+[2024-05-23 04:59:40] INFO root fetch - processPackages [pygubu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygubu-0.9.8.5.tar.gz tmp/pygubu-0.9.8.6.tar.gz --markdown 20240523/p/pygubu/0.9.8.5-0.9.8.6/README.md --exclude *.pyd
+[2024-05-23 04:59:40] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.7.8.tar.gz]
+[2024-05-23 04:59:40] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.7.9.tar.gz]
+[2024-05-23 04:59:40] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-05-23 04:59:41] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab_test_advanced_toolkit-0.0.8.tar.gz]
+[2024-05-23 04:59:41] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab_test_advanced_toolkit-0.0.9.tar.gz]
+[2024-05-23 04:59:41] INFO root fetch - main [MainThread]: End processing [ab-test-advanced-toolkit]: success
+[2024-05-23 04:59:41] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz]
+[2024-05-23 04:59:41] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.9.0.tar.gz]
+[2024-05-23 04:59:41] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
+[2024-05-23 04:59:41] INFO root fetch - processPackages [pygubu]: Remove: archive file [/home/abi/fetcher/tmp/pygubu-0.9.8.5.tar.gz]
+[2024-05-23 04:59:41] INFO root fetch - processPackages [pygubu]: Remove: archive file [/home/abi/fetcher/tmp/pygubu-0.9.8.6.tar.gz]
+[2024-05-23 04:59:41] INFO root fetch - main [MainThread]: End processing [pygubu]: success
+[2024-05-23 04:59:41] INFO root fetch - main [MainThread]: Store serial: [23336909]
