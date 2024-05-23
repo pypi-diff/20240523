@@ -21792,3 +21792,168 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:22:36] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.7.tar.gz]
 [2024-05-23 13:22:36] INFO root fetch - main [MainThread]: End processing [torcj]: success
 [2024-05-23 13:22:36] INFO root fetch - main [MainThread]: Store serial: [23342368]
+[2024-05-23 13:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342368]
+[2024-05-23 13:24:45] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hacs-frontend
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pantarei
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvcx
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-preprocessing-lib-byarat
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-core
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-autogen
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-claude
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-crewai
+[2024-05-23 13:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-griptape
+[2024-05-23 13:24:45] INFO root fetch - processPackages [hacs-frontend]: New version: [9] Old Version: [8]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [dvcx]: New version: [0.83.2] Old Version: [0.83.1]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [pantarei]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [composio-griptape]: New version: [0.2.63] Old Version: [0.2.60]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [composio-claude]: New version: [0.2.63] Old Version: [0.2.60]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: New version: [1.4.0] Old Version: [0.1.0]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 13:24:45] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/18/6d/06b6e0bf4ca36a0a08111e30309ea4afc0d75ae47ac9e94318247f9ce7eb/dvcx-0.83.1.tar.gz
+[2024-05-23 13:24:45] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/4b/54/4a6311d8b103f58145787acb710d11417db7aa8446ae2bec85633213f873/hacs-frontend-8.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/54/76/1c80aef91b29a6475e939aaeeb3d75e3d196a54ea43babb47ce4525dedb3/composio_griptape-0.2.60.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [pantarei]: Downloading https://files.pythonhosted.org/packages/a3/96/6d04b8189a633e28e5cb32104a75a766532acf1bc1ebd53b7c62850c6eef/pantarei-0.3.0.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/9c/e9/c453a279a20a1a3c9bd89cde97d996961867ad44ec2186664c54a79be94a/composio_claude-0.2.60.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Downloading https://files.pythonhosted.org/packages/da/c3/98003ab56f865a5e1691c2f5211871f399519765e274d0c1ef44302f7a30/data_preprocessing_lib_byarat-0.1.0.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/99fc7d5e575ed7ac25aaf6fa2230eea1499ac447c06f0c88af1a96d19d69/hacs-frontend-9.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/e4/cc/39751eeb3db22f41c99e03dd06bb8d195fb29bfed063012564a7e20bc31d/dvcx-0.83.2.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [hacs-frontend]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [hacs-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacs-frontend-8.tar.gz tmp/hacs-frontend-9.tar.gz --markdown 20240523/h/hacs-frontend/8-9/README.md --exclude *.pyd
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/63/db/1a384809d6d7d70690ec3e88ec876256eacd40e2588ee8f4e0baa66bca8c/composio_griptape-0.2.63.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240523/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-23 13:24:46] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.83.1.tar.gz tmp/dvcx-0.83.2.tar.gz --markdown 20240523/d/dvcx/0.83.1-0.83.2/README.md --exclude *.pyd
+[2024-05-23 13:24:46] INFO root fetch - processPackages [pantarei]: Downloading https://files.pythonhosted.org/packages/bc/2b/02376a0f71ba8def422605a62c34a8c5a7d9130800d771b1e216c876924b/pantarei-0.4.0.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.60.tar.gz tmp/composio_griptape-0.2.63.tar.gz --markdown 20240523/c/composio-griptape/0.2.60-0.2.63/README.md --exclude *.pyd
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/fa/fb/8455d7e4c033eb4191ebaa94eb06024382bbe5993c212e4e47a8d1e630e7/composio_claude-0.2.63.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Downloading https://files.pythonhosted.org/packages/03/eb/213a12eebba32c386c37da14e60b910e792b927f4e6f186250f587331c02/data_preprocessing_lib_byarat-1.4.0.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-23 13:24:46] INFO root fetch - processPackages [pantarei]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [pantarei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantarei-0.3.0.tar.gz tmp/pantarei-0.4.0.tar.gz --markdown 20240523/p/pantarei/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240523/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.60.tar.gz tmp/composio_claude-0.2.63.tar.gz --markdown 20240523/c/composio-claude/0.2.60-0.2.63/README.md --exclude *.pyd
+[2024-05-23 13:24:46] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_preprocessing_lib_byarat-0.1.0.tar.gz tmp/data_preprocessing_lib_byarat-1.4.0.tar.gz --markdown 20240523/d/data-preprocessing-lib-byarat/0.1.0-1.4.0/README.md --exclude *.pyd
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-23 13:24:46] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240523/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240523/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.60.tar.gz]
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.63.tar.gz]
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-griptape]: Start processing: composio-julep
+[2024-05-23 13:24:47] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-julep]: New version: [0.2.63] Old Version: [0.2.60]
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-autogen]: Start processing: composio-langchain
+[2024-05-23 13:24:47] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-23 13:24:47] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-8.tar.gz]
+[2024-05-23 13:24:47] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
+[2024-05-23 13:24:47] INFO root fetch - processPackages [hacs-frontend]: Start processing: composio-lyzr
+[2024-05-23 13:24:47] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
+[2024-05-23 13:24:47] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/84/07/68e7d7884256f0a3b8923b22a3fd7a726f5d96f41e12c27d2ac7ef615953/composio_julep-0.2.60.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: composio-openai
+[2024-05-23 13:24:48] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-23 13:24:48] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Remove: archive file [/home/abi/fetcher/tmp/data_preprocessing_lib_byarat-0.1.0.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Remove: archive file [/home/abi/fetcher/tmp/data_preprocessing_lib_byarat-1.4.0.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Start processing: esp2-gateway-adapter
+[2024-05-23 13:24:48] INFO root fetch - main [MainThread]: End processing [data-preprocessing-lib-byarat]: success
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [esp2-gateway-adapter]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [pantarei]: Remove: archive file [/home/abi/fetcher/tmp/pantarei-0.3.0.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [pantarei]: Remove: archive file [/home/abi/fetcher/tmp/pantarei-0.4.0.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [pantarei]: Start processing: Whombat
+[2024-05-23 13:24:48] INFO root fetch - main [MainThread]: End processing [pantarei]: success
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-crewai]: Start processing: pqsdk
+[2024-05-23 13:24:48] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.60.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.63.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-claude]: Start processing: digitaleye-msgs
+[2024-05-23 13:24:48] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-openai]: New version: [0.2.63] Old Version: [0.2.60]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [esp2-gateway-adapter]: Downloading https://files.pythonhosted.org/packages/c6/26/6a789c5014819fcbff0aa22aa7a4542891dbb9f3d579b7782e6d53cae008/esp2_gateway_adapter-0.2.1.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-23 13:24:48] INFO root fetch - processPackages [Whombat]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/29/90/06150c24af5800bf6f239f5d4426c2cdbb69cbfe4d5a3e6b2c4575c8411f/composio_julep-0.2.63.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [pqsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [digitaleye-msgs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.83.1.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.83.2.tar.gz]
+[2024-05-23 13:24:48] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/fb/a0/18a2abf7019f264666e7f92a0f7e824a1aa47d1693f509975c8017a1531b/composio_openai-0.2.60.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [esp2-gateway-adapter]: Downloading https://files.pythonhosted.org/packages/18/69/3df8c382073fe691b3d2210cc2c5fe96ee3e5084e85ed63dd153e4f18e81/esp2_gateway_adapter-0.2.2.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.60.tar.gz tmp/composio_julep-0.2.63.tar.gz --markdown 20240523/c/composio-julep/0.2.60-0.2.63/README.md --exclude *.pyd
+[2024-05-23 13:24:48] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/7d/ef/e1606d8c88536e329ff51d20c43d8c3a8fbf1f139463353e46ce9c5714b7/pqsdk-0.0.8.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [digitaleye-msgs]: Downloading https://files.pythonhosted.org/packages/ab/04/923d577583292c3886676e96cd7fb9541c6afa473cb0be482042f9ab4454/digitaleye_msgs-1.0.8.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [Whombat]: Downloading https://files.pythonhosted.org/packages/12/38/b74a4fda7e506256571d70852dcc04dd55f216ed01f80b8ee538d60e33d6/whombat-0.4.1.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [esp2-gateway-adapter]: executing diffoscope
+[2024-05-23 13:24:48] INFO root fetch - processPackages [esp2-gateway-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp2_gateway_adapter-0.2.1.tar.gz tmp/esp2_gateway_adapter-0.2.2.tar.gz --markdown 20240523/e/esp2-gateway-adapter/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/9a/75/fbdbf1936076e7621f5a57f20e3c7a6991e389a3208d963f635a7c1b19f3/composio_openai-0.2.63.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240523/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 13:24:48] INFO root fetch - processPackages [digitaleye-msgs]: Downloading https://files.pythonhosted.org/packages/fd/bd/f9fa5a2ff25dac6d57de48b2f128ad07b29d408ba592ffa68080770271d6/digitaleye_msgs-1.0.9.tar.gz
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240523/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-23 13:24:48] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.60.tar.gz tmp/composio_openai-0.2.63.tar.gz --markdown 20240523/c/composio-openai/0.2.60-0.2.63/README.md --exclude *.pyd
+[2024-05-23 13:24:48] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/fa/43/18693ceeb86b0759e282a7f78e07c1b9f619ad0a4c2cbb972444d8f2a224/pqsdk-0.0.9.tar.gz
+[2024-05-23 13:24:49] INFO root fetch - processPackages [Whombat]: Downloading https://files.pythonhosted.org/packages/43/6f/0bd94781522c943fc91bb4feedb4768cab2a4af13d92f254ead9a63188c2/whombat-0.5.0.tar.gz
+[2024-05-23 13:24:49] INFO root fetch - processPackages [pqsdk]: executing diffoscope
+[2024-05-23 13:24:49] INFO root fetch - processPackages [pqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqsdk-0.0.8.tar.gz tmp/pqsdk-0.0.9.tar.gz --markdown 20240523/p/pqsdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 13:24:49] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.60.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.63.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-23 13:24:49] INFO root fetch - processPackages [digitaleye-msgs]: executing diffoscope
+[2024-05-23 13:24:49] INFO root fetch - processPackages [digitaleye-msgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitaleye_msgs-1.0.8.tar.gz tmp/digitaleye_msgs-1.0.9.tar.gz --markdown 20240523/d/digitaleye-msgs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 13:24:49] INFO root fetch - processPackages [esp2-gateway-adapter]: Remove: archive file [/home/abi/fetcher/tmp/esp2_gateway_adapter-0.2.1.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - processPackages [esp2-gateway-adapter]: Remove: archive file [/home/abi/fetcher/tmp/esp2_gateway_adapter-0.2.2.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - main [MainThread]: End processing [esp2-gateway-adapter]: success
+[2024-05-23 13:24:49] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-23 13:24:49] INFO root fetch - processPackages [Whombat]: executing diffoscope
+[2024-05-23 13:24:49] INFO root fetch - processPackages [Whombat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whombat-0.4.1.tar.gz tmp/whombat-0.5.0.tar.gz --markdown 20240523/W/Whombat/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-23 13:24:49] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.60.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.63.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-23 13:24:49] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-23 13:24:49] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.8.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.9.tar.gz]
+[2024-05-23 13:24:49] INFO root fetch - main [MainThread]: End processing [pqsdk]: success
+[2024-05-23 13:24:50] INFO root fetch - processPackages [digitaleye-msgs]: Remove: archive file [/home/abi/fetcher/tmp/digitaleye_msgs-1.0.8.tar.gz]
+[2024-05-23 13:24:50] INFO root fetch - processPackages [digitaleye-msgs]: Remove: archive file [/home/abi/fetcher/tmp/digitaleye_msgs-1.0.9.tar.gz]
+[2024-05-23 13:24:50] INFO root fetch - main [MainThread]: End processing [digitaleye-msgs]: success
+[2024-05-23 13:26:07] INFO root fetch - processPackages [Whombat]: Remove: archive file [/home/abi/fetcher/tmp/whombat-0.4.1.tar.gz]
+[2024-05-23 13:26:07] INFO root fetch - processPackages [Whombat]: Remove: archive file [/home/abi/fetcher/tmp/whombat-0.5.0.tar.gz]
+[2024-05-23 13:26:07] INFO root fetch - main [MainThread]: End processing [Whombat]: success
+[2024-05-23 13:26:07] INFO root fetch - main [MainThread]: Store serial: [23342422]
