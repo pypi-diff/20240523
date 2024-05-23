@@ -18582,3 +18582,63 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:36:03] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
 [2024-05-23 11:36:03] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2024-05-23 11:36:03] INFO root fetch - main [MainThread]: Store serial: [23341130]
+[2024-05-23 11:38:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341130]
+[2024-05-23 11:38:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: holobench
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frequenz-microgrid-betterproto
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytestomatio
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipfabric-netbox
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packaging-demo-himanshu
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sanskritutf
+[2024-05-23 11:38:12] INFO root fetch - processPackages [packaging-demo-himanshu]: New version: [0.0.8] Old Version: [0.0.3]
+[2024-05-23 11:38:12] INFO root fetch - processPackages [holobench]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-23 11:38:12] INFO root fetch - processPackages [pytestomatio]: New version: [2.5.2] Old Version: [2.5.0]
+[2024-05-23 11:38:12] INFO root fetch - processPackages [packaging-demo-himanshu]: Downloading https://files.pythonhosted.org/packages/fb/1f/ac4940a03949f1034ec1f659314d6ed69913037125aaa43014b4609e8534/packaging_demo_himanshu-0.0.3.tar.gz
+[2024-05-23 11:38:12] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/62/c0/2975948bb8b1c809a023db3bd1c8de949c9d56bf34dd96f5015259b9e77b/holobench-1.8.0.tar.gz
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ipfabric-netbox]: New version: [3.0.0b0] Old Version: [3.0.0]
+[2024-05-23 11:38:12] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: New version: [0.17.0] Old Version: [0.16.1]
+[2024-05-23 11:38:12] WARNING root fetch - processPackages [sanskritutf]: Skipping, unable to determine old version
+[2024-05-23 11:38:12] INFO root fetch - main [MainThread]: End processing [sanskritutf] error
+[2024-05-23 11:38:12] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405230936] Old Version: [4.9.4.dev202405230044]
+[2024-05-23 11:38:12] INFO root fetch - processPackages [packaging-demo-himanshu]: Downloading https://files.pythonhosted.org/packages/6b/18/370e818bf9468a04cf6ebcaa02e7d369d6aaf3f42e21c36d55b9869b870d/packaging_demo_himanshu-0.0.8.tar.gz
+[2024-05-23 11:38:12] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/33/68/bd4fdd8ea1863791dc125ff4777c34dba591703cf0693d46142d92639ec1/pytestomatio-2.5.0.tar.gz
+[2024-05-23 11:38:12] INFO root fetch - processPackages [ipfabric-netbox]: Downloading https://files.pythonhosted.org/packages/4b/16/2617b503231bdc28eb2d47dbdf930502b91022a760d2e4dfab67010decd8/ipfabric_netbox-3.0.0.tar.gz
+[2024-05-23 11:38:12] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/93/4f/5ab3d9f60dc2580f0c2f054540ed82c34393cc7b4e115f96d3a5b81e1b16/holobench-1.9.0.tar.gz
+[2024-05-23 11:38:12] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Downloading https://files.pythonhosted.org/packages/43/ff/bf60e2adabe6df970c2f0b9b8ded8326df542a26183033bdef5e1296cde4/frequenz-microgrid-betterproto-0.16.1.tar.gz
+[2024-05-23 11:38:12] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/41/b7/684c00c8179a63bd46c9891496787c0ba9007a6803368922fea2fc527a80/tfds-nightly-4.9.4.dev202405230044.tar.gz
+[2024-05-23 11:38:12] INFO root fetch - processPackages [packaging-demo-himanshu]: executing diffoscope
+[2024-05-23 11:38:12] INFO root fetch - processPackages [packaging-demo-himanshu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaging_demo_himanshu-0.0.3.tar.gz tmp/packaging_demo_himanshu-0.0.8.tar.gz --markdown 20240523/p/packaging-demo-himanshu/0.0.3-0.0.8/README.md --exclude *.pyd
+[2024-05-23 11:38:12] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2024-05-23 11:38:12] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-1.8.0.tar.gz tmp/holobench-1.9.0.tar.gz --markdown 20240523/h/holobench/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-23 11:38:13] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/bf/0b/bcc9a15a376c41b57f9f14c0ca7d845bd6317b3d949f9bcf4543d51758df/pytestomatio-2.5.2.tar.gz
+[2024-05-23 11:38:13] INFO root fetch - processPackages [ipfabric-netbox]: Downloading https://files.pythonhosted.org/packages/5e/b3/cb3b6a9b68510a9c1b1ea51fe17ac5f8a2463b79e1c6aa62896edf02586f/ipfabric_netbox-3.0.0b0.tar.gz
+[2024-05-23 11:38:13] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Downloading https://files.pythonhosted.org/packages/b7/1b/0cff116614050a748e65b666bd1b1003d545797e47a10c0ed0df14d1eb47/frequenz-microgrid-betterproto-0.17.0.tar.gz
+[2024-05-23 11:38:13] INFO root fetch - processPackages [pytestomatio]: executing diffoscope
+[2024-05-23 11:38:13] INFO root fetch - processPackages [pytestomatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestomatio-2.5.0.tar.gz tmp/pytestomatio-2.5.2.tar.gz --markdown 20240523/p/pytestomatio/2.5.0-2.5.2/README.md --exclude *.pyd
+[2024-05-23 11:38:13] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/79/87/a199fb69d86e4bec60a03aa099f941b0c371d2a2cb0c52b3cede819a06a7/tfds-nightly-4.9.4.dev202405230936.tar.gz
+[2024-05-23 11:38:13] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: executing diffoscope
+[2024-05-23 11:38:13] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-microgrid-betterproto-0.16.1.tar.gz tmp/frequenz-microgrid-betterproto-0.17.0.tar.gz --markdown 20240523/f/frequenz-microgrid-betterproto/0.16.1-0.17.0/README.md --exclude *.pyd
+[2024-05-23 11:38:13] INFO root fetch - processPackages [ipfabric-netbox]: executing diffoscope
+[2024-05-23 11:38:13] INFO root fetch - processPackages [ipfabric-netbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric_netbox-3.0.0.tar.gz tmp/ipfabric_netbox-3.0.0b0.tar.gz --markdown 20240523/i/ipfabric-netbox/3.0.0-3.0.0b0/README.md --exclude *.pyd
+[2024-05-23 11:38:13] INFO root fetch - processPackages [packaging-demo-himanshu]: Remove: archive file [/home/abi/fetcher/tmp/packaging_demo_himanshu-0.0.3.tar.gz]
+[2024-05-23 11:38:13] INFO root fetch - processPackages [packaging-demo-himanshu]: Remove: archive file [/home/abi/fetcher/tmp/packaging_demo_himanshu-0.0.8.tar.gz]
+[2024-05-23 11:38:13] INFO root fetch - main [MainThread]: End processing [packaging-demo-himanshu]: success
+[2024-05-23 11:38:13] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-23 11:38:13] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405230044.tar.gz tmp/tfds-nightly-4.9.4.dev202405230936.tar.gz --markdown 20240523/t/tfds-nightly/4.9.4.dev202405230044-4.9.4.dev202405230936/README.md --exclude *.pyd
+[2024-05-23 11:38:13] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.8.0.tar.gz]
+[2024-05-23 11:38:13] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.9.0.tar.gz]
+[2024-05-23 11:38:13] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2024-05-23 11:38:13] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.5.0.tar.gz]
+[2024-05-23 11:38:13] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.5.2.tar.gz]
+[2024-05-23 11:38:13] INFO root fetch - main [MainThread]: End processing [pytestomatio]: success
+[2024-05-23 11:38:14] INFO root fetch - processPackages [ipfabric-netbox]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_netbox-3.0.0.tar.gz]
+[2024-05-23 11:38:14] INFO root fetch - processPackages [ipfabric-netbox]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric_netbox-3.0.0b0.tar.gz]
+[2024-05-23 11:38:14] INFO root fetch - main [MainThread]: End processing [ipfabric-netbox]: success
+[2024-05-23 11:38:14] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-microgrid-betterproto-0.16.1.tar.gz]
+[2024-05-23 11:38:14] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-microgrid-betterproto-0.17.0.tar.gz]
+[2024-05-23 11:38:14] INFO root fetch - main [MainThread]: End processing [frequenz-microgrid-betterproto]: success
+[2024-05-23 11:38:22] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405230044.tar.gz]
+[2024-05-23 11:38:22] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405230936.tar.gz]
+[2024-05-23 11:38:22] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-23 11:38:22] INFO root fetch - main [MainThread]: Store serial: [23341153]
