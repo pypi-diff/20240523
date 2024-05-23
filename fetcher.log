@@ -20566,3 +20566,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:43:08] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-05-23 12:43:08] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-05-23 12:43:08] INFO root fetch - main [MainThread]: Store serial: [23341928]
+[2024-05-23 12:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341928]
+[2024-05-23 12:45:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-flow-forge
+[2024-05-23 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svdsuite
+[2024-05-23 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vr180-convert
+[2024-05-23 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhrism
+[2024-05-23 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torcj
+[2024-05-23 12:45:18] INFO root fetch - processPackages [svdsuite]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-23 12:45:18] INFO root fetch - processPackages [zhrism]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 12:45:18] INFO root fetch - processPackages [vr180-convert]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-23 12:45:18] INFO root fetch - processPackages [django-flow-forge]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-23 12:45:18] INFO root fetch - processPackages [zhrism]: Downloading https://files.pythonhosted.org/packages/95/4c/f9f22fddb44dc294d9a90fabf0a0acdcbdc3215091b85c843f1100a921a8/zhrism-0.0.2.tar.gz
+[2024-05-23 12:45:18] WARNING root fetch - processPackages [torcj]: Skipping, unable to determine old version
+[2024-05-23 12:45:18] INFO root fetch - main [MainThread]: End processing [torcj] error
+[2024-05-23 12:45:18] INFO root fetch - processPackages [svdsuite]: Downloading https://files.pythonhosted.org/packages/f0/51/fd0a9a21ff84e857f4d0366c48b18154f1b48a0f28c06e37924b204e8628/svdsuite-0.0.1.tar.gz
+[2024-05-23 12:45:18] INFO root fetch - processPackages [django-flow-forge]: Downloading https://files.pythonhosted.org/packages/8c/02/653a5860a9f35db209571e2bf130cbd11a153bf10d1c272d3f370f366e97/django_flow_forge-0.3.7.tar.gz
+[2024-05-23 12:45:18] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/cc/28/d4cc00d8f017564c59427710858b3147bac0472ea32ca9409f98a20661b0/vr180_convert-0.4.0.tar.gz
+[2024-05-23 12:45:18] INFO root fetch - processPackages [zhrism]: Downloading https://files.pythonhosted.org/packages/a9/da/14c760e96316f8535b1cc6a52e9dde0b87b6a1048fa56fd63de9f4a705e2/zhrism-0.0.3.tar.gz
+[2024-05-23 12:45:18] INFO root fetch - processPackages [svdsuite]: Downloading https://files.pythonhosted.org/packages/69/2e/80ac6ba8507e55b9b70dfde12bfedc0cddc7c0dbf6c21282bb37a25529da/svdsuite-0.1.0.tar.gz
+[2024-05-23 12:45:18] INFO root fetch - processPackages [django-flow-forge]: Downloading https://files.pythonhosted.org/packages/12/9f/dd57ad66304e44496b1ad59ec2fb39752638800699fefb8fb72bc73d8dbb/django_flow_forge-0.3.8.tar.gz
+[2024-05-23 12:45:18] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/20/bc/2422bbe1108016b83ac1bc03bb83d4d69326681dedad7904219801ed8a98/vr180_convert-0.4.1.tar.gz
+[2024-05-23 12:45:18] INFO root fetch - processPackages [zhrism]: executing diffoscope
+[2024-05-23 12:45:18] INFO root fetch - processPackages [zhrism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhrism-0.0.2.tar.gz tmp/zhrism-0.0.3.tar.gz --markdown 20240523/z/zhrism/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 12:45:18] INFO root fetch - processPackages [svdsuite]: executing diffoscope
+[2024-05-23 12:45:18] INFO root fetch - processPackages [svdsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svdsuite-0.0.1.tar.gz tmp/svdsuite-0.1.0.tar.gz --markdown 20240523/s/svdsuite/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-23 12:45:18] INFO root fetch - processPackages [vr180-convert]: executing diffoscope
+[2024-05-23 12:45:18] INFO root fetch - processPackages [vr180-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vr180_convert-0.4.0.tar.gz tmp/vr180_convert-0.4.1.tar.gz --markdown 20240523/v/vr180-convert/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-23 12:45:18] INFO root fetch - processPackages [django-flow-forge]: executing diffoscope
+[2024-05-23 12:45:18] INFO root fetch - processPackages [django-flow-forge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_flow_forge-0.3.7.tar.gz tmp/django_flow_forge-0.3.8.tar.gz --markdown 20240523/d/django-flow-forge/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-23 12:45:19] INFO root fetch - processPackages [zhrism]: Remove: archive file [/home/abi/fetcher/tmp/zhrism-0.0.2.tar.gz]
+[2024-05-23 12:45:19] INFO root fetch - processPackages [zhrism]: Remove: archive file [/home/abi/fetcher/tmp/zhrism-0.0.3.tar.gz]
+[2024-05-23 12:45:19] INFO root fetch - main [MainThread]: End processing [zhrism]: success
+[2024-05-23 12:45:19] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.4.0.tar.gz]
+[2024-05-23 12:45:19] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.4.1.tar.gz]
+[2024-05-23 12:45:19] INFO root fetch - main [MainThread]: End processing [vr180-convert]: success
+[2024-05-23 12:45:19] INFO root fetch - processPackages [svdsuite]: Remove: archive file [/home/abi/fetcher/tmp/svdsuite-0.0.1.tar.gz]
+[2024-05-23 12:45:19] INFO root fetch - processPackages [svdsuite]: Remove: archive file [/home/abi/fetcher/tmp/svdsuite-0.1.0.tar.gz]
+[2024-05-23 12:45:19] INFO root fetch - main [MainThread]: End processing [svdsuite]: success
+[2024-05-23 12:45:19] INFO root fetch - processPackages [django-flow-forge]: Remove: archive file [/home/abi/fetcher/tmp/django_flow_forge-0.3.7.tar.gz]
+[2024-05-23 12:45:19] INFO root fetch - processPackages [django-flow-forge]: Remove: archive file [/home/abi/fetcher/tmp/django_flow_forge-0.3.8.tar.gz]
+[2024-05-23 12:45:19] INFO root fetch - main [MainThread]: End processing [django-flow-forge]: success
+[2024-05-23 12:45:19] INFO root fetch - main [MainThread]: Store serial: [23341945]
