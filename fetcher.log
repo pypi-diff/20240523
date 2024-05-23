@@ -10814,3 +10814,36 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:18:48] INFO root fetch - processPackages [ubank]: Remove: archive file [/home/abi/fetcher/tmp/ubank-1.0.0.tar.gz]
 [2024-05-23 07:18:48] INFO root fetch - main [MainThread]: End processing [ubank]: success
 [2024-05-23 07:18:48] INFO root fetch - main [MainThread]: Store serial: [23337923]
+[2024-05-23 07:20:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337923]
+[2024-05-23 07:20:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 07:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zh-rsm
+[2024-05-23 07:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmancer
+[2024-05-23 07:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotinst-sdk2
+[2024-05-23 07:20:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyontoenv
+[2024-05-23 07:20:56] INFO root fetch - processPackages [pyontoenv]: New version: [0.1.7a2] Old Version: [0.1.7a1]
+[2024-05-23 07:20:56] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-23 07:20:57] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/fc/5b/5e63097ed0828cd98cf01ea28bf74121fb37a13eac2c120eb9e8b64d8cd4/pyontoenv-0.1.7a1.tar.gz
+[2024-05-23 07:20:57] WARNING root fetch - processPackages [zh-rsm]: Skipping, unable to determine old version
+[2024-05-23 07:20:57] INFO root fetch - main [MainThread]: End processing [zh-rsm] error
+[2024-05-23 07:20:57] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-05-23 07:20:57] INFO root fetch - processPackages [spotinst-sdk2]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-23 07:20:57] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/e2/02/b5c3c733b68249a14c4c0e9a5855e5e43e73889f4cb4176d0d27f1eed298/spotinst-sdk2-3.2.0.tar.gz
+[2024-05-23 07:20:57] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-05-23 07:20:57] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/14/19/faa7d77f95e2810ecda215e5e9f057c1c6a87f77de4cb966b9dd21132b59/pyontoenv-0.1.7a2.tar.gz
+[2024-05-23 07:20:57] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-05-23 07:20:57] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240523/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-23 07:20:57] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/be/57/2d6a209fe8aa37750ce3d62f91c1a5b3f6ad899af23a7f7414bef597a6c7/spotinst-sdk2-3.3.0.tar.gz
+[2024-05-23 07:20:57] INFO root fetch - processPackages [pyontoenv]: executing diffoscope
+[2024-05-23 07:20:57] INFO root fetch - processPackages [pyontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyontoenv-0.1.7a1.tar.gz tmp/pyontoenv-0.1.7a2.tar.gz --markdown 20240523/p/pyontoenv/0.1.7a1-0.1.7a2/README.md --exclude *.pyd
+[2024-05-23 07:20:57] INFO root fetch - processPackages [spotinst-sdk2]: executing diffoscope
+[2024-05-23 07:20:57] INFO root fetch - processPackages [spotinst-sdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-sdk2-3.2.0.tar.gz tmp/spotinst-sdk2-3.3.0.tar.gz --markdown 20240523/s/spotinst-sdk2/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-23 07:20:57] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-05-23 07:20:57] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-05-23 07:20:57] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-05-23 07:20:58] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-3.2.0.tar.gz]
+[2024-05-23 07:20:58] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-3.3.0.tar.gz]
+[2024-05-23 07:20:58] INFO root fetch - main [MainThread]: End processing [spotinst-sdk2]: success
+[2024-05-23 07:20:58] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.7a1.tar.gz]
+[2024-05-23 07:20:58] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.7a2.tar.gz]
+[2024-05-23 07:20:58] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
+[2024-05-23 07:20:58] INFO root fetch - main [MainThread]: Store serial: [23337938]
