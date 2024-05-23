@@ -13031,3 +13031,15 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:09:50] INFO root fetch - processPackages [dbt-materialize]: Remove: archive file [/home/abi/fetcher/tmp/dbt-materialize-1.8.0.tar.gz]
 [2024-05-23 09:09:50] INFO root fetch - main [MainThread]: End processing [dbt-materialize]: success
 [2024-05-23 09:09:50] INFO root fetch - main [MainThread]: Store serial: [23338961]
+[2024-05-23 09:11:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338961]
+[2024-05-23 09:12:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 09:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superannotate
+[2024-05-23 09:12:00] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2024-05-23 09:12:00] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/91/97/d6fe3e744af4694539cbd9044fb74358f6c8aad95d66825e2bbf83490b35/superannotate-4.4.9.dev5.tar.gz
+[2024-05-23 09:12:00] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/eb/25/4836840831402b0bfc03d72cb2055a0f87d406e0fc3ded759cd47db072d8/superannotate-4.4.9b1.tar.gz
+[2024-05-23 09:12:00] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2024-05-23 09:12:00] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20240523/s/superannotate/4.4.9.dev5-4.4.9b1/README.md --exclude *.pyd
+[2024-05-23 09:12:01] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9.dev5.tar.gz]
+[2024-05-23 09:12:01] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9b1.tar.gz]
+[2024-05-23 09:12:01] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2024-05-23 09:12:01] INFO root fetch - main [MainThread]: Store serial: [23338968]
