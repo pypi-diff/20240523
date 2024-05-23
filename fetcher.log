@@ -13346,3 +13346,64 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:23:06] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.7.tar.gz]
 [2024-05-23 09:23:06] INFO root fetch - main [MainThread]: End processing [voila]: success
 [2024-05-23 09:23:06] INFO root fetch - main [MainThread]: Store serial: [23339093]
+[2024-05-23 09:25:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339093]
+[2024-05-23 09:25:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: effidict
+[2024-05-23 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nostr-dvm
+[2024-05-23 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usfm-grammar
+[2024-05-23 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-23 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mask2bbox
+[2024-05-23 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: watch-run
+[2024-05-23 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vgis-gis
+[2024-05-23 09:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-manager
+[2024-05-23 09:25:17] INFO root fetch - processPackages [vgis-gis]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-23 09:25:17] INFO root fetch - processPackages [usfm-grammar]: New version: [3.0.0b6] Old Version: [3.0.0b5]
+[2024-05-23 09:25:17] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:25:17] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:25:17] INFO root fetch - processPackages [effidict]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-23 09:25:17] WARNING root fetch - processPackages [watch-run]: Skipping, unable to determine old version
+[2024-05-23 09:25:17] INFO root fetch - main [MainThread]: End processing [watch-run] error
+[2024-05-23 09:25:17] INFO root fetch - processPackages [nostr-dvm]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-23 09:25:17] WARNING root fetch - processPackages [mask2bbox]: Skipping, unable to determine old version
+[2024-05-23 09:25:17] INFO root fetch - main [MainThread]: End processing [mask2bbox] error
+[2024-05-23 09:25:17] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/d7/37/018c42a14ef81346fb56bf5c39bc9c39651f527a994fbe7e237330d1d663/vgis_gis-1.3.1.tar.gz
+[2024-05-23 09:25:17] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:25:17] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:25:17] INFO root fetch - processPackages [usfm-grammar]: Downloading https://files.pythonhosted.org/packages/5c/ba/ce62978cf3f0b72d2191d9118d5de59814dcfe202cddc83edee913f0fe92/usfm_grammar-3.0.0b5-cp311-cp311-win_amd64.whl
+[2024-05-23 09:25:17] INFO root fetch - processPackages [effidict]: Downloading https://files.pythonhosted.org/packages/23/7e/784db7125da590fd0e7afe4db49f2963585bd4493591b0c7aa75cf3f8532/effidict-0.0.7.tar.gz
+[2024-05-23 09:25:17] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/36/92/f5e655ba64b2e09335459c69383aeebe7bd900463ac76f5fa4f84bd09b4a/nostr_dvm-0.4.5.tar.gz
+[2024-05-23 09:25:17] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:25:18] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:25:18] INFO root fetch - processPackages [usfm-grammar]: Downloading https://files.pythonhosted.org/packages/4b/fd/89045b8875b7183f9ef7eb54c069258e73b1198df429fbb7a89f935709cb/usfm_grammar-3.0.0b6-cp311-cp311-win_amd64.whl
+[2024-05-23 09:25:18] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/94/33/65254f5bbc71375e07d7e2f2a2aa7cf6b39f8c3a1be454d302fd61a3f583/vgis_gis-1.3.2.tar.gz
+[2024-05-23 09:25:18] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:25:18] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:25:18] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:25:18] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:25:18] INFO root fetch - processPackages [vgis-gis]: executing diffoscope
+[2024-05-23 09:25:18] INFO root fetch - processPackages [vgis-gis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_gis-1.3.1.tar.gz tmp/vgis_gis-1.3.2.tar.gz --markdown 20240523/v/vgis-gis/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-23 09:25:18] INFO root fetch - processPackages [usfm-grammar]: executing diffoscope
+[2024-05-23 09:25:18] INFO root fetch - processPackages [usfm-grammar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usfm_grammar-3.0.0b5-cp311-cp311-win_amd64.whl.zip tmp/usfm_grammar-3.0.0b6-cp311-cp311-win_amd64.whl.zip --markdown 20240523/u/usfm-grammar/3.0.0b5-3.0.0b6/README.md --exclude *.pyd
+[2024-05-23 09:25:18] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/7e/de/f3427952611c7c869a673c2fe0ed97366c1511e94622830920828b54f7a1/nostr_dvm-0.4.6.tar.gz
+[2024-05-23 09:25:18] INFO root fetch - processPackages [effidict]: Downloading https://files.pythonhosted.org/packages/f0/de/bc6f2deaed85e30065449db74ed38a03a688819d91e7041f1e19f492fdd2/effidict-0.0.8.tar.gz
+[2024-05-23 09:25:18] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-05-23 09:25:18] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.4.5.tar.gz tmp/nostr_dvm-0.4.6.tar.gz --markdown 20240523/n/nostr-dvm/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-23 09:25:18] INFO root fetch - processPackages [effidict]: executing diffoscope
+[2024-05-23 09:25:18] INFO root fetch - processPackages [effidict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effidict-0.0.7.tar.gz tmp/effidict-0.0.8.tar.gz --markdown 20240523/e/effidict/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-23 09:25:18] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:25:18] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 09:25:18] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:25:18] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:25:18] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.1.tar.gz]
+[2024-05-23 09:25:18] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.2.tar.gz]
+[2024-05-23 09:25:18] INFO root fetch - main [MainThread]: End processing [vgis-gis]: success
+[2024-05-23 09:25:19] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.4.5.tar.gz]
+[2024-05-23 09:25:19] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.4.6.tar.gz]
+[2024-05-23 09:25:19] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-05-23 09:25:19] INFO root fetch - processPackages [effidict]: Remove: archive file [/home/abi/fetcher/tmp/effidict-0.0.7.tar.gz]
+[2024-05-23 09:25:19] INFO root fetch - processPackages [effidict]: Remove: archive file [/home/abi/fetcher/tmp/effidict-0.0.8.tar.gz]
+[2024-05-23 09:25:19] INFO root fetch - main [MainThread]: End processing [effidict]: success
+[2024-05-23 09:25:23] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0b5-cp311-cp311-win_amd64.whl.zip]
+[2024-05-23 09:25:23] INFO root fetch - processPackages [usfm-grammar]: Remove: archive file [/home/abi/fetcher/tmp/usfm_grammar-3.0.0b6-cp311-cp311-win_amd64.whl.zip]
+[2024-05-23 09:25:23] INFO root fetch - main [MainThread]: End processing [usfm-grammar]: success
+[2024-05-23 09:25:23] INFO root fetch - main [MainThread]: Store serial: [23339132]
