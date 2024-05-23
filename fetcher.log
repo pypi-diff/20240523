@@ -10802,3 +10802,15 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:16:38] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.2.8.tar.gz]
 [2024-05-23 07:16:38] INFO root fetch - main [MainThread]: End processing [qibo]: success
 [2024-05-23 07:16:38] INFO root fetch - main [MainThread]: Store serial: [23337920]
+[2024-05-23 07:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337920]
+[2024-05-23 07:18:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 07:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ubank
+[2024-05-23 07:18:47] INFO root fetch - processPackages [ubank]: New version: [1.0.0] Old Version: [0.1.2]
+[2024-05-23 07:18:47] INFO root fetch - processPackages [ubank]: Downloading https://files.pythonhosted.org/packages/4c/4f/42492e1172a0933b11f7d93b80d42084ded3c1d372abf9acaa9c801d4241/ubank-0.1.2.tar.gz
+[2024-05-23 07:18:47] INFO root fetch - processPackages [ubank]: Downloading https://files.pythonhosted.org/packages/23/89/167c5c582c47b835cb0ca8a9132901b67cfeaedb073a587ac7ac409f5ca4/ubank-1.0.0.tar.gz
+[2024-05-23 07:18:47] INFO root fetch - processPackages [ubank]: executing diffoscope
+[2024-05-23 07:18:47] INFO root fetch - processPackages [ubank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubank-0.1.2.tar.gz tmp/ubank-1.0.0.tar.gz --markdown 20240523/u/ubank/0.1.2-1.0.0/README.md --exclude *.pyd
+[2024-05-23 07:18:48] INFO root fetch - processPackages [ubank]: Remove: archive file [/home/abi/fetcher/tmp/ubank-0.1.2.tar.gz]
+[2024-05-23 07:18:48] INFO root fetch - processPackages [ubank]: Remove: archive file [/home/abi/fetcher/tmp/ubank-1.0.0.tar.gz]
+[2024-05-23 07:18:48] INFO root fetch - main [MainThread]: End processing [ubank]: success
+[2024-05-23 07:18:48] INFO root fetch - main [MainThread]: Store serial: [23337923]
