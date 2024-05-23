@@ -13620,3 +13620,54 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:31:59] INFO root fetch - processPackages [ChatRoom-jianjun]: Remove: archive file [/home/abi/fetcher/tmp/ChatRoom_jianjun-3.2.2-cp39-cp39-win_amd64.whl.zip]
 [2024-05-23 09:31:59] INFO root fetch - main [MainThread]: End processing [ChatRoom-jianjun]: success
 [2024-05-23 09:31:59] INFO root fetch - main [MainThread]: Store serial: [23339222]
+[2024-05-23 09:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339222]
+[2024-05-23 09:34:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commute-agci
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copernicusmarine
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ahmedHossam
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arch-flow
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ragtime
+[2024-05-23 09:34:08] WARNING root fetch - processPackages [commute-agci]: Skipping, unable to determine old version
+[2024-05-23 09:34:08] INFO root fetch - main [MainThread]: End processing [commute-agci] error
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ahmedHossam]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ahmedHossam]: Downloading https://files.pythonhosted.org/packages/41/9c/9d2bc126d989125583daade771ca3145656e48b882d4e039f56dac03aee2/ahmedhossam-0.0.2.tar.gz
+[2024-05-23 09:34:08] INFO root fetch - processPackages [arch-flow]: New version: [0.1.8] Old Version: [0.1.7.4]
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ragtime]: New version: [0.0.35] Old Version: [0.0.34]
+[2024-05-23 09:34:08] INFO root fetch - processPackages [copernicusmarine]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-23 09:34:08] INFO root fetch - processPackages [cognite-neat]: New version: [0.77.6] Old Version: [0.77.5]
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/55/a1/3ec193ea9f8de98e0cd607ee4ba98e4cabcf1bcb4f573d0462d96924165b/ragtime-0.0.34.tar.gz
+[2024-05-23 09:34:08] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/4f/ee/f5d2a230368c785433072bff69b21a65883681100582bc3fcf6881943d2f/arch_flow-0.1.7.4.tar.gz
+[2024-05-23 09:34:08] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/a2/89/35f6ded5ffed55a13b1557cac06c8855d9639b8d232f633f7a479077d60b/copernicusmarine-1.2.2.tar.gz
+[2024-05-23 09:34:08] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/87/36/97e42e5a7c60c53260a5233846a76e0d0d85b4d6b3bfb189cfe09fae67f0/cognite_neat-0.77.5.tar.gz
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ahmedHossam]: Downloading https://files.pythonhosted.org/packages/b4/56/a632423ff4db6ffec8ff1ad047c38a045ba418f26d3e8f1c312209a2e6d5/ahmedhossam-0.0.3.tar.gz
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ahmedHossam]: executing diffoscope
+[2024-05-23 09:34:08] INFO root fetch - processPackages [ahmedHossam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahmedhossam-0.0.2.tar.gz tmp/ahmedhossam-0.0.3.tar.gz --markdown 20240523/a/ahmedHossam/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 09:34:08] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/24/54/fb843526e3418f622be296305913a59ea0bab0185e7885c2a0f286671849/arch_flow-0.1.8.tar.gz
+[2024-05-23 09:34:08] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/54/4e/28dc5d98170f303a0e75732b6ec6ce41b022fcc1546bbb7b24d330b39367/copernicusmarine-1.2.3.tar.gz
+[2024-05-23 09:34:09] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/45/11/2c85479d97da51c2468cb2f47daa183940a3289f670b705c4d0ac6fb4ae2/ragtime-0.0.35.tar.gz
+[2024-05-23 09:34:09] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-05-23 09:34:09] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.1.7.4.tar.gz tmp/arch_flow-0.1.8.tar.gz --markdown 20240523/a/arch-flow/0.1.7.4-0.1.8/README.md --exclude *.pyd
+[2024-05-23 09:34:09] INFO root fetch - processPackages [copernicusmarine]: executing diffoscope
+[2024-05-23 09:34:09] INFO root fetch - processPackages [copernicusmarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicusmarine-1.2.2.tar.gz tmp/copernicusmarine-1.2.3.tar.gz --markdown 20240523/c/copernicusmarine/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-23 09:34:09] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/70/31/1f1799a7403e84800858a9dbf65ca0106357ea32bddb3784f10e8f3c8faf/cognite_neat-0.77.6.tar.gz
+[2024-05-23 09:34:09] INFO root fetch - processPackages [ragtime]: executing diffoscope
+[2024-05-23 09:34:09] INFO root fetch - processPackages [ragtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragtime-0.0.34.tar.gz tmp/ragtime-0.0.35.tar.gz --markdown 20240523/r/ragtime/0.0.34-0.0.35/README.md --exclude *.pyd
+[2024-05-23 09:34:09] INFO root fetch - processPackages [ahmedHossam]: Remove: archive file [/home/abi/fetcher/tmp/ahmedhossam-0.0.2.tar.gz]
+[2024-05-23 09:34:09] INFO root fetch - processPackages [ahmedHossam]: Remove: archive file [/home/abi/fetcher/tmp/ahmedhossam-0.0.3.tar.gz]
+[2024-05-23 09:34:09] INFO root fetch - main [MainThread]: End processing [ahmedHossam]: success
+[2024-05-23 09:34:09] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-05-23 09:34:09] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.77.5.tar.gz tmp/cognite_neat-0.77.6.tar.gz --markdown 20240523/c/cognite-neat/0.77.5-0.77.6/README.md --exclude *.pyd
+[2024-05-23 09:34:09] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.7.4.tar.gz]
+[2024-05-23 09:34:09] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.8.tar.gz]
+[2024-05-23 09:34:09] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-05-23 09:34:09] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.2.2.tar.gz]
+[2024-05-23 09:34:09] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.2.3.tar.gz]
+[2024-05-23 09:34:09] INFO root fetch - main [MainThread]: End processing [copernicusmarine]: success
+[2024-05-23 09:34:09] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.34.tar.gz]
+[2024-05-23 09:34:09] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.35.tar.gz]
+[2024-05-23 09:34:09] INFO root fetch - main [MainThread]: End processing [ragtime]: success
+[2024-05-23 09:34:13] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.5.tar.gz]
+[2024-05-23 09:34:13] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.6.tar.gz]
+[2024-05-23 09:34:13] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-05-23 09:34:13] INFO root fetch - main [MainThread]: Store serial: [23339238]
