@@ -3129,3 +3129,24 @@
 [2024-05-23 02:42:21] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-3.1.0.tar.gz]
 [2024-05-23 02:42:21] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
 [2024-05-23 02:42:21] INFO root fetch - main [MainThread]: Store serial: [23334822]
+[2024-05-23 02:44:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334822]
+[2024-05-23 02:44:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 02:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: munet
+[2024-05-23 02:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-05-23 02:44:29] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405220044] Old Version: [4.9.4.dev202405210044]
+[2024-05-23 02:44:29] INFO root fetch - processPackages [munet]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 02:44:29] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/60/07/02657722ece73cc129deedbc35c0f5e369ecc539a7554a6fb3b6ee43ddd0/tfds-nightly-4.9.4.dev202405210044.tar.gz
+[2024-05-23 02:44:29] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/ab/ab/50abc3289545adb952eebcb12b5d75cd68c3deddb2ead102309f6b23b3fd/munet-0.9.8.tar.gz
+[2024-05-23 02:44:30] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/e9/a7/16aef984464ad235996a4918e7377bd5e40cd015eb9b5cae381b237aeba4/munet-0.9.9.tar.gz
+[2024-05-23 02:44:30] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c1/16/5a365bdcad452812c19440e8192d10b3f20114ea2a1c112d65a47a271c26/tfds-nightly-4.9.4.dev202405220044.tar.gz
+[2024-05-23 02:44:30] INFO root fetch - processPackages [munet]: executing diffoscope
+[2024-05-23 02:44:30] INFO root fetch - processPackages [munet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munet-0.9.8.tar.gz tmp/munet-0.9.9.tar.gz --markdown 20240523/m/munet/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 02:44:30] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-23 02:44:30] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405210044.tar.gz tmp/tfds-nightly-4.9.4.dev202405220044.tar.gz --markdown 20240523/t/tfds-nightly/4.9.4.dev202405210044-4.9.4.dev202405220044/README.md --exclude *.pyd
+[2024-05-23 02:44:30] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.8.tar.gz]
+[2024-05-23 02:44:30] INFO root fetch - processPackages [munet]: Remove: archive file [/home/abi/fetcher/tmp/munet-0.9.9.tar.gz]
+[2024-05-23 02:44:30] INFO root fetch - main [MainThread]: End processing [munet]: success
+[2024-05-23 02:44:39] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405210044.tar.gz]
+[2024-05-23 02:44:39] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405220044.tar.gz]
+[2024-05-23 02:44:39] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-23 02:44:39] INFO root fetch - main [MainThread]: Store serial: [23334832]
