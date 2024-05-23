@@ -14092,3 +14092,65 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:50:23] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.8.0.tar.gz]
 [2024-05-23 09:50:23] INFO root fetch - main [MainThread]: End processing [ANX]: success
 [2024-05-23 09:50:23] INFO root fetch - main [MainThread]: Store serial: [23339412]
+[2024-05-23 09:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339412]
+[2024-05-23 09:52:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scipion-app
+[2024-05-23 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devon-agent
+[2024-05-23 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: signaturesnet
+[2024-05-23 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-report-substitute
+[2024-05-23 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-manager
+[2024-05-23 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycodata
+[2024-05-23 09:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gink
+[2024-05-23 09:52:32] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:52:32] INFO root fetch - processPackages [signaturesnet]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-23 09:52:32] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:52:32] INFO root fetch - processPackages [scipion-app]: New version: [3.4.0] Old Version: [3.3.1]
+[2024-05-23 09:52:32] INFO root fetch - processPackages [odoo-addon-report-substitute]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.2]
+[2024-05-23 09:52:32] INFO root fetch - processPackages [devon-agent]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 09:52:32] INFO root fetch - processPackages [pycodata]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-23 09:52:32] INFO root fetch - processPackages [gink]: New version: [0.20240523.1716450705] Old Version: [0.20240521.1716315298]
+[2024-05-23 09:52:32] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/ba/2e/a47235eb856a95486a19dee66ab60c27298a14d91538baaf519195f814b6/signaturesnet-0.0.9-py3-none-any.whl
+[2024-05-23 09:52:32] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:52:32] INFO root fetch - processPackages [scipion-app]: Downloading https://files.pythonhosted.org/packages/69/62/3794b41779ed2018c4e8a651411ab46b7b302c81e8d55be0611c50eb3450/scipion-app-3.3.1.tar.gz
+[2024-05-23 09:52:32] INFO root fetch - processPackages [odoo-addon-report-substitute]: Downloading https://files.pythonhosted.org/packages/8b/7e/880ef5ca68b2e126ddd39ccf3e28860c83c5a2e8d78df4b76f2d8907b686/odoo_addon_report_substitute-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-23 09:52:32] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/76/50/d2416bb5d15a52cd223c51667daca7b1c6357223499de4566735e9b1c243/devon_agent-0.1.8.tar.gz
+[2024-05-23 09:52:32] WARNING root fetch - processPackages [signaturesnet]: Skipping package: exceeds size limit 72735569>=10485760
+[2024-05-23 09:52:32] INFO root fetch - main [MainThread]: End processing [signaturesnet] error
+[2024-05-23 09:52:32] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:52:32] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:52:32] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/af/86/6ed93faf75192e792d3cd9a77d4ddcce05a9172d064e8aa0df8c4a4fad7b/gink-0.20240521.1716315298.tar.gz
+[2024-05-23 09:52:32] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/8c/12/fa2988196e63f22eebdc310ca96c714aa35dda9c87c515e0126ee2538e9c/pycodata-0.9.0.tar.gz
+[2024-05-23 09:52:32] INFO root fetch - processPackages [scipion-app]: Downloading https://files.pythonhosted.org/packages/b4/05/11bfa61a38945c7b228df874284613ca8b271bc2e0b1bc32bf713f47562b/scipion_app-3.4.0.tar.gz
+[2024-05-23 09:52:33] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/e9/e8/26f2c54806ddc809bace7da961685de2df9f7539c8a486063a3c7c8e0524/devon_agent-0.1.9.tar.gz
+[2024-05-23 09:52:33] INFO root fetch - processPackages [odoo-addon-report-substitute]: Downloading https://files.pythonhosted.org/packages/6d/1d/0fcddf6218bc03cb5772784e2ff79411fdcfbdd70ec31c240d3a7b49e6da/odoo_addon_report_substitute-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-23 09:52:33] INFO root fetch - processPackages [scipion-app]: executing diffoscope
+[2024-05-23 09:52:33] INFO root fetch - processPackages [scipion-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-app-3.3.1.tar.gz tmp/scipion_app-3.4.0.tar.gz --markdown 20240523/s/scipion-app/3.3.1-3.4.0/README.md --exclude *.pyd
+[2024-05-23 09:52:33] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/16/d0/e6805ca12dba24b7a6f91f53a5e813c918782e2946b709fc6a79717b9dbc/gink-0.20240523.1716450705.tar.gz
+[2024-05-23 09:52:33] INFO root fetch - processPackages [devon-agent]: executing diffoscope
+[2024-05-23 09:52:33] INFO root fetch - processPackages [devon-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devon_agent-0.1.8.tar.gz tmp/devon_agent-0.1.9.tar.gz --markdown 20240523/d/devon-agent/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 09:52:33] INFO root fetch - processPackages [odoo-addon-report-substitute]: executing diffoscope
+[2024-05-23 09:52:33] INFO root fetch - processPackages [odoo-addon-report-substitute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_substitute-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_report_substitute-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-report-substitute/16.0.1.0.1.2-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-23 09:52:33] INFO root fetch - processPackages [gink]: executing diffoscope
+[2024-05-23 09:52:33] INFO root fetch - processPackages [gink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gink-0.20240521.1716315298.tar.gz tmp/gink-0.20240523.1716450705.tar.gz --markdown 20240523/g/gink/0.20240521.1716315298-0.20240523.1716450705/README.md --exclude *.pyd
+[2024-05-23 09:52:33] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:52:33] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 09:52:33] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:52:33] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/d0/88/ecd57691f3e3e7008985b7a56c976f3c72dece4d261fbcfa7c9c6955976e/pycodata-1.0.0-cp311-cp311-win_amd64.whl
+[2024-05-23 09:52:33] INFO root fetch - processPackages [scipion-app]: Remove: archive file [/home/abi/fetcher/tmp/scipion-app-3.3.1.tar.gz]
+[2024-05-23 09:52:33] INFO root fetch - processPackages [scipion-app]: Remove: archive file [/home/abi/fetcher/tmp/scipion_app-3.4.0.tar.gz]
+[2024-05-23 09:52:33] INFO root fetch - main [MainThread]: End processing [scipion-app]: success
+[2024-05-23 09:52:33] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.1.8.tar.gz]
+[2024-05-23 09:52:33] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.1.9.tar.gz]
+[2024-05-23 09:52:33] INFO root fetch - main [MainThread]: End processing [devon-agent]: success
+[2024-05-23 09:52:33] INFO root fetch - processPackages [odoo-addon-report-substitute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_substitute-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-23 09:52:33] INFO root fetch - processPackages [odoo-addon-report-substitute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_substitute-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-23 09:52:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-substitute]: success
+[2024-05-23 09:52:34] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240521.1716315298.tar.gz]
+[2024-05-23 09:52:34] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240523.1716450705.tar.gz]
+[2024-05-23 09:52:34] INFO root fetch - main [MainThread]: End processing [gink]: success
+[2024-05-23 09:52:34] INFO root fetch - processPackages [pycodata]: executing diffoscope
+[2024-05-23 09:52:34] INFO root fetch - processPackages [pycodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycodata-0.9.0.tar.gz tmp/pycodata-1.0.0-cp311-cp311-win_amd64.whl.zip --markdown 20240523/p/pycodata/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-23 09:52:35] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-0.9.0.tar.gz]
+[2024-05-23 09:52:35] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.0.0-cp311-cp311-win_amd64.whl.zip]
+[2024-05-23 09:52:35] INFO root fetch - main [MainThread]: End processing [pycodata]: success
+[2024-05-23 09:52:35] INFO root fetch - main [MainThread]: Store serial: [23339431]
