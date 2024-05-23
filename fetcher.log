@@ -9349,3 +9349,20 @@
 [2024-05-23 05:27:57] INFO root fetch - processPackages [controlnet-aux]: Remove: archive file [/home/abi/fetcher/tmp/controlnet_aux-0.0.9.tar.gz]
 [2024-05-23 05:27:57] INFO root fetch - main [MainThread]: End processing [controlnet-aux]: success
 [2024-05-23 05:27:57] INFO root fetch - main [MainThread]: Store serial: [23337149]
+[2024-05-23 05:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337149]
+[2024-05-23 05:30:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 05:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: humanfirst
+[2024-05-23 05:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-upcloud
+[2024-05-23 05:30:06] INFO root fetch - processPackages [humanfirst]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-05-23 05:30:06] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-23 05:30:07] INFO root fetch - processPackages [humanfirst]: Downloading https://files.pythonhosted.org/packages/8f/5b/04a4e66dee4a583b98bdae94f4bfe6830abbacf1ac87747b10a5992d1f94/humanfirst-1.0.5.tar.gz
+[2024-05-23 05:30:07] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/c0/3c/af33368b4c7a4b70e95bce5aa26c2a0e4a13891861c926506de5ee00d648/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz
+[2024-05-23 05:30:07] WARNING root fetch - processPackages [humanfirst]: Skipping package: exceeds size limit 24607811>=10485760
+[2024-05-23 05:30:07] INFO root fetch - main [MainThread]: End processing [humanfirst] error
+[2024-05-23 05:30:07] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/11/34/e1c239edd060e043f3bda7830f678ebce24c01902bdaeb3e433a968bab0b/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz
+[2024-05-23 05:30:07] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: executing diffoscope
+[2024-05-23 05:30:07] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz --markdown 20240523/c/cdktf-cdktf-provider-upcloud/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-23 05:30:08] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz]
+[2024-05-23 05:30:08] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz]
+[2024-05-23 05:30:08] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
+[2024-05-23 05:30:08] INFO root fetch - main [MainThread]: Store serial: [23337156]
