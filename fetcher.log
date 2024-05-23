@@ -22161,3 +22161,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:32:45] INFO root fetch - processPackages [dm-cli]: Remove: archive file [/home/abi/fetcher/tmp/dm-cli-1.7.1.tar.gz]
 [2024-05-23 13:32:45] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
 [2024-05-23 13:32:45] INFO root fetch - main [MainThread]: Store serial: [23342512]
+[2024-05-23 13:34:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342512]
+[2024-05-23 13:34:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-request
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-preprocessing-lib-byarat
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FaucetPay
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyOghma
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyocient
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqla-async-orm-queries
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daalab
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcicutils
+[2024-05-23 13:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openlit
+[2024-05-23 13:34:54] INFO root fetch - processPackages [sqla-async-orm-queries]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-23 13:34:54] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-23 13:34:54] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.2] Old Version: [17.0.1.0.1]
+[2024-05-23 13:34:54] WARNING root fetch - processPackages [PyOghma]: Skipping, unable to determine old version
+[2024-05-23 13:34:54] INFO root fetch - main [MainThread]: End processing [PyOghma] error
+[2024-05-23 13:34:54] WARNING root fetch - processPackages [daalab]: Skipping, unable to determine old version
+[2024-05-23 13:34:54] INFO root fetch - main [MainThread]: End processing [daalab] error
+[2024-05-23 13:34:54] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Downloading https://files.pythonhosted.org/packages/03/eb/213a12eebba32c386c37da14e60b910e792b927f4e6f186250f587331c02/data_preprocessing_lib_byarat-1.4.0.tar.gz
+[2024-05-23 13:34:54] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.5]
+[2024-05-23 13:34:54] INFO root fetch - processPackages [sqla-async-orm-queries]: Downloading https://files.pythonhosted.org/packages/b4/73/4a8b2e930619559e7d09bafb055f089da8af880a41fbc9eb012e49c3d484/sqla_async_orm_queries-1.1.2.tar.gz
+[2024-05-23 13:34:54] WARNING root fetch - processPackages [FaucetPay]: Skipping, unable to determine old version
+[2024-05-23 13:34:54] INFO root fetch - main [MainThread]: End processing [FaucetPay] error
+[2024-05-23 13:34:54] INFO root fetch - processPackages [pyocient]: New version: [3.3.0] Old Version: [3.0.3]
+[2024-05-23 13:34:54] INFO root fetch - processPackages [openlit]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-23 13:34:54] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/81/22/374ed174abcecff46bf56f927a1e73cbb29399bb6436a66956d405cbd28f/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl
+[2024-05-23 13:34:54] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/fc/92/7fa5e5b801901b98c3f1011ec9176f29f4b1cd8ddbd9f4d5443dbbf0374a/dcicutils-8.8.5.tar.gz
+[2024-05-23 13:34:54] INFO root fetch - processPackages [sqla-async-orm-queries]: Downloading https://files.pythonhosted.org/packages/86/fe/cf0b4c2d89d7703cddb61d69d39140596c2a5ae8f682dbe05b593c8231a8/sqla_async_orm_queries-1.1.3.tar.gz
+[2024-05-23 13:34:54] INFO root fetch - processPackages [pyocient]: Downloading https://files.pythonhosted.org/packages/ba/fe/04c4a726710608d00ea398e1262f292d18f5e42a2d9be1bb438ff393d415/pyocient-3.0.3.tar.gz
+[2024-05-23 13:34:54] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Downloading https://files.pythonhosted.org/packages/8b/0b/04923eb0e8b025e93922d45748bbca70a43c552fe94e230bb8b82aeb9660/data_preprocessing_lib_byarat-1.5.0.tar.gz
+[2024-05-23 13:34:54] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/e3/b1/85a53c392c70f84a1c724406e3dea8cf76297a0706094dc23d41d68155a8/openlit-1.7.0.tar.gz
+[2024-05-23 13:34:54] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/09/1e/39454caae0f087da23302337ecfdb5f27f83701f6bbaade1deeda6cf4670/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl
+[2024-05-23 13:34:54] INFO root fetch - processPackages [sqla-async-orm-queries]: executing diffoscope
+[2024-05-23 13:34:54] INFO root fetch - processPackages [sqla-async-orm-queries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqla_async_orm_queries-1.1.2.tar.gz tmp/sqla_async_orm_queries-1.1.3.tar.gz --markdown 20240523/s/sqla-async-orm-queries/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-23 13:34:54] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-23 13:34:54] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: executing diffoscope
+[2024-05-23 13:34:54] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_preprocessing_lib_byarat-1.4.0.tar.gz tmp/data_preprocessing_lib_byarat-1.5.0.tar.gz --markdown 20240523/d/data-preprocessing-lib-byarat/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-23 13:34:54] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-23 13:34:54] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-stock-request/17.0.1.0.1-17.0.1.0.2/README.md --exclude *.pyd
+[2024-05-23 13:34:54] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-23 13:34:54] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.5.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240523/d/dcicutils/8.8.5-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-23 13:34:55] INFO root fetch - processPackages [pyocient]: Downloading https://files.pythonhosted.org/packages/7b/11/5930c026d3781d21b6c7e9384b48f1d968eec7008c4f617b0288260f14f3/pyocient-3.3.0-py3-none-any.whl
+[2024-05-23 13:34:55] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/29/42/fc8346bbdb1b8d3426ce93896c4fa4111231a886d43feaae66541c4e6584/openlit-1.8.0.tar.gz
+[2024-05-23 13:34:55] INFO root fetch - processPackages [pyocient]: executing diffoscope
+[2024-05-23 13:34:55] INFO root fetch - processPackages [pyocient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyocient-3.0.3.tar.gz tmp/pyocient-3.3.0-py3-none-any.whl.zip --markdown 20240523/p/pyocient/3.0.3-3.3.0/README.md --exclude *.pyd
+[2024-05-23 13:34:55] INFO root fetch - processPackages [sqla-async-orm-queries]: Remove: archive file [/home/abi/fetcher/tmp/sqla_async_orm_queries-1.1.2.tar.gz]
+[2024-05-23 13:34:55] INFO root fetch - processPackages [sqla-async-orm-queries]: Remove: archive file [/home/abi/fetcher/tmp/sqla_async_orm_queries-1.1.3.tar.gz]
+[2024-05-23 13:34:55] INFO root fetch - main [MainThread]: End processing [sqla-async-orm-queries]: success
+[2024-05-23 13:34:55] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-23 13:34:55] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.7.0.tar.gz tmp/openlit-1.8.0.tar.gz --markdown 20240523/o/openlit/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-23 13:34:55] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Remove: archive file [/home/abi/fetcher/tmp/data_preprocessing_lib_byarat-1.4.0.tar.gz]
+[2024-05-23 13:34:55] INFO root fetch - processPackages [data-preprocessing-lib-byarat]: Remove: archive file [/home/abi/fetcher/tmp/data_preprocessing_lib_byarat-1.5.0.tar.gz]
+[2024-05-23 13:34:55] INFO root fetch - main [MainThread]: End processing [data-preprocessing-lib-byarat]: success
+[2024-05-23 13:34:55] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-23 13:34:55] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-23 13:34:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-23 13:34:55] INFO root fetch - processPackages [pyocient]: Remove: archive file [/home/abi/fetcher/tmp/pyocient-3.0.3.tar.gz]
+[2024-05-23 13:34:55] INFO root fetch - processPackages [pyocient]: Remove: archive file [/home/abi/fetcher/tmp/pyocient-3.3.0-py3-none-any.whl.zip]
+[2024-05-23 13:34:55] INFO root fetch - main [MainThread]: End processing [pyocient]: success
+[2024-05-23 13:34:55] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.5.tar.gz]
+[2024-05-23 13:34:55] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-23 13:34:55] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-23 13:34:56] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.7.0.tar.gz]
+[2024-05-23 13:34:56] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.8.0.tar.gz]
+[2024-05-23 13:34:56] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-23 13:34:56] INFO root fetch - main [MainThread]: Store serial: [23342538]
