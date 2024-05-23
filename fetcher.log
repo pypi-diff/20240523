@@ -9520,3 +9520,36 @@
 [2024-05-23 05:41:02] INFO root fetch - processPackages [giverny]: Remove: archive file [/home/abi/fetcher/tmp/giverny-2.2.7.tar.gz]
 [2024-05-23 05:41:02] INFO root fetch - main [MainThread]: End processing [giverny]: success
 [2024-05-23 05:41:02] INFO root fetch - main [MainThread]: Store serial: [23337329]
+[2024-05-23 05:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337329]
+[2024-05-23 05:43:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onepiece-classify
+[2024-05-23 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-23 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-invite
+[2024-05-23 05:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ip-check
+[2024-05-23 05:43:10] INFO root fetch - processPackages [discord-invite]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-23 05:43:10] INFO root fetch - processPackages [ip-check]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-23 05:43:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.26a1716412873] Old Version: [0.0.26a1716348154]
+[2024-05-23 05:43:11] WARNING root fetch - processPackages [onepiece-classify]: Skipping, unable to determine old version
+[2024-05-23 05:43:11] INFO root fetch - main [MainThread]: End processing [onepiece-classify] error
+[2024-05-23 05:43:11] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/20/bf/c3ce81f0cfac70146346af619d9afd325815ab6700b9e6c6782eef0ad16f/ip_check-1.6.2-py3-none-any.whl
+[2024-05-23 05:43:11] INFO root fetch - processPackages [discord-invite]: Downloading https://files.pythonhosted.org/packages/31/c2/f89f2cc2b9baa19b03c21b5664cc26e8b0f86e69cef6724a817c693df8d2/discord_invite-0.1.2.tar.gz
+[2024-05-23 05:43:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/13/05/ff7d11ab30130e04a6cbf638571de438c2a4a4123201615abe46fc9c7526/pulumi_kubernetes_the_hard_way-0.0.26a1716348154.tar.gz
+[2024-05-23 05:43:11] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/28/da/e3309d4cb5f46b8e444e0889eef4333dce73015b1d2926324d3f0c490713/ip_check-1.6.3-py3-none-any.whl
+[2024-05-23 05:43:11] INFO root fetch - processPackages [discord-invite]: Downloading https://files.pythonhosted.org/packages/2e/67/7eda094b1af6f2492808aa5885bc36828ee16273f4709507847a82deafc8/discord_invite-0.1.3.tar.gz
+[2024-05-23 05:43:11] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-05-23 05:43:11] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.6.2-py3-none-any.whl.zip tmp/ip_check-1.6.3-py3-none-any.whl.zip --markdown 20240523/i/ip-check/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-23 05:43:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/92/cb/73faf8caa0b8c5fc593dd72e806660b54e9dea6737fefcc7f1cf0b5013d4/pulumi_kubernetes_the_hard_way-0.0.26a1716412873.tar.gz
+[2024-05-23 05:43:11] INFO root fetch - processPackages [discord-invite]: executing diffoscope
+[2024-05-23 05:43:11] INFO root fetch - processPackages [discord-invite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_invite-0.1.2.tar.gz tmp/discord_invite-0.1.3.tar.gz --markdown 20240523/d/discord-invite/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-23 05:43:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-23 05:43:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716348154.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716412873.tar.gz --markdown 20240523/p/pulumi-kubernetes-the-hard-way/0.0.26a1716348154-0.0.26a1716412873/README.md --exclude *.pyd
+[2024-05-23 05:43:12] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.2-py3-none-any.whl.zip]
+[2024-05-23 05:43:12] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.3-py3-none-any.whl.zip]
+[2024-05-23 05:43:12] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-05-23 05:43:12] INFO root fetch - processPackages [discord-invite]: Remove: archive file [/home/abi/fetcher/tmp/discord_invite-0.1.2.tar.gz]
+[2024-05-23 05:43:12] INFO root fetch - processPackages [discord-invite]: Remove: archive file [/home/abi/fetcher/tmp/discord_invite-0.1.3.tar.gz]
+[2024-05-23 05:43:12] INFO root fetch - main [MainThread]: End processing [discord-invite]: success
+[2024-05-23 05:43:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716348154.tar.gz]
+[2024-05-23 05:43:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716412873.tar.gz]
+[2024-05-23 05:43:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-23 05:43:12] INFO root fetch - main [MainThread]: Store serial: [23337342]
