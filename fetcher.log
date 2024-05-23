@@ -7968,3 +7968,42 @@
 [2024-05-23 03:55:34] INFO root fetch - processPackages [JustDeepIt]: Remove: archive file [/home/abi/fetcher/tmp/JustDeepIt-0.2.3.tar.gz]
 [2024-05-23 03:55:34] INFO root fetch - main [MainThread]: End processing [JustDeepIt]: success
 [2024-05-23 03:55:34] INFO root fetch - main [MainThread]: Store serial: [23336497]
+[2024-05-23 03:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336497]
+[2024-05-23 03:57:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matprops
+[2024-05-23 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: architect-py
+[2024-05-23 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-oceanbasepro20190901
+[2024-05-23 03:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atap-corpus-loader
+[2024-05-23 03:57:43] INFO root fetch - processPackages [matprops]: New version: [1.0.4.3] Old Version: [1.0.4.2]
+[2024-05-23 03:57:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: New version: [4.0.0] Old Version: [3.0.2]
+[2024-05-23 03:57:43] INFO root fetch - processPackages [atap-corpus-loader]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-23 03:57:43] INFO root fetch - processPackages [matprops]: Downloading https://files.pythonhosted.org/packages/6d/77/88d25b94c0432ebf7c1f4d190b72811add8836a2181419f269d7f63b6afc/matprops-1.0.4.2.tar.gz
+[2024-05-23 03:57:43] INFO root fetch - processPackages [architect-py]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-23 03:57:43] INFO root fetch - processPackages [matprops]: Downloading https://files.pythonhosted.org/packages/d9/83/3e1055f67b61f501ee8a0ed6137a83b14b0ad933d780b4d8c59b2d927e28/matprops-1.0.4.3.tar.gz
+[2024-05-23 03:57:43] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/f4/b3/b3a1bab30f71cd14639a84a063b798359b8a86fc5d7cb3c151b95e85a1f2/atap_corpus_loader-1.5.1.tar.gz
+[2024-05-23 03:57:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Downloading https://files.pythonhosted.org/packages/15/6c/02b440079b42da79011283517f01695457c1ded6f8f49faa6f5feed960d7/alibabacloud_oceanbasepro20190901-3.0.2.tar.gz
+[2024-05-23 03:57:43] INFO root fetch - processPackages [architect-py]: Downloading https://files.pythonhosted.org/packages/66/f9/57a1d2460da9543251f1c5fad9adf483887dc050f7bcfc69e7921df82cf5/architect_py-0.2.1.tar.gz
+[2024-05-23 03:57:43] INFO root fetch - processPackages [matprops]: executing diffoscope
+[2024-05-23 03:57:43] INFO root fetch - processPackages [matprops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matprops-1.0.4.2.tar.gz tmp/matprops-1.0.4.3.tar.gz --markdown 20240523/m/matprops/1.0.4.2-1.0.4.3/README.md --exclude *.pyd
+[2024-05-23 03:57:43] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/57/0d/29dd17479c69f09e172fc48f221d9d119071dcfd88eee0679eb991d156e2/atap_corpus_loader-1.5.2.tar.gz
+[2024-05-23 03:57:43] INFO root fetch - processPackages [architect-py]: Downloading https://files.pythonhosted.org/packages/66/0d/cdb7a8a28fca770c8880451bceec673c7b2a5ce193acdb7b488db2b81d92/architect_py-0.2.2.tar.gz
+[2024-05-23 03:57:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Downloading https://files.pythonhosted.org/packages/1d/06/37bbf2b32b197dfa709cb13091e6fa05b8826c8dba881956973b884fc57f/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz
+[2024-05-23 03:57:43] INFO root fetch - processPackages [atap-corpus-loader]: executing diffoscope
+[2024-05-23 03:57:43] INFO root fetch - processPackages [atap-corpus-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atap_corpus_loader-1.5.1.tar.gz tmp/atap_corpus_loader-1.5.2.tar.gz --markdown 20240523/a/atap-corpus-loader/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-23 03:57:43] INFO root fetch - processPackages [architect-py]: executing diffoscope
+[2024-05-23 03:57:43] INFO root fetch - processPackages [architect-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architect_py-0.2.1.tar.gz tmp/architect_py-0.2.2.tar.gz --markdown 20240523/a/architect-py/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-23 03:57:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: executing diffoscope
+[2024-05-23 03:57:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oceanbasepro20190901-3.0.2.tar.gz tmp/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz --markdown 20240523/a/alibabacloud-oceanbasepro20190901/3.0.2-4.0.0/README.md --exclude *.pyd
+[2024-05-23 03:57:44] INFO root fetch - processPackages [matprops]: Remove: archive file [/home/abi/fetcher/tmp/matprops-1.0.4.2.tar.gz]
+[2024-05-23 03:57:44] INFO root fetch - processPackages [matprops]: Remove: archive file [/home/abi/fetcher/tmp/matprops-1.0.4.3.tar.gz]
+[2024-05-23 03:57:44] INFO root fetch - main [MainThread]: End processing [matprops]: success
+[2024-05-23 03:57:44] INFO root fetch - processPackages [architect-py]: Remove: archive file [/home/abi/fetcher/tmp/architect_py-0.2.1.tar.gz]
+[2024-05-23 03:57:44] INFO root fetch - processPackages [architect-py]: Remove: archive file [/home/abi/fetcher/tmp/architect_py-0.2.2.tar.gz]
+[2024-05-23 03:57:44] INFO root fetch - main [MainThread]: End processing [architect-py]: success
+[2024-05-23 03:57:44] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.5.1.tar.gz]
+[2024-05-23 03:57:44] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.5.2.tar.gz]
+[2024-05-23 03:57:44] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
+[2024-05-23 03:57:46] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-3.0.2.tar.gz]
+[2024-05-23 03:57:46] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz]
+[2024-05-23 03:57:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901]: success
+[2024-05-23 03:57:46] INFO root fetch - main [MainThread]: Store serial: [23336509]
