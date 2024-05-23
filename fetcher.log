@@ -19755,3 +19755,63 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:07:35] INFO root fetch - processPackages [cubicweb-web]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-web-1.3.0.tar.gz]
 [2024-05-23 12:07:35] INFO root fetch - main [MainThread]: End processing [cubicweb-web]: success
 [2024-05-23 12:07:35] INFO root fetch - main [MainThread]: Store serial: [23341595]
+[2024-05-23 12:09:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341595]
+[2024-05-23 12:09:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 12:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-workflow-sdk
+[2024-05-23 12:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-felis
+[2024-05-23 12:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-fedit
+[2024-05-23 12:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-ctrl-bps-htcondor
+[2024-05-23 12:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-ctrl-bps
+[2024-05-23 12:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-pipe-base
+[2024-05-23 12:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: castle-ai
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-felis]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 12:09:46] WARNING root fetch - processPackages [castle-ai]: Skipping, unable to determine old version
+[2024-05-23 12:09:46] INFO root fetch - main [MainThread]: End processing [castle-ai] error
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 12:09:46] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.9rc4] Old Version: [1.5.9rc3]
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-pipe-base]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/11/cf/723d20317492f44f320ba963c7d8bd4dc53dcd5810b3c6bb0076497aeb50/lsst_felis-27.2024.1900.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/30/58/57d777ddf934993cb407ac7cd6b3eddc00a636e33ad9f452309796fa8ae6/lsst_ctrl_bps-27.2024.1900.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/ba/61/bd44fa292f4c50f877739bfd7653399cfad2b269f2efae6e331ceea2e4cc/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/1b/6b/c387403f4e6f398f303c7865882c545e6cdf2c869139b09d55e84e4e160c/wagtail_fedit-1.5.9rc3.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/fb/11/e7caafa25f67c19403047ad05dcae6a2f8199f768f63f2dedee532d7c5e5/lsst_pipe_base-27.2024.1900.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/06/19/0219de51404d460b42a69dfca190e6fa483f3d5ff3e66720d33a1b337880/lsst_felis-27.2024.2000.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/87/bb/2f554431356dcab9d8d02a0cd3c4f2cf91be748c01f0d8bb110bc0ff19b8/lsst_ctrl_bps-27.2024.2000.tar.gz
+[2024-05-23 12:09:46] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/c4/27/0c9bf22297c61357e7fc8a56f92874c986c7ccf62813391efaee9f5724c7/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/bb/b1/0f86853eec1f348daa4201343a4deaedf309de3f59e8c9e8bb8d680efc94/lsst_pipe_base-27.2024.2000.tar.gz
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_felis-27.2024.1900.tar.gz tmp/lsst_felis-27.2024.2000.tar.gz --markdown 20240523/l/lsst-felis/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240523/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps-27.2024.1900.tar.gz tmp/lsst_ctrl_bps-27.2024.2000.tar.gz --markdown 20240523/l/lsst-ctrl-bps/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 12:09:47] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/7c/b8/930c5882c0872a2f13af2128cc32c54cb84b26552af1cf248223359d3e3d/wagtail_fedit-1.5.9rc4.tar.gz
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz tmp/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz --markdown 20240523/l/lsst-ctrl-bps-htcondor/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_pipe_base-27.2024.1900.tar.gz tmp/lsst_pipe_base-27.2024.2000.tar.gz --markdown 20240523/l/lsst-pipe-base/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 12:09:47] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-23 12:09:47] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.9rc3.tar.gz tmp/wagtail_fedit-1.5.9rc4.tar.gz --markdown 20240523/w/wagtail-fedit/1.5.9rc3-1.5.9rc4/README.md --exclude *.pyd
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz]
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz]
+[2024-05-23 12:09:47] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.1900.tar.gz]
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.2000.tar.gz]
+[2024-05-23 12:09:47] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.1900.tar.gz]
+[2024-05-23 12:09:47] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.2000.tar.gz]
+[2024-05-23 12:09:47] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2024-05-23 12:09:48] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-23 12:09:48] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-23 12:09:48] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-23 12:09:48] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc3.tar.gz]
+[2024-05-23 12:09:48] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc4.tar.gz]
+[2024-05-23 12:09:48] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-23 12:09:48] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.1900.tar.gz]
+[2024-05-23 12:09:48] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.2000.tar.gz]
+[2024-05-23 12:09:48] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2024-05-23 12:09:48] INFO root fetch - main [MainThread]: Store serial: [23341616]
