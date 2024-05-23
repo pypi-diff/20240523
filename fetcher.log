@@ -15516,3 +15516,24 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:41:26] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-23 10:41:26] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-23 10:41:26] INFO root fetch - main [MainThread]: Store serial: [23340125]
+[2024-05-23 10:43:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340125]
+[2024-05-23 10:43:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasphere
+[2024-05-23 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eurmlsdk
+[2024-05-23 10:43:35] INFO root fetch - processPackages [eurmlsdk]: New version: [0.1.205] Old Version: [0.1.203]
+[2024-05-23 10:43:35] INFO root fetch - processPackages [datasphere]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-23 10:43:35] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/11/2b/305b22312a1d3b5b4b5a56b4562ff0554a9fe1bc18884a7ef615d393859d/datasphere-0.6.8.tar.gz
+[2024-05-23 10:43:35] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/5d/4b/ea8c437c14197ce4b59dd9492a6c7787a99bef6cf6d5d9744178312a06f9/eurmlsdk-0.1.203.tar.gz
+[2024-05-23 10:43:36] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/f7/d8/a83fa0eeb44b304b9d901415e7dcf6513af64a29b4aca0a559024b1e04a4/eurmlsdk-0.1.205.tar.gz
+[2024-05-23 10:43:36] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/db/e4/a778c5158500ab1a5a41a47e7d3a3fba1b44b1f249926738aa536f143b78/datasphere-0.6.9.tar.gz
+[2024-05-23 10:43:36] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-23 10:43:36] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.1.203.tar.gz tmp/eurmlsdk-0.1.205.tar.gz --markdown 20240523/e/eurmlsdk/0.1.203-0.1.205/README.md --exclude *.pyd
+[2024-05-23 10:43:36] INFO root fetch - processPackages [datasphere]: executing diffoscope
+[2024-05-23 10:43:36] INFO root fetch - processPackages [datasphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasphere-0.6.8.tar.gz tmp/datasphere-0.6.9.tar.gz --markdown 20240523/d/datasphere/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-23 10:43:36] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.1.203.tar.gz]
+[2024-05-23 10:43:36] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.1.205.tar.gz]
+[2024-05-23 10:43:36] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-23 10:43:39] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.6.8.tar.gz]
+[2024-05-23 10:43:39] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.6.9.tar.gz]
+[2024-05-23 10:43:39] INFO root fetch - main [MainThread]: End processing [datasphere]: success
+[2024-05-23 10:43:39] INFO root fetch - main [MainThread]: Store serial: [23340136]
