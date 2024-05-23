@@ -8918,3 +8918,63 @@
 [2024-05-23 04:59:41] INFO root fetch - processPackages [pygubu]: Remove: archive file [/home/abi/fetcher/tmp/pygubu-0.9.8.6.tar.gz]
 [2024-05-23 04:59:41] INFO root fetch - main [MainThread]: End processing [pygubu]: success
 [2024-05-23 04:59:41] INFO root fetch - main [MainThread]: Store serial: [23336909]
+[2024-05-23 05:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336909]
+[2024-05-23 05:01:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 05:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygubu-designer
+[2024-05-23 05:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rsserpent-rev
+[2024-05-23 05:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eliasliu
+[2024-05-23 05:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gspread-models
+[2024-05-23 05:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plg
+[2024-05-23 05:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seven-cloudapp-frame
+[2024-05-23 05:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PMPrimer
+[2024-05-23 05:01:50] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-23 05:01:50] INFO root fetch - processPackages [eliasliu]: New version: [0.1.59] Old Version: [0.1.58]
+[2024-05-23 05:01:50] INFO root fetch - processPackages [gspread-models]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-23 05:01:50] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-23 05:01:50] INFO root fetch - processPackages [plg]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-23 05:01:50] WARNING root fetch - processPackages [rsserpent-rev]: Skipping, unable to determine old version
+[2024-05-23 05:01:50] INFO root fetch - main [MainThread]: End processing [rsserpent-rev] error
+[2024-05-23 05:01:50] INFO root fetch - processPackages [PMPrimer]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-23 05:01:50] INFO root fetch - processPackages [pygubu-designer]: New version: [0.39.3] Old Version: [0.39.2]
+[2024-05-23 05:01:50] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-23 05:01:50] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/66/e9/9951662ce9cf785b267f259b2f1fd4d1f731a02b9817b85001a29af21f17/eliasliu-0.1.58.tar.gz
+[2024-05-23 05:01:50] INFO root fetch - processPackages [PMPrimer]: Downloading https://files.pythonhosted.org/packages/3c/7c/fb3bfd5fa89477518b234dc23bd18f5d65b7026e343b1c8b7b59b0a785ba/PMPrimer-1.0.6.tar.gz
+[2024-05-23 05:01:50] INFO root fetch - processPackages [plg]: Downloading https://files.pythonhosted.org/packages/4c/d0/fa0a4a6b3eee236f6a4dda289028058e63677e6ab07227c60cad8416b015/plg-0.0.2.tar.gz
+[2024-05-23 05:01:50] INFO root fetch - processPackages [pygubu-designer]: Downloading https://files.pythonhosted.org/packages/18/75/b45939d61511a33a16164a7511236ab3cd057fe512bd86655849bf6771a4/pygubu_designer-0.39.2.tar.gz
+[2024-05-23 05:01:50] INFO root fetch - processPackages [gspread-models]: Downloading https://files.pythonhosted.org/packages/5b/3a/e75b778a02cbb89a0c38ee9d1da4ca90d64461ec4959498c4e8c3053b0d0/gspread_models-1.0.5.tar.gz
+[2024-05-23 05:01:50] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-23 05:01:50] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240523/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-23 05:01:51] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/cc/cd/4414a23c982e40307604bcc87ada2c4a5fb09a55155dd1929951b9e38c37/eliasliu-0.1.59.tar.gz
+[2024-05-23 05:01:51] INFO root fetch - processPackages [gspread-models]: Downloading https://files.pythonhosted.org/packages/65/d5/aee83d792b2e286c36fcc192544a77fb5a4ca731b2927a6b18adb38bd94b/gspread_models-1.0.6.tar.gz
+[2024-05-23 05:01:51] INFO root fetch - processPackages [plg]: Downloading https://files.pythonhosted.org/packages/a4/50/fbcbce9a8f605598bf0e9c3a49b9b0a0a309911613bb191756cf98393653/plg-0.1.0.tar.gz
+[2024-05-23 05:01:51] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-23 05:01:51] INFO root fetch - processPackages [pygubu-designer]: Downloading https://files.pythonhosted.org/packages/da/b2/026d217eafd29742d49d34933208878a712a381bae4fba87f65e55c18cc9/pygubu_designer-0.39.3.tar.gz
+[2024-05-23 05:01:51] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.58.tar.gz tmp/eliasliu-0.1.59.tar.gz --markdown 20240523/e/eliasliu/0.1.58-0.1.59/README.md --exclude *.pyd
+[2024-05-23 05:01:51] INFO root fetch - processPackages [gspread-models]: executing diffoscope
+[2024-05-23 05:01:51] INFO root fetch - processPackages [gspread-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspread_models-1.0.5.tar.gz tmp/gspread_models-1.0.6.tar.gz --markdown 20240523/g/gspread-models/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-23 05:01:51] INFO root fetch - processPackages [PMPrimer]: Downloading https://files.pythonhosted.org/packages/c5/a8/f703fedcf67263328074ac73f991ffbb56f5495ab1757914c763848bcf1d/pmprimer-1.0.7.tar.gz
+[2024-05-23 05:01:51] INFO root fetch - processPackages [pygubu-designer]: executing diffoscope
+[2024-05-23 05:01:51] INFO root fetch - processPackages [pygubu-designer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygubu_designer-0.39.2.tar.gz tmp/pygubu_designer-0.39.3.tar.gz --markdown 20240523/p/pygubu-designer/0.39.2-0.39.3/README.md --exclude *.pyd
+[2024-05-23 05:01:51] INFO root fetch - processPackages [plg]: executing diffoscope
+[2024-05-23 05:01:51] INFO root fetch - processPackages [plg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plg-0.0.2.tar.gz tmp/plg-0.1.0.tar.gz --markdown 20240523/p/plg/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-23 05:01:51] INFO root fetch - processPackages [PMPrimer]: executing diffoscope
+[2024-05-23 05:01:51] INFO root fetch - processPackages [PMPrimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PMPrimer-1.0.6.tar.gz tmp/pmprimer-1.0.7.tar.gz --markdown 20240523/P/PMPrimer/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-23 05:01:51] INFO root fetch - processPackages [gspread-models]: Remove: archive file [/home/abi/fetcher/tmp/gspread_models-1.0.5.tar.gz]
+[2024-05-23 05:01:51] INFO root fetch - processPackages [gspread-models]: Remove: archive file [/home/abi/fetcher/tmp/gspread_models-1.0.6.tar.gz]
+[2024-05-23 05:01:51] INFO root fetch - main [MainThread]: End processing [gspread-models]: success
+[2024-05-23 05:01:52] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.58.tar.gz]
+[2024-05-23 05:01:52] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.59.tar.gz]
+[2024-05-23 05:01:52] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-23 05:01:52] INFO root fetch - processPackages [plg]: Remove: archive file [/home/abi/fetcher/tmp/plg-0.0.2.tar.gz]
+[2024-05-23 05:01:52] INFO root fetch - processPackages [plg]: Remove: archive file [/home/abi/fetcher/tmp/plg-0.1.0.tar.gz]
+[2024-05-23 05:01:52] INFO root fetch - main [MainThread]: End processing [plg]: success
+[2024-05-23 05:01:52] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-23 05:01:52] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-23 05:01:52] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-23 05:01:52] INFO root fetch - processPackages [PMPrimer]: Remove: archive file [/home/abi/fetcher/tmp/PMPrimer-1.0.6.tar.gz]
+[2024-05-23 05:01:52] INFO root fetch - processPackages [PMPrimer]: Remove: archive file [/home/abi/fetcher/tmp/pmprimer-1.0.7.tar.gz]
+[2024-05-23 05:01:52] INFO root fetch - main [MainThread]: End processing [PMPrimer]: success
+[2024-05-23 05:01:53] INFO root fetch - processPackages [pygubu-designer]: Remove: archive file [/home/abi/fetcher/tmp/pygubu_designer-0.39.2.tar.gz]
+[2024-05-23 05:01:53] INFO root fetch - processPackages [pygubu-designer]: Remove: archive file [/home/abi/fetcher/tmp/pygubu_designer-0.39.3.tar.gz]
+[2024-05-23 05:01:53] INFO root fetch - main [MainThread]: End processing [pygubu-designer]: success
+[2024-05-23 05:01:53] INFO root fetch - main [MainThread]: Store serial: [23336931]
