@@ -10204,3 +10204,15 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:26:48] INFO root fetch - processPackages [dpkits]: Remove: archive file [/home/abi/fetcher/tmp/dpkits-1.2.5.tar.gz]
 [2024-05-23 06:26:48] INFO root fetch - main [MainThread]: End processing [dpkits]: success
 [2024-05-23 06:26:48] INFO root fetch - main [MainThread]: Store serial: [23337652]
+[2024-05-23 06:28:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337652]
+[2024-05-23 06:28:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 06:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2024-05-23 06:28:57] INFO root fetch - processPackages [bagbag]: New version: [0.68.9] Old Version: [0.68.8]
+[2024-05-23 06:28:57] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/96/cec1b60756a800353138acafbcdaf59362f72a46b4a91cae324ae5b6118b/bagbag-0.68.8.tar.gz
+[2024-05-23 06:28:57] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/a7/ce/36d9c874c6e340bb1da40a8b9b41a914e0760f19171ede585a00fb45323d/bagbag-0.68.9.tar.gz
+[2024-05-23 06:28:57] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-23 06:28:57] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.8.tar.gz tmp/bagbag-0.68.9.tar.gz --markdown 20240523/b/bagbag/0.68.8-0.68.9/README.md --exclude *.pyd
+[2024-05-23 06:28:58] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.8.tar.gz]
+[2024-05-23 06:28:58] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.9.tar.gz]
+[2024-05-23 06:28:58] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-23 06:28:58] INFO root fetch - main [MainThread]: Store serial: [23337655]
