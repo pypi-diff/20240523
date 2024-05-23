@@ -13049,3 +13049,66 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:14:11] WARNING root fetch - processPackages [MLAlgos]: Skipping, unable to determine old version
 [2024-05-23 09:14:11] INFO root fetch - main [MainThread]: End processing [MLAlgos] error
 [2024-05-23 09:14:11] INFO root fetch - main [MainThread]: Store serial: [23338981]
+[2024-05-23 09:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338981]
+[2024-05-23 09:16:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packManager
+[2024-05-23 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcol
+[2024-05-23 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2024-05-23 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-23 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CurrencyConverter
+[2024-05-23 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astroquery
+[2024-05-23 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onepiece-classifier
+[2024-05-23 09:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartpredict
+[2024-05-23 09:16:20] INFO root fetch - processPackages [packManager]: New version: [1.0.4] Old Version: [0.0.0]
+[2024-05-23 09:16:20] WARNING root fetch - processPackages [onepiece-classifier]: Skipping, unable to determine old version
+[2024-05-23 09:16:20] INFO root fetch - main [MainThread]: End processing [onepiece-classifier] error
+[2024-05-23 09:16:20] WARNING root fetch - processPackages [tcol]: Skipping, unable to determine old version
+[2024-05-23 09:16:20] INFO root fetch - main [MainThread]: End processing [tcol] error
+[2024-05-23 09:16:20] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:16:20] INFO root fetch - processPackages [astroquery]: New version: [0.4.dev5750] Old Version: [0.4.dev5744]
+[2024-05-23 09:16:20] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-23 09:16:20] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/1d/36/4aed9d6940d682b6a4e75295a18767903d99c13a11dc9aae97b2feb275ce/packmanager-0.0.0.tar.gz
+[2024-05-23 09:16:20] INFO root fetch - processPackages [CurrencyConverter]: New version: [0.8.1] Old Version: [0.8]
+[2024-05-23 09:16:20] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:16:20] INFO root fetch - processPackages [smartpredict]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-23 09:16:20] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-23 09:16:20] INFO root fetch - processPackages [astroquery]: Downloading https://files.pythonhosted.org/packages/80/fc/4ad0567df9f9283caa586681c54894ec9c6f6eb53e17e70998cd1530f071/astroquery-0.4.dev5744.tar.gz
+[2024-05-23 09:16:20] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/0a/a3/5fe89b2c000f3610c60e882a2e576db59091db37ff17ad3e18f5fae70381/packmanager-1.0.4.tar.gz
+[2024-05-23 09:16:20] INFO root fetch - processPackages [CurrencyConverter]: Downloading https://files.pythonhosted.org/packages/5e/35/27a75584061a306b667745d40c3fd563c48adeff2a40d861a8681d789037/CurrencyConverter-0.8.tar.gz
+[2024-05-23 09:16:20] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/d1/50/cd86d982f0b068d26ea3b37008a74aaf61190918f0cc8a78945cc5bec44f/smartpredict-0.6.8.tar.gz
+[2024-05-23 09:16:20] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:16:20] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-23 09:16:20] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-0.0.0.tar.gz tmp/packmanager-1.0.4.tar.gz --markdown 20240523/p/packManager/0.0.0-1.0.4/README.md --exclude *.pyd
+[2024-05-23 09:16:20] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-23 09:16:20] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:16:20] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:16:20] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-23 09:16:20] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240523/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-23 09:16:20] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/22/03/ead990dba4ac20277d0bb0b558813d0f9d8fa86bb63a3efb264d8cb1e739/smartpredict-0.6.9.tar.gz
+[2024-05-23 09:16:20] INFO root fetch - processPackages [CurrencyConverter]: Downloading https://files.pythonhosted.org/packages/36/b4/05f3a72c2d767d2c59859c5a8b23d26fed36b34113c28cf49e4857093a79/CurrencyConverter-0.8.1.tar.gz
+[2024-05-23 09:16:21] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-23 09:16:21] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.8.tar.gz tmp/smartpredict-0.6.9.tar.gz --markdown 20240523/s/smartpredict/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-23 09:16:21] INFO root fetch - processPackages [CurrencyConverter]: executing diffoscope
+[2024-05-23 09:16:21] INFO root fetch - processPackages [CurrencyConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CurrencyConverter-0.8.tar.gz tmp/CurrencyConverter-0.8.1.tar.gz --markdown 20240523/C/CurrencyConverter/0.8-0.8.1/README.md --exclude *.pyd
+[2024-05-23 09:16:21] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-0.0.0.tar.gz]
+[2024-05-23 09:16:21] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.4.tar.gz]
+[2024-05-23 09:16:21] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-23 09:16:21] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:16:21] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 09:16:21] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:16:21] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.8.tar.gz]
+[2024-05-23 09:16:21] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.9.tar.gz]
+[2024-05-23 09:16:21] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-23 09:16:21] INFO root fetch - processPackages [astroquery]: Downloading https://files.pythonhosted.org/packages/2e/c6/5a4c3831a8f8fe5714118e49506efd5a52ec2a58bee85f1a70b289f90d88/astroquery-0.4.dev5750.tar.gz
+[2024-05-23 09:16:21] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.tar.gz]
+[2024-05-23 09:16:21] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.1.tar.gz]
+[2024-05-23 09:16:21] INFO root fetch - main [MainThread]: End processing [CurrencyConverter]: success
+[2024-05-23 09:16:22] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-23 09:16:22] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-23 09:16:22] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-23 09:16:22] INFO root fetch - processPackages [astroquery]: executing diffoscope
+[2024-05-23 09:16:22] INFO root fetch - processPackages [astroquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroquery-0.4.dev5744.tar.gz tmp/astroquery-0.4.dev5750.tar.gz --markdown 20240523/a/astroquery/0.4.dev5744-0.4.dev5750/README.md --exclude *.pyd
+[2024-05-23 09:16:28] INFO root fetch - processPackages [astroquery]: Remove: archive file [/home/abi/fetcher/tmp/astroquery-0.4.dev5744.tar.gz]
+[2024-05-23 09:16:28] INFO root fetch - processPackages [astroquery]: Remove: archive file [/home/abi/fetcher/tmp/astroquery-0.4.dev5750.tar.gz]
+[2024-05-23 09:16:28] INFO root fetch - main [MainThread]: End processing [astroquery]: success
+[2024-05-23 09:16:28] INFO root fetch - main [MainThread]: Store serial: [23339010]
