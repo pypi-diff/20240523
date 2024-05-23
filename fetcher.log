@@ -10683,3 +10683,36 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:09:43] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.9.tar.gz]
 [2024-05-23 07:09:43] INFO root fetch - main [MainThread]: End processing [kaizen-cloudcode]: success
 [2024-05-23 07:09:43] INFO root fetch - main [MainThread]: Store serial: [23337868]
+[2024-05-23 07:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337868]
+[2024-05-23 07:11:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 07:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdrpa.tdworker
+[2024-05-23 07:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-es-serverless20230627
+[2024-05-23 07:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Complex-Bidintha
+[2024-05-23 07:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-components
+[2024-05-23 07:11:52] INFO root fetch - processPackages [tdrpa.tdworker]: New version: [1.1.4.16] Old Version: [1.1.4.15]
+[2024-05-23 07:11:52] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/e6/9f/b9586bba5d552b6b5156cdf97ad4fbdee01ff6b95e1364b45403a6b23a7c/tdrpa.tdworker-1.1.4.15-py39-none-win_amd64.whl
+[2024-05-23 07:11:52] WARNING root fetch - processPackages [Complex-Bidintha]: Skipping, unable to determine old version
+[2024-05-23 07:11:52] INFO root fetch - main [MainThread]: End processing [Complex-Bidintha] error
+[2024-05-23 07:11:52] INFO root fetch - processPackages [alibabacloud-es-serverless20230627]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-23 07:11:52] INFO root fetch - processPackages [django-components]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-23 07:11:52] INFO root fetch - processPackages [alibabacloud-es-serverless20230627]: Downloading https://files.pythonhosted.org/packages/54/c4/8381ef2d9b4783212766c36844fe3b19ea8cba6e9e68d9ed3cc4eea90e66/alibabacloud_es-serverless20230627-1.0.2.tar.gz
+[2024-05-23 07:11:52] INFO root fetch - processPackages [django-components]: Downloading https://files.pythonhosted.org/packages/d9/a9/0e17dfb6bc2c9ffafac974b36a0078d0df2730d82373e45392b15ca26fe1/django_components-0.9.1.tar.gz
+[2024-05-23 07:11:52] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/d2/b5/34f2c7ce61458d1045c50c877c32793a17d1460dd98d9ca7df77c94f413d/tdrpa.tdworker-1.1.4.16-py39-none-win_amd64.whl
+[2024-05-23 07:11:53] INFO root fetch - processPackages [alibabacloud-es-serverless20230627]: Downloading https://files.pythonhosted.org/packages/79/cf/904ade15f2dbf5d36f6dcfc6b4522f3d763f9fda868953f0f291abb8f2b3/alibabacloud_es-serverless20230627-2.0.0.tar.gz
+[2024-05-23 07:11:53] INFO root fetch - processPackages [tdrpa.tdworker]: executing diffoscope
+[2024-05-23 07:11:53] INFO root fetch - processPackages [tdrpa.tdworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdrpa.tdworker-1.1.4.15-py39-none-win_amd64.whl.zip tmp/tdrpa.tdworker-1.1.4.16-py39-none-win_amd64.whl.zip --markdown 20240523/t/tdrpa.tdworker/1.1.4.15-1.1.4.16/README.md --exclude *.pyd
+[2024-05-23 07:11:53] INFO root fetch - processPackages [django-components]: Downloading https://files.pythonhosted.org/packages/01/b6/7465ad9480fe781bc5c56d355a7b96cc21758c50d747830e87dcac29a4db/django_components-0.9.2.tar.gz
+[2024-05-23 07:11:53] INFO root fetch - processPackages [alibabacloud-es-serverless20230627]: executing diffoscope
+[2024-05-23 07:11:53] INFO root fetch - processPackages [alibabacloud-es-serverless20230627]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_es-serverless20230627-1.0.2.tar.gz tmp/alibabacloud_es-serverless20230627-2.0.0.tar.gz --markdown 20240523/a/alibabacloud-es-serverless20230627/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-23 07:11:53] INFO root fetch - processPackages [django-components]: executing diffoscope
+[2024-05-23 07:11:53] INFO root fetch - processPackages [django-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_components-0.9.1.tar.gz tmp/django_components-0.9.2.tar.gz --markdown 20240523/d/django-components/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-23 07:11:53] INFO root fetch - processPackages [django-components]: Remove: archive file [/home/abi/fetcher/tmp/django_components-0.9.1.tar.gz]
+[2024-05-23 07:11:53] INFO root fetch - processPackages [django-components]: Remove: archive file [/home/abi/fetcher/tmp/django_components-0.9.2.tar.gz]
+[2024-05-23 07:11:53] INFO root fetch - main [MainThread]: End processing [django-components]: success
+[2024-05-23 07:11:53] INFO root fetch - processPackages [alibabacloud-es-serverless20230627]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_es-serverless20230627-1.0.2.tar.gz]
+[2024-05-23 07:11:53] INFO root fetch - processPackages [alibabacloud-es-serverless20230627]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_es-serverless20230627-2.0.0.tar.gz]
+[2024-05-23 07:11:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-es-serverless20230627]: success
+[2024-05-23 07:11:53] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.4.15-py39-none-win_amd64.whl.zip]
+[2024-05-23 07:11:53] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.4.16-py39-none-win_amd64.whl.zip]
+[2024-05-23 07:11:53] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker]: success
+[2024-05-23 07:11:53] INFO root fetch - main [MainThread]: Store serial: [23337888]
