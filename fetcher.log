@@ -10007,3 +10007,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:15:52] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
 [2024-05-23 06:15:52] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
 [2024-05-23 06:15:52] INFO root fetch - main [MainThread]: Store serial: [23337509]
+[2024-05-23 06:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337509]
+[2024-05-23 06:18:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CyRK
+[2024-05-23 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sosap
+[2024-05-23 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI
+[2024-05-23 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hsy-newspaper3k
+[2024-05-23 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: articraft
+[2024-05-23 06:18:01] INFO root fetch - processPackages [OZI]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-23 06:18:01] WARNING root fetch - processPackages [articraft]: Skipping, unable to determine old version
+[2024-05-23 06:18:01] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/83/0e/63e5334a6f51461ea8ee42670542078aff216d2ddcedd9e232c9829293b0/OZI-1.9.4.tar.gz
+[2024-05-23 06:18:01] INFO root fetch - main [MainThread]: End processing [articraft] error
+[2024-05-23 06:18:01] INFO root fetch - processPackages [CyRK]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-23 06:18:01] INFO root fetch - processPackages [hsy-newspaper3k]: New version: [0.3.8] Old Version: [0.3.2]
+[2024-05-23 06:18:01] INFO root fetch - processPackages [sosap]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-23 06:18:01] INFO root fetch - processPackages [hsy-newspaper3k]: Downloading https://files.pythonhosted.org/packages/94/66/bfbb292c65170e0dfe5e73f094b559b9a05fcfa7727911172cd054d2874c/hsy_newspaper3k-0.3.2.tar.gz
+[2024-05-23 06:18:01] INFO root fetch - processPackages [sosap]: Downloading https://files.pythonhosted.org/packages/1a/28/ffb719b8cdd991ac91747b46e56bfaece8d62b61bc4f18a2529c7bb3b444/sosap-0.1.3.tar.gz
+[2024-05-23 06:18:01] INFO root fetch - processPackages [CyRK]: Downloading https://files.pythonhosted.org/packages/a9/91/b862a11f858cf79f4334e78b2a2aaaf972277cb3e474dacd1f2aee2d44c6/cyrk-0.8.8.tar.gz
+[2024-05-23 06:18:02] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/f3/29/1c493a362044441a4424ad2c6adc761de40ad6c042ccd0f15d714ccbe62c/OZI-1.9.5.tar.gz
+[2024-05-23 06:18:02] INFO root fetch - processPackages [hsy-newspaper3k]: Downloading https://files.pythonhosted.org/packages/6c/3c/5b18384b0cd02317cb5b8e575ab2a03bcf1710e13a55625994acbfc304a6/hsy-newspaper3k-0.3.8.tar.gz
+[2024-05-23 06:18:02] INFO root fetch - processPackages [sosap]: Downloading https://files.pythonhosted.org/packages/9d/c6/dfe87fdf5af08b2e79f80b00d6bac80ffe5dd0c379a5f31e8340b8c82ebf/sosap-0.2.0.tar.gz
+[2024-05-23 06:18:02] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-23 06:18:02] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.9.4.tar.gz tmp/OZI-1.9.5.tar.gz --markdown 20240523/O/OZI/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-23 06:18:02] INFO root fetch - processPackages [CyRK]: Downloading https://files.pythonhosted.org/packages/4e/3f/6978a6c48130c5d2602d5cb4c466397ba0452cfbce3e5b2bb161f5cff82a/cyrk-0.9.0.tar.gz
+[2024-05-23 06:18:02] INFO root fetch - processPackages [hsy-newspaper3k]: executing diffoscope
+[2024-05-23 06:18:02] INFO root fetch - processPackages [hsy-newspaper3k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsy_newspaper3k-0.3.2.tar.gz tmp/hsy-newspaper3k-0.3.8.tar.gz --markdown 20240523/h/hsy-newspaper3k/0.3.2-0.3.8/README.md --exclude *.pyd
+[2024-05-23 06:18:02] INFO root fetch - processPackages [sosap]: executing diffoscope
+[2024-05-23 06:18:02] INFO root fetch - processPackages [sosap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosap-0.1.3.tar.gz tmp/sosap-0.2.0.tar.gz --markdown 20240523/s/sosap/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-23 06:18:03] INFO root fetch - processPackages [CyRK]: executing diffoscope
+[2024-05-23 06:18:03] INFO root fetch - processPackages [CyRK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyrk-0.8.8.tar.gz tmp/cyrk-0.9.0.tar.gz --markdown 20240523/C/CyRK/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-23 06:18:03] INFO root fetch - processPackages [hsy-newspaper3k]: Remove: archive file [/home/abi/fetcher/tmp/hsy_newspaper3k-0.3.2.tar.gz]
+[2024-05-23 06:18:03] INFO root fetch - processPackages [hsy-newspaper3k]: Remove: archive file [/home/abi/fetcher/tmp/hsy-newspaper3k-0.3.8.tar.gz]
+[2024-05-23 06:18:03] INFO root fetch - main [MainThread]: End processing [hsy-newspaper3k]: success
+[2024-05-23 06:18:03] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.4.tar.gz]
+[2024-05-23 06:18:03] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.5.tar.gz]
+[2024-05-23 06:18:03] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-23 06:18:03] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.1.3.tar.gz]
+[2024-05-23 06:18:03] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.2.0.tar.gz]
+[2024-05-23 06:18:03] INFO root fetch - main [MainThread]: End processing [sosap]: success
+[2024-05-23 06:18:06] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/cyrk-0.8.8.tar.gz]
+[2024-05-23 06:18:06] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/cyrk-0.9.0.tar.gz]
+[2024-05-23 06:18:06] INFO root fetch - main [MainThread]: End processing [CyRK]: success
+[2024-05-23 06:18:06] INFO root fetch - main [MainThread]: Store serial: [23337598]
