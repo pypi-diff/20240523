@@ -16816,3 +16816,60 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:08:31] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.9rc3.tar.gz]
 [2024-05-23 11:08:31] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
 [2024-05-23 11:08:31] INFO root fetch - main [MainThread]: Store serial: [23340628]
+[2024-05-23 11:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340628]
+[2024-05-23 11:10:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 11:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: felt-python
+[2024-05-23 11:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-nbtools
+[2024-05-23 11:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m3u8-XZ
+[2024-05-23 11:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: internet-domain-local
+[2024-05-23 11:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ymlstash
+[2024-05-23 11:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cwsgiutils
+[2024-05-23 11:10:40] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 11:10:40] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-05-23 11:10:40] INFO root fetch - processPackages [ymlstash]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-23 11:10:40] INFO root fetch - processPackages [m3u8-XZ]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 11:10:40] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/21/08/584c01255d71beb274e14bf23aa4f1cad58ef556a6dc819f0cf869a6d409/internet_domain_local-0.0.8.tar.gz
+[2024-05-23 11:10:40] INFO root fetch - processPackages [felt-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-23 11:10:40] INFO root fetch - processPackages [py-nbtools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 11:10:40] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-05-23 11:10:40] INFO root fetch - processPackages [ymlstash]: Downloading https://files.pythonhosted.org/packages/9b/ad/11170fc9a6673c4dffd4a3909be535f12462261d8c082ad66025507792a8/ymlstash-1.2.0.tar.gz
+[2024-05-23 11:10:40] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/a3/b6/e0491177e886f4191633b085ed3e7b2e77c00c277e59b83acedf4a538025/internet_domain_local-0.0.9.tar.gz
+[2024-05-23 11:10:40] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/6b/3c/9703b65954edecd0609e2afb7f9e775dcb01b43556de4a9c156408409861/m3u8_XZ-0.0.8.tar.gz
+[2024-05-23 11:10:40] INFO root fetch - processPackages [py-nbtools]: Downloading https://files.pythonhosted.org/packages/73/53/a239e7179c0361e30444fecd8555f4e8c15134aaea105a3b6c8f00326f45/py-nbtools-0.9.8.tar.gz
+[2024-05-23 11:10:40] INFO root fetch - processPackages [felt-python]: Downloading https://files.pythonhosted.org/packages/ef/d8/c2186b1f1c964e74d92e594461b2d215b27b2c94db7150a08b4d825a7ded/felt_python-0.0.1.tar.gz
+[2024-05-23 11:10:41] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-05-23 11:10:41] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-05-23 11:10:41] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.8.tar.gz tmp/internet_domain_local-0.0.9.tar.gz --markdown 20240523/i/internet-domain-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 11:10:41] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-05-23 11:10:41] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240523/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-05-23 11:10:41] INFO root fetch - processPackages [ymlstash]: Downloading https://files.pythonhosted.org/packages/40/f0/d4c2449e5b06453c6851d04b88d1b2a9e6923c82e0de6671cd6591543a39/ymlstash-1.2.1.tar.gz
+[2024-05-23 11:10:41] INFO root fetch - processPackages [ymlstash]: executing diffoscope
+[2024-05-23 11:10:41] INFO root fetch - processPackages [ymlstash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ymlstash-1.2.0.tar.gz tmp/ymlstash-1.2.1.tar.gz --markdown 20240523/y/ymlstash/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-23 11:10:41] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/2f/2a/31b25dce0c282c25374a563582685d1ff5c85f934bc972d41bdf79361ea1/m3u8_XZ-0.0.9.tar.gz
+[2024-05-23 11:10:41] INFO root fetch - processPackages [felt-python]: Downloading https://files.pythonhosted.org/packages/f9/08/119527a60bdf53068bcd75bb8a89c31d2ad448a512a4e2143819346351fe/felt_python-0.0.2.tar.gz
+[2024-05-23 11:10:41] INFO root fetch - processPackages [py-nbtools]: Downloading https://files.pythonhosted.org/packages/f4/87/3a882b432553585c739edcb21a26b5317b61f4dc560a0940f1d17b4a7c76/py-nbtools-0.9.9.tar.gz
+[2024-05-23 11:10:41] INFO root fetch - processPackages [felt-python]: executing diffoscope
+[2024-05-23 11:10:41] INFO root fetch - processPackages [felt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felt_python-0.0.1.tar.gz tmp/felt_python-0.0.2.tar.gz --markdown 20240523/f/felt-python/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-23 11:10:41] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.8.tar.gz]
+[2024-05-23 11:10:41] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.9.tar.gz]
+[2024-05-23 11:10:41] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-05-23 11:10:41] INFO root fetch - processPackages [m3u8-XZ]: executing diffoscope
+[2024-05-23 11:10:41] INFO root fetch - processPackages [m3u8-XZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u8_XZ-0.0.8.tar.gz tmp/m3u8_XZ-0.0.9.tar.gz --markdown 20240523/m/m3u8-XZ/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 11:10:41] INFO root fetch - processPackages [py-nbtools]: executing diffoscope
+[2024-05-23 11:10:41] INFO root fetch - processPackages [py-nbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-nbtools-0.9.8.tar.gz tmp/py-nbtools-0.9.9.tar.gz --markdown 20240523/p/py-nbtools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 11:10:41] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-05-23 11:10:41] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-05-23 11:10:41] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-05-23 11:10:42] INFO root fetch - processPackages [ymlstash]: Remove: archive file [/home/abi/fetcher/tmp/ymlstash-1.2.0.tar.gz]
+[2024-05-23 11:10:42] INFO root fetch - processPackages [ymlstash]: Remove: archive file [/home/abi/fetcher/tmp/ymlstash-1.2.1.tar.gz]
+[2024-05-23 11:10:42] INFO root fetch - main [MainThread]: End processing [ymlstash]: success
+[2024-05-23 11:10:42] INFO root fetch - processPackages [felt-python]: Remove: archive file [/home/abi/fetcher/tmp/felt_python-0.0.1.tar.gz]
+[2024-05-23 11:10:42] INFO root fetch - processPackages [felt-python]: Remove: archive file [/home/abi/fetcher/tmp/felt_python-0.0.2.tar.gz]
+[2024-05-23 11:10:42] INFO root fetch - main [MainThread]: End processing [felt-python]: success
+[2024-05-23 11:10:42] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.8.tar.gz]
+[2024-05-23 11:10:42] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.9.tar.gz]
+[2024-05-23 11:10:42] INFO root fetch - main [MainThread]: End processing [m3u8-XZ]: success
+[2024-05-23 11:10:42] INFO root fetch - processPackages [py-nbtools]: Remove: archive file [/home/abi/fetcher/tmp/py-nbtools-0.9.8.tar.gz]
+[2024-05-23 11:10:42] INFO root fetch - processPackages [py-nbtools]: Remove: archive file [/home/abi/fetcher/tmp/py-nbtools-0.9.9.tar.gz]
+[2024-05-23 11:10:42] INFO root fetch - main [MainThread]: End processing [py-nbtools]: success
+[2024-05-23 11:10:42] INFO root fetch - main [MainThread]: Store serial: [23340647]
