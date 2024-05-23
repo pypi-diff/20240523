@@ -3389,3 +3389,66 @@
 [2024-05-23 02:58:39] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.4.0.tar.gz]
 [2024-05-23 02:58:39] INFO root fetch - main [MainThread]: End processing [immanuel]: success
 [2024-05-23 02:58:39] INFO root fetch - main [MainThread]: Store serial: [23334931]
+[2024-05-23 03:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334931]
+[2024-05-23 03:00:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-23 03:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blaze-double-bot
+[2024-05-23 03:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyBiocFileCache
+[2024-05-23 03:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-rigetti
+[2024-05-23 03:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-ionq
+[2024-05-23 03:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-core
+[2024-05-23 03:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rcquant-sdk
+[2024-05-23 03:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq
+[2024-05-23 03:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mdeditor-stubs
+[2024-05-23 03:00:48] WARNING root fetch - processPackages [mdeditor-stubs]: Skipping, unable to determine old version
+[2024-05-23 03:00:48] INFO root fetch - main [MainThread]: End processing [mdeditor-stubs] error
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240523003657] Old Version: [1.4.0.dev20240522224419]
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.4.0.dev20240523003657] Old Version: [1.4.0.dev20240522224419]
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240523003657] Old Version: [1.4.0.dev20240522224419]
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240523003657] Old Version: [1.4.0.dev20240522224419]
+[2024-05-23 03:00:48] INFO root fetch - processPackages [pyBiocFileCache]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-23 03:00:48] WARNING root fetch - processPackages [blaze-double-bot]: Skipping, unable to determine old version
+[2024-05-23 03:00:48] INFO root fetch - main [MainThread]: End processing [blaze-double-bot] error
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/43/b7/6d33d69dbc10134a512a0343556d598f08ab726e81b2151ef3db00d3db57/cirq_rigetti-1.4.0.dev20240522224419-py3-none-any.whl
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/16/5d/9fabd954de5b07a65178b58ca8d73b26f62496c2b7d491be845fb0ae95cb/cirq_ionq-1.4.0.dev20240522224419-py3-none-any.whl
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/5e/17/0d323c73ced651f4d1f4df36b8c22ad2c1121c044dee232559600a0491a1/cirq-1.4.0.dev20240522224419-py3-none-any.whl
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/7f/9a/5aaacac827df0f679cd35b2853ef26ca503e9734be1da8787ad58d5a7b26/cirq_core-1.4.0.dev20240522224419-py3-none-any.whl
+[2024-05-23 03:00:48] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 03:00:48] INFO root fetch - processPackages [pyBiocFileCache]: Downloading https://files.pythonhosted.org/packages/36/fa/49cc95a4579dbc71c8103eb65ae0736719b479011d2bcc40ab422dbbe921/pybiocfilecache-0.3.1.tar.gz
+[2024-05-23 03:00:48] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/e2/3d/f7cc686a3d849af58241ceedbe44ba0566ee64ca90919fffaf8b654cb1ab/cirq_ionq-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/c7/15/91b85269756b6a53ae6055cab5377ed600531f74deb6db9ba03cd5b6b279/cirq_rigetti-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/5b/a6/42df3d949066baa058b686616c6e3e021d61b2acfe470841a105a3828ae5/cirq-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:00:48] INFO root fetch - processPackages [pyBiocFileCache]: Downloading https://files.pythonhosted.org/packages/fe/b8/d2168bd58f579ec1507bf9d2f6f28b7f537991ce095d2d27f07d7264f48b/pybiocfilecache-0.4.0.tar.gz
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240522224419-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240523003657-py3-none-any.whl.zip --markdown 20240523/c/cirq/1.4.0.dev20240522224419-1.4.0.dev20240523003657/README.md --exclude *.pyd
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.4.0.dev20240522224419-py3-none-any.whl.zip tmp/cirq_rigetti-1.4.0.dev20240523003657-py3-none-any.whl.zip --markdown 20240523/c/cirq-rigetti/1.4.0.dev20240522224419-1.4.0.dev20240523003657/README.md --exclude *.pyd
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-05-23 03:00:48] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240522224419-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240523003657-py3-none-any.whl.zip --markdown 20240523/c/cirq-ionq/1.4.0.dev20240522224419-1.4.0.dev20240523003657/README.md --exclude *.pyd
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/64/ee/56077c5447abb13f0c991b29f37e2056addcc04babd5eed178f570be829a/cirq_core-1.4.0.dev20240523003657-py3-none-any.whl
+[2024-05-23 03:00:49] INFO root fetch - processPackages [pyBiocFileCache]: executing diffoscope
+[2024-05-23 03:00:49] INFO root fetch - processPackages [pyBiocFileCache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiocfilecache-0.3.1.tar.gz tmp/pybiocfilecache-0.4.0.tar.gz --markdown 20240523/p/pyBiocFileCache/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-23 03:00:49] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240522224419-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240523003657-py3-none-any.whl.zip --markdown 20240523/c/cirq-core/1.4.0.dev20240522224419-1.4.0.dev20240523003657/README.md --exclude *.pyd
+[2024-05-23 03:00:49] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-05-23 03:00:49] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240523/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240522224419-py3-none-any.whl.zip]
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:00:49] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240522224419-py3-none-any.whl.zip]
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:00:49] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240522224419-py3-none-any.whl.zip]
+[2024-05-23 03:00:49] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:00:49] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-05-23 03:00:49] INFO root fetch - processPackages [pyBiocFileCache]: Remove: archive file [/home/abi/fetcher/tmp/pybiocfilecache-0.3.1.tar.gz]
+[2024-05-23 03:00:49] INFO root fetch - processPackages [pyBiocFileCache]: Remove: archive file [/home/abi/fetcher/tmp/pybiocfilecache-0.4.0.tar.gz]
+[2024-05-23 03:00:49] INFO root fetch - main [MainThread]: End processing [pyBiocFileCache]: success
+[2024-05-23 03:00:50] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-05-23 03:00:50] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-05-23 03:00:50] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-05-23 03:00:52] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240522224419-py3-none-any.whl.zip]
+[2024-05-23 03:00:52] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240523003657-py3-none-any.whl.zip]
+[2024-05-23 03:00:52] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-05-23 03:00:52] INFO root fetch - main [MainThread]: Store serial: [23334953]
