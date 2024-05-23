@@ -12992,3 +12992,42 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:07:40] INFO root fetch - processPackages [pynamodb-mate]: Remove: archive file [/home/abi/fetcher/tmp/pynamodb_mate-5.5.1.1.tar.gz]
 [2024-05-23 09:07:40] INFO root fetch - main [MainThread]: End processing [pynamodb-mate]: success
 [2024-05-23 09:07:40] INFO root fetch - main [MainThread]: Store serial: [23338951]
+[2024-05-23 09:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338951]
+[2024-05-23 09:09:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FasterAPI
+[2024-05-23 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-materialize
+[2024-05-23 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-hub-nightly
+[2024-05-23 09:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zermelo-api-vogk
+[2024-05-23 09:09:48] INFO root fetch - processPackages [zermelo-api-vogk]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-23 09:09:48] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-23 09:09:48] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/76/04/76282b6399f05562f9f9c3e5cc9505be13668cbaf6ead8c23e7970e2dd27/zermelo_api_vogk-1.0.4.tar.gz
+[2024-05-23 09:09:48] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-23 09:09:48] INFO root fetch - processPackages [dbt-materialize]: New version: [1.8.0] Old Version: [1.7.8]
+[2024-05-23 09:09:48] INFO root fetch - processPackages [FasterAPI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 09:09:49] INFO root fetch - processPackages [FasterAPI]: Downloading https://files.pythonhosted.org/packages/dc/4f/7387d4a3d73df0697fb82575cf0abf3616188443a1780b1a678316992352/FasterAPI-0.0.8.tar.gz
+[2024-05-23 09:09:49] INFO root fetch - processPackages [dbt-materialize]: Downloading https://files.pythonhosted.org/packages/e4/a3/f9ab0c4b9fd7bf1758cb3e468add2bbd16a1df6c3704fe8268e8583570f1/dbt-materialize-1.7.8.tar.gz
+[2024-05-23 09:09:49] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-23 09:09:49] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-23 09:09:49] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240523/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-23 09:09:49] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/9d/71/d5cbf2509f896a45d05cd7b2c72ee0cd4cdb2ef4d64d6de0099d42549672/zermelo_api_vogk-1.0.5.tar.gz
+[2024-05-23 09:09:49] INFO root fetch - processPackages [zermelo-api-vogk]: executing diffoscope
+[2024-05-23 09:09:49] INFO root fetch - processPackages [zermelo-api-vogk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_api_vogk-1.0.4.tar.gz tmp/zermelo_api_vogk-1.0.5.tar.gz --markdown 20240523/z/zermelo-api-vogk/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-23 09:09:49] INFO root fetch - processPackages [dbt-materialize]: Downloading https://files.pythonhosted.org/packages/37/d0/6b381f3593ccda9935bfb0c3f131bb0dbfd4ffaf72c7438c6f8eea708151/dbt-materialize-1.8.0.tar.gz
+[2024-05-23 09:09:49] INFO root fetch - processPackages [FasterAPI]: Downloading https://files.pythonhosted.org/packages/09/63/f2c95b745b48d5d64a4d53291dd2fd375492d53193a93427dd80cea9a480/FasterAPI-0.0.9.tar.gz
+[2024-05-23 09:09:49] INFO root fetch - processPackages [dbt-materialize]: executing diffoscope
+[2024-05-23 09:09:49] INFO root fetch - processPackages [dbt-materialize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-materialize-1.7.8.tar.gz tmp/dbt-materialize-1.8.0.tar.gz --markdown 20240523/d/dbt-materialize/1.7.8-1.8.0/README.md --exclude *.pyd
+[2024-05-23 09:09:49] INFO root fetch - processPackages [FasterAPI]: executing diffoscope
+[2024-05-23 09:09:49] INFO root fetch - processPackages [FasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FasterAPI-0.0.8.tar.gz tmp/FasterAPI-0.0.9.tar.gz --markdown 20240523/F/FasterAPI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 09:09:49] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-23 09:09:49] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-23 09:09:49] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-23 09:09:50] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.4.tar.gz]
+[2024-05-23 09:09:50] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.5.tar.gz]
+[2024-05-23 09:09:50] INFO root fetch - main [MainThread]: End processing [zermelo-api-vogk]: success
+[2024-05-23 09:09:50] INFO root fetch - processPackages [FasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/FasterAPI-0.0.8.tar.gz]
+[2024-05-23 09:09:50] INFO root fetch - processPackages [FasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/FasterAPI-0.0.9.tar.gz]
+[2024-05-23 09:09:50] INFO root fetch - main [MainThread]: End processing [FasterAPI]: success
+[2024-05-23 09:09:50] INFO root fetch - processPackages [dbt-materialize]: Remove: archive file [/home/abi/fetcher/tmp/dbt-materialize-1.7.8.tar.gz]
+[2024-05-23 09:09:50] INFO root fetch - processPackages [dbt-materialize]: Remove: archive file [/home/abi/fetcher/tmp/dbt-materialize-1.8.0.tar.gz]
+[2024-05-23 09:09:50] INFO root fetch - main [MainThread]: End processing [dbt-materialize]: success
+[2024-05-23 09:09:50] INFO root fetch - main [MainThread]: Store serial: [23338961]
