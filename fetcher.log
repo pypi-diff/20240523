@@ -8081,3 +8081,35 @@
 [2024-05-23 04:02:11] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.tar.gz]
 [2024-05-23 04:02:11] INFO root fetch - main [MainThread]: End processing [adelie]: success
 [2024-05-23 04:02:11] INFO root fetch - main [MainThread]: Store serial: [23336543]
+[2024-05-23 04:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336543]
+[2024-05-23 04:04:19] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-23 04:06:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336543]
+[2024-05-23 04:06:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 04:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI
+[2024-05-23 04:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datapad
+[2024-05-23 04:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsst-daf-butler
+[2024-05-23 04:06:25] INFO root fetch - processPackages [datapad]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-23 04:06:25] INFO root fetch - processPackages [OZI]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-23 04:06:25] INFO root fetch - processPackages [datapad]: Downloading https://files.pythonhosted.org/packages/8c/eb/51a12426efcf14de668957860fe57ea252720755e5e6b04c72364a612b11/datapad-0.7.2.tar.gz
+[2024-05-23 04:06:25] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/90/b0/fa23686aa6dd7f8157c7f096401eea7df8b40cb4672f5d346c5ee3aa1501/OZI-1.9.3.tar.gz
+[2024-05-23 04:06:25] INFO root fetch - processPackages [lsst-daf-butler]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-23 04:06:25] INFO root fetch - processPackages [datapad]: Downloading https://files.pythonhosted.org/packages/5a/a3/d0475d8770242ec5edad2188ccd9cc140ce929064683d5987b016d614341/datapad-0.7.3.tar.gz
+[2024-05-23 04:06:25] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/c9/4b/655472d76729fac017f7d6e1edc8047470c142e5cf3a19f3114a75ddcdb6/lsst_daf_butler-27.2024.1900.tar.gz
+[2024-05-23 04:06:25] INFO root fetch - processPackages [datapad]: executing diffoscope
+[2024-05-23 04:06:25] INFO root fetch - processPackages [datapad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapad-0.7.2.tar.gz tmp/datapad-0.7.3.tar.gz --markdown 20240523/d/datapad/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-23 04:06:25] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/83/0e/63e5334a6f51461ea8ee42670542078aff216d2ddcedd9e232c9829293b0/OZI-1.9.4.tar.gz
+[2024-05-23 04:06:26] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-23 04:06:26] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.9.3.tar.gz tmp/OZI-1.9.4.tar.gz --markdown 20240523/O/OZI/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-05-23 04:06:26] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/b8/ee/736c1abd3b57bdc68d73b1f28814d1d6d060df551a5ad669be1abc4430c5/lsst_daf_butler-27.2024.2000.tar.gz
+[2024-05-23 04:06:26] INFO root fetch - processPackages [datapad]: Remove: archive file [/home/abi/fetcher/tmp/datapad-0.7.2.tar.gz]
+[2024-05-23 04:06:26] INFO root fetch - processPackages [datapad]: Remove: archive file [/home/abi/fetcher/tmp/datapad-0.7.3.tar.gz]
+[2024-05-23 04:06:26] INFO root fetch - main [MainThread]: End processing [datapad]: success
+[2024-05-23 04:06:27] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.3.tar.gz]
+[2024-05-23 04:06:27] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.4.tar.gz]
+[2024-05-23 04:06:27] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-23 04:06:27] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2024-05-23 04:06:27] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_daf_butler-27.2024.1900.tar.gz tmp/lsst_daf_butler-27.2024.2000.tar.gz --markdown 20240523/l/lsst-daf-butler/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-23 04:06:29] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.1900.tar.gz]
+[2024-05-23 04:06:29] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.2000.tar.gz]
+[2024-05-23 04:06:29] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2024-05-23 04:06:29] INFO root fetch - main [MainThread]: Store serial: [23336553]
