@@ -8599,3 +8599,42 @@
 [2024-05-23 04:37:10] INFO root fetch - processPackages [discord-invite]: Remove: archive file [/home/abi/fetcher/tmp/discord_invite-0.1.2.tar.gz]
 [2024-05-23 04:37:10] INFO root fetch - main [MainThread]: End processing [discord-invite]: success
 [2024-05-23 04:37:10] INFO root fetch - main [MainThread]: Store serial: [23336764]
+[2024-05-23 04:39:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336764]
+[2024-05-23 04:39:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-23 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-friendly-tag-loader
+[2024-05-23 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boringcalculator
+[2024-05-23 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai2-kit
+[2024-05-23 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: markdown-text-clean
+[2024-05-23 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arkDLtools
+[2024-05-23 04:39:18] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 04:39:18] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/0b/9b/9fa8f8be8a5072c0b68f2a44414eb22089b01fd8d28a265bb750671cad9d/duwi_smarthome_sdk_dev-0.1.1.tar.gz
+[2024-05-23 04:39:18] WARNING root fetch - processPackages [boringcalculator]: Skipping, unable to determine old version
+[2024-05-23 04:39:18] INFO root fetch - main [MainThread]: End processing [boringcalculator] error
+[2024-05-23 04:39:18] INFO root fetch - processPackages [django-friendly-tag-loader]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-23 04:39:18] WARNING root fetch - processPackages [markdown-text-clean]: Skipping, unable to determine old version
+[2024-05-23 04:39:18] INFO root fetch - main [MainThread]: End processing [markdown-text-clean] error
+[2024-05-23 04:39:18] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 04:39:18] WARNING root fetch - processPackages [arkDLtools]: Skipping, unable to determine old version
+[2024-05-23 04:39:18] INFO root fetch - main [MainThread]: End processing [arkDLtools] error
+[2024-05-23 04:39:19] INFO root fetch - processPackages [django-friendly-tag-loader]: Downloading https://files.pythonhosted.org/packages/0a/45/1628c1634a49f391a8da7daa0953e67a1be6bf651261765cf343ddfd4981/django-friendly-tag-loader-1.3.1.tar.gz
+[2024-05-23 04:39:19] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-23 04:39:19] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/6c/05/5f50e9dd0f68b6949b2244acefd8c044ae8a59be541fba84a3a392f30857/duwi_smarthome_sdk_dev-0.1.2.tar.gz
+[2024-05-23 04:39:19] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-23 04:39:19] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.1.1.tar.gz tmp/duwi_smarthome_sdk_dev-0.1.2.tar.gz --markdown 20240523/d/duwi-smarthome-sdk-dev/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 04:39:19] INFO root fetch - processPackages [django-friendly-tag-loader]: Downloading https://files.pythonhosted.org/packages/d8/ee/118e1de58f26fe4826b44fcd56ac9f58f0f8a15864c165fe96ef6a4f8ee5/django_friendly_tag_loader-1.3.2.tar.gz
+[2024-05-23 04:39:19] INFO root fetch - processPackages [django-friendly-tag-loader]: executing diffoscope
+[2024-05-23 04:39:19] INFO root fetch - processPackages [django-friendly-tag-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-friendly-tag-loader-1.3.1.tar.gz tmp/django_friendly_tag_loader-1.3.2.tar.gz --markdown 20240523/d/django-friendly-tag-loader/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-23 04:39:19] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-23 04:39:19] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-23 04:39:19] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240523/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 04:39:19] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.1.tar.gz]
+[2024-05-23 04:39:19] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.2.tar.gz]
+[2024-05-23 04:39:19] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-23 04:39:20] INFO root fetch - processPackages [django-friendly-tag-loader]: Remove: archive file [/home/abi/fetcher/tmp/django-friendly-tag-loader-1.3.1.tar.gz]
+[2024-05-23 04:39:20] INFO root fetch - processPackages [django-friendly-tag-loader]: Remove: archive file [/home/abi/fetcher/tmp/django_friendly_tag_loader-1.3.2.tar.gz]
+[2024-05-23 04:39:20] INFO root fetch - main [MainThread]: End processing [django-friendly-tag-loader]: success
+[2024-05-23 04:39:20] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-23 04:39:20] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-23 04:39:20] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-23 04:39:20] INFO root fetch - main [MainThread]: Store serial: [23336787]
