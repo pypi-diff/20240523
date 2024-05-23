@@ -8241,3 +8241,36 @@
 [2024-05-23 04:15:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-23 04:15:07] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-23 04:15:07] INFO root fetch - main [MainThread]: Store serial: [23336590]
+[2024-05-23 04:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336590]
+[2024-05-23 04:17:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 04:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2024-05-23 04:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rootdir
+[2024-05-23 04:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blastpipe
+[2024-05-23 04:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinnsjax
+[2024-05-23 04:17:17] INFO root fetch - processPackages [blastpipe]: New version: [2024.9.1] Old Version: [2024.9.0]
+[2024-05-23 04:17:17] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/d0/11/f15986970a6cad09d4db74fde5b313213ca6f61a481bb1070343f403edb9/blastpipe-2024.9.0.tar.gz
+[2024-05-23 04:17:17] INFO root fetch - processPackages [rootdir]: New version: [0.1.3] Old Version: [0.1.2.post7]
+[2024-05-23 04:17:17] WARNING root fetch - processPackages [pinnsjax]: Skipping, unable to determine old version
+[2024-05-23 04:17:17] INFO root fetch - main [MainThread]: End processing [pinnsjax] error
+[2024-05-23 04:17:17] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.5]
+[2024-05-23 04:17:17] INFO root fetch - processPackages [rootdir]: Downloading https://files.pythonhosted.org/packages/99/54/f22d3244aa907b4646c4f446206a675ac04a0de7beadc02b40fb41383396/rootdir-0.1.2.post7.tar.gz
+[2024-05-23 04:17:17] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/1e/15/51de04c9e3a7177e4286bb0e7ab9f58aed147bc132643896bcc8ccf8b836/blastpipe-2024.9.1.tar.gz
+[2024-05-23 04:17:17] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/fc/92/7fa5e5b801901b98c3f1011ec9176f29f4b1cd8ddbd9f4d5443dbbf0374a/dcicutils-8.8.5.tar.gz
+[2024-05-23 04:17:17] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-05-23 04:17:17] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.9.0.tar.gz tmp/blastpipe-2024.9.1.tar.gz --markdown 20240523/b/blastpipe/2024.9.0-2024.9.1/README.md --exclude *.pyd
+[2024-05-23 04:17:17] INFO root fetch - processPackages [rootdir]: Downloading https://files.pythonhosted.org/packages/58/81/3d119afa5e0a1b23f8962d6b7f286f367a471ffb9db859852c7c2003a7c8/rootdir-0.1.3.tar.gz
+[2024-05-23 04:17:17] INFO root fetch - processPackages [rootdir]: executing diffoscope
+[2024-05-23 04:17:17] INFO root fetch - processPackages [rootdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rootdir-0.1.2.post7.tar.gz tmp/rootdir-0.1.3.tar.gz --markdown 20240523/r/rootdir/0.1.2.post7-0.1.3/README.md --exclude *.pyd
+[2024-05-23 04:17:17] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-23 04:17:18] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-23 04:17:18] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.5.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240523/d/dcicutils/8.8.5-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-23 04:17:18] INFO root fetch - processPackages [rootdir]: Remove: archive file [/home/abi/fetcher/tmp/rootdir-0.1.2.post7.tar.gz]
+[2024-05-23 04:17:18] INFO root fetch - processPackages [rootdir]: Remove: archive file [/home/abi/fetcher/tmp/rootdir-0.1.3.tar.gz]
+[2024-05-23 04:17:18] INFO root fetch - main [MainThread]: End processing [rootdir]: success
+[2024-05-23 04:17:18] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.9.0.tar.gz]
+[2024-05-23 04:17:18] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.9.1.tar.gz]
+[2024-05-23 04:17:18] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-05-23 04:17:18] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.5.tar.gz]
+[2024-05-23 04:17:18] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-23 04:17:18] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-23 04:17:18] INFO root fetch - main [MainThread]: Store serial: [23336621]
