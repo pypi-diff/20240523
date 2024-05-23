@@ -10049,3 +10049,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:18:06] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/cyrk-0.9.0.tar.gz]
 [2024-05-23 06:18:06] INFO root fetch - main [MainThread]: End processing [CyRK]: success
 [2024-05-23 06:18:06] INFO root fetch - main [MainThread]: Store serial: [23337598]
+[2024-05-23 06:20:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337598]
+[2024-05-23 06:20:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: articraft
+[2024-05-23 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commute-agci
+[2024-05-23 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: articraft
+[2024-05-23 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: create-mountaineer-app
+[2024-05-23 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartpredict
+[2024-05-23 06:20:16] INFO root fetch - processPackages [smartpredict]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-23 06:20:16] WARNING root fetch - processPackages [articraft]: Skipping, unable to determine old version
+[2024-05-23 06:20:16] INFO root fetch - main [MainThread]: End processing [articraft] error
+[2024-05-23 06:20:16] WARNING root fetch - processPackages [articraft]: Skipping, unable to determine old version
+[2024-05-23 06:20:16] INFO root fetch - main [MainThread]: End processing [articraft] error
+[2024-05-23 06:20:16] WARNING root fetch - processPackages [commute-agci]: Skipping, unable to determine old version
+[2024-05-23 06:20:16] INFO root fetch - main [MainThread]: End processing [commute-agci] error
+[2024-05-23 06:20:16] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/d1/50/cd86d982f0b068d26ea3b37008a74aaf61190918f0cc8a78945cc5bec44f/smartpredict-0.6.8.tar.gz
+[2024-05-23 06:20:16] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.5.0.dev7] Old Version: [0.5.0.dev6]
+[2024-05-23 06:20:16] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/22/03/ead990dba4ac20277d0bb0b558813d0f9d8fa86bb63a3efb264d8cb1e739/smartpredict-0.6.9.tar.gz
+[2024-05-23 06:20:16] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/ef/72/f58501a5d90e7bf5a8079745dde63d25ee6029468136e36475d26fd4efa0/create_mountaineer_app-0.5.0.dev6.tar.gz
+[2024-05-23 06:20:16] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-23 06:20:16] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.8.tar.gz tmp/smartpredict-0.6.9.tar.gz --markdown 20240523/s/smartpredict/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-23 06:20:16] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/82/44/3380b2755a270bc8c5fd94c2a245260b9b0b63edec34e7dce909b0840149/create_mountaineer_app-0.5.0.dev7.tar.gz
+[2024-05-23 06:20:16] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-05-23 06:20:16] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.5.0.dev6.tar.gz tmp/create_mountaineer_app-0.5.0.dev7.tar.gz --markdown 20240523/c/create-mountaineer-app/0.5.0.dev6-0.5.0.dev7/README.md --exclude *.pyd
+[2024-05-23 06:20:17] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.8.tar.gz]
+[2024-05-23 06:20:17] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.9.tar.gz]
+[2024-05-23 06:20:17] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-23 06:20:17] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev6.tar.gz]
+[2024-05-23 06:20:17] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev7.tar.gz]
+[2024-05-23 06:20:17] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-05-23 06:20:17] INFO root fetch - main [MainThread]: Store serial: [23337610]
