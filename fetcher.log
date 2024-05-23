@@ -14154,3 +14154,36 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 09:52:35] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.0.0-cp311-cp311-win_amd64.whl.zip]
 [2024-05-23 09:52:35] INFO root fetch - main [MainThread]: End processing [pycodata]: success
 [2024-05-23 09:52:35] INFO root fetch - main [MainThread]: Store serial: [23339431]
+[2024-05-23 09:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339431]
+[2024-05-23 09:54:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 09:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apify
+[2024-05-23 09:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tdrpa.tdworker
+[2024-05-23 09:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-manager
+[2024-05-23 09:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepfusion
+[2024-05-23 09:54:44] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2024-05-23 09:54:44] INFO root fetch - processPackages [apify]: New version: [1.7.1b3] Old Version: [1.7.1b2]
+[2024-05-23 09:54:44] WARNING root fetch - processPackages [deepfusion]: Skipping, unable to determine old version
+[2024-05-23 09:54:44] INFO root fetch - main [MainThread]: End processing [deepfusion] error
+[2024-05-23 09:54:44] INFO root fetch - processPackages [tdrpa.tdworker]: New version: [1.1.4.18] Old Version: [1.1.4.17]
+[2024-05-23 09:54:44] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/e5/29/da0ba8c7f08750aaee3aea1eec7a4380ec6803f54afe6401cdb6e1b94f70/apify-1.7.1b2.tar.gz
+[2024-05-23 09:54:44] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5d/6a/9612871624797bfcc519071f12771676244544ef2b8cd52c6bf14fe1ab8c/torch_model_manager-0.4.0.dev8.tar.gz
+[2024-05-23 09:54:44] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/ca/b1/e0cba806b3621833b944951a237d24797cff869bc111146e3dcf93918bfa/tdrpa.tdworker-1.1.4.17-py39-none-win_amd64.whl
+[2024-05-23 09:54:44] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/04/c9/4dc56fb6a94ef4e65b9587cce02a769ec33dea3fcb2692a6785c2236fa0d/torch_model_manager-0.4.0.dev9.tar.gz
+[2024-05-23 09:54:44] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/e5/84/d86f1cc415f019eb45cab3be70a5a8b1124c52a98e188da255810f2ac98c/apify-1.7.1b3.tar.gz
+[2024-05-23 09:54:44] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-23 09:54:44] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev8.tar.gz tmp/torch_model_manager-0.4.0.dev9.tar.gz --markdown 20240523/t/torch-model-manager/0.4.0.dev8-0.4.0.dev9/README.md --exclude *.pyd
+[2024-05-23 09:54:44] INFO root fetch - processPackages [apify]: executing diffoscope
+[2024-05-23 09:54:44] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.7.1b2.tar.gz tmp/apify-1.7.1b3.tar.gz --markdown 20240523/a/apify/1.7.1b2-1.7.1b3/README.md --exclude *.pyd
+[2024-05-23 09:54:44] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/7b/e1/f5b1f61bd5f974e2332f78616fe1ac12341ae367f77e0ee6af44ff48a10c/tdrpa.tdworker-1.1.4.18-py39-none-win_amd64.whl
+[2024-05-23 09:54:45] INFO root fetch - processPackages [tdrpa.tdworker]: executing diffoscope
+[2024-05-23 09:54:45] INFO root fetch - processPackages [tdrpa.tdworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdrpa.tdworker-1.1.4.17-py39-none-win_amd64.whl.zip tmp/tdrpa.tdworker-1.1.4.18-py39-none-win_amd64.whl.zip --markdown 20240523/t/tdrpa.tdworker/1.1.4.17-1.1.4.18/README.md --exclude *.pyd
+[2024-05-23 09:54:45] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev8.tar.gz]
+[2024-05-23 09:54:45] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev9.tar.gz]
+[2024-05-23 09:54:45] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-23 09:54:45] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.7.1b2.tar.gz]
+[2024-05-23 09:54:45] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.7.1b3.tar.gz]
+[2024-05-23 09:54:45] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2024-05-23 09:54:45] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.4.17-py39-none-win_amd64.whl.zip]
+[2024-05-23 09:54:45] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.4.18-py39-none-win_amd64.whl.zip]
+[2024-05-23 09:54:45] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker]: success
+[2024-05-23 09:54:45] INFO root fetch - main [MainThread]: Store serial: [23339452]
