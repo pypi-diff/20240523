@@ -8587,3 +8587,15 @@
 [2024-05-23 04:35:00] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240520202338-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-23 04:35:00] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
 [2024-05-23 04:35:00] INFO root fetch - main [MainThread]: Store serial: [23336758]
+[2024-05-23 04:37:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336758]
+[2024-05-23 04:37:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-23 04:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-invite
+[2024-05-23 04:37:08] INFO root fetch - processPackages [discord-invite]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 04:37:08] INFO root fetch - processPackages [discord-invite]: Downloading https://files.pythonhosted.org/packages/65/40/d3fd76f308f8c3cb211d44c27bf6fcae851fdeb22e6c58861e186ccb0ec9/discord_invite-0.1.1.tar.gz
+[2024-05-23 04:37:09] INFO root fetch - processPackages [discord-invite]: Downloading https://files.pythonhosted.org/packages/31/c2/f89f2cc2b9baa19b03c21b5664cc26e8b0f86e69cef6724a817c693df8d2/discord_invite-0.1.2.tar.gz
+[2024-05-23 04:37:09] INFO root fetch - processPackages [discord-invite]: executing diffoscope
+[2024-05-23 04:37:09] INFO root fetch - processPackages [discord-invite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_invite-0.1.1.tar.gz tmp/discord_invite-0.1.2.tar.gz --markdown 20240523/d/discord-invite/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 04:37:10] INFO root fetch - processPackages [discord-invite]: Remove: archive file [/home/abi/fetcher/tmp/discord_invite-0.1.1.tar.gz]
+[2024-05-23 04:37:10] INFO root fetch - processPackages [discord-invite]: Remove: archive file [/home/abi/fetcher/tmp/discord_invite-0.1.2.tar.gz]
+[2024-05-23 04:37:10] INFO root fetch - main [MainThread]: End processing [discord-invite]: success
+[2024-05-23 04:37:10] INFO root fetch - main [MainThread]: Store serial: [23336764]
