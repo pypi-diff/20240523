@@ -11677,3 +11677,37 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:12:06] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ecs-4.9.7.tar.gz]
 [2024-05-23 08:12:06] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ecs]: success
 [2024-05-23 08:12:06] INFO root fetch - main [MainThread]: Store serial: [23338306]
+[2024-05-23 08:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338306]
+[2024-05-23 08:14:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-23 08:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvscout
+[2024-05-23 08:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comai
+[2024-05-23 08:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-eu-nace
+[2024-05-23 08:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volstreet
+[2024-05-23 08:14:15] INFO root fetch - processPackages [cvscout]: New version: [0.2] Old Version: [0.1]
+[2024-05-23 08:14:15] INFO root fetch - processPackages [volstreet]: New version: [8.3.4] Old Version: [8.3.3]
+[2024-05-23 08:14:15] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.4]
+[2024-05-23 08:14:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/38/f3/a6e16592aff5abbedf35f43afa2d25c19e1ac0222c6aefdbe7d0926894e6/volstreet-8.3.3.tar.gz
+[2024-05-23 08:14:15] INFO root fetch - processPackages [comai]: New version: [0.2.0rc0] Old Version: [0.1.0]
+[2024-05-23 08:14:15] ERROR root fetch - processPackages [cvscout]: Unable to fetch info: No such project/version 'cvscout' 0.1
+[2024-05-23 08:14:15] INFO root fetch - main [MainThread]: End processing [cvscout] error
+[2024-05-23 08:14:15] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Downloading https://files.pythonhosted.org/packages/f8/28/12e30c81a3c3e883a0b8a09423a6d4ecc2c0ea67b551cc1a090667615f00/odoo_addon_l10n_eu_nace-16.0.1.0.1.4-py3-none-any.whl
+[2024-05-23 08:14:15] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/80/b1/836f0a0d675936c9e921cdf94a346b4aeec880cd046b79ba97f94d73ce96/volstreet-8.3.4.tar.gz
+[2024-05-23 08:14:15] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/35/99/1c4e98284f4447a15f536080ded5608990b27265642c6d980b26be81f8d3/comai-0.1.0.tar.gz
+[2024-05-23 08:14:15] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-05-23 08:14:15] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-8.3.3.tar.gz tmp/volstreet-8.3.4.tar.gz --markdown 20240523/v/volstreet/8.3.3-8.3.4/README.md --exclude *.pyd
+[2024-05-23 08:14:15] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Downloading https://files.pythonhosted.org/packages/c0/3c/d25244f67f178d68f3275c0b9edfc28310092d12f98184c9bb127c22ed64/odoo_addon_l10n_eu_nace-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-23 08:14:16] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: executing diffoscope
+[2024-05-23 08:14:16] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_eu_nace-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-l10n-eu-nace/16.0.1.0.1.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-23 08:14:16] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-23 08:14:16] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_eu_nace-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-23 08:14:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-eu-nace]: success
+[2024-05-23 08:14:16] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.3.3.tar.gz]
+[2024-05-23 08:14:16] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.3.4.tar.gz]
+[2024-05-23 08:14:16] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-05-23 08:14:17] INFO root fetch - processPackages [comai]: Downloading https://files.pythonhosted.org/packages/87/1a/e6753870517b71f5022aab7ff146c2d3a4f6de4261867b01cc084c72a7ab/comai-0.2.0rc0.tar.gz
+[2024-05-23 08:14:17] INFO root fetch - processPackages [comai]: executing diffoscope
+[2024-05-23 08:14:17] INFO root fetch - processPackages [comai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comai-0.1.0.tar.gz tmp/comai-0.2.0rc0.tar.gz --markdown 20240523/c/comai/0.1.0-0.2.0rc0/README.md --exclude *.pyd
+[2024-05-23 08:14:18] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.1.0.tar.gz]
+[2024-05-23 08:14:18] INFO root fetch - processPackages [comai]: Remove: archive file [/home/abi/fetcher/tmp/comai-0.2.0rc0.tar.gz]
+[2024-05-23 08:14:18] INFO root fetch - main [MainThread]: End processing [comai]: success
+[2024-05-23 08:14:18] INFO root fetch - main [MainThread]: Store serial: [23338324]
