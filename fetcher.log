@@ -23177,3 +23177,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 14:03:40] INFO root fetch - processPackages [wwpdb.utils.dp]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_utils_dp-0.51.1.dev1.tar.gz]
 [2024-05-23 14:03:40] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.dp]: success
 [2024-05-23 14:03:40] INFO root fetch - main [MainThread]: Store serial: [23342962]
+[2024-05-23 14:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342962]
+[2024-05-23 14:05:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ptrlib
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c6t
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DocumentsReader
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cace
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-option-menu-patch
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkmk-dev-tools
+[2024-05-23 14:05:49] WARNING root fetch - processPackages [streamlit-option-menu-patch]: Skipping, unable to determine old version
+[2024-05-23 14:05:49] INFO root fetch - main [MainThread]: End processing [streamlit-option-menu-patch] error
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ptrlib]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-23 14:05:49] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 14:05:49] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 14:05:49] INFO root fetch - processPackages [cace]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-23 14:05:49] INFO root fetch - processPackages [ptrlib]: Downloading https://files.pythonhosted.org/packages/a9/83/8226d4a61315377a2370be6384722d1bd8007f6b23c02dd3d77297d1f7d6/ptrlib-2.3.0-py3-none-any.whl
+[2024-05-23 14:05:49] INFO root fetch - processPackages [c6t]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-23 14:05:49] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/6a/ca/129ed7ca45aaf54c62a5e61c061da971c7adbb7c2d3ea821944de0f8b301/cace-2.2.3.tar.gz
+[2024-05-23 14:05:49] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 14:05:49] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 14:05:49] INFO root fetch - processPackages [c6t]: Downloading https://files.pythonhosted.org/packages/5a/e6/55833e414c90dc24f20720ec751b88ea09ffb6127ecd12d69c4386147eda/c6t-0.0.5.tar.gz
+[2024-05-23 14:05:49] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/a5/44/09fe3238664c76b0dde99d19f15393d76e212e1d1eec081b474e6eaae194/checkmk_dev_tools-0.1.8.tar.gz
+[2024-05-23 14:05:50] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/93/c5/fb22dea0343819de441f782e2a1a6d066b18976f32e748ce5af0da2b64ee/cace-2.2.4.tar.gz
+[2024-05-23 14:05:50] INFO root fetch - processPackages [ptrlib]: Downloading https://files.pythonhosted.org/packages/c9/ed/93555929914f907d98479a13cd2031478d626bbaf819108d2d8c65c8b6f5/ptrlib-2.3.1-py3-none-any.whl
+[2024-05-23 14:05:50] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-23 14:05:50] INFO root fetch - processPackages [cace]: executing diffoscope
+[2024-05-23 14:05:50] INFO root fetch - processPackages [cace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cace-2.2.3.tar.gz tmp/cace-2.2.4.tar.gz --markdown 20240523/c/cace/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-23 14:05:50] INFO root fetch - processPackages [ptrlib]: executing diffoscope
+[2024-05-23 14:05:50] INFO root fetch - processPackages [ptrlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptrlib-2.3.0-py3-none-any.whl.zip tmp/ptrlib-2.3.1-py3-none-any.whl.zip --markdown 20240523/p/ptrlib/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-23 14:05:50] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/c1/1e/654ed63ab53350017ff4219e2e1d8cc32780c62f86a397bbc8134674c84e/checkmk_dev_tools-0.1.9.tar.gz
+[2024-05-23 14:05:50] INFO root fetch - processPackages [c6t]: Downloading https://files.pythonhosted.org/packages/6f/df/27f09d00e5e09bd329ac211bf976a86c45a5ee5787a3736ba0f15130468a/c6t-0.0.6.tar.gz
+[2024-05-23 14:05:50] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2024-05-23 14:05:50] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.8.tar.gz tmp/checkmk_dev_tools-0.1.9.tar.gz --markdown 20240523/c/checkmk-dev-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 14:05:50] INFO root fetch - processPackages [c6t]: executing diffoscope
+[2024-05-23 14:05:50] INFO root fetch - processPackages [c6t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c6t-0.0.5.tar.gz tmp/c6t-0.0.6.tar.gz --markdown 20240523/c/c6t/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-23 14:05:50] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-23 14:05:50] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-23 14:05:50] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240523/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 14:05:51] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.8.tar.gz]
+[2024-05-23 14:05:51] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.9.tar.gz]
+[2024-05-23 14:05:51] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2024-05-23 14:05:51] INFO root fetch - processPackages [c6t]: Remove: archive file [/home/abi/fetcher/tmp/c6t-0.0.5.tar.gz]
+[2024-05-23 14:05:51] INFO root fetch - processPackages [c6t]: Remove: archive file [/home/abi/fetcher/tmp/c6t-0.0.6.tar.gz]
+[2024-05-23 14:05:51] INFO root fetch - main [MainThread]: End processing [c6t]: success
+[2024-05-23 14:05:51] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.3.tar.gz]
+[2024-05-23 14:05:51] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.4.tar.gz]
+[2024-05-23 14:05:51] INFO root fetch - main [MainThread]: End processing [cace]: success
+[2024-05-23 14:05:51] INFO root fetch - processPackages [ptrlib]: Remove: archive file [/home/abi/fetcher/tmp/ptrlib-2.3.0-py3-none-any.whl.zip]
+[2024-05-23 14:05:51] INFO root fetch - processPackages [ptrlib]: Remove: archive file [/home/abi/fetcher/tmp/ptrlib-2.3.1-py3-none-any.whl.zip]
+[2024-05-23 14:05:51] INFO root fetch - main [MainThread]: End processing [ptrlib]: success
+[2024-05-23 14:05:51] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-23 14:05:51] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-23 14:05:51] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-23 14:05:51] INFO root fetch - main [MainThread]: Store serial: [23342985]
