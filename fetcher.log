@@ -2411,3 +2411,81 @@
 [2024-05-23 02:13:01] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.9.tar.gz]
 [2024-05-23 02:13:01] INFO root fetch - main [MainThread]: End processing [captif-slp]: success
 [2024-05-23 02:13:01] INFO root fetch - main [MainThread]: Store serial: [23334541]
+[2024-05-23 02:15:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334541]
+[2024-05-23 02:15:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-nag
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandoc_styles
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-gitlab-runner
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyerualjetwork
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-skylight
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-events-notify
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-ignite
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: subfinder-leakix
+[2024-05-23 02:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pp-weight-estimation
+[2024-05-23 02:15:10] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-23 02:15:10] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-23 02:15:10] INFO root fetch - processPackages [pp-weight-estimation]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 02:15:10] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-23 02:15:10] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 02:15:10] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/be/48/91d0494f443be247459e630c328316b613b6b377cb711806b8f82fa02eac/pyerualjetwork-1.1.1.tar.gz
+[2024-05-23 02:15:10] WARNING root fetch - processPackages [subfinder-leakix]: Skipping, unable to determine old version
+[2024-05-23 02:15:10] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240522] Old Version: [0.6.0.dev20240521]
+[2024-05-23 02:15:10] INFO root fetch - main [MainThread]: End processing [subfinder-leakix] error
+[2024-05-23 02:15:10] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-23 02:15:10] INFO root fetch - processPackages [pandoc_styles]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-23 02:15:10] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/95/1d/90d5d93e286e4ea29a99424a2aa7189168fdc71fe2dd12211b825cc51865/pp_weight_estimation-1.0.8.tar.gz
+[2024-05-23 02:15:10] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-23 02:15:10] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-23 02:15:10] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/df/32/babad5f7bbf85a3ab8bc006029444119accaa593ecd3a29b1db6520a1702/pytorch_ignite-0.6.0.dev20240521.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pandoc_styles]: Downloading https://files.pythonhosted.org/packages/f7/8e/6e8b6dab34b7075d96fa3cab138d438aee93dd6639fe7b51ffa9949e7fc2/pandoc_styles-0.9.8.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/7f/65/287547ea7b2bd9d6aa7b3ca8333bb8e28031226762f45eb99f744c5fc685/pp_weight_estimation-1.0.9.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/8c/90/03ba9503fbdd5a98b8563560fd644ad5dda70fd62ca17ad340b4b34375a9/pyerualjetwork-1.1.2.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pp-weight-estimation]: executing diffoscope
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pp-weight-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_weight_estimation-1.0.8.tar.gz tmp/pp_weight_estimation-1.0.9.tar.gz --markdown 20240523/p/pp-weight-estimation/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.1.1.tar.gz tmp/pyerualjetwork-1.1.2.tar.gz --markdown 20240523/p/pyerualjetwork/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/96/3a/455f5b4106775e2601a69757467142877e6a6116bd4ebc5fe1d538ca6c6a/pytorch_ignite-0.6.0.dev20240522.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240523/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240523/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pandoc_styles]: Downloading https://files.pythonhosted.org/packages/99/bc/f8f5eaae1270f493a980a5ab979448a089ad68536ed5f598d4d2d77d24a8/pandoc_styles-0.9.9.tar.gz
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240523/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ignite-0.6.0.dev20240521.tar.gz tmp/pytorch_ignite-0.6.0.dev20240522.tar.gz --markdown 20240523/p/pytorch-ignite/0.6.0.dev20240521-0.6.0.dev20240522/README.md --exclude *.pyd
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-23 02:15:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240523/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pandoc_styles]: executing diffoscope
+[2024-05-23 02:15:11] INFO root fetch - processPackages [pandoc_styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc_styles-0.9.8.tar.gz tmp/pandoc_styles-0.9.9.tar.gz --markdown 20240523/p/pandoc_styles/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-23 02:15:12] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.0.8.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.0.9.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [pp-weight-estimation]: success
+[2024-05-23 02:15:12] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.1.1.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.1.2.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-23 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-23 02:15:12] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-23 02:15:12] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-23 02:15:12] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-23 02:15:12] INFO root fetch - processPackages [pandoc_styles]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_styles-0.9.8.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - processPackages [pandoc_styles]: Remove: archive file [/home/abi/fetcher/tmp/pandoc_styles-0.9.9.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [pandoc_styles]: success
+[2024-05-23 02:15:12] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240521.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240522.tar.gz]
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-23 02:15:12] INFO root fetch - main [MainThread]: Store serial: [23334570]
