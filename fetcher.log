@@ -18534,3 +18534,51 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 11:33:51] INFO root fetch - processPackages [huaweicloudsdkvpc]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkvpc-3.1.97-py2.py3-none-any.whl.zip]
 [2024-05-23 11:33:51] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkvpc]: success
 [2024-05-23 11:33:51] INFO root fetch - main [MainThread]: Store serial: [23341116]
+[2024-05-23 11:35:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341116]
+[2024-05-23 11:36:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zabel-elements
+[2024-05-23 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appthreat-vulnerability-db
+[2024-05-23 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-gnuplot
+[2024-05-23 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2024-05-23 11:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quad5
+[2024-05-23 11:36:01] INFO root fetch - processPackages [py-gnuplot]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-23 11:36:01] INFO root fetch - processPackages [zabel-elements]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-23 11:36:01] INFO root fetch - processPackages [xklb]: New version: [2.8.9] Old Version: [2.8.7]
+[2024-05-23 11:36:01] INFO root fetch - processPackages [quad5]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-23 11:36:01] INFO root fetch - processPackages [zabel-elements]: Downloading https://files.pythonhosted.org/packages/5f/39/ad03fc6cf0b575c47396cd9f44ac96551349c4e0c0b5409c67c9e9dc0c23/zabel_elements-1.8.1-py3-none-any.whl
+[2024-05-23 11:36:01] INFO root fetch - processPackages [appthreat-vulnerability-db]: New version: [6.0.2] Old Version: [6.0.1]
+[2024-05-23 11:36:01] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/d0/4c/dd8350e7201f303ad86c28ba6e4c3856a9aebf36175bf2091b4f223b9c8c/xklb-2.8.7.tar.gz
+[2024-05-23 11:36:01] INFO root fetch - processPackages [py-gnuplot]: Downloading https://files.pythonhosted.org/packages/82/43/e28c82a6d507d40699421e3c63efb3071cfd6ac5609456697e036c157bcb/py-gnuplot-1.1.9.tar.gz
+[2024-05-23 11:36:01] INFO root fetch - processPackages [zabel-elements]: Downloading https://files.pythonhosted.org/packages/b7/a7/6f93f1838ec6585d2200940225b0d9f6df044f18746f729b748d822aafb7/zabel_elements-1.9.0-py3-none-any.whl
+[2024-05-23 11:36:01] INFO root fetch - processPackages [quad5]: Downloading https://files.pythonhosted.org/packages/6b/a4/82c787092b22b6a72b3b2dc767e68fcce731e93c48598a1808c07d059e09/quad5-0.1.6.tar.gz
+[2024-05-23 11:36:01] INFO root fetch - processPackages [appthreat-vulnerability-db]: Downloading https://files.pythonhosted.org/packages/f8/e9/d9ccfc307f148884f71d6baa747875f66b5d0f4379ef0f69e8272a3cf821/appthreat-vulnerability-db-6.0.1.tar.gz
+[2024-05-23 11:36:01] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/79/9c/400b6a77dca189a0e6b267e0a874e85e6bc388a14703931b845294411c06/xklb-2.8.9.tar.gz
+[2024-05-23 11:36:02] INFO root fetch - processPackages [zabel-elements]: executing diffoscope
+[2024-05-23 11:36:02] INFO root fetch - processPackages [zabel-elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zabel_elements-1.8.1-py3-none-any.whl.zip tmp/zabel_elements-1.9.0-py3-none-any.whl.zip --markdown 20240523/z/zabel-elements/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-23 11:36:02] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-05-23 11:36:02] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.8.7.tar.gz tmp/xklb-2.8.9.tar.gz --markdown 20240523/x/xklb/2.8.7-2.8.9/README.md --exclude *.pyd
+[2024-05-23 11:36:02] INFO root fetch - processPackages [quad5]: Downloading https://files.pythonhosted.org/packages/b5/65/c715460474c630361d6d9282ba23e4cdc5db23840705fdeb1641ce52ace9/quad5-0.1.7.tar.gz
+[2024-05-23 11:36:02] INFO root fetch - processPackages [py-gnuplot]: Downloading https://files.pythonhosted.org/packages/00/58/03f817c95458cc51c3340c025bda3417e7e645576f4738496d8b6d3bd680/py-gnuplot-1.2.0.tar.gz
+[2024-05-23 11:36:02] INFO root fetch - processPackages [appthreat-vulnerability-db]: Downloading https://files.pythonhosted.org/packages/81/49/dfa150a2359b7d04ff3afa4fe52ae1404160348cf59ce6ca3f101b61dd71/appthreat_vulnerability_db-6.0.2.tar.gz
+[2024-05-23 11:36:02] INFO root fetch - processPackages [py-gnuplot]: executing diffoscope
+[2024-05-23 11:36:02] INFO root fetch - processPackages [py-gnuplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-gnuplot-1.1.9.tar.gz tmp/py-gnuplot-1.2.0.tar.gz --markdown 20240523/p/py-gnuplot/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-23 11:36:02] INFO root fetch - processPackages [appthreat-vulnerability-db]: executing diffoscope
+[2024-05-23 11:36:02] INFO root fetch - processPackages [appthreat-vulnerability-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appthreat-vulnerability-db-6.0.1.tar.gz tmp/appthreat_vulnerability_db-6.0.2.tar.gz --markdown 20240523/a/appthreat-vulnerability-db/6.0.1-6.0.2/README.md --exclude *.pyd
+[2024-05-23 11:36:02] INFO root fetch - processPackages [quad5]: executing diffoscope
+[2024-05-23 11:36:02] INFO root fetch - processPackages [quad5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quad5-0.1.6.tar.gz tmp/quad5-0.1.7.tar.gz --markdown 20240523/q/quad5/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-23 11:36:02] INFO root fetch - processPackages [zabel-elements]: Remove: archive file [/home/abi/fetcher/tmp/zabel_elements-1.8.1-py3-none-any.whl.zip]
+[2024-05-23 11:36:02] INFO root fetch - processPackages [zabel-elements]: Remove: archive file [/home/abi/fetcher/tmp/zabel_elements-1.9.0-py3-none-any.whl.zip]
+[2024-05-23 11:36:02] INFO root fetch - main [MainThread]: End processing [zabel-elements]: success
+[2024-05-23 11:36:02] INFO root fetch - processPackages [quad5]: Remove: archive file [/home/abi/fetcher/tmp/quad5-0.1.6.tar.gz]
+[2024-05-23 11:36:02] INFO root fetch - processPackages [quad5]: Remove: archive file [/home/abi/fetcher/tmp/quad5-0.1.7.tar.gz]
+[2024-05-23 11:36:03] INFO root fetch - main [MainThread]: End processing [quad5]: success
+[2024-05-23 11:36:03] INFO root fetch - processPackages [py-gnuplot]: Remove: archive file [/home/abi/fetcher/tmp/py-gnuplot-1.1.9.tar.gz]
+[2024-05-23 11:36:03] INFO root fetch - processPackages [py-gnuplot]: Remove: archive file [/home/abi/fetcher/tmp/py-gnuplot-1.2.0.tar.gz]
+[2024-05-23 11:36:03] INFO root fetch - main [MainThread]: End processing [py-gnuplot]: success
+[2024-05-23 11:36:03] INFO root fetch - processPackages [appthreat-vulnerability-db]: Remove: archive file [/home/abi/fetcher/tmp/appthreat-vulnerability-db-6.0.1.tar.gz]
+[2024-05-23 11:36:03] INFO root fetch - processPackages [appthreat-vulnerability-db]: Remove: archive file [/home/abi/fetcher/tmp/appthreat_vulnerability_db-6.0.2.tar.gz]
+[2024-05-23 11:36:03] INFO root fetch - main [MainThread]: End processing [appthreat-vulnerability-db]: success
+[2024-05-23 11:36:03] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.7.tar.gz]
+[2024-05-23 11:36:03] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
+[2024-05-23 11:36:03] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-05-23 11:36:03] INFO root fetch - main [MainThread]: Store serial: [23341130]
