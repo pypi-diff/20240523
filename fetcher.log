@@ -22692,3 +22692,129 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:48:14] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.19.2.tar.gz]
 [2024-05-23 13:48:14] INFO root fetch - main [MainThread]: End processing [pih-rvw-auto]: success
 [2024-05-23 13:48:14] INFO root fetch - main [MainThread]: Store serial: [23342773]
+[2024-05-23 13:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342773]
+[2024-05-23 13:50:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cobald-tardis
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-rvw-auto
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phones-local
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autotrain-advanced
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytebis
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: olas-operate-middleware
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finch-tensor
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: astro-extras
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tntorch
+[2024-05-23 13:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wuthery-l10n
+[2024-05-23 13:50:24] INFO root fetch - processPackages [cobald-tardis]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [phones-local]: New version: [0.0.25] Old Version: [0.0.24]
+[2024-05-23 13:50:24] WARNING root fetch - processPackages [wuthery-l10n]: Skipping, unable to determine old version
+[2024-05-23 13:50:24] INFO root fetch - processPackages [wuthery-l10n]: Start processing: bartbroere-eland
+[2024-05-23 13:50:24] INFO root fetch - main [MainThread]: End processing [wuthery-l10n] error
+[2024-05-23 13:50:24] INFO root fetch - processPackages [pih-rvw-auto]: New version: [0.19.2] Old Version: [0.19.1]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [astro-extras]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [pytebis]: New version: [0.5.2] Old Version: [0.5.13]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [tntorch]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [finch-tensor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [cobald-tardis]: Downloading https://files.pythonhosted.org/packages/ff/39/c76015f2a6f71177ff26efc8d3d11a127c37b092b4c57a73339ccb47b39d/cobald-tardis-0.8.1.tar.gz
+[2024-05-23 13:50:24] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/79/fb/e1d93f11d8f9964c075d76d3e184ce224b11c8c5cc13bd7a76f58c72bbf5/phones_local-0.0.24.tar.gz
+[2024-05-23 13:50:24] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/8b/2f/2a3c416e6e786d21d4cede60140a56e98a6ce135d32b8c66039f82d7b0a3/pih-rvw_auto-0.19.1.tar.gz
+[2024-05-23 13:50:24] INFO root fetch - processPackages [bartbroere-eland]: New version: [8.9.0.1] Old Version: [8.9.0]
+[2024-05-23 13:50:24] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/e5/06/64628395a2f42dd2fe0f6b8878b581154f7f002dc7b8e970af7b9a13d7e6/astro_extras-0.1.2.tar.gz
+[2024-05-23 13:50:24] INFO root fetch - processPackages [pytebis]: Downloading https://files.pythonhosted.org/packages/25/c4/1b9a4bde45637845aefbc3e364dcaa2fd60f5d1573052218617443918dae/pytebis-0.5.13.tar.gz
+[2024-05-23 13:50:24] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/ac/00/d85bb6880871f52143666a7c240275c003f62329ad3ab644121e6accb491/autotrain-advanced-0.7.98.tar.gz
+[2024-05-23 13:50:24] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-23 13:50:24] INFO root fetch - processPackages [cobald-tardis]: Downloading https://files.pythonhosted.org/packages/f5/70/5c6afbd0bd7c408fcae6b4bc4c4448d86c3ca40fd9209e3ddfcf140b5599/cobald-tardis-0.8.2.tar.gz
+[2024-05-23 13:50:24] INFO root fetch - processPackages [tntorch]: Downloading https://files.pythonhosted.org/packages/96/b2/890375e8e072a304d3e560fa90088810e8517c2696eb035da325594362d5/tntorch-1.1.1.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/be/65/086869a49bd8ae8e1c15ee3937bb3683f11ae0d5d319d9ce3a463407fb0d/pih-rvw_auto-0.19.2.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [bartbroere-eland]: Downloading https://files.pythonhosted.org/packages/07/83/9305809c28b9c8cb1be07000952d83cf9efea1b7d1217c6ad717759e5183/bartbroere_eland-8.9.0.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [cobald-tardis]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [cobald-tardis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobald-tardis-0.8.1.tar.gz tmp/cobald-tardis-0.8.2.tar.gz --markdown 20240523/c/cobald-tardis/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/30/8d/eb8dc971342a36c81de91e4aed2c7f663737cfa1fdb3b62dc755661ed02b/phones_local-0.0.25.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/63/8b/92c03e76d46f075a11df0b18c38c2bfdcfb46ba7112d4af34ecb0b1d7400/astro_extras-0.1.3.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [pih-rvw-auto]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [pih-rvw-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-rvw_auto-0.19.1.tar.gz tmp/pih-rvw_auto-0.19.2.tar.gz --markdown 20240523/p/pih-rvw-auto/0.19.1-0.19.2/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/d8/4c/a57fe5dc80fe1c04db23903261d5d0320d8477c1efc1461f1d2ce5ccc1e4/autotrain-advanced-0.7.99.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [phones-local]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [phones-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phones_local-0.0.24.tar.gz tmp/phones_local-0.0.25.tar.gz --markdown 20240523/p/phones-local/0.0.24-0.0.25/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [pytebis]: Downloading https://files.pythonhosted.org/packages/d2/2d/c5ea7c5b9f7fdc3f8f267058aee55b6dcf3327d37534462ea16e6cd71d59/pytebis-0.5.2.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [astro-extras]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [astro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_extras-0.1.2.tar.gz tmp/astro_extras-0.1.3.tar.gz --markdown 20240523/a/astro-extras/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/31/266166b70a1683a8f5cfb91db4b1c2df4edda648ff5e60e26f6a79710cb5/finch_tensor-0.1.9.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.98.tar.gz tmp/autotrain-advanced-0.7.99.tar.gz --markdown 20240523/a/autotrain-advanced/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [pytebis]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [pytebis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytebis-0.5.13.tar.gz tmp/pytebis-0.5.2.tar.gz --markdown 20240523/p/pytebis/0.5.13-0.5.2/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [bartbroere-eland]: Downloading https://files.pythonhosted.org/packages/f5/83/8fd41439e42220fd97e2075d8b4197085aa8b434473c3fbe7c5318d0d589/bartbroere_eland-8.9.0.1-py3-none-any.whl
+[2024-05-23 13:50:25] INFO root fetch - processPackages [finch-tensor]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [finch-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_tensor-0.1.8.tar.gz tmp/finch_tensor-0.1.9.tar.gz --markdown 20240523/f/finch-tensor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [tntorch]: Downloading https://files.pythonhosted.org/packages/58/02/43bd8de6f310e4ccc991209e663ae1d290a099d86c31460685450d10b012/tntorch-1.1.2.tar.gz
+[2024-05-23 13:50:25] INFO root fetch - processPackages [tntorch]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [tntorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tntorch-1.1.1.tar.gz tmp/tntorch-1.1.2.tar.gz --markdown 20240523/t/tntorch/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240523/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-23 13:50:25] INFO root fetch - processPackages [bartbroere-eland]: executing diffoscope
+[2024-05-23 13:50:25] INFO root fetch - processPackages [bartbroere-eland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartbroere_eland-8.9.0.tar.gz tmp/bartbroere_eland-8.9.0.1-py3-none-any.whl.zip --markdown 20240523/b/bartbroere-eland/8.9.0-8.9.0.1/README.md --exclude *.pyd
+[2024-05-23 13:50:26] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.24.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.25.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [phones-local]: Start processing: strym
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [phones-local]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.19.1.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.19.2.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [pih-rvw-auto]: Start processing: IvmDriver
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [pih-rvw-auto]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [IvmDriver]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [strym]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.1.2.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.1.3.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [astro-extras]: Start processing: SMPCbox
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [astro-extras]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [IvmDriver]: Downloading https://files.pythonhosted.org/packages/6b/69/2e8cdd8bad138b0bf42e0ccd5509b54b5b1729c0c1d1426b5771739ec0a0/ivmdriver-0.0.5.tar.gz
+[2024-05-23 13:50:26] WARNING root fetch - processPackages [SMPCbox]: Skipping, unable to determine old version
+[2024-05-23 13:50:26] INFO root fetch - processPackages [SMPCbox]: Start processing: api-management-local
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [SMPCbox] error
+[2024-05-23 13:50:26] INFO root fetch - processPackages [api-management-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [pytebis]: Remove: archive file [/home/abi/fetcher/tmp/pytebis-0.5.13.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [pytebis]: Remove: archive file [/home/abi/fetcher/tmp/pytebis-0.5.2.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [pytebis]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [cobald-tardis]: Remove: archive file [/home/abi/fetcher/tmp/cobald-tardis-0.8.1.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [cobald-tardis]: Remove: archive file [/home/abi/fetcher/tmp/cobald-tardis-0.8.2.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [cobald-tardis]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/32/8d/91ba0097e4ccea06453a14838b92b8ee48bc1880e8710d022d215299ae02/api-management-local-0.0.8.tar.gz
+[2024-05-23 13:50:26] INFO root fetch - processPackages [strym]: Downloading https://files.pythonhosted.org/packages/15/81/6d04be538ffe18acedc7442e9d8f97728b000ef5af93f6654fddd871f646/strym-0.4.8-py2.py3-none-any.whl
+[2024-05-23 13:50:26] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.8.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.9.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [finch-tensor]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [bartbroere-eland]: Remove: archive file [/home/abi/fetcher/tmp/bartbroere_eland-8.9.0.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [bartbroere-eland]: Remove: archive file [/home/abi/fetcher/tmp/bartbroere_eland-8.9.0.1-py3-none-any.whl.zip]
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [bartbroere-eland]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [api-management-local]: Downloading https://files.pythonhosted.org/packages/cb/96/c6e4476ef16ac62a0dbb73d152f9e62d4bdc20962b3c26c38313ac1ba76b/api-management-local-0.0.9.tar.gz
+[2024-05-23 13:50:26] INFO root fetch - processPackages [tntorch]: Remove: archive file [/home/abi/fetcher/tmp/tntorch-1.1.1.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [tntorch]: Remove: archive file [/home/abi/fetcher/tmp/tntorch-1.1.2.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [tntorch]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.98.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.99.tar.gz]
+[2024-05-23 13:50:26] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-23 13:50:26] INFO root fetch - processPackages [api-management-local]: executing diffoscope
+[2024-05-23 13:50:26] INFO root fetch - processPackages [api-management-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-management-local-0.0.8.tar.gz tmp/api-management-local-0.0.9.tar.gz --markdown 20240523/a/api-management-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 13:50:26] INFO root fetch - processPackages [IvmDriver]: Downloading https://files.pythonhosted.org/packages/55/a3/68ec53c1919bf5020788258b7ec49dd4ae5f3d4f5571001f2a771213c95a/ivmdriver-0.0.6.tar.gz
+[2024-05-23 13:50:27] INFO root fetch - processPackages [strym]: Downloading https://files.pythonhosted.org/packages/fc/7e/5ef54ceccb99c1738f802d01ea4a5567b20a6dbd79776704c2fb29e8c4a5/strym-0.4.9-py2.py3-none-any.whl
+[2024-05-23 13:50:27] INFO root fetch - processPackages [IvmDriver]: executing diffoscope
+[2024-05-23 13:50:27] INFO root fetch - processPackages [IvmDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivmdriver-0.0.5.tar.gz tmp/ivmdriver-0.0.6.tar.gz --markdown 20240523/I/IvmDriver/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-23 13:50:27] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.8.tar.gz]
+[2024-05-23 13:50:27] INFO root fetch - processPackages [api-management-local]: Remove: archive file [/home/abi/fetcher/tmp/api-management-local-0.0.9.tar.gz]
+[2024-05-23 13:50:27] INFO root fetch - main [MainThread]: End processing [api-management-local]: success
+[2024-05-23 13:50:27] INFO root fetch - processPackages [strym]: executing diffoscope
+[2024-05-23 13:50:27] INFO root fetch - processPackages [strym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strym-0.4.8-py2.py3-none-any.whl.zip tmp/strym-0.4.9-py2.py3-none-any.whl.zip --markdown 20240523/s/strym/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-23 13:50:28] INFO root fetch - processPackages [IvmDriver]: Remove: archive file [/home/abi/fetcher/tmp/ivmdriver-0.0.5.tar.gz]
+[2024-05-23 13:50:28] INFO root fetch - processPackages [IvmDriver]: Remove: archive file [/home/abi/fetcher/tmp/ivmdriver-0.0.6.tar.gz]
+[2024-05-23 13:50:28] INFO root fetch - main [MainThread]: End processing [IvmDriver]: success
+[2024-05-23 13:50:28] INFO root fetch - processPackages [strym]: Remove: archive file [/home/abi/fetcher/tmp/strym-0.4.8-py2.py3-none-any.whl.zip]
+[2024-05-23 13:50:28] INFO root fetch - processPackages [strym]: Remove: archive file [/home/abi/fetcher/tmp/strym-0.4.9-py2.py3-none-any.whl.zip]
+[2024-05-23 13:50:28] INFO root fetch - main [MainThread]: End processing [strym]: success
+[2024-05-23 13:50:28] INFO root fetch - main [MainThread]: Store serial: [23342814]
