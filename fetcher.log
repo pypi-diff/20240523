@@ -15330,3 +15330,48 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:32:34] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.3572.tar.gz]
 [2024-05-23 10:32:34] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
 [2024-05-23 10:32:34] INFO root fetch - main [MainThread]: Store serial: [23339990]
+[2024-05-23 10:34:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339990]
+[2024-05-23 10:34:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 10:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devopstestor
+[2024-05-23 10:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-05-23 10:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paas-app-charmer
+[2024-05-23 10:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genoodww
+[2024-05-23 10:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepfusion
+[2024-05-23 10:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hapi-schema
+[2024-05-23 10:34:43] WARNING root fetch - processPackages [deepfusion]: Skipping, unable to determine old version
+[2024-05-23 10:34:43] INFO root fetch - main [MainThread]: End processing [deepfusion] error
+[2024-05-23 10:34:43] INFO root fetch - processPackages [hapi-schema]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-23 10:34:43] INFO root fetch - processPackages [devopstestor]: New version: [2.0.5] Old Version: [2.0.0]
+[2024-05-23 10:34:43] INFO root fetch - processPackages [paas-app-charmer]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-23 10:34:43] WARNING root fetch - processPackages [genoodww]: Skipping, unable to determine old version
+[2024-05-23 10:34:43] INFO root fetch - main [MainThread]: End processing [genoodww] error
+[2024-05-23 10:34:43] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/7b/67/cc5064175a2c27ade2b07f83fb074b12b64157f66eeb6528fc2c22ca2c65/hapi_schema-0.8.4.tar.gz
+[2024-05-23 10:34:43] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/ea/b0/b3f9e3dc20ae693e5920167a3c0f2f38ac6d464c04db04ba1a895c5e14aa/devopstestor-2.0.0.tar.gz
+[2024-05-23 10:34:43] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-23 10:34:43] INFO root fetch - processPackages [paas-app-charmer]: Downloading https://files.pythonhosted.org/packages/76/c7/c2e61b4bef31ac01f0fd70969aecc0df55f13bcd861d93d8681784b79d2e/paas-app-charmer-1.0.0.tar.gz
+[2024-05-23 10:34:43] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-05-23 10:34:43] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/26/dc/e400c5887f810586cae6538ffd73e80d7bf3502cbc1d548c48fd7be34201/devopstestor-2.0.5.tar.gz
+[2024-05-23 10:34:43] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/3d/87/824b361135b064a9aafb2d8834f01a45bb6c513d8ce145af97fc10e37d72/hapi_schema-0.8.5.tar.gz
+[2024-05-23 10:34:43] INFO root fetch - processPackages [devopstestor]: executing diffoscope
+[2024-05-23 10:34:43] INFO root fetch - processPackages [devopstestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstestor-2.0.0.tar.gz tmp/devopstestor-2.0.5.tar.gz --markdown 20240523/d/devopstestor/2.0.0-2.0.5/README.md --exclude *.pyd
+[2024-05-23 10:34:44] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-05-23 10:34:44] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.8.4.tar.gz tmp/hapi_schema-0.8.5.tar.gz --markdown 20240523/h/hapi-schema/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-23 10:34:44] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-05-23 10:34:44] INFO root fetch - processPackages [paas-app-charmer]: Downloading https://files.pythonhosted.org/packages/24/3f/16ce1a4fecf5da8d5fe07ff4e96dc7a1ccaaf047161792bdfd6745a830e1/paas_app_charmer-1.0.1.tar.gz
+[2024-05-23 10:34:44] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-05-23 10:34:44] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240523/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-23 10:34:44] INFO root fetch - processPackages [paas-app-charmer]: executing diffoscope
+[2024-05-23 10:34:44] INFO root fetch - processPackages [paas-app-charmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paas-app-charmer-1.0.0.tar.gz tmp/paas_app_charmer-1.0.1.tar.gz --markdown 20240523/p/paas-app-charmer/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-23 10:34:44] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.4.tar.gz]
+[2024-05-23 10:34:44] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.5.tar.gz]
+[2024-05-23 10:34:44] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-05-23 10:34:44] INFO root fetch - processPackages [paas-app-charmer]: Remove: archive file [/home/abi/fetcher/tmp/paas-app-charmer-1.0.0.tar.gz]
+[2024-05-23 10:34:44] INFO root fetch - processPackages [paas-app-charmer]: Remove: archive file [/home/abi/fetcher/tmp/paas_app_charmer-1.0.1.tar.gz]
+[2024-05-23 10:34:44] INFO root fetch - main [MainThread]: End processing [paas-app-charmer]: success
+[2024-05-23 10:34:44] INFO root fetch - processPackages [devopstestor]: Remove: archive file [/home/abi/fetcher/tmp/devopstestor-2.0.0.tar.gz]
+[2024-05-23 10:34:44] INFO root fetch - processPackages [devopstestor]: Remove: archive file [/home/abi/fetcher/tmp/devopstestor-2.0.5.tar.gz]
+[2024-05-23 10:34:44] INFO root fetch - main [MainThread]: End processing [devopstestor]: success
+[2024-05-23 10:34:44] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-05-23 10:34:44] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-05-23 10:34:44] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-05-23 10:34:44] INFO root fetch - main [MainThread]: Store serial: [23340008]
