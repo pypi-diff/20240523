@@ -21068,3 +21068,55 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 13:00:52] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip]
 [2024-05-23 13:00:52] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
 [2024-05-23 13:00:52] INFO root fetch - main [MainThread]: Store serial: [23342104]
+[2024-05-23 13:02:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342104]
+[2024-05-23 13:03:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmem-cmemc
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptlex.lexactivator
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: daalab
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torcj
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-upgrade-analysis
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cryptlex.lexactivator
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 13:03:02] WARNING root fetch - processPackages [torcj]: Skipping, unable to determine old version
+[2024-05-23 13:03:02] INFO root fetch - main [MainThread]: End processing [torcj] error
+[2024-05-23 13:03:02] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-23 13:03:02] WARNING root fetch - processPackages [daalab]: Skipping, unable to determine old version
+[2024-05-23 13:03:02] INFO root fetch - main [MainThread]: End processing [daalab] error
+[2024-05-23 13:03:02] INFO root fetch - processPackages [cmem-cmemc]: New version: [24.2.0rc2] Old Version: [24.2.0rc1]
+[2024-05-23 13:03:02] INFO root fetch - processPackages [cryptlex.lexactivator]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-23 13:03:02] INFO root fetch - processPackages [cryptlex.lexactivator]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-23 13:03:02] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: New version: [17.0.1.0.0.6] Old Version: [16.0.1.0.2]
+[2024-05-23 13:03:02] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/87/62/271d2cf3330e209980eccf92aee18592ff651c9c111d13d0a56a55963ae1/cmem_cmemc-24.2.0rc1.tar.gz
+[2024-05-23 13:03:02] INFO root fetch - processPackages [cryptlex.lexactivator]: Downloading https://files.pythonhosted.org/packages/e7/c1/fd60d5525c926995c5e49cd352302a96c14f40c9b92c22ac6519f02623e8/cryptlex.lexactivator-3.9.0.tar.gz
+[2024-05-23 13:03:02] INFO root fetch - processPackages [cryptlex.lexactivator]: Downloading https://files.pythonhosted.org/packages/e7/c1/fd60d5525c926995c5e49cd352302a96c14f40c9b92c22ac6519f02623e8/cryptlex.lexactivator-3.9.0.tar.gz
+[2024-05-23 13:03:02] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Downloading https://files.pythonhosted.org/packages/a7/d7/907be5fdd64cffd80bc9c0615f93b8d4ba49b8bd20ea53140b24811aabfa/odoo_addon_upgrade_analysis-16.0.1.0.2-py3-none-any.whl
+[2024-05-23 13:03:03] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-23 13:03:03] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-23 13:03:03] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240523/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 13:03:03] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Downloading https://files.pythonhosted.org/packages/7b/66/0121c544fddfb264efac52ef09b4e3bd64728d8299e17a66eff228a22fba/odoo_addon_upgrade_analysis-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-23 13:03:03] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/1a/4a/049f8b9b3c63514cfdf036847598117f8053080ceb95ee26b8fce8f6a9a1/cmem_cmemc-24.2.0rc2.tar.gz
+[2024-05-23 13:03:03] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: executing diffoscope
+[2024-05-23 13:03:03] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_upgrade_analysis-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_upgrade_analysis-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-upgrade-analysis/16.0.1.0.2-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-23 13:03:03] INFO root fetch - processPackages [cmem-cmemc]: executing diffoscope
+[2024-05-23 13:03:03] INFO root fetch - processPackages [cmem-cmemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_cmemc-24.2.0rc1.tar.gz tmp/cmem_cmemc-24.2.0rc2.tar.gz --markdown 20240523/c/cmem-cmemc/24.2.0rc1-24.2.0rc2/README.md --exclude *.pyd
+[2024-05-23 13:03:03] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-23 13:03:03] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-23 13:03:03] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-23 13:03:04] INFO root fetch - processPackages [cmem-cmemc]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmemc-24.2.0rc1.tar.gz]
+[2024-05-23 13:03:04] INFO root fetch - processPackages [cmem-cmemc]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmemc-24.2.0rc2.tar.gz]
+[2024-05-23 13:03:04] INFO root fetch - main [MainThread]: End processing [cmem-cmemc]: success
+[2024-05-23 13:03:04] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_upgrade_analysis-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-23 13:03:04] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_upgrade_analysis-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-23 13:03:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-upgrade-analysis]: success
+[2024-05-23 13:03:05] INFO root fetch - processPackages [cryptlex.lexactivator]: Downloading https://files.pythonhosted.org/packages/b5/1a/b17637066ac73010c7cd8b85951f58867b72a046cee6eb00e19a520568bf/cryptlex.lexactivator-3.9.1.tar.gz
+[2024-05-23 13:03:05] INFO root fetch - processPackages [cryptlex.lexactivator]: Downloading https://files.pythonhosted.org/packages/b5/1a/b17637066ac73010c7cd8b85951f58867b72a046cee6eb00e19a520568bf/cryptlex.lexactivator-3.9.1.tar.gz
+[2024-05-23 13:03:06] INFO root fetch - processPackages [cryptlex.lexactivator]: executing diffoscope
+[2024-05-23 13:03:06] INFO root fetch - processPackages [cryptlex.lexactivator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptlex.lexactivator-3.9.0.tar.gz tmp/cryptlex.lexactivator-3.9.1.tar.gz --markdown 20240523/c/cryptlex.lexactivator/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-23 13:03:06] INFO root fetch - processPackages [cryptlex.lexactivator]: executing diffoscope
+[2024-05-23 13:03:06] INFO root fetch - processPackages [cryptlex.lexactivator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptlex.lexactivator-3.9.0.tar.gz tmp/cryptlex.lexactivator-3.9.1.tar.gz --markdown 20240523/c/cryptlex.lexactivator/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-23 13:03:45] INFO root fetch - processPackages [cryptlex.lexactivator]: Remove: archive file [/home/abi/fetcher/tmp/cryptlex.lexactivator-3.9.0.tar.gz]
+[2024-05-23 13:03:45] INFO root fetch - processPackages [cryptlex.lexactivator]: Remove: archive file [/home/abi/fetcher/tmp/cryptlex.lexactivator-3.9.1.tar.gz]
+[2024-05-23 13:03:45] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
+[2024-05-23 13:03:46] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
+[2024-05-23 13:03:46] INFO root fetch - main [MainThread]: Store serial: [23342125]
