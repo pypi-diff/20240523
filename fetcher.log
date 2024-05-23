@@ -15483,3 +15483,36 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:39:14] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev8.tar.gz]
 [2024-05-23 10:39:14] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-23 10:39:14] INFO root fetch - main [MainThread]: Store serial: [23340083]
+[2024-05-23 10:41:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23340083]
+[2024-05-23 10:41:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 10:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evalRagPk
+[2024-05-23 10:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fredmath
+[2024-05-23 10:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-05-23 10:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wrapper-pika
+[2024-05-23 10:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mega-qnn-tools
+[2024-05-23 10:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whack-a-mole
+[2024-05-23 10:41:24] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 10:41:24] WARNING root fetch - processPackages [fredmath]: Skipping, unable to determine old version
+[2024-05-23 10:41:24] INFO root fetch - main [MainThread]: End processing [fredmath] error
+[2024-05-23 10:41:24] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-23 10:41:24] WARNING root fetch - processPackages [evalRagPk]: Skipping, unable to determine old version
+[2024-05-23 10:41:24] INFO root fetch - main [MainThread]: End processing [evalRagPk] error
+[2024-05-23 10:41:24] WARNING root fetch - processPackages [whack-a-mole]: Skipping, unable to determine old version
+[2024-05-23 10:41:24] INFO root fetch - main [MainThread]: End processing [whack-a-mole] error
+[2024-05-23 10:41:24] WARNING root fetch - processPackages [mega-qnn-tools]: Skipping, unable to determine old version
+[2024-05-23 10:41:24] INFO root fetch - main [MainThread]: End processing [mega-qnn-tools] error
+[2024-05-23 10:41:24] INFO root fetch - processPackages [wrapper-pika]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-23 10:41:25] INFO root fetch - processPackages [wrapper-pika]: Downloading https://files.pythonhosted.org/packages/5a/6d/f90e7e3daa3a0907c1ad0b19bee4e27a9ac2c9abe1b2aafaa12ec4e8b04d/wrapper_pika-0.0.2.tar.gz
+[2024-05-23 10:41:25] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-23 10:41:25] INFO root fetch - processPackages [wrapper-pika]: Downloading https://files.pythonhosted.org/packages/86/de/11e6a71e7688e6070ff35e8a0b59ef446dda3bdcaafa690db49c76f57cc6/wrapper_pika-0.0.3-py2.py3-none-any.whl
+[2024-05-23 10:41:25] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-23 10:41:25] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240523/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 10:41:25] INFO root fetch - processPackages [wrapper-pika]: executing diffoscope
+[2024-05-23 10:41:25] INFO root fetch - processPackages [wrapper-pika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapper_pika-0.0.2.tar.gz tmp/wrapper_pika-0.0.3-py2.py3-none-any.whl.zip --markdown 20240523/w/wrapper-pika/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-23 10:41:25] INFO root fetch - processPackages [wrapper-pika]: Remove: archive file [/home/abi/fetcher/tmp/wrapper_pika-0.0.2.tar.gz]
+[2024-05-23 10:41:25] INFO root fetch - processPackages [wrapper-pika]: Remove: archive file [/home/abi/fetcher/tmp/wrapper_pika-0.0.3-py2.py3-none-any.whl.zip]
+[2024-05-23 10:41:25] INFO root fetch - main [MainThread]: End processing [wrapper-pika]: success
+[2024-05-23 10:41:26] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-23 10:41:26] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-23 10:41:26] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-23 10:41:26] INFO root fetch - main [MainThread]: Store serial: [23340125]
