@@ -21768,3 +21768,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 13:20:25] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.9.2.tar.gz]
 [2024-05-23 13:20:25] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
 [2024-05-23 13:20:25] INFO root fetch - main [MainThread]: Store serial: [23342359]
+[2024-05-23 13:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342359]
+[2024-05-23 13:22:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 13:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vipas
+[2024-05-23 13:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torcj
+[2024-05-23 13:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DocumentsReader
+[2024-05-23 13:22:35] INFO root fetch - processPackages [torcj]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-23 13:22:35] INFO root fetch - processPackages [vipas]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-23 13:22:35] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 13:22:35] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 13:22:35] INFO root fetch - processPackages [torcj]: Downloading https://files.pythonhosted.org/packages/83/8b/6707988b54d82812b77cafd9d00ddc75ad15e16e76473ade5dd7c71ae22c/torcj-0.0.6.tar.gz
+[2024-05-23 13:22:35] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/5d/3c/34e6d83987c2e2725cbfbf45233481f421ea68c7317a2a280ea58848718f/vipas-0.1.3.tar.gz
+[2024-05-23 13:22:35] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/47/63/ad6e461ae46812a8f6788f88700c171103b769fc4c4c0fd2080a6192b1a0/vipas-0.1.4.tar.gz
+[2024-05-23 13:22:35] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-23 13:22:35] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.1.3.tar.gz tmp/vipas-0.1.4.tar.gz --markdown 20240523/v/vipas/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-23 13:22:35] INFO root fetch - processPackages [torcj]: Downloading https://files.pythonhosted.org/packages/5f/48/14d59771a684a1293568ae7f158be1d303c4c0571946c8cff282dc7d8a17/torcj-0.0.7.tar.gz
+[2024-05-23 13:22:36] INFO root fetch - processPackages [torcj]: executing diffoscope
+[2024-05-23 13:22:36] INFO root fetch - processPackages [torcj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcj-0.0.6.tar.gz tmp/torcj-0.0.7.tar.gz --markdown 20240523/t/torcj/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-23 13:22:36] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.3.tar.gz]
+[2024-05-23 13:22:36] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.4.tar.gz]
+[2024-05-23 13:22:36] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-23 13:22:36] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.6.tar.gz]
+[2024-05-23 13:22:36] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.7.tar.gz]
+[2024-05-23 13:22:36] INFO root fetch - main [MainThread]: End processing [torcj]: success
+[2024-05-23 13:22:36] INFO root fetch - main [MainThread]: Store serial: [23342368]
