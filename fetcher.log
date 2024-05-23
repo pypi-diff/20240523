@@ -23362,3 +23362,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-23 14:12:31] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
 [2024-05-23 14:12:31] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
 [2024-05-23 14:12:31] INFO root fetch - main [MainThread]: Store serial: [23343036]
+[2024-05-23 14:14:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23343036]
+[2024-05-23 14:14:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osidb-bindings
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volcengine
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: besser
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spai
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tap-taboola
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-inventory
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nebulagraph-lite
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reliable-relu-toolbox
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TMDBTraktSyncer
+[2024-05-23 14:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccxt
+[2024-05-23 14:14:40] INFO root fetch - processPackages [spai]: New version: [2024.5.23] Old Version: [2024.5.14]
+[2024-05-23 14:14:40] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-23 14:14:40] INFO root fetch - processPackages [besser]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-23 14:14:40] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.7.0] Old Version: [1.6.4]
+[2024-05-23 14:14:40] INFO root fetch - processPackages [tap-taboola]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-23 14:14:40] WARNING root fetch - processPackages [reliable-relu-toolbox]: Skipping, unable to determine old version
+[2024-05-23 14:14:40] INFO root fetch - processPackages [volcengine]: New version: [1.0.98] Old Version: [1.0.97]
+[2024-05-23 14:14:40] INFO root fetch - main [MainThread]: End processing [reliable-relu-toolbox] error
+[2024-05-23 14:14:40] INFO root fetch - processPackages [osidb-bindings]: New version: [3.7.0] Old Version: [3.6.0]
+[2024-05-23 14:14:40] INFO root fetch - processPackages [nebulagraph-lite]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-23 14:14:40] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/7c/56/d0ef003425f806075a9cee6e722b6d82523dbb8cb7d74c153a2e7a35fe6a/spai-2024.5.14.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [besser]: Downloading https://files.pythonhosted.org/packages/37/bc/23fd08bf3b16d6f34e1c4ff065e11537c5f10a3a8482a9d737e8b1c2398d/besser-1.1.1.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/42/04/52d76c6f5ca0920f61bf1defe5659b7d809ebbb8743cd242f880bee7da4f/TMDBTraktSyncer-1.6.4.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [tap-taboola]: Downloading https://files.pythonhosted.org/packages/91/c4/6ed39e355a217f74a99996ca39c63a79478732c8521222f8953f1ee608a6/tap-taboola-0.2.1.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [osidb-bindings]: Downloading https://files.pythonhosted.org/packages/e9/55/178fd3258cc4ce92c8f9427fa5cb51a8c9bc006bed9bafd911a82c456d06/osidb-bindings-3.6.0.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [nebulagraph-lite]: Downloading https://files.pythonhosted.org/packages/b3/4b/14f9df5ad46ba142d835ef45e09b0fe32165a916257bd6c4cd834d4fae99/nebulagraph_lite-0.2.2.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/ce/9b/1b86873adf515c13494ab2e6dcaa3348bd96a8bb57fa364b135a7f0f1192/volcengine-1.0.97.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-23 14:14:40] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/2a/ff/211ffa0388b97eabc266ad8fad994a408ca6a7f85081bacffd5a7bca397d/spai-2024.5.23.tar.gz
+[2024-05-23 14:14:41] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-23 14:14:41] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240523/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-23 14:14:41] INFO root fetch - processPackages [ccxt]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-05-23 14:14:41] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/28/9e/bda46653ff689ad86e4d499fe2e655f80481cc3676f293f7136d392a8588/tmdbtraktsyncer-1.7.0.tar.gz
+[2024-05-23 14:14:41] INFO root fetch - processPackages [spai]: executing diffoscope
+[2024-05-23 14:14:41] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2024.5.14.tar.gz tmp/spai-2024.5.23.tar.gz --markdown 20240523/s/spai/2024.5.14-2024.5.23/README.md --exclude *.pyd
+[2024-05-23 14:14:41] INFO root fetch - processPackages [besser]: Downloading https://files.pythonhosted.org/packages/86/d3/1c3db6b71ed44d46cd3caada247aaa7405216773cae79c965a64a5e60002/besser-1.1.2.tar.gz
+[2024-05-23 14:14:41] INFO root fetch - processPackages [osidb-bindings]: Downloading https://files.pythonhosted.org/packages/53/7d/e45648a103bfb59073d74e34b5a8412ebf2d3b8125af9a46429cb2ac8b6d/osidb_bindings-3.7.0.tar.gz
+[2024-05-23 14:14:41] INFO root fetch - processPackages [tap-taboola]: Downloading https://files.pythonhosted.org/packages/b7/5e/8a1908dab24e493e127de5890d72f7e357c34e887d43a567cf656ce217ed/tap_taboola-0.3.0.tar.gz
+[2024-05-23 14:14:41] INFO root fetch - processPackages [nebulagraph-lite]: Downloading https://files.pythonhosted.org/packages/c4/d5/70f219e92cacad9124edeccd17ac1cac3f6f7cf3fbbf65473b06125c7651/nebulagraph_lite-0.2.3.tar.gz
+[2024-05-23 14:14:41] INFO root fetch - processPackages [besser]: executing diffoscope
+[2024-05-23 14:14:41] INFO root fetch - processPackages [besser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besser-1.1.1.tar.gz tmp/besser-1.1.2.tar.gz --markdown 20240523/b/besser/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-23 14:14:41] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2024-05-23 14:14:41] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.6.4.tar.gz tmp/tmdbtraktsyncer-1.7.0.tar.gz --markdown 20240523/T/TMDBTraktSyncer/1.6.4-1.7.0/README.md --exclude *.pyd
+[2024-05-23 14:14:41] INFO root fetch - processPackages [osidb-bindings]: executing diffoscope
+[2024-05-23 14:14:41] INFO root fetch - processPackages [osidb-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osidb-bindings-3.6.0.tar.gz tmp/osidb_bindings-3.7.0.tar.gz --markdown 20240523/o/osidb-bindings/3.6.0-3.7.0/README.md --exclude *.pyd
+[2024-05-23 14:14:41] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/26/e5/298ef23df57f88b996ff862b7ee71ace3117ef389b1773b7af11f6a4c3e4/volcengine-1.0.98.tar.gz
+[2024-05-23 14:14:41] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/1c/a1/3a1a3f9672e43a2620d2ab195c398183c3594751d3a306bd022e7ceccbb7/ccxt-4.3.8.tar.gz
+[2024-05-23 14:14:41] INFO root fetch - processPackages [tap-taboola]: executing diffoscope
+[2024-05-23 14:14:41] INFO root fetch - processPackages [tap-taboola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-taboola-0.2.1.tar.gz tmp/tap_taboola-0.3.0.tar.gz --markdown 20240523/t/tap-taboola/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-23 14:14:41] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2024-05-23 14:14:41] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.97.tar.gz tmp/volcengine-1.0.98.tar.gz --markdown 20240523/v/volcengine/1.0.97-1.0.98/README.md --exclude *.pyd
+[2024-05-23 14:14:41] INFO root fetch - processPackages [nebulagraph-lite]: executing diffoscope
+[2024-05-23 14:14:41] INFO root fetch - processPackages [nebulagraph-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebulagraph_lite-0.2.2.tar.gz tmp/nebulagraph_lite-0.2.3.tar.gz --markdown 20240523/n/nebulagraph-lite/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-23 14:14:42] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.6.4.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/tmdbtraktsyncer-1.7.0.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2024-05-23 14:14:42] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/f0/34/c7c38c5c0bec0a22183d7eed68184bef3efe315a8570460824012267cbac/ccxt-4.3.9.tar.gz
+[2024-05-23 14:14:42] INFO root fetch - processPackages [tap-taboola]: Remove: archive file [/home/abi/fetcher/tmp/tap-taboola-0.2.1.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - processPackages [tap-taboola]: Remove: archive file [/home/abi/fetcher/tmp/tap_taboola-0.3.0.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - main [MainThread]: End processing [tap-taboola]: success
+[2024-05-23 14:14:42] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.5.14.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.5.23.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2024-05-23 14:14:42] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-23 14:14:42] INFO root fetch - processPackages [nebulagraph-lite]: Remove: archive file [/home/abi/fetcher/tmp/nebulagraph_lite-0.2.2.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - processPackages [nebulagraph-lite]: Remove: archive file [/home/abi/fetcher/tmp/nebulagraph_lite-0.2.3.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - main [MainThread]: End processing [nebulagraph-lite]: success
+[2024-05-23 14:14:42] INFO root fetch - processPackages [besser]: Remove: archive file [/home/abi/fetcher/tmp/besser-1.1.1.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - processPackages [besser]: Remove: archive file [/home/abi/fetcher/tmp/besser-1.1.2.tar.gz]
+[2024-05-23 14:14:42] INFO root fetch - main [MainThread]: End processing [besser]: success
+[2024-05-23 14:14:42] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-05-23 14:14:42] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.3.8.tar.gz tmp/ccxt-4.3.9.tar.gz --markdown 20240523/c/ccxt/4.3.8-4.3.9/README.md --exclude *.pyd
+[2024-05-23 14:14:43] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.97.tar.gz]
+[2024-05-23 14:14:43] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.98.tar.gz]
+[2024-05-23 14:14:43] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2024-05-23 14:14:43] INFO root fetch - processPackages [osidb-bindings]: Remove: archive file [/home/abi/fetcher/tmp/osidb-bindings-3.6.0.tar.gz]
+[2024-05-23 14:14:43] INFO root fetch - processPackages [osidb-bindings]: Remove: archive file [/home/abi/fetcher/tmp/osidb_bindings-3.7.0.tar.gz]
+[2024-05-23 14:14:43] INFO root fetch - main [MainThread]: End processing [osidb-bindings]: success
+[2024-05-23 14:14:46] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.8.tar.gz]
+[2024-05-23 14:14:46] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
+[2024-05-23 14:14:46] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-05-23 14:14:46] INFO root fetch - main [MainThread]: Store serial: [23343067]
