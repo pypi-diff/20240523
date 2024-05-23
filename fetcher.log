@@ -20948,3 +20948,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:54:16] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-23 12:54:16] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-23 12:54:16] INFO root fetch - main [MainThread]: Store serial: [23342056]
+[2024-05-23 12:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342056]
+[2024-05-23 12:56:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lokzzpylib
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DocumentsReader
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ResSimpy
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-nvf-builds
+[2024-05-23 12:56:25] INFO root fetch - processPackages [test-nvf-builds]: New version: [0.0.3.7] Old Version: [0.0.3.6]
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ResSimpy]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-23 12:56:25] WARNING root fetch - processPackages [DocumentsReader]: Skipping, unable to determine old version
+[2024-05-23 12:56:25] INFO root fetch - main [MainThread]: End processing [DocumentsReader] error
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ResSimpy]: Downloading https://files.pythonhosted.org/packages/ea/a9/59032af53cf43846feeb0a9e5fcc29ea07d23eefe70ea10be6a6a4269690/ressimpy-2.1.1.tar.gz
+[2024-05-23 12:56:25] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/86/ad/9a90cc839c76eabf78b61d7157c5f11ee2bf610f1deec57177f4bb092385/test_nvf_builds-0.0.3.6.tar.gz
+[2024-05-23 12:56:25] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev89]
+[2024-05-23 12:56:25] INFO root fetch - processPackages [music-kraken]: New version: [2.0.0] Old Version: [1.9.0]
+[2024-05-23 12:56:25] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/99/2b/ed957788f4ae4e3aeeb18739f26b317ae59aea2a0d56606f1f908c29673c/lokzzpylib-0.2.dev89.tar.gz
+[2024-05-23 12:56:25] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ResSimpy]: Downloading https://files.pythonhosted.org/packages/1a/16/31d8cd83b1983d5e30a1590710c372165d704f34014733f8cb4d0c855cdb/ressimpy-2.2.0.tar.gz
+[2024-05-23 12:56:25] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/7c/fe/dafa80bf7d20a6f1bbe8ab1c9fa4c06f2154ced7ede4c63fff4b26c829d9/test_nvf_builds-0.0.3.7.tar.gz
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ResSimpy]: executing diffoscope
+[2024-05-23 12:56:25] INFO root fetch - processPackages [ResSimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ressimpy-2.1.1.tar.gz tmp/ressimpy-2.2.0.tar.gz --markdown 20240523/R/ResSimpy/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-23 12:56:25] INFO root fetch - processPackages [test-nvf-builds]: executing diffoscope
+[2024-05-23 12:56:25] INFO root fetch - processPackages [test-nvf-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_nvf_builds-0.0.3.6.tar.gz tmp/test_nvf_builds-0.0.3.7.tar.gz --markdown 20240523/t/test-nvf-builds/0.0.3.6-0.0.3.7/README.md --exclude *.pyd
+[2024-05-23 12:56:25] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2024-05-23 12:56:26] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/fd/e7/7d03292011a09f999c852759b49bba7636a3ca49bec0efa90c696a70df2f/music_kraken-2.0.0.tar.gz
+[2024-05-23 12:56:26] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2024-05-23 12:56:26] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev89.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20240523/l/lokzzpylib/0.2.dev89-0.2.dev9/README.md --exclude *.pyd
+[2024-05-23 12:56:26] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-23 12:56:26] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.9.0.tar.gz tmp/music_kraken-2.0.0.tar.gz --markdown 20240523/m/music-kraken/1.9.0-2.0.0/README.md --exclude *.pyd
+[2024-05-23 12:56:26] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.6.tar.gz]
+[2024-05-23 12:56:26] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.7.tar.gz]
+[2024-05-23 12:56:26] INFO root fetch - main [MainThread]: End processing [test-nvf-builds]: success
+[2024-05-23 12:56:26] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev89.tar.gz]
+[2024-05-23 12:56:26] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2024-05-23 12:56:26] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2024-05-23 12:56:26] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-23 12:56:26] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-2.0.0.tar.gz]
+[2024-05-23 12:56:26] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-23 12:56:27] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.1.1.tar.gz]
+[2024-05-23 12:56:27] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.2.0.tar.gz]
+[2024-05-23 12:56:27] INFO root fetch - main [MainThread]: End processing [ResSimpy]: success
+[2024-05-23 12:56:27] INFO root fetch - main [MainThread]: Store serial: [23342074]
