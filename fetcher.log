@@ -19884,3 +19884,81 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:11:59] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.4.tar.gz]
 [2024-05-23 12:11:59] INFO root fetch - main [MainThread]: End processing [cace]: success
 [2024-05-23 12:11:59] INFO root fetch - main [MainThread]: Store serial: [23341640]
+[2024-05-23 12:14:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341640]
+[2024-05-23 12:14:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgy
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataprep-lib-bayrakkk
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: svdsuite
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fuzzquery
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frequenz-microgrid-betterproto
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tablinum
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eo-man
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: petannotationvisualizer
+[2024-05-23 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyremotechrome
+[2024-05-23 12:14:09] INFO root fetch - processPackages [petannotationvisualizer]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-23 12:14:09] INFO root fetch - processPackages [edgy]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-23 12:14:09] INFO root fetch - processPackages [pyremotechrome]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-23 12:14:09] INFO root fetch - processPackages [eo-man]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 12:14:09] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: New version: [0.17.0] Old Version: [0.16.1.1]
+[2024-05-23 12:14:09] INFO root fetch - processPackages [edgy]: Downloading https://files.pythonhosted.org/packages/b1/d8/8dba489f9d32d62c0e924248f8d5bccfd9c89fa2c66aea74cc5dae789c2e/edgy-0.9.1.tar.gz
+[2024-05-23 12:14:09] INFO root fetch - processPackages [fuzzquery]: New version: [24.5.23] Old Version: [24.5.18]
+[2024-05-23 12:14:09] INFO root fetch - processPackages [petannotationvisualizer]: Downloading https://files.pythonhosted.org/packages/0a/6b/4e646bd5d28c6064acfa3de6e7421887fe687902f61044811e5c4a56b6d0/petannotationvisualizer-1.2.0.tar.gz
+[2024-05-23 12:14:09] WARNING root fetch - processPackages [dataprep-lib-bayrakkk]: Skipping, unable to determine old version
+[2024-05-23 12:14:09] INFO root fetch - main [MainThread]: End processing [dataprep-lib-bayrakkk] error
+[2024-05-23 12:14:09] INFO root fetch - processPackages [svdsuite]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-23 12:14:09] INFO root fetch - processPackages [tablinum]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-23 12:14:09] INFO root fetch - processPackages [eo-man]: Downloading https://files.pythonhosted.org/packages/5f/f6/62e408d39757f2c0c0c679a3936b77b3d3f90e5c181c16c8c2e98d58b8f1/eo_man-0.1.8.tar.gz
+[2024-05-23 12:14:09] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/96/73/c91ed60f6b084ddb4cf9c597a25301c05c2f8c4d51c60f19092750d86252/pyremotechrome-0.0.7.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Downloading https://files.pythonhosted.org/packages/c1/8b/469f5e4d46403b91c36990d0bba9e1388fafd78ee5a3d2d8d8e3f047a31b/frequenz-microgrid-betterproto-0.16.1.1.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [fuzzquery]: Downloading https://files.pythonhosted.org/packages/9c/17/4407d1893213a07bdf94f2ce133696c01ee4ea2615f8046bbc0dbcbe73f6/fuzzquery-24.5.18.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [svdsuite]: Downloading https://files.pythonhosted.org/packages/f0/51/fd0a9a21ff84e857f4d0366c48b18154f1b48a0f28c06e37924b204e8628/svdsuite-0.0.1.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [tablinum]: Downloading https://files.pythonhosted.org/packages/25/62/2a101defa32c0b8c46d052e77e86d291a6b0100e83ac9a679fc1870a8e0e/tablinum-0.1.2.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [petannotationvisualizer]: Downloading https://files.pythonhosted.org/packages/08/65/4c6ac0ef58effbe9d19161f6d02074aa99d583a9be9b8b5dfd36b0986e69/petannotationvisualizer-1.2.1.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [eo-man]: Downloading https://files.pythonhosted.org/packages/53/05/13066f8b1064ffb32f602287c10286ebac61d959063d33a8658e27772972/eo_man-0.1.9.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/32/54/fbd27be2561c75c8b34f40e0f41d6b6171d7a5f735b1719e089781ac8ce3/pyremotechrome-0.0.8.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Downloading https://files.pythonhosted.org/packages/b7/1b/0cff116614050a748e65b666bd1b1003d545797e47a10c0ed0df14d1eb47/frequenz-microgrid-betterproto-0.17.0.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [edgy]: Downloading https://files.pythonhosted.org/packages/c7/a7/ea7a37ec28c1d9ff6a67269c38a468ab5b7b5e3da09f72104fd5c526cb75/edgy-0.9.2.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [petannotationvisualizer]: executing diffoscope
+[2024-05-23 12:14:10] INFO root fetch - processPackages [petannotationvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petannotationvisualizer-1.2.0.tar.gz tmp/petannotationvisualizer-1.2.1.tar.gz --markdown 20240523/p/petannotationvisualizer/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-23 12:14:10] INFO root fetch - processPackages [edgy]: executing diffoscope
+[2024-05-23 12:14:10] INFO root fetch - processPackages [edgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgy-0.9.1.tar.gz tmp/edgy-0.9.2.tar.gz --markdown 20240523/e/edgy/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-23 12:14:10] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: executing diffoscope
+[2024-05-23 12:14:10] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-microgrid-betterproto-0.16.1.1.tar.gz tmp/frequenz-microgrid-betterproto-0.17.0.tar.gz --markdown 20240523/f/frequenz-microgrid-betterproto/0.16.1.1-0.17.0/README.md --exclude *.pyd
+[2024-05-23 12:14:10] INFO root fetch - processPackages [fuzzquery]: Downloading https://files.pythonhosted.org/packages/d3/e5/a1a167aa22aa1de1f1423f620630d167f98da0d66c8ebd05dfb5d1b61490/fuzzquery-24.5.23.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [tablinum]: Downloading https://files.pythonhosted.org/packages/91/85/4e9a8d7da27a526f39c3c09eac03e9b63f53cd00b8498cfb483766ea182f/tablinum-0.1.3.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [eo-man]: executing diffoscope
+[2024-05-23 12:14:10] INFO root fetch - processPackages [eo-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_man-0.1.8.tar.gz tmp/eo_man-0.1.9.tar.gz --markdown 20240523/e/eo-man/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 12:14:10] INFO root fetch - processPackages [pyremotechrome]: executing diffoscope
+[2024-05-23 12:14:10] INFO root fetch - processPackages [pyremotechrome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyremotechrome-0.0.7.tar.gz tmp/pyremotechrome-0.0.8.tar.gz --markdown 20240523/p/pyremotechrome/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-23 12:14:10] INFO root fetch - processPackages [svdsuite]: Downloading https://files.pythonhosted.org/packages/69/2e/80ac6ba8507e55b9b70dfde12bfedc0cddc7c0dbf6c21282bb37a25529da/svdsuite-0.1.0.tar.gz
+[2024-05-23 12:14:10] INFO root fetch - processPackages [fuzzquery]: executing diffoscope
+[2024-05-23 12:14:10] INFO root fetch - processPackages [fuzzquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzquery-24.5.18.tar.gz tmp/fuzzquery-24.5.23.tar.gz --markdown 20240523/f/fuzzquery/24.5.18-24.5.23/README.md --exclude *.pyd
+[2024-05-23 12:14:10] INFO root fetch - processPackages [tablinum]: executing diffoscope
+[2024-05-23 12:14:10] INFO root fetch - processPackages [tablinum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablinum-0.1.2.tar.gz tmp/tablinum-0.1.3.tar.gz --markdown 20240523/t/tablinum/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-23 12:14:10] INFO root fetch - processPackages [svdsuite]: executing diffoscope
+[2024-05-23 12:14:10] INFO root fetch - processPackages [svdsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svdsuite-0.0.1.tar.gz tmp/svdsuite-0.1.0.tar.gz --markdown 20240523/s/svdsuite/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-23 12:14:11] INFO root fetch - processPackages [petannotationvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/petannotationvisualizer-1.2.0.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - processPackages [petannotationvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/petannotationvisualizer-1.2.1.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - main [MainThread]: End processing [petannotationvisualizer]: success
+[2024-05-23 12:14:11] INFO root fetch - processPackages [fuzzquery]: Remove: archive file [/home/abi/fetcher/tmp/fuzzquery-24.5.18.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - processPackages [fuzzquery]: Remove: archive file [/home/abi/fetcher/tmp/fuzzquery-24.5.23.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - main [MainThread]: End processing [fuzzquery]: success
+[2024-05-23 12:14:11] INFO root fetch - processPackages [edgy]: Remove: archive file [/home/abi/fetcher/tmp/edgy-0.9.1.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - processPackages [edgy]: Remove: archive file [/home/abi/fetcher/tmp/edgy-0.9.2.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - main [MainThread]: End processing [edgy]: success
+[2024-05-23 12:14:11] INFO root fetch - processPackages [eo-man]: Remove: archive file [/home/abi/fetcher/tmp/eo_man-0.1.8.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - processPackages [eo-man]: Remove: archive file [/home/abi/fetcher/tmp/eo_man-0.1.9.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - main [MainThread]: End processing [eo-man]: success
+[2024-05-23 12:14:11] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-microgrid-betterproto-0.16.1.1.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - processPackages [frequenz-microgrid-betterproto]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-microgrid-betterproto-0.17.0.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - main [MainThread]: End processing [frequenz-microgrid-betterproto]: success
+[2024-05-23 12:14:11] INFO root fetch - processPackages [svdsuite]: Remove: archive file [/home/abi/fetcher/tmp/svdsuite-0.0.1.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - processPackages [svdsuite]: Remove: archive file [/home/abi/fetcher/tmp/svdsuite-0.1.0.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - main [MainThread]: End processing [svdsuite]: success
+[2024-05-23 12:14:11] INFO root fetch - processPackages [tablinum]: Remove: archive file [/home/abi/fetcher/tmp/tablinum-0.1.2.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - processPackages [tablinum]: Remove: archive file [/home/abi/fetcher/tmp/tablinum-0.1.3.tar.gz]
+[2024-05-23 12:14:11] INFO root fetch - main [MainThread]: End processing [tablinum]: success
+[2024-05-23 12:14:12] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.7.tar.gz]
+[2024-05-23 12:14:12] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.8.tar.gz]
+[2024-05-23 12:14:12] INFO root fetch - main [MainThread]: End processing [pyremotechrome]: success
+[2024-05-23 12:14:12] INFO root fetch - main [MainThread]: Store serial: [23341671]
