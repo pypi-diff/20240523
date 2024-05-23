@@ -8184,3 +8184,60 @@
 [2024-05-23 04:12:55] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-4.1.3.tar.gz]
 [2024-05-23 04:12:55] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2024-05-23 04:12:55] INFO root fetch - main [MainThread]: Store serial: [23336574]
+[2024-05-23 04:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336574]
+[2024-05-23 04:15:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 04:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launchflow
+[2024-05-23 04:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwml
+[2024-05-23 04:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AudioAlchemist
+[2024-05-23 04:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ork.build
+[2024-05-23 04:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangorestframework-simple-apikey
+[2024-05-23 04:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-sphgeom
+[2024-05-23 04:15:04] INFO root fetch - processPackages [AudioAlchemist]: New version: [0.5.5] Old Version: [0.5.0]
+[2024-05-23 04:15:04] INFO root fetch - processPackages [gwml]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-23 04:15:04] INFO root fetch - processPackages [AudioAlchemist]: Downloading https://files.pythonhosted.org/packages/d9/20/72a3fb9cf805997b7bb14b3ae3f1356696e17bd8e08c5b62b73e0087b0c9/audioalchemist-0.5.0.tar.gz
+[2024-05-23 04:15:04] INFO root fetch - processPackages [djangorestframework-simple-apikey]: New version: [1.1.1] Old Version: [1.0.2]
+[2024-05-23 04:15:04] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 04:15:04] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/93/b4/9eae4507c9fab5f1c332b4f1ee966f95f324764f97afccd4ea447e47bd1a/gwml-0.1.2-py3-none-any.whl
+[2024-05-23 04:15:04] INFO root fetch - processPackages [launchflow]: New version: [0.4.0.dev0] Old Version: [0.3.9.dev8]
+[2024-05-23 04:15:04] INFO root fetch - processPackages [lsst-sphgeom]: New version: [27.2024.2001] Old Version: [27.2024.2000]
+[2024-05-23 04:15:04] INFO root fetch - processPackages [djangorestframework-simple-apikey]: Downloading https://files.pythonhosted.org/packages/8c/83/ff96c2511516e457deb3c8c2f383950453c87f3b2407f8c65860b4148558/djangorestframework-simple-apikey-1.0.2.tar.gz
+[2024-05-23 04:15:04] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-23 04:15:05] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/ce/af/bc74ad0c85b00054fce5d8da76df4f0ed5a0ee96568c9d098b5eefcb5199/gwml-0.1.3-py3-none-any.whl
+[2024-05-23 04:15:05] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-05-23 04:15:05] INFO root fetch - processPackages [AudioAlchemist]: Downloading https://files.pythonhosted.org/packages/4f/35/4b7736b5f44089367dbe757383b5f6d106d39b449ba1e976a5c8f4b80e59/audioalchemist-0.5.5.tar.gz
+[2024-05-23 04:15:05] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/94/8e/5c4057787bc78d3d2f776301fe1ca922ef2e9e8fbcbb32bcf6b6b02e634a/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-23 04:15:05] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-23 04:15:05] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.2-py3-none-any.whl.zip tmp/gwml-0.1.3-py3-none-any.whl.zip --markdown 20240523/g/gwml/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-23 04:15:05] INFO root fetch - processPackages [AudioAlchemist]: executing diffoscope
+[2024-05-23 04:15:05] INFO root fetch - processPackages [AudioAlchemist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioalchemist-0.5.0.tar.gz tmp/audioalchemist-0.5.5.tar.gz --markdown 20240523/A/AudioAlchemist/0.5.0-0.5.5/README.md --exclude *.pyd
+[2024-05-23 04:15:05] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-23 04:15:05] INFO root fetch - processPackages [djangorestframework-simple-apikey]: Downloading https://files.pythonhosted.org/packages/71/2f/13ce82e9934b4b24b1c7a918d298bf11f447e658b668f1e65d52ed090f2c/djangorestframework_simple_apikey-1.1.1.tar.gz
+[2024-05-23 04:15:05] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/6f/55/fbfbcf2fc2e6b3317f5941d5fc7dad52aea0c4861ed5fc966b0127b43cd7/launchflow-0.4.0.dev0.tar.gz
+[2024-05-23 04:15:05] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-23 04:15:05] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240523/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 04:15:05] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/89/87/b88cf64546e7bf9d9b2287c753d2bd975f6ad5ee878c6034391e31ff31e3/lsst_sphgeom-27.2024.2001.tar.gz
+[2024-05-23 04:15:05] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-05-23 04:15:05] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev8.tar.gz tmp/launchflow-0.4.0.dev0.tar.gz --markdown 20240523/l/launchflow/0.3.9.dev8-0.4.0.dev0/README.md --exclude *.pyd
+[2024-05-23 04:15:05] INFO root fetch - processPackages [djangorestframework-simple-apikey]: executing diffoscope
+[2024-05-23 04:15:05] INFO root fetch - processPackages [djangorestframework-simple-apikey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-simple-apikey-1.0.2.tar.gz tmp/djangorestframework_simple_apikey-1.1.1.tar.gz --markdown 20240523/d/djangorestframework-simple-apikey/1.0.2-1.1.1/README.md --exclude *.pyd
+[2024-05-23 04:15:05] INFO root fetch - processPackages [lsst-sphgeom]: executing diffoscope
+[2024-05-23 04:15:05] INFO root fetch - processPackages [lsst-sphgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl.zip tmp/lsst_sphgeom-27.2024.2001.tar.gz --markdown 20240523/l/lsst-sphgeom/27.2024.2000-27.2024.2001/README.md --exclude *.pyd
+[2024-05-23 04:15:05] INFO root fetch - processPackages [AudioAlchemist]: Remove: archive file [/home/abi/fetcher/tmp/audioalchemist-0.5.0.tar.gz]
+[2024-05-23 04:15:05] INFO root fetch - processPackages [AudioAlchemist]: Remove: archive file [/home/abi/fetcher/tmp/audioalchemist-0.5.5.tar.gz]
+[2024-05-23 04:15:05] INFO root fetch - main [MainThread]: End processing [AudioAlchemist]: success
+[2024-05-23 04:15:06] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.2-py3-none-any.whl.zip]
+[2024-05-23 04:15:06] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.3-py3-none-any.whl.zip]
+[2024-05-23 04:15:06] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-23 04:15:06] INFO root fetch - processPackages [djangorestframework-simple-apikey]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-simple-apikey-1.0.2.tar.gz]
+[2024-05-23 04:15:06] INFO root fetch - processPackages [djangorestframework-simple-apikey]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework_simple_apikey-1.1.1.tar.gz]
+[2024-05-23 04:15:06] INFO root fetch - main [MainThread]: End processing [djangorestframework-simple-apikey]: success
+[2024-05-23 04:15:06] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-05-23 04:15:06] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.4.0.dev0.tar.gz]
+[2024-05-23 04:15:06] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-05-23 04:15:06] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2000-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-23 04:15:06] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2001.tar.gz]
+[2024-05-23 04:15:06] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
+[2024-05-23 04:15:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-23 04:15:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-23 04:15:07] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-23 04:15:07] INFO root fetch - main [MainThread]: Store serial: [23336590]
