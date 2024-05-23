@@ -11134,3 +11134,51 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:41:03] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
 [2024-05-23 07:41:03] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2024-05-23 07:41:03] INFO root fetch - main [MainThread]: Store serial: [23338037]
+[2024-05-23 07:43:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338037]
+[2024-05-23 07:43:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 07:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-ai-summary
+[2024-05-23 07:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-server
+[2024-05-23 07:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmsPython
+[2024-05-23 07:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyclonedx-python-lib
+[2024-05-23 07:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-23 07:43:12] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-23 07:43:12] INFO root fetch - processPackages [mkdocs-ai-summary]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-23 07:43:12] INFO root fetch - processPackages [docmesh-server]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-23 07:43:12] INFO root fetch - processPackages [gmsPython]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 07:43:12] INFO root fetch - processPackages [mkdocs-ai-summary]: Downloading https://files.pythonhosted.org/packages/a2/86/b8a58e68154411376061aa0837d622a7f60f599ad02f7409fcedc7fef779/mkdocs_ai_summary-0.2.0.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/6c/05/5f50e9dd0f68b6949b2244acefd8c044ae8a59be541fba84a3a392f30857/duwi_smarthome_sdk_dev-0.1.2.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [cyclonedx-python-lib]: New version: [7.4.0] Old Version: [7.3.4]
+[2024-05-23 07:43:12] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/4e/50/ef5ff8db12bd0a0bea02860845717710f244c263322bd19106ce61e40c5f/docmesh_server-0.0.7.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [gmsPython]: Downloading https://files.pythonhosted.org/packages/af/1e/5da4ffd8f603b2a0ccba86c0a0a12e71fe723f11531e1beba1fd9de5399b/gmspython-0.1.1.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/47/7b/1132c1730c48a1371f2cf89ddffec7463c72f9818335cdb9650510789a80/cyclonedx_python_lib-7.3.4.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/8d/4c/bb2b14202867424201927fd61be0c84da1052dd2e8003e034e213620aa01/duwi_smarthome_sdk_dev-0.1.3.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [mkdocs-ai-summary]: Downloading https://files.pythonhosted.org/packages/c3/af/c5c1b51cb9dd1975d376df9d82753ec811a3985d746e52e1b6575ac447ab/mkdocs_ai_summary-0.2.1.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [mkdocs-ai-summary]: executing diffoscope
+[2024-05-23 07:43:12] INFO root fetch - processPackages [mkdocs-ai-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_ai_summary-0.2.0.tar.gz tmp/mkdocs_ai_summary-0.2.1.tar.gz --markdown 20240523/m/mkdocs-ai-summary/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-23 07:43:12] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-23 07:43:12] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.1.2.tar.gz tmp/duwi_smarthome_sdk_dev-0.1.3.tar.gz --markdown 20240523/d/duwi-smarthome-sdk-dev/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-23 07:43:12] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/fc/76/ee492e00e25ab8e40842eb0c6def2ceb5aa04bf4a8c103d0105039703eee/docmesh_server-0.0.8.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [gmsPython]: Downloading https://files.pythonhosted.org/packages/66/de/60cab5cac8d91067d58d4c6319315d1ae6dc871f59b320be1879d41fb5e5/gmspython-0.1.2.tar.gz
+[2024-05-23 07:43:12] INFO root fetch - processPackages [docmesh-server]: executing diffoscope
+[2024-05-23 07:43:12] INFO root fetch - processPackages [docmesh-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_server-0.0.7.tar.gz tmp/docmesh_server-0.0.8.tar.gz --markdown 20240523/d/docmesh-server/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-23 07:43:12] INFO root fetch - processPackages [gmsPython]: executing diffoscope
+[2024-05-23 07:43:12] INFO root fetch - processPackages [gmsPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmspython-0.1.1.tar.gz tmp/gmspython-0.1.2.tar.gz --markdown 20240523/g/gmsPython/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 07:43:13] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/6b/5b/c1183c027a637295287a4340c4dc7c67af3be9d1ddd4dd8cdd6efc60d3e7/cyclonedx_python_lib-7.4.0.tar.gz
+[2024-05-23 07:43:13] INFO root fetch - processPackages [gmsPython]: Remove: archive file [/home/abi/fetcher/tmp/gmspython-0.1.1.tar.gz]
+[2024-05-23 07:43:13] INFO root fetch - processPackages [gmsPython]: Remove: archive file [/home/abi/fetcher/tmp/gmspython-0.1.2.tar.gz]
+[2024-05-23 07:43:13] INFO root fetch - main [MainThread]: End processing [gmsPython]: success
+[2024-05-23 07:43:13] INFO root fetch - processPackages [mkdocs-ai-summary]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ai_summary-0.2.0.tar.gz]
+[2024-05-23 07:43:13] INFO root fetch - processPackages [mkdocs-ai-summary]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ai_summary-0.2.1.tar.gz]
+[2024-05-23 07:43:13] INFO root fetch - main [MainThread]: End processing [mkdocs-ai-summary]: success
+[2024-05-23 07:43:13] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.2.tar.gz]
+[2024-05-23 07:43:13] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.3.tar.gz]
+[2024-05-23 07:43:13] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-23 07:43:13] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.7.tar.gz]
+[2024-05-23 07:43:13] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.8.tar.gz]
+[2024-05-23 07:43:13] INFO root fetch - main [MainThread]: End processing [docmesh-server]: success
+[2024-05-23 07:43:14] INFO root fetch - processPackages [cyclonedx-python-lib]: executing diffoscope
+[2024-05-23 07:43:14] INFO root fetch - processPackages [cyclonedx-python-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_python_lib-7.3.4.tar.gz tmp/cyclonedx_python_lib-7.4.0.tar.gz --markdown 20240523/c/cyclonedx-python-lib/7.3.4-7.4.0/README.md --exclude *.pyd
+[2024-05-23 07:43:18] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.3.4.tar.gz]
+[2024-05-23 07:43:18] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.4.0.tar.gz]
+[2024-05-23 07:43:18] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
+[2024-05-23 07:43:18] INFO root fetch - main [MainThread]: Store serial: [23338095]
