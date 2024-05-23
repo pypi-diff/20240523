@@ -11463,3 +11463,76 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:01:10] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-23 08:01:10] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-23 08:01:10] INFO root fetch - main [MainThread]: Store serial: [23338220]
+[2024-05-23 08:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338220]
+[2024-05-23 08:03:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qibo-client
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlagEmbedding
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jfExt
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keyboardsounds
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aicli
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SeqBox
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jfExt
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cvscout
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypods
+[2024-05-23 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: manteia-qa-pylinac
+[2024-05-23 08:03:19] INFO root fetch - processPackages [FlagEmbedding]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-23 08:03:19] WARNING root fetch - processPackages [pypods]: Skipping, unable to determine old version
+[2024-05-23 08:03:19] INFO root fetch - main [MainThread]: End processing [pypods] error
+[2024-05-23 08:03:19] INFO root fetch - processPackages [aicli]: New version: [99.0.202405230600] Old Version: [99.0.202405221557]
+[2024-05-23 08:03:19] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 08:03:19] INFO root fetch - processPackages [qibo-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-23 08:03:19] INFO root fetch - processPackages [keyboardsounds]: New version: [5.7.6] Old Version: [5.7.5]
+[2024-05-23 08:03:19] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/04/30/f7b0ad557ba1e2ea3bc2562e705a17957cbc320059251b638190616503cf/aicli-99.0.202405221557-py3-none-any.whl
+[2024-05-23 08:03:19] WARNING root fetch - processPackages [SeqBox]: Skipping, unable to determine old version
+[2024-05-23 08:03:19] INFO root fetch - main [MainThread]: End processing [SeqBox] error
+[2024-05-23 08:03:19] WARNING root fetch - processPackages [cvscout]: Skipping, unable to determine old version
+[2024-05-23 08:03:19] INFO root fetch - main [MainThread]: End processing [cvscout] error
+[2024-05-23 08:03:19] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 08:03:19] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 08:03:19] INFO root fetch - processPackages [manteia-qa-pylinac]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-23 08:03:19] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 08:03:19] INFO root fetch - processPackages [FlagEmbedding]: Downloading https://files.pythonhosted.org/packages/fe/c9/faed3224f41a28f137b18034148f69baef25d2e55063213c31fe30496ce6/FlagEmbedding-1.2.8.tar.gz
+[2024-05-23 08:03:19] INFO root fetch - processPackages [qibo-client]: Downloading https://files.pythonhosted.org/packages/31/ff/6b1c3cfde1b6d7ec50d4c07463128f68b36df2886115436636dc1c52cf43/qibo_client-0.0.4.tar.gz
+[2024-05-23 08:03:19] INFO root fetch - processPackages [keyboardsounds]: Downloading https://files.pythonhosted.org/packages/66/ee/f11d3d47e292b8e58e87da516a411582756bacfc57b73d54bee912ceef9a/keyboardsounds-5.7.5.tar.gz
+[2024-05-23 08:03:19] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 08:03:20] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/49/8c/04feb2b3185531793a1fccb189e6d0ef8b8d009ed400fb87a76bb72a87db/aicli-99.0.202405230600-py3-none-any.whl
+[2024-05-23 08:03:20] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 08:03:20] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/eb/70/d70f6dcfba8ae285426144c4d087bae29c93107adf95add82d2ebc4ec04b/manteia_qa_pylinac-1.2.3.tar.gz
+[2024-05-23 08:03:20] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 08:03:20] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 08:03:20] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 08:03:20] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 08:03:20] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2024-05-23 08:03:20] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202405221557-py3-none-any.whl.zip tmp/aicli-99.0.202405230600-py3-none-any.whl.zip --markdown 20240523/a/aicli/99.0.202405221557-99.0.202405230600/README.md --exclude *.pyd
+[2024-05-23 08:03:20] INFO root fetch - processPackages [FlagEmbedding]: Downloading https://files.pythonhosted.org/packages/bd/d3/7c5d6e5bce1a4d537d860373a1b495239761160da895c1face3bced89e5c/FlagEmbedding-1.2.9.tar.gz
+[2024-05-23 08:03:20] INFO root fetch - processPackages [qibo-client]: Downloading https://files.pythonhosted.org/packages/fe/fc/eddd9bd17f4bd3c9809059bc6572a015fbcd6074586e2b051f2cd90670be/qibo_client-0.0.5.tar.gz
+[2024-05-23 08:03:20] INFO root fetch - processPackages [FlagEmbedding]: executing diffoscope
+[2024-05-23 08:03:20] INFO root fetch - processPackages [FlagEmbedding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlagEmbedding-1.2.8.tar.gz tmp/FlagEmbedding-1.2.9.tar.gz --markdown 20240523/F/FlagEmbedding/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-23 08:03:20] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/a6/13/b6f4783d402dbfa617498f621e7cb09f99b84bad5864a920c73c671f3a4c/manteia_qa_pylinac-1.2.4-py3-none-any.whl
+[2024-05-23 08:03:20] INFO root fetch - processPackages [keyboardsounds]: Downloading https://files.pythonhosted.org/packages/0f/4b/e4d7735bfcf0654d57f7362d782bd5796c46e6f7a5ae8e1298c24d9fba38/keyboardsounds-5.7.6.tar.gz
+[2024-05-23 08:03:20] INFO root fetch - processPackages [qibo-client]: executing diffoscope
+[2024-05-23 08:03:20] INFO root fetch - processPackages [qibo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibo_client-0.0.4.tar.gz tmp/qibo_client-0.0.5.tar.gz --markdown 20240523/q/qibo-client/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-23 08:03:20] INFO root fetch - processPackages [keyboardsounds]: executing diffoscope
+[2024-05-23 08:03:20] INFO root fetch - processPackages [keyboardsounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyboardsounds-5.7.5.tar.gz tmp/keyboardsounds-5.7.6.tar.gz --markdown 20240523/k/keyboardsounds/5.7.5-5.7.6/README.md --exclude *.pyd
+[2024-05-23 08:03:20] INFO root fetch - processPackages [manteia-qa-pylinac]: executing diffoscope
+[2024-05-23 08:03:20] INFO root fetch - processPackages [manteia-qa-pylinac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manteia_qa_pylinac-1.2.3.tar.gz tmp/manteia_qa_pylinac-1.2.4-py3-none-any.whl.zip --markdown 20240523/m/manteia-qa-pylinac/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-23 08:03:20] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 08:03:20] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 08:03:20] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 08:03:21] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405221557-py3-none-any.whl.zip]
+[2024-05-23 08:03:21] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405230600-py3-none-any.whl.zip]
+[2024-05-23 08:03:21] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2024-05-23 08:03:21] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 08:03:21] INFO root fetch - processPackages [qibo-client]: Remove: archive file [/home/abi/fetcher/tmp/qibo_client-0.0.4.tar.gz]
+[2024-05-23 08:03:21] INFO root fetch - processPackages [qibo-client]: Remove: archive file [/home/abi/fetcher/tmp/qibo_client-0.0.5.tar.gz]
+[2024-05-23 08:03:21] INFO root fetch - main [MainThread]: End processing [qibo-client]: success
+[2024-05-23 08:03:21] INFO root fetch - processPackages [FlagEmbedding]: Remove: archive file [/home/abi/fetcher/tmp/FlagEmbedding-1.2.8.tar.gz]
+[2024-05-23 08:03:21] INFO root fetch - processPackages [FlagEmbedding]: Remove: archive file [/home/abi/fetcher/tmp/FlagEmbedding-1.2.9.tar.gz]
+[2024-05-23 08:03:21] INFO root fetch - main [MainThread]: End processing [FlagEmbedding]: success
+[2024-05-23 08:03:21] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.3.tar.gz]
+[2024-05-23 08:03:21] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.4-py3-none-any.whl.zip]
+[2024-05-23 08:03:21] INFO root fetch - main [MainThread]: End processing [manteia-qa-pylinac]: success
+[2024-05-23 08:03:21] INFO root fetch - processPackages [keyboardsounds]: Remove: archive file [/home/abi/fetcher/tmp/keyboardsounds-5.7.5.tar.gz]
+[2024-05-23 08:03:21] INFO root fetch - processPackages [keyboardsounds]: Remove: archive file [/home/abi/fetcher/tmp/keyboardsounds-5.7.6.tar.gz]
+[2024-05-23 08:03:21] INFO root fetch - main [MainThread]: End processing [keyboardsounds]: success
+[2024-05-23 08:03:21] INFO root fetch - main [MainThread]: Store serial: [23338255]
