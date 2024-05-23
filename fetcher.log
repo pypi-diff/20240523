@@ -10985,3 +10985,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:31:56] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.9.tar.gz]
 [2024-05-23 07:31:56] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-05-23 07:31:56] INFO root fetch - main [MainThread]: Store serial: [23337982]
+[2024-05-23 07:34:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337982]
+[2024-05-23 07:34:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-23 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fudstop
+[2024-05-23 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-test-common
+[2024-05-23 07:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-mysql-local
+[2024-05-23 07:34:05] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.316] Old Version: [0.0.315]
+[2024-05-23 07:34:05] INFO root fetch - processPackages [fudstop]: New version: [2.7.0] Old Version: [2.6.9]
+[2024-05-23 07:34:05] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-23 07:34:05] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/55/26/b6ec6559734c1c8543169cec69c16a9039cf7bdaa2b30d62a4ef1e091d47/fudstop-2.6.9.tar.gz
+[2024-05-23 07:34:05] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/d1/bc/369ce843f7932f7fb5c6e91350c6648b515cb7675a131a40d0a5519ca1c3/database_mysql_local-0.0.315.tar.gz
+[2024-05-23 07:34:05] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/07/44/abeda499183d94a9cb8f98ee9c2bed1985fcece6c26cc9afe0fad8e004aa/auto-test-common-2.0.8.tar.gz
+[2024-05-23 07:34:05] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/de/a7/761a95f359393536db45c2f6876b665b064bdd864bfec6727ae361600192/database_mysql_local-0.0.316.tar.gz
+[2024-05-23 07:34:05] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/a3/2a/9bd7fc8813d57db35ffe6a426c32246ab3756431fa3ad5fd44e22095a16e/fudstop-2.7.0.tar.gz
+[2024-05-23 07:34:06] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/4b/d9/45b8e5de52b2857ca21235c1c40feeefd0eac18ec1e4533427d05525845b/auto-test-common-2.0.9.tar.gz
+[2024-05-23 07:34:06] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-23 07:34:06] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.315.tar.gz tmp/database_mysql_local-0.0.316.tar.gz --markdown 20240523/d/database-mysql-local/0.0.315-0.0.316/README.md --exclude *.pyd
+[2024-05-23 07:34:06] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-23 07:34:06] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.9.tar.gz tmp/fudstop-2.7.0.tar.gz --markdown 20240523/f/fudstop/2.6.9-2.7.0/README.md --exclude *.pyd
+[2024-05-23 07:34:06] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-05-23 07:34:06] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.8.tar.gz tmp/auto-test-common-2.0.9.tar.gz --markdown 20240523/a/auto-test-common/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-23 07:34:06] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.8.tar.gz]
+[2024-05-23 07:34:06] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.9.tar.gz]
+[2024-05-23 07:34:06] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-05-23 07:34:06] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.315.tar.gz]
+[2024-05-23 07:34:06] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.316.tar.gz]
+[2024-05-23 07:34:06] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-23 07:34:07] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.9.tar.gz]
+[2024-05-23 07:34:07] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.0.tar.gz]
+[2024-05-23 07:34:07] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-23 07:34:07] INFO root fetch - main [MainThread]: Store serial: [23337990]
