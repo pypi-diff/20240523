@@ -1,9 +1,9 @@
-# Comparing `tmp/supy-2024.3.25.dev0-cp39-cp39-win_amd64.whl.zip` & `tmp/supy-2024.5.23.dev0-cp312-cp312-win_amd64.whl.zip`
+# Comparing `tmp/supy-2024.3.25.dev0-cp39-cp39-win_amd64.whl.zip` & `tmp/supy-2024.5.23.dev0-cp39-cp39-win_amd64.whl.zip`
 
 ## zipinfo {}
 
 ```diff
-@@ -1,77 +1,75 @@
+@@ -1,77 +1,76 @@
 -Zip file size: 2748707 bytes, number of entries: 75
 -drwxrwxrwx  2.0 fat        0 b- stor 24-Mar-25 14:44 supy/
 -drwxrwxrwx  2.0 fat        0 b- stor 24-Mar-25 14:44 supy-2024.3.25.dev0.dist-info/
@@ -79,82 +79,83 @@
 --rw-rw-rw-  2.0 fat      156 b- defN 24-Mar-25 14:44 supy.libs/.load-order-supy-2024.3.25.dev0
 --rw-rw-rw-  2.0 fat    76288 b- defN 24-Mar-25 14:44 supy.libs/libgcc_s_seh-1-f6e0ab6be2dde6053db4804c95dcaa46.dll
 --rw-rw-rw-  2.0 fat   334848 b- defN 24-Mar-25 14:44 supy.libs/libquadmath-0-5aa06ca41866b48939c4245c01d14201.dll
-+Zip file size: 2382105 bytes, number of entries: 73
-+drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 09:23 supy/
-+drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 09:23 supy-2024.5.23.dev0.dist-info/
-+drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 09:23 supy.libs/
-+drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 09:23 supy/cmd/
-+drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 09:23 supy/sample_run/
-+drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 09:23 supy/util/
-+-rw-rw-rw-  2.0 fat    44612 b- defN 24-May-23 09:23 supy/checker_rules_indiv.json
-+-rw-rw-rw-  2.0 fat      472 b- defN 24-May-23 09:23 supy/checker_rules_joint.json
-+-rw-rw-rw-  2.0 fat     7654 b- defN 24-May-23 09:23 supy/code2file.json
-+-rw-rw-rw-  2.0 fat   800267 b- defN 24-May-23 09:23 supy/supy_driver.py
-+-rw-rw-rw-  2.0 fat    20536 b- defN 24-May-23 09:23 supy/var2siteselect.json
-+-rw-rw-rw-  2.0 fat    15327 b- defN 24-May-23 09:23 supy/_check.py
-+-rw-rw-rw-  2.0 fat     2071 b- defN 24-May-23 09:23 supy/_env.py
-+-rw-rw-rw-  2.0 fat    66377 b- defN 24-May-23 09:23 supy/_load.py
-+-rw-rw-rw-  2.0 fat     2771 b- defN 24-May-23 09:23 supy/_misc.py
-+-rw-rw-rw-  2.0 fat     8114 b- defN 24-May-23 09:23 supy/_post.py
-+-rw-rw-rw-  2.0 fat    19376 b- defN 24-May-23 09:23 supy/_run.py
-+-rw-rw-rw-  2.0 fat    19197 b- defN 24-May-23 09:23 supy/_save.py
-+-rw-rw-rw-  2.0 fat     1608 b- defN 24-May-23 09:23 supy/_supy_driver.cp312-win_amd64.dll.a
-+-rw-rw-rw-  2.0 fat  8337359 b- defN 24-May-23 09:23 supy/_supy_driver.cp312-win_amd64.pyd
-+-rw-rw-rw-  2.0 fat      639 b- defN 24-May-23 09:23 supy/_supy_driver_wrapper.py
-+-rw-rw-rw-  2.0 fat    18141 b- defN 24-May-23 09:23 supy/_supy_module.py
-+-rw-rw-rw-  2.0 fat     1997 b- defN 24-May-23 09:23 supy/_version.py
-+-rw-rw-rw-  2.0 fat      185 b- defN 24-May-23 09:23 supy/_version_scm.py
-+-rw-rw-rw-  2.0 fat     1356 b- defN 24-May-23 09:23 supy/__init__.py
-+-rw-rw-rw-  2.0 fat     4488 b- defN 24-May-23 09:23 supy/cmd/SUEWS.py
-+-rw-rw-rw-  2.0 fat     1347 b- defN 24-May-23 09:23 supy/cmd/table_converter.py
-+-rw-rw-rw-  2.0 fat       74 b- defN 24-May-23 09:23 supy/cmd/__init__.py
-+drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 09:23 supy/sample_run/Input/
-+-rw-rw-rw-  2.0 fat      969 b- defN 24-May-23 09:23 supy/sample_run/RunControl.nml
-+-rw-rw-rw-  2.0 fat      278 b- defN 24-May-23 09:23 supy/sample_run/Input/ESTMinput.nml
-+-rw-rw-rw-  2.0 fat     2736 b- defN 24-May-23 09:23 supy/sample_run/Input/GridLayoutKc.nml
-+-rw-rw-rw-  2.0 fat      857 b- defN 24-May-23 09:23 supy/sample_run/Input/InitialConditionsKc_2011.nml
-+-rw-rw-rw-  2.0 fat  1115676 b- defN 24-May-23 09:23 supy/sample_run/Input/Kc_2012_data_60.txt
-+-rw-rw-rw-  2.0 fat     6296 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_AnthropogenicEmission.txt
-+-rw-rw-rw-  2.0 fat      845 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_BiogenCO2.txt
-+-rw-rw-rw-  2.0 fat      460 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_Conductance.txt
-+-rw-rw-rw-  2.0 fat    12795 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_ESTMCoefficients.txt
-+-rw-rw-rw-  2.0 fat     1826 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_Irrigation.txt
-+-rw-rw-rw-  2.0 fat     3366 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_NonVeg.txt
-+-rw-rw-rw-  2.0 fat     6674 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_OHMCoefficients.txt
-+-rw-rw-rw-  2.0 fat     4944 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_Profiles.txt
-+-rw-rw-rw-  2.0 fat     4647 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_SiteSelect.txt
-+-rw-rw-rw-  2.0 fat     1672 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_Snow.txt
-+-rw-rw-rw-  2.0 fat     1901 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_Soil.txt
-+-rw-rw-rw-  2.0 fat      425 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_SPARTACUS.nml
-+-rw-rw-rw-  2.0 fat     6147 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_Veg.txt
-+-rw-rw-rw-  2.0 fat     1526 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_Water.txt
-+-rw-rw-rw-  2.0 fat     2459 b- defN 24-May-23 09:23 supy/sample_run/Input/SUEWS_WithinGridWaterDist.txt
-+-rw-rw-rw-  2.0 fat    12812 b- defN 24-May-23 09:23 supy/util/rules.csv
-+-rw-rw-rw-  2.0 fat     9211 b- defN 24-May-23 09:23 supy/util/_atm.py
-+-rw-rw-rw-  2.0 fat    15590 b- defN 24-May-23 09:23 supy/util/_converter.py
-+-rw-rw-rw-  2.0 fat     6619 b- defN 24-May-23 09:23 supy/util/_debug.py
-+-rw-rw-rw-  2.0 fat    38856 b- defN 24-May-23 09:23 supy/util/_era5.py
-+-rw-rw-rw-  2.0 fat     9478 b- defN 24-May-23 09:23 supy/util/_gap_filler.py
-+-rw-rw-rw-  2.0 fat    21137 b- defN 24-May-23 09:23 supy/util/_gs.py
-+-rw-rw-rw-  2.0 fat     2216 b- defN 24-May-23 09:23 supy/util/_io.py
-+-rw-rw-rw-  2.0 fat     6246 b- defN 24-May-23 09:23 supy/util/_ohm.py
-+-rw-rw-rw-  2.0 fat    12662 b- defN 24-May-23 09:23 supy/util/_plot.py
-+-rw-rw-rw-  2.0 fat     7608 b- defN 24-May-23 09:23 supy/util/_roughness.py
-+-rw-rw-rw-  2.0 fat     4710 b- defN 24-May-23 09:23 supy/util/_spinup.py
-+-rw-rw-rw-  2.0 fat    16446 b- defN 24-May-23 09:23 supy/util/_tmy.py
-+-rw-rw-rw-  2.0 fat     8693 b- defN 24-May-23 09:23 supy/util/_UMEP2epw.py
-+-rw-rw-rw-  2.0 fat     7065 b- defN 24-May-23 09:23 supy/util/_wrf.py
-+-rw-rw-rw-  2.0 fat     1068 b- defN 24-May-23 09:23 supy/util/__init__.py
-+-rw-rw-rw-  2.0 fat      405 b- defN 24-May-23 09:23 supy-2024.5.23.dev0.dist-info/DELVEWHEEL
-+-rw-rw-rw-  2.0 fat      111 b- defN 24-May-23 09:23 supy-2024.5.23.dev0.dist-info/entry_points.txt
-+-rw-rw-rw-  2.0 fat     9291 b- defN 24-May-23 09:23 supy-2024.5.23.dev0.dist-info/METADATA
-+-rw-rw-rw-  2.0 fat     5678 b- defN 24-May-23 09:23 supy-2024.5.23.dev0.dist-info/RECORD
-+-rw-rw-rw-  2.0 fat       85 b- defN 24-May-23 09:23 supy-2024.5.23.dev0.dist-info/WHEEL
-+-rw-rw-rw-  2.0 fat    76288 b- defN 24-May-23 09:23 supy.libs/libgcc_s_seh-1-f6e0ab6be2dde6053db4804c95dcaa46.dll
-+-rw-rw-rw-  2.0 fat   334848 b- defN 24-May-23 09:23 supy.libs/libquadmath-0-5aa06ca41866b48939c4245c01d14201.dll
++Zip file size: 2369551 bytes, number of entries: 74
++drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 19:37 supy/
++drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 19:37 supy-2024.5.23.dev0.dist-info/
++drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 19:37 supy.libs/
++drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 19:37 supy/cmd/
++drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 19:37 supy/sample_run/
++drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 19:37 supy/util/
++-rw-rw-rw-  2.0 fat    44612 b- defN 24-May-23 19:37 supy/checker_rules_indiv.json
++-rw-rw-rw-  2.0 fat      472 b- defN 24-May-23 19:37 supy/checker_rules_joint.json
++-rw-rw-rw-  2.0 fat     7654 b- defN 24-May-23 19:37 supy/code2file.json
++-rw-rw-rw-  2.0 fat   800267 b- defN 24-May-23 19:37 supy/supy_driver.py
++-rw-rw-rw-  2.0 fat    20536 b- defN 24-May-23 19:37 supy/var2siteselect.json
++-rw-rw-rw-  2.0 fat    15327 b- defN 24-May-23 19:37 supy/_check.py
++-rw-rw-rw-  2.0 fat     2071 b- defN 24-May-23 19:37 supy/_env.py
++-rw-rw-rw-  2.0 fat    66678 b- defN 24-May-23 19:37 supy/_load.py
++-rw-rw-rw-  2.0 fat     2771 b- defN 24-May-23 19:37 supy/_misc.py
++-rw-rw-rw-  2.0 fat     8114 b- defN 24-May-23 19:37 supy/_post.py
++-rw-rw-rw-  2.0 fat    19376 b- defN 24-May-23 19:37 supy/_run.py
++-rw-rw-rw-  2.0 fat    19197 b- defN 24-May-23 19:37 supy/_save.py
++-rw-rw-rw-  2.0 fat     1596 b- defN 24-May-23 19:37 supy/_supy_driver.cp39-win_amd64.dll.a
++-rw-rw-rw-  2.0 fat  8232742 b- defN 24-May-23 19:37 supy/_supy_driver.cp39-win_amd64.pyd
++-rw-rw-rw-  2.0 fat      639 b- defN 24-May-23 19:37 supy/_supy_driver_wrapper.py
++-rw-rw-rw-  2.0 fat    18141 b- defN 24-May-23 19:37 supy/_supy_module.py
++-rw-rw-rw-  2.0 fat     1997 b- defN 24-May-23 19:37 supy/_version.py
++-rw-rw-rw-  2.0 fat      185 b- defN 24-May-23 19:37 supy/_version_scm.py
++-rw-rw-rw-  2.0 fat     2400 b- defN 24-May-23 19:37 supy/__init__.py
++-rw-rw-rw-  2.0 fat     4488 b- defN 24-May-23 19:37 supy/cmd/SUEWS.py
++-rw-rw-rw-  2.0 fat     1347 b- defN 24-May-23 19:37 supy/cmd/table_converter.py
++-rw-rw-rw-  2.0 fat       74 b- defN 24-May-23 19:37 supy/cmd/__init__.py
++drwxrwxrwx  2.0 fat        0 b- stor 24-May-23 19:37 supy/sample_run/Input/
++-rw-rw-rw-  2.0 fat      969 b- defN 24-May-23 19:37 supy/sample_run/RunControl.nml
++-rw-rw-rw-  2.0 fat      278 b- defN 24-May-23 19:37 supy/sample_run/Input/ESTMinput.nml
++-rw-rw-rw-  2.0 fat     2736 b- defN 24-May-23 19:37 supy/sample_run/Input/GridLayoutKc.nml
++-rw-rw-rw-  2.0 fat      857 b- defN 24-May-23 19:37 supy/sample_run/Input/InitialConditionsKc_2011.nml
++-rw-rw-rw-  2.0 fat  1115676 b- defN 24-May-23 19:37 supy/sample_run/Input/Kc_2012_data_60.txt
++-rw-rw-rw-  2.0 fat     6296 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_AnthropogenicEmission.txt
++-rw-rw-rw-  2.0 fat      845 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_BiogenCO2.txt
++-rw-rw-rw-  2.0 fat      460 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_Conductance.txt
++-rw-rw-rw-  2.0 fat    12795 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_ESTMCoefficients.txt
++-rw-rw-rw-  2.0 fat     1826 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_Irrigation.txt
++-rw-rw-rw-  2.0 fat     3366 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_NonVeg.txt
++-rw-rw-rw-  2.0 fat     6674 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_OHMCoefficients.txt
++-rw-rw-rw-  2.0 fat     4944 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_Profiles.txt
++-rw-rw-rw-  2.0 fat     4647 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_SiteSelect.txt
++-rw-rw-rw-  2.0 fat     1672 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_Snow.txt
++-rw-rw-rw-  2.0 fat     1901 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_Soil.txt
++-rw-rw-rw-  2.0 fat      425 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_SPARTACUS.nml
++-rw-rw-rw-  2.0 fat     6147 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_Veg.txt
++-rw-rw-rw-  2.0 fat     1526 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_Water.txt
++-rw-rw-rw-  2.0 fat     2459 b- defN 24-May-23 19:37 supy/sample_run/Input/SUEWS_WithinGridWaterDist.txt
++-rw-rw-rw-  2.0 fat    12812 b- defN 24-May-23 19:37 supy/util/rules.csv
++-rw-rw-rw-  2.0 fat     9211 b- defN 24-May-23 19:37 supy/util/_atm.py
++-rw-rw-rw-  2.0 fat    15590 b- defN 24-May-23 19:37 supy/util/_converter.py
++-rw-rw-rw-  2.0 fat     6619 b- defN 24-May-23 19:37 supy/util/_debug.py
++-rw-rw-rw-  2.0 fat    38856 b- defN 24-May-23 19:37 supy/util/_era5.py
++-rw-rw-rw-  2.0 fat     9478 b- defN 24-May-23 19:37 supy/util/_gap_filler.py
++-rw-rw-rw-  2.0 fat    21137 b- defN 24-May-23 19:37 supy/util/_gs.py
++-rw-rw-rw-  2.0 fat     2216 b- defN 24-May-23 19:37 supy/util/_io.py
++-rw-rw-rw-  2.0 fat     6246 b- defN 24-May-23 19:37 supy/util/_ohm.py
++-rw-rw-rw-  2.0 fat    12662 b- defN 24-May-23 19:37 supy/util/_plot.py
++-rw-rw-rw-  2.0 fat     7608 b- defN 24-May-23 19:37 supy/util/_roughness.py
++-rw-rw-rw-  2.0 fat     4710 b- defN 24-May-23 19:37 supy/util/_spinup.py
++-rw-rw-rw-  2.0 fat    16446 b- defN 24-May-23 19:37 supy/util/_tmy.py
++-rw-rw-rw-  2.0 fat     8693 b- defN 24-May-23 19:37 supy/util/_UMEP2epw.py
++-rw-rw-rw-  2.0 fat     7065 b- defN 24-May-23 19:37 supy/util/_wrf.py
++-rw-rw-rw-  2.0 fat     1068 b- defN 24-May-23 19:37 supy/util/__init__.py
++-rw-rw-rw-  2.0 fat      400 b- defN 24-May-23 19:37 supy-2024.5.23.dev0.dist-info/DELVEWHEEL
++-rw-rw-rw-  2.0 fat      111 b- defN 24-May-23 19:37 supy-2024.5.23.dev0.dist-info/entry_points.txt
++-rw-rw-rw-  2.0 fat     9291 b- defN 24-May-23 19:37 supy-2024.5.23.dev0.dist-info/METADATA
++-rw-rw-rw-  2.0 fat     5773 b- defN 24-May-23 19:37 supy-2024.5.23.dev0.dist-info/RECORD
++-rw-rw-rw-  2.0 fat       83 b- defN 24-May-23 19:37 supy-2024.5.23.dev0.dist-info/WHEEL
++-rw-rw-rw-  2.0 fat      156 b- defN 24-May-23 19:37 supy.libs/.load-order-supy-2024.5.23.dev0
++-rw-rw-rw-  2.0 fat    76288 b- defN 24-May-23 19:37 supy.libs/libgcc_s_seh-1-f6e0ab6be2dde6053db4804c95dcaa46.dll
++-rw-rw-rw-  2.0 fat   334848 b- defN 24-May-23 19:37 supy.libs/libquadmath-0-5aa06ca41866b48939c4245c01d14201.dll
  -rw-rw-rw-  2.0 fat    52224 b- defN 18-May-12 06:11 supy.libs/libwinpthread-1-098af1964af4eca44ab00abcd7bca59f.dll
 -75 files, 13450198 bytes uncompressed, 2738693 bytes compressed:  79.6%
-+73 files, 11209814 bytes uncompressed, 2372413 bytes compressed:  78.8%
++74 files, 11106774 bytes uncompressed, 2359705 bytes compressed:  78.8%
 ```
 
 ## zipnote {}
@@ -173,7 +174,7 @@
  
  Filename: supy/cmd/
  Comment: 
-@@ -48,15 +48,18 @@
+@@ -48,14 +48,17 @@
  
  Filename: supy/_run.py
  Comment: 
@@ -181,18 +182,16 @@
  Filename: supy/_save.py
  Comment: 
  
--Filename: supy/_supy_driver.cp39-win_amd64.pyd
-+Filename: supy/_supy_driver.cp312-win_amd64.dll.a
++Filename: supy/_supy_driver.cp39-win_amd64.dll.a
 +Comment: 
 +
-+Filename: supy/_supy_driver.cp312-win_amd64.pyd
+ Filename: supy/_supy_driver.cp39-win_amd64.pyd
  Comment: 
  
  Filename: supy/_supy_driver_wrapper.py
  Comment: 
  
  Filename: supy/_supy_module.py
- Comment: 
 @@ -90,17 +93,14 @@
  
  Filename: supy/sample_run/Input/GridLayoutKc.nml
@@ -211,7 +210,7 @@
  Comment: 
  
  Filename: supy/sample_run/Input/SUEWS_BiogenCO2.txt
-@@ -189,33 +189,27 @@
+@@ -189,33 +189,30 @@
  
  Filename: supy/util/_wrf.py
  Comment: 
@@ -223,26 +222,27 @@
 -Comment: 
 -
 -Filename: supy-2024.3.25.dev0.dist-info/entry_points.txt
--Comment: 
--
--Filename: supy-2024.3.25.dev0.dist-info/METADATA
 +Filename: supy-2024.5.23.dev0.dist-info/DELVEWHEEL
  Comment: 
  
--Filename: supy-2024.3.25.dev0.dist-info/RECORD
+-Filename: supy-2024.3.25.dev0.dist-info/METADATA
 +Filename: supy-2024.5.23.dev0.dist-info/entry_points.txt
  Comment: 
  
--Filename: supy-2024.3.25.dev0.dist-info/top_level.txt
+-Filename: supy-2024.3.25.dev0.dist-info/RECORD
 +Filename: supy-2024.5.23.dev0.dist-info/METADATA
  Comment: 
  
--Filename: supy-2024.3.25.dev0.dist-info/WHEEL
+-Filename: supy-2024.3.25.dev0.dist-info/top_level.txt
 +Filename: supy-2024.5.23.dev0.dist-info/RECORD
  Comment: 
  
--Filename: supy.libs/.load-order-supy-2024.3.25.dev0
+-Filename: supy-2024.3.25.dev0.dist-info/WHEEL
 +Filename: supy-2024.5.23.dev0.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: supy.libs/.load-order-supy-2024.3.25.dev0
++Filename: supy.libs/.load-order-supy-2024.5.23.dev0
  Comment: 
  
  Filename: supy.libs/libgcc_s_seh-1-f6e0ab6be2dde6053db4804c95dcaa46.dll
@@ -17700,7 +17700,7 @@
 ## supy/_load.py
 
 ```diff
-@@ -3,30 +3,28 @@
+@@ -3,30 +3,36 @@
  from pathlib import Path
  
  import f90nml
@@ -17712,6 +17712,10 @@
 -# from ._supy_driver_wrapper import suews_driver as sd
 +from pathlib import Path
 +
++import pandas as pd
++from packaging import version
++
++
  from . import _supy_driver as _sd
 +from . import supy_driver as sd
 +
@@ -17722,7 +17726,10 @@
 -# print("Loading supy module ...")
 -# print(dir(sd))
 -# print(sd.f90wrap_suews_cal_main.__doc__)
--
++# choose different second representation to accommodate different pandas versions
++# pandas version <1.5
++str_second = "S" if version.parse(pd.__version__) < version.parse("1.5.0") else "s"
+ 
  
  ########################################################################
  # get_args_suews can get the interface information
@@ -17736,7 +17743,7 @@
  
      return dict_inout_sd
  
-@@ -74,15 +72,15 @@
+@@ -74,15 +80,15 @@
      return dict_inout_sd
  
  
@@ -17753,7 +17760,7 @@
      return dict_inout_sd
  
  
-@@ -143,16 +141,16 @@
+@@ -143,16 +149,16 @@
  # https://suews.readthedocs.io/en/latest/input_files/SUEWS_SiteInfo/SUEWS_SiteInfo.html
  path_code2file = trv_supy_module.joinpath("code2file.json")
  dict_Code2File = pd.read_json(
@@ -17771,7 +17778,7 @@
      convert_dates=False,
  ).to_dict()
  
-@@ -233,18 +231,18 @@
+@@ -233,18 +239,18 @@
      dict_info = {var: extract_var_info(var, dict_info) for var in dict_info}
      df_info = pd.DataFrame(dict_info).T
      return df_info
@@ -17792,7 +17799,7 @@
      how="outer",
  )
  df_var_info = df_var_info.set_index("name")
-@@ -298,15 +296,15 @@
+@@ -298,15 +304,15 @@
          logger_supy.exception(f"{path_file} does not exists!")
      else:
          # fileX = path_insensitive(fileX)
@@ -17809,7 +17816,7 @@
                  index_col=0,
              )
              rawdata = rawdata.dropna()
-@@ -487,15 +485,17 @@
+@@ -487,15 +493,17 @@
  
  # resample solar radiation by zenith correction and total amount distribution
  def resample_kdn(data_raw_kdn, tstep_mod, timezone, lat, lon, alt):
@@ -17828,7 +17835,24 @@
      sol_elev_reset[sol_elev <= 90] = 1.0
      data_tstep_kdn_adj = sol_elev_reset * data_raw_kdn.copy()
  
-@@ -523,73 +523,72 @@
+@@ -505,15 +513,15 @@
+     # calculate rescaling ratio
+     ratio_SWdown = avg_raw / avg_tstep
+     # replace nan with zero as `avg_tstep` might be zero if incomplete days included
+     ratio_SWdown = ratio_SWdown.fillna(0)
+     # conform to `avg_tstep` index for actual days used
+     ratio_SWdown = ratio_SWdown.reindex(index=avg_tstep.index)
+     # resample into `tstep_mod` steps
+-    ratio_SWdown = ratio_SWdown.resample(f"{tstep_mod}S").mean()
++    ratio_SWdown = ratio_SWdown.resample(f"{tstep_mod}{str_second}").mean()
+     # fill nan as the above resample will place valid values at the daily start
+     ratio_SWdown = ratio_SWdown.fillna(method="pad")
+     # conform to `data_tstep_kdn_adj` index for actual period used
+     ratio_SWdown = ratio_SWdown.reindex(index=data_tstep_kdn_adj.index)
+     # fill nan as the above resample will place valid values at the daily start
+     ratio_SWdown = ratio_SWdown.fillna(method="pad")
+     # rescale daily amounts
+@@ -523,73 +531,74 @@
      return data_tstep_kdn_adj
  
  
@@ -17840,7 +17864,7 @@
 -    ).resample("{tstep}S".format(tstep=tstep_mod)).mean().interpolate(
 +        -tstep_in + tstep_mod,
 +        freq="s",
-+    ).resample("{tstep}s".format(tstep=tstep_mod)).mean().interpolate(
++    ).resample(f"{tstep_mod}{str_second}").mean().interpolate(
          method="polynomial", order=0
      )
      # assign a new start with nan
@@ -17852,7 +17876,7 @@
 -    data_tstep_precip_adj = data_tstep_precip_adj.asfreq(
 -        "{tstep}S".format(tstep=tstep_mod)
 -    )
-+    data_tstep_precip_adj = data_tstep_precip_adj.asfreq(f"{tstep_mod}s")
++    data_tstep_precip_adj = data_tstep_precip_adj.asfreq(f"{tstep_mod}{str_second}")
      data_tstep_precip_adj = data_tstep_precip_adj.fillna(value=0.0)
      return data_tstep_precip_adj
  
@@ -17873,7 +17897,9 @@
      # re-align the index so after resampling we can have filled heading part
      data_raw_tstep = data_raw_tstep.sort_index()
 -    data_raw_tstep = data_raw_tstep.asfreq(f"{tstep_mod}S").interpolate(method="linear")
-+    data_raw_tstep = data_raw_tstep.asfreq(f"{tstep_mod}s").interpolate(method="linear")
++    data_raw_tstep = data_raw_tstep.asfreq(f"{tstep_mod}{str_second}").interpolate(
++        method="linear"
++    )
      # fill gaps with valid values
      data_tstep = data_raw_tstep.copy().bfill().ffill().dropna(how="all")
  
@@ -17903,7 +17929,7 @@
  
      # get proper timestamps for filling up
 -    data_tstep = data_raw_tstep.asfreq(f"{tstep_mod}S")
-+    data_tstep = data_raw_tstep.asfreq(f"{tstep_mod}s")
++    data_tstep = data_raw_tstep.asfreq(f"{tstep_mod}{str_second}")
  
      # insert the shifted
      idx_comb = (
@@ -17911,7 +17937,7 @@
          .append(data_tstep.index)
          .unique()
      )
-@@ -717,15 +716,15 @@
+@@ -717,15 +726,15 @@
      ser_dt_diff_sec = ser_dt_diff.dt.total_seconds()
      # check if the timestamps are in order
      dif_dt = ser_dt_diff_sec.abs().min()
@@ -18092,7 +18118,7 @@
 ## supy/__init__.py
 
 ```diff
-@@ -10,38 +10,23 @@
+@@ -10,38 +10,38 @@
  # 01 Jan 2019: public release
  # 22 May 2019: restructure of module layout
  # 02 Oct 2019: logger restructured
@@ -18101,28 +18127,28 @@
  
  # start delvewheel patch
 -def _delvewheel_patch_1_5_4():
--    import ctypes
 +def _delvewheel_patch_1_6_0():
+     import ctypes
      import os
--    import platform
--    import sys
+     import platform
+     import sys
      libs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 'supy.libs'))
--    is_conda_cpython = platform.python_implementation() == 'CPython' and (hasattr(ctypes.pythonapi, 'Anaconda_GetVersion') or 'packaged by conda-forge' in sys.version)
--    if sys.version_info[:2] >= (3, 8) and not is_conda_cpython or sys.version_info[:2] >= (3, 10):
--        if os.path.isdir(libs_dir):
--            os.add_dll_directory(libs_dir)
--    else:
+     is_conda_cpython = platform.python_implementation() == 'CPython' and (hasattr(ctypes.pythonapi, 'Anaconda_GetVersion') or 'packaged by conda-forge' in sys.version)
+     if sys.version_info[:2] >= (3, 8) and not is_conda_cpython or sys.version_info[:2] >= (3, 10):
+         if os.path.isdir(libs_dir):
+             os.add_dll_directory(libs_dir)
+     else:
 -        load_order_filepath = os.path.join(libs_dir, '.load-order-supy-2024.3.25.dev0')
--        if os.path.isfile(load_order_filepath):
++        load_order_filepath = os.path.join(libs_dir, '.load-order-supy-2024.5.23.dev0')
+         if os.path.isfile(load_order_filepath):
 -            with open(os.path.join(libs_dir, '.load-order-supy-2024.3.25.dev0')) as file:
--                load_order = file.read().split()
--            for lib in load_order:
--                lib_path = os.path.join(os.path.join(libs_dir, lib))
--                kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
--                if os.path.isfile(lib_path) and not kernel32.LoadLibraryExW(ctypes.c_wchar_p(lib_path), None, 0x00000008):
--                    raise OSError('Error loading {}; {}'.format(lib, ctypes.FormatError(ctypes.get_last_error())))
-+    if os.path.isdir(libs_dir):
-+        os.add_dll_directory(libs_dir)
++            with open(os.path.join(libs_dir, '.load-order-supy-2024.5.23.dev0')) as file:
+                 load_order = file.read().split()
+             for lib in load_order:
+                 lib_path = os.path.join(os.path.join(libs_dir, lib))
+                 kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
+                 if os.path.isfile(lib_path) and not kernel32.LoadLibraryExW(ctypes.c_wchar_p(lib_path), None, 0x00000008):
+                     raise OSError('Error loading {}; {}'.format(lib, ctypes.FormatError(ctypes.get_last_error())))
  
  
 -_delvewheel_patch_1_5_4()
@@ -18160,7 +18186,7 @@
 
 ## Comparing `supy-2024.3.25.dev0.dist-info/RECORD` & `supy-2024.5.23.dev0.dist-info/RECORD`
 
- * *Files 13% similar despite different names*
+ * *Files 10% similar despite different names*
 
 ```diff
 @@ -1,33 +1,33 @@
@@ -18173,7 +18199,7 @@
  supy/_check.py,sha256=LCC62IV5wjEop6Ld3UhQHpDlL9tXDONoAAjlCG7fFDY,15327
  supy/_env.py,sha256=141L89wIK4D67r_gNE5gUWsdIj4KZm9fgy4_Du_NFOc,2071
 -supy/_load.py,sha256=LeklGCcpo2-C3wkHb8zeJwKPNEbfii3q5ZaruW9YpCU,66519
-+supy/_load.py,sha256=rZro8EuXhSTRz-shZWyhnRZBFUCk6YwcedC2foS2BYY,66377
++supy/_load.py,sha256=nAB4x8u9tBmaab7UUkA6jhrU_ZE-LjYAGbumB5sMQRQ,66678
  supy/_misc.py,sha256=PSxs994EDZGJhhq29I3YgqIIdG1hFm6EMQLcBhjWEro,2771
 -supy/_post.py,sha256=cDTCWE6O_zr4-mgwZBVGuO6Y9E3XMp2RfV9CWeDVw4o,7820
 -supy/_run.py,sha256=BBkJu0_fqtQEZRVh9WfjsW4q0JF_5KOd8HDSekpNanc,19385
@@ -18182,8 +18208,8 @@
 +supy/_post.py,sha256=YLleSqUB29dCF1MgeC62A8DzAKxscLOuZyoaCiMYJcQ,8114
 +supy/_run.py,sha256=gp3g483C_xqD7xW_9gKYEGig_bHfmsbbGJhQqrwwH9o,19376
 +supy/_save.py,sha256=i6JriFD8ugAidEqtL82a-2l42dUz9DxXxv9YJHttYzw,19197
-+supy/_supy_driver.cp312-win_amd64.dll.a,sha256=GF_OLJM7CuLByEI312lnThbi5BbNLiyMH8JtIVaesxI,1608
-+supy/_supy_driver.cp312-win_amd64.pyd,sha256=JLen_Q0XMSILKL1ofHRkXsFexlFoQjWLxLu70VAraWg,8337359
++supy/_supy_driver.cp39-win_amd64.dll.a,sha256=gUH3BDIBQcbf8J0If1jeMGUuGjcKl7UT-o0XpIxhB-U,1596
++supy/_supy_driver.cp39-win_amd64.pyd,sha256=oHoGz_7fORYpAbYD94KNoB5EdOy3QZD1zWQg8v9dS_4,8232742
  supy/_supy_driver_wrapper.py,sha256=-Ih0hGEWJzZrEfknOklGEOUOSD7pzofWXrcGoZAeaC0,639
 -supy/_supy_module.py,sha256=FC5efNeaVPo1BYBwTdYytiS-qayzQmvC6zbPfQ01tZs,18173
 +supy/_supy_module.py,sha256=aaXBbb1iQND3Mwjn4ST2nBnCBpUrxhzr7tJip6qLAI0,18141
@@ -18191,7 +18217,7 @@
 -supy/_version_scm.py,sha256=K_9QDvDeAyApxyRAnjXj5esFYiUZizuhO6c4pRnXHMg,185
 -supy/__init__.py,sha256=utdBZpOdpyvtXnUq7RPoS0BwGhli6N68ymGJuKTDhDI,2400
 +supy/_version_scm.py,sha256=SlCJDzQfHU6hpR1_k2pbhxeVs7RmKKKFvm4n0QGr98s,185
-+supy/__init__.py,sha256=6DX7AViQ9PS5RASUDgBLOSlDa1keaWPPRPp139Azvus,1356
++supy/__init__.py,sha256=Wqv_Cd_4jmFy1nOjm90uriNO4dhUMrDDs0rCKx8Iz2w,2400
  supy/cmd/SUEWS.py,sha256=ELH5vppMcnkg5N8Ir23J2Rck84D0KdYSl66LcGO4YN0,4488
  supy/cmd/table_converter.py,sha256=Hxw4k-PSpbiaWN68c2qOv0kkjo8qi8broc4H2ayqzLo,1347
  supy/cmd/__init__.py,sha256=15oZ2OiK-E2dWdq6WHrEIP1BURPRfS53L75MxFMukPs,74
@@ -18207,7 +18233,7 @@
  supy/sample_run/Input/SUEWS_ESTMCoefficients.txt,sha256=kP-42CHLnMb2kVnyU-gHQE5cxVCZeMaY00dPhzyEoMQ,12795
  supy/sample_run/Input/SUEWS_Irrigation.txt,sha256=vEvyoRlpXMzvOMlkvu98E6arRmWStU_dEiRdgB2qQo0,1826
  supy/sample_run/Input/SUEWS_NonVeg.txt,sha256=f6ku799ti8VfTsU77vX5aseGRjLWqc8sujykdBTuGVs,3366
-@@ -43,26 +43,24 @@
+@@ -43,26 +43,25 @@
  supy/util/rules.csv,sha256=gEnxWuFIuOqZxfBJDdHQa5Luw3CTgQtN4zSCQy5FDwQ,12812
  supy/util/_atm.py,sha256=hA7eWO15PSWD4H3HZDm5ahZgEdynPFKQTACngd1ghYw,9211
  supy/util/_converter.py,sha256=B0tnfmeF1fISLzCdEpD_MQ4_pzxkVNPYa2oIOaBrbeA,15590
@@ -18232,11 +18258,12 @@
 -supy-2024.3.25.dev0.dist-info/top_level.txt,sha256=rVhw4M1mleXH2HUWckzO7ommHf0UWAd2oXIq3JexmDE,17
 -supy-2024.3.25.dev0.dist-info/WHEEL,sha256=Z6c-bE0pUM47a70GvqO_SvH_XXU0lm62gEAKtoNJ08A,100
 -supy.libs/.load-order-supy-2024.3.25.dev0,sha256=2fFLi3HHttuJKdWO2fhgSL5J-XxDCIABYdByGGUlH80,156
-+supy-2024.5.23.dev0.dist-info/DELVEWHEEL,sha256=EUoa_fIbr3WFt3dyC4j07Jr6P-aHOxI0rhvtRZEEeyY,405
++supy-2024.5.23.dev0.dist-info/DELVEWHEEL,sha256=eqO4kIm0mGRnT1YbKqTvF-2EAyERtpxUw7ZnZ9Vo78w,400
 +supy-2024.5.23.dev0.dist-info/entry_points.txt,sha256=yp7X4vLC_1_1m51g3B8Tyz3ALGlTPPA1Wh-lCFcnV7E,111
 +supy-2024.5.23.dev0.dist-info/METADATA,sha256=f0XveC-LvIZOwkWNSHaIJeYZ3kJVUPvGq-51kwVb_Yo,9291
 +supy-2024.5.23.dev0.dist-info/RECORD,,
-+supy-2024.5.23.dev0.dist-info/WHEEL,sha256=50PeAbplA6PkI0hYOYoeacB9US1R6EguyfOnsccH0WU,85
++supy-2024.5.23.dev0.dist-info/WHEEL,sha256=8AdrFzOtKQ6LLJ-VyqCU3y1iN8N--fMXYqrdkeTKDn0,83
++supy.libs/.load-order-supy-2024.5.23.dev0,sha256=q2GK-Z8VkRc4Zvje9o8pm9fqxmuzcvt0RoctbVZ6aaQ,156
  supy.libs/libgcc_s_seh-1-f6e0ab6be2dde6053db4804c95dcaa46.dll,sha256=9BsVOt7RIPlNpJbNlT3oJPKPmbL2j8HrJUtZJ9zL2f0,76288
  supy.libs/libquadmath-0-5aa06ca41866b48939c4245c01d14201.dll,sha256=xWstv67vxDAxS5Xiy8Qj7MN-T6Fk6sXsHC-B4CKNb8k,334848
  supy.libs/libwinpthread-1-098af1964af4eca44ab00abcd7bca59f.dll,sha256=W77ySaDQDi0yxpnQu-ifcU6-uHKzmQpcvsyx2J9j5eg,52224
