@@ -20524,3 +20524,45 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:40:55] INFO root fetch - processPackages [fastr]: Remove: archive file [/home/abi/fetcher/tmp/fastr-3.4.0.tar.gz]
 [2024-05-23 12:40:55] INFO root fetch - main [MainThread]: End processing [fastr]: success
 [2024-05-23 12:40:55] INFO root fetch - main [MainThread]: Store serial: [23341911]
+[2024-05-23 12:42:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341911]
+[2024-05-23 12:43:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scipion-em-xmipp
+[2024-05-23 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metabotk
+[2024-05-23 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ephysworking
+[2024-05-23 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ethyca-fides
+[2024-05-23 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: argilla-sdk
+[2024-05-23 12:43:04] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-23 12:43:04] WARNING root fetch - processPackages [ephysworking]: Skipping, unable to determine old version
+[2024-05-23 12:43:04] INFO root fetch - main [MainThread]: End processing [ephysworking] error
+[2024-05-23 12:43:04] INFO root fetch - processPackages [metabotk]: New version: [0.1.35] Old Version: [0.1.34]
+[2024-05-23 12:43:04] INFO root fetch - processPackages [argilla-sdk]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-05-23 12:43:04] INFO root fetch - processPackages [scipion-em-xmipp]: New version: [23.7.0.0] Old Version: [23.3.0.3]
+[2024-05-23 12:43:04] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-05-23 12:43:05] INFO root fetch - processPackages [argilla-sdk]: Downloading https://files.pythonhosted.org/packages/36/a8/df8c0e7192a9c3c2fd4f90091d5d12e1a8cfbb0833d25ae9ac7287ea8bd8/argilla_sdk-0.1.0a2.tar.gz
+[2024-05-23 12:43:05] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/43/ea/a1718831c30f37bc217635859198304044e0d7c6af02d8c32c4785a153c9/metabotk-0.1.34.tar.gz
+[2024-05-23 12:43:05] INFO root fetch - processPackages [scipion-em-xmipp]: Downloading https://files.pythonhosted.org/packages/90/5f/c90a6c5e3135c917a405eb1ca33eb1d964a7990d929b6c04d30088f25de8/scipion-em-xmipp-23.3.0.3.tar.gz
+[2024-05-23 12:43:05] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-05-23 12:43:05] INFO root fetch - processPackages [argilla-sdk]: Downloading https://files.pythonhosted.org/packages/bd/43/627f1034511c131f74d9b03b86788000eb30740bc6ee4550b09294c9779f/argilla_sdk-0.1.0a3.tar.gz
+[2024-05-23 12:43:05] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/3d/3f/0572221dc0d7543808ca46d7f524d468a4d7ea70d65f4cf82ee9ed753ca9/metabotk-0.1.35.tar.gz
+[2024-05-23 12:43:05] INFO root fetch - processPackages [scipion-em-xmipp]: Downloading https://files.pythonhosted.org/packages/88/80/e4c6257566147cd0f156d98966aec432f69a2e3eb811c4a7cb277a640fe0/scipion-em-xmipp-23.7.0.0.tar.gz
+[2024-05-23 12:43:05] INFO root fetch - processPackages [metabotk]: executing diffoscope
+[2024-05-23 12:43:05] INFO root fetch - processPackages [metabotk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabotk-0.1.34.tar.gz tmp/metabotk-0.1.35.tar.gz --markdown 20240523/m/metabotk/0.1.34-0.1.35/README.md --exclude *.pyd
+[2024-05-23 12:43:05] INFO root fetch - processPackages [argilla-sdk]: executing diffoscope
+[2024-05-23 12:43:05] INFO root fetch - processPackages [argilla-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla_sdk-0.1.0a2.tar.gz tmp/argilla_sdk-0.1.0a3.tar.gz --markdown 20240523/a/argilla-sdk/0.1.0a2-0.1.0a3/README.md --exclude *.pyd
+[2024-05-23 12:43:05] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-05-23 12:43:05] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240523/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-23 12:43:05] INFO root fetch - processPackages [scipion-em-xmipp]: executing diffoscope
+[2024-05-23 12:43:05] INFO root fetch - processPackages [scipion-em-xmipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-xmipp-23.3.0.3.tar.gz tmp/scipion-em-xmipp-23.7.0.0.tar.gz --markdown 20240523/s/scipion-em-xmipp/23.3.0.3-23.7.0.0/README.md --exclude *.pyd
+[2024-05-23 12:43:06] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.34.tar.gz]
+[2024-05-23 12:43:06] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.35.tar.gz]
+[2024-05-23 12:43:06] INFO root fetch - main [MainThread]: End processing [metabotk]: success
+[2024-05-23 12:43:06] INFO root fetch - processPackages [argilla-sdk]: Remove: archive file [/home/abi/fetcher/tmp/argilla_sdk-0.1.0a2.tar.gz]
+[2024-05-23 12:43:06] INFO root fetch - processPackages [argilla-sdk]: Remove: archive file [/home/abi/fetcher/tmp/argilla_sdk-0.1.0a3.tar.gz]
+[2024-05-23 12:43:06] INFO root fetch - main [MainThread]: End processing [argilla-sdk]: success
+[2024-05-23 12:43:07] INFO root fetch - processPackages [scipion-em-xmipp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-xmipp-23.3.0.3.tar.gz]
+[2024-05-23 12:43:07] INFO root fetch - processPackages [scipion-em-xmipp]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-xmipp-23.7.0.0.tar.gz]
+[2024-05-23 12:43:07] INFO root fetch - main [MainThread]: End processing [scipion-em-xmipp]: success
+[2024-05-23 12:43:08] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-05-23 12:43:08] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-05-23 12:43:08] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-05-23 12:43:08] INFO root fetch - main [MainThread]: Store serial: [23341928]
