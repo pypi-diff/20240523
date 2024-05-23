@@ -10510,3 +10510,33 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 06:54:31] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.2.tar.gz]
 [2024-05-23 06:54:31] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-05-23 06:54:31] INFO root fetch - main [MainThread]: Store serial: [23337766]
+[2024-05-23 06:56:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337766]
+[2024-05-23 06:56:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sardana-nxsrecorder
+[2024-05-23 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiprocessed-socket
+[2024-05-23 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkgtestlib
+[2024-05-23 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastsafetensors
+[2024-05-23 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pokemon-damage-calculator
+[2024-05-23 06:56:41] INFO root fetch - processPackages [sardana-nxsrecorder]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-23 06:56:41] INFO root fetch - processPackages [multiprocessed-socket]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-23 06:56:41] WARNING root fetch - processPackages [fastsafetensors]: Skipping, unable to determine old version
+[2024-05-23 06:56:41] INFO root fetch - main [MainThread]: End processing [fastsafetensors] error
+[2024-05-23 06:56:41] WARNING root fetch - processPackages [pokemon-damage-calculator]: Skipping, unable to determine old version
+[2024-05-23 06:56:41] INFO root fetch - main [MainThread]: End processing [pokemon-damage-calculator] error
+[2024-05-23 06:56:41] WARNING root fetch - processPackages [pkgtestlib]: Skipping, unable to determine old version
+[2024-05-23 06:56:41] INFO root fetch - main [MainThread]: End processing [pkgtestlib] error
+[2024-05-23 06:56:41] INFO root fetch - processPackages [sardana-nxsrecorder]: Downloading https://files.pythonhosted.org/packages/1d/1c/abdf8355a1e02a330d34c8a32f2717b6b3ac504f21d6dec10aa008fbb851/sardana-nxsrecorder-3.9.1.tar.gz
+[2024-05-23 06:56:41] INFO root fetch - processPackages [multiprocessed-socket]: Downloading https://files.pythonhosted.org/packages/83/00/53b4bef61405e578304e8d8f108243f642325cd34f7edb1e8cafaa8a8e7d/multiprocessed-socket-0.1.3.tar.gz
+[2024-05-23 06:56:41] INFO root fetch - processPackages [sardana-nxsrecorder]: Downloading https://files.pythonhosted.org/packages/22/56/3ba2b4035af19c2da8e7160365c3c06e834b747c243650261705211be616/sardana-nxsrecorder-3.9.2.tar.gz
+[2024-05-23 06:56:42] INFO root fetch - processPackages [sardana-nxsrecorder]: executing diffoscope
+[2024-05-23 06:56:42] INFO root fetch - processPackages [sardana-nxsrecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sardana-nxsrecorder-3.9.1.tar.gz tmp/sardana-nxsrecorder-3.9.2.tar.gz --markdown 20240523/s/sardana-nxsrecorder/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-23 06:56:42] INFO root fetch - processPackages [multiprocessed-socket]: Downloading https://files.pythonhosted.org/packages/d3/f5/1d747894c7eb1d0faef63d29c7804c5e203d6038985a9910d3b3c52ac1d4/multiprocessed-socket-0.1.4.tar.gz
+[2024-05-23 06:56:42] INFO root fetch - processPackages [multiprocessed-socket]: executing diffoscope
+[2024-05-23 06:56:42] INFO root fetch - processPackages [multiprocessed-socket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiprocessed-socket-0.1.3.tar.gz tmp/multiprocessed-socket-0.1.4.tar.gz --markdown 20240523/m/multiprocessed-socket/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-23 06:56:42] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.1.tar.gz]
+[2024-05-23 06:56:42] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.2.tar.gz]
+[2024-05-23 06:56:42] INFO root fetch - main [MainThread]: End processing [sardana-nxsrecorder]: success
+[2024-05-23 06:56:42] INFO root fetch - processPackages [multiprocessed-socket]: Remove: archive file [/home/abi/fetcher/tmp/multiprocessed-socket-0.1.3.tar.gz]
+[2024-05-23 06:56:42] INFO root fetch - processPackages [multiprocessed-socket]: Remove: archive file [/home/abi/fetcher/tmp/multiprocessed-socket-0.1.4.tar.gz]
+[2024-05-23 06:56:42] INFO root fetch - main [MainThread]: End processing [multiprocessed-socket]: success
+[2024-05-23 06:56:42] INFO root fetch - main [MainThread]: Store serial: [23337784]
