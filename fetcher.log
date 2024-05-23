@@ -2489,3 +2489,63 @@
 [2024-05-23 02:15:12] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240522.tar.gz]
 [2024-05-23 02:15:12] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-05-23 02:15:12] INFO root fetch - main [MainThread]: Store serial: [23334570]
+[2024-05-23 02:17:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334570]
+[2024-05-23 02:17:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 02:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-05-23 02:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SecuCrypt
+[2024-05-23 02:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-23 02:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AgainsTurbcnModel
+[2024-05-23 02:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pp-weight-estimation
+[2024-05-23 02:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nadl
+[2024-05-23 02:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zenml-nightly
+[2024-05-23 02:17:21] INFO root fetch - processPackages [nadl]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-23 02:17:21] INFO root fetch - processPackages [pp-weight-estimation]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-23 02:17:21] INFO root fetch - processPackages [zenml-nightly]: New version: [0.57.1.dev20240522] Old Version: [0.55.0.dev20240124]
+[2024-05-23 02:17:21] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-23 02:17:21] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-23 02:17:21] WARNING root fetch - processPackages [SecuCrypt]: Skipping, unable to determine old version
+[2024-05-23 02:17:21] INFO root fetch - main [MainThread]: End processing [SecuCrypt] error
+[2024-05-23 02:17:21] INFO root fetch - processPackages [AgainsTurbcnModel]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-23 02:17:21] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/95/1d/90d5d93e286e4ea29a99424a2aa7189168fdc71fe2dd12211b825cc51865/pp_weight_estimation-1.0.8.tar.gz
+[2024-05-23 02:17:21] INFO root fetch - processPackages [zenml-nightly]: Downloading https://files.pythonhosted.org/packages/47/7d/a7879227052c23339d88f67bd65d7a9a9045a08af011bbedc5a737091231/zenml_nightly-0.55.0.dev20240124.tar.gz
+[2024-05-23 02:17:21] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/42/e1/840ff6d37ae55e61c30e2c3d97a1ec1a9c5ce3e9263ac97a4dc46405ee6c/nadl-1.4.2.tar.gz
+[2024-05-23 02:17:21] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-23 02:17:21] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-23 02:17:22] INFO root fetch - processPackages [AgainsTurbcnModel]: Downloading https://files.pythonhosted.org/packages/2e/d7/c3688960d94612ba46e89c38a08f70a23d72ca5a57e3626455ca4b75411e/AgainsTurbcnModel-0.1.tar.gz
+[2024-05-23 02:17:22] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/7f/65/287547ea7b2bd9d6aa7b3ca8333bb8e28031226762f45eb99f744c5fc685/pp_weight_estimation-1.0.9.tar.gz
+[2024-05-23 02:17:22] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-23 02:17:22] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/02/56/7ad5e53eb4ff63887a591b6568637ed10b71dbf434f517a04f6238e19cac/nadl-1.4.3.tar.gz
+[2024-05-23 02:17:22] INFO root fetch - processPackages [pp-weight-estimation]: executing diffoscope
+[2024-05-23 02:17:22] INFO root fetch - processPackages [pp-weight-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_weight_estimation-1.0.8.tar.gz tmp/pp_weight_estimation-1.0.9.tar.gz --markdown 20240523/p/pp-weight-estimation/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-23 02:17:22] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-23 02:17:22] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240523/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-23 02:17:22] INFO root fetch - processPackages [zenml-nightly]: Downloading https://files.pythonhosted.org/packages/ae/83/3eaddc6998e9c940f6ed6288e0209b11749655e234fdd6647af05d2d8008/zenml_nightly-0.57.1.dev20240522.tar.gz
+[2024-05-23 02:17:22] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-23 02:17:22] INFO root fetch - processPackages [AgainsTurbcnModel]: Downloading https://files.pythonhosted.org/packages/7a/08/4f3695ecc19ffbf53da9cc36453288482a1f6d378258956b70228a75f7f1/AgainsTurbcnModel-0.1.1.tar.gz
+[2024-05-23 02:17:22] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-23 02:17:22] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.4.2.tar.gz tmp/nadl-1.4.3.tar.gz --markdown 20240523/n/nadl/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-23 02:17:22] INFO root fetch - processPackages [AgainsTurbcnModel]: executing diffoscope
+[2024-05-23 02:17:22] INFO root fetch - processPackages [AgainsTurbcnModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgainsTurbcnModel-0.1.tar.gz tmp/AgainsTurbcnModel-0.1.1.tar.gz --markdown 20240523/A/AgainsTurbcnModel/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-23 02:17:22] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-23 02:17:22] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240523/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-23 02:17:22] INFO root fetch - processPackages [zenml-nightly]: executing diffoscope
+[2024-05-23 02:17:22] INFO root fetch - processPackages [zenml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenml_nightly-0.55.0.dev20240124.tar.gz tmp/zenml_nightly-0.57.1.dev20240522.tar.gz --markdown 20240523/z/zenml-nightly/0.55.0.dev20240124-0.57.1.dev20240522/README.md --exclude *.pyd
+[2024-05-23 02:17:22] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.0.8.tar.gz]
+[2024-05-23 02:17:22] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.0.9.tar.gz]
+[2024-05-23 02:17:22] INFO root fetch - main [MainThread]: End processing [pp-weight-estimation]: success
+[2024-05-23 02:17:22] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-23 02:17:22] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-23 02:17:22] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-23 02:17:23] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.2.tar.gz]
+[2024-05-23 02:17:23] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.3.tar.gz]
+[2024-05-23 02:17:23] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-23 02:17:23] INFO root fetch - processPackages [AgainsTurbcnModel]: Remove: archive file [/home/abi/fetcher/tmp/AgainsTurbcnModel-0.1.tar.gz]
+[2024-05-23 02:17:23] INFO root fetch - processPackages [AgainsTurbcnModel]: Remove: archive file [/home/abi/fetcher/tmp/AgainsTurbcnModel-0.1.1.tar.gz]
+[2024-05-23 02:17:23] INFO root fetch - main [MainThread]: End processing [AgainsTurbcnModel]: success
+[2024-05-23 02:17:23] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-23 02:17:23] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-23 02:17:23] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-23 02:18:13] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.55.0.dev20240124.tar.gz]
+[2024-05-23 02:18:13] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.57.1.dev20240522.tar.gz]
+[2024-05-23 02:18:13] INFO root fetch - main [MainThread]: End processing [zenml-nightly]: success
+[2024-05-23 02:18:13] INFO root fetch - main [MainThread]: Store serial: [23334595]
