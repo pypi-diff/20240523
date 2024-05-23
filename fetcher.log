@@ -21386,3 +21386,67 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 13:10:30] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post538-py3-none-any.whl.zip]
 [2024-05-23 13:10:30] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-23 13:10:30] INFO root fetch - main [MainThread]: Store serial: [23342237]
+[2024-05-23 13:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342237]
+[2024-05-23 13:12:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-utils
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solar-registry
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ryry-cli
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-request
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dongraphio
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ryry-cli
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: furtheredge
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ryry-cli]: New version: [1.5] Old Version: [1.4]
+[2024-05-23 13:12:40] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-23 13:12:40] INFO root fetch - processPackages [dongraphio]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ryry-cli]: New version: [1.5] Old Version: [1.4]
+[2024-05-23 13:12:40] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.2] Old Version: [17.0.1.0.1]
+[2024-05-23 13:12:40] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post538] Old Version: [4.0.0.post537]
+[2024-05-23 13:12:40] INFO root fetch - processPackages [dongraphio]: Downloading https://files.pythonhosted.org/packages/09/89/fea48bee4ac98b6adff769aefde0300f30cf9ef3a86f1f030ba89adb42d5/dongraphio-0.3.6.tar.gz
+[2024-05-23 13:12:40] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-23 13:12:40] INFO root fetch - processPackages [furtheredge]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/c9/25/ce62152d16ad3bbe185941736497b867124a7c972cb0b4169615010b5c3c/ryry_cli-1.4.tar.gz
+[2024-05-23 13:12:40] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/c9/25/ce62152d16ad3bbe185941736497b867124a7c972cb0b4169615010b5c3c/ryry_cli-1.4.tar.gz
+[2024-05-23 13:12:40] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/15/0f/6e723fdb074ac3cf117a8b0ae3d0807ea9b52ecb8b9190ffa8d4ccc80b9e/nucliadb_utils-4.0.0.post537-py3-none-any.whl
+[2024-05-23 13:12:40] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/81/22/374ed174abcecff46bf56f927a1e73cbb29399bb6436a66956d405cbd28f/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl
+[2024-05-23 13:12:41] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-23 13:12:41] INFO root fetch - processPackages [furtheredge]: Downloading https://files.pythonhosted.org/packages/3f/9d/eca15849b7f6c2288da90e896e941c9b6bb82383ebaabcd2dc6c5439b454/furtheredge-0.1.1.tar.gz
+[2024-05-23 13:12:41] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-23 13:12:41] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240523/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-23 13:12:41] INFO root fetch - processPackages [dongraphio]: Downloading https://files.pythonhosted.org/packages/c2/bc/2f30697a9c86ff2f6ebb65159fde9f53ea4e0d236203348033cc73c7e212/dongraphio-0.3.7.tar.gz
+[2024-05-23 13:12:41] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/59/ef/a24d62dfae5760abbd667e6ecd30df204f330fbf535b1595b72e77e0b16f/ryry_cli-1.5.tar.gz
+[2024-05-23 13:12:41] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/59/ef/a24d62dfae5760abbd667e6ecd30df204f330fbf535b1595b72e77e0b16f/ryry_cli-1.5.tar.gz
+[2024-05-23 13:12:41] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/59/a2/f8650083e21b9a517ebb9e40b296f9114d52c756d60de97fba8ac4c8cfb1/nucliadb_utils-4.0.0.post538-py3-none-any.whl
+[2024-05-23 13:12:41] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/09/1e/39454caae0f087da23302337ecfdb5f27f83701f6bbaade1deeda6cf4670/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl
+[2024-05-23 13:12:41] INFO root fetch - processPackages [dongraphio]: executing diffoscope
+[2024-05-23 13:12:41] INFO root fetch - processPackages [dongraphio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongraphio-0.3.6.tar.gz tmp/dongraphio-0.3.7.tar.gz --markdown 20240523/d/dongraphio/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-23 13:12:41] INFO root fetch - processPackages [ryry-cli]: executing diffoscope
+[2024-05-23 13:12:41] INFO root fetch - processPackages [ryry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryry_cli-1.4.tar.gz tmp/ryry_cli-1.5.tar.gz --markdown 20240523/r/ryry-cli/1.4-1.5/README.md --exclude *.pyd
+[2024-05-23 13:12:41] INFO root fetch - processPackages [ryry-cli]: executing diffoscope
+[2024-05-23 13:12:41] INFO root fetch - processPackages [ryry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryry_cli-1.4.tar.gz tmp/ryry_cli-1.5.tar.gz --markdown 20240523/r/ryry-cli/1.4-1.5/README.md --exclude *.pyd
+[2024-05-23 13:12:41] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-23 13:12:41] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post537-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post538-py3-none-any.whl.zip --markdown 20240523/n/nucliadb-utils/4.0.0.post537-4.0.0.post538/README.md --exclude *.pyd
+[2024-05-23 13:12:41] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-23 13:12:41] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl.zip --markdown 20240523/o/odoo-addon-stock-request/17.0.1.0.1-17.0.1.0.2/README.md --exclude *.pyd
+[2024-05-23 13:12:41] INFO root fetch - processPackages [furtheredge]: Downloading https://files.pythonhosted.org/packages/f0/dc/caa7de79456704257711cb17f43e3dc1998f21b2da623b18859e78cdff0b/furtheredge-0.1.2.tar.gz
+[2024-05-23 13:12:41] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-23 13:12:41] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-23 13:12:41] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-23 13:12:41] INFO root fetch - processPackages [furtheredge]: executing diffoscope
+[2024-05-23 13:12:41] INFO root fetch - processPackages [furtheredge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furtheredge-0.1.1.tar.gz tmp/furtheredge-0.1.2.tar.gz --markdown 20240523/f/furtheredge/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-23 13:12:41] INFO root fetch - processPackages [dongraphio]: Remove: archive file [/home/abi/fetcher/tmp/dongraphio-0.3.6.tar.gz]
+[2024-05-23 13:12:41] INFO root fetch - processPackages [dongraphio]: Remove: archive file [/home/abi/fetcher/tmp/dongraphio-0.3.7.tar.gz]
+[2024-05-23 13:12:41] INFO root fetch - main [MainThread]: End processing [dongraphio]: success
+[2024-05-23 13:12:42] INFO root fetch - processPackages [ryry-cli]: Remove: archive file [/home/abi/fetcher/tmp/ryry_cli-1.4.tar.gz]
+[2024-05-23 13:12:42] INFO root fetch - processPackages [ryry-cli]: Remove: archive file [/home/abi/fetcher/tmp/ryry_cli-1.5.tar.gz]
+[2024-05-23 13:12:42] INFO root fetch - main [MainThread]: End processing [ryry-cli]: success
+[2024-05-23 13:12:42] INFO root fetch - main [MainThread]: End processing [ryry-cli]: success
+[2024-05-23 13:12:42] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-23 13:12:42] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-23 13:12:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-23 13:12:42] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post537-py3-none-any.whl.zip]
+[2024-05-23 13:12:42] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post538-py3-none-any.whl.zip]
+[2024-05-23 13:12:42] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-23 13:12:42] INFO root fetch - processPackages [furtheredge]: Remove: archive file [/home/abi/fetcher/tmp/furtheredge-0.1.1.tar.gz]
+[2024-05-23 13:12:42] INFO root fetch - processPackages [furtheredge]: Remove: archive file [/home/abi/fetcher/tmp/furtheredge-0.1.2.tar.gz]
+[2024-05-23 13:12:42] INFO root fetch - main [MainThread]: End processing [furtheredge]: success
+[2024-05-23 13:12:42] INFO root fetch - main [MainThread]: Store serial: [23342259]
