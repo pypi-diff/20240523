@@ -14783,3 +14783,69 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 10:12:28] INFO root fetch - processPackages [pineappl]: Remove: archive file [/home/abi/fetcher/tmp/pineappl-0.7.4rc1.tar.gz]
 [2024-05-23 10:12:28] INFO root fetch - main [MainThread]: End processing [pineappl]: success
 [2024-05-23 10:12:28] INFO root fetch - main [MainThread]: Store serial: [23339709]
+[2024-05-23 10:14:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23339709]
+[2024-05-23 10:14:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transstellar
+[2024-05-23 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nuxt
+[2024-05-23 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlab.py
+[2024-05-23 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oslo.messaging
+[2024-05-23 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dja-sepp
+[2024-05-23 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jfExt
+[2024-05-23 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nhs-aws-helpers
+[2024-05-23 10:14:39] INFO root fetch - processPackages [jfExt]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-23 10:14:39] INFO root fetch - processPackages [mlab.py]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-23 10:14:39] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 10:14:39] INFO root fetch - processPackages [oslo.messaging]: New version: [9.8.0] Old Version: [9.7.2]
+[2024-05-23 10:14:39] INFO root fetch - processPackages [transstellar]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-23 10:14:39] INFO root fetch - processPackages [nuxt]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-23 10:14:39] INFO root fetch - processPackages [nhs-aws-helpers]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-23 10:14:39] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/19/60/2773b9725351e795d8f07a98520f8658419db8f55cc5ce48e603aed9d7f5/mlab.py-0.4.0.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/15/89/041ca7cedcb342eb0de9169874162352cc47198936ea7f38a2c2841c023d/dja_sepp-0.1.8.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/e5/7e/3fbfaa91d86cd9c088f8f42fabc1eebbc029ab575a9bbbb32e24abf1c20a/jfExt-1.9.2.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/51/99/3d8e845a8dca8cd90dab3fef49bfe1c2f7e84362b8f40f25db0aef9e2c2b/transstellar-2.2.1.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [nuxt]: Downloading https://files.pythonhosted.org/packages/a6/9d/8c57e013babcdea45ca667645d5f7597fc24196c2d969ffb4b21910588ee/nuxt-0.2.5.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/28/a4/eab12125ef0e6bb481958f203218f35ce6e19f030080a6567646469b6ba3/oslo.messaging-9.7.2.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [nhs-aws-helpers]: Downloading https://files.pythonhosted.org/packages/48/26/fbffaaa7a983485044d91cabeef726626f8123b068557e210ded87e8f1dc/nhs_aws_helpers-0.7.3.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [jfExt]: Downloading https://files.pythonhosted.org/packages/ce/51/95691ae4b5a72a967f0ef1b8e09494c5c40e7b25992912d677d442c10e66/jfExt-1.9.3.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/dc/99/79f7c555ed0b9b042fd75f870161596235966a3cd97d490b8314749bc090/dja_sepp-0.1.9.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [mlab.py]: Downloading https://files.pythonhosted.org/packages/98/16/06ef7d6c5f1930e72cbc52045093445a83b90339f4b25069ffbbdf728039/mlab_py-0.4.1.tar.gz
+[2024-05-23 10:14:39] INFO root fetch - processPackages [jfExt]: executing diffoscope
+[2024-05-23 10:14:39] INFO root fetch - processPackages [jfExt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfExt-1.9.2.tar.gz tmp/jfExt-1.9.3.tar.gz --markdown 20240523/j/jfExt/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-23 10:14:40] INFO root fetch - processPackages [mlab.py]: executing diffoscope
+[2024-05-23 10:14:40] INFO root fetch - processPackages [mlab.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlab.py-0.4.0.tar.gz tmp/mlab_py-0.4.1.tar.gz --markdown 20240523/m/mlab.py/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-23 10:14:40] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-23 10:14:40] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.8.tar.gz tmp/dja_sepp-0.1.9.tar.gz --markdown 20240523/d/dja-sepp/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 10:14:40] INFO root fetch - processPackages [nuxt]: Downloading https://files.pythonhosted.org/packages/ca/2c/f5620d2fec0fc3d053d5918a941d7328607dfe18f667b3b874d4636bd82f/nuxt-0.2.6.tar.gz
+[2024-05-23 10:14:40] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/a6/4b/ab17c8cca5ab913445a5c5559caae53a158774d7b1c6efb5e8c491253181/transstellar-2.3.0.tar.gz
+[2024-05-23 10:14:40] INFO root fetch - processPackages [nhs-aws-helpers]: Downloading https://files.pythonhosted.org/packages/c1/6c/b8f3f8649142cd30cdccf35df76d4ea525a96ce5c079f43bed44786861bb/nhs_aws_helpers-0.7.4.tar.gz
+[2024-05-23 10:14:40] INFO root fetch - processPackages [nuxt]: executing diffoscope
+[2024-05-23 10:14:40] INFO root fetch - processPackages [nuxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuxt-0.2.5.tar.gz tmp/nuxt-0.2.6.tar.gz --markdown 20240523/n/nuxt/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-23 10:14:40] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-23 10:14:40] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.2.1.tar.gz tmp/transstellar-2.3.0.tar.gz --markdown 20240523/t/transstellar/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-23 10:14:40] INFO root fetch - processPackages [nhs-aws-helpers]: executing diffoscope
+[2024-05-23 10:14:40] INFO root fetch - processPackages [nhs-aws-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhs_aws_helpers-0.7.3.tar.gz tmp/nhs_aws_helpers-0.7.4.tar.gz --markdown 20240523/n/nhs-aws-helpers/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-23 10:14:40] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/d9/c3/0126f2b275f9307f7a87f5edb3f46ef26d6693c9bae2b30add9009deeff8/oslo.messaging-9.8.0.tar.gz
+[2024-05-23 10:14:40] INFO root fetch - processPackages [oslo.messaging]: executing diffoscope
+[2024-05-23 10:14:40] INFO root fetch - processPackages [oslo.messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.messaging-9.7.2.tar.gz tmp/oslo.messaging-9.8.0.tar.gz --markdown 20240523/o/oslo.messaging/9.7.2-9.8.0/README.md --exclude *.pyd
+[2024-05-23 10:14:40] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.2.tar.gz]
+[2024-05-23 10:14:40] INFO root fetch - processPackages [jfExt]: Remove: archive file [/home/abi/fetcher/tmp/jfExt-1.9.3.tar.gz]
+[2024-05-23 10:14:40] INFO root fetch - main [MainThread]: End processing [jfExt]: success
+[2024-05-23 10:14:40] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab.py-0.4.0.tar.gz]
+[2024-05-23 10:14:40] INFO root fetch - processPackages [mlab.py]: Remove: archive file [/home/abi/fetcher/tmp/mlab_py-0.4.1.tar.gz]
+[2024-05-23 10:14:40] INFO root fetch - main [MainThread]: End processing [mlab.py]: success
+[2024-05-23 10:14:40] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.8.tar.gz]
+[2024-05-23 10:14:40] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.9.tar.gz]
+[2024-05-23 10:14:40] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-23 10:14:41] INFO root fetch - processPackages [nhs-aws-helpers]: Remove: archive file [/home/abi/fetcher/tmp/nhs_aws_helpers-0.7.3.tar.gz]
+[2024-05-23 10:14:41] INFO root fetch - processPackages [nhs-aws-helpers]: Remove: archive file [/home/abi/fetcher/tmp/nhs_aws_helpers-0.7.4.tar.gz]
+[2024-05-23 10:14:41] INFO root fetch - main [MainThread]: End processing [nhs-aws-helpers]: success
+[2024-05-23 10:14:41] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.2.1.tar.gz]
+[2024-05-23 10:14:41] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.3.0.tar.gz]
+[2024-05-23 10:14:41] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-23 10:14:41] INFO root fetch - processPackages [nuxt]: Remove: archive file [/home/abi/fetcher/tmp/nuxt-0.2.5.tar.gz]
+[2024-05-23 10:14:41] INFO root fetch - processPackages [nuxt]: Remove: archive file [/home/abi/fetcher/tmp/nuxt-0.2.6.tar.gz]
+[2024-05-23 10:14:41] INFO root fetch - main [MainThread]: End processing [nuxt]: success
+[2024-05-23 10:14:41] INFO root fetch - processPackages [oslo.messaging]: Remove: archive file [/home/abi/fetcher/tmp/oslo.messaging-9.7.2.tar.gz]
+[2024-05-23 10:14:41] INFO root fetch - processPackages [oslo.messaging]: Remove: archive file [/home/abi/fetcher/tmp/oslo.messaging-9.8.0.tar.gz]
+[2024-05-23 10:14:41] INFO root fetch - main [MainThread]: End processing [oslo.messaging]: success
+[2024-05-23 10:14:41] INFO root fetch - main [MainThread]: Store serial: [23339737]
