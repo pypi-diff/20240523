@@ -10620,3 +10620,54 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 07:05:21] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.2.5-cp312-none-win_amd64.whl.zip]
 [2024-05-23 07:05:21] INFO root fetch - main [MainThread]: End processing [anyon]: success
 [2024-05-23 07:05:21] INFO root fetch - main [MainThread]: Store serial: [23337843]
+[2024-05-23 07:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23337843]
+[2024-05-23 07:07:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-23 07:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2024-05-23 07:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI
+[2024-05-23 07:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keychain-access
+[2024-05-23 07:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rtmilk
+[2024-05-23 07:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metamist
+[2024-05-23 07:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: afeng-py-tools
+[2024-05-23 07:07:30] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-23 07:07:30] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240522] Old Version: [0.1.2.dev20240521]
+[2024-05-23 07:07:30] INFO root fetch - processPackages [OZI]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-05-23 07:07:30] INFO root fetch - processPackages [rtmilk]: New version: [2.0.0] Old Version: [1.0.4]
+[2024-05-23 07:07:30] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-23 07:07:30] WARNING root fetch - processPackages [keychain-access]: Skipping, unable to determine old version
+[2024-05-23 07:07:30] INFO root fetch - main [MainThread]: End processing [keychain-access] error
+[2024-05-23 07:07:30] INFO root fetch - processPackages [metamist]: New version: [7.0.0] Old Version: [6.9.1]
+[2024-05-23 07:07:30] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/b9/2a/b5bde4fdda5bdbbf5acfd048516a2f30fe60be1ec3bf7a09a0cbbba6996a/rapid_pe-0.1.2.dev20240521.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/f3/29/1c493a362044441a4424ad2c6adc761de40ad6c042ccd0f15d714ccbe62c/OZI-1.9.5.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [rtmilk]: Downloading https://files.pythonhosted.org/packages/c2/45/300a9faf95f0c8e8b8e078113223ccddbbb2896cff4b7d09081135b623b3/rtmilk-1.0.4.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/4b/72/e1bc6d293dedf2878eaaec17f90d95b929e5eb8dfd9a25b19410e5a4b21f/metamist-6.9.1.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/5b/b6/e83d9c5b41c25d38424a431a38b7c11218a902f89f8a4fb6a4ed0f278138/rapid_pe-0.1.2.dev20240522.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-23 07:07:30] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240521.tar.gz tmp/rapid_pe-0.1.2.dev20240522.tar.gz --markdown 20240523/r/rapid-pe/0.1.2.dev20240521-0.1.2.dev20240522/README.md --exclude *.pyd
+[2024-05-23 07:07:30] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/a6/3d/0620ca7315f52ce52466a3394925739ec1cda2f4f53f15d5c00ef3eb8ef1/OZI-1.9.6.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-23 07:07:30] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240523/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-23 07:07:30] INFO root fetch - processPackages [rtmilk]: Downloading https://files.pythonhosted.org/packages/fe/07/319ae647a36a803057af04cf3662eaf1c8fad0c01a2fc44be233bb77b3a6/rtmilk-2.0.0.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/e4/59/d76d030a7d1df5e774850b359f3b7514378c4d5a3123dcc341d76973ceaf/metamist-7.0.0.tar.gz
+[2024-05-23 07:07:30] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-23 07:07:30] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.9.5.tar.gz tmp/OZI-1.9.6.tar.gz --markdown 20240523/O/OZI/1.9.5-1.9.6/README.md --exclude *.pyd
+[2024-05-23 07:07:31] INFO root fetch - processPackages [rtmilk]: executing diffoscope
+[2024-05-23 07:07:31] INFO root fetch - processPackages [rtmilk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtmilk-1.0.4.tar.gz tmp/rtmilk-2.0.0.tar.gz --markdown 20240523/r/rtmilk/1.0.4-2.0.0/README.md --exclude *.pyd
+[2024-05-23 07:07:31] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2024-05-23 07:07:31] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.9.1.tar.gz tmp/metamist-7.0.0.tar.gz --markdown 20240523/m/metamist/6.9.1-7.0.0/README.md --exclude *.pyd
+[2024-05-23 07:07:31] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240521.tar.gz]
+[2024-05-23 07:07:31] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240522.tar.gz]
+[2024-05-23 07:07:31] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-23 07:07:31] INFO root fetch - processPackages [rtmilk]: Remove: archive file [/home/abi/fetcher/tmp/rtmilk-1.0.4.tar.gz]
+[2024-05-23 07:07:31] INFO root fetch - processPackages [rtmilk]: Remove: archive file [/home/abi/fetcher/tmp/rtmilk-2.0.0.tar.gz]
+[2024-05-23 07:07:31] INFO root fetch - main [MainThread]: End processing [rtmilk]: success
+[2024-05-23 07:07:32] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.5.tar.gz]
+[2024-05-23 07:07:32] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.6.tar.gz]
+[2024-05-23 07:07:32] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-23 07:07:32] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-23 07:07:32] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-23 07:07:32] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-23 07:07:32] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.1.tar.gz]
+[2024-05-23 07:07:32] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-7.0.0.tar.gz]
+[2024-05-23 07:07:32] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2024-05-23 07:07:32] INFO root fetch - main [MainThread]: Store serial: [23337865]
