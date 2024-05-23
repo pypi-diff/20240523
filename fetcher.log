@@ -20341,3 +20341,59 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 12:34:18] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.9.tar.gz]
 [2024-05-23 12:34:18] INFO root fetch - main [MainThread]: End processing [pluto-client]: success
 [2024-05-23 12:34:18] INFO root fetch - main [MainThread]: Store serial: [23341837]
+[2024-05-23 12:36:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23341837]
+[2024-05-23 12:36:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-23 12:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavue
+[2024-05-23 12:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-simple-dumb-calculator
+[2024-05-23 12:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vgis-gis
+[2024-05-23 12:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catalystwan
+[2024-05-23 12:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proxies-tg-wrapper
+[2024-05-23 12:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zopyx-fastapi-auth
+[2024-05-23 12:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mfu
+[2024-05-23 12:36:27] INFO root fetch - processPackages [vgis-gis]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-23 12:36:27] INFO root fetch - processPackages [catalystwan]: New version: [0.33.7.dev0] Old Version: [0.33.7]
+[2024-05-23 12:36:27] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/ca/da/b9131ded0a51415d43ab62b3047e37dcb060c9c9802aff9814d958c75fb0/vgis_gis-1.3.3.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/72/a6/d5cbfefd29ef2b99ff5526cc7960c25022e1819a744dc954e1383838a1bd/catalystwan-0.33.7.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [proxies-tg-wrapper]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-23 12:36:27] WARNING root fetch - processPackages [my-simple-dumb-calculator]: Skipping, unable to determine old version
+[2024-05-23 12:36:27] INFO root fetch - main [MainThread]: End processing [my-simple-dumb-calculator] error
+[2024-05-23 12:36:27] INFO root fetch - processPackages [zopyx-fastapi-auth]: New version: [0.2.0] Old Version: [0.1.1.1]
+[2024-05-23 12:36:27] INFO root fetch - processPackages [lavue]: New version: [2.86.1] Old Version: [2.86.0]
+[2024-05-23 12:36:27] INFO root fetch - processPackages [mfu]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 12:36:27] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/9a/33/ce65d0dd3c685cbd42a53197ab9b5fbe5ca8e7605ba3c81289381022e5f9/zopyx_fastapi_auth-0.1.1.1.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [lavue]: Downloading https://files.pythonhosted.org/packages/cd/55/67f0e28453b4165e3f8bf694b9afa769d63a7c5f86e59b71af45dad75a45/lavue-2.86.0.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [proxies-tg-wrapper]: Downloading https://files.pythonhosted.org/packages/18/7f/8e8659110e62d50dde372c2ffa53d1b50f12740cff0474580a7f425f7e42/proxies-tg-wrapper-1.0.0.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [mfu]: Downloading https://files.pythonhosted.org/packages/f4/b5/a9cca8aec3e60497c8e91ce7ed20197f4563a4227c14dde6f097e5c1da01/mfu-0.0.8.tar.gz
+[2024-05-23 12:36:27] WARNING root fetch - processPackages [lavue]: Skipping package: exceeds size limit 32687426>=10485760
+[2024-05-23 12:36:27] INFO root fetch - main [MainThread]: End processing [lavue] error
+[2024-05-23 12:36:27] INFO root fetch - processPackages [vgis-gis]: Downloading https://files.pythonhosted.org/packages/0c/32/f37469eb4ab7759f0bba62394906aa7592f3a31c328a7a3b1206bd066fa8/vgis_gis-1.3.4.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/e5/2e/ee7905a5ffc50517aabca0d02384960c682ef84f4947cb8a76eccce83b9f/catalystwan-0.33.7.dev0.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [vgis-gis]: executing diffoscope
+[2024-05-23 12:36:27] INFO root fetch - processPackages [vgis-gis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_gis-1.3.3.tar.gz tmp/vgis_gis-1.3.4.tar.gz --markdown 20240523/v/vgis-gis/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-23 12:36:27] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-05-23 12:36:27] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.7.tar.gz tmp/catalystwan-0.33.7.dev0.tar.gz --markdown 20240523/c/catalystwan/0.33.7-0.33.7.dev0/README.md --exclude *.pyd
+[2024-05-23 12:36:27] INFO root fetch - processPackages [proxies-tg-wrapper]: Downloading https://files.pythonhosted.org/packages/73/c2/890c90952de41ba8f1672600fb126d8925c97128230e69d002af39527897/proxies-tg-wrapper-1.0.1.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [mfu]: Downloading https://files.pythonhosted.org/packages/2a/31/bbeb5a0e526505b43ec5124d8e1a1f2f1d0fa638dd55ae56248c5b934ad0/mfu-0.0.9.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/1f/f8/82c5bcb95c2cd8b141240ffa0415f0132366b76a0bf124e8b78cb9d12bcc/zopyx_fastapi_auth-0.2.0.tar.gz
+[2024-05-23 12:36:27] INFO root fetch - processPackages [proxies-tg-wrapper]: executing diffoscope
+[2024-05-23 12:36:27] INFO root fetch - processPackages [proxies-tg-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxies-tg-wrapper-1.0.0.tar.gz tmp/proxies-tg-wrapper-1.0.1.tar.gz --markdown 20240523/p/proxies-tg-wrapper/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-23 12:36:27] INFO root fetch - processPackages [mfu]: executing diffoscope
+[2024-05-23 12:36:27] INFO root fetch - processPackages [mfu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfu-0.0.8.tar.gz tmp/mfu-0.0.9.tar.gz --markdown 20240523/m/mfu/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 12:36:28] INFO root fetch - processPackages [zopyx-fastapi-auth]: executing diffoscope
+[2024-05-23 12:36:28] INFO root fetch - processPackages [zopyx-fastapi-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zopyx_fastapi_auth-0.1.1.1.tar.gz tmp/zopyx_fastapi_auth-0.2.0.tar.gz --markdown 20240523/z/zopyx-fastapi-auth/0.1.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-23 12:36:28] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.3.tar.gz]
+[2024-05-23 12:36:28] INFO root fetch - processPackages [vgis-gis]: Remove: archive file [/home/abi/fetcher/tmp/vgis_gis-1.3.4.tar.gz]
+[2024-05-23 12:36:28] INFO root fetch - main [MainThread]: End processing [vgis-gis]: success
+[2024-05-23 12:36:28] INFO root fetch - processPackages [proxies-tg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/proxies-tg-wrapper-1.0.0.tar.gz]
+[2024-05-23 12:36:28] INFO root fetch - processPackages [proxies-tg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/proxies-tg-wrapper-1.0.1.tar.gz]
+[2024-05-23 12:36:28] INFO root fetch - main [MainThread]: End processing [proxies-tg-wrapper]: success
+[2024-05-23 12:36:28] INFO root fetch - processPackages [mfu]: Remove: archive file [/home/abi/fetcher/tmp/mfu-0.0.8.tar.gz]
+[2024-05-23 12:36:28] INFO root fetch - processPackages [mfu]: Remove: archive file [/home/abi/fetcher/tmp/mfu-0.0.9.tar.gz]
+[2024-05-23 12:36:28] INFO root fetch - main [MainThread]: End processing [mfu]: success
+[2024-05-23 12:36:29] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.1.1.1.tar.gz]
+[2024-05-23 12:36:29] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.0.tar.gz]
+[2024-05-23 12:36:29] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
+[2024-05-23 12:36:29] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.tar.gz]
+[2024-05-23 12:36:29] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev0.tar.gz]
+[2024-05-23 12:36:29] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-05-23 12:36:29] INFO root fetch - main [MainThread]: Store serial: [23341862]
