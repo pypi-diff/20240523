@@ -2294,3 +2294,51 @@
 [2024-05-23 02:08:39] INFO root fetch - processPackages [django_medilab_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medilab_ds-3.0.1.tar.gz]
 [2024-05-23 02:08:39] INFO root fetch - main [MainThread]: End processing [django_medilab_ds]: success
 [2024-05-23 02:08:39] INFO root fetch - main [MainThread]: Store serial: [23334503]
+[2024-05-23 02:10:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23334503]
+[2024-05-23 02:10:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-23 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-05-23 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lctest
+[2024-05-23 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nadl
+[2024-05-23 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars_evm
+[2024-05-23 02:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boto3-session
+[2024-05-23 02:10:48] INFO root fetch - processPackages [nadl]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-23 02:10:48] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-23 02:10:48] INFO root fetch - processPackages [lctest]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-23 02:10:48] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/48/00/9ae8e855aaf82b79b76d9c4884d10bf9e3c78edf8ecc6d707d46e89ec279/nadl-1.4.1.tar.gz
+[2024-05-23 02:10:48] INFO root fetch - processPackages [polars_evm]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-23 02:10:48] INFO root fetch - processPackages [boto3-session]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-23 02:10:48] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [lctest]: Downloading https://files.pythonhosted.org/packages/30/21/b11bc73922c5f9243ded151edbdc69080c966597372d6a1a846cab8fb7bc/lctest-0.1.8.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [boto3-session]: Downloading https://files.pythonhosted.org/packages/85/df/6ec41b2ee54ec126ad9da68a65797105de5d02fdd2a4a937d6be29c2d425/boto3_session-0.0.6.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [polars_evm]: Downloading https://files.pythonhosted.org/packages/4b/7a/1da5b1927f39389410af5a4849b4ae6f5d0d25aac267adce9018c9a452f8/polars_evm-0.1.3.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/42/e1/840ff6d37ae55e61c30e2c3d97a1ec1a9c5ce3e9263ac97a4dc46405ee6c/nadl-1.4.2.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-23 02:10:49] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.4.1.tar.gz tmp/nadl-1.4.2.tar.gz --markdown 20240523/n/nadl/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-23 02:10:49] INFO root fetch - processPackages [boto3-session]: Downloading https://files.pythonhosted.org/packages/38/8e/50ffeede6b01e4183e347ed915c5a0c80f256baaaff22440b69f5a9e4c1e/boto3_session-0.0.7.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [lctest]: Downloading https://files.pythonhosted.org/packages/d5/2b/7f3f074fd56b8dc048566824039b5d358cc685bbcee6669b87bca6b17248/lctest-0.1.9.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [polars_evm]: Downloading https://files.pythonhosted.org/packages/b7/60/5d610083304403ceca08f0be40ef41b5f640c4efdee6ca9394d56fc47326/polars_evm-0.1.4.tar.gz
+[2024-05-23 02:10:49] INFO root fetch - processPackages [boto3-session]: executing diffoscope
+[2024-05-23 02:10:49] INFO root fetch - processPackages [boto3-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3_session-0.0.6.tar.gz tmp/boto3_session-0.0.7.tar.gz --markdown 20240523/b/boto3-session/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-23 02:10:49] INFO root fetch - processPackages [lctest]: executing diffoscope
+[2024-05-23 02:10:49] INFO root fetch - processPackages [lctest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lctest-0.1.8.tar.gz tmp/lctest-0.1.9.tar.gz --markdown 20240523/l/lctest/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-23 02:10:49] INFO root fetch - processPackages [polars_evm]: executing diffoscope
+[2024-05-23 02:10:49] INFO root fetch - processPackages [polars_evm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_evm-0.1.3.tar.gz tmp/polars_evm-0.1.4.tar.gz --markdown 20240523/p/polars_evm/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-23 02:10:49] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-23 02:10:49] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240523/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-23 02:10:50] INFO root fetch - processPackages [lctest]: Remove: archive file [/home/abi/fetcher/tmp/lctest-0.1.8.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - processPackages [lctest]: Remove: archive file [/home/abi/fetcher/tmp/lctest-0.1.9.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - main [MainThread]: End processing [lctest]: success
+[2024-05-23 02:10:50] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.1.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.2.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-23 02:10:50] INFO root fetch - processPackages [polars_evm]: Remove: archive file [/home/abi/fetcher/tmp/polars_evm-0.1.3.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - processPackages [polars_evm]: Remove: archive file [/home/abi/fetcher/tmp/polars_evm-0.1.4.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - main [MainThread]: End processing [polars_evm]: success
+[2024-05-23 02:10:50] INFO root fetch - processPackages [boto3-session]: Remove: archive file [/home/abi/fetcher/tmp/boto3_session-0.0.6.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - processPackages [boto3-session]: Remove: archive file [/home/abi/fetcher/tmp/boto3_session-0.0.7.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - main [MainThread]: End processing [boto3-session]: success
+[2024-05-23 02:10:50] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-23 02:10:50] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-23 02:10:50] INFO root fetch - main [MainThread]: Store serial: [23334518]
