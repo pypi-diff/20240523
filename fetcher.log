@@ -7459,3 +7459,24 @@
 [2024-05-23 03:33:42] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.44.tar.gz]
 [2024-05-23 03:33:42] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
 [2024-05-23 03:33:42] INFO root fetch - main [MainThread]: Store serial: [23336191]
+[2024-05-23 03:35:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23336191]
+[2024-05-23 03:35:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-23 03:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Algebra-with-SymPy
+[2024-05-23 03:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talking-equipment-sdk
+[2024-05-23 03:35:51] INFO root fetch - processPackages [Algebra-with-SymPy]: New version: [1.0.1rc0] Old Version: [1.0.1.dev1]
+[2024-05-23 03:35:51] INFO root fetch - processPackages [talking-equipment-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 03:35:51] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/7e/f0/901d2339dc3c570e276b549430ee55608114aba280b5e65cecedd3b7eb4e/talking_equipment_sdk-0.0.8.tar.gz
+[2024-05-23 03:35:51] INFO root fetch - processPackages [Algebra-with-SymPy]: Downloading https://files.pythonhosted.org/packages/1f/62/a005c5f636f798a29cf13cad8bc2f00fd719a31cb9d22dfdeb64ea034259/Algebra_with_SymPy-1.0.1.dev1.tar.gz
+[2024-05-23 03:35:51] INFO root fetch - processPackages [Algebra-with-SymPy]: Downloading https://files.pythonhosted.org/packages/63/98/2fb9dd7e57429cc155dd038da4ed535c118c03234c06d40820e1443c4db6/algebra_with_sympy-1.0.1rc0.tar.gz
+[2024-05-23 03:35:51] INFO root fetch - processPackages [talking-equipment-sdk]: Downloading https://files.pythonhosted.org/packages/26/76/e5ebe2d32fa2e5ddfaf2965fa0ba0902b9d47af9f4832da253e69120138c/talking_equipment_sdk-0.0.9.tar.gz
+[2024-05-23 03:35:51] INFO root fetch - processPackages [Algebra-with-SymPy]: executing diffoscope
+[2024-05-23 03:35:51] INFO root fetch - processPackages [Algebra-with-SymPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Algebra_with_SymPy-1.0.1.dev1.tar.gz tmp/algebra_with_sympy-1.0.1rc0.tar.gz --markdown 20240523/A/Algebra-with-SymPy/1.0.1.dev1-1.0.1rc0/README.md --exclude *.pyd
+[2024-05-23 03:35:52] INFO root fetch - processPackages [talking-equipment-sdk]: executing diffoscope
+[2024-05-23 03:35:52] INFO root fetch - processPackages [talking-equipment-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talking_equipment_sdk-0.0.8.tar.gz tmp/talking_equipment_sdk-0.0.9.tar.gz --markdown 20240523/t/talking-equipment-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 03:35:52] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.8.tar.gz]
+[2024-05-23 03:35:52] INFO root fetch - processPackages [talking-equipment-sdk]: Remove: archive file [/home/abi/fetcher/tmp/talking_equipment_sdk-0.0.9.tar.gz]
+[2024-05-23 03:35:52] INFO root fetch - main [MainThread]: End processing [talking-equipment-sdk]: success
+[2024-05-23 03:35:52] INFO root fetch - processPackages [Algebra-with-SymPy]: Remove: archive file [/home/abi/fetcher/tmp/Algebra_with_SymPy-1.0.1.dev1.tar.gz]
+[2024-05-23 03:35:52] INFO root fetch - processPackages [Algebra-with-SymPy]: Remove: archive file [/home/abi/fetcher/tmp/algebra_with_sympy-1.0.1rc0.tar.gz]
+[2024-05-23 03:35:52] INFO root fetch - main [MainThread]: End processing [Algebra-with-SymPy]: success
+[2024-05-23 03:35:52] INFO root fetch - main [MainThread]: Store serial: [23336259]
