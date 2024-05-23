@@ -12402,3 +12402,67 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 08:45:28] INFO root fetch - processPackages [quantile-forest]: Remove: archive file [/home/abi/fetcher/tmp/quantile_forest-1.3.6-cp312-cp312-macosx_10_9_x86_64.whl.zip]
 [2024-05-23 08:45:28] INFO root fetch - main [MainThread]: End processing [quantile-forest]: success
 [2024-05-23 08:45:28] INFO root fetch - main [MainThread]: Store serial: [23338652]
+[2024-05-23 08:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23338652]
+[2024-05-23 08:47:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ood_detectors
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-location-local
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exoplanet-atlas
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsharp-opac
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ahmedHossam
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmetadata-ingestion
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tcol
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsharp-opac
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqladaptor
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:47:36] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.4.0.0rc4] Old Version: [1.4.0.0rc3]
+[2024-05-23 08:47:36] INFO root fetch - processPackages [contact-location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-23 08:47:36] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-23 08:47:36] WARNING root fetch - processPackages [tcol]: Skipping, unable to determine old version
+[2024-05-23 08:47:36] INFO root fetch - main [MainThread]: End processing [tcol] error
+[2024-05-23 08:47:36] WARNING root fetch - processPackages [ahmedHossam]: Skipping, unable to determine old version
+[2024-05-23 08:47:36] INFO root fetch - main [MainThread]: End processing [ahmedHossam] error
+[2024-05-23 08:47:36] INFO root fetch - processPackages [exoplanet-atlas]: New version: [0.3.3] Old Version: [0.3.0]
+[2024-05-23 08:47:37] WARNING root fetch - processPackages [sqladaptor]: Skipping, unable to determine old version
+[2024-05-23 08:47:37] INFO root fetch - main [MainThread]: End processing [sqladaptor] error
+[2024-05-23 08:47:37] INFO root fetch - processPackages [dsharp-opac]: New version: [1.1.9rc1] Old Version: [1.1.9]
+[2024-05-23 08:47:37] INFO root fetch - processPackages [dsharp-opac]: New version: [1.1.9rc1] Old Version: [1.1.9]
+[2024-05-23 08:47:37] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/2f/0c/a80370d5a9bb7d4535cdfd68c9e49af2fc39ef7974e7a123bd9fcc9ad854/contact-location-local-0.0.8.tar.gz
+[2024-05-23 08:47:37] INFO root fetch - processPackages [exoplanet-atlas]: Downloading https://files.pythonhosted.org/packages/6b/f1/1ba7909d53c8508b5cf538ed47a4db445ab344ca8cf4fa47d7dfa7d6ab8e/exoplanet-atlas-0.3.0.tar.gz
+[2024-05-23 08:47:37] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-23 08:47:37] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-23 08:47:37] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240523/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:47:37] INFO root fetch - processPackages [dsharp-opac]: Downloading https://files.pythonhosted.org/packages/39/b3/e50b95ec47a0223a8ebfa030bf0f200e4d4fa6150cc48e655d24ba460a75/dsharp_opac-1.1.9.tar.gz
+[2024-05-23 08:47:37] INFO root fetch - processPackages [dsharp-opac]: Downloading https://files.pythonhosted.org/packages/39/b3/e50b95ec47a0223a8ebfa030bf0f200e4d4fa6150cc48e655d24ba460a75/dsharp_opac-1.1.9.tar.gz
+[2024-05-23 08:47:37] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/17/5e/49b98779429d62238b93acafaaf4d268506159b2d1d0246a13b4e42b474d/contact-location-local-0.0.9.tar.gz
+[2024-05-23 08:47:37] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/eb/84/eb19af337ec7d7d44f936dd9451ebf455d6d2025c8131073e8f2b73ccdec/openmetadata-ingestion-1.4.0.0rc3.tar.gz
+[2024-05-23 08:47:37] INFO root fetch - processPackages [exoplanet-atlas]: Downloading https://files.pythonhosted.org/packages/f7/58/043f526f4c5def00be00355424e0913c75a4d6250257abf5004111e163c0/exoplanet_atlas-0.3.3.tar.gz
+[2024-05-23 08:47:37] INFO root fetch - processPackages [contact-location-local]: executing diffoscope
+[2024-05-23 08:47:37] INFO root fetch - processPackages [contact-location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-location-local-0.0.8.tar.gz tmp/contact-location-local-0.0.9.tar.gz --markdown 20240523/c/contact-location-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-23 08:47:37] INFO root fetch - processPackages [exoplanet-atlas]: executing diffoscope
+[2024-05-23 08:47:37] INFO root fetch - processPackages [exoplanet-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exoplanet-atlas-0.3.0.tar.gz tmp/exoplanet_atlas-0.3.3.tar.gz --markdown 20240523/e/exoplanet-atlas/0.3.0-0.3.3/README.md --exclude *.pyd
+[2024-05-23 08:47:37] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-23 08:47:37] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-23 08:47:37] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-23 08:47:38] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/2a/36/40cdbe2bb6974993d2ad3b79551d1eb6a46e55e73a2419d325453817d914/openmetadata-ingestion-1.4.0.0rc4.tar.gz
+[2024-05-23 08:47:38] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.8.tar.gz]
+[2024-05-23 08:47:38] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.9.tar.gz]
+[2024-05-23 08:47:38] INFO root fetch - main [MainThread]: End processing [contact-location-local]: success
+[2024-05-23 08:47:38] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-05-23 08:47:38] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.4.0.0rc3.tar.gz tmp/openmetadata-ingestion-1.4.0.0rc4.tar.gz --markdown 20240523/o/openmetadata-ingestion/1.4.0.0rc3-1.4.0.0rc4/README.md --exclude *.pyd
+[2024-05-23 08:47:38] INFO root fetch - processPackages [exoplanet-atlas]: Remove: archive file [/home/abi/fetcher/tmp/exoplanet-atlas-0.3.0.tar.gz]
+[2024-05-23 08:47:38] INFO root fetch - processPackages [exoplanet-atlas]: Remove: archive file [/home/abi/fetcher/tmp/exoplanet_atlas-0.3.3.tar.gz]
+[2024-05-23 08:47:38] INFO root fetch - main [MainThread]: End processing [exoplanet-atlas]: success
+[2024-05-23 08:47:42] INFO root fetch - processPackages [dsharp-opac]: Downloading https://files.pythonhosted.org/packages/cc/b1/03e84be17b88110d06ca45bbb877efdd318a24c574078720319323245d0b/dsharp_opac-1.1.9rc1.tar.gz
+[2024-05-23 08:47:42] INFO root fetch - processPackages [dsharp-opac]: Downloading https://files.pythonhosted.org/packages/cc/b1/03e84be17b88110d06ca45bbb877efdd318a24c574078720319323245d0b/dsharp_opac-1.1.9rc1.tar.gz
+[2024-05-23 08:47:43] INFO root fetch - processPackages [dsharp-opac]: executing diffoscope
+[2024-05-23 08:47:43] INFO root fetch - processPackages [dsharp-opac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsharp_opac-1.1.9.tar.gz tmp/dsharp_opac-1.1.9rc1.tar.gz --markdown 20240523/d/dsharp-opac/1.1.9-1.1.9rc1/README.md --exclude *.pyd
+[2024-05-23 08:47:43] INFO root fetch - processPackages [dsharp-opac]: executing diffoscope
+[2024-05-23 08:47:43] INFO root fetch - processPackages [dsharp-opac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsharp_opac-1.1.9.tar.gz tmp/dsharp_opac-1.1.9rc1.tar.gz --markdown 20240523/d/dsharp-opac/1.1.9-1.1.9rc1/README.md --exclude *.pyd
+[2024-05-23 08:47:45] INFO root fetch - processPackages [dsharp-opac]: Remove: archive file [/home/abi/fetcher/tmp/dsharp_opac-1.1.9.tar.gz]
+[2024-05-23 08:47:45] INFO root fetch - processPackages [dsharp-opac]: Remove: archive file [/home/abi/fetcher/tmp/dsharp_opac-1.1.9rc1.tar.gz]
+[2024-05-23 08:47:45] INFO root fetch - main [MainThread]: End processing [dsharp-opac]: success
+[2024-05-23 08:47:45] INFO root fetch - main [MainThread]: End processing [dsharp-opac]: success
+[2024-05-23 08:47:45] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc3.tar.gz]
+[2024-05-23 08:47:45] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc4.tar.gz]
+[2024-05-23 08:47:45] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-05-23 08:47:45] INFO root fetch - main [MainThread]: Store serial: [23338692]
