@@ -21120,3 +21120,102 @@ AssertionError: tmp/chromedriver-binary-99.0.4844.35.0.tar.gz does not exist
 [2024-05-23 13:03:45] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
 [2024-05-23 13:03:46] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
 [2024-05-23 13:03:46] INFO root fetch - main [MainThread]: Store serial: [23342125]
+[2024-05-23 13:05:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23342125]
+[2024-05-23 13:06:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fakenos
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biosaur2
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ll-la
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: preprocessinglib-tonga-gumustakim
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torcj
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seadragon
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wwbot
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: copious
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: warpzone-sdk
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prophecy-build-tool
+[2024-05-23 13:06:02] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: New version: [0.3] Old Version: [0.2]
+[2024-05-23 13:06:02] INFO root fetch - processPackages [fakenos]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-05-23 13:06:02] INFO root fetch - processPackages [torcj]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-23 13:06:02] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-23 13:06:02] INFO root fetch - processPackages [wwbot]: New version: [0.0.9] Old Version: [0.0.8rc0]
+[2024-05-23 13:06:02] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Downloading https://files.pythonhosted.org/packages/86/88/f828b80d118d30a17dd154c7b0897bcedb3773817c591c5c8072e50ab624/preprocessinglib_tonga_gumustakim-0.2.tar.gz
+[2024-05-23 13:06:02] INFO root fetch - processPackages [fakenos]: Downloading https://files.pythonhosted.org/packages/fb/b5/25bae7b4e00cfa86cc447384230dd76f3b44442b4da65e44e8bec419efb3/fakenos-0.2.1.tar.gz
+[2024-05-23 13:06:02] INFO root fetch - processPackages [warpzone-sdk]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-05-23 13:06:02] INFO root fetch - processPackages [copious]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-05-23 13:06:02] WARNING root fetch - processPackages [seadragon]: Skipping, unable to determine old version
+[2024-05-23 13:06:02] INFO root fetch - processPackages [seadragon]: Start processing: reportbro-lib
+[2024-05-23 13:06:02] INFO root fetch - main [MainThread]: End processing [seadragon] error
+[2024-05-23 13:06:02] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/31/f0/ed4aa0a70a6fd06211faed01254c9ddbfa86f70a2dd8665718c9fde9a3f6/prophecy-build-tool-1.2.8.tar.gz
+[2024-05-23 13:06:02] INFO root fetch - processPackages [ll-la]: New version: [0.9] Old Version: [0.31.0]
+[2024-05-23 13:06:02] INFO root fetch - processPackages [biosaur2]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-23 13:06:03] INFO root fetch - processPackages [torcj]: Downloading https://files.pythonhosted.org/packages/f2/c2/5643e2417b3cc3d300b2bf1f388526973fd6e73f59fe2001da967c3ad30a/torcj-0.0.3.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [reportbro-lib]: New version: [3.8.0] Old Version: [3.7.1]
+[2024-05-23 13:06:03] INFO root fetch - processPackages [ll-la]: Downloading https://files.pythonhosted.org/packages/9b/98/8ffa41c28bf51e37b0e8c6009198a30ede1538fbaee5fe0b92983d9c6280/ll-la-0.31.0.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [fakenos]: Downloading https://files.pythonhosted.org/packages/51/43/ad4095ad840b166e5bf302a52981aa58731906e964e0c9e1998bb24a4aed/fakenos-1.0.0.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [copious]: Downloading https://files.pythonhosted.org/packages/b3/0a/949fb8b1fbbed3ac86d79d32f894e346204324e9685179221a0a8d2bd957/copious-0.1.11.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [biosaur2]: Downloading https://files.pythonhosted.org/packages/b6/ca/b11714cbc893fe91aa1c5d46e8397e1417b543afe8208f8cf256f3b0cd94/biosaur2-0.2.7.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Downloading https://files.pythonhosted.org/packages/a7/cd/5862fae131974c630628b385aa4d50de7c27b9c3b11cdb0e72132949fb5d/preprocessinglib_tonga_gumustakim-0.3.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/30/c5/2385104102242b4b2796d6fcd2d927d857e92c09234689b6b3f81754a9b8/warpzone_sdk-9.1.8.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/6e/8b/758d03240b291c40dbffda699fd64edadca124a085daf5f71250b010298b/prophecy-build-tool-1.2.9.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [torcj]: Downloading https://files.pythonhosted.org/packages/e1/d2/6f9077bed1e457fb7128fa7c4f1af81dc3d6b5f812a708547511ae8e326d/torcj-0.0.4.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [reportbro-lib]: Downloading https://files.pythonhosted.org/packages/8d/e8/74fb2408fe76e62caaeffb2a9eef40c18bda41adc963d00938ef21faa5ba/reportbro_lib-3.7.1.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: executing diffoscope
+[2024-05-23 13:06:03] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preprocessinglib_tonga_gumustakim-0.2.tar.gz tmp/preprocessinglib_tonga_gumustakim-0.3.tar.gz --markdown 20240523/p/preprocessinglib-tonga-gumustakim/0.2-0.3/README.md --exclude *.pyd
+[2024-05-23 13:06:03] INFO root fetch - processPackages [fakenos]: executing diffoscope
+[2024-05-23 13:06:03] INFO root fetch - processPackages [fakenos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakenos-0.2.1.tar.gz tmp/fakenos-1.0.0.tar.gz --markdown 20240523/f/fakenos/0.2.1-1.0.0/README.md --exclude *.pyd
+[2024-05-23 13:06:03] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2024-05-23 13:06:03] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.2.8.tar.gz tmp/prophecy-build-tool-1.2.9.tar.gz --markdown 20240523/p/prophecy-build-tool/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-23 13:06:03] INFO root fetch - processPackages [torcj]: executing diffoscope
+[2024-05-23 13:06:03] INFO root fetch - processPackages [torcj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcj-0.0.3.tar.gz tmp/torcj-0.0.4.tar.gz --markdown 20240523/t/torcj/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-23 13:06:03] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/60/06/f0d1dcf91cb575c47d6f9af17bfe431bf2e41fe342cd78c7d65bd6c8a27b/wwbot-0.0.9.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/41/7d/cb14d7ee4be30f331412fbf42f28b30dca3df8ad102961c612ff2a1dd661/warpzone_sdk-9.1.9.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [copious]: Downloading https://files.pythonhosted.org/packages/13/87/2e513bf1102d7b51b940da2600e136a495b9b879ead193bf4f338bab32f6/copious-0.1.12.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [ll-la]: Downloading https://files.pythonhosted.org/packages/cd/7d/2663a91ca3ddd23e86ad13b5b56335f6fe4783101219f0ce832a549ef1c6/ll-la-0.9.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-23 13:06:03] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8rc0.tar.gz tmp/wwbot-0.0.9.tar.gz --markdown 20240523/w/wwbot/0.0.8rc0-0.0.9/README.md --exclude *.pyd
+[2024-05-23 13:06:03] INFO root fetch - processPackages [reportbro-lib]: Downloading https://files.pythonhosted.org/packages/4d/ec/5413e0bc661c2e4fece4b8b4c3f5e79ce7ab91b3ae25b64ad5bf16778813/reportbro_lib-3.8.0.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [biosaur2]: Downloading https://files.pythonhosted.org/packages/4b/ea/02a0de03dfda908d954adb693b88f7f47af3ed2ce65dbc7f4fe6f66a8923/biosaur2-0.2.9.tar.gz
+[2024-05-23 13:06:03] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2024-05-23 13:06:03] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-9.1.8.tar.gz tmp/warpzone_sdk-9.1.9.tar.gz --markdown 20240523/w/warpzone-sdk/9.1.8-9.1.9/README.md --exclude *.pyd
+[2024-05-23 13:06:03] INFO root fetch - processPackages [copious]: executing diffoscope
+[2024-05-23 13:06:03] INFO root fetch - processPackages [copious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copious-0.1.11.tar.gz tmp/copious-0.1.12.tar.gz --markdown 20240523/c/copious/0.1.11-0.1.12/README.md --exclude *.pyd
+[2024-05-23 13:06:03] INFO root fetch - processPackages [ll-la]: executing diffoscope
+[2024-05-23 13:06:03] INFO root fetch - processPackages [ll-la]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ll-la-0.31.0.tar.gz tmp/ll-la-0.9.tar.gz --markdown 20240523/l/ll-la/0.31.0-0.9/README.md --exclude *.pyd
+[2024-05-23 13:06:04] INFO root fetch - processPackages [reportbro-lib]: executing diffoscope
+[2024-05-23 13:06:04] INFO root fetch - processPackages [reportbro-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportbro_lib-3.7.1.tar.gz tmp/reportbro_lib-3.8.0.tar.gz --markdown 20240523/r/reportbro-lib/3.7.1-3.8.0/README.md --exclude *.pyd
+[2024-05-23 13:06:04] INFO root fetch - processPackages [biosaur2]: executing diffoscope
+[2024-05-23 13:06:04] INFO root fetch - processPackages [biosaur2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240523:/home/abi/fetcher/20240523:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosaur2-0.2.7.tar.gz tmp/biosaur2-0.2.9.tar.gz --markdown 20240523/b/biosaur2/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-23 13:06:04] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.3.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - processPackages [torcj]: Remove: archive file [/home/abi/fetcher/tmp/torcj-0.0.4.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - processPackages [torcj]: Start processing: ephysworking
+[2024-05-23 13:06:04] INFO root fetch - main [MainThread]: End processing [torcj]: success
+[2024-05-23 13:06:04] WARNING root fetch - processPackages [ephysworking]: Skipping, unable to determine old version
+[2024-05-23 13:06:04] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Remove: archive file [/home/abi/fetcher/tmp/preprocessinglib_tonga_gumustakim-0.2.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - main [MainThread]: End processing [ephysworking] error
+[2024-05-23 13:06:04] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Remove: archive file [/home/abi/fetcher/tmp/preprocessinglib_tonga_gumustakim-0.3.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - main [MainThread]: End processing [preprocessinglib-tonga-gumustakim]: success
+[2024-05-23 13:06:04] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.8.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.9.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2024-05-23 13:06:04] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-23 13:06:04] INFO root fetch - processPackages [ll-la]: Remove: archive file [/home/abi/fetcher/tmp/ll-la-0.31.0.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - processPackages [ll-la]: Remove: archive file [/home/abi/fetcher/tmp/ll-la-0.9.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - main [MainThread]: End processing [ll-la]: success
+[2024-05-23 13:06:04] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.8.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.9.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2024-05-23 13:06:04] INFO root fetch - processPackages [reportbro-lib]: Remove: archive file [/home/abi/fetcher/tmp/reportbro_lib-3.7.1.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - processPackages [reportbro-lib]: Remove: archive file [/home/abi/fetcher/tmp/reportbro_lib-3.8.0.tar.gz]
+[2024-05-23 13:06:04] INFO root fetch - main [MainThread]: End processing [reportbro-lib]: success
+[2024-05-23 13:06:05] INFO root fetch - processPackages [copious]: Remove: archive file [/home/abi/fetcher/tmp/copious-0.1.11.tar.gz]
+[2024-05-23 13:06:05] INFO root fetch - processPackages [copious]: Remove: archive file [/home/abi/fetcher/tmp/copious-0.1.12.tar.gz]
+[2024-05-23 13:06:05] INFO root fetch - main [MainThread]: End processing [copious]: success
+[2024-05-23 13:06:05] INFO root fetch - processPackages [biosaur2]: Remove: archive file [/home/abi/fetcher/tmp/biosaur2-0.2.7.tar.gz]
+[2024-05-23 13:06:05] INFO root fetch - processPackages [biosaur2]: Remove: archive file [/home/abi/fetcher/tmp/biosaur2-0.2.9.tar.gz]
+[2024-05-23 13:06:05] INFO root fetch - main [MainThread]: End processing [biosaur2]: success
+[2024-05-23 13:06:05] INFO root fetch - processPackages [fakenos]: Remove: archive file [/home/abi/fetcher/tmp/fakenos-0.2.1.tar.gz]
+[2024-05-23 13:06:05] INFO root fetch - processPackages [fakenos]: Remove: archive file [/home/abi/fetcher/tmp/fakenos-1.0.0.tar.gz]
+[2024-05-23 13:06:05] INFO root fetch - main [MainThread]: End processing [fakenos]: success
+[2024-05-23 13:06:05] INFO root fetch - main [MainThread]: Store serial: [23342173]
